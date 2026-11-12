@@ -1,0 +1,5 @@
+node_modules/
+data/search/search.db
+data/search/build-meta.json
+*.log
+.DS_Store

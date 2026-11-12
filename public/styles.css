@@ -1,0 +1,172 @@
+:root {
+  --ink: #1f2430;
+  --muted: #5b6472;
+  --paper: #faf8f4;
+  --card: #ffffff;
+  --accent: #2c6e63;
+  --accent-soft: #e7f0ed;
+  --line: #e3ded4;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: ui-rounded, "SF Pro Rounded", "Segoe UI", system-ui, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+main {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.hero h1 {
+  font-size: clamp(1.6rem, 4vw, 2.3rem);
+  margin: 0 0 0.4rem;
+}
+
+.sub { color: var(--muted); margin: 0 0 1.2rem; }
+
+#search-form {
+  display: flex;
+  gap: 0.6rem;
+}
+
+#search-input {
+  flex: 1;
+  font: inherit;
+  padding: 0.7rem 1rem;
+  border: 2px solid var(--line);
+  border-radius: 1rem;
+  background: var(--card);
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+#search-form button {
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 1rem;
+  padding: 0.7rem 1.3rem;
+  cursor: pointer;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.chip {
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.chip:hover { background: var(--accent-soft); border-color: var(--accent); }
+
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.filters select {
+  font: inherit;
+  margin-left: 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.4rem;
+  background: var(--card);
+}
+
+.results-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.results { display: grid; gap: 1rem; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 1rem 1.2rem;
+}
+
+.card h3 { margin: 0; font-size: 1.1rem; }
+
+.card .episode {
+  margin: 0.1rem 0 0.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.card .tags {
+  margin: 0.3rem 0 0.6rem;
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.card .situation { margin: 0 0 0.5rem; }
+
+.card .synopsis {
+  margin: 0 0 0.6rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.card .resolution { margin: 0; font-size: 0.9rem; }
+
+.resolution-label {
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+
+.no-results {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  background: var(--card);
+  border: 1px dashed var(--line);
+  border-radius: 1rem;
+}
+
+.waitlist {
+  margin-top: 3rem;
+  padding: 1.4rem 1.4rem 1.2rem;
+  background: var(--accent-soft);
+  border-radius: 1rem;
+}
+
+.waitlist h2 { margin: 0 0 0.4rem; font-size: 1.2rem; }
+.waitlist p { margin: 0 0 0.5rem; }
+.waitlist-note { color: var(--muted); font-size: 0.9rem; font-style: italic; }
+
+.about {
+  margin-top: 2.5rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}

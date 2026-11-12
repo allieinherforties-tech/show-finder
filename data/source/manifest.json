@@ -1,0 +1,202 @@
+[
+  {
+    "file": "wb_itf7wG3d_sh_hcJ3tSMs.json",
+    "workbookId": "wb_itf7wG3d",
+    "workbookName": "Apple TV+ Kids & Family — Base Subscription Database",
+    "sheetId": "sh_hcJ3tSMs",
+    "sheetName": "Titles",
+    "kind": "catalog",
+    "defaultSeriesTitle": null,
+    "rowCount": 86
+  },
+  {
+    "file": "wb_itf7wG3d_sh_Upf0OvWu.json",
+    "workbookId": "wb_itf7wG3d",
+    "workbookName": "Apple TV+ Kids & Family — Base Subscription Database",
+    "sheetId": "sh_Upf0OvWu",
+    "sheetName": "Episodes",
+    "kind": "catalog",
+    "defaultSeriesTitle": null,
+    "rowCount": 1340
+  },
+  {
+    "file": "wb_McM7y4Xx_sh_7kZ9CyAy.json",
+    "workbookId": "wb_McM7y4Xx",
+    "workbookName": "Stillwater — Secret Sauce Dev Set",
+    "sheetId": "sh_7kZ9CyAy",
+    "sheetName": "Stillwater tags",
+    "kind": "stories",
+    "defaultSeriesTitle": "Stillwater",
+    "rowCount": 77
+  },
+  {
+    "file": "wb_Awh3JEB3_sh_eVghoo4I.json",
+    "workbookId": "wb_Awh3JEB3",
+    "workbookName": "Camp Snoopy — Script Dev Set",
+    "sheetId": "sh_eVghoo4I",
+    "sheetName": "Script dev (26 rows)",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 52
+  },
+  {
+    "file": "wb_CugBbpqS_sh_lLgbLAg7.json",
+    "workbookId": "wb_CugBbpqS",
+    "workbookName": "Batch 1 Series — Script Dev Set",
+    "sheetId": "sh_lLgbLAg7",
+    "sheetName": "Doug Unplugs dev (26 rows)",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 26
+  },
+  {
+    "file": "wb_CugBbpqS_sh_CBCdfmEn.json",
+    "workbookId": "wb_CugBbpqS",
+    "workbookName": "Batch 1 Series — Script Dev Set",
+    "sheetId": "sh_CBCdfmEn",
+    "sheetName": "Duck & Goose dev (33 rows)",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 33
+  },
+  {
+    "file": "wb_CugBbpqS_sh_gxR7lN5I.json",
+    "workbookId": "wb_CugBbpqS",
+    "workbookName": "Batch 1 Series — Script Dev Set",
+    "sheetId": "sh_gxR7lN5I",
+    "sheetName": "Eva the Owlet dev (17 rows)",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 17
+  },
+  {
+    "file": "wb_CugBbpqS_sh_GAEmy8Pc.json",
+    "workbookId": "wb_CugBbpqS",
+    "workbookName": "Batch 1 Series — Script Dev Set",
+    "sheetId": "sh_GAEmy8Pc",
+    "sheetName": "Frog and Toad dev (17 rows)",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 17
+  },
+  {
+    "file": "wb_DIQCgz1L_sh_nCZJRcKy.json",
+    "workbookId": "wb_DIQCgz1L",
+    "workbookName": "Wave 3 Batch 1 — Script Dev Set",
+    "sheetId": "sh_nCZJRcKy",
+    "sheetName": "Get Rolling with Otis",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 35
+  },
+  {
+    "file": "wb_DIQCgz1L_sh_iG5nYyDs.json",
+    "workbookId": "wb_DIQCgz1L",
+    "workbookName": "Wave 3 Batch 1 — Script Dev Set",
+    "sheetId": "sh_iG5nYyDs",
+    "sheetName": "Interrupting Chicken",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 38
+  },
+  {
+    "file": "wb_DIQCgz1L_sh_5K4PGdHZ.json",
+    "workbookId": "wb_DIQCgz1L",
+    "workbookName": "Wave 3 Batch 1 — Script Dev Set",
+    "sheetId": "sh_5K4PGdHZ",
+    "sheetName": "Pretzel and the Puppies",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 35
+  },
+  {
+    "file": "wb_DIQCgz1L_sh_xmNcJvVO.json",
+    "workbookId": "wb_DIQCgz1L",
+    "workbookName": "Wave 3 Batch 1 — Script Dev Set",
+    "sheetId": "sh_xmNcJvVO",
+    "sheetName": "Sago Mini Friends",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 45
+  },
+  {
+    "file": "wb_DIQCgz1L_sh_jnS85XbX.json",
+    "workbookId": "wb_DIQCgz1L",
+    "workbookName": "Wave 3 Batch 1 — Script Dev Set",
+    "sheetId": "sh_jnS85XbX",
+    "sheetName": "Shape Island",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 34
+  },
+  {
+    "file": "wb_DIQCgz1L_sh_efSC3bDU.json",
+    "workbookId": "wb_DIQCgz1L",
+    "workbookName": "Wave 3 Batch 1 — Script Dev Set",
+    "sheetId": "sh_efSC3bDU",
+    "sheetName": "Wolfboy and the Everything Factory",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 36
+  },
+  {
+    "file": "wb_mHUXZU8R_sh_moeIPpZ7.json",
+    "workbookId": "wb_mHUXZU8R",
+    "workbookName": "Wave 3 Batch 2 — Script Dev Set",
+    "sheetId": "sh_moeIPpZ7",
+    "sheetName": "Ghostwriter",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 39
+  },
+  {
+    "file": "wb_mHUXZU8R_sh_BbcKHo70.json",
+    "workbookId": "wb_mHUXZU8R",
+    "workbookName": "Wave 3 Batch 2 — Script Dev Set",
+    "sheetId": "sh_BbcKHo70",
+    "sheetName": "Harriet the Spy",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 20
+  },
+  {
+    "file": "wb_mHUXZU8R_sh_RzycuYo3.json",
+    "workbookId": "wb_mHUXZU8R",
+    "workbookName": "Wave 3 Batch 2 — Script Dev Set",
+    "sheetId": "sh_RzycuYo3",
+    "sheetName": "Helpsters Help You",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 6
+  },
+  {
+    "file": "wb_mHUXZU8R_sh_vQfcblaK.json",
+    "workbookId": "wb_mHUXZU8R",
+    "workbookName": "Wave 3 Batch 2 — Script Dev Set",
+    "sheetId": "sh_vQfcblaK",
+    "sheetName": "Surfside Girls",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 10
+  },
+  {
+    "file": "wb_mHUXZU8R_sh_aKjlSYtN.json",
+    "workbookId": "wb_mHUXZU8R",
+    "workbookName": "Wave 3 Batch 2 — Script Dev Set",
+    "sheetId": "sh_aKjlSYtN",
+    "sheetName": "The Sisters Grimm",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 12
+  },
+  {
+    "file": "wb_mHUXZU8R_sh_11V3YDwL.json",
+    "workbookId": "wb_mHUXZU8R",
+    "workbookName": "Wave 3 Batch 2 — Script Dev Set",
+    "sheetId": "sh_11V3YDwL",
+    "sheetName": "WondLa",
+    "kind": "stories",
+    "defaultSeriesTitle": null,
+    "rowCount": 20
+  }
+]

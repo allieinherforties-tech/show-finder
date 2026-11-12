@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main, 'phase1/**']
+
+jobs:
+  build-lint-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build search artifacts from committed source dumps
+        run: npm run build
+
+      - name: Verify the committed artifact matches a clean rebuild (determinism)
+        run: git diff --exit-code -- data/search/search-artifact.json data/search/validation-report.json
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm test
+
+      - name: Smoke test the server end to end
+        run: node scripts/smoke.mjs
