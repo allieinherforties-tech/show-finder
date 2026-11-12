@@ -8,6 +8,7 @@ import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadIndex, ARTIFACT_PATH, DB_PATH } from './search/store.mjs';
+import { applyWaitlistUrl } from './waitlist.mjs';
 
 // The swappable artwork layer. One configuration flag, set per deploy:
 //   ARTWORK_MODE=tmdb (default): result cards render attributed TMDB episode
@@ -44,7 +45,13 @@ export function createApp({ artifactPath = ARTIFACT_PATH, dbPath = DB_PATH } = {
       res.writeHead(404, { 'Content-Type': 'text/plain' }).end('not found');
       return;
     }
-    const body = await readFile(resolved);
+    let body = await readFile(resolved);
+    if (resolved.endsWith('index.html')) {
+      // The waitlist CTA target is one config value, substituted at serve
+      // time so the anchor stays real, first-party markup with no JavaScript
+      // dependency and no embedded third-party form.
+      body = applyWaitlistUrl(body.toString());
+    }
     res.writeHead(200, { 'Content-Type': CONTENT_TYPES[path.extname(resolved)] || 'application/octet-stream' });
     res.end(body);
   }
