@@ -11,18 +11,62 @@
 // and the rebuild disagree.
 
 import { createHash } from 'node:crypto';
-import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { cleanText, normalizeStoryRow, searchableText } from '../src/pipeline/normalize.mjs';
+import { attachAll, buildArtworkIndex } from '../src/pipeline/artwork.mjs';
+import { classifyAppleUrl, validateAppleRegistry } from '../src/links/apple-tv.mjs';
 import { createEmbedder, stableVector } from '../src/search/embedder.mjs';
 import { populateDb } from '../src/search/store.mjs';
 import Database from 'better-sqlite3';
 
 const SOURCE_DIR = path.resolve('data/source');
 const OUT_DIR = path.resolve('data/search');
+const PUBLIC_DIR = path.resolve('public');
+
+// The verbatim notice TMDB requires, and the official logo asset (downloaded
+// from themoviedb.org/about/logos-attribution). The build fails when artwork
+// mode is on and either is missing from the site.
+export const TMDB_NOTICE = 'This website uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.';
+
+/** Serving and build default to TMDB artwork; ARTWORK_MODE=text reverts to Phase 1 cards. */
+export function artworkMode() {
+  return process.env.ARTWORK_MODE === 'text' ? 'text' : 'tmdb';
+}
+
+/**
+ * Attribution gate: when artwork mode is on, the site must carry the TMDB
+ * logo and the verbatim notice in its About/Credits section. Missing either
+ * fails the build, per the approved Artwork Terms Findings.
+ */
+function checkAttribution(mode) {
+  if (mode !== 'tmdb') return { checked: false, mode };
+  const htmlPath = path.join(PUBLIC_DIR, 'index.html');
+  const logoPath = path.join(PUBLIC_DIR, 'tmdb-logo.svg');
+  const problems = [];
+  if (!existsSync(logoPath)) {
+    problems.push('public/tmdb-logo.svg is missing (official logo from themoviedb.org/about/logos-attribution)');
+  } else if (!readFileSync(logoPath, 'utf8').includes('<svg')) {
+    problems.push('public/tmdb-logo.svg does not look like an SVG logo');
+  }
+  if (!existsSync(htmlPath)) {
+    problems.push('public/index.html is missing');
+  } else {
+    const html = readFileSync(htmlPath, 'utf8');
+    if (!html.includes(TMDB_NOTICE)) {
+      problems.push(`public/index.html does not carry the verbatim TMDB notice: "${TMDB_NOTICE}"`);
+    }
+  }
+  if (problems.length) throw new Error(`attribution check failed (artwork mode ${mode}):\n  ${problems.join('\n  ')}`);
+  return { checked: true, mode };
+}
 
 function readSourceFiles() {
-  const files = readdirSync(SOURCE_DIR).filter((f) => f.endsWith('.json') && f !== 'manifest.json');
+  // Workbook sheet dumps only. The artwork and Apple link dumps are consumed
+  // separately below and are excluded here so the artifact manifest keeps
+  // describing sheets.
+  const NON_SHEET = new Set(['tmdb-artwork.json', 'apple-links.json']);
+  const files = readdirSync(SOURCE_DIR).filter((f) => f.endsWith('.json') && f !== 'manifest.json' && !NON_SHEET.has(f));
   return files.map((f) => JSON.parse(readFileSync(path.join(SOURCE_DIR, f), 'utf8')));
 }
 
@@ -116,6 +160,37 @@ function main() {
   const sources = readSourceFiles();
   const stories = collectStories(sources);
   validateStories(stories);
+
+  // Phase 2: artwork and Apple links. Both come from committed dumps; if
+  // either is absent the build stops with instructions rather than shipping
+  // half-tagged cards.
+  const mode = artworkMode();
+  const attribution = checkAttribution(mode);
+  const artworkPath = path.join(SOURCE_DIR, 'tmdb-artwork.json');
+  const appleLinksPath = path.join(SOURCE_DIR, 'apple-links.json');
+  if (!existsSync(artworkPath)) {
+    throw new Error('data/source/tmdb-artwork.json is missing. Run: npm run fetch:artwork');
+  }
+  if (!existsSync(appleLinksPath)) {
+    throw new Error('data/source/apple-links.json is missing. It is transcribed from the verified deep-link findings and committed.');
+  }
+  const artworkDump = JSON.parse(readFileSync(artworkPath, 'utf8'));
+  const appleRegistry = JSON.parse(readFileSync(appleLinksPath, 'utf8'));
+  validateAppleRegistry(appleRegistry);
+  const titlesDump = sources.find((s) => s.kind === 'catalog' && s.sheetName === 'Titles');
+  const episodesDump = sources.find((s) => s.kind === 'catalog' && s.sheetName === 'Episodes');
+  const artworkIndex = buildArtworkIndex({ artworkDump, titlesDump, episodesDump });
+  const artworkCoverage = attachAll(stories, artworkIndex, appleRegistry);
+
+  // Deep-link integrity: every URL in the artifact must match a verified
+  // pattern shape. A malformed link fails the build before anything ships.
+  const malformedLinks = stories
+    .filter((s) => s.appleUrl && !classifyAppleUrl(s.appleUrl))
+    .map((s) => `${s.id}: ${s.appleUrl}`);
+  if (malformedLinks.length) {
+    throw new Error(`deep-link integrity check failed:\n  ${malformedLinks.join('\n  ')}`);
+  }
+
   stories.sort((a, b) => a.id.localeCompare(b.id));
 
   const ids = new Set();
@@ -161,6 +236,24 @@ function main() {
   const dashFindings = scanDashes(stories);
   const report = {
     version,
+    artwork: {
+      mode,
+      attributionChecked: attribution.checked,
+      coverage: {
+        withStill: artworkCoverage.stills,
+        posterFallback: artworkCoverage.posterFallback,
+        noArtwork: artworkCoverage.noArtwork,
+      },
+      links: {
+        episode: artworkCoverage.episodeLinks,
+        show: artworkCoverage.showLinks,
+        none: artworkCoverage.noLink,
+        integrityCheck: 'every appleUrl matches a verified pattern shape; the build fails on any malformed link',
+      },
+      unresolvedSeries: artworkCoverage.unresolvedSeries,
+      tmdbMismatches: artworkCoverage.mismatches,
+      tmdbFetchMissing: artworkDump.missing,
+    },
     coverage: coverageReport(stories, sources),
     houseStyle: {
       emDashScan: {
@@ -180,6 +273,8 @@ function main() {
   console.log(`artifact: ${artifactPath}`);
   console.log(`version:  ${version}`);
   console.log(`stories:  ${stories.length} across ${report.coverage.series ? Object.keys(report.coverage.series).length : 0} series`);
+  console.log(`artwork:  mode ${mode}; stills ${artworkCoverage.stills}, poster fallback ${artworkCoverage.posterFallback}, none ${artworkCoverage.noArtwork}`);
+  console.log(`links:    episode ${artworkCoverage.episodeLinks}, show page ${artworkCoverage.showLinks}, none ${artworkCoverage.noLink}`);
   console.log(`dash findings: ${dashFindings.length} source sheets flagged (see validation-report.json)`);
 }
 

@@ -138,6 +138,33 @@ main {
 
 .card .resolution { margin: 0; font-size: 0.9rem; }
 
+/* Artwork: TMDB hotlink at the original aspect ratio. No crop, no filter,
+   no overlay anywhere in these rules, per the Artwork Terms Findings. */
+.card-artwork {
+  margin: 0 0 0.8rem;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.6rem;
+}
+
+.watch {
+  display: inline-block;
+  margin-top: 0.7rem;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.watch:hover { opacity: 0.9; }
+
 .resolution-label {
   font-weight: 700;
   color: var(--accent);
@@ -170,3 +197,14 @@ main {
   color: var(--muted);
   font-size: 0.85rem;
 }
+
+.credits {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.credits h2 { margin: 0 0 0.5rem; font-size: 1rem; color: var(--ink); }
+.credits p { margin: 0.3rem 0; }
+
+.tmdb-logo { display: block; margin: 0.2rem 0 0.4rem; }
