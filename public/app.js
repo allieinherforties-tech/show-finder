@@ -93,6 +93,9 @@ function renderCard(r) {
     watch.target = '_blank';
     watch.rel = 'noopener noreferrer';
     watch.textContent = 'Watch on Apple TV+';
+    // Distinct accessible name per card: a links list of twenty identical
+    // "Watch on Apple TV+" entries tells a screen reader user nothing.
+    watch.setAttribute('aria-label', `Watch ${r.seriesTitle}, season ${r.seasonNumber} episode ${r.episodeNumber}, on Apple TV+`);
     card.appendChild(watch);
   }
 
@@ -112,6 +115,9 @@ async function runSearch(q) {
     const res = await fetch(`/api/search?${params}`);
     if (!res.ok) throw new Error(`search failed: ${res.status}`);
     const data = await res.json();
+    // The swappable artwork layer: the server reports its mode on every
+    // search, so a text mode deploy renders no images at all.
+    artworkMode = data.artworkMode === 'text' ? 'text' : 'tmdb';
     resultsMeta.textContent = `${data.count} of ${data.storyCount} stories matched · index ${data.version}`;
     if (!data.count) {
       noResults.hidden = false;

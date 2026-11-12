@@ -13,7 +13,7 @@
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { cleanText, normalizeStoryRow, searchableText } from '../src/pipeline/normalize.mjs';
+import { cleanText, isPlaceholderRow, normalizeStoryRow, publishProblems, searchableText } from '../src/pipeline/normalize.mjs';
 import { attachAll, buildArtworkIndex } from '../src/pipeline/artwork.mjs';
 import { classifyAppleUrl, validateAppleRegistry } from '../src/links/apple-tv.mjs';
 import { createEmbedder, stableVector } from '../src/search/embedder.mjs';
@@ -158,8 +158,28 @@ function coverageReport(stories, sources) {
 function main() {
   mkdirSync(OUT_DIR, { recursive: true });
   const sources = readSourceFiles();
-  const stories = collectStories(sources);
+  let stories = collectStories(sources);
   validateStories(stories);
+
+  // Placeholder routing: title-level rows flagged for review (no source text,
+  // no tags) never publish. They leave the artifact entirely and land in the
+  // validation report for the curation queue, per the spec QA loop.
+  const routedToCuration = stories.filter(isPlaceholderRow).map((s) => ({
+    id: s.id,
+    reason: 'title-level placeholder row, no source text or tags; awaiting curation',
+  }));
+  if (routedToCuration.length) {
+    stories = stories.filter((s) => !isPlaceholderRow(s));
+  }
+
+  // Publish gate: nothing ships without a real situation and a full tag set.
+  const nonConforming = stories.flatMap((s) => {
+    const problems = publishProblems(s);
+    return problems.length ? [`${s.id}: missing ${problems.join(', ')}`] : [];
+  });
+  if (nonConforming.length) {
+    throw new Error(`published rows are non-conforming (nothing publishes without a full tag set):\n  ${nonConforming.join('\n  ')}`);
+  }
 
   // Phase 2: artwork and Apple links. Both come from committed dumps; if
   // either is absent the build stops with instructions rather than shipping
@@ -261,6 +281,10 @@ function main() {
         affected: dashFindings,
       },
     },
+    curation: {
+      routedToCuration,
+      note: 'Placeholder rows never publish; the curation thread owns tagging them or removing them at the source.',
+    },
     vocabulary: {
       offListObserved: [...new Set(stories.flatMap((s) => s.emotionOffList))].sort(),
       droppedTraitWords: [...new Set(stories.flatMap((s) => s.emotionDropped ?? []))].sort(),
@@ -276,6 +300,7 @@ function main() {
   console.log(`artwork:  mode ${mode}; stills ${artworkCoverage.stills}, poster fallback ${artworkCoverage.posterFallback}, none ${artworkCoverage.noArtwork}`);
   console.log(`links:    episode ${artworkCoverage.episodeLinks}, show page ${artworkCoverage.showLinks}, none ${artworkCoverage.noLink}`);
   console.log(`dash findings: ${dashFindings.length} source sheets flagged (see validation-report.json)`);
+  console.log(`curation: ${routedToCuration.length} placeholder rows routed to the curation queue (see validation-report.json)`);
 }
 
 main();

@@ -3,9 +3,11 @@ import assert from 'node:assert/strict';
 import {
   isBlank,
   cleanText,
+  isPlaceholderRow,
   normalizeEmotionCell,
   normalizeAgeBand,
   normalizeStoryRow,
+  publishProblems,
   searchableText,
 } from '../src/pipeline/normalize.mjs';
 import { AGE_BANDS } from '../src/vocabulary.mjs';
@@ -94,4 +96,36 @@ test('searchableText joins every searchable field', () => {
   assert.ok(text.includes('impatient'));
   assert.ok(text.includes('take a breath'));
   assert.ok(text.includes('Duck & Goose'));
+});
+
+test('title-level placeholder rows are detected and never conform', () => {
+  const placeholder = {
+    situation: 'not assessed: no source text',
+    emotions: [], ageBand: '', vibe: '', emoji: '', coping: '',
+  };
+  assert.equal(isPlaceholderRow(placeholder), true);
+  assert.notEqual(publishProblems(placeholder).length, 0);
+});
+
+test('a fully tagged row is not a placeholder and passes the publish gate', () => {
+  const row = normalizeStoryRow(
+    { series_title: 'Stillwater', season_number: '3', episode_number: '7', situation: 'campout scare', emotion: 'scared', coping: 'name the feeling', age_band: '5-7', vibe: 'calm', emoji: '🌲' },
+    { workbookId: 'wb_x', sheetId: 'sh_x' },
+  );
+  assert.equal(isPlaceholderRow(row), false);
+  assert.deepEqual(publishProblems(row), []);
+});
+
+test('publish gate names every missing tag field', () => {
+  const problems = publishProblems({ situation: '', emotions: [], ageBand: '', vibe: 'calm', emoji: '', coping: '' });
+  assert.deepEqual(problems, ['situation', 'age band', 'emoji', 'coping']);
+});
+
+test('a row tagged on some fields but not others is gated, not routed', () => {
+  const halfTagged = {
+    situation: 'A rainy day argument between friends.',
+    emotions: ['angry'], ageBand: '', vibe: 'calm', emoji: '🌧️', coping: 'apologize',
+  };
+  assert.equal(isPlaceholderRow(halfTagged), false);
+  assert.deepEqual(publishProblems(halfTagged), ['age band']);
 });
