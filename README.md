@@ -66,6 +66,12 @@ synopsis) + Watch on Apple TV+ deep link + waitlist placeholder
   (`data/source/apple-links.json`): episode level where the deep-link
   findings verified the id, show page as the fallback, no invented ids.
   The build fails on any URL that does not match a verified pattern shape.
+- **Waitlist conversion.** One config value, `WAITLIST_URL` (default
+  `https://parentpeptalks.com/`), is the whole repoint. The server
+  substitutes it into `public/index.html` at serve time, so the CTA is
+  real first-party anchors with no JavaScript dependency and no
+  third-party form embed. Conversion is waitlist only: no commerce, no
+  advertising.
 
 ## Catalog data (Phase 1 sources)
 

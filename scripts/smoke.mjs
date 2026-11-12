@@ -61,6 +61,13 @@ try {
   assert.match(html, /\/tmdb-logo\.svg/);
   const logo = await fetch(`http://127.0.0.1:${port}/tmdb-logo.svg`);
   assert.equal(logo.status, 200);
+  // Waitlist conversion: the served page carries the first-party CTA pointing
+  // at the configured target, with no external scripts and no Kit embed.
+  assert.match(html, /<a class="waitlist-cta" href="https:\/\/parentpeptalks\.com\/"/);
+  for (const match of html.matchAll(/<script[^>]*src="([^"]*)"/g)) {
+    assert.ok(match[1].startsWith('/'), `script src must be local, found ${match[1]}`);
+  }
+  assert.equal(/data-kit-form|convertkit/i.test(html), false);
   console.log(`smoke ok: ${health.body.storyCount} stories, version ${health.body.version}, artwork mode ${health.body.artworkMode}`);
 } finally {
   app.close();
