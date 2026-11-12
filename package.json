@@ -1,0 +1,25 @@
+{
+  "name": "show-finder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Kid-situation episode finder for the Apple TV+ Kids & Family catalog",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "fetch": "node scripts/fetch-source.mjs",
+    "build": "node scripts/build-index.mjs",
+    "start": "node src/server.mjs",
+    "test": "node --test test/",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-plugin-n": "^17.23.1",
+    "globals": "^16.5.0"
+  }
+}

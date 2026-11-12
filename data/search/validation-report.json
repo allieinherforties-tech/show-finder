@@ -1,0 +1,132 @@
+{
+  "version": "cb6b46917f4308f0",
+  "coverage": {
+    "catalogTitles": 86,
+    "catalogEpisodeRows": 1340,
+    "storyRows": 552,
+    "series": {
+      "Camp Snoopy": {
+        "storyRows": 52,
+        "withSituation": 52,
+        "withPerStorySynopsis": 52
+      },
+      "Doug Unplugs": {
+        "storyRows": 26,
+        "withSituation": 26,
+        "withPerStorySynopsis": 14
+      },
+      "Duck & Goose": {
+        "storyRows": 33,
+        "withSituation": 33,
+        "withPerStorySynopsis": 33
+      },
+      "Eva the Owlet": {
+        "storyRows": 17,
+        "withSituation": 17,
+        "withPerStorySynopsis": 16
+      },
+      "Frog and Toad": {
+        "storyRows": 17,
+        "withSituation": 17,
+        "withPerStorySynopsis": 16
+      },
+      "Get Rolling with Otis": {
+        "storyRows": 35,
+        "withSituation": 35,
+        "withPerStorySynopsis": 35
+      },
+      "Ghostwriter": {
+        "storyRows": 39,
+        "withSituation": 39,
+        "withPerStorySynopsis": 39
+      },
+      "Harriet the Spy": {
+        "storyRows": 20,
+        "withSituation": 20,
+        "withPerStorySynopsis": 20
+      },
+      "Helpsters Help You": {
+        "storyRows": 6,
+        "withSituation": 6,
+        "withPerStorySynopsis": 6
+      },
+      "Interrupting Chicken": {
+        "storyRows": 38,
+        "withSituation": 38,
+        "withPerStorySynopsis": 38
+      },
+      "Pretzel and the Puppies": {
+        "storyRows": 35,
+        "withSituation": 35,
+        "withPerStorySynopsis": 35
+      },
+      "Sago Mini Friends": {
+        "storyRows": 45,
+        "withSituation": 45,
+        "withPerStorySynopsis": 45
+      },
+      "Shape Island": {
+        "storyRows": 34,
+        "withSituation": 34,
+        "withPerStorySynopsis": 34
+      },
+      "Stillwater": {
+        "storyRows": 77,
+        "withSituation": 77,
+        "withPerStorySynopsis": 77
+      },
+      "Surfside Girls": {
+        "storyRows": 10,
+        "withSituation": 10,
+        "withPerStorySynopsis": 10
+      },
+      "The Sisters Grimm": {
+        "storyRows": 12,
+        "withSituation": 12,
+        "withPerStorySynopsis": 12
+      },
+      "Wolfboy and the Everything Factory": {
+        "storyRows": 36,
+        "withSituation": 36,
+        "withPerStorySynopsis": 36
+      },
+      "WondLa": {
+        "storyRows": 20,
+        "withSituation": 20,
+        "withPerStorySynopsis": 20
+      }
+    },
+    "missingSituation": 0,
+    "missingAgeBand": 5,
+    "missingVibe": 5
+  },
+  "houseStyle": {
+    "emDashScan": {
+      "note": "Em dashes in curated source rows are flagged for the curation thread. The pipeline never rewrites them.",
+      "affected": []
+    }
+  },
+  "vocabulary": {
+    "offListObserved": [
+      "annoyance",
+      "compassion",
+      "disbelief",
+      "regret",
+      "self-doubt",
+      "silly"
+    ],
+    "droppedTraitWords": [
+      "fixed mindset",
+      "growing pains",
+      "growth",
+      "growth mindset",
+      "impulsiveness",
+      "misalignment",
+      "selflessness",
+      "stubbornness",
+      "stuck in the past",
+      "unbridled optimism that pays off"
+    ],
+    "unknownEmotionTerms": []
+  }
+}

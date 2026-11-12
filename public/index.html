@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find the Episode · Olive Juice Digital</title>
+  <meta name="description" content="Search the Apple TV+ Kids and Family catalog by what your kid is going through tonight.">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <h1>what&rsquo;s your kid going through tonight?</h1>
+      <p class="sub">Describe the moment. We find the episode from the Apple TV+ Kids and Family catalog that meets it.</p>
+      <form id="search-form" role="search">
+        <input
+          id="search-input"
+          type="search"
+          name="q"
+          placeholder="my kid is scared of the dark"
+          autocomplete="off"
+          autofocus
+          aria-label="Describe your kid's situation">
+        <button type="submit">Find stories</button>
+      </form>
+      <div class="chips" id="chips" aria-label="Common situations">
+        <button class="chip" data-q="scared of the dark">scared of the dark</button>
+        <button class="chip" data-q="scary dreams">scary dreams</button>
+        <button class="chip" data-q="new baby sibling">new baby sibling</button>
+        <button class="chip" data-q="first day of school">first day of school</button>
+        <button class="chip" data-q="nervous about a presentation">nervous about a presentation</button>
+        <button class="chip" data-q="big feelings">big feelings</button>
+        <button class="chip" data-q="something calm before bed">something calm before bed</button>
+      </div>
+      <div class="filters" id="filters">
+        <label>Age
+          <select id="age-filter" name="age">
+            <option value="">any</option>
+            <option value="2-4">ages 2 to 4</option>
+            <option value="5-7">ages 5 to 7</option>
+            <option value="8-10">ages 8 to 10</option>
+          </select>
+        </label>
+        <label>Vibe
+          <select id="vibe-filter" name="vibe">
+            <option value="">any</option>
+            <option value="calm">calm</option>
+            <option value="silly">silly</option>
+            <option value="energetic">energetic</option>
+          </select>
+        </label>
+      </div>
+    </header>
+
+    <section id="results-meta" class="results-meta" hidden></section>
+    <section id="results" class="results" aria-live="polite"></section>
+    <section id="no-results" class="no-results" hidden>
+      <p>No episode matched. Try the feeling instead: <button class="chip" data-q="big feelings">big feelings</button>, <button class="chip" data-q="frustrated">frustrated</button>, or <button class="chip" data-q="asking for help">asking for help</button>.</p>
+    </section>
+
+    <section id="waitlist" class="waitlist">
+      <h2>Parent Pep Talks</h2>
+      <p>A short, practical pep talk for the moment you are in, built from the same catalog research. The finder is free and stays free.</p>
+      <p class="waitlist-note">Waitlist sign-up arrives with the launch. Watch this space.</p>
+    </section>
+
+    <footer class="about">
+      <p>Phase 1 preview: text-only results, no artwork. Catalog scope: the US Apple TV+ base subscription, 86 titles. Story tags come from our hand-curated dev sets.</p>
+    </footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
