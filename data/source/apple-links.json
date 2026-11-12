@@ -1,0 +1,97 @@
+{
+  "kind": "apple-links",
+  "source": "Findings: Apple TV+ Web URL Deep Links (art_5OFQO4Vl), fetched live 2026-11-12 with curl status and page title checks. Every id below is from that document's verified list. Ids are opaque: they are never invented, and re-derivation from show pages is the documented recovery path.",
+  "country": "us",
+  "shows": [
+    {
+      "seriesTitle": "Stillwater",
+      "slug": "stillwater",
+      "showId": "umc.cmc.3czcagetjq31vvbgkkyp1xiao",
+      "verifiedEpisodes": [
+        {
+          "seasonNumber": 5,
+          "episodeNumber": 1,
+          "slug": "addys-breakpuzzled",
+          "episodeId": "umc.cmc.30shwbrm280q8iyhg2hbllvf4"
+        }
+      ]
+    },
+    {
+      "seriesTitle": "Camp Snoopy",
+      "slug": "camp-snoopy",
+      "showId": "umc.cmc.4erhnrmkf9vgeojl3uryxsc0j",
+      "verifiedEpisodes": [
+        {
+          "seasonNumber": 2,
+          "episodeNumber": 5,
+          "slug": "a-clubhouse-built-for-two--a-camp-divided",
+          "episodeId": "umc.cmc.7gbbanynb8qojufrh9xpyow15"
+        }
+      ]
+    },
+    {
+      "seriesTitle": "The Snoopy Show",
+      "slug": "the-snoopy-show",
+      "showId": "umc.cmc.5iswprrvjjw6ab020a17x4ca3",
+      "verifiedEpisodes": [
+        {
+          "seasonNumber": 2,
+          "episodeNumber": 9,
+          "slug": "big-beagle-on-campus",
+          "episodeId": "umc.cmc.hw42a3hxxafzd8mhggfp2ai9"
+        },
+        {
+          "seasonNumber": 3,
+          "episodeNumber": 1,
+          "slug": "happiness-is-a-day-at-the-beach",
+          "episodeId": "umc.cmc.3tuegusa46y9r9b35n7fti246"
+        }
+      ]
+    },
+    {
+      "seriesTitle": "Fraggle Rock: Back to the Rock",
+      "slug": "fraggle-rock-back-to-the-rock",
+      "showId": "umc.cmc.2r077021gw7fu0noml0hln2yq",
+      "verifiedEpisodes": [
+        {
+          "seasonNumber": 1,
+          "episodeNumber": 1,
+          "slug": "pilot",
+          "episodeId": "umc.cmc.3y8c99tqcap65j8dvzymj8r8q"
+        },
+        {
+          "seasonNumber": 1,
+          "episodeNumber": 11,
+          "slug": "deep-dive",
+          "episodeId": "umc.cmc.3f0yrt3oohwlg3lhdj75nlcj2"
+        },
+        {
+          "seasonNumber": 1,
+          "episodeNumber": 13,
+          "slug": "all-of-us",
+          "episodeId": "umc.cmc.345rksst31xrqiopt64mavpom"
+        }
+      ]
+    },
+    {
+      "seriesTitle": "Sago Mini Friends",
+      "slug": "sago-mini-friends",
+      "showId": "umc.cmc.4ckulbycyeuavnlen3du06vvy",
+      "verifiedEpisodes": [
+        {
+          "seasonNumber": 3,
+          "episodeNumber": 2,
+          "slug": "a-little-fun--toothbrush-in-space",
+          "episodeId": "umc.cmc.5phpwbskihylrtuilgin3g7qr"
+        }
+      ]
+    }
+  ],
+  "movies": [
+    {
+      "title": "There's No Place Like Home, Snoopy",
+      "slug": "theres-no-place-like-home-snoopy",
+      "movieId": "umc.cmc.52sgmi3vdpedurrbtz6louqqo"
+    }
+  ]
+}

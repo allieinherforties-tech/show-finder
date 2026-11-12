@@ -18,7 +18,9 @@ npm start       # http://localhost:3000
 
 The committed `data/source/` dumps feed the build, so no workbook access is
 needed to build or serve. To refresh from the project workbooks (needs the
-authenticated obvious CLI): `npm run fetch && npm run build`.
+authenticated obvious CLI): `npm run fetch && npm run build`. To refresh
+artwork paths from TMDB (needs TMDB_API_KEY, offline, never at serving
+time): `npm run fetch:artwork && npm run build`.
 
 ## Architecture (static-first)
 
@@ -35,13 +37,15 @@ parent query ──▶ interpret (age, vibe, emotions) ──▶ FTS5 bm25 + cos
                  at the edge                        fused score, filters, boost
         │
         ▼
-text-only result cards (series, episode, segment, situation, resolution,
-age band, vibe, synopsis) + waitlist placeholder
+result cards (TMDB episode still or series poster when the artwork layer is
+on, series, episode, segment, situation, resolution, age band, vibe,
+synopsis) + Watch on Apple TV+ deep link + waitlist placeholder
 ```
 
 - **Version hash.** Every artifact carries a sha256 stamp of its story
-  content and vectors, mojirama's whole-index pattern. CI rebuilds and fails
-  if the committed artifact and the rebuild disagree.
+  content (artwork and link URLs included) and vectors, mojirama's
+  whole-index pattern. CI rebuilds and fails if the committed artifact and
+  the rebuild disagree.
 - **Query interpretation.** `src/search/interpret.mjs` turns the parent's
   sentence into typed answers (age band, vibe, canonical emotions) that act
   as filters and boosts. The indexes themselves run model free.
@@ -51,6 +55,17 @@ age band, vibe, synopsis) + waitlist placeholder
   vector path runs end to end with no model download. The EmbeddingGemma
   class model slots in at `registerEmbedder` in `src/search/embedder.mjs`
   without touching anything else.
+- **Artwork layer.** One flag, `ARTWORK_MODE` (tmdb default, text reverts
+  to Phase 1 cards), is the whole swap. Stills and posters hotlink
+  image.tmdb.org at rendition sizes, original aspect ratio, no crops,
+  filters, or overlays, attributed by the TMDB logo plus the verbatim
+  notice in the About/Credits section. The build fails if attribution is
+  missing while artwork mode is on.
+- **Deep links.** Watch buttons carry the canonical tv.apple.com URL built
+  by `src/links/apple-tv.mjs` from the verified registry
+  (`data/source/apple-links.json`): episode level where the deep-link
+  findings verified the id, show page as the fallback, no invented ids.
+  The build fails on any URL that does not match a verified pattern shape.
 
 ## Catalog data (Phase 1 sources)
 
@@ -72,12 +87,15 @@ sheets, the superseded Stillwater pilot, and the topical dictionary.
 ## Testing
 
 ```
-npm test             # normalization, query interpretation, fused search, house style
-node scripts/smoke.mjs   # real server, real artifact, flagship query
+npm test             # normalization, query interpretation, fused search, house style,
+                     # deep link generator vs the verified findings samples, artwork joins
+node scripts/smoke.mjs   # real server, real artifact, flagship query, attribution
 ```
 
 ## Phase status
 
-Phase 1 skeleton: search works end to end, text-only cards, no artwork, no
-deep links, waitlist placeholder. Phases 2 to 4 (artwork and links,
-conversion, QA and launch) follow the approved build plan.
+Phase 1 skeleton: search works end to end, text-only cards, waitlist
+placeholder. Phase 2: attributed TMDB artwork behind the swappable
+ARTWORK_MODE flag, Apple TV deep links from the verified registry, and the
+deep-link integrity and attribution build gates. Phases 3 and 4 (conversion
+flow, QA and launch) follow the approved build plan.

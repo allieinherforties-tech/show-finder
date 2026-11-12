@@ -10,6 +10,11 @@ const resultsEl = document.getElementById('results');
 const resultsMeta = document.getElementById('results-meta');
 const noResults = document.getElementById('no-results');
 
+// Artwork mode comes from the server with every search response. The default
+// is off until the server says otherwise, so a text mode deploy renders no
+// images at all. This flag is the swappable artwork layer: one deploy change.
+let artworkMode = 'text';
+
 function episodeLabel(r) {
   const seg = r.segmentTitle ? ` · ${r.segmentTitle}` : '';
   return `S${r.seasonNumber} E${r.episodeNumber}${seg}`;
@@ -26,6 +31,25 @@ function tagLine(r) {
 function renderCard(r) {
   const card = document.createElement('article');
   card.className = 'card';
+
+  if (artworkMode === 'tmdb') {
+    // TMDB hotlink, original aspect ratio preserved: no crop, no filter, no
+    // overlay, per the Artwork Terms Findings. Still first, series poster
+    // second, text-only card when the row has neither.
+    const src = r.stillUrl || r.posterUrl;
+    if (src) {
+      const figure = document.createElement('figure');
+      figure.className = 'card-artwork';
+      const img = document.createElement('img');
+      img.className = 'card-image';
+      img.loading = 'lazy';
+      img.src = src;
+      const kind = r.stillUrl ? 'Episode still' : 'Series poster';
+      img.alt = `${kind} for ${r.seriesTitle}`;
+      figure.appendChild(img);
+      card.appendChild(figure);
+    }
+  }
 
   const heading = document.createElement('h3');
   heading.textContent = r.seriesTitle;
@@ -58,6 +82,20 @@ function renderCard(r) {
   }
 
   card.append(heading, episode, tagsText ? tags : '', situation, synopsis, resolution);
+
+  // Watch on Apple TV+: the canonical tv.apple.com web URL generated at build
+  // time (episode level where the id is verified, show page as fallback).
+  // Rows with no verified link get no button rather than an invented one.
+  if (r.appleUrl) {
+    const watch = document.createElement('a');
+    watch.className = 'watch';
+    watch.href = r.appleUrl;
+    watch.target = '_blank';
+    watch.rel = 'noopener noreferrer';
+    watch.textContent = 'Watch on Apple TV+';
+    card.appendChild(watch);
+  }
+
   return card;
 }
 

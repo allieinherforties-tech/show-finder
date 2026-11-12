@@ -168,6 +168,12 @@ export function runSearch(index, query, opts = {}) {
     ageBand: row.ageBand,
     vibe: row.vibe,
     displaySynopsis: row.displaySynopsis,
+    // Phase 2: artwork and deep links. The frontend renders these only when
+    // the server reports artwork mode tmdb; ARTWORK_MODE=text hides them.
+    stillUrl: row.stillUrl || null,
+    posterUrl: row.posterUrl || null,
+    appleUrl: row.appleUrl || null,
+    appleLinkKind: row.appleLinkKind || null,
     scores,
     filters: { ageBand, vibe },
     interpreted: parsed,

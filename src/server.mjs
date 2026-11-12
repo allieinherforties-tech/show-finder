@@ -9,6 +9,14 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadIndex, ARTIFACT_PATH, DB_PATH } from './search/store.mjs';
 
+// The swappable artwork layer. One configuration flag, set per deploy:
+//   ARTWORK_MODE=tmdb (default): result cards render attributed TMDB episode
+//     stills and posters, hotlinked from image.tmdb.org.
+//   ARTWORK_MODE=text: Phase 1 text-only cards. Artwork and Apple links in
+//     the artifact are ignored at render time.
+// Flipping the flag and restarting the service is the entire deploy change.
+export const ARTWORK_MODE = process.env.ARTWORK_MODE === 'text' ? 'text' : 'tmdb';
+
 const PUBLIC_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public');
 const CONTENT_TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -53,7 +61,7 @@ export function createApp({ artifactPath = ARTIFACT_PATH, dbPath = DB_PATH } = {
     }
     const results = index.search(q, { ageBand, vibe, limit });
     res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({ version: index.version, storyCount: index.storyCount, count: results.length, results }));
+    res.end(JSON.stringify({ version: index.version, storyCount: index.storyCount, artworkMode: ARTWORK_MODE, count: results.length, results }));
   }
 
   return createHttpServer((req, res) => {
@@ -64,7 +72,7 @@ export function createApp({ artifactPath = ARTIFACT_PATH, dbPath = DB_PATH } = {
     }
     if (url.pathname === '/api/health') {
       res.writeHead(200, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ ok: true, version: index.version, storyCount: index.storyCount }));
+      res.end(JSON.stringify({ ok: true, version: index.version, storyCount: index.storyCount, artworkMode: ARTWORK_MODE }));
       return;
     }
     serveStatic(res, url.pathname).catch((err) => {
