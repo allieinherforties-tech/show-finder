@@ -110,6 +110,39 @@ export function slugify(text) {
     .replace(/^-+|-+$/g, '');
 }
 
+/** Matches the curation thread's marker on title-level rows with no source text to assess. */
+const NOT_ASSESSED = /^not assessed:/i;
+
+/**
+ * True for a title-level placeholder row: the curation thread flagged it for
+ * review and there is no situation text or tag set behind it yet. Placeholders
+ * never publish; a parent must never hit a card with nothing on it.
+ */
+export function isPlaceholderRow(story) {
+  return Boolean(story)
+    && (!story.situation || NOT_ASSESSED.test(story.situation))
+    && !story.emotions.length
+    && !story.ageBand
+    && !story.vibe
+    && !story.emoji
+    && !story.coping;
+}
+
+/**
+ * Spec gate for published rows: a story row must carry a real situation and a
+ * full tag set (age band, vibe, emoji, coping) before it can ship. Returns the
+ * list of missing fields; an empty list means the row conforms.
+ */
+export function publishProblems(story) {
+  const problems = [];
+  if (!story.situation || NOT_ASSESSED.test(story.situation)) problems.push('situation');
+  if (!story.ageBand) problems.push('age band');
+  if (!story.vibe) problems.push('vibe');
+  if (!story.emoji) problems.push('emoji');
+  if (!story.coping) problems.push('coping');
+  return problems;
+}
+
 /**
  * Normalizes one raw story row. `provenance` carries the source workbook and
  * sheet ids for the artifact manifest. The display synopsis follows the
