@@ -1,6 +1,6 @@
 {
   "kind": "apple-links",
-  "source": "Findings: Apple TV+ Web URL Deep Links (art_5OFQO4Vl), fetched live 2026-11-12 with curl status and page title checks. Every id below is from that document's verified list. Ids are opaque: they are never invented, and re-derivation from show pages is the documented recovery path.",
+  "source": "Findings: Apple TV+ Web URL Deep Links (art_5OFQO4Vl), fetched live 2026-11-12 with curl status and page title checks. Every id below is from that document's verified list. Ids are opaque: they are never invented, and re-derivation from show pages is the documented recovery path. Q4 holiday rail additions (2026-11-13): five series derived from their tv.apple.com show pages and verified live with HTTP 200 and page-title checks (titles and S/E confirmed against each Apple page), episode ids extracted from the published episode links on each show page.",
   "country": "us",
   "shows": [
     {
@@ -70,6 +70,77 @@
           "episodeNumber": 13,
           "slug": "all-of-us",
           "episodeId": "umc.cmc.345rksst31xrqiopt64mavpom"
+        }
+      ]
+    },
+    {
+      "seriesTitle": "Helpsters Help You",
+      "slug": "helpsters-help-you",
+      "showId": "umc.cmc.3xi33xb3r3xbxx4lssz8cswdr",
+      "verifiedEpisodes": [
+        {
+          "seasonNumber": 1,
+          "episodeNumber": 6,
+          "slug": "thank-you",
+          "episodeId": "umc.cmc.76btacrrgxen1l6rhqexx4uv9"
+        }
+      ]
+    },
+    {
+      "seriesTitle": "Pretzel and the Puppies",
+      "slug": "pretzel-and-the-puppies",
+      "showId": "umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "verifiedEpisodes": [
+        {
+          "seasonNumber": 1,
+          "episodeNumber": 8,
+          "slug": "firedogs-to-the-rescue--pup-up-playground",
+          "episodeId": "umc.cmc.6l2oyhbytnoygs5vs0w4q3p20"
+        }
+      ]
+    },
+    {
+      "seriesTitle": "Shape Island",
+      "slug": "shape-island",
+      "showId": "umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "verifiedEpisodes": [
+        {
+          "seasonNumber": 2,
+          "episodeNumber": 3,
+          "slug": "squares-missing-mug--triangle-stands-still",
+          "episodeId": "umc.cmc.47htq2zrf19p0bvisls81zuqp"
+        },
+        {
+          "seasonNumber": 1,
+          "episodeNumber": 10,
+          "slug": "the-winter-blues",
+          "episodeId": "umc.cmc.zprn68ckecckcxsf30g360ny"
+        }
+      ]
+    },
+    {
+      "seriesTitle": "Frog and Toad",
+      "slug": "frog-and-toad",
+      "showId": "umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "verifiedEpisodes": [
+        {
+          "seasonNumber": 1,
+          "episodeNumber": 9,
+          "slug": "christmas-eve",
+          "episodeId": "umc.cmc.5pgdlb16rwzku4jae9z6gncbu"
+        }
+      ]
+    },
+    {
+      "seriesTitle": "Interrupting Chicken",
+      "slug": "interrupting-chicken",
+      "showId": "umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "verifiedEpisodes": [
+        {
+          "seasonNumber": 1,
+          "episodeNumber": 9,
+          "slug": "a-chicken-carol",
+          "episodeId": "umc.cmc.4hh5qbvbja1cjjyy46w5p7e41"
         }
       ]
     },
