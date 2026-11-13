@@ -1,5 +1,5 @@
 {
-  "version": "1ca2116774df1b41",
+  "version": "9bddc5d6bfc0bf52",
   "embedder": "local-hash-v1",
   "embeddingDim": 384,
   "sourceManifest": [
@@ -4804,8 +4804,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/2BI5BVHcKV960bM6xQjZ2enGUma.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e1-seg2",
@@ -4840,8 +4840,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/2BI5BVHcKV960bM6xQjZ2enGUma.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e2-seg1",
@@ -4876,8 +4876,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/tzvvnT1ngLWSgoXw4TJneOIPyyH.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e2-seg2",
@@ -4912,8 +4912,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/tzvvnT1ngLWSgoXw4TJneOIPyyH.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e3-seg1",
@@ -4948,8 +4948,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/jIOrTPccc8C5Y2MJreZa31vsu8K.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e3-seg2",
@@ -4984,8 +4984,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/jIOrTPccc8C5Y2MJreZa31vsu8K.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e4-seg1",
@@ -5020,8 +5020,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/2xeDqxytDrzdsxUBToS6G0bV7PF.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e4-seg2",
@@ -5056,8 +5056,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/2xeDqxytDrzdsxUBToS6G0bV7PF.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e5-seg1",
@@ -5092,8 +5092,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/goKs919LDIxhqRylB6AjI6yKoOt.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e5-seg2",
@@ -5128,8 +5128,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/goKs919LDIxhqRylB6AjI6yKoOt.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e6-seg1",
@@ -5164,8 +5164,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/9z7fwBkkrfC3UgLd9jiQMhbi7wR.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e6-seg2",
@@ -5200,8 +5200,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/9z7fwBkkrfC3UgLd9jiQMhbi7wR.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e7-seg1",
@@ -5236,8 +5236,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/8nyHiSA1sp4wgqVtdvOgsAZd5zQ.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e7-seg2",
@@ -5272,8 +5272,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/8nyHiSA1sp4wgqVtdvOgsAZd5zQ.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e8-seg1",
@@ -5308,8 +5308,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/cu9zOOUABrhhgWc55g2knaHnMKq.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e8-seg2",
@@ -5344,8 +5344,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/cu9zOOUABrhhgWc55g2knaHnMKq.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "show"
     },
     {
       "id": "frog-and-toad-s1-e9",
@@ -5380,8 +5380,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/9aAn8oq4TKBOkUYXi1v9E6lyygj.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
       "artworkSourceId": "219056",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/episode/christmas-eve/umc.cmc.5pgdlb16rwzku4jae9z6gncbu?showId=umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "appleLinkKind": "episode"
     },
     {
       "id": "get-rolling-with-otis-s1-e1-seg1",
@@ -8796,8 +8796,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/pSNDsJDaQ2NFWfGE3KQW6GpzuJj.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/9YdnmAz7d27xg0Tx0oSiLQOGlF7.jpg",
       "artworkSourceId": "102817",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/helpsters-help-you/umc.cmc.3xi33xb3r3xbxx4lssz8cswdr",
+      "appleLinkKind": "show"
     },
     {
       "id": "helpsters-help-you-s1-e2-seg1",
@@ -8832,8 +8832,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/xrU7Yx1DgCwEC3H5sG6YBEnG1HI.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/9YdnmAz7d27xg0Tx0oSiLQOGlF7.jpg",
       "artworkSourceId": "102817",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/helpsters-help-you/umc.cmc.3xi33xb3r3xbxx4lssz8cswdr",
+      "appleLinkKind": "show"
     },
     {
       "id": "helpsters-help-you-s1-e3-seg1",
@@ -8869,8 +8869,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/fbkjlBkQ2KIGFbDU4UooFvGMBXE.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/9YdnmAz7d27xg0Tx0oSiLQOGlF7.jpg",
       "artworkSourceId": "102817",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/helpsters-help-you/umc.cmc.3xi33xb3r3xbxx4lssz8cswdr",
+      "appleLinkKind": "show"
     },
     {
       "id": "helpsters-help-you-s1-e4-seg1",
@@ -8905,8 +8905,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/dV8rO8PVxa8y4703nnp5bLUbFWO.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/9YdnmAz7d27xg0Tx0oSiLQOGlF7.jpg",
       "artworkSourceId": "102817",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/helpsters-help-you/umc.cmc.3xi33xb3r3xbxx4lssz8cswdr",
+      "appleLinkKind": "show"
     },
     {
       "id": "helpsters-help-you-s1-e5-seg1",
@@ -8941,8 +8941,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/10pC24XE16hxVfOarNSnfiO0g0j.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/9YdnmAz7d27xg0Tx0oSiLQOGlF7.jpg",
       "artworkSourceId": "102817",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/helpsters-help-you/umc.cmc.3xi33xb3r3xbxx4lssz8cswdr",
+      "appleLinkKind": "show"
     },
     {
       "id": "helpsters-help-you-s1-e6-seg1",
@@ -8977,8 +8977,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/iR99o0nnLpFzhdervUgjDsZz3r2.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/9YdnmAz7d27xg0Tx0oSiLQOGlF7.jpg",
       "artworkSourceId": "102817",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/episode/thank-you/umc.cmc.76btacrrgxen1l6rhqexx4uv9?showId=umc.cmc.3xi33xb3r3xbxx4lssz8cswdr",
+      "appleLinkKind": "episode"
     },
     {
       "id": "interrupting-chicken-s1-e1-seg1",
@@ -9013,8 +9013,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/cY433KUnMZYD14O5zaiBbhW8Fgc.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e1-seg2",
@@ -9049,8 +9049,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/cY433KUnMZYD14O5zaiBbhW8Fgc.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e2-seg1",
@@ -9085,8 +9085,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/6DGaliqnCPiErwjSSk4H8uJirYe.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e2-seg2",
@@ -9121,8 +9121,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/6DGaliqnCPiErwjSSk4H8uJirYe.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e3-seg1",
@@ -9157,8 +9157,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/7EESQ3ohwxxnDzoMutUHM8y9i1a.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e3-seg2",
@@ -9193,8 +9193,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/7EESQ3ohwxxnDzoMutUHM8y9i1a.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e4-seg1",
@@ -9229,8 +9229,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/3oGddxKFfngWAsROHkykIsb38Y.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e4-seg2",
@@ -9265,8 +9265,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/3oGddxKFfngWAsROHkykIsb38Y.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e5-seg1",
@@ -9301,8 +9301,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/lfiTDzSzs5Xu7dx1SNtH1adIMFE.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e5-seg2",
@@ -9337,8 +9337,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/lfiTDzSzs5Xu7dx1SNtH1adIMFE.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e6-seg1",
@@ -9373,8 +9373,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/5ut9tAgfeaGxyijT3cmSde3Q0FS.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e6-seg2",
@@ -9409,8 +9409,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/5ut9tAgfeaGxyijT3cmSde3Q0FS.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e7-seg1",
@@ -9445,8 +9445,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/h0KMmGQ7sIgPSJrwCz6DCsibWvg.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e7-seg2",
@@ -9481,8 +9481,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/h0KMmGQ7sIgPSJrwCz6DCsibWvg.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e8-seg1",
@@ -9517,8 +9517,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/a5fObDcY2szD6eRbqppxDI2MFeC.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e8-seg2",
@@ -9553,8 +9553,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/a5fObDcY2szD6eRbqppxDI2MFeC.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s1-e9-seg1",
@@ -9589,8 +9589,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/of5KRVg41vyQw5qdkNwfwqlyF4d.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/episode/a-chicken-carol/umc.cmc.4hh5qbvbja1cjjyy46w5p7e41?showId=umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "episode"
     },
     {
       "id": "interrupting-chicken-s2-e1-seg1",
@@ -9625,8 +9625,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/4X7PKI2lQdvQaRWCIpS7uYSd25u.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e1-seg2",
@@ -9661,8 +9661,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/4X7PKI2lQdvQaRWCIpS7uYSd25u.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e2-seg1",
@@ -9697,8 +9697,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/fMOwSqHsZJwQ6ie6IvDOrxEfXN.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e2-seg2",
@@ -9733,8 +9733,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/fMOwSqHsZJwQ6ie6IvDOrxEfXN.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e3-seg1",
@@ -9769,8 +9769,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/ePYmEj6ttRt2Vn7W4j3FsBvVVYL.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e3-seg2",
@@ -9805,8 +9805,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/ePYmEj6ttRt2Vn7W4j3FsBvVVYL.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e4-seg1",
@@ -9841,8 +9841,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/yWz6ODWF7myABeZoSEaNCPHq5K2.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e4-seg2",
@@ -9877,8 +9877,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/yWz6ODWF7myABeZoSEaNCPHq5K2.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e5-seg1",
@@ -9913,8 +9913,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/llJnVNAqlC1IctUHHowLPFpEQTa.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e5-seg2",
@@ -9949,8 +9949,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/llJnVNAqlC1IctUHHowLPFpEQTa.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e6-seg1",
@@ -9985,8 +9985,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/p6ZW5mjMLtH8RMk7pkeoRNa37LY.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e6-seg2",
@@ -10021,8 +10021,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/p6ZW5mjMLtH8RMk7pkeoRNa37LY.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e7-seg1",
@@ -10057,8 +10057,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/sza0GtfLWX5nJQAUqiJRWimK52M.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e7-seg2",
@@ -10093,8 +10093,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/sza0GtfLWX5nJQAUqiJRWimK52M.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e8-seg1",
@@ -10129,8 +10129,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/d53YeHE2D0f3nWORhPUSLjj05Mx.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "interrupting-chicken-s2-e8-seg2",
@@ -10165,8 +10165,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/d53YeHE2D0f3nWORhPUSLjj05Mx.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
       "artworkSourceId": "209131",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e1-seg1",
@@ -10201,8 +10201,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/xmC3erJMxqqLv7uNyp2Nc8gocAu.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e1-seg2",
@@ -10237,8 +10237,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/xmC3erJMxqqLv7uNyp2Nc8gocAu.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e2-seg1",
@@ -10273,8 +10273,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/5mALE3W92XqmxXqqn9w1GJuPdLM.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e2-seg2",
@@ -10309,8 +10309,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/5mALE3W92XqmxXqqn9w1GJuPdLM.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e3-seg1",
@@ -10345,8 +10345,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/usjy4Qw7TaD3UnPy0E2vmGwFGhN.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e3-seg2",
@@ -10381,8 +10381,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/usjy4Qw7TaD3UnPy0E2vmGwFGhN.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e4-seg1",
@@ -10417,8 +10417,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/hP6JNQSNMAjfcbu01AAfIhpwbzr.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e4-seg2",
@@ -10453,8 +10453,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/hP6JNQSNMAjfcbu01AAfIhpwbzr.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e5-seg1",
@@ -10489,8 +10489,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/1AmlMGqXknwSMlBe1BMOViInYT7.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e5-seg2",
@@ -10525,8 +10525,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/1AmlMGqXknwSMlBe1BMOViInYT7.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e6-seg1",
@@ -10561,8 +10561,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/rhXfV348bQtlSzqoy9k3Mg30lq6.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e6-seg2",
@@ -10597,8 +10597,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/rhXfV348bQtlSzqoy9k3Mg30lq6.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e7-seg1",
@@ -10633,8 +10633,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/ijoU2SqK4M3jNIeTcFzyTbT5ztZ.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e7-seg2",
@@ -10669,8 +10669,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/ijoU2SqK4M3jNIeTcFzyTbT5ztZ.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e8-seg1",
@@ -10705,8 +10705,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/tybv0pw6oSziKVxSoncCv8HejHt.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/episode/firedogs-to-the-rescue--pup-up-playground/umc.cmc.6l2oyhbytnoygs5vs0w4q3p20?showId=umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "episode"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e8-seg2",
@@ -10741,8 +10741,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/tybv0pw6oSziKVxSoncCv8HejHt.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/episode/firedogs-to-the-rescue--pup-up-playground/umc.cmc.6l2oyhbytnoygs5vs0w4q3p20?showId=umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "episode"
     },
     {
       "id": "pretzel-and-the-puppies-s1-e9",
@@ -10777,8 +10777,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/pLgJplW0swD11x3dlZ3GdrAUDX4.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e1-seg1",
@@ -10813,8 +10813,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/cTqRJpoIXZGvREVldHJ8S1tH4mH.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e1-seg2",
@@ -10849,8 +10849,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/cTqRJpoIXZGvREVldHJ8S1tH4mH.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e2-seg1",
@@ -10885,8 +10885,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/dFhUDGOS5PsLwEXDJGG9Brsjk7U.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e2-seg2",
@@ -10921,8 +10921,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/dFhUDGOS5PsLwEXDJGG9Brsjk7U.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e3-seg1",
@@ -10957,8 +10957,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/cKBwBPVFT5ExBM7owUAgXPHWuEf.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e3-seg2",
@@ -10993,8 +10993,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/cKBwBPVFT5ExBM7owUAgXPHWuEf.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e4-seg1",
@@ -11029,8 +11029,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/nnC4jiVfIk7mSdMnfMK8pg5riKi.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e4-seg2",
@@ -11065,8 +11065,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/nnC4jiVfIk7mSdMnfMK8pg5riKi.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e5-seg1",
@@ -11101,8 +11101,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/uJP3N8A1Ngn2La9V1UNfK7eaqZ5.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e5-seg2",
@@ -11137,8 +11137,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/uJP3N8A1Ngn2La9V1UNfK7eaqZ5.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e6-seg1",
@@ -11173,8 +11173,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/T6Hlaf0fFElrRBCCmQygo4CNTJ.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e6-seg2",
@@ -11209,8 +11209,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/T6Hlaf0fFElrRBCCmQygo4CNTJ.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e7-seg1",
@@ -11245,8 +11245,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/6SioR2NW5CYkzPaobkrBozlOVDi.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e7-seg2",
@@ -11281,8 +11281,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/6SioR2NW5CYkzPaobkrBozlOVDi.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e8-seg1",
@@ -11317,8 +11317,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/zI1MHKGUOn1H89w071OiL8cPoe5.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e8-seg2",
@@ -11353,8 +11353,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/zI1MHKGUOn1H89w071OiL8cPoe5.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e9-seg1",
@@ -11389,8 +11389,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/lQzgTpYwMLssRaEciAv0edRlK4v.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "pretzel-and-the-puppies-s2-e9-seg2",
@@ -11425,8 +11425,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/lQzgTpYwMLssRaEciAv0edRlK4v.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
       "artworkSourceId": "156746",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "appleLinkKind": "show"
     },
     {
       "id": "sago-mini-friends-s1-e1-seg1",
@@ -13082,8 +13082,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/8PbVHTRZUz186HtRmWldAZTMXu1.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e1-seg2",
@@ -13118,8 +13118,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/8PbVHTRZUz186HtRmWldAZTMXu1.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e10",
@@ -13154,8 +13154,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/q5glOAcsZQXH7FvBSFlDdaYh4IU.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/episode/the-winter-blues/umc.cmc.zprn68ckecckcxsf30g360ny?showId=umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "episode"
     },
     {
       "id": "shape-island-s1-e2-seg1",
@@ -13191,8 +13191,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/6eVfdJFqUeXUGp5gg80Kj5xWYml.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e2-seg2",
@@ -13227,8 +13227,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/6eVfdJFqUeXUGp5gg80Kj5xWYml.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e3-seg1",
@@ -13263,8 +13263,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/rG9UjkcqveIattHsidCZUzBz38w.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e3-seg2",
@@ -13299,8 +13299,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/rG9UjkcqveIattHsidCZUzBz38w.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e4-seg1",
@@ -13335,8 +13335,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/dSmWpBrslF9elIMnpYbu20PoJxD.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e4-seg2",
@@ -13371,8 +13371,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/dSmWpBrslF9elIMnpYbu20PoJxD.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e5-seg1",
@@ -13407,8 +13407,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/zkKLKtb7EWo14iUYwA6DIY3MNGb.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e5-seg2",
@@ -13443,8 +13443,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/zkKLKtb7EWo14iUYwA6DIY3MNGb.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e6-seg1",
@@ -13479,8 +13479,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/iJ0yvlFBeBxI928BLQ7diMnBEgB.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e6-seg2",
@@ -13515,8 +13515,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/iJ0yvlFBeBxI928BLQ7diMnBEgB.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e7-seg1",
@@ -13551,8 +13551,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/rOtJgPonIrBjeW0lZITMqqkX0uH.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e7-seg2",
@@ -13587,8 +13587,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/rOtJgPonIrBjeW0lZITMqqkX0uH.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e8-seg1",
@@ -13623,8 +13623,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/bU7EBKQxKhSHqaMiaBiOvFbyw6o.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e8-seg2",
@@ -13659,8 +13659,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/bU7EBKQxKhSHqaMiaBiOvFbyw6o.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s1-e9",
@@ -13695,8 +13695,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/fSlkVghjdcQYzGuEfnvdrp4Rw2z.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e1-seg1",
@@ -13731,8 +13731,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/5JQCdcBRBOKgWi6bMFdDlhknVrH.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e1-seg2",
@@ -13767,8 +13767,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/5JQCdcBRBOKgWi6bMFdDlhknVrH.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e2-seg1",
@@ -13803,8 +13803,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/nRJifxZ9gNyfMmmQ3QzY7XjlGWn.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e2-seg2",
@@ -13839,8 +13839,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/nRJifxZ9gNyfMmmQ3QzY7XjlGWn.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e3-seg1",
@@ -13875,8 +13875,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/I2XNhqlOrTBVikxIio8hlNtvVZ.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/episode/squares-missing-mug--triangle-stands-still/umc.cmc.47htq2zrf19p0bvisls81zuqp?showId=umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "episode"
     },
     {
       "id": "shape-island-s2-e3-seg2",
@@ -13911,8 +13911,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/I2XNhqlOrTBVikxIio8hlNtvVZ.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/episode/squares-missing-mug--triangle-stands-still/umc.cmc.47htq2zrf19p0bvisls81zuqp?showId=umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "episode"
     },
     {
       "id": "shape-island-s2-e4-seg1",
@@ -13947,8 +13947,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/mcApduhQ6CSbtnp42mWwVk0zcWy.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e4-seg2",
@@ -13983,8 +13983,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/mcApduhQ6CSbtnp42mWwVk0zcWy.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e5-seg1",
@@ -14019,8 +14019,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/sBTcYSWMwVkkTxuO6NowiyylAzS.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e5-seg2",
@@ -14055,8 +14055,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/sBTcYSWMwVkkTxuO6NowiyylAzS.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e6-seg1",
@@ -14091,8 +14091,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/b14Ezdfz5WzAhjTV0ndUAPF8B4b.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e6-seg2",
@@ -14127,8 +14127,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/b14Ezdfz5WzAhjTV0ndUAPF8B4b.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e7-seg1",
@@ -14163,8 +14163,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/wQd9hiU95W6GMMbrUykfAPNkIzu.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e7-seg2",
@@ -14199,8 +14199,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/wQd9hiU95W6GMMbrUykfAPNkIzu.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e8-seg1",
@@ -14235,8 +14235,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/lO0wXyGv0dU7NnrgIdbCSQ16VpA.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "shape-island-s2-e8-seg2",
@@ -14271,8 +14271,8 @@
       "stillUrl": "https://image.tmdb.org/t/p/w780/lO0wXyGv0dU7NnrgIdbCSQ16VpA.jpg",
       "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
       "artworkSourceId": "217658",
-      "appleUrl": null,
-      "appleLinkKind": null
+      "appleUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "appleLinkKind": "show"
     },
     {
       "id": "stillwater-s1-e1-seg1",
