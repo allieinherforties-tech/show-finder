@@ -234,3 +234,88 @@ main {
 .credits p { margin: 0.3rem 0; }
 
 .tmdb-logo { display: block; margin: 0.2rem 0 0.4rem; }
+
+/* Q4 holiday rails: one featured seasonal moment, Thanksgiving and Winter as
+   labeled secondary shelves. Same tokens as the rest of the page; horizontal
+   scroll with snap, no autoplay, no urgency styling. */
+.rail-section { margin-top: 2.1rem; }
+
+.rail-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.rail-head h2 { margin: 0; font-size: 1.15rem; }
+
+.rail-kind {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.rail-sub {
+  margin: 0.15rem 0 0.7rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.rail {
+  display: flex;
+  gap: 0.9rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0.15rem 0 0.6rem;
+  margin: 0 -1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.rail-card {
+  flex: none;
+  width: 15.5rem;
+  scroll-snap-align: start;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 0.85rem 0.95rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.rail-still-wrap { margin: 0; }
+
+.rail-still {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 0.6rem;
+  background: var(--accent-soft);
+}
+
+.rail-title { margin: 0; font-size: 1rem; }
+
+.rail-ep { margin: 0; color: var(--muted); font-size: 0.82rem; }
+
+.tag-row { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+
+.tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.14rem 0.6rem;
+}
+
+.tag.aged { color: var(--ink); background: var(--paper); border: 1px solid var(--line); }
+
+.rail-why { margin: 0; font-size: 0.86rem; color: var(--muted); }
+
+.rail-card .watch { margin-top: auto; align-self: flex-start; white-space: nowrap; }
