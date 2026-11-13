@@ -68,7 +68,22 @@ try {
     assert.ok(match[1].startsWith('/'), `script src must be local, found ${match[1]}`);
   }
   assert.equal(/data-kit-form|convertkit/i.test(html), false);
-  console.log(`smoke ok: ${health.body.storyCount} stories, version ${health.body.version}, artwork mode ${health.body.artworkMode}`);
+
+  // Q4 holiday rails: the featured seasonal moment ships with its labeled
+  // secondary shelves, no New Year rail, and only verified link shapes.
+  assert.match(html, /<h2>This season<\/h2>/);
+  assert.match(html, /<span class="rail-kind">featured moment<\/span>/);
+  assert.equal((html.match(/<span class="rail-kind">seasonal · secondary<\/span>/g) || []).length, 2, 'both secondary shelves are labeled');
+  assert.match(html, /<h2>Thanksgiving<\/h2>/);
+  assert.match(html, /<h2>Winter<\/h2>/);
+  assert.equal(/New Year/i.test(html), false, 'the New Year rail ships nowhere');
+  const railWatches = [...html.matchAll(/<a class="watch" href="([^"]+)"/g)].map((m) => m[1]);
+  assert.ok(railWatches.length > 0, 'at least one rail row carries a verified link');
+  for (const url of railWatches) {
+    assert.match(url, APPLE_URL, `malformed rail apple link: ${url}`);
+  }
+
+  console.log(`smoke ok: ${health.body.storyCount} stories, version ${health.body.version}, artwork mode ${health.body.artworkMode}, holiday rails present`);
 } finally {
   app.close();
 }

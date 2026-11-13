@@ -53,11 +53,15 @@ export function loadIndex({ artifactPath, dbPath, embedderName } = {}) {
   const stories = raw.stories;
   const db = new Database(dbPath, { readonly: true, fileMustExist: true });
   const byId = new Map(stories.map((s, i) => [s.id, i]));
+  const storiesById = new Map(stories.map((s) => [s.id, s]));
   const vectors = raw.embeddings.map((e) => Float64Array.from(e.vector));
   const embedder = createEmbedder(embedderName || raw.embedder);
   return {
     version: raw.version,
     storyCount: stories.length,
+    // Direct row access for curated surfaces (the holiday rails): a rail row
+    // quotes the artifact's own story row, so a rebuild flows through.
+    storyById: (id) => storiesById.get(id) || null,
     search(query, opts = {}) {
       return runSearch({ stories, byId, vectors, db, embedder }, query, opts);
     },

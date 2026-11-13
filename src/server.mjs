@@ -9,6 +9,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadIndex, ARTIFACT_PATH, DB_PATH } from './search/store.mjs';
 import { applyWaitlistUrl } from './waitlist.mjs';
+import { applyHolidayRails } from './rails.mjs';
 
 // The swappable artwork layer. One configuration flag, set per deploy:
 //   ARTWORK_MODE=tmdb (default): result cards render attributed TMDB episode
@@ -51,6 +52,10 @@ export function createApp({ artifactPath = ARTIFACT_PATH, dbPath = DB_PATH } = {
       // time so the anchor stays real, first-party markup with no JavaScript
       // dependency and no embedded third-party form.
       body = applyWaitlistUrl(body.toString());
+      // The Q4 holiday rails render server side from the loaded artifact,
+      // first-party markup with no JavaScript dependency, like the waitlist
+      // CTA above.
+      body = applyHolidayRails(body, index.storyById);
     }
     res.writeHead(200, { 'Content-Type': CONTENT_TYPES[path.extname(resolved)] || 'application/octet-stream' });
     res.end(body);
