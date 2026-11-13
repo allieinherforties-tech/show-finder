@@ -1,14 +1,14 @@
-// The Q4 holiday rail: one featured seasonal moment (Christmas lead) with
-// Thanksgiving and Winter as labeled secondary shelves. New Year is dropped
-// per the depth ruling and ships nowhere.
+// The seasonal rail: ONE shelf titled 'This Season' holding all 14 story rows,
+// Thanksgiving first, then Christmas, then winter. The featured/secondary
+// hierarchy from the Q4 rail is retired per Allie's 2026-11-13 feedback: one
+// rail with all the episodes in that one category makes sense.
 //
 // Rows quote the production search artifact by story id: title, episode
 // fields, tags, artwork, and Apple links always resolve from the loaded
 // artifact, so a future artifact rebuild flows through the rail without a
 // separate edit. A story id that is no longer in the artifact drops its row
 // and is reported; the rail never pads. The only copy authored here is the
-// editorial framing the approved prototype (art_xhwN2LQ1) specifies, minus
-// its New Year clause, which described a rail the ruling dropped.
+// editorial framing: the approved description and the per-row why lines.
 
 import { classifyAppleUrl } from './links/apple-tv.mjs';
 
@@ -16,38 +16,12 @@ export const HOLIDAY_RAILS_PLACEHOLDER = '__HOLIDAY_RAILS__';
 
 export const HOLIDAY_RAILS = [
   {
-    id: 'rail-seasonal',
-    title: 'This season',
-    kind: 'featured',
-    kindLabel: 'featured moment',
-    sub: 'Christmas leads. Thanksgiving and winter hold secondary shelves.',
+    id: 'rail-this-season',
+    title: 'This Season',
+    sub: 'Cozy seasonal stories for the weeks ahead: episodes about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights.',
     rows: [
       {
-        storyId: 'frog-and-toad-s1-e9',
-        why: 'A friend is late on the night when being together matters most, and the story centers the worry, not the outcome.',
-      },
-      {
-        storyId: 'sago-mini-friends-s2-e2-seg2',
-        why: 'A saved snowball shrinks at every stop on the delivery route, and still lands big: Grandpa Jasper needed exactly that for lemonade.',
-      },
-      {
-        storyId: 'interrupting-chicken-s1-e9-seg1',
-        why: 'Ebenezer Wolf cancels the holidays, so Piper writes three ghosts of giving to remind him how good generosity felt.',
-      },
-      {
-        storyId: 'get-rolling-with-otis-s1-e9',
-        why: 'The only waiting-for-a-sibling row we have, and it happens at Christmas: a celebration interrupted by a due date.',
-      },
-    ],
-  },
-  {
-    id: 'rail-thanksgiving',
-    title: 'Thanksgiving',
-    kind: 'secondary',
-    kindLabel: 'seasonal · secondary',
-    sub: 'Gratitude and togetherness, from saying it to making it to doing it.',
-    rows: [
-      {
+        // Thanksgiving first: six rows.
         storyId: 'sago-mini-friends-s1-e11-seg1',
         why: 'A missed festival becomes Lumington\'s own Thankful Day, because Harvey thanks a bench out loud and the town starts to glow.',
       },
@@ -71,16 +45,25 @@ export const HOLIDAY_RAILS = [
         storyId: 'eva-the-owlet-s1-e9',
         why: 'Missing distant family during a celebration: a town shows up for one lost bird, and the search becomes a lesson in community.',
       },
-    ],
-  },
-  {
-    id: 'rail-winter',
-    title: 'Winter',
-    kind: 'secondary',
-    kindLabel: 'seasonal · secondary',
-    sub: 'The solstice and the long gray stretch, including the letdown when the promised snow underdelivers.',
-    rows: [
       {
+        // Christmas: four rows.
+        storyId: 'frog-and-toad-s1-e9',
+        why: 'A friend is late on the night when being together matters most, and the story centers the worry, not the outcome.',
+      },
+      {
+        storyId: 'sago-mini-friends-s2-e2-seg2',
+        why: 'A saved snowball shrinks at every stop on the delivery route, and still lands big: Grandpa Jasper needed exactly that for lemonade.',
+      },
+      {
+        storyId: 'interrupting-chicken-s1-e9-seg1',
+        why: 'Ebenezer Wolf cancels the holidays, so Piper writes three ghosts of giving to remind him how good generosity felt.',
+      },
+      {
+        storyId: 'get-rolling-with-otis-s1-e9',
+        why: 'The only waiting-for-a-sibling row we have, and it happens at Christmas: a celebration interrupted by a due date.',
+      },
+      {
+        // Winter: four rows.
         storyId: 'stillwater-s1-e13',
         why: 'A script-verified solstice story: a scary reputation can hide a friend, and the kids include their lonely neighbor by decorating his house.',
       },
@@ -168,8 +151,10 @@ export function renderRailCard(row) {
     .map((e) => `<span class="tag">${escapeHtml(e)}</span>`)
     .join('');
   const vibeTag = row.vibe ? `<span class="tag aged">${escapeHtml(row.vibe)}</span>` : '';
+  // Honest-link rule: the play button renders only on rows with a verified
+  // link. The visible UI never names Apple TV; the accessible name does.
   const watch = row.appleUrl && row.linkKind
-    ? `<a class="watch" href="${escapeHtml(row.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Watch ${escapeHtml(row.seriesTitle)}, season ${row.seasonNumber} episode ${row.episodeNumber}, on Apple TV+">Watch on Apple TV+</a>`
+    ? `<a class="watch-play" href="${escapeHtml(row.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Watch on Apple TV: ${escapeHtml(row.seriesTitle)}, season ${row.seasonNumber} episode ${row.episodeNumber}"><img class="watch-play-icon" src="/play-button.png" alt="" width="44" height="40"></a>`
     : '';
   return [
     '      <article class="rail-card">',
@@ -187,7 +172,11 @@ export function renderRailCard(row) {
   ].filter((line) => line !== '').join('\n');
 }
 
-/** Server-side render of the holiday rails. Empty rails render as nothing: the shelf never pads. */
+/**
+ * Server-side render of the seasonal rail. The count chip is computed from
+ * the resolved rows so the honest-count rule holds even if a row drops.
+ * Empty rail renders as nothing: the shelf never pads.
+ */
 export function renderHolidayRails(resolvedRails) {
   const sections = [];
   for (const rail of resolvedRails) {
@@ -196,7 +185,7 @@ export function renderHolidayRails(resolvedRails) {
       `  <section class="rail-section" id="${rail.id}" aria-label="${escapeHtml(rail.title)}">`,
       '    <div class="rail-head">',
       `      <h2>${escapeHtml(rail.title)}</h2>`,
-      `      <span class="rail-kind">${escapeHtml(rail.kindLabel)}</span>`,
+      `      <span class="rail-count">${rail.rows.length} stories</span>`,
       '    </div>',
       `    <p class="rail-sub">${escapeHtml(rail.sub)}</p>`,
       '    <div class="rail">',

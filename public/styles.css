@@ -5,6 +5,10 @@
   --card: #ffffff;
   --accent: #2c6e63;
   --accent-soft: #e7f0ed;
+  /* Teal sampled from Allie's play logo: a restrained accent for the play
+     button, focus rings, and the count chip. Not a palette redesign. */
+  --teal: #28a8b0;
+  --teal-soft: #e2f4f6;
   --line: #e3ded4;
 }
 
@@ -235,9 +239,10 @@ main {
 
 .tmdb-logo { display: block; margin: 0.2rem 0 0.4rem; }
 
-/* Q4 holiday rails: one featured seasonal moment, Thanksgiving and Winter as
-   labeled secondary shelves. Same tokens as the rest of the page; horizontal
-   scroll with snap, no autoplay, no urgency styling. */
+/* Seasonal rail: ONE 'This Season' shelf holding all 14 rows. Same tokens
+   as the rest of the page; horizontal scroll with snap, no autoplay, no
+   urgency styling. Teal accents stay minimal: the play button, the count
+   chip, and focus rings. */
 .rail-section { margin-top: 2.1rem; }
 
 .rail-head {
@@ -249,12 +254,14 @@ main {
 
 .rail-head h2 { margin: 0; font-size: 1.15rem; }
 
-.rail-kind {
+.rail-count {
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--muted);
+  color: var(--teal);
+  background: var(--teal-soft);
+  border-radius: 999px;
+  padding: 0.14rem 0.6rem;
   white-space: nowrap;
 }
 
@@ -318,4 +325,29 @@ main {
 
 .rail-why { margin: 0; font-size: 0.86rem; color: var(--muted); }
 
-.rail-card .watch { margin-top: auto; align-self: flex-start; white-space: nowrap; }
+/* Play-logo button: the deeplink wraps Allie's play logo. A soft shadow
+   lifts the icon off the card so the button still reads as tappable on busy
+   stills; the focus ring is the teal accent. No visible Apple TV text. */
+.rail-actions { margin-top: auto; }
+
+.watch-play {
+  display: inline-block;
+  border-radius: 999px;
+  line-height: 0;
+}
+
+.watch-play-icon {
+  width: 44px;
+  height: auto;
+  filter: drop-shadow(0 1px 2px rgb(31 36 48 / 0.18));
+  transition: filter 0.15s ease;
+}
+
+.watch-play:hover .watch-play-icon {
+  filter: drop-shadow(0 2px 4px rgb(31 36 48 / 0.28));
+}
+
+.watch-play:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+}
