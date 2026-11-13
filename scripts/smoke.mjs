@@ -69,15 +69,14 @@ try {
   }
   assert.equal(/data-kit-form|convertkit/i.test(html), false);
 
-  // Q4 holiday rails: the featured seasonal moment ships with its labeled
-  // secondary shelves, no New Year rail, and only verified link shapes.
-  assert.match(html, /<h2>This season<\/h2>/);
-  assert.match(html, /<span class="rail-kind">featured moment<\/span>/);
-  assert.equal((html.match(/<span class="rail-kind">seasonal · secondary<\/span>/g) || []).length, 2, 'both secondary shelves are labeled');
-  assert.match(html, /<h2>Thanksgiving<\/h2>/);
-  assert.match(html, /<h2>Winter<\/h2>/);
+  // One seasonal rail: 'This Season' holds all 14 rows, Thanksgiving first.
+  assert.equal((html.match(/<h2>This Season<\/h2>/g) || []).length, 1, 'exactly one This Season section');
+  assert.match(html, /<span class="rail-count">14 stories<\/span>/);
+  assert.match(html, /Cozy seasonal stories for the weeks ahead: episodes about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights\./);
+  assert.equal(/rail-kind/.test(html), false, 'the featured/secondary hierarchy is retired');
+  assert.equal(/<h2>Thanksgiving<\/h2>|<h2>Winter<\/h2>|<h2>Christmas<\/h2>/.test(html), false, 'no separate holiday shelves');
   assert.equal(/New Year/i.test(html), false, 'the New Year rail ships nowhere');
-  const railWatches = [...html.matchAll(/<a class="watch" href="([^"]+)"/g)].map((m) => m[1]);
+  const railWatches = [...html.matchAll(/<a class="watch-play" href="([^"]+)"[^>]*aria-label="Watch on Apple TV[^"]*"/g)].map((m) => m[1]);
   assert.ok(railWatches.length > 0, 'at least one rail row carries a verified link');
   for (const url of railWatches) {
     assert.match(url, APPLE_URL, `malformed rail apple link: ${url}`);
