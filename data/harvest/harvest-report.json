@@ -1,0 +1,751 @@
+{
+  "kind": "apple-link-harvest-report",
+  "harvestedAt": "2026-11-13T23:20:16.187Z",
+  "method": "Apple robots-listed original-show and original-episode sitemaps for discovery; every recorded URL verified live (HTTP 200, apple:content_id match, page title title/series/season/episode match). No URL is invented; unmatched rows keep show fallback or no link.",
+  "throttling": "1000 ms between requests, responses cached in data/harvest-cache/ (gitignored)",
+  "coverage": {
+    "before": {
+      "episodeLevel": 449,
+      "showLevel": 65,
+      "none": 33
+    },
+    "after": {
+      "episodeLevel": 449,
+      "showLevel": 98,
+      "none": 0
+    }
+  },
+  "coverageBySeries": {
+    "before": {
+      "Camp Snoopy": {
+        "episodeLevel": 48,
+        "showLevel": 4,
+        "none": 0
+      },
+      "Doug Unplugs": {
+        "episodeLevel": 24,
+        "showLevel": 2,
+        "none": 0
+      },
+      "Duck & Goose": {
+        "episodeLevel": 0,
+        "showLevel": 0,
+        "none": 33
+      },
+      "Eva the Owlet": {
+        "episodeLevel": 17,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Frog and Toad": {
+        "episodeLevel": 11,
+        "showLevel": 6,
+        "none": 0
+      },
+      "Get Rolling with Otis": {
+        "episodeLevel": 35,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Ghostwriter": {
+        "episodeLevel": 0,
+        "showLevel": 39,
+        "none": 0
+      },
+      "Harriet the Spy": {
+        "episodeLevel": 20,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Helpsters Help You": {
+        "episodeLevel": 5,
+        "showLevel": 1,
+        "none": 0
+      },
+      "Interrupting Chicken": {
+        "episodeLevel": 31,
+        "showLevel": 2,
+        "none": 0
+      },
+      "Pretzel and the Puppies": {
+        "episodeLevel": 31,
+        "showLevel": 4,
+        "none": 0
+      },
+      "Sago Mini Friends": {
+        "episodeLevel": 45,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Shape Island": {
+        "episodeLevel": 34,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Stillwater": {
+        "episodeLevel": 77,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Surfside Girls": {
+        "episodeLevel": 5,
+        "showLevel": 5,
+        "none": 0
+      },
+      "The Sisters Grimm": {
+        "episodeLevel": 10,
+        "showLevel": 2,
+        "none": 0
+      },
+      "Wolfboy and the Everything Factory": {
+        "episodeLevel": 36,
+        "showLevel": 0,
+        "none": 0
+      },
+      "WondLa": {
+        "episodeLevel": 20,
+        "showLevel": 0,
+        "none": 0
+      }
+    },
+    "after": {
+      "Camp Snoopy": {
+        "episodeLevel": 48,
+        "showLevel": 4,
+        "none": 0
+      },
+      "Doug Unplugs": {
+        "episodeLevel": 24,
+        "showLevel": 2,
+        "none": 0
+      },
+      "Duck & Goose": {
+        "episodeLevel": 0,
+        "showLevel": 33,
+        "none": 0
+      },
+      "Eva the Owlet": {
+        "episodeLevel": 17,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Frog and Toad": {
+        "episodeLevel": 11,
+        "showLevel": 6,
+        "none": 0
+      },
+      "Get Rolling with Otis": {
+        "episodeLevel": 35,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Ghostwriter": {
+        "episodeLevel": 0,
+        "showLevel": 39,
+        "none": 0
+      },
+      "Harriet the Spy": {
+        "episodeLevel": 20,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Helpsters Help You": {
+        "episodeLevel": 5,
+        "showLevel": 1,
+        "none": 0
+      },
+      "Interrupting Chicken": {
+        "episodeLevel": 31,
+        "showLevel": 2,
+        "none": 0
+      },
+      "Pretzel and the Puppies": {
+        "episodeLevel": 31,
+        "showLevel": 4,
+        "none": 0
+      },
+      "Sago Mini Friends": {
+        "episodeLevel": 45,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Shape Island": {
+        "episodeLevel": 34,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Stillwater": {
+        "episodeLevel": 77,
+        "showLevel": 0,
+        "none": 0
+      },
+      "Surfside Girls": {
+        "episodeLevel": 5,
+        "showLevel": 5,
+        "none": 0
+      },
+      "The Sisters Grimm": {
+        "episodeLevel": 10,
+        "showLevel": 2,
+        "none": 0
+      },
+      "Wolfboy and the Everything Factory": {
+        "episodeLevel": 36,
+        "showLevel": 0,
+        "none": 0
+      },
+      "WondLa": {
+        "episodeLevel": 20,
+        "showLevel": 0,
+        "none": 0
+      }
+    }
+  },
+  "showVerification": [],
+  "episodeVerification": [
+    {
+      "url": "https://tv.apple.com/us/episode/and-the-cursed-treasure/umc.cmc.5oj071nj3fxdah6hl0xnfsewl?showId=umc.cmc.4371g2xacdr0wfs071dm3q30x",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Surfside Girls",
+        "seasonNumber": 1,
+        "episodeNumber": 10,
+        "episodeTitle": "...And the Cursed Treasure"
+      },
+      "contentId": "umc.cmc.5oj071nj3fxdah6hl0xnfsewl",
+      "pageTitle": "Watch ...And the Cursed Treasure - Surfside Girls (Season 1, Episode 9) - Apple TV",
+      "pageEpisodeTitle": "...And the Cursed Treasure",
+      "pageSeriesTitle": "Surfside Girls",
+      "verified": false,
+      "reason": "page says Season 1 Episode 9, row says 1 10"
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/find-something-round--fuzzy-field/umc.cmc.zsk037rfehajwbinwxe880bo?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 1,
+        "episodeTitle": "Find Something Round / Fuzzy Field"
+      },
+      "contentId": "umc.cmc.zsk037rfehajwbinwxe880bo",
+      "pageTitle": "Watch Find Something Round / Fuzzy Field - Duck &amp; Goose (Season 1, Episode 1) - Apple TV",
+      "pageEpisodeTitle": "Find Something Round / Fuzzy Field",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/find-something-round--fuzzy-field/umc.cmc.zsk037rfehajwbinwxe880bo?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 1,
+        "episodeTitle": "Find Something Round / Fuzzy Field"
+      },
+      "contentId": "umc.cmc.zsk037rfehajwbinwxe880bo",
+      "pageTitle": "Watch Find Something Round / Fuzzy Field - Duck &amp; Goose (Season 1, Episode 1) - Apple TV",
+      "pageEpisodeTitle": "Find Something Round / Fuzzy Field",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/go-to-the-beach--measuring-tree/umc.cmc.4nl0zp8jnd27ssotzeumxp5j8?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 2,
+        "episodeTitle": "Go to the Beach / Measuring Tree"
+      },
+      "contentId": "umc.cmc.4nl0zp8jnd27ssotzeumxp5j8",
+      "pageTitle": "Watch Go to the Beach / Measuring Tree - Duck &amp; Goose (Season 1, Episode 2) - Apple TV",
+      "pageEpisodeTitle": "Go to the Beach / Measuring Tree",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/go-to-the-beach--measuring-tree/umc.cmc.4nl0zp8jnd27ssotzeumxp5j8?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 2,
+        "episodeTitle": "Go to the Beach / Measuring Tree"
+      },
+      "contentId": "umc.cmc.4nl0zp8jnd27ssotzeumxp5j8",
+      "pageTitle": "Watch Go to the Beach / Measuring Tree - Duck &amp; Goose (Season 1, Episode 2) - Apple TV",
+      "pageEpisodeTitle": "Go to the Beach / Measuring Tree",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/fly-a-kite--purple-plums/umc.cmc.2inbvsyki9h8dl0539es2dfxa?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 3,
+        "episodeTitle": "Fly a Kite / Purple Plums"
+      },
+      "contentId": "umc.cmc.2inbvsyki9h8dl0539es2dfxa",
+      "pageTitle": "Watch Fly a Kite / Purple Plums - Duck &amp; Goose (Season 1, Episode 3) - Apple TV",
+      "pageEpisodeTitle": "Fly a Kite / Purple Plums",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/fly-a-kite--purple-plums/umc.cmc.2inbvsyki9h8dl0539es2dfxa?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 3,
+        "episodeTitle": "Fly a Kite / Purple Plums"
+      },
+      "contentId": "umc.cmc.2inbvsyki9h8dl0539es2dfxa",
+      "pageTitle": "Watch Fly a Kite / Purple Plums - Duck &amp; Goose (Season 1, Episode 3) - Apple TV",
+      "pageEpisodeTitle": "Fly a Kite / Purple Plums",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/shiny-rock--paint-a-picture/umc.cmc.1rhyumszevkkulg46g489xa3m?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 4,
+        "episodeTitle": "Shiny Rock / Paint a Picture"
+      },
+      "contentId": "umc.cmc.1rhyumszevkkulg46g489xa3m",
+      "pageTitle": "Watch Shiny Rock / Paint a Picture - Duck &amp; Goose (Season 1, Episode 4) - Apple TV",
+      "pageEpisodeTitle": "Shiny Rock / Paint a Picture",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/shiny-rock--paint-a-picture/umc.cmc.1rhyumszevkkulg46g489xa3m?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 4,
+        "episodeTitle": "Shiny Rock / Paint a Picture"
+      },
+      "contentId": "umc.cmc.1rhyumszevkkulg46g489xa3m",
+      "pageTitle": "Watch Shiny Rock / Paint a Picture - Duck &amp; Goose (Season 1, Episode 4) - Apple TV",
+      "pageEpisodeTitle": "Shiny Rock / Paint a Picture",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/sticky-song--build-a-playhouse/umc.cmc.1jttc2tetfqs0xks2xcw49nfd?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 5,
+        "episodeTitle": "Sticky Song / Build a Playhouse"
+      },
+      "contentId": "umc.cmc.1jttc2tetfqs0xks2xcw49nfd",
+      "pageTitle": "Watch Sticky Song / Build a Playhouse - Duck &amp; Goose (Season 1, Episode 5) - Apple TV",
+      "pageEpisodeTitle": "Sticky Song / Build a Playhouse",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/sticky-song--build-a-playhouse/umc.cmc.1jttc2tetfqs0xks2xcw49nfd?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 5,
+        "episodeTitle": "Sticky Song / Build a Playhouse"
+      },
+      "contentId": "umc.cmc.1jttc2tetfqs0xks2xcw49nfd",
+      "pageTitle": "Watch Sticky Song / Build a Playhouse - Duck &amp; Goose (Season 1, Episode 5) - Apple TV",
+      "pageEpisodeTitle": "Sticky Song / Build a Playhouse",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/sunrise--magic-trick/umc.cmc.4hdxw3ep38wd55eablwqtvpxo?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 6,
+        "episodeTitle": "Sunrise / Magic Trick"
+      },
+      "contentId": "umc.cmc.4hdxw3ep38wd55eablwqtvpxo",
+      "pageTitle": "Watch Sunrise / Magic Trick - Duck &amp; Goose (Season 1, Episode 6) - Apple TV",
+      "pageEpisodeTitle": "Sunrise / Magic Trick",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/sunrise--magic-trick/umc.cmc.4hdxw3ep38wd55eablwqtvpxo?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 6,
+        "episodeTitle": "Sunrise / Magic Trick"
+      },
+      "contentId": "umc.cmc.4hdxw3ep38wd55eablwqtvpxo",
+      "pageTitle": "Watch Sunrise / Magic Trick - Duck &amp; Goose (Season 1, Episode 6) - Apple TV",
+      "pageEpisodeTitle": "Sunrise / Magic Trick",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/go-trick-or-treating--three-legged-race/umc.cmc.5j7kve27aycozvpy17fhbo2hd?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 7,
+        "episodeTitle": "Go Trick or Treating / Three-Legged Race"
+      },
+      "contentId": "umc.cmc.5j7kve27aycozvpy17fhbo2hd",
+      "pageTitle": "Watch Go Trick or Treating / Three-Legged Race - Duck &amp; Goose (Season 1, Episode 7) - Apple TV",
+      "pageEpisodeTitle": "Go Trick or Treating / Three-Legged Race",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/go-trick-or-treating--three-legged-race/umc.cmc.5j7kve27aycozvpy17fhbo2hd?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 7,
+        "episodeTitle": "Go Trick or Treating / Three-Legged Race"
+      },
+      "contentId": "umc.cmc.5j7kve27aycozvpy17fhbo2hd",
+      "pageTitle": "Watch Go Trick or Treating / Three-Legged Race - Duck &amp; Goose (Season 1, Episode 7) - Apple TV",
+      "pageEpisodeTitle": "Go Trick or Treating / Three-Legged Race",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/snowy-day--flower-bud/umc.cmc.4l0j20ivr7ctzs6l8hzq795lh?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 8,
+        "episodeTitle": "Snowy Day / Flower Bud"
+      },
+      "contentId": "umc.cmc.4l0j20ivr7ctzs6l8hzq795lh",
+      "pageTitle": "Watch Snowy Day / Flower Bud - Duck &amp; Goose (Season 1, Episode 8) - Apple TV",
+      "pageEpisodeTitle": "Snowy Day / Flower Bud",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/snowy-day--flower-bud/umc.cmc.4l0j20ivr7ctzs6l8hzq795lh?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 8,
+        "episodeTitle": "Snowy Day / Flower Bud"
+      },
+      "contentId": "umc.cmc.4l0j20ivr7ctzs6l8hzq795lh",
+      "pageTitle": "Watch Snowy Day / Flower Bud - Duck &amp; Goose (Season 1, Episode 8) - Apple TV",
+      "pageEpisodeTitle": "Snowy Day / Flower Bud",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/when-duck-met-goose/umc.cmc.31gqofortlpuxamf4g64prwqb?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 1,
+        "episodeNumber": 9,
+        "episodeTitle": "When Duck Met Goose"
+      },
+      "contentId": "umc.cmc.31gqofortlpuxamf4g64prwqb",
+      "pageTitle": "Watch When Duck Met Goose - Duck &amp; Goose (Season 1, Episode 9) - Apple TV",
+      "pageEpisodeTitle": "When Duck Met Goose",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/follow-the-leader--shadows/umc.cmc.22s373naqug5v7d5fsb2g6uzo?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 1,
+        "episodeTitle": "Follow the Leader / Shadows"
+      },
+      "contentId": "umc.cmc.22s373naqug5v7d5fsb2g6uzo",
+      "pageTitle": "Watch Follow the Leader / Shadows - Duck &amp; Goose (Season 2, Episode 1) - Apple TV",
+      "pageEpisodeTitle": "Follow the Leader / Shadows",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/follow-the-leader--shadows/umc.cmc.22s373naqug5v7d5fsb2g6uzo?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 1,
+        "episodeTitle": "Follow the Leader / Shadows"
+      },
+      "contentId": "umc.cmc.22s373naqug5v7d5fsb2g6uzo",
+      "pageTitle": "Watch Follow the Leader / Shadows - Duck &amp; Goose (Season 2, Episode 1) - Apple TV",
+      "pageEpisodeTitle": "Follow the Leader / Shadows",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/thistles-beach--skunk/umc.cmc.754jdko7oh3gbatr8ub1p4w7e?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 2,
+        "episodeTitle": "Thistle's Beach / Skunk"
+      },
+      "contentId": "umc.cmc.754jdko7oh3gbatr8ub1p4w7e",
+      "pageTitle": "Watch Thistle’s Beach / Skunk - Duck &amp; Goose (Season 2, Episode 2) - Apple TV",
+      "pageEpisodeTitle": "Thistle’s Beach / Skunk",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/thistles-beach--skunk/umc.cmc.754jdko7oh3gbatr8ub1p4w7e?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 2,
+        "episodeTitle": "Thistle's Beach / Skunk"
+      },
+      "contentId": "umc.cmc.754jdko7oh3gbatr8ub1p4w7e",
+      "pageTitle": "Watch Thistle’s Beach / Skunk - Duck &amp; Goose (Season 2, Episode 2) - Apple TV",
+      "pageEpisodeTitle": "Thistle’s Beach / Skunk",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/moose--ants/umc.cmc.6g75ssemve5gsfkydcc393mmj?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 3,
+        "episodeTitle": "Moose / Ants"
+      },
+      "contentId": "umc.cmc.6g75ssemve5gsfkydcc393mmj",
+      "pageTitle": "Watch Moose / Ants - Duck &amp; Goose (Season 2, Episode 3) - Apple TV",
+      "pageEpisodeTitle": "Moose / Ants",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/moose--ants/umc.cmc.6g75ssemve5gsfkydcc393mmj?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 3,
+        "episodeTitle": "Moose / Ants"
+      },
+      "contentId": "umc.cmc.6g75ssemve5gsfkydcc393mmj",
+      "pageTitle": "Watch Moose / Ants - Duck &amp; Goose (Season 2, Episode 3) - Apple TV",
+      "pageEpisodeTitle": "Moose / Ants",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/dancing-swans--cheer-up-bluebird/umc.cmc.62y56krv0qsw598wiwb4sifm?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 4,
+        "episodeTitle": "Dancing Swans / Cheer Up Bluebird"
+      },
+      "contentId": "umc.cmc.62y56krv0qsw598wiwb4sifm",
+      "pageTitle": "Watch Dancing Swans / Cheer Up Bluebird - Duck &amp; Goose (Season 2, Episode 4) - Apple TV",
+      "pageEpisodeTitle": "Dancing Swans / Cheer Up Bluebird",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/dancing-swans--cheer-up-bluebird/umc.cmc.62y56krv0qsw598wiwb4sifm?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 4,
+        "episodeTitle": "Dancing Swans / Cheer Up Bluebird"
+      },
+      "contentId": "umc.cmc.62y56krv0qsw598wiwb4sifm",
+      "pageTitle": "Watch Dancing Swans / Cheer Up Bluebird - Duck &amp; Goose (Season 2, Episode 4) - Apple TV",
+      "pageEpisodeTitle": "Dancing Swans / Cheer Up Bluebird",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/dragonfly--granola-bars/umc.cmc.6z5j516ly7dkromuljtzbekkn?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 5,
+        "episodeTitle": "Dragonfly / Granola Bars"
+      },
+      "contentId": "umc.cmc.6z5j516ly7dkromuljtzbekkn",
+      "pageTitle": "Watch Dragonfly / Granola Bars - Duck &amp; Goose (Season 2, Episode 5) - Apple TV",
+      "pageEpisodeTitle": "Dragonfly / Granola Bars",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/dragonfly--granola-bars/umc.cmc.6z5j516ly7dkromuljtzbekkn?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 5,
+        "episodeTitle": "Dragonfly / Granola Bars"
+      },
+      "contentId": "umc.cmc.6z5j516ly7dkromuljtzbekkn",
+      "pageTitle": "Watch Dragonfly / Granola Bars - Duck &amp; Goose (Season 2, Episode 5) - Apple TV",
+      "pageEpisodeTitle": "Dragonfly / Granola Bars",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/thistles-quest-for-the-best--beavers-sticks/umc.cmc.69kn0j8ik4xhwainfdnwy66ll?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 6,
+        "episodeTitle": "Thistle's Quest for the Best / Beaver's Sticks"
+      },
+      "contentId": "umc.cmc.69kn0j8ik4xhwainfdnwy66ll",
+      "pageTitle": "Watch Thistle’s Quest for the Best / Beaver’s Sticks - Duck &amp; Goose (Season 2, Episode 6) - Apple TV",
+      "pageEpisodeTitle": "Thistle’s Quest for the Best / Beaver’s Sticks",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/thistles-quest-for-the-best--beavers-sticks/umc.cmc.69kn0j8ik4xhwainfdnwy66ll?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 6,
+        "episodeTitle": "Thistle's Quest for the Best / Beaver's Sticks"
+      },
+      "contentId": "umc.cmc.69kn0j8ik4xhwainfdnwy66ll",
+      "pageTitle": "Watch Thistle’s Quest for the Best / Beaver’s Sticks - Duck &amp; Goose (Season 2, Episode 6) - Apple TV",
+      "pageEpisodeTitle": "Thistle’s Quest for the Best / Beaver’s Sticks",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/bear--little-raccoons/umc.cmc.7jq8yqxv65qk26mb3k5vkzm4g?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 7,
+        "episodeTitle": "Bear / Little Raccoons"
+      },
+      "contentId": "umc.cmc.7jq8yqxv65qk26mb3k5vkzm4g",
+      "pageTitle": "Watch Bear / Little Raccoons - Duck &amp; Goose (Season 2, Episode 7) - Apple TV",
+      "pageEpisodeTitle": "Bear / Little Raccoons",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/bear--little-raccoons/umc.cmc.7jq8yqxv65qk26mb3k5vkzm4g?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 7,
+        "episodeTitle": "Bear / Little Raccoons"
+      },
+      "contentId": "umc.cmc.7jq8yqxv65qk26mb3k5vkzm4g",
+      "pageTitle": "Watch Bear / Little Raccoons - Duck &amp; Goose (Season 2, Episode 7) - Apple TV",
+      "pageEpisodeTitle": "Bear / Little Raccoons",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/really-big-rock--wing-ding-leaf/umc.cmc.553ll7rhcygq3ggknwgkce251?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 8,
+        "episodeTitle": "Really Big Rock / Wing-Ding Leaf"
+      },
+      "contentId": "umc.cmc.553ll7rhcygq3ggknwgkce251",
+      "pageTitle": "Watch Really Big Rock / Wing-Ding Leaf - Duck &amp; Goose (Season 2, Episode 8) - Apple TV",
+      "pageEpisodeTitle": "Really Big Rock / Wing-Ding Leaf",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/really-big-rock--wing-ding-leaf/umc.cmc.553ll7rhcygq3ggknwgkce251?showId=umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "httpStatus": 200,
+      "expected": {
+        "seriesTitle": "Duck & Goose",
+        "seasonNumber": 2,
+        "episodeNumber": 8,
+        "episodeTitle": "Really Big Rock / Wing-Ding Leaf"
+      },
+      "contentId": "umc.cmc.553ll7rhcygq3ggknwgkce251",
+      "pageTitle": "Watch Really Big Rock / Wing-Ding Leaf - Duck &amp; Goose (Season 2, Episode 8) - Apple TV",
+      "pageEpisodeTitle": "Really Big Rock / Wing-Ding Leaf",
+      "pageSeriesTitle": "Duck &amp; Goose",
+      "verified": false,
+      "reason": "series mismatch: page \"Duck &amp; Goose\" vs row \"Duck & Goose\""
+    }
+  ]
+}

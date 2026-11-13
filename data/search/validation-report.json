@@ -1,5 +1,5 @@
 {
-  "version": "1ca2116774df1b41",
+  "version": "12ac6ea1abd4ebe9",
   "artwork": {
     "mode": "tmdb",
     "attributionChecked": true,
@@ -9,9 +9,9 @@
       "noArtwork": 0
     },
     "links": {
-      "episode": 6,
-      "show": 168,
-      "none": 373,
+      "episode": 449,
+      "show": 98,
+      "none": 0,
       "integrityCheck": "every appleUrl matches a verified pattern shape; the build fails on any malformed link"
     },
     "unresolvedSeries": [],

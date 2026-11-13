@@ -98,8 +98,10 @@ test('the committed registry validates and matches the verified samples', () => 
 
 test('link resolution falls back to the show page when the episode id is not verified', () => {
   const registry = JSON.parse(readFileSync(path.resolve('data/source/apple-links.json'), 'utf8'));
-  const link = appleLinkFor({ seriesTitle: 'Stillwater', seasonNumber: 1, episodeNumber: 1 }, registry);
-  assert.deepEqual(link, { url: `https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao`, kind: 'show' });
+  // Ghostwriter S3E7 has no verified episode URL in the registry; Stillwater
+  // S1E1 does, so it no longer exercises the fallback path.
+  const link = appleLinkFor({ seriesTitle: 'Ghostwriter', seasonNumber: 3, episodeNumber: 7 }, registry);
+  assert.deepEqual(link, { url: `https://tv.apple.com/us/show/ghostwriter/umc.cmc.3z6okqcnxoo6ohte3k2z5vvrp`, kind: 'show' });
 });
 
 test('series with no verified pattern resolve to no link rather than an invented one', () => {
