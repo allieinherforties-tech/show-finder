@@ -16,6 +16,10 @@
 
 * { box-sizing: border-box; }
 
+/* Any element the JS marks hidden must actually disappear, even when a later
+   class rule sets display (e.g. .show-more's block, .active-filters' flex). */
+[hidden] { display: none !important; }
+
 body {
   margin: 0;
   font-family: ui-rounded, "SF Pro Rounded", "Segoe UI", system-ui, sans-serif;

@@ -27,3 +27,10 @@ test('the four filter dropdowns and the results surfaces ship', () => {
     assert.ok(html.includes(`id="${id}"`), `index.html must ship #${id}`);
   }
 });
+
+test('the stylesheet keeps the [hidden] reset that makes hidden mean hidden', async () => {
+  const css = await readFile('public/styles.css', 'utf8');
+  // Class rules like .show-more { display: block } beat the UA's [hidden]
+  // rule; without this reset, hidden controls render anyway.
+  assert.match(css, /\[hidden\]\s*\{\s*display:\s*none\s*!important/);
+});

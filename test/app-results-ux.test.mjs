@@ -275,6 +275,7 @@ test('a zero result with filters names them and hands back the chips', async () 
   assert.equal(activeFilters.hidden, false, 'the removal chips stay reachable');
   assert.equal(activeFilters.children.length, 2);
   assert.equal(results.children.length, 0);
+  assert.equal(showMore.hidden, true, 'nothing matched, so there is nothing to show more of');
   assert.equal(seasonRail.hidden, false, 'the rail returns with the empty state');
 });
 
