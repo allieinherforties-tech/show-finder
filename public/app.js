@@ -10,6 +10,13 @@ const resultsEl = document.getElementById('results');
 const resultsMeta = document.getElementById('results-meta');
 const noResults = document.getElementById('no-results');
 
+// Live search waits for a pause in typing before hitting the API, and a
+// sequence number drops stale responses: a slow reply for an earlier query
+// must never overwrite fresh results.
+const LIVE_SEARCH_DEBOUNCE_MS = 300;
+let liveSearchTimer;
+let searchSeq = 0;
+
 // Artwork mode comes from the server with every search response. The default
 // is off until the server says otherwise, so a text mode deploy renders no
 // images at all. This flag is the swappable artwork layer: one deploy change.
@@ -102,11 +109,24 @@ function renderCard(r) {
   return card;
 }
 
+// The calm idle state: rails and chips only, no stale results left over
+// from the previous query.
+function showIdle() {
+  resultsMeta.hidden = true;
+  resultsMeta.textContent = '';
+  noResults.hidden = true;
+  resultsEl.replaceChildren();
+}
+
 async function runSearch(q) {
-  if (!q.trim()) return;
+  if (!q.trim()) {
+    showIdle();
+    return;
+  }
   const params = new URLSearchParams({ q });
   if (ageFilter.value) params.set('age', ageFilter.value);
   if (vibeFilter.value) params.set('vibe', vibeFilter.value);
+  const seq = ++searchSeq;
   resultsMeta.hidden = false;
   resultsMeta.textContent = 'searching...';
   noResults.hidden = true;
@@ -118,25 +138,37 @@ async function runSearch(q) {
     // The swappable artwork layer: the server reports its mode on every
     // search, so a text mode deploy renders no images at all.
     artworkMode = data.artworkMode === 'text' ? 'text' : 'tmdb';
+    if (seq !== searchSeq) return;
     resultsMeta.textContent = `${data.count} of ${data.storyCount} stories matched · index ${data.version}`;
     if (!data.count) {
       noResults.hidden = false;
       return;
     }
     for (const r of data.results) resultsEl.appendChild(renderCard(r));
-  } catch {
+  } catch (err) {
+    if (seq !== searchSeq) return;
+    console.error('search failed:', err);
     resultsMeta.textContent = 'search is unavailable right now. Try again in a moment.';
   }
 }
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
+  clearTimeout(liveSearchTimer);
   runSearch(input.value);
+});
+
+// Live search: rerun the same fused search while the parent types, updating
+// results in place. Submit and chips stay as alternate triggers.
+input.addEventListener('input', () => {
+  clearTimeout(liveSearchTimer);
+  liveSearchTimer = setTimeout(() => runSearch(input.value), LIVE_SEARCH_DEBOUNCE_MS);
 });
 
 document.addEventListener('click', (e) => {
   const chip = e.target.closest('.chip');
   if (!chip) return;
+  clearTimeout(liveSearchTimer);
   input.value = chip.dataset.q;
   runSearch(chip.dataset.q);
 });
