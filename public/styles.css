@@ -89,7 +89,8 @@ main {
 
 .filters {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
   /* The filters are the first layer now: breathing room below them before the form. */
   margin: 0 0 1.1rem;
   color: var(--muted);
