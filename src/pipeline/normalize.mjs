@@ -21,7 +21,7 @@ export function isBlank(value) {
 /** Trims and collapses whitespace; returns '' for blank input. */
 export function cleanText(value) {
   if (isBlank(value)) return '';
-  return String(value).replace(/\s+/g, ' ').trim();
+  return String(value).replace(/\s+/g, ' ').replace(/\s+([,.;:!?])/g, '$1').trim();
 }
 
 /**

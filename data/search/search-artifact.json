@@ -1,5 +1,5 @@
 {
-  "version": "12ac6ea1abd4ebe9",
+  "version": "8993ef807a38f38d",
   "embedder": "local-hash-v1",
   "embeddingDim": 384,
   "sourceManifest": [
@@ -187,8 +187,8 @@
       "emoji": "🐶🏕️📋",
       "notes": "vibe provisional (felt-energy draft; brand-vs-felt rule undecided). script_vs_synopsis: script adds the end-of-summer deadline, the zero-badges reveal and Snoopy's running-in-circles panic beat the synopsis skips; the manual-as-coach device is stronger on the page.",
       "synopsis": "Snoopy takes action after hearing his troop is at risk of being dissolved. The Beagle Scouts set out to earn their fishing badges.",
-      "perStorySynopsis": "When Snoopy hears Beagle Scout headquarters is ready to dissolve his troop for never earning a single badge, the news sends him into a spiral. A copy of the official manual reframes the crisis: every challenge is a chance to shine, and a summer at camp is the chance to start earning. Snoopy packs his resolve along with the troop's sleeping bags , one step at a time.",
-      "displaySynopsis": "When Snoopy hears Beagle Scout headquarters is ready to dissolve his troop for never earning a single badge, the news sends him into a spiral. A copy of the official manual reframes the crisis: every challenge is a chance to shine, and a summer at camp is the chance to start earning. Snoopy packs his resolve along with the troop's sleeping bags , one step at a time.",
+      "perStorySynopsis": "When Snoopy hears Beagle Scout headquarters is ready to dissolve his troop for never earning a single badge, the news sends him into a spiral. A copy of the official manual reframes the crisis: every challenge is a chance to shine, and a summer at camp is the chance to start earning. Snoopy packs his resolve along with the troop's sleeping bags, one step at a time.",
+      "displaySynopsis": "When Snoopy hears Beagle Scout headquarters is ready to dissolve his troop for never earning a single badge, the news sends him into a spiral. A copy of the official manual reframes the crisis: every challenge is a chance to shine, and a summer at camp is the chance to start earning. Snoopy packs his resolve along with the troop's sleeping bags, one step at a time.",
       "provenance": {
         "workbookId": "wb_Awh3JEB3",
         "workbookName": "Camp Snoopy — Script Dev Set",
