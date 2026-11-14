@@ -59,6 +59,8 @@ export function loadIndex({ artifactPath, dbPath, embedderName } = {}) {
   return {
     version: raw.version,
     storyCount: stories.length,
+    // Series the index knows, for validating the guided reply series facet.
+    seriesTitles: new Set(stories.map((s) => s.seriesTitle)),
     // Direct row access for curated surfaces (the holiday rails): a rail row
     // quotes the artifact's own story row, so a rebuild flows through.
     storyById: (id) => storiesById.get(id) || null,
@@ -76,6 +78,7 @@ export function createMemoryIndex(stories, embedderName) {
   const vectors = stories.map((s) => embedder.embed(vectorInput(s)));
   const byId = new Map(stories.map((s, i) => [s.id, i]));
   return {
+    seriesTitles: new Set(stories.map((s) => s.seriesTitle)),
     search(query, opts = {}) {
       return runSearch({ stories, byId, vectors, db, embedder }, query, opts);
     },
@@ -103,8 +106,35 @@ function normalizeScores(values) {
 }
 
 /**
+ * Facet counts over a matched set of story indexes, for the guided reply
+ * chain: clarifier options derive from what the query actually matched, not
+ * from the whole catalog. Sorted by count, ties alphabetical, so the same
+ * result set always offers the same options.
+ */
+function facetCounts(stories, matchedIdx) {
+  const emotions = new Map();
+  const ageBands = new Map();
+  const series = new Map();
+  for (const i of matchedIdx) {
+    const row = stories[i];
+    for (const e of row.emotions) emotions.set(e, (emotions.get(e) || 0) + 1);
+    if (row.ageBand) ageBands.set(row.ageBand, (ageBands.get(row.ageBand) || 0) + 1);
+    if (row.seriesTitle) series.set(row.seriesTitle, (series.get(row.seriesTitle) || 0) + 1);
+  }
+  const top = (map, key) => [...map.entries()]
+    .map(([value, count]) => ({ [key]: value, count }))
+    .sort((a, b) => b.count - a.count || String(a[key]).localeCompare(String(b[key])));
+  return { emotions: top(emotions, 'term'), ageBands: top(ageBands, 'value'), series: top(series, 'title') };
+}
+
+/**
  * Fused search: FTS5 bm25 plus cosine similarity, with an emotion boost.
- * Options: { ageBand, vibe, emotions, limit }.
+ * Options: { ageBand, vibe, emotions, emotionFacet, series, limit, facets }.
+ * emotionFacet is a single canonical term from a guided reply: an explicit
+ * parent answer, so stories carrying that feeling rank first (fused order
+ * within each group). series is a hard equality filter. With facets set, the
+ * return is { results, facets } where facets counts the full matched set
+ * (before the limit cut).
  */
 export function runSearch(index, query, opts = {}) {
   const { stories, vectors, db, embedder } = index;
@@ -112,6 +142,8 @@ export function runSearch(index, query, opts = {}) {
   const ageBand = opts.ageBand || parsed.ageBand;
   const vibe = opts.vibe || parsed.vibe;
   const emotions = new Set([...(opts.emotions || []), ...parsed.emotions]);
+  const emotionFacet = opts.emotionFacet || null;
+  const series = opts.series || null;
   const limit = opts.limit || 20;
 
   // Hard filters first; a parent who names an age sees only that band.
@@ -120,6 +152,7 @@ export function runSearch(index, query, opts = {}) {
     const row = stories[i];
     if (ageBand && row.ageBand !== ageBand) continue;
     if (vibe && row.vibe !== vibe) continue;
+    if (series && row.seriesTitle !== series) continue;
     eligible.push(i);
   }
 
@@ -150,14 +183,18 @@ export function runSearch(index, query, opts = {}) {
 
   const scored = withRaw.map(({ i }, pos) => {
     const row = stories[i];
+    // Guided reply facet: one point, enough to rank its stories ahead of
+    // everything else while fused order holds inside each group. The 0.15
+    // query-side boost stays as is for emotion words the parent typed.
+    const facetBoost = emotionFacet && row.emotions.includes(emotionFacet) ? 1 : 0;
     const emotionBoost = emotions.size && row.emotions.some((e) => emotions.has(e)) ? 0.15 : 0;
-    const fused = 0.55 * kwScores[pos] + 0.45 * vecScores[pos] + emotionBoost;
+    const fused = 0.55 * kwScores[pos] + 0.45 * vecScores[pos] + facetBoost + emotionBoost;
     return { row, scores: { keyword: round2(kwScores[pos]), vector: round2(vecScores[pos]), fused: round2(fused) } };
   });
 
   scored.sort((a, b) => b.scores.fused - a.scores.fused || a.row.id.localeCompare(b.row.id));
 
-  return scored.slice(0, limit).map(({ row, scores }) => ({
+  const results = scored.slice(0, limit).map(({ row, scores }) => ({
     id: row.id,
     seriesTitle: row.seriesTitle,
     seasonNumber: row.seasonNumber,
@@ -182,6 +219,11 @@ export function runSearch(index, query, opts = {}) {
     filters: { ageBand, vibe },
     interpreted: parsed,
   }));
+
+  if (opts.facets) {
+    return { results, matched: withRaw.length, facets: facetCounts(stories, withRaw.map(({ i }) => i)) };
+  }
+  return results;
 }
 
 function round2(v) {

@@ -44,7 +44,7 @@ function makeElement(id) {
 }
 
 const elements = Object.fromEntries(
-  ['search-form', 'search-input', 'age-filter', 'vibe-filter', 'results', 'results-meta', 'no-results']
+  ['search-form', 'search-input', 'age-filter', 'vibe-filter', 'results', 'results-meta', 'no-results', 'clarifiers', 'clarifier-prompt', 'clarifier-options', 'start-over']
     .map((id) => [id, makeElement(id)]),
 );
 globalThis.document = {

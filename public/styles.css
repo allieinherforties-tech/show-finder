@@ -108,6 +108,38 @@ main {
   margin: 1.5rem 0 0.75rem;
 }
 
+/* Guided replies: one calm row of one tap clarifiers between the count and
+   the results. Same chip shape as the common situations, quiet prompt text. */
+.clarifiers {
+  margin: 0 0 0.75rem;
+}
+
+.clarifier-prompt {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+}
+
+.clarifier-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.start-over {
+  font: inherit;
+  font-size: 0.85rem;
+  background: none;
+  border: none;
+  padding: 0.3rem 0;
+  margin-top: 0.5rem;
+  color: var(--muted);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.start-over:hover { color: var(--ink); }
+
 .results { display: grid; gap: 1rem; }
 
 .card {
