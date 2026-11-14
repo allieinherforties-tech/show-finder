@@ -167,7 +167,16 @@ function renderCard(r) {
     watch.href = r.appleUrl;
     watch.target = '_blank';
     watch.rel = 'noopener noreferrer';
-    watch.textContent = 'Watch on Apple TV+';
+    // The play glyph matches the rails' play-logo buttons: the same asset,
+    // alt empty so the accessible name stays the aria-label alone.
+    const glyph = document.createElement('img');
+    glyph.className = 'watch-icon';
+    glyph.src = '/play-button.png';
+    glyph.alt = '';
+    glyph.width = 44;
+    glyph.height = 40;
+    watch.appendChild(glyph);
+    watch.appendChild(document.createTextNode('Watch on Apple TV+'));
     // Distinct accessible name per card: a links list of twenty identical
     // "Watch on Apple TV+" entries tells a screen reader user nothing.
     watch.setAttribute('aria-label', `Watch ${r.seriesTitle}, season ${r.seasonNumber} episode ${r.episodeNumber}, on Apple TV+`);

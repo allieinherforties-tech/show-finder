@@ -227,7 +227,9 @@ main {
 }
 
 .watch {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   margin-top: 0.7rem;
   padding: 0.4rem 1rem;
   border-radius: 999px;
@@ -239,6 +241,13 @@ main {
 }
 
 .watch:hover { opacity: 0.9; }
+
+/* The play glyph rides inside the pill, sized to the button text. */
+.watch-icon {
+  width: 1.1rem;
+  height: auto;
+  flex: none;
+}
 
 .resolution-label {
   font-weight: 700;
