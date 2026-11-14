@@ -74,9 +74,13 @@ export function createApp({ artifactPath = ARTIFACT_PATH, dbPath = DB_PATH } = {
     const emotionFacet = emotionParam && CANONICAL_EMOTIONS.has(emotionParam) ? emotionParam : undefined;
     const series = seriesParam && index.seriesTitles.has(seriesParam) ? seriesParam : undefined;
     const limit = Math.min(Number(url.searchParams.get('limit')) || 20, 50);
-    if (!q.trim()) {
+    // Filter-first browse: a query with no q is valid when at least one filter
+    // or guided facet names something — the parent is browsing the catalog.
+    // With nothing at all there is nothing to answer.
+    const hasFilter = Boolean(ageBand || vibe || emotionFacet || series);
+    if (!q.trim() && !hasFilter) {
       res.writeHead(400, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ error: 'give the search a situation or a feeling' }));
+      res.end(JSON.stringify({ error: 'give the search a situation or a feeling, or pick a filter' }));
       return;
     }
     const search = index.search(q, { ageBand, vibe, emotionFacet, series, limit, facets: true });

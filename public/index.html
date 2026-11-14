@@ -12,6 +12,24 @@
     <header class="hero">
       <h1>what&rsquo;s your kid going through tonight?</h1>
       <p class="sub">Describe the moment. We find the episode from the Apple TV+ Kids and Family catalog that meets it.</p>
+      <div class="filters" id="filters">
+        <label>Age
+          <select id="age-filter" name="age">
+            <option value="">any</option>
+            <option value="2-4">ages 2 to 4</option>
+            <option value="5-7">ages 5 to 7</option>
+            <option value="8-10">ages 8 to 10</option>
+          </select>
+        </label>
+        <label>Vibe
+          <select id="vibe-filter" name="vibe">
+            <option value="">any</option>
+            <option value="calm">calm</option>
+            <option value="silly">silly</option>
+            <option value="energetic">energetic</option>
+          </select>
+        </label>
+      </div>
       <form id="search-form" role="search">
         <input
           id="search-input"
@@ -32,23 +50,6 @@
         <button class="chip" data-q="big feelings">big feelings</button>
         <button class="chip" data-q="something calm before bed">something calm before bed</button>
       </div>
-      <div class="filters" id="filters">
-        <label>Age
-          <select id="age-filter" name="age">
-            <option value="">any</option>
-            <option value="2-4">ages 2 to 4</option>
-            <option value="5-7">ages 5 to 7</option>
-            <option value="8-10">ages 8 to 10</option>
-          </select>
-        </label>
-        <label>Vibe
-          <select id="vibe-filter" name="vibe">
-            <option value="">any</option>
-            <option value="calm">calm</option>
-            <option value="silly">silly</option>
-            <option value="energetic">energetic</option>
-          </select>
-        </label>
       </div>
     </header>
 
