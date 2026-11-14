@@ -9,7 +9,14 @@ import path from 'node:path';
 
 const DASHES = /[\u2013\u2014]/;
 
-const FILES = ['public/index.html', 'public/app.js', 'public/styles.css', 'README.md', 'AGENTS.md'];
+const FILES = [
+  'public/index.html',
+  'public/app.js',
+  'public/guided-replies.js',
+  'public/styles.css',
+  'README.md',
+  'AGENTS.md',
+];
 
 test('house copy carries zero em or en dashes', async () => {
   for (const file of FILES) {

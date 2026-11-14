@@ -8,6 +8,7 @@ import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadIndex, ARTIFACT_PATH, DB_PATH } from './search/store.mjs';
+import { CANONICAL_EMOTIONS } from './vocabulary.mjs';
 import { applyWaitlistUrl } from './waitlist.mjs';
 import { applyHolidayRails } from './rails.mjs';
 
@@ -65,15 +66,30 @@ export function createApp({ artifactPath = ARTIFACT_PATH, dbPath = DB_PATH } = {
     const q = url.searchParams.get('q') || '';
     const ageBand = url.searchParams.get('age') || undefined;
     const vibe = url.searchParams.get('vibe') || undefined;
+    // Guided reply facets: an emotion reply must be a canonical term, a series
+    // reply must name a series the index knows. Anything else is ignored, and
+    // nothing here is logged or stored; the search stays stateless.
+    const emotionParam = url.searchParams.get('emotion');
+    const seriesParam = url.searchParams.get('series');
+    const emotionFacet = emotionParam && CANONICAL_EMOTIONS.has(emotionParam) ? emotionParam : undefined;
+    const series = seriesParam && index.seriesTitles.has(seriesParam) ? seriesParam : undefined;
     const limit = Math.min(Number(url.searchParams.get('limit')) || 20, 50);
     if (!q.trim()) {
       res.writeHead(400, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: 'give the search a situation or a feeling' }));
       return;
     }
-    const results = index.search(q, { ageBand, vibe, limit });
+    const search = index.search(q, { ageBand, vibe, emotionFacet, series, limit, facets: true });
     res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({ version: index.version, storyCount: index.storyCount, artworkMode: ARTWORK_MODE, count: results.length, results }));
+    res.end(JSON.stringify({
+      version: index.version,
+      storyCount: index.storyCount,
+      artworkMode: ARTWORK_MODE,
+      count: search.results.length,
+      matched: search.matched,
+      facets: search.facets,
+      results: search.results,
+    }));
   }
 
   return createHttpServer((req, res) => {

@@ -1,6 +1,14 @@
-// Frontend for the Phase 1 skeleton: text-only result cards, no artwork.
-// All rendered text lands via textContent, never innerHTML, so catalog data
-// can never inject markup.
+// Frontend for the kid situation finder: text and artwork result cards, live
+// search, and the guided reply chain. All rendered text lands via
+// textContent, never innerHTML, so catalog data can never inject markup.
+
+import {
+  MAX_ROUNDS,
+  deriveClarifiers,
+  parseChainState,
+  chainStateToParams,
+  chainPrompt,
+} from './guided-replies.js';
 
 const form = document.getElementById('search-form');
 const input = document.getElementById('search-input');
@@ -9,6 +17,10 @@ const vibeFilter = document.getElementById('vibe-filter');
 const resultsEl = document.getElementById('results');
 const resultsMeta = document.getElementById('results-meta');
 const noResults = document.getElementById('no-results');
+const clarifiersEl = document.getElementById('clarifiers');
+const clarifierPrompt = document.getElementById('clarifier-prompt');
+const clarifierOptions = document.getElementById('clarifier-options');
+const startOver = document.getElementById('start-over');
 
 // Live search waits for a pause in typing before hitting the API, and a
 // sequence number drops stale responses: a slow reply for an earlier query
@@ -21,6 +33,11 @@ let searchSeq = 0;
 // is off until the server says otherwise, so a text mode deploy renders no
 // images at all. This flag is the swappable artwork layer: one deploy change.
 let artworkMode = 'text';
+
+// Guided reply chain state. The URL is the only place this lives: no
+// localStorage, no cookies, nothing server side. A reply adds one facet and
+// bumps the round; typing free text starts a fresh chain.
+let chain = { q: '', emotion: '', age: '', series: '', round: 0 };
 
 function episodeLabel(r) {
   const seg = r.segmentTitle ? ` · ${r.segmentTitle}` : '';
@@ -116,21 +133,78 @@ function showIdle() {
   resultsMeta.textContent = '';
   noResults.hidden = true;
   resultsEl.replaceChildren();
+  hideClarifiers();
 }
 
-async function runSearch(q) {
-  if (!q.trim()) {
-    showIdle();
+function hideClarifiers() {
+  clarifiersEl.hidden = true;
+  clarifierPrompt.textContent = '';
+  clarifierOptions.replaceChildren();
+  startOver.hidden = true;
+}
+
+// URL parameters are the chain's only memory. history may be absent (tests,
+// non-browser), in which case the state simply is not written anywhere.
+function writeUrl() {
+  if (typeof history === 'undefined' || !history.replaceState || typeof location === 'undefined') return;
+  const params = chainStateToParams({ ...chain, age: ageFilter.value });
+  const qs = params.toString();
+  history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+}
+
+function readUrlState() {
+  if (typeof location === 'undefined') return null;
+  return parseChainState(new URLSearchParams(location.search));
+}
+
+function renderClarifiers(data) {
+  const matched = typeof data.matched === 'number' ? data.matched : data.count;
+  const options = deriveClarifiers(data.facets, { ...chain, age: ageFilter.value }, matched);
+  if (!options.length) {
+    // After the last round the chain is done; leave the exit control only.
+    if (chain.round > 0 && chain.round >= MAX_ROUNDS) {
+      clarifierPrompt.textContent = '';
+      clarifierOptions.replaceChildren();
+      startOver.hidden = false;
+      clarifiersEl.hidden = false;
+    } else {
+      hideClarifiers();
+    }
     return;
   }
-  const params = new URLSearchParams({ q });
+  clarifierPrompt.textContent = chainPrompt(chain.round);
+  clarifierOptions.replaceChildren(
+    ...options.map((o) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip clarifier';
+      btn.dataset.facet = o.facet;
+      btn.dataset.value = o.value;
+      btn.textContent = o.label;
+      return btn;
+    }),
+  );
+  startOver.hidden = false;
+  clarifiersEl.hidden = false;
+}
+
+async function runSearch(state) {
+  if (!state.q.trim()) {
+    showIdle();
+    writeUrl();
+    return;
+  }
+  const params = new URLSearchParams({ q: state.q });
   if (ageFilter.value) params.set('age', ageFilter.value);
   if (vibeFilter.value) params.set('vibe', vibeFilter.value);
+  if (state.emotion) params.set('emotion', state.emotion);
+  if (state.series) params.set('series', state.series);
   const seq = ++searchSeq;
   resultsMeta.hidden = false;
   resultsMeta.textContent = 'searching...';
   noResults.hidden = true;
   resultsEl.replaceChildren();
+  hideClarifiers();
   try {
     const res = await fetch(`/api/search?${params}`);
     if (!res.ok) throw new Error(`search failed: ${res.status}`);
@@ -142,9 +216,13 @@ async function runSearch(q) {
     resultsMeta.textContent = `${data.count} of ${data.storyCount} stories matched · index ${data.version}`;
     if (!data.count) {
       noResults.hidden = false;
+      hideClarifiers();
+      writeUrl();
       return;
     }
     for (const r of data.results) resultsEl.appendChild(renderCard(r));
+    renderClarifiers(data);
+    writeUrl();
   } catch (err) {
     if (seq !== searchSeq) return;
     console.error('search failed:', err);
@@ -152,27 +230,73 @@ async function runSearch(q) {
   }
 }
 
+// A new typed query outranks the chain: facets clear, the round count resets,
+// the age select keeps whatever the parent chose.
+function searchFromText() {
+  chain = { q: input.value, emotion: '', age: '', series: '', round: 0 };
+  runSearch(chain);
+}
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   clearTimeout(liveSearchTimer);
-  runSearch(input.value);
+  searchFromText();
 });
 
 // Live search: rerun the same fused search while the parent types, updating
-// results in place. Submit and chips stay as alternate triggers.
+// results in place. Typing always wins over the chain mid step: it starts a
+// fresh one. Submit and chips stay as alternate triggers.
 input.addEventListener('input', () => {
   clearTimeout(liveSearchTimer);
-  liveSearchTimer = setTimeout(() => runSearch(input.value), LIVE_SEARCH_DEBOUNCE_MS);
+  liveSearchTimer = setTimeout(searchFromText, LIVE_SEARCH_DEBOUNCE_MS);
 });
 
 document.addEventListener('click', (e) => {
   const chip = e.target.closest('.chip');
-  if (!chip) return;
+  // Clarifier buttons share the chip look but are not situations to search.
+  if (!chip || (chip.classList && chip.classList.contains('clarifier'))) return;
   clearTimeout(liveSearchTimer);
   input.value = chip.dataset.q;
-  runSearch(chip.dataset.q);
+  searchFromText();
+});
+
+// A clarifier reply: one facet added, one round spent, the same fused search
+// rerun. The age reply also moves the visible filter so the two stay one.
+document.addEventListener('click', (e) => {
+  const btn = e.target.closest('.clarifier');
+  if (!btn) return;
+  clearTimeout(liveSearchTimer);
+  const facet = btn.dataset.facet;
+  const value = btn.dataset.value;
+  if (facet === 'age') ageFilter.value = value;
+  if (facet === 'emotion') chain.emotion = value;
+  if (facet === 'series') chain.series = value;
+  chain.round += 1;
+  runSearch(chain);
 });
 
 [ageFilter, vibeFilter].forEach((el) => el.addEventListener('change', () => {
-  if (input.value.trim()) runSearch(input.value);
+  if (input.value.trim()) runSearch(chain);
 }));
+
+// The way out of the chain, always visible while it is open.
+startOver.addEventListener('click', () => {
+  clearTimeout(liveSearchTimer);
+  input.value = '';
+  ageFilter.value = '';
+  vibeFilter.value = '';
+  chain = { q: '', emotion: '', age: '', series: '', round: 0 };
+  showIdle();
+  writeUrl();
+});
+
+// A search shared by URL (the chain state lives there) restores itself on
+// load, facets and round included.
+(function restoreFromUrl() {
+  const state = readUrlState();
+  if (!state || !state.q) return;
+  chain = state;
+  input.value = state.q;
+  if (state.age) ageFilter.value = state.age;
+  runSearch(chain);
+})();
