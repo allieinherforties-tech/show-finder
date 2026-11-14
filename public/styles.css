@@ -16,6 +16,10 @@
 
 * { box-sizing: border-box; }
 
+/* Any element the JS marks hidden must actually disappear, even when a later
+   class rule sets display (e.g. .show-more's block, .active-filters' flex). */
+[hidden] { display: none !important; }
+
 body {
   margin: 0;
   font-family: ui-rounded, "SF Pro Rounded", "Segoe UI", system-ui, sans-serif;
@@ -89,7 +93,8 @@ main {
 
 .filters {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
   /* The filters are the first layer now: breathing room below them before the form. */
   margin: 0 0 1.1rem;
   color: var(--muted);
@@ -110,6 +115,37 @@ main {
   font-size: 0.9rem;
   margin: 1.5rem 0 0.75rem;
 }
+
+/* Active filter chips: one row above the results, one tap removes one. */
+.active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0 0.75rem;
+}
+
+.active-filter {
+  border-color: var(--teal);
+  background: var(--teal-soft);
+}
+
+.active-filter:hover { border-color: var(--accent); }
+
+/* Calm paging: one quiet control after the results, no infinite scroll. */
+.show-more {
+  display: block;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--muted);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.5rem 1.2rem;
+  margin: 1rem auto 0;
+  cursor: pointer;
+}
+
+.show-more:hover { background: var(--accent-soft); border-color: var(--accent); color: var(--ink); }
 
 /* Guided replies: one calm row of one tap clarifiers between the count and
    the results. Same chip shape as the common situations, quiet prompt text. */

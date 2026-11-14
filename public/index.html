@@ -13,6 +13,26 @@
       <h1>what&rsquo;s your kid going through tonight?</h1>
       <p class="sub">Describe the moment. We find the episode from the Apple TV+ Kids and Family catalog that meets it.</p>
       <div class="filters" id="filters">
+        <label>Feeling
+          <select id="emotion-filter" name="emotion">
+            <option value="">any</option>
+            <option value="happy">happy</option>
+            <option value="nervous/worried">nervous/worried</option>
+            <option value="frustrated">frustrated</option>
+            <option value="sad">sad</option>
+            <option value="confused">confused</option>
+            <option value="proud">proud</option>
+            <option value="disappointed">disappointed</option>
+            <option value="brave">brave</option>
+            <option value="embarrassed">embarrassed</option>
+            <option value="scared">scared</option>
+            <option value="lonely">lonely</option>
+            <option value="angry">angry</option>
+            <option value="calm">calm</option>
+            <option value="guilty">guilty</option>
+            <option value="jealous">jealous</option>
+          </select>
+        </label>
         <label>Age
           <select id="age-filter" name="age">
             <option value="">any</option>
@@ -27,6 +47,28 @@
             <option value="calm">calm</option>
             <option value="silly">silly</option>
             <option value="energetic">energetic</option>
+          </select>
+        </label>
+        <label>Series
+          <select id="series-filter" name="series">
+            <option value="">any</option>
+            <option>Stillwater</option>
+            <option>Camp Snoopy</option>
+            <option>Sago Mini Friends</option>
+            <option>Ghostwriter</option>
+            <option>Wolfboy and the Everything Factory</option>
+            <option>Get Rolling with Otis</option>
+            <option>Pretzel and the Puppies</option>
+            <option>Shape Island</option>
+            <option>Duck &amp; Goose</option>
+            <option>Interrupting Chicken</option>
+            <option>Doug Unplugs</option>
+            <option>Harriet the Spy</option>
+            <option>WondLa</option>
+            <option>Eva the Owlet</option>
+            <option>Frog and Toad</option>
+            <option>The Sisters Grimm</option>
+            <option>Surfside Girls</option>
           </select>
         </label>
       </div>
@@ -57,6 +99,8 @@
     __HOLIDAY_RAILS__
 
     <section id="results-meta" class="results-meta" aria-live="polite" hidden></section>
+    <!-- One tap removes one filter: mirrors whatever the four dropdowns hold. -->
+    <div id="active-filters" class="active-filters" aria-label="Active filters" hidden></div>
     <section id="clarifiers" class="clarifiers" aria-live="polite" hidden>
       <p id="clarifier-prompt" class="clarifier-prompt"></p>
       <div id="clarifier-options" class="clarifier-options" aria-label="One tap clarifiers"></div>
@@ -64,8 +108,10 @@
     </section>
     <section id="results" class="results" aria-live="polite"></section>
     <section id="no-results" class="no-results" aria-live="polite" hidden>
-      <p>No episode matched. Try the feeling instead: <button class="chip" data-q="big feelings">big feelings</button>, <button class="chip" data-q="frustrated">frustrated</button>, or <button class="chip" data-q="asking for help">asking for help</button>.</p>
+      <p id="no-results-text"></p>
+      <p id="no-results-suggestions" hidden>No episode matched. Try the feeling instead: <button class="chip" data-q="big feelings">big feelings</button>, <button class="chip" data-q="frustrated">frustrated</button>, or <button class="chip" data-q="asking for help">asking for help</button>.</p>
     </section>
+    <button id="show-more" class="show-more" type="button" hidden>show more stories</button>
 
     <section id="waitlist" class="waitlist" aria-label="Parent Pep Talks">
       <h2>Parent Pep Talks</h2>
