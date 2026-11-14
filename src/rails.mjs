@@ -320,6 +320,8 @@ export function resolveHolidayRails(rails, storyById) {
         posterUrl: story.posterUrl || null,
         appleUrl: story.appleUrl || null,
         linkKind: story.appleUrl ? classifyAppleUrl(story.appleUrl) : null,
+        provider: story.provider || null,
+        providerLabel: story.providerLabel || null,
         why: def.why,
       });
     }
@@ -357,11 +359,13 @@ export function renderRailCard(row) {
     .join('');
   const vibeTag = row.vibe ? `<span class="tag aged">${escapeHtml(row.vibe)}</span>` : '';
   // Honest-link rule: the play button renders only on rows with a verified
-  // link. The visible UI never names Apple TV; the accessible name does.
+  // link. The visible UI never names a provider; the accessible name does,
+  // from the row's providerLabel so a future PBS or Disney row needs zero
+  // UI rework.
   // The name carries the segment title too: two stories from one episode can
   // share a rail, and identical accessible names would not distinguish them.
   const watch = row.appleUrl && row.linkKind
-    ? `<a class="watch-play" href="${escapeHtml(row.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Watch on Apple TV: ${escapeHtml(row.seriesTitle)}, ${escapeHtml(row.title)}, season ${row.seasonNumber} episode ${row.episodeNumber}"><img class="watch-play-icon" src="/play-button.png" alt="" width="44" height="40"></a>`
+    ? `<a class="watch-play" href="${escapeHtml(row.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Watch on ${escapeHtml(row.providerLabel)}: ${escapeHtml(row.seriesTitle)}, ${escapeHtml(row.title)}, season ${row.seasonNumber} episode ${row.episodeNumber}"><img class="watch-play-icon" src="/play-button.png" alt="" width="44" height="40"></a>`
     : '';
   // The expanded card view rides inside the card as inert template content:
   // the tapped card carries its own parent-facing fields (situation,

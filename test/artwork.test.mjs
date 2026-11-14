@@ -69,6 +69,23 @@ test('episode stills win, series posters are the fallback, neither means no artw
   });
 });
 
+test('every story row is stamped with its provider, linked or not (backfill ruling)', () => {
+  const index = buildArtworkIndex({ artworkDump: FIXTURE_DUMP, titlesDump: FIXTURE_TITLES, episodesDump: FIXTURE_EPISODES });
+  const stories = [
+    // Episode-level verified link.
+    { id: 'a', seriesTitle: 'Stillwater', seasonNumber: 1, episodeNumber: 4 },
+    // Show-page fallback link.
+    { id: 'b', seriesTitle: 'Doug Unplugs', seasonNumber: 1, episodeNumber: 1 },
+    // No verified link at all.
+    { id: 'c', seriesTitle: 'Unknown Show', seasonNumber: 1, episodeNumber: 1 },
+  ];
+  attachAll(stories, index, FIXTURE_REGISTRY);
+  for (const s of stories) {
+    assert.equal(s.provider, 'apple', `${s.id} carries the provider key`);
+    assert.equal(s.providerLabel, 'Apple TV+', `${s.id} carries the display label`);
+  }
+});
+
 test('a two story episode shares one still, like an episode shares its artwork', () => {
   const index = buildArtworkIndex({ artworkDump: FIXTURE_DUMP, titlesDump: FIXTURE_TITLES, episodesDump: FIXTURE_EPISODES });
   const stories = [

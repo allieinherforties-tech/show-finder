@@ -8,6 +8,7 @@
 // verified deep-link findings. Serving consumes only what the build embeds.
 
 import { appleLinkFor } from '../links/apple-tv.mjs';
+import { PROVIDERS } from '../links/providers.mjs';
 
 export const TMDB_IMAGE_BASE = 'https://image.tmdb.org/t/p';
 
@@ -95,6 +96,13 @@ export function attachArtworkAndLink(story, artworkIndex, appleRegistry) {
   const link = appleLinkFor(story, appleRegistry);
   story.appleUrl = link ? link.url : null;
   story.appleLinkKind = link ? link.kind : null;
+
+  // Provider stamp, per the 2026-11-14 diction ruling. Every row in this
+  // catalog is Apple TV+ content, so the fields do not depend on link
+  // resolution: rows with no verified link carry their provider too. A
+  // future PBS or Disney source stamps its own key and label at this spot.
+  story.provider = PROVIDERS.apple.key;
+  story.providerLabel = PROVIDERS.apple.label;
   return story;
 }
 
