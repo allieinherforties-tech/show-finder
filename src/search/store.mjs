@@ -156,6 +156,13 @@ export function runSearch(index, query, opts = {}) {
     eligible.push(i);
   }
 
+  // Filter-only browse (no free text): relevance has nothing to say, so the
+  // raw relevance floor must not apply — by construction nothing scores above
+  // it and pure-filter queries would return an empty catalog. Eligible rows
+  // pass through in catalog order.
+  const hasText = parsed.text.length > 0;
+  const qvec = hasText ? embedder.embed(parsed.text) : null;
+
   let kw = new Map();
   const match = ftsMatchExpression(parsed.text);
   if (match) {
@@ -170,14 +177,13 @@ export function runSearch(index, query, opts = {}) {
     }
   }
 
-  const qvec = embedder.embed(parsed.text);
   // Raw relevance floor: an item must show real keyword or vector signal before
   // ranking. Without it, max-normalization would hand a lone survivor of a hard
   // filter a perfect score no matter how unrelated it is.
   const RAW_FLOOR = 0.2;
   const withRaw = eligible
-    .map((i) => ({ i, rawKw: kw.get(i) || 0, rawVec: cosine(qvec, vectors[i]) }))
-    .filter(({ rawKw, rawVec }) => rawKw > 0 || rawVec >= RAW_FLOOR);
+    .map((i) => ({ i, rawKw: kw.get(i) || 0, rawVec: hasText ? cosine(qvec, vectors[i]) : 0 }))
+    .filter(({ rawKw, rawVec }) => !hasText || rawKw > 0 || rawVec >= RAW_FLOOR);
   const kwScores = normalizeScores(withRaw.map((r) => r.rawKw));
   const vecScores = normalizeScores(withRaw.map((r) => r.rawVec));
 

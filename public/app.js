@@ -21,6 +21,9 @@ const clarifiersEl = document.getElementById('clarifiers');
 const clarifierPrompt = document.getElementById('clarifier-prompt');
 const clarifierOptions = document.getElementById('clarifier-options');
 const startOver = document.getElementById('start-over');
+// The seasonal rail renders server side above the results; it yields to them
+// and comes back with the idle state. Absent in test shims, hence the guard.
+const seasonRail = document.getElementById('rail-this-season');
 
 // Live search waits for a pause in typing before hitting the API, and a
 // sequence number drops stale responses: a slow reply for an earlier query
@@ -134,6 +137,7 @@ function showIdle() {
   noResults.hidden = true;
   resultsEl.replaceChildren();
   hideClarifiers();
+  if (seasonRail) seasonRail.hidden = false;
 }
 
 function hideClarifiers() {
@@ -188,13 +192,20 @@ function renderClarifiers(data) {
   clarifiersEl.hidden = false;
 }
 
+// A filter or guided facet is a selection even without typed text: the
+// parent is browsing the catalog, and that is a real search.
+function hasFilterSelection(state) {
+  return Boolean(ageFilter.value || vibeFilter.value || state.emotion || state.series);
+}
+
 async function runSearch(state) {
-  if (!state.q.trim()) {
+  if (!state.q.trim() && !hasFilterSelection(state)) {
     showIdle();
     writeUrl();
     return;
   }
-  const params = new URLSearchParams({ q: state.q });
+  const params = new URLSearchParams();
+  if (state.q.trim()) params.set('q', state.q);
   if (ageFilter.value) params.set('age', ageFilter.value);
   if (vibeFilter.value) params.set('vibe', vibeFilter.value);
   if (state.emotion) params.set('emotion', state.emotion);
@@ -217,9 +228,13 @@ async function runSearch(state) {
     if (!data.count) {
       noResults.hidden = false;
       hideClarifiers();
+      if (seasonRail) seasonRail.hidden = false;
       writeUrl();
       return;
     }
+    // Results replace the rail as the thing on screen; it returns with the
+    // idle state.
+    if (seasonRail) seasonRail.hidden = true;
     for (const r of data.results) resultsEl.appendChild(renderCard(r));
     renderClarifiers(data);
     writeUrl();
@@ -275,8 +290,10 @@ document.addEventListener('click', (e) => {
   runSearch(chain);
 });
 
+// Filters are the first layer: a change always searches, even before the
+// parent has typed anything. Clearing every filter returns the idle state.
 [ageFilter, vibeFilter].forEach((el) => el.addEventListener('change', () => {
-  if (input.value.trim()) runSearch(chain);
+  runSearch(chain);
 }));
 
 // The way out of the chain, always visible while it is open.
