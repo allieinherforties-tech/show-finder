@@ -346,6 +346,12 @@ function formatAgeBand(band) {
 export function renderRailCard(row) {
   const art = row.stillUrl || row.posterUrl;
   const artKind = row.stillUrl ? 'Still from' : 'Series poster for';
+  const artAlt = `${artKind} ${row.seriesTitle}, ${row.title}`;
+  // One image element shape for both the card and the dialog banner: same
+  // src (a browser cache hit when the dialog opens) and the same alt text.
+  const artImg = art
+    ? `<img class="rail-still" src="${escapeHtml(art)}" alt="${escapeHtml(artAlt)}" loading="lazy">`
+    : '';
   const tags = row.emotions
     .map((e) => `<span class="tag">${escapeHtml(e)}</span>`)
     .join('');
@@ -364,15 +370,22 @@ export function renderRailCard(row) {
   return [
     '      <article class="rail-card">',
     '        <figure class="rail-still-wrap">',
-    art
-      ? `          <img class="rail-still" src="${escapeHtml(art)}" alt="${escapeHtml(`${artKind} ${row.seriesTitle}, ${row.title}`)}" loading="lazy">`
-      : '',
+    artImg ? `          ${artImg}` : '',
     '        </figure>',
     `        <h3 class="rail-title">${escapeHtml(row.title)}</h3>`,
     `        <p class="rail-ep">${escapeHtml(row.episodeLine)}</p>`,
     `        <div class="tag-row">${tags}${vibeTag}</div>`,
     `        <p class="rail-why">${escapeHtml(row.why)}</p>`,
     '        <template class="rail-detail">',
+    // The dialog banner reuses the card's loaded still or poster (same URL,
+    // same alt text) so the expanded view opens with the artwork Allie
+    // expects. Cards without artwork open imageless, no placeholder. The
+    // figure is inert template content: nothing is fetched until cloned.
+    ...(art ? [
+      '          <figure class="rail-dialog-banner">',
+      `            <img class="rail-dialog-still" src="${escapeHtml(art)}" alt="${escapeHtml(artAlt)}" loading="lazy">`,
+      '          </figure>',
+    ] : []),
     '          <dl class="rail-detail-list">',
     `            <div class="rail-detail-field"><dt>Situation</dt><dd>${escapeHtml(row.situation)}</dd></div>`,
     `            <div class="rail-detail-field"><dt>Ages</dt><dd>${escapeHtml(formatAgeBand(row.ageBand))}</dd></div>`,

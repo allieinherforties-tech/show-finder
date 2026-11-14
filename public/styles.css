@@ -472,6 +472,22 @@ main {
 
 .rail-dialog-body { padding: 1rem; overflow-y: auto; }
 
+/* Dialog artwork banner: the same still or poster the card already loaded,
+   shown as a fixed-height banner (object-fit cover, no filter or overlay)
+   so the story fields stay readable without scrolling on a phone.
+   Artwork-free cards clone no figure at all. */
+.rail-dialog-banner { margin: 0 0 0.95rem; }
+
+.rail-dialog-still {
+  display: block;
+  width: 100%;
+  height: 9rem;
+  max-height: 9rem;
+  object-fit: cover;
+  border-radius: 0.6rem;
+  background: var(--accent-soft);
+}
+
 .rail-detail-list { margin: 0; }
 
 .rail-detail-field { margin-bottom: 0.95rem; }

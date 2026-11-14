@@ -9,7 +9,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { HOLIDAY_RAILS, resolveHolidayRails, renderHolidayRails, applyHolidayRails, HOLIDAY_RAILS_PLACEHOLDER } from '../src/rails.mjs';
+import { HOLIDAY_RAILS, resolveHolidayRails, renderHolidayRails, renderRailCard, applyHolidayRails, HOLIDAY_RAILS_PLACEHOLDER } from '../src/rails.mjs';
 import { classifyAppleUrl } from '../src/links/apple-tv.mjs';
 
 const artifact = JSON.parse(readFileSync('data/search/search-artifact.json', 'utf8'));
@@ -154,4 +154,58 @@ test('the served landing page carries the rail substitution end to end', () => {
   const served = applyHolidayRails(page, storyById);
   assert.equal(served.includes(HOLIDAY_RAILS_PLACEHOLDER), false);
   assert.ok(served.includes('This Season'));
+});
+
+test("every card's detail template carries the dialog banner with the card's image and alt text", () => {
+  // Ruled in the story-details dialog artwork review: the expanded view opens
+  // with the same artwork the card loaded (a cache hit, never a new request),
+  // same alt text, no filter or overlay the card does not apply.
+  const html = renderHolidayRails(resolved);
+  const cards = [...html.matchAll(/<article class="rail-card">[\s\S]*?<\/article>/g)].map((m) => m[0]);
+  assert.equal(cards.length, 50, 'the fixture rails render 50 cards');
+  for (const card of cards) {
+    const cardImg = card.match(/<img class="rail-still"([^>]+)>/);
+    assert.ok(cardImg, 'every rail row on the live rails has artwork');
+    const src = /src="([^"]+)"/.exec(cardImg[1])[1];
+    const alt = /alt="([^"]*)"/.exec(cardImg[1])[1];
+    const template = card.match(/<template class="rail-detail">([\s\S]*?)<\/template>/)[1];
+    const banner = template.match(/<figure class="rail-dialog-banner">\s*<img class="rail-dialog-still"([^>]+)>\s*<\/figure>/);
+    assert.ok(banner, 'the detail template carries the banner figure');
+    const bannerSrc = /src="([^"]+)"/.exec(banner[1])[1];
+    const bannerAlt = /alt="([^"]*)"/.exec(banner[1])[1];
+    assert.equal(bannerSrc, src, 'the banner reuses the exact URL the card loaded');
+    assert.equal(bannerAlt, alt, 'the banner keeps the card image alt text');
+    // The banner sits above the story fields: artwork at the top of the
+    // expanded view.
+    assert.ok(template.indexOf('rail-dialog-banner') < template.indexOf('rail-detail-list'), 'the banner renders above the detail list');
+  }
+});
+
+test('a card with no artwork carries a detail template with no banner and no placeholder', () => {
+  // No live rail row lacks artwork today, so this builds the row by hand:
+  // the imageless path must stay clean if a future row loses its art.
+  const row = {
+    storyId: 'fixture-no-art',
+    title: 'A Quiet Episode',
+    seriesTitle: 'Fixture Series',
+    episodeLine: 'Season 1, episode 1',
+    seasonNumber: 1,
+    episodeNumber: 1,
+    emotions: ['calm'],
+    vibe: 'gentle',
+    why: 'Because the fixture says so.',
+    situation: 'Something quiet happens.',
+    coping: 'It resolves calmly.',
+    displaySynopsis: 'The fixture synopsis.',
+    ageBand: '5-8',
+    stillUrl: null,
+    posterUrl: null,
+    appleUrl: 'https://tv.apple.com/x',
+    linkKind: 'episode',
+  };
+  const html = renderRailCard(row);
+  assert.ok(html.includes('<template class="rail-detail">'), 'the imageless card still carries its detail template');
+  assert.equal(html.includes('rail-dialog-banner'), false, 'no banner figure is rendered');
+  assert.equal(html.includes('rail-dialog-still'), false, 'no image element is rendered');
+  assert.ok(html.includes('<dt>Situation</dt>'), 'the story fields render without artwork');
 });
