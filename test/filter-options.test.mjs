@@ -49,5 +49,6 @@ test('the series dropdown ships exactly the series with at least eight stories',
 test('the series floor excludes the short series, not the catalog', async () => {
   const census = seriesCensus();
   assert.ok(!census.includes('Helpsters Help You'), 'a six story series stays out of the dropdown');
-  assert.equal(census.length, 17);
+  assert.ok(!census.includes('The Sisters Grimm'), 'a series held under the floor by the parent-facing gate stays out until curation re-verifies it');
+  assert.equal(census.length, 16);
 });

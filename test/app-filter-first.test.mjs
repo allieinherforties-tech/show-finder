@@ -87,7 +87,7 @@ function searchResponse(count) {
     json: async () => ({
       artworkMode: 'text',
       count,
-      storyCount: 547,
+      storyCount: 525,
       version: 'test',
       results: count
         ? [{ seriesTitle: 'Stillwater', seasonNumber: 1, episodeNumber: 9, situation: 's', displaySynopsis: 'd', emotions: [] }]

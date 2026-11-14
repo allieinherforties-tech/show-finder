@@ -107,7 +107,7 @@ function response({ matched, results: count }) {
       artworkMode: 'text',
       count,
       matched,
-      storyCount: 547,
+      storyCount: 525,
       version: 'test',
       results: Array.from({ length: count }, (_, i) => resultRow(i + 1)),
     }),

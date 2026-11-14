@@ -105,7 +105,7 @@ function searchResponse(overrides = {}) {
       artworkMode: 'text',
       count: 20,
       matched: 77,
-      storyCount: 547,
+      storyCount: 525,
       version: 'test',
       facets: {
         emotions: [

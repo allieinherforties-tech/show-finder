@@ -14,6 +14,7 @@ import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { cleanText, isPlaceholderRow, normalizeStoryRow, publishProblems, searchableText } from '../src/pipeline/normalize.mjs';
+import { suppressionReasons } from '../src/pipeline/parent-facing.mjs';
 import { attachAll, buildArtworkIndex } from '../src/pipeline/artwork.mjs';
 import { classifyAppleUrl, validateAppleRegistry } from '../src/links/apple-tv.mjs';
 import { createEmbedder, stableVector } from '../src/search/embedder.mjs';
@@ -172,6 +173,20 @@ function main() {
     stories = stories.filter((s) => !isPlaceholderRow(s));
   }
 
+  // Parent-facing gate: rows carrying internal QA annotations in their
+  // parent-facing fields, or whose resolution the curation notes flag as an
+  // unverified synopsis fallback, never reach the artifact a parent's card
+  // can draw from. They land in the validation report for the curation queue
+  // instead, per Allie's 2026-11-14 feedback round.
+  const suppressedFromRender = stories.flatMap((s) => {
+    const reasons = suppressionReasons(s);
+    return reasons.length ? [{ id: s.id, reasons }] : [];
+  });
+  if (suppressedFromRender.length) {
+    const suppressedIds = new Set(suppressedFromRender.map((r) => r.id));
+    stories = stories.filter((s) => !suppressedIds.has(s.id));
+  }
+
   // Publish gate: nothing ships without a real situation and a full tag set.
   const nonConforming = stories.flatMap((s) => {
     const problems = publishProblems(s);
@@ -285,6 +300,10 @@ function main() {
       routedToCuration,
       note: 'Placeholder rows never publish; the curation thread owns tagging them or removing them at the source.',
     },
+    parentFacing: {
+      suppressedFromRender,
+      note: 'Rows with internal QA annotations in parent-facing fields, or with resolutions flagged as unverified synopsis fallbacks, never publish. The curation thread owns re-verifying them at the source.',
+    },
     vocabulary: {
       offListObserved: [...new Set(stories.flatMap((s) => s.emotionOffList))].sort(),
       droppedTraitWords: [...new Set(stories.flatMap((s) => s.emotionDropped ?? []))].sort(),
@@ -301,6 +320,7 @@ function main() {
   console.log(`links:    episode ${artworkCoverage.episodeLinks}, show page ${artworkCoverage.showLinks}, none ${artworkCoverage.noLink}`);
   console.log(`dash findings: ${dashFindings.length} source sheets flagged (see validation-report.json)`);
   console.log(`curation: ${routedToCuration.length} placeholder rows routed to the curation queue (see validation-report.json)`);
+  console.log(`parent-facing gate: ${suppressedFromRender.length} rows held back from render, flagged to curation (see validation-report.json)`);
 }
 
 main();
