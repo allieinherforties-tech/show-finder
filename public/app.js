@@ -14,9 +14,15 @@ const form = document.getElementById('search-form');
 const input = document.getElementById('search-input');
 const ageFilter = document.getElementById('age-filter');
 const vibeFilter = document.getElementById('vibe-filter');
+const emotionFilter = document.getElementById('emotion-filter');
+const seriesFilter = document.getElementById('series-filter');
 const resultsEl = document.getElementById('results');
 const resultsMeta = document.getElementById('results-meta');
+const activeFiltersEl = document.getElementById('active-filters');
+const showMoreBtn = document.getElementById('show-more');
 const noResults = document.getElementById('no-results');
+const noResultsText = document.getElementById('no-results-text');
+const noResultsSuggestions = document.getElementById('no-results-suggestions');
 const clarifiersEl = document.getElementById('clarifiers');
 const clarifierPrompt = document.getElementById('clarifier-prompt');
 const clarifierOptions = document.getElementById('clarifier-options');
@@ -42,6 +48,13 @@ let artworkMode = 'text';
 // bumps the round; typing free text starts a fresh chain.
 let chain = { q: '', emotion: '', age: '', series: '', round: 0 };
 
+// Mobile results paging: the server answer holds the full matched set and the
+// view renders it in calm batches. Nothing about this is remembered anywhere;
+// it dies with the response.
+const RENDER_BATCH = 12;
+let fullResults = [];
+let renderedCount = 0;
+
 function episodeLabel(r) {
   const seg = r.segmentTitle ? ` · ${r.segmentTitle}` : '';
   return `S${r.seasonNumber} E${r.episodeNumber}${seg}`;
@@ -53,6 +66,41 @@ function tagLine(r) {
   if (r.vibe) parts.push(r.vibe);
   if (r.emotions.length) parts.push(r.emotions.join(', '));
   return parts.join(' · ');
+}
+
+// The dropdowns are the one home of the filter state; the guided replies write
+// into them, exactly as the age reply always has. Test shims may lack the new
+// elements, so the chain fields stand in when they are absent.
+function activeEmotion() {
+  return emotionFilter ? emotionFilter.value : chain.emotion;
+}
+
+function activeSeries() {
+  return seriesFilter ? seriesFilter.value : chain.series;
+}
+
+/** The active filters as one row of { facet, value, label }, in dropdown order. */
+export function activeFilterChips(age, vibe, emotion, series) {
+  const chips = [];
+  if (age) chips.push({ facet: 'age', value: age, label: `ages ${age}` });
+  if (vibe) chips.push({ facet: 'vibe', value: vibe, label: `vibe: ${vibe}` });
+  if (emotion) chips.push({ facet: 'emotion', value: emotion, label: `feeling: ${emotion}` });
+  if (series) chips.push({ facet: 'series', value: series, label: `series: ${series}` });
+  return chips;
+}
+
+/** The live count line: '23 stories match · ages 5-7 · feeling: sad'. */
+export function countLine(matched, filters) {
+  const noun = matched === 1 ? 'story matches' : 'stories match';
+  return [`${matched} ${noun}`, ...activeFilterChips(
+    filters.age, filters.vibe, filters.emotion, filters.series,
+  ).map((c) => c.label)].join(' · ');
+}
+
+/** The warm zero-result sentence: names what the parent asked for. */
+export function zeroResultLine(filters) {
+  const chips = activeFilterChips(filters.age, filters.vibe, filters.emotion, filters.series);
+  return `nothing matches ${chips.map((c) => c.label).join(' + ')}. try removing one filter:`;
 }
 
 function renderCard(r) {
@@ -135,9 +183,39 @@ function showIdle() {
   resultsMeta.hidden = true;
   resultsMeta.textContent = '';
   noResults.hidden = true;
+  activeFiltersEl.hidden = true;
+  activeFiltersEl.replaceChildren();
+  showMoreBtn.hidden = true;
+  fullResults = [];
+  renderedCount = 0;
   resultsEl.replaceChildren();
   hideClarifiers();
   if (seasonRail) seasonRail.hidden = false;
+}
+
+// One chip per active filter, one tap removes it. Mirrors all four dropdowns.
+function renderActiveFilters() {
+  const chips = activeFilterChips(ageFilter.value, vibeFilter.value, activeEmotion(), activeSeries());
+  activeFiltersEl.replaceChildren(...chips.map((c) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'chip active-filter';
+    btn.dataset.facet = c.facet;
+    btn.dataset.value = c.value;
+    btn.textContent = c.label;
+    btn.setAttribute('aria-label', `remove the ${c.label} filter`);
+    return btn;
+  }));
+  activeFiltersEl.hidden = chips.length === 0;
+}
+
+// Renders the next calm batch of cards and shows the control only when more
+// of the matched set is waiting.
+function renderNextBatch() {
+  const next = fullResults.slice(renderedCount, renderedCount + RENDER_BATCH);
+  renderedCount += next.length;
+  for (const r of next) resultsEl.appendChild(renderCard(r));
+  showMoreBtn.hidden = renderedCount >= fullResults.length;
 }
 
 function hideClarifiers() {
@@ -151,7 +229,7 @@ function hideClarifiers() {
 // non-browser), in which case the state simply is not written anywhere.
 function writeUrl() {
   if (typeof history === 'undefined' || !history.replaceState || typeof location === 'undefined') return;
-  const params = chainStateToParams({ ...chain, age: ageFilter.value });
+  const params = chainStateToParams({ ...currentFilters(chain), round: chain.round });
   const qs = params.toString();
   history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
 }
@@ -163,7 +241,7 @@ function readUrlState() {
 
 function renderClarifiers(data) {
   const matched = typeof data.matched === 'number' ? data.matched : data.count;
-  const options = deriveClarifiers(data.facets, { ...chain, age: ageFilter.value }, matched);
+  const options = deriveClarifiers(data.facets, { ...chain, age: ageFilter.value, emotion: activeEmotion(), series: activeSeries() }, matched);
   if (!options.length) {
     // After the last round the chain is done; leave the exit control only.
     if (chain.round > 0 && chain.round >= MAX_ROUNDS) {
@@ -192,28 +270,41 @@ function renderClarifiers(data) {
   clarifiersEl.hidden = false;
 }
 
-// A filter or guided facet is a selection even without typed text: the
-// parent is browsing the catalog, and that is a real search.
-function hasFilterSelection(state) {
-  return Boolean(ageFilter.value || vibeFilter.value || state.emotion || state.series);
+// The filter state as one object, dropdowns first: the count line, the chips,
+// and the URL all describe the same thing the search used.
+function currentFilters(state) {
+  return {
+    q: state.q,
+    age: ageFilter.value,
+    vibe: vibeFilter.value,
+    emotion: activeEmotion(),
+    series: activeSeries(),
+  };
 }
 
 async function runSearch(state) {
-  if (!state.q.trim() && !hasFilterSelection(state)) {
+  const filters = currentFilters(state);
+  if (!filters.q.trim() && !(filters.age || filters.vibe || filters.emotion || filters.series)) {
     showIdle();
     writeUrl();
     return;
   }
   const params = new URLSearchParams();
-  if (state.q.trim()) params.set('q', state.q);
-  if (ageFilter.value) params.set('age', ageFilter.value);
-  if (vibeFilter.value) params.set('vibe', vibeFilter.value);
-  if (state.emotion) params.set('emotion', state.emotion);
-  if (state.series) params.set('series', state.series);
+  if (filters.q.trim()) params.set('q', filters.q);
+  if (filters.age) params.set('age', filters.age);
+  if (filters.vibe) params.set('vibe', filters.vibe);
+  if (filters.emotion) params.set('emotion', filters.emotion);
+  if (filters.series) params.set('series', filters.series);
+  // The whole matched set, paged in the view: the server keeps no offset and
+  // no state, the way it keeps no log.
+  params.set('limit', '600');
   const seq = ++searchSeq;
   resultsMeta.hidden = false;
   resultsMeta.textContent = 'searching...';
   noResults.hidden = true;
+  showMoreBtn.hidden = true;
+  fullResults = [];
+  renderedCount = 0;
   resultsEl.replaceChildren();
   hideClarifiers();
   try {
@@ -224,8 +315,16 @@ async function runSearch(state) {
     // search, so a text mode deploy renders no images at all.
     artworkMode = data.artworkMode === 'text' ? 'text' : 'tmdb';
     if (seq !== searchSeq) return;
-    resultsMeta.textContent = `${data.count} of ${data.storyCount} stories matched · index ${data.version}`;
-    if (!data.count) {
+    const matched = typeof data.matched === 'number' ? data.matched : data.count;
+    resultsMeta.textContent = countLine(matched, filters);
+    renderActiveFilters();
+    if (!matched) {
+      // Warm and recoverable: name what the parent asked for and hand the
+      // removal chips right back. The suggestion chips stay for text searches.
+      noResultsText.textContent = filters.age || filters.vibe || filters.emotion || filters.series
+        ? zeroResultLine(filters)
+        : '';
+      noResultsSuggestions.hidden = Boolean(noResultsText.textContent);
       noResults.hidden = false;
       hideClarifiers();
       if (seasonRail) seasonRail.hidden = false;
@@ -235,7 +334,8 @@ async function runSearch(state) {
     // Results replace the rail as the thing on screen; it returns with the
     // idle state.
     if (seasonRail) seasonRail.hidden = true;
-    for (const r of data.results) resultsEl.appendChild(renderCard(r));
+    fullResults = data.results;
+    renderNextBatch();
     renderClarifiers(data);
     writeUrl();
   } catch (err) {
@@ -268,15 +368,17 @@ input.addEventListener('input', () => {
 
 document.addEventListener('click', (e) => {
   const chip = e.target.closest('.chip');
-  // Clarifier buttons share the chip look but are not situations to search.
-  if (!chip || (chip.classList && chip.classList.contains('clarifier'))) return;
+  // Clarifier buttons share the chip look but are not situations to search,
+  // and active filter chips remove a filter in their own handler above.
+  if (!chip || (chip.classList && (chip.classList.contains('clarifier') || chip.classList.contains('active-filter')))) return;
   clearTimeout(liveSearchTimer);
   input.value = chip.dataset.q;
   searchFromText();
 });
 
 // A clarifier reply: one facet added, one round spent, the same fused search
-// rerun. The age reply also moves the visible filter so the two stay one.
+// rerun. Each reply moves the visible filter it answers, so the dropdown and
+// the chain stay one thing, exactly as the age reply always has.
 document.addEventListener('click', (e) => {
   const btn = e.target.closest('.clarifier');
   if (!btn) return;
@@ -284,17 +386,46 @@ document.addEventListener('click', (e) => {
   const facet = btn.dataset.facet;
   const value = btn.dataset.value;
   if (facet === 'age') ageFilter.value = value;
-  if (facet === 'emotion') chain.emotion = value;
-  if (facet === 'series') chain.series = value;
+  if (facet === 'emotion') {
+    chain.emotion = value;
+    if (emotionFilter) emotionFilter.value = value;
+  }
+  if (facet === 'series') {
+    chain.series = value;
+    if (seriesFilter) seriesFilter.value = value;
+  }
   chain.round += 1;
   runSearch(chain);
 });
 
 // Filters are the first layer: a change always searches, even before the
 // parent has typed anything. Clearing every filter returns the idle state.
-[ageFilter, vibeFilter].forEach((el) => el.addEventListener('change', () => {
+[ageFilter, vibeFilter, emotionFilter, seriesFilter].filter(Boolean).forEach((el) => {
+  el.addEventListener('change', () => {
+    runSearch(chain);
+  });
+});
+
+// One tap on an active filter chip removes that filter and searches again.
+// Handled before the common situations chips below, which search by text.
+document.addEventListener('click', (e) => {
+  const btn = e.target.closest('.active-filter');
+  if (!btn) return;
+  clearTimeout(liveSearchTimer);
+  const facet = btn.dataset.facet;
+  if (facet === 'age') ageFilter.value = '';
+  if (facet === 'vibe') vibeFilter.value = '';
+  if (facet === 'emotion') {
+    chain.emotion = '';
+    if (emotionFilter) emotionFilter.value = '';
+  }
+  if (facet === 'series') {
+    chain.series = '';
+    if (seriesFilter) seriesFilter.value = '';
+  }
+  chain.round = 0;
   runSearch(chain);
-}));
+});
 
 // The way out of the chain, always visible while it is open.
 startOver.addEventListener('click', () => {
@@ -302,18 +433,29 @@ startOver.addEventListener('click', () => {
   input.value = '';
   ageFilter.value = '';
   vibeFilter.value = '';
+  if (emotionFilter) emotionFilter.value = '';
+  if (seriesFilter) seriesFilter.value = '';
   chain = { q: '', emotion: '', age: '', series: '', round: 0 };
   showIdle();
   writeUrl();
+});
+
+// Calm paging: one tap renders one more batch of the already fetched set.
+showMoreBtn.addEventListener('click', () => {
+  renderNextBatch();
 });
 
 // A search shared by URL (the chain state lives there) restores itself on
 // load, facets and round included.
 (function restoreFromUrl() {
   const state = readUrlState();
-  if (!state || !state.q) return;
+  if (!state) return;
+  const hasState = state.q || state.emotion || state.age || state.series;
+  if (!hasState) return;
   chain = state;
   input.value = state.q;
   if (state.age) ageFilter.value = state.age;
+  if (state.emotion && emotionFilter) emotionFilter.value = state.emotion;
+  if (state.series && seriesFilter) seriesFilter.value = state.series;
   runSearch(chain);
 })();

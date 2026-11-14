@@ -44,7 +44,7 @@ function makeElement(id) {
 }
 
 const elements = Object.fromEntries(
-  ['search-form', 'search-input', 'age-filter', 'vibe-filter', 'results', 'results-meta', 'no-results', 'clarifiers', 'clarifier-prompt', 'clarifier-options', 'start-over']
+  ['search-form', 'search-input', 'age-filter', 'vibe-filter', 'emotion-filter', 'series-filter', 'results', 'results-meta', 'active-filters', 'show-more', 'no-results', 'no-results-text', 'no-results-suggestions', 'clarifiers', 'clarifier-prompt', 'clarifier-options', 'start-over']
     .map((id) => [id, makeElement(id)]),
 );
 globalThis.document = {
@@ -140,7 +140,7 @@ test('a stale slow response never overwrites fresh results', async () => {
 
   assert.equal(fetchCalls.length, 2);
   assert.equal(results.children.length, 1);
-  assert.match(resultsMeta.textContent, /2 of 547/, 'the newest query wins');
+  assert.match(resultsMeta.textContent, /2 stories match/, 'the newest query wins');
 });
 
 test('fetch failures are logged and surfaced, never swallowed', async () => {

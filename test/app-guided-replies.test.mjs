@@ -52,9 +52,10 @@ function makeElement(id) {
 }
 
 const ids = [
-  'search-form', 'search-input', 'age-filter', 'vibe-filter', 'results',
-  'results-meta', 'no-results', 'clarifiers', 'clarifier-prompt',
-  'clarifier-options', 'start-over',
+  'search-form', 'search-input', 'age-filter', 'vibe-filter', 'emotion-filter',
+  'series-filter', 'results', 'results-meta', 'active-filters', 'show-more',
+  'no-results', 'no-results-text', 'no-results-suggestions', 'clarifiers',
+  'clarifier-prompt', 'clarifier-options', 'start-over',
 ];
 const elements = Object.fromEntries(ids.map((id) => [id, makeElement(id)]));
 globalThis.document = {
@@ -90,6 +91,8 @@ const clarifiers = elements.clarifiers;
 const clarifierOptions = elements['clarifier-options'];
 const startOver = elements['start-over'];
 const ageFilter = elements['age-filter'];
+const emotionFilter = elements['emotion-filter'];
+const seriesFilter = elements['series-filter'];
 
 function clarifierButtons() {
   return clarifierOptions.children.filter((c) => c.className.includes('clarifier'));
@@ -128,6 +131,8 @@ function reset({ fetch: impl } = {}) {
   if (impl) fetchImpl = impl;
   input.value = '';
   ageFilter.value = '';
+  emotionFilter.value = '';
+  seriesFilter.value = '';
   results.replaceChildren();
   clarifiers.hidden = true;
   clarifierOptions.replaceChildren();
@@ -206,8 +211,11 @@ test('typing free text mid chain starts a fresh chain', async () => {
 
   assert.equal(fetchCalls.length, 1);
   assert.match(fetchCalls[0], /q=michael\+drops\+a\+baseball/);
-  assert.equal(/emotion=/.test(fetchCalls[0]), false, 'facets cleared by typing');
   assert.equal(/r=/.test(fetchCalls[0]), false, 'round count reset by typing');
+  // The guided chain state (rounds, facets as chain memory) is gone, but the
+  // visible feeling filter persists through typing, exactly like the age
+  // select has always done: the dropdowns and chips still describe the search.
+  assert.match(fetchCalls[0], /emotion=frustrated/, 'the visible feeling filter persists');
 });
 
 test('an age reply moves the visible filter with it', async () => {

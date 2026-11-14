@@ -21,6 +21,9 @@ import { applyHolidayRails } from './rails.mjs';
 export const ARTWORK_MODE = process.env.ARTWORK_MODE === 'text' ? 'text' : 'tmdb';
 
 const PUBLIC_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public');
+// Upper bound on the limit parameter: the client fetches the full matched set
+// and pages it in the view, so the cap only needs to sit above storyCount.
+const MAX_LIMIT = 600;
 const CONTENT_TYPES = {
   '.html': 'text/html; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
@@ -68,14 +71,18 @@ export function createApp({ artifactPath = ARTIFACT_PATH, dbPath = DB_PATH } = {
     const q = url.searchParams.get('q') || '';
     const ageBand = url.searchParams.get('age') || undefined;
     const vibe = url.searchParams.get('vibe') || undefined;
-    // Guided reply facets: an emotion reply must be a canonical term, a series
-    // reply must name a series the index knows. Anything else is ignored, and
-    // nothing here is logged or stored; the search stays stateless.
+    // Emotion and series filters: an emotion must be a canonical term, a
+    // series must name a series the index knows. Both are hard filters, from
+    // the dropdowns and from guided replies alike. Anything else is ignored,
+    // and nothing here is logged or stored; the search stays stateless.
     const emotionParam = url.searchParams.get('emotion');
     const seriesParam = url.searchParams.get('series');
     const emotionFacet = emotionParam && CANONICAL_EMOTIONS.has(emotionParam) ? emotionParam : undefined;
     const series = seriesParam && index.seriesTitles.has(seriesParam) ? seriesParam : undefined;
-    const limit = Math.min(Number(url.searchParams.get('limit')) || 20, 50);
+    // The client fetches the whole matched set and pages it in the view
+    // (12 cards at a time behind a show more control), so the cap is above
+    // the catalog size. No offset, no paging state server side.
+    const limit = Math.min(Number(url.searchParams.get('limit')) || 20, MAX_LIMIT);
     // Filter-first browse: a query with no q is valid when at least one filter
     // or guided facet names something — the parent is browsing the catalog.
     // With nothing at all there is nothing to answer.

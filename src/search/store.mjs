@@ -130,11 +130,12 @@ function facetCounts(stories, matchedIdx) {
 /**
  * Fused search: FTS5 bm25 plus cosine similarity, with an emotion boost.
  * Options: { ageBand, vibe, emotions, emotionFacet, series, limit, facets }.
- * emotionFacet is a single canonical term from a guided reply: an explicit
- * parent answer, so stories carrying that feeling rank first (fused order
- * within each group). series is a hard equality filter. With facets set, the
- * return is { results, facets } where facets counts the full matched set
- * (before the limit cut).
+ * emotionFacet is a single canonical term from a filter or a guided reply: an
+ * explicit parent answer, so it is a hard filter that matches any of the
+ * emotions a story carries (OR within the row), exactly like age and vibe.
+ * series is a hard equality filter. With facets set, the return is
+ * { results, facets } where facets counts the full matched set (before the
+ * limit cut).
  */
 export function runSearch(index, query, opts = {}) {
   const { stories, vectors, db, embedder } = index;
@@ -152,6 +153,8 @@ export function runSearch(index, query, opts = {}) {
     const row = stories[i];
     if (ageBand && row.ageBand !== ageBand) continue;
     if (vibe && row.vibe !== vibe) continue;
+    // Stories may carry several emotions: the term matches any of them.
+    if (emotionFacet && !row.emotions.includes(emotionFacet)) continue;
     if (series && row.seriesTitle !== series) continue;
     eligible.push(i);
   }
@@ -189,12 +192,11 @@ export function runSearch(index, query, opts = {}) {
 
   const scored = withRaw.map(({ i }, pos) => {
     const row = stories[i];
-    // Guided reply facet: one point, enough to rank its stories ahead of
-    // everything else while fused order holds inside each group. The 0.15
-    // query-side boost stays as is for emotion words the parent typed.
-    const facetBoost = emotionFacet && row.emotions.includes(emotionFacet) ? 1 : 0;
+    // The 0.15 query-side boost stays for emotion words the parent typed;
+    // the emotion and series facets are hard filters upstream, so no facet
+    // boost is needed here.
     const emotionBoost = emotions.size && row.emotions.some((e) => emotions.has(e)) ? 0.15 : 0;
-    const fused = 0.55 * kwScores[pos] + 0.45 * vecScores[pos] + facetBoost + emotionBoost;
+    const fused = 0.55 * kwScores[pos] + 0.45 * vecScores[pos] + emotionBoost;
     return { row, scores: { keyword: round2(kwScores[pos]), vector: round2(vecScores[pos]), fused: round2(fused) } };
   });
 
