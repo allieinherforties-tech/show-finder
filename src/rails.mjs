@@ -21,7 +21,7 @@ export const HOLIDAY_RAILS = [
   {
     id: 'rail-this-season',
     title: 'This Season',
-    sub: 'Cozy seasonal stories for the weeks ahead: episodes about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights.',
+    sub: 'Cozy seasonal stories for the weeks ahead, all about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights.',
     rows: [
       {
         // Thanksgiving first: six rows.
@@ -87,7 +87,7 @@ export const HOLIDAY_RAILS = [
   {
     id: 'rail-something-new',
     title: 'Something New',
-    sub: 'First days, new places, wobbly tries: episodes for the nervous feeling that comes before something new, and the brave that comes after it.',
+    sub: 'First days, new places, wobbly tries. Each story starts with the nervous feeling before something new and ends with the brave after it.',
     rows: [
       {
         storyId: 'camp-snoopy-s1-e1-seg1',
@@ -134,7 +134,7 @@ export const HOLIDAY_RAILS = [
   {
     id: 'rail-big-feelings',
     title: 'Big Feelings',
-    sub: 'For the nights when it all boils over: episodes where kids get angry, frustrated, and impatient, and find their way back.',
+    sub: 'For the nights when it all boils over: kids get angry, frustrated, and impatient, then find their way back.',
     rows: [
       {
         storyId: 'camp-snoopy-s1-e3-seg2',
@@ -181,7 +181,7 @@ export const HOLIDAY_RAILS = [
   {
     id: 'rail-friendship-trouble',
     title: 'Friendship Trouble',
-    sub: 'Left out, left behind, or sorry after a fight: episodes about the rough parts of friendship and how kids make their way back.',
+    sub: 'Left out, left behind, or sorry after a fight? The rough parts of friendship, and how kids find each other again.',
     rows: [
       {
         storyId: 'camp-snoopy-s1-e10-seg1',
@@ -228,7 +228,7 @@ export const HOLIDAY_RAILS = [
   {
     id: 'rail-wind-down',
     title: 'Wind-Down',
-    sub: 'Slow, gentle stories for the end of the day: calm episodes that meet a tired kid where they are and don\'t wind anybody up.',
+    sub: 'Slow, gentle stories for the end of the day. Calm ones that meet a tired kid where they are and don\'t wind anybody up.',
     rows: [
       {
         storyId: 'pretzel-and-the-puppies-s2-e2-seg2',
@@ -313,6 +313,8 @@ export function resolveHolidayRails(rails, storyById) {
         ageBand: story.ageBand,
         vibe: story.vibe,
         emotions: story.emotions,
+        situation: story.situation,
+        coping: story.coping,
         displaySynopsis: story.displaySynopsis,
         stillUrl: story.stillUrl || null,
         posterUrl: story.posterUrl || null,
@@ -334,6 +336,12 @@ function escapeHtml(text) {
     .replace(/"/g, '&quot;');
 }
 
+/** Age bands read like the filter labels: '2-4' becomes 'ages 2 to 4'. */
+function formatAgeBand(band) {
+  const m = /^([\d]+)-([\d]+)$/.exec(band || '');
+  return m ? `ages ${m[1]} to ${m[2]}` : band || 'all ages';
+}
+
 /** One rail card. All text is escaped; catalog data can never inject markup. */
 export function renderRailCard(row) {
   const art = row.stillUrl || row.posterUrl;
@@ -349,6 +357,10 @@ export function renderRailCard(row) {
   const watch = row.appleUrl && row.linkKind
     ? `<a class="watch-play" href="${escapeHtml(row.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Watch on Apple TV: ${escapeHtml(row.seriesTitle)}, ${escapeHtml(row.title)}, season ${row.seasonNumber} episode ${row.episodeNumber}"><img class="watch-play-icon" src="/play-button.png" alt="" width="44" height="40"></a>`
     : '';
+  // The expanded card view rides inside the card as inert template content:
+  // the tapped card carries its own parent-facing fields (situation,
+  // resolution, synopsis), so nothing is stored and nothing is fetched.
+  // 'coping' is the field key; 'Resolution' is its display label.
   return [
     '      <article class="rail-card">',
     '        <figure class="rail-still-wrap">',
@@ -360,6 +372,16 @@ export function renderRailCard(row) {
     `        <p class="rail-ep">${escapeHtml(row.episodeLine)}</p>`,
     `        <div class="tag-row">${tags}${vibeTag}</div>`,
     `        <p class="rail-why">${escapeHtml(row.why)}</p>`,
+    '        <template class="rail-detail">',
+    '          <dl class="rail-detail-list">',
+    `            <div class="rail-detail-field"><dt>Situation</dt><dd>${escapeHtml(row.situation)}</dd></div>`,
+    `            <div class="rail-detail-field"><dt>Ages</dt><dd>${escapeHtml(formatAgeBand(row.ageBand))}</dd></div>`,
+    `            <div class="rail-detail-field"><dt>Feelings</dt><dd>${tags || 'not tagged'}</dd></div>`,
+    `            <div class="rail-detail-field"><dt>Resolution</dt><dd>${escapeHtml(row.coping)}</dd></div>`,
+    `            <div class="rail-detail-field"><dt>What happens</dt><dd>${escapeHtml(row.displaySynopsis)}</dd></div>`,
+    '          </dl>',
+    '        </template>',
+    '        <button class="rail-card-more" type="button" aria-haspopup="dialog">Story details</button>',
     ...(watch ? ['        <div class="rail-actions">', `          ${watch}`, '        </div>'] : []),
     '      </article>',
   ].filter((line) => line !== '').join('\n');

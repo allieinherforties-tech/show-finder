@@ -22,9 +22,29 @@ test('app.js never looks up an id the page does not ship', () => {
   assert.deepEqual(missing, [], 'every getElementById target must be in index.html');
 });
 
-test('the four filter dropdowns and the results surfaces ship', () => {
-  for (const id of ['emotion-filter', 'series-filter', 'age-filter', 'vibe-filter', 'active-filters', 'show-more', 'results-meta', 'no-results-text', 'no-results-suggestions']) {
+test('the three filter dropdowns and the results surfaces ship', () => {
+  for (const id of ['emotion-filter', 'age-filter', 'vibe-filter', 'active-filters', 'show-more', 'results-meta', 'no-results-text', 'no-results-suggestions']) {
     assert.ok(html.includes(`id="${id}"`), `index.html must ship #${id}`);
+  }
+});
+
+test('the Series dropdown is retired from the filter row', () => {
+  // Ruled 2026-11-14 (Decision Memo: The Series Dropdown): the dropdown
+  // misstates coverage against the 90-title catalog; series-led discovery
+  // moves to a purpose-built poster surface in v1.1. The server-side series
+  // facet stays: clarifier chips and shared URLs still filter by series.
+  assert.equal(html.includes('series-filter'), false);
+});
+
+test('story-match surfaces sit above the rails in the page', () => {
+  // Episode recommendations outrank browsing, always: even the searching and
+  // zero-match states render above the rails, never below them.
+  const surfaces = ['results-meta', 'active-filters', 'clarifiers', 'results', 'no-results', 'show-more'];
+  const railsAt = html.indexOf('__HOLIDAY_RAILS__');
+  assert.ok(railsAt > 0, 'the rails placeholder ships in the page');
+  for (const id of surfaces) {
+    const at = html.indexOf(`id="${id}"`);
+    assert.ok(at >= 0 && at < railsAt, `#${id} must sit above the rails`);
   }
 });
 

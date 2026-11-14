@@ -416,7 +416,7 @@ export function loadStoryRows() {
       // Mirror the build's collectStories exactly: provenance carries the
       // sheet-level defaultSeriesTitle (the Stillwater tags sheet omits
       // series_title), and placeholder rows (no situation, no synopsis) are
-      // excluded — that is how the published 547-row set is defined.
+      // excluded — that is how the published parent-facing row set is defined.
       const story = normalizeStoryRow(raw, {
         workbookId: src.workbookId,
         workbookName: src.workbookName,

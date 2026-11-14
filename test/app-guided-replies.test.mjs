@@ -53,7 +53,7 @@ function makeElement(id) {
 
 const ids = [
   'search-form', 'search-input', 'age-filter', 'vibe-filter', 'emotion-filter',
-  'series-filter', 'results', 'results-meta', 'active-filters', 'show-more',
+  'results', 'results-meta', 'active-filters', 'show-more',
   'no-results', 'no-results-text', 'no-results-suggestions', 'clarifiers',
   'clarifier-prompt', 'clarifier-options', 'start-over',
 ];
@@ -92,7 +92,6 @@ const clarifierOptions = elements['clarifier-options'];
 const startOver = elements['start-over'];
 const ageFilter = elements['age-filter'];
 const emotionFilter = elements['emotion-filter'];
-const seriesFilter = elements['series-filter'];
 
 function clarifierButtons() {
   return clarifierOptions.children.filter((c) => c.className.includes('clarifier'));
@@ -105,7 +104,7 @@ function searchResponse(overrides = {}) {
       artworkMode: 'text',
       count: 20,
       matched: 77,
-      storyCount: 547,
+      storyCount: 525,
       version: 'test',
       facets: {
         emotions: [
@@ -132,7 +131,6 @@ function reset({ fetch: impl } = {}) {
   input.value = '';
   ageFilter.value = '';
   emotionFilter.value = '';
-  seriesFilter.value = '';
   results.replaceChildren();
   clarifiers.hidden = true;
   clarifierOptions.replaceChildren();

@@ -28,11 +28,12 @@ test('an emotion filter matches any of the emotions a story carries', async () =
 });
 
 test('the emotion filter respects the corpus census', async () => {
-  // 128 nervous/worried stories in the 547 story artifact (verified 2026 11 14).
+  // 120 nervous/worried and 159 happy stories in the 525 story artifact
+  // (547 minus the 22 rows the parent-facing gate holds back; verified 2026 11 14).
   const { body } = await apiSearch(`?emotion=${encodeURIComponent('nervous/worried')}&limit=600`);
-  assert.equal(body.matched, 128);
+  assert.equal(body.matched, 120);
   const happy = await apiSearch('?emotion=happy&limit=600');
-  assert.equal(happy.body.matched, 170);
+  assert.equal(happy.body.matched, 159);
 });
 
 test('a series filter narrows to that series only', async () => {

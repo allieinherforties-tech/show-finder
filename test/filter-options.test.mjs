@@ -1,8 +1,8 @@
-// The Feeling and Series dropdown options are static markup, so a test holds
-// them in step with the artifact: exactly the terms and series with at least
-// eight stories, in census order (count desc, ties alphabetical). A term that
-// crosses or falls below the floor, or a series that gains or loses stories,
-// fails here until the markup is updated on purpose.
+// The Feeling dropdown options are static markup, so a test holds them in
+// step with the artifact: exactly the terms with at least eight stories, in
+// census order (count desc, ties alphabetical). A term that crosses or falls
+// below the floor fails here until the markup is updated on purpose. The
+// Series dropdown is retired; its census test keeps the floor on record.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -42,12 +42,13 @@ test('the feeling dropdown ships exactly the emotions with at least eight storie
   assert.deepEqual(await selectOptions('emotion-filter'), emotionCensus());
 });
 
-test('the series dropdown ships exactly the series with at least eight stories', async () => {
-  assert.deepEqual(await selectOptions('series-filter'), seriesCensus());
-});
-
-test('the series floor excludes the short series, not the catalog', async () => {
+test('the retired Series dropdown stays retired, with its eight-story census on record', async () => {
+  // The dropdown is gone from the filter row (Decision Memo: The Series
+  // Dropdown, 2026-11-14); the census keeps the floor visible for the v1.1
+  // poster surface, and fails if the gated artifact reshuffles the series.
+  assert.equal((await readFile('public/index.html', 'utf8')).includes('series-filter'), false);
   const census = seriesCensus();
-  assert.ok(!census.includes('Helpsters Help You'), 'a six story series stays out of the dropdown');
-  assert.equal(census.length, 17);
+  assert.ok(!census.includes('Helpsters Help You'), 'a six story series stays under the floor');
+  assert.ok(!census.includes('The Sisters Grimm'), 'a series held under the floor by the parent-facing gate stays out until curation re-verifies it');
+  assert.equal(census.length, 16);
 });

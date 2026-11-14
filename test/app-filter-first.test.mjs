@@ -40,7 +40,7 @@ function makeElement(id) {
 }
 
 const elements = Object.fromEntries(
-  ['search-form', 'search-input', 'age-filter', 'vibe-filter', 'emotion-filter', 'series-filter', 'results', 'results-meta', 'active-filters', 'show-more', 'no-results', 'no-results-text', 'no-results-suggestions', 'clarifiers', 'clarifier-prompt', 'clarifier-options', 'start-over', 'rail-this-season']
+  ['search-form', 'search-input', 'age-filter', 'vibe-filter', 'emotion-filter', 'results', 'results-meta', 'active-filters', 'show-more', 'no-results', 'no-results-text', 'no-results-suggestions', 'clarifiers', 'clarifier-prompt', 'clarifier-options', 'start-over', 'rail-this-season']
     .map((id) => [id, makeElement(id)]),
 );
 globalThis.document = {
@@ -87,7 +87,7 @@ function searchResponse(count) {
     json: async () => ({
       artworkMode: 'text',
       count,
-      storyCount: 547,
+      storyCount: 525,
       version: 'test',
       results: count
         ? [{ seriesTitle: 'Stillwater', seasonNumber: 1, episodeNumber: 9, situation: 's', displaySynopsis: 'd', emotions: [] }]

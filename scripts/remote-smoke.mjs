@@ -18,7 +18,7 @@ const DEFAULT_URLS = [
 const urls = process.argv.slice(2).length ? process.argv.slice(2) : DEFAULT_URLS;
 
 const EXPECT = {
-  storyCount: '547',
+  storyCount: '525',
   version: '12ac6ea1abd4ebe9',
 };
 
@@ -69,7 +69,7 @@ for (const base of urls) {
     continue;
   }
 
-  check('story count is 547', landing.includes(EXPECT.storyCount) || (await healthStoryCount(base)) === EXPECT.storyCount, `expects ${EXPECT.storyCount}`);
+  check('story count is 525', landing.includes(EXPECT.storyCount) || (await healthStoryCount(base)) === EXPECT.storyCount, `expects ${EXPECT.storyCount}`);
   check(`artifact version is ${EXPECT.version}`, landing.includes(EXPECT.version) || (await healthVersion(base)) === EXPECT.version, `expects ${EXPECT.version}`);
 
   const sections = landing.match(/<h2>This Season<\/h2>/g) || [];

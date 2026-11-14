@@ -1,16 +1,16 @@
 {
-  "version": "8993ef807a38f38d",
+  "version": "abb1463c243ff047",
   "artwork": {
     "mode": "tmdb",
     "attributionChecked": true,
     "coverage": {
-      "withStill": 547,
+      "withStill": 525,
       "posterFallback": 0,
       "noArtwork": 0
     },
     "links": {
-      "episode": 449,
-      "show": 98,
+      "episode": 429,
+      "show": 96,
       "none": 0,
       "integrityCheck": "every appleUrl matches a verified pattern shape; the build fails on any malformed link"
     },
@@ -83,7 +83,7 @@
   "coverage": {
     "catalogTitles": 86,
     "catalogEpisodeRows": 1340,
-    "storyRows": 547,
+    "storyRows": 525,
     "series": {
       "Camp Snoopy": {
         "storyRows": 52,
@@ -91,8 +91,8 @@
         "withPerStorySynopsis": 52
       },
       "Doug Unplugs": {
-        "storyRows": 26,
-        "withSituation": 26,
+        "storyRows": 14,
+        "withSituation": 14,
         "withPerStorySynopsis": 14
       },
       "Duck & Goose": {
@@ -101,19 +101,19 @@
         "withPerStorySynopsis": 33
       },
       "Eva the Owlet": {
-        "storyRows": 17,
-        "withSituation": 17,
+        "storyRows": 16,
+        "withSituation": 16,
         "withPerStorySynopsis": 16
       },
       "Frog and Toad": {
-        "storyRows": 17,
-        "withSituation": 17,
+        "storyRows": 16,
+        "withSituation": 16,
         "withPerStorySynopsis": 16
       },
       "Get Rolling with Otis": {
-        "storyRows": 35,
-        "withSituation": 35,
-        "withPerStorySynopsis": 35
+        "storyRows": 34,
+        "withSituation": 34,
+        "withPerStorySynopsis": 34
       },
       "Ghostwriter": {
         "storyRows": 39,
@@ -136,9 +136,9 @@
         "withPerStorySynopsis": 33
       },
       "Pretzel and the Puppies": {
-        "storyRows": 35,
-        "withSituation": 35,
-        "withPerStorySynopsis": 35
+        "storyRows": 34,
+        "withSituation": 34,
+        "withPerStorySynopsis": 34
       },
       "Sago Mini Friends": {
         "storyRows": 45,
@@ -161,9 +161,9 @@
         "withPerStorySynopsis": 10
       },
       "The Sisters Grimm": {
-        "storyRows": 12,
-        "withSituation": 12,
-        "withPerStorySynopsis": 12
+        "storyRows": 6,
+        "withSituation": 6,
+        "withPerStorySynopsis": 6
       },
       "Wolfboy and the Everything Factory": {
         "storyRows": 36,
@@ -210,6 +210,147 @@
       }
     ],
     "note": "Placeholder rows never publish; the curation thread owns tagging them or removing them at the source."
+  },
+  "parentFacing": {
+    "suppressedFromRender": [
+      {
+        "id": "frog-and-toad-s1-e9",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "eva-the-owlet-s1-e9",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e8-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e8-seg2",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e9-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e9-seg2",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e10-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e10-seg2",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e11-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e11-seg2",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e12-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e12-seg2",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e13-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "doug-unplugs-s1-e13-seg2",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "pretzel-and-the-puppies-s1-e9",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "get-rolling-with-otis-s1-e9",
+        "reasons": [
+          "internal annotation in parent-facing field situation: SYNOPSIS-ONLY",
+          "internal annotation in parent-facing field coping: SYNOPSIS-ONLY",
+          "internal annotation in parent-facing field perStorySynopsis: SYNOPSIS-ONLY",
+          "internal annotation in parent-facing field displaySynopsis: SYNOPSIS-ONLY",
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "the-sisters-grimm-s2-e1-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "the-sisters-grimm-s2-e2-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "the-sisters-grimm-s2-e3-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "the-sisters-grimm-s2-e4-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "the-sisters-grimm-s2-e5-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      },
+      {
+        "id": "the-sisters-grimm-s2-e6-seg1",
+        "reasons": [
+          "unverified resolution: synopsis-fallback row with no script evidence, flagged back to curation"
+        ]
+      }
+    ],
+    "note": "Rows with internal QA annotations in parent-facing fields, or with resolutions flagged as unverified synopsis fallbacks, never publish. The curation thread owns re-verifying them at the source."
   },
   "vocabulary": {
     "offListObserved": [

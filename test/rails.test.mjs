@@ -1,6 +1,10 @@
-// The seasonal rail: ONE 'This Season' shelf of 14 rows quoting the
-// production artifact, links matching the verified shapes, the honest count
-// chip, and the play-logo button rules from Allie's 2026-11-13 feedback.
+// The seasonal rail: ONE 'This Season' shelf quoting the production
+// artifact, links matching the verified shapes, the honest count chip, and
+// the play-logo button rules from Allie's 2026-11-13 feedback. Four defined
+// rows (the Eva, Frog and Toad, Otis, and Merry Muttgomery holiday episodes)
+// are held back by the parent-facing gate until curation re-verifies them,
+// so the shelf resolves 10 of the 14 defined rows; they return
+// automatically on a rebuild that publishes them again.
 
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -41,37 +45,61 @@ test('no story appears on two rails', () => {
   }
 });
 
-test('the shelf holds all 14 rows, Thanksgiving first, then Christmas, then winter', () => {
-  assert.equal(resolved[0].rows.length, 14, 'all 14 rows live in the one shelf');
+test('the shelf resolves the 10 published rows, Thanksgiving first, then Christmas, then winter', () => {
+  assert.equal(resolved[0].rows.length, 10, 'the published rows live in the one shelf; held-back rows drop until curation re-verifies them');
   const ids = resolved[0].rows.map((r) => r.storyId);
-  const thanksgiving = ['sago-mini-friends-s1-e11-seg1', 'helpsters-help-you-s1-e6-seg1', 'pretzel-and-the-puppies-s1-e8-seg1', 'shape-island-s2-e3-seg1', 'sago-mini-friends-s1-e2-seg2', 'eva-the-owlet-s1-e9'];
-  const christmas = ['frog-and-toad-s1-e9', 'sago-mini-friends-s2-e2-seg2', 'interrupting-chicken-s1-e9-seg1', 'get-rolling-with-otis-s1-e9'];
-  assert.deepEqual(ids.slice(0, 6), thanksgiving, 'the six Thanksgiving rows lead');
-  assert.deepEqual(ids.slice(6, 10), christmas, 'the four Christmas rows follow');
-  assert.deepEqual(ids.slice(10), ['stillwater-s1-e13', 'shape-island-s1-e10', 'stillwater-s4-e5-seg2', 'pretzel-and-the-puppies-s1-e9'], 'the four winter rows close');
+  const thanksgiving = ['sago-mini-friends-s1-e11-seg1', 'helpsters-help-you-s1-e6-seg1', 'pretzel-and-the-puppies-s1-e8-seg1', 'shape-island-s2-e3-seg1', 'sago-mini-friends-s1-e2-seg2'];
+  const christmas = ['sago-mini-friends-s2-e2-seg2', 'interrupting-chicken-s1-e9-seg1'];
+  assert.deepEqual(ids.slice(0, 5), thanksgiving, 'the published Thanksgiving rows lead');
+  assert.deepEqual(ids.slice(5, 7), christmas, 'the published Christmas rows follow');
+  assert.deepEqual(ids.slice(7), ['stillwater-s1-e13', 'shape-island-s1-e10', 'stillwater-s4-e5-seg2'], 'the published winter rows close');
   const shipped = JSON.stringify(resolved);
   assert.equal(/new year/i.test(shipped), false, 'the New Year rail stays dropped');
 });
 
 test('the approved description and honest count chip render verbatim', () => {
   const html = renderHolidayRails(resolved);
-  assert.ok(html.includes('Cozy seasonal stories for the weeks ahead: episodes about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights.'), 'approved description renders verbatim');
-  assert.ok(html.includes('<span class="rail-count">14 stories</span>'), 'the count chip reads 14 stories, not episodes');
+  assert.ok(html.includes('Cozy seasonal stories for the weeks ahead, all about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights.'), 'approved description renders verbatim');
+  assert.ok(html.includes('<span class="rail-count">10 stories</span>'), 'the count chip reads 10 stories, not episodes');
   assert.equal((html.match(/rail-section/g) || []).length, 5, 'one section per shipped rail');
 });
 
-test('every rail row quotes the production artifact and is fully resolved', () => {
-  assert.deepEqual(unresolved, [], 'every rail row must resolve against the artifact');
+test('every rail row quotes the production artifact and the held-back rows are named', () => {
+  // The parent-facing gate holds four defined rows back from the artifact;
+  // the rail drops them and names them in unresolved, never padding over.
+  assert.deepEqual(unresolved, [
+    'rail-this-season: eva-the-owlet-s1-e9',
+    'rail-this-season: frog-and-toad-s1-e9',
+    'rail-this-season: get-rolling-with-otis-s1-e9',
+    'rail-this-season: pretzel-and-the-puppies-s1-e9',
+  ], 'exactly the held-back rows are unresolved');
   for (const rail of resolved) {
     for (const row of rail.rows) {
       const story = storiesById.get(row.storyId);
       assert.ok(story, `row ${row.storyId} must exist in the artifact`);
       assert.equal(row.title, story.segmentTitle || story.episodeTitle, 'title quotes the artifact');
       assert.equal(row.displaySynopsis, story.displaySynopsis);
+      assert.equal(row.situation, story.situation, 'the expanded view quotes the artifact situation');
+      assert.equal(row.coping, story.coping, 'the expanded view quotes the artifact resolution');
       assert.equal(row.appleUrl, story.appleUrl || null);
       assert.ok(row.why, 'every row carries its editorial why');
     }
   }
+});
+
+test('every rail card carries its expanded detail template', () => {
+  const html = renderHolidayRails(resolved);
+  const cards = (html.match(/<article class="rail-card">/g) || []).length;
+  const templates = (html.match(/<template class="rail-detail">/g) || []).length;
+  assert.equal(templates, cards, 'one detail template per card');
+  for (const label of ['<dt>Situation</dt>', '<dt>Ages</dt>', '<dt>Feelings</dt>', '<dt>Resolution</dt>', '<dt>What happens</dt>']) {
+    assert.ok(html.includes(label), `the expanded view names ${label}`);
+  }
+  assert.ok(html.includes('<button class="rail-card-more" type="button" aria-haspopup="dialog">Story details</button>'), 'each card has its keyboard affordance');
+  // The expanded view is served from the same gated artifact, so the
+  // internal-annotation scan in test/parent-facing.test.mjs covers it too;
+  // this pins that no internal field key leaks into the rendered labels.
+  assert.equal(html.includes('coping'), false, 'the field key never renders; the label is Resolution');
 });
 
 test('every row with a verified link carries the play button, no visible Apple TV text', () => {
@@ -79,15 +107,15 @@ test('every row with a verified link carries the play button, no visible Apple T
   const linked = resolved.flatMap((r) => r.rows).filter((r) => r.appleUrl);
   const unlinked = resolved.flatMap((r) => r.rows).filter((r) => !r.appleUrl);
   assert.equal(unlinked.length, 0, 'all rail rows carry verified links from the harvested artifact');
-  assert.equal(linked.length, 54, '54 linked rows across the five rails');
-  assert.equal((html.match(/class="watch-play"/g) || []).length, 54, 'one play button per verified row');
+  assert.equal(linked.length, 50, '50 linked rows across the five rails');
+  assert.equal((html.match(/class="watch-play"/g) || []).length, 50, 'one play button per verified row');
   for (const row of linked) {
     assert.ok(classifyAppleUrl(row.appleUrl), `malformed apple link on ${row.storyId}: ${row.appleUrl}`);
     assert.equal(row.linkKind, classifyAppleUrl(row.appleUrl));
   }
   const labels = [...html.matchAll(/aria-label="([^"]+)"/g)].map((m) => m[1]);
   const watchLabels = labels.filter((l) => l.startsWith('Watch on Apple TV'));
-  assert.equal(watchLabels.length, 54, 'each button keeps its Watch on Apple TV accessible name');
+  assert.equal(watchLabels.length, 50, 'each button keeps its Watch on Apple TV accessible name');
   assert.equal(new Set(watchLabels).size, watchLabels.length, 'aria labels stay distinct per row');
   const buttons = [...html.matchAll(/<a class="watch-play".*?<\/a>/gs)].map((m) => m[0]);
   for (const button of buttons) {
@@ -107,12 +135,18 @@ test('the rendered rail is dash free, escaped, and labeled', () => {
 });
 
 test('a story id the artifact no longer holds drops its row and the chip recounts', () => {
-  const missing = resolveHolidayRails(HOLIDAY_RAILS, (id) => (id === 'frog-and-toad-s1-e9' ? null : storyById(id)));
-  assert.deepEqual(missing.unresolved, ['rail-this-season: frog-and-toad-s1-e9']);
-  assert.equal(missing.rails[0].rows.length, 13, 'the row is dropped, never padded');
+  const missing = resolveHolidayRails(HOLIDAY_RAILS, (id) => (id === 'stillwater-s1-e13' ? null : storyById(id)));
+  assert.deepEqual(missing.unresolved, [
+    'rail-this-season: eva-the-owlet-s1-e9',
+    'rail-this-season: frog-and-toad-s1-e9',
+    'rail-this-season: get-rolling-with-otis-s1-e9',
+    'rail-this-season: stillwater-s1-e13',
+    'rail-this-season: pretzel-and-the-puppies-s1-e9',
+  ]);
+  assert.equal(missing.rails[0].rows.length, 9, 'the row is dropped, never padded');
   const html = renderHolidayRails(missing.rails);
-  assert.ok(html.includes('<span class="rail-count">13 stories</span>'), 'the honest count chip follows the resolved rows');
-  assert.equal(html.includes('Christmas Eve'), false);
+  assert.ok(html.includes('<span class="rail-count">9 stories</span>'), 'the honest count chip follows the resolved rows');
+  assert.equal(html.includes('script-verified solstice story'), false);
 });
 
 test('the served landing page carries the rail substitution end to end', () => {

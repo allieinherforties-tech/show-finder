@@ -15,7 +15,6 @@ const input = document.getElementById('search-input');
 const ageFilter = document.getElementById('age-filter');
 const vibeFilter = document.getElementById('vibe-filter');
 const emotionFilter = document.getElementById('emotion-filter');
-const seriesFilter = document.getElementById('series-filter');
 const resultsEl = document.getElementById('results');
 const resultsMeta = document.getElementById('results-meta');
 const activeFiltersEl = document.getElementById('active-filters');
@@ -76,7 +75,9 @@ function activeEmotion() {
 }
 
 function activeSeries() {
-  return seriesFilter ? seriesFilter.value : chain.series;
+  // The Series dropdown is retired; the facet still lives on through the
+  // clarifier chips and shared URLs, which write chain.series directly.
+  return chain.series;
 }
 
 /** The active filters as one row of { facet, value, label }, in dropdown order. */
@@ -167,7 +168,16 @@ function renderCard(r) {
     watch.href = r.appleUrl;
     watch.target = '_blank';
     watch.rel = 'noopener noreferrer';
-    watch.textContent = 'Watch on Apple TV+';
+    // The play glyph matches the rails' play-logo buttons: the same asset,
+    // alt empty so the accessible name stays the aria-label alone.
+    const glyph = document.createElement('img');
+    glyph.className = 'watch-icon';
+    glyph.src = '/play-button.png';
+    glyph.alt = '';
+    glyph.width = 44;
+    glyph.height = 40;
+    watch.appendChild(glyph);
+    watch.appendChild(document.createTextNode('Watch on Apple TV+'));
     // Distinct accessible name per card: a links list of twenty identical
     // "Watch on Apple TV+" entries tells a screen reader user nothing.
     watch.setAttribute('aria-label', `Watch ${r.seriesTitle}, season ${r.seasonNumber} episode ${r.episodeNumber}, on Apple TV+`);
@@ -392,7 +402,6 @@ document.addEventListener('click', (e) => {
   }
   if (facet === 'series') {
     chain.series = value;
-    if (seriesFilter) seriesFilter.value = value;
   }
   chain.round += 1;
   runSearch(chain);
@@ -400,7 +409,7 @@ document.addEventListener('click', (e) => {
 
 // Filters are the first layer: a change always searches, even before the
 // parent has typed anything. Clearing every filter returns the idle state.
-[ageFilter, vibeFilter, emotionFilter, seriesFilter].filter(Boolean).forEach((el) => {
+[ageFilter, vibeFilter, emotionFilter].filter(Boolean).forEach((el) => {
   el.addEventListener('change', () => {
     runSearch(chain);
   });
@@ -421,7 +430,6 @@ document.addEventListener('click', (e) => {
   }
   if (facet === 'series') {
     chain.series = '';
-    if (seriesFilter) seriesFilter.value = '';
   }
   chain.round = 0;
   runSearch(chain);
@@ -434,7 +442,6 @@ startOver.addEventListener('click', () => {
   ageFilter.value = '';
   vibeFilter.value = '';
   if (emotionFilter) emotionFilter.value = '';
-  if (seriesFilter) seriesFilter.value = '';
   chain = { q: '', emotion: '', age: '', series: '', round: 0 };
   showIdle();
   writeUrl();
@@ -444,6 +451,61 @@ startOver.addEventListener('click', () => {
 showMoreBtn.addEventListener('click', () => {
   renderNextBatch();
 });
+
+// The expanded rail card view: one static <dialog>, filled from the tapped
+// card's own detail template. Stateless: nothing is stored, nothing is
+// fetched; the card already carries its parent-facing fields. Native
+// <dialog> gives Esc-to-close and the focus trap; we restore focus to
+// whatever opened it.
+const railDialog = document.getElementById('rail-card-dialog');
+if (railDialog) {
+  const railDialogTitle = railDialog.querySelector('#rail-dialog-title');
+  const railDialogBody = railDialog.querySelector('.rail-dialog-body');
+  const railDialogClose = railDialog.querySelector('.rail-dialog-close');
+  let railDialogOpener = null;
+
+  railDialog.addEventListener('close', () => {
+    if (railDialogOpener) railDialogOpener.focus();
+    railDialogOpener = null;
+  });
+
+  // Tapping the backdrop (the dialog element itself) closes, like Esc.
+  railDialog.addEventListener('click', (e) => {
+    if (e.target === railDialog) railDialog.close();
+  });
+
+  if (railDialogClose) railDialogClose.addEventListener('click', () => railDialog.close());
+
+  const openRailCard = (card, opener) => {
+    const detail = card.querySelector('template.rail-detail');
+    if (!detail || typeof railDialog.showModal !== 'function') return;
+    railDialogTitle.textContent = card.querySelector('.rail-title').textContent;
+    railDialogBody.replaceChildren(detail.content.cloneNode(true));
+    // The watch link clones in with its accessible name, so the dialog
+    // itself carries the way out to Apple TV+.
+    const watch = card.querySelector('.watch-play');
+    if (watch) {
+      const actions = document.createElement('div');
+      actions.className = 'rail-dialog-actions';
+      actions.appendChild(watch.cloneNode(true));
+      railDialogBody.appendChild(actions);
+    }
+    railDialogOpener = opener;
+    railDialog.showModal();
+  };
+
+  document.addEventListener('click', (e) => {
+    // The explicit button is the keyboard path; the card tap is the touch
+    // path. Watch links keep their own behavior either way.
+    const more = e.target.closest('.rail-card-more');
+    if (more) {
+      openRailCard(more.closest('.rail-card'), more);
+      return;
+    }
+    const card = e.target.closest('.rail-card');
+    if (card && !e.target.closest('a')) openRailCard(card, card);
+  });
+}
 
 // A search shared by URL (the chain state lives there) restores itself on
 // load, facets and round included.
@@ -456,6 +518,5 @@ showMoreBtn.addEventListener('click', () => {
   input.value = state.q;
   if (state.age) ageFilter.value = state.age;
   if (state.emotion && emotionFilter) emotionFilter.value = state.emotion;
-  if (state.series && seriesFilter) seriesFilter.value = state.series;
   runSearch(chain);
 })();
