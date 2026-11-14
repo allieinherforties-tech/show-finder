@@ -159,8 +159,10 @@ function renderCard(r) {
 
   card.append(heading, episode, tagsText ? tags : '', situation, synopsis, resolution);
 
-  // Watch on Apple TV+: the canonical tv.apple.com web URL generated at build
-  // time (episode level where the id is verified, show page as fallback).
+  // The watch pill names the provider from the row's data: the canonical
+  // tv.apple.com web URL is generated at build time (episode level where the
+  // id is verified, show page as fallback), and providerLabel is the exact
+  // display string, so a future PBS or Disney row needs zero UI rework.
   // Rows with no verified link get no button rather than an invented one.
   if (r.appleUrl) {
     const watch = document.createElement('a');
@@ -177,10 +179,10 @@ function renderCard(r) {
     glyph.width = 44;
     glyph.height = 40;
     watch.appendChild(glyph);
-    watch.appendChild(document.createTextNode('Watch on Apple TV+'));
+    watch.appendChild(document.createTextNode(`Watch on ${r.providerLabel}`));
     // Distinct accessible name per card: a links list of twenty identical
     // "Watch on Apple TV+" entries tells a screen reader user nothing.
-    watch.setAttribute('aria-label', `Watch ${r.seriesTitle}, season ${r.seasonNumber} episode ${r.episodeNumber}, on Apple TV+`);
+    watch.setAttribute('aria-label', `Watch ${r.seriesTitle}, season ${r.seasonNumber} episode ${r.episodeNumber}, on ${r.providerLabel}`);
     card.appendChild(watch);
   }
 

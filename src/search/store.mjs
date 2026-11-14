@@ -223,6 +223,10 @@ export function runSearch(index, query, opts = {}) {
     posterUrl: row.posterUrl || null,
     appleUrl: row.appleUrl || null,
     appleLinkKind: row.appleLinkKind || null,
+    // Watch-provider fields: the frontend renders the watch label from
+    // providerLabel, never a hardcoded platform string.
+    provider: row.provider || null,
+    providerLabel: row.providerLabel || null,
     scores,
     filters: { ageBand, vibe },
     interpreted: parsed,

@@ -125,6 +125,50 @@ test('every row with a verified link carries the play button, no visible Apple T
   }
 });
 
+test('every rail row carries the provider fields the diction ruling locked', () => {
+  for (const rail of resolved) {
+    for (const row of rail.rows) {
+      assert.equal(row.provider, 'apple', `${row.storyId} carries the provider key`);
+      assert.equal(row.providerLabel, 'Apple TV+', `${row.storyId} carries the display label`);
+    }
+  }
+});
+
+test('rail aria labels compose from providerLabel, and a synthetic PBS row renders Watch on PBS KIDS', () => {
+  const html = renderHolidayRails(resolved);
+  const labels = [...html.matchAll(/<a class="watch-play"[^>]*aria-label="([^"]+)"/g)].map((m) => m[1]);
+  assert.equal(labels.length, 50, 'one accessible name per linked row');
+  for (const label of labels) {
+    assert.ok(label.startsWith('Watch on Apple TV+: '), `ruled template from data: ${label}`);
+  }
+  // A future PBS row exercises the same render path with nothing changed:
+  // the label comes from the row, never a hardcoded platform string.
+  const pbs = renderRailCard({
+    storyId: 'odd-squad-s1-e1',
+    title: 'Undercover Alyssa',
+    seriesTitle: 'Odd Squad',
+    seasonNumber: 1,
+    episodeNumber: 1,
+    segment: null,
+    episodeLine: 'S1 E1',
+    ageBand: '5-7',
+    vibe: 'silly',
+    emotions: ['happy'],
+    situation: 'A kid solves an odd case.',
+    coping: 'working the case',
+    displaySynopsis: 'd',
+    stillUrl: null,
+    posterUrl: null,
+    appleUrl: 'https://www.pbs.org/video/odd-squad-undercover-alyssa/',
+    linkKind: 'direct',
+    provider: 'pbs',
+    providerLabel: 'PBS KIDS',
+    why: 'test row',
+  });
+  assert.ok(pbs.includes('aria-label="Watch on PBS KIDS: Odd Squad, Undercover Alyssa, season 1 episode 1"'), 'the PBS aria label follows the ruled template');
+  assert.equal(pbs.includes('Apple TV'), false, 'no hardcoded platform string in the render path');
+});
+
 test('the rendered rail is dash free, escaped, and labeled', () => {
   const html = renderHolidayRails(resolved);
   assert.equal(/[\u2013\u2014]/.test(html), false, 'zero em or en dashes in rendered rail');
@@ -202,6 +246,8 @@ test('a card with no artwork carries a detail template with no banner and no pla
     posterUrl: null,
     appleUrl: 'https://tv.apple.com/x',
     linkKind: 'episode',
+    provider: 'apple',
+    providerLabel: 'Apple TV+',
   };
   const html = renderRailCard(row);
   assert.ok(html.includes('<template class="rail-detail">'), 'the imageless card still carries its detail template');

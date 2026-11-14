@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import { createMemoryIndex } from '../src/search/store.mjs';
 import { normalizeStoryRow } from '../src/pipeline/normalize.mjs';
 
@@ -76,5 +77,14 @@ test('runSearch never returns an off-vocabulary emotion in interpreted filters',
     for (const e of r.emotions) {
       assert.notEqual(e, undefined);
     }
+  }
+});
+
+test('every published story row in the built artifact carries the provider fields (backfill ruling)', () => {
+  const artifact = JSON.parse(readFileSync('data/search/search-artifact.json', 'utf8'));
+  assert.ok(artifact.stories.length > 0, 'the artifact publishes rows');
+  for (const story of artifact.stories) {
+    assert.equal(story.provider, 'apple', `${story.id} carries the provider key`);
+    assert.equal(story.providerLabel, 'Apple TV+', `${story.id} carries the display label`);
   }
 });
