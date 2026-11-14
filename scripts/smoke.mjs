@@ -72,7 +72,7 @@ try {
   // One seasonal rail: 'This Season' resolves the published rows, Thanksgiving first.
   assert.equal((html.match(/<h2>This Season<\/h2>/g) || []).length, 1, 'exactly one This Season section');
   assert.match(html, /<span class="rail-count">10 stories<\/span>/);
-  assert.match(html, /Cozy seasonal stories for the weeks ahead: episodes about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights\./);
+  assert.match(html, /Cozy seasonal stories for the weeks ahead, all about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights\./);
   assert.equal(/rail-kind/.test(html), false, 'the featured/secondary hierarchy is retired');
   assert.equal(/<h2>Thanksgiving<\/h2>|<h2>Winter<\/h2>|<h2>Christmas<\/h2>/.test(html), false, 'no separate holiday shelves');
   assert.equal(/New Year/i.test(html), false, 'the New Year rail ships nowhere');

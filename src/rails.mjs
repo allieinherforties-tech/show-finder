@@ -21,7 +21,7 @@ export const HOLIDAY_RAILS = [
   {
     id: 'rail-this-season',
     title: 'This Season',
-    sub: 'Cozy seasonal stories for the weeks ahead: episodes about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights.',
+    sub: 'Cozy seasonal stories for the weeks ahead, all about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights.',
     rows: [
       {
         // Thanksgiving first: six rows.
@@ -87,7 +87,7 @@ export const HOLIDAY_RAILS = [
   {
     id: 'rail-something-new',
     title: 'Something New',
-    sub: 'First days, new places, wobbly tries: episodes for the nervous feeling that comes before something new, and the brave that comes after it.',
+    sub: 'First days, new places, wobbly tries. Each story starts with the nervous feeling before something new and ends with the brave after it.',
     rows: [
       {
         storyId: 'camp-snoopy-s1-e1-seg1',
@@ -134,7 +134,7 @@ export const HOLIDAY_RAILS = [
   {
     id: 'rail-big-feelings',
     title: 'Big Feelings',
-    sub: 'For the nights when it all boils over: episodes where kids get angry, frustrated, and impatient, and find their way back.',
+    sub: 'For the nights when it all boils over: kids get angry, frustrated, and impatient, then find their way back.',
     rows: [
       {
         storyId: 'camp-snoopy-s1-e3-seg2',
@@ -181,7 +181,7 @@ export const HOLIDAY_RAILS = [
   {
     id: 'rail-friendship-trouble',
     title: 'Friendship Trouble',
-    sub: 'Left out, left behind, or sorry after a fight: episodes about the rough parts of friendship and how kids make their way back.',
+    sub: 'Left out, left behind, or sorry after a fight? The rough parts of friendship, and how kids find each other again.',
     rows: [
       {
         storyId: 'camp-snoopy-s1-e10-seg1',
@@ -228,7 +228,7 @@ export const HOLIDAY_RAILS = [
   {
     id: 'rail-wind-down',
     title: 'Wind-Down',
-    sub: 'Slow, gentle stories for the end of the day: calm episodes that meet a tired kid where they are and don\'t wind anybody up.',
+    sub: 'Slow, gentle stories for the end of the day. Calm ones that meet a tired kid where they are and don\'t wind anybody up.',
     rows: [
       {
         storyId: 'pretzel-and-the-puppies-s2-e2-seg2',

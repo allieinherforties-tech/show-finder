@@ -59,7 +59,7 @@ test('the shelf resolves the 10 published rows, Thanksgiving first, then Christm
 
 test('the approved description and honest count chip render verbatim', () => {
   const html = renderHolidayRails(resolved);
-  assert.ok(html.includes('Cozy seasonal stories for the weeks ahead: episodes about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights.'), 'approved description renders verbatim');
+  assert.ok(html.includes('Cozy seasonal stories for the weeks ahead, all about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights.'), 'approved description renders verbatim');
   assert.ok(html.includes('<span class="rail-count">10 stories</span>'), 'the count chip reads 10 stories, not episodes');
   assert.equal((html.match(/rail-section/g) || []).length, 5, 'one section per shipped rail');
 });
