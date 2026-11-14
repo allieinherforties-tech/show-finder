@@ -3,12 +3,14 @@
   --muted: #5b6472;
   --paper: #faf8f4;
   --card: #ffffff;
-  --accent: #2c6e63;
-  --accent-soft: #e7f0ed;
-  /* Teal sampled from Allie's play logo: a restrained accent for the play
-     button, focus rings, and the count chip. Not a palette redesign. */
-  --teal: #28a8b0;
-  --teal-soft: #e2f4f6;
+  --accent: #177e94;
+  --accent-soft: #e3eef3;
+  /* Approved teal set: deep #177e94, light #2baeb9, gradient midpoint
+     #29aab4 (the midpoint lives in the play button asset, not the CSS).
+     A restrained accent for buttons, focus rings, and the count chip.
+     Not a palette redesign. */
+  --teal: #2baeb9;
+  --teal-soft: #e0f3f5;
   --line: #e3ded4;
 }
 

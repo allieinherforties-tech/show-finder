@@ -1,7 +1,10 @@
-// The seasonal rail: ONE shelf titled 'This Season' holding all 14 story rows,
-// Thanksgiving first, then Christmas, then winter. The featured/secondary
-// hierarchy from the Q4 rail is retired per Allie's 2026-11-13 feedback: one
-// rail with all the episodes in that one category makes sense.
+// The rails: the seasonal shelf plus the four situation rails from the
+// approved corpus-grounded recommendations (art_tRsPwTVl, 2026-11-14), in the
+// approved order: Something New, Big Feelings, Friendship Trouble, Wind-Down.
+// Each shipped rail clears an eight-row depth floor measured on the artifact
+// at authoring time, and test/rails.test.mjs holds that floor: a rail whose
+// resolved pool drops below eight rows fails the suite rather than shipping
+// as a thin shelf.
 //
 // Rows quote the production search artifact by story id: title, episode
 // fields, tags, artwork, and Apple links always resolve from the loaded
@@ -81,6 +84,194 @@ export const HOLIDAY_RAILS = [
       },
     ],
   },
+  {
+    id: 'rail-something-new',
+    title: 'Something New',
+    sub: 'First days, new places, wobbly tries: episodes for the nervous feeling that comes before something new, and the brave that comes after it.',
+    rows: [
+      {
+        storyId: 'camp-snoopy-s1-e1-seg1',
+        why: 'A troop with zero badges gets a deadline, and Snoopy turns panic into a plan: one small badge at a time.',
+      },
+      {
+        storyId: 'camp-snoopy-s1-e1-seg2',
+        why: 'Marcie would rather stay on solid ground, and a glassy lake with patient coaching turns the wobbly canoe into a day she is proud of.',
+      },
+      {
+        storyId: 'duck-and-goose-s1-e2-seg1',
+        why: 'Goose is sure everything new is too slimy, too pointy, or too sandy, until each friend tries the other\'s way and new turns gorgeous up close.',
+      },
+      {
+        storyId: 'frog-and-toad-s1-e2-seg1',
+        why: 'Toad\'s kind gesture melts all over him in the sun, and the confession is met with the kindness behind the accident, not the mess.',
+      },
+      {
+        storyId: 'frog-and-toad-s1-e4-seg2',
+        why: 'Frog does not know how to bake a cake, and saying so out loud turns the takeover into doing it together.',
+      },
+      {
+        storyId: 'interrupting-chicken-s1-e2-seg1',
+        why: 'Piper jumps in and ends the story on the spot, then writes a second draft where the surprise works for her.',
+      },
+      {
+        storyId: 'pretzel-and-the-puppies-s1-e2-seg1',
+        why: 'Puck plans to go home hungry rather than try anything new, and ends up mixing the kibble he wants to taste.',
+      },
+      {
+        storyId: 'eva-the-owlet-s1-e3-seg1',
+        why: 'Eva tries to do a big secret thing all alone, and finds out the whole class wanted in on the surprise.',
+      },
+      {
+        storyId: 'harriet-the-spy-s1-e10-seg1',
+        why: 'Even grown ups chicken out of big and scary firsts: learning to ride a bike means eyes up, looking where you want to go.',
+      },
+      {
+        storyId: 'sago-mini-friends-s1-e10-seg2',
+        why: 'Harvey catches the ice cream and loses the game in the same jump, and it turns out trying it counts for more than winning.',
+      },
+    ],
+  },
+  {
+    id: 'rail-big-feelings',
+    title: 'Big Feelings',
+    sub: 'For the nights when it all boils over: episodes where kids get angry, frustrated, and impatient, and find their way back.',
+    rows: [
+      {
+        storyId: 'camp-snoopy-s1-e3-seg2',
+        why: 'A craft session turns into a bracelet standoff, and the way back is honest compliments plus the reminder that there is no right way to make something for a friend.',
+      },
+      {
+        storyId: 'duck-and-goose-s1-e2-seg2',
+        why: 'Duck\'s perfectly good height suddenly feels wrong on measuring day, and every growth scheme flops into laughter instead of nursing the feeling.',
+      },
+      {
+        storyId: 'duck-and-goose-s1-e3-seg1',
+        why: 'The kite will not fly, and each flop is treated as information: retie the knot, free the friend, run against the breeze.',
+      },
+      {
+        storyId: 'sago-mini-friends-s1-e1-seg1',
+        why: 'Robin wants pizza now, pizza pizza pizza, and the waiting turns into a song instead of a battle.',
+      },
+      {
+        storyId: 'shape-island-s1-e1-seg1',
+        why: 'Square names the whole stack out loud, mad about the plan, then bad about the mad, then sad about that, and keeps the friendship anyway.',
+      },
+      {
+        storyId: 'harriet-the-spy-s1-e2-seg1',
+        why: 'Harriet is angry enough to dig for proof, and the angry finds its way into a stand the scared kids can join out loud.',
+      },
+      {
+        storyId: 'stillwater-s1-e11-seg1',
+        why: 'Michael regrets a gift given, and the way back is naming the frustration, taking a breath, and apologizing for the anger.',
+      },
+      {
+        storyId: 'eva-the-owlet-s1-e2-seg1',
+        why: 'Eva\'s super helpful list runs out, and the sunrise answer is giving the credit away honestly.',
+      },
+      {
+        storyId: 'frog-and-toad-s1-e1-seg1',
+        why: 'The last very last cookie keeps coming back, and willpower finally looks like giving the whole batch to the robins.',
+      },
+      {
+        storyId: 'wolfboy-and-the-everything-factory-s1-e8-seg1',
+        why: 'A prank war escalates past anyone\'s intent, and it ends the way fights do here, with the real investigation and mutual apologies.',
+      },
+    ],
+  },
+  {
+    id: 'rail-friendship-trouble',
+    title: 'Friendship Trouble',
+    sub: 'Left out, left behind, or sorry after a fight: episodes about the rough parts of friendship and how kids make their way back.',
+    rows: [
+      {
+        storyId: 'camp-snoopy-s1-e10-seg1',
+        why: 'Sally quietly panics that being bad at things could cost her a best friend, and secret practice plus a game they can win together bring her back.',
+      },
+      {
+        storyId: 'camp-snoopy-s1-e2-seg1',
+        why: 'Sally insists she is absolutely not homesick, until caring for a lost baby bird helps her say it out loud and a new friend makes camp better.',
+      },
+      {
+        storyId: 'frog-and-toad-s1-e1-seg2',
+        why: 'No one has ever sent Toad a letter, so Frog writes the first one and mails it by the slowest courier available.',
+      },
+      {
+        storyId: 'surfside-girls-s1-e1-seg1',
+        why: 'Sam wants the mystery to be hers and Jade\'s alone, and when sci camp pulls Jade away, a doubloon trail speaks instead of a sulk.',
+      },
+      {
+        storyId: 'duck-and-goose-s2-e2-seg2',
+        why: 'The new kid has been playing Duck, Duck, Goose alone with pinecones, and a warning system means nobody leaves when she sprays.',
+      },
+      {
+        storyId: 'shape-island-s1-e1-seg2',
+        why: 'Circle admits she was jealous of the one thing her friends knew first, and a lantern red moon turns the secret into a club with her in it.',
+      },
+      {
+        storyId: 'ghostwriter-s1-e1-seg1',
+        why: 'Ruben is the new kid again, and an ice pack plus one shared conversation become the first friendship.',
+      },
+      {
+        storyId: 'harriet-the-spy-s1-e4-seg1',
+        why: 'Harriet learns peace turns to loneliness fast, and the trick is letting the world in, 26 cats included.',
+      },
+      {
+        storyId: 'get-rolling-with-otis-s2-e7-seg1',
+        why: 'The holes keep coming back because a lonely voice in one is looking for friends, and the farm gains three burrowers.',
+      },
+      {
+        storyId: 'wolfboy-and-the-everything-factory-s1-e9-seg1',
+        why: 'Wolfboy skips the play for secret world saving, and the apology that works is the honest one, prophecy and all.',
+      },
+    ],
+  },
+  {
+    id: 'rail-wind-down',
+    title: 'Wind-Down',
+    sub: 'Slow, gentle stories for the end of the day: calm episodes that meet a tired kid where they are and don\'t wind anybody up.',
+    rows: [
+      {
+        storyId: 'pretzel-and-the-puppies-s2-e2-seg2',
+        why: 'Puck cannot sleep with the big bone hide tomorrow, and the tool that works is quiet, snuggle, breathe.',
+      },
+      {
+        storyId: 'get-rolling-with-otis-s1-e4-seg2',
+        why: 'Louie cannot fall asleep no matter what, and the fix is a tractor trick that shades a too bright moon.',
+      },
+      {
+        storyId: 'frog-and-toad-s1-e2-seg2',
+        why: 'A whole day of button hunting ends on Toad\'s own floor, and the jacket comes back sewn and handed over.',
+      },
+      {
+        storyId: 'get-rolling-with-otis-s1-e5-seg2',
+        why: 'Celeste needs quiet for a new song, and the farm builds it with her, one quiet spot at a time.',
+      },
+      {
+        storyId: 'duck-and-goose-s1-e1-seg1',
+        why: 'A patient watch over a round thing that might be an egg, practiced with a bird doll and kept through the rain.',
+      },
+      {
+        storyId: 'sago-mini-friends-s1-e10-seg1',
+        why: 'A small Wednesday ritual meets a rainstorm and bends without breaking: still Wedding Wednesday, just drier.',
+      },
+      {
+        storyId: 'stillwater-s1-e6-seg2',
+        why: 'The perfect paper airplane keeps missing, and letting the day be about joy instead of the outcome is where the fun comes back.',
+      },
+      {
+        storyId: 'stillwater-s1-e9-seg2',
+        why: 'A beach day teaches that pride is a feeling, not something the sandcastle has to keep.',
+      },
+      {
+        storyId: 'helpsters-help-you-s1-e1-seg1',
+        why: 'The park is closed, and the tree gets made instead: one big disappointment broken into three small jobs.',
+      },
+      {
+        storyId: 'stillwater-s1-e10-seg2',
+        why: 'Addy\'s disappointment passes, and being happy for her friend gets easy, which lets the friend be happy too.',
+      },
+    ],
+  },
 ];
 
 /** The card title: the story segment when there is one, the episode title otherwise. */
@@ -153,8 +344,10 @@ export function renderRailCard(row) {
   const vibeTag = row.vibe ? `<span class="tag aged">${escapeHtml(row.vibe)}</span>` : '';
   // Honest-link rule: the play button renders only on rows with a verified
   // link. The visible UI never names Apple TV; the accessible name does.
+  // The name carries the segment title too: two stories from one episode can
+  // share a rail, and identical accessible names would not distinguish them.
   const watch = row.appleUrl && row.linkKind
-    ? `<a class="watch-play" href="${escapeHtml(row.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Watch on Apple TV: ${escapeHtml(row.seriesTitle)}, season ${row.seasonNumber} episode ${row.episodeNumber}"><img class="watch-play-icon" src="/play-button.png" alt="" width="44" height="40"></a>`
+    ? `<a class="watch-play" href="${escapeHtml(row.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Watch on Apple TV: ${escapeHtml(row.seriesTitle)}, ${escapeHtml(row.title)}, season ${row.seasonNumber} episode ${row.episodeNumber}"><img class="watch-play-icon" src="/play-button.png" alt="" width="44" height="40"></a>`
     : '';
   return [
     '      <article class="rail-card">',
