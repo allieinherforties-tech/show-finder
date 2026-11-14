@@ -65,7 +65,7 @@ test('the approved description and honest count chip render verbatim', () => {
 });
 
 test('every rail row quotes the production artifact and the held-back rows are named', () => {
-  // The parent-facing gate holds three defined rows back from the artifact;
+  // The parent-facing gate holds four defined rows back from the artifact;
   // the rail drops them and names them in unresolved, never padding over.
   assert.deepEqual(unresolved, [
     'rail-this-season: eva-the-owlet-s1-e9',
@@ -79,10 +79,27 @@ test('every rail row quotes the production artifact and the held-back rows are n
       assert.ok(story, `row ${row.storyId} must exist in the artifact`);
       assert.equal(row.title, story.segmentTitle || story.episodeTitle, 'title quotes the artifact');
       assert.equal(row.displaySynopsis, story.displaySynopsis);
+      assert.equal(row.situation, story.situation, 'the expanded view quotes the artifact situation');
+      assert.equal(row.coping, story.coping, 'the expanded view quotes the artifact resolution');
       assert.equal(row.appleUrl, story.appleUrl || null);
       assert.ok(row.why, 'every row carries its editorial why');
     }
   }
+});
+
+test('every rail card carries its expanded detail template', () => {
+  const html = renderHolidayRails(resolved);
+  const cards = (html.match(/<article class="rail-card">/g) || []).length;
+  const templates = (html.match(/<template class="rail-detail">/g) || []).length;
+  assert.equal(templates, cards, 'one detail template per card');
+  for (const label of ['<dt>Situation</dt>', '<dt>Ages</dt>', '<dt>Feelings</dt>', '<dt>Resolution</dt>', '<dt>What happens</dt>']) {
+    assert.ok(html.includes(label), `the expanded view names ${label}`);
+  }
+  assert.ok(html.includes('<button class="rail-card-more" type="button" aria-haspopup="dialog">Story details</button>'), 'each card has its keyboard affordance');
+  // The expanded view is served from the same gated artifact, so the
+  // internal-annotation scan in test/parent-facing.test.mjs covers it too;
+  // this pins that no internal field key leaks into the rendered labels.
+  assert.equal(html.includes('coping'), false, 'the field key never renders; the label is Resolution');
 });
 
 test('every row with a verified link carries the play button, no visible Apple TV text', () => {

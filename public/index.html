@@ -90,8 +90,19 @@
     </section>
     <button id="show-more" class="show-more" type="button" hidden>show more stories</button>
 
-    <!-- ONE seasonal rail: 'This Season' holds all 14 rows, Thanksgiving first. -->
+    <!-- ONE seasonal rail: 'This Season' resolves the published rows, Thanksgiving first. -->
     __HOLIDAY_RAILS__
+
+    <!-- The expanded rail card view: one static <dialog>, filled from the
+         tapped card's own detail template. Native <dialog> gives Esc and
+         the focus handling; stateless: nothing stored, nothing fetched. -->
+    <dialog id="rail-card-dialog" class="rail-dialog" aria-labelledby="rail-dialog-title">
+      <div class="rail-dialog-head">
+        <h2 id="rail-dialog-title"></h2>
+        <button class="rail-dialog-close" type="button">Close</button>
+      </div>
+      <div class="rail-dialog-body"></div>
+    </dialog>
 
     <section id="waitlist" class="waitlist" aria-label="Parent Pep Talks">
       <h2>Parent Pep Talks</h2>

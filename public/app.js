@@ -452,6 +452,61 @@ showMoreBtn.addEventListener('click', () => {
   renderNextBatch();
 });
 
+// The expanded rail card view: one static <dialog>, filled from the tapped
+// card's own detail template. Stateless: nothing is stored, nothing is
+// fetched; the card already carries its parent-facing fields. Native
+// <dialog> gives Esc-to-close and the focus trap; we restore focus to
+// whatever opened it.
+const railDialog = document.getElementById('rail-card-dialog');
+if (railDialog) {
+  const railDialogTitle = railDialog.querySelector('#rail-dialog-title');
+  const railDialogBody = railDialog.querySelector('.rail-dialog-body');
+  const railDialogClose = railDialog.querySelector('.rail-dialog-close');
+  let railDialogOpener = null;
+
+  railDialog.addEventListener('close', () => {
+    if (railDialogOpener) railDialogOpener.focus();
+    railDialogOpener = null;
+  });
+
+  // Tapping the backdrop (the dialog element itself) closes, like Esc.
+  railDialog.addEventListener('click', (e) => {
+    if (e.target === railDialog) railDialog.close();
+  });
+
+  if (railDialogClose) railDialogClose.addEventListener('click', () => railDialog.close());
+
+  const openRailCard = (card, opener) => {
+    const detail = card.querySelector('template.rail-detail');
+    if (!detail || typeof railDialog.showModal !== 'function') return;
+    railDialogTitle.textContent = card.querySelector('.rail-title').textContent;
+    railDialogBody.replaceChildren(detail.content.cloneNode(true));
+    // The watch link clones in with its accessible name, so the dialog
+    // itself carries the way out to Apple TV+.
+    const watch = card.querySelector('.watch-play');
+    if (watch) {
+      const actions = document.createElement('div');
+      actions.className = 'rail-dialog-actions';
+      actions.appendChild(watch.cloneNode(true));
+      railDialogBody.appendChild(actions);
+    }
+    railDialogOpener = opener;
+    railDialog.showModal();
+  };
+
+  document.addEventListener('click', (e) => {
+    // The explicit button is the keyboard path; the card tap is the touch
+    // path. Watch links keep their own behavior either way.
+    const more = e.target.closest('.rail-card-more');
+    if (more) {
+      openRailCard(more.closest('.rail-card'), more);
+      return;
+    }
+    const card = e.target.closest('.rail-card');
+    if (card && !e.target.closest('a')) openRailCard(card, card);
+  });
+}
+
 // A search shared by URL (the chain state lives there) restores itself on
 // load, facets and round included.
 (function restoreFromUrl() {
