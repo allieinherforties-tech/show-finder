@@ -15,7 +15,6 @@ const input = document.getElementById('search-input');
 const ageFilter = document.getElementById('age-filter');
 const vibeFilter = document.getElementById('vibe-filter');
 const emotionFilter = document.getElementById('emotion-filter');
-const seriesFilter = document.getElementById('series-filter');
 const resultsEl = document.getElementById('results');
 const resultsMeta = document.getElementById('results-meta');
 const activeFiltersEl = document.getElementById('active-filters');
@@ -76,7 +75,9 @@ function activeEmotion() {
 }
 
 function activeSeries() {
-  return seriesFilter ? seriesFilter.value : chain.series;
+  // The Series dropdown is retired; the facet still lives on through the
+  // clarifier chips and shared URLs, which write chain.series directly.
+  return chain.series;
 }
 
 /** The active filters as one row of { facet, value, label }, in dropdown order. */
@@ -401,7 +402,6 @@ document.addEventListener('click', (e) => {
   }
   if (facet === 'series') {
     chain.series = value;
-    if (seriesFilter) seriesFilter.value = value;
   }
   chain.round += 1;
   runSearch(chain);
@@ -409,7 +409,7 @@ document.addEventListener('click', (e) => {
 
 // Filters are the first layer: a change always searches, even before the
 // parent has typed anything. Clearing every filter returns the idle state.
-[ageFilter, vibeFilter, emotionFilter, seriesFilter].filter(Boolean).forEach((el) => {
+[ageFilter, vibeFilter, emotionFilter].filter(Boolean).forEach((el) => {
   el.addEventListener('change', () => {
     runSearch(chain);
   });
@@ -430,7 +430,6 @@ document.addEventListener('click', (e) => {
   }
   if (facet === 'series') {
     chain.series = '';
-    if (seriesFilter) seriesFilter.value = '';
   }
   chain.round = 0;
   runSearch(chain);
@@ -443,7 +442,6 @@ startOver.addEventListener('click', () => {
   ageFilter.value = '';
   vibeFilter.value = '';
   if (emotionFilter) emotionFilter.value = '';
-  if (seriesFilter) seriesFilter.value = '';
   chain = { q: '', emotion: '', age: '', series: '', round: 0 };
   showIdle();
   writeUrl();
@@ -465,6 +463,5 @@ showMoreBtn.addEventListener('click', () => {
   input.value = state.q;
   if (state.age) ageFilter.value = state.age;
   if (state.emotion && emotionFilter) emotionFilter.value = state.emotion;
-  if (state.series && seriesFilter) seriesFilter.value = state.series;
   runSearch(chain);
 })();
