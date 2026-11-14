@@ -27,6 +27,8 @@ const CONTENT_TYPES = {
   '.js': 'text/javascript; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
   '.svg': 'image/svg+xml',
+  '.txt': 'text/plain; charset=utf-8',
+  '.xml': 'application/xml; charset=utf-8',
 };
 
 /** Builds the app server. Loading the index is synchronous and cheap at this catalog size. */

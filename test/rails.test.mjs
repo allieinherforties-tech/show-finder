@@ -14,10 +14,31 @@ const storyById = (id) => storiesById.get(id) || null;
 
 const { rails: resolved, unresolved } = resolveHolidayRails(HOLIDAY_RAILS, storyById);
 
-test('the landing page renders exactly ONE seasonal rail titled This Season', () => {
-  assert.equal(resolved.length, 1, 'one rail, no featured/secondary sections');
-  assert.equal(resolved[0].id, 'rail-this-season');
+test('the landing page renders five rails: This Season first, then the approved order', () => {
+  assert.deepEqual(resolved.map((r) => r.id), [
+    'rail-this-season',
+    'rail-something-new',
+    'rail-big-feelings',
+    'rail-friendship-trouble',
+    'rail-wind-down',
+  ], 'This Season leads, then Something New, Big Feelings, Friendship Trouble, Wind-Down');
   assert.equal(resolved[0].title, 'This Season', 'exact casing from the feedback');
+});
+
+test('every shipped rail clears the eight-row depth floor on the artifact', () => {
+  for (const rail of resolved) {
+    assert.ok(rail.rows.length >= 8, `${rail.id} resolves ${rail.rows.length} rows, below the eight-row floor`);
+  }
+});
+
+test('no story appears on two rails', () => {
+  const seen = new Map();
+  for (const rail of resolved) {
+    for (const row of rail.rows) {
+      assert.equal(seen.has(row.storyId), false, `${row.storyId} is on both ${seen.get(row.storyId)} and ${rail.id}`);
+      seen.set(row.storyId, rail.id);
+    }
+  }
 });
 
 test('the shelf holds all 14 rows, Thanksgiving first, then Christmas, then winter', () => {
@@ -36,7 +57,7 @@ test('the approved description and honest count chip render verbatim', () => {
   const html = renderHolidayRails(resolved);
   assert.ok(html.includes('Cozy seasonal stories for the weeks ahead: episodes about gratitude, giving, and being together, from Thanksgiving tables to quiet winter nights.'), 'approved description renders verbatim');
   assert.ok(html.includes('<span class="rail-count">14 stories</span>'), 'the count chip reads 14 stories, not episodes');
-  assert.equal((html.match(/rail-section/g) || []).length, 1, 'exactly one section renders');
+  assert.equal((html.match(/rail-section/g) || []).length, 5, 'one section per shipped rail');
 });
 
 test('every rail row quotes the production artifact and is fully resolved', () => {
@@ -55,19 +76,19 @@ test('every rail row quotes the production artifact and is fully resolved', () =
 
 test('every row with a verified link carries the play button, no visible Apple TV text', () => {
   const html = renderHolidayRails(resolved);
-  const linked = resolved[0].rows.filter((r) => r.appleUrl);
-  const unlinked = resolved[0].rows.filter((r) => !r.appleUrl);
-  assert.equal(unlinked.length, 0, 'all 14 rows carry verified links from the harvested artifact');
-  assert.equal(linked.length, 14, 'all 14 rows are linked');
-  assert.equal((html.match(/class="watch-play"/g) || []).length, 14, 'one play button per verified row');
+  const linked = resolved.flatMap((r) => r.rows).filter((r) => r.appleUrl);
+  const unlinked = resolved.flatMap((r) => r.rows).filter((r) => !r.appleUrl);
+  assert.equal(unlinked.length, 0, 'all rail rows carry verified links from the harvested artifact');
+  assert.equal(linked.length, 54, '54 linked rows across the five rails');
+  assert.equal((html.match(/class="watch-play"/g) || []).length, 54, 'one play button per verified row');
   for (const row of linked) {
     assert.ok(classifyAppleUrl(row.appleUrl), `malformed apple link on ${row.storyId}: ${row.appleUrl}`);
     assert.equal(row.linkKind, classifyAppleUrl(row.appleUrl));
   }
   const labels = [...html.matchAll(/aria-label="([^"]+)"/g)].map((m) => m[1]);
   const watchLabels = labels.filter((l) => l.startsWith('Watch on Apple TV'));
-  assert.equal(watchLabels.length, 14, 'each button keeps its Watch on Apple TV accessible name');
-  assert.equal(new Set(watchLabels).size, 14, 'aria labels stay distinct per row');
+  assert.equal(watchLabels.length, 54, 'each button keeps its Watch on Apple TV accessible name');
+  assert.equal(new Set(watchLabels).size, watchLabels.length, 'aria labels stay distinct per row');
   const buttons = [...html.matchAll(/<a class="watch-play".*?<\/a>/gs)].map((m) => m[0]);
   for (const button of buttons) {
     assert.ok(button.includes('/play-button.png'), 'the deeplink wraps the play logo');
