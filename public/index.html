@@ -10,8 +10,8 @@
 <body>
   <main>
     <header class="hero">
-      <h1>what&rsquo;s your kid going through tonight?</h1>
-      <p class="sub">Describe the moment. We find the episode from the Apple TV+ Kids and Family catalog that meets it.</p>
+      <h1>Find an episode to meet the moment.</h1>
+      <p class="sub">Describe what your child has been dealing with. We&rsquo;ll recommend an episode that can help.</p>
       <div class="filters" id="filters">
         <label>Feeling
           <select id="emotion-filter" name="emotion">
@@ -91,14 +91,13 @@
         <button class="chip" data-q="big feelings">big feelings</button>
         <button class="chip" data-q="something calm before bed">something calm before bed</button>
       </div>
-      </div>
     </header>
 
-    <!-- ONE seasonal rail: 'This Season' holds all 14 rows, Thanksgiving first. -->
-    __HOLIDAY_RAILS__
-
+    <!-- Story matches outrank browsing: the results surfaces sit above the
+         rails in the page, always. The rails yield entirely while matches are
+         on screen and return with the idle state. -->
     <section id="results-meta" class="results-meta" aria-live="polite" hidden></section>
-    <!-- One tap removes one filter: mirrors whatever the four dropdowns hold. -->
+    <!-- One tap removes one filter: mirrors whatever the dropdowns hold. -->
     <div id="active-filters" class="active-filters" aria-label="Active filters" hidden></div>
     <section id="clarifiers" class="clarifiers" aria-live="polite" hidden>
       <p id="clarifier-prompt" class="clarifier-prompt"></p>
@@ -111,6 +110,9 @@
       <p id="no-results-suggestions" hidden>No episode matched. Try the feeling instead: <button class="chip" data-q="big feelings">big feelings</button>, <button class="chip" data-q="frustrated">frustrated</button>, or <button class="chip" data-q="asking for help">asking for help</button>.</p>
     </section>
     <button id="show-more" class="show-more" type="button" hidden>show more stories</button>
+
+    <!-- ONE seasonal rail: 'This Season' holds all 14 rows, Thanksgiving first. -->
+    __HOLIDAY_RAILS__
 
     <section id="waitlist" class="waitlist" aria-label="Parent Pep Talks">
       <h2>Parent Pep Talks</h2>

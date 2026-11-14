@@ -28,6 +28,18 @@ test('the four filter dropdowns and the results surfaces ship', () => {
   }
 });
 
+test('story-match surfaces sit above the rails in the page', () => {
+  // Episode recommendations outrank browsing, always: even the searching and
+  // zero-match states render above the rails, never below them.
+  const surfaces = ['results-meta', 'active-filters', 'clarifiers', 'results', 'no-results', 'show-more'];
+  const railsAt = html.indexOf('__HOLIDAY_RAILS__');
+  assert.ok(railsAt > 0, 'the rails placeholder ships in the page');
+  for (const id of surfaces) {
+    const at = html.indexOf(`id="${id}"`);
+    assert.ok(at >= 0 && at < railsAt, `#${id} must sit above the rails`);
+  }
+});
+
 test('the stylesheet keeps the [hidden] reset that makes hidden mean hidden', async () => {
   const css = await readFile('public/styles.css', 'utf8');
   // Class rules like .show-more { display: block } beat the UA's [hidden]
