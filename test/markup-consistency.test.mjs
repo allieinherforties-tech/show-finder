@@ -13,9 +13,9 @@ const lookedUp = [...app.matchAll(/getElementById\('([^']+)'\)/g)].map((m) => m[
 
 test('app.js never looks up an id the page does not ship', () => {
   assert.ok(lookedUp.length > 5, 'the lookup scan itself found the real ids');
-  // rail-this-season is not static markup: applyHolidayRails injects it at
-  // serve time into the __HOLIDAY_RAILS__ placeholder.
-  const serverInjected = new Set(['rail-this-season']);
+  // rail-this-season and series-strip are not static markup: applyHolidayRails
+  // and applySeriesStrip inject them at serve time into their placeholders.
+  const serverInjected = new Set(['rail-this-season', 'series-strip']);
   const missing = [...new Set(lookedUp)]
     .filter((id) => !serverInjected.has(id))
     .filter((id) => !html.includes(`id="${id}"`));
@@ -46,6 +46,17 @@ test('story-match surfaces sit above the rails in the page', () => {
     const at = html.indexOf(`id="${id}"`);
     assert.ok(at >= 0 && at < railsAt, `#${id} must sit above the rails`);
   }
+});
+
+test('the poster strip ships beneath the hero and above the rails and results', () => {
+  // Ruled v1.1 placement: beneath the hero, above the rails. It sits before
+  // the result surfaces too; app.js hides it while matches are on screen,
+  // so story matches still outrank browsing.
+  const stripAt = html.indexOf('__SERIES_STRIP__');
+  assert.ok(stripAt > 0, 'the strip placeholder ships in the page');
+  assert.ok(html.indexOf('</header>') < stripAt, 'the strip sits beneath the hero');
+  assert.ok(stripAt < html.indexOf('__HOLIDAY_RAILS__'), 'the strip sits above the rails');
+  assert.ok(stripAt < html.indexOf('id="results-meta"'), 'the strip sits above the result surfaces');
 });
 
 test('the stylesheet keeps the [hidden] reset that makes hidden mean hidden', async () => {

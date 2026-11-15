@@ -345,12 +345,14 @@ async function runSearch(state) {
       noResults.hidden = false;
       hideClarifiers();
       if (seasonRail) seasonRail.hidden = false;
+      if (seriesStrip) seriesStrip.hidden = false;
       writeUrl();
       return;
     }
     // Results replace the rail as the thing on screen; it returns with the
     // idle state.
     if (seasonRail) seasonRail.hidden = true;
+    if (seriesStrip) seriesStrip.hidden = true;
     fullResults = data.results;
     renderNextBatch();
     renderClarifiers(data);

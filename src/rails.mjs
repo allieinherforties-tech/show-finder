@@ -338,6 +338,8 @@ function escapeHtml(text) {
     .replace(/"/g, '&quot;');
 }
 
+export { escapeHtml };
+
 /** Age bands read like the filter labels: '2-4' becomes 'ages 2 to 4'. */
 function formatAgeBand(band) {
   const m = /^([\d]+)-([\d]+)$/.exec(band || '');
