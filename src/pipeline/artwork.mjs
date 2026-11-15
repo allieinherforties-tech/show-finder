@@ -107,7 +107,39 @@ export function attachArtworkAndLink(story, artworkIndex, appleRegistry) {
 }
 
 /**
- * Attaches artwork and links to every story, and returns a coverage summary
+ * The v1.1 browse-by-show strip: one entry per published series, stamped into
+ * the artifact at build time. Poster URLs are the ones the artwork join
+ * already resolved onto story rows, so no new fetch layer exists. The gate is
+ * the pre-verified feasibility fact the strip is built on: every published
+ * series resolves exactly one distinct poster URL. A series with two posters,
+ * or with none, stops the build with instructions instead of shipping a
+ * filler tile or a placeholder.
+ */
+export function collectSeriesPosters(stories) {
+  const posterUrlsBySeries = new Map();
+  for (const s of stories) {
+    if (!s.seriesTitle) continue;
+    if (!posterUrlsBySeries.has(s.seriesTitle)) posterUrlsBySeries.set(s.seriesTitle, new Set());
+    if (s.posterUrl) posterUrlsBySeries.get(s.seriesTitle).add(s.posterUrl);
+  }
+  const problems = [];
+  for (const [title, posters] of posterUrlsBySeries) {
+    if (posters.size === 0) {
+      problems.push(`${title}: no poster resolved (run npm run fetch:artwork and check the TMDB join)`);
+    } else if (posters.size > 1) {
+      problems.push(`${title}: ${posters.size} distinct poster URLs where the strip needs exactly one`);
+    }
+  }
+  if (problems.length) {
+    throw new Error(`series poster gate failed:\n  ${problems.join('\n  ')}`);
+  }
+  return [...posterUrlsBySeries.entries()]
+    .map(([title, posters]) => ({ title, posterUrl: [...posters][0] }))
+    .sort((a, b) => a.title.localeCompare(b.title));
+}
+
+/**
+ * Attaches artwork and Apple links to every story, and returns a coverage summary
  * for the build report: stills found, poster fallbacks, missing artwork, link
  * kinds, and any series whose catalog join failed.
  */

@@ -15,7 +15,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import path from 'node:path';
 import { cleanText, isPlaceholderRow, normalizeStoryRow, publishProblems, searchableText } from '../src/pipeline/normalize.mjs';
 import { suppressionReasons } from '../src/pipeline/parent-facing.mjs';
-import { attachAll, buildArtworkIndex } from '../src/pipeline/artwork.mjs';
+import { attachAll, buildArtworkIndex, collectSeriesPosters } from '../src/pipeline/artwork.mjs';
 import { classifyAppleUrl, validateAppleRegistry } from '../src/links/apple-tv.mjs';
 import { createEmbedder, stableVector } from '../src/search/embedder.mjs';
 import { populateDb } from '../src/search/store.mjs';
@@ -234,6 +234,14 @@ function main() {
     ids.add(s.id);
   }
 
+  // The v1.1 browse-by-show strip: one real poster per published series,
+  // stamped into the artifact so the server renders the strip with no new
+  // fetch layer. The gate inside collectSeriesPosters stops the build when a
+  // series resolves zero or several distinct posters. Derived data, so it
+  // rides outside the version hash: the stamp still covers story content and
+  // vectors only, and a rebuild reproduces this list byte for byte.
+  const seriesPosters = collectSeriesPosters(stories);
+
   const embedder = createEmbedder();
   const embeddings = stories.map((s) => ({
     id: s.id,
@@ -257,6 +265,7 @@ function main() {
       rowCount: s.rowCount,
     })),
     storyCount: stories.length,
+    seriesPosters,
     stories,
     embeddings,
   };

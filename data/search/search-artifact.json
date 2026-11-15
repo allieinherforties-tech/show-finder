@@ -165,6 +165,80 @@
     }
   ],
   "storyCount": 525,
+  "seriesPosters": [
+    {
+      "title": "Camp Snoopy",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/vN5fuofxX5jvRnu6R3NhGipUhbI.jpg"
+    },
+    {
+      "title": "Doug Unplugs",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/iIDiGOoeupsWvPDbi6qfikgjngm.jpg"
+    },
+    {
+      "title": "Duck & Goose",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/mvRBeORln0UAJ5sTMUVGyAqhPo9.jpg"
+    },
+    {
+      "title": "Eva the Owlet",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/cXLgFWoNSExBY7AgCkqjaMSj85i.jpg"
+    },
+    {
+      "title": "Frog and Toad",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg"
+    },
+    {
+      "title": "Get Rolling with Otis",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/fNJHsDr3qB0gJxaGpl6vnfzG2ey.jpg"
+    },
+    {
+      "title": "Ghostwriter",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/cylPAXqLws5yM9oJa47MsHItBy8.jpg"
+    },
+    {
+      "title": "Harriet the Spy",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/wlH2YAt8JxOoKgkF3HlDGt9d734.jpg"
+    },
+    {
+      "title": "Helpsters Help You",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/9YdnmAz7d27xg0Tx0oSiLQOGlF7.jpg"
+    },
+    {
+      "title": "Interrupting Chicken",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg"
+    },
+    {
+      "title": "Pretzel and the Puppies",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg"
+    },
+    {
+      "title": "Sago Mini Friends",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/s2uZqYwQWEaJ71Pat7RYovhcIq9.jpg"
+    },
+    {
+      "title": "Shape Island",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg"
+    },
+    {
+      "title": "Stillwater",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/t6tcFn0LiyKRqR76XwNfErK81cw.jpg"
+    },
+    {
+      "title": "Surfside Girls",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/4UsNYs4BiEy3hQd76fCmAOYIZ97.jpg"
+    },
+    {
+      "title": "The Sisters Grimm",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/1W4l1TtOSQ7vFRzeouh9ur14OX9.jpg"
+    },
+    {
+      "title": "Wolfboy and the Everything Factory",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/gdEXA8G4Bynu4vCzMkqwudGglMe.jpg"
+    },
+    {
+      "title": "WondLa",
+      "posterUrl": "https://image.tmdb.org/t/p/w342/nacwwHnoCz1MX9tIrFTnnNqLmax.jpg"
+    }
+  ],
   "stories": [
     {
       "id": "camp-snoopy-s1-e1-seg1",
