@@ -435,3 +435,47 @@ export function applyHolidayRails(html, storyById, rails = HOLIDAY_RAILS) {
   const rendered = renderHolidayRails(resolved);
   return html.split(HOLIDAY_RAILS_PLACEHOLDER).join(rendered);
 }
+
+export const SERIES_STRIP_PLACEHOLDER = '__SERIES_STRIP__';
+
+/**
+ * One poster tile. The tap is a plain deep link to the existing series
+ * facet, /?series=<title>: the same hard filter the clarifier chips write,
+ * which app.js restores into a filtered browse from the URL on load. The
+ * anchor needs no JavaScript to be an honest link, and the URL a poster
+ * produces is the URL a parent can share. The series title is the whole
+ * accessible name, on both the image and the link.
+ */
+function renderSeriesPoster(entry) {
+  const href = `/?series=${encodeURIComponent(entry.title)}`;
+  return [
+    '    <li class="series-poster-item">',
+    `      <a class="series-poster" href="${href}" aria-label="${escapeHtml(entry.title)} stories">`,
+    `        <img class="series-poster-img" src="${escapeHtml(entry.posterUrl)}" alt="${escapeHtml(entry.title)}" loading="lazy" width="220" height="330">`,
+    '      </a>',
+    '    </li>',
+  ].join('\n');
+}
+
+/**
+ * Server-side render of the v1.1 browse-by-show strip: one real poster per
+ * published series, straight from the build's stamped list. No JavaScript,
+ * no auto-motion; the row scrolls horizontally and each tile deep-links the
+ * series facet. An empty list renders as nothing: the strip never pads.
+ */
+export function renderSeriesStrip(seriesPosters) {
+  if (!seriesPosters || !seriesPosters.length) return '';
+  return [
+    '  <section id="series-strip" class="series-strip" aria-label="Browse by show">',
+    '    <h2>Browse by show</h2>',
+    '    <ul class="series-posters" tabindex="0" aria-label="Series posters">',
+    seriesPosters.map(renderSeriesPoster).join('\n'),
+    '    </ul>',
+    '  </section>',
+  ].join('\n');
+}
+
+/** Substitutes the rendered strip for its placeholder on the served page. */
+export function applySeriesStrip(html, seriesPosters) {
+  return html.split(SERIES_STRIP_PLACEHOLDER).join(renderSeriesStrip(seriesPosters));
+}

@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 import { loadIndex, ARTIFACT_PATH, DB_PATH } from './search/store.mjs';
 import { CANONICAL_EMOTIONS } from './vocabulary.mjs';
 import { applyWaitlistUrl } from './waitlist.mjs';
-import { applyHolidayRails } from './rails.mjs';
+import { applyHolidayRails, applySeriesStrip } from './rails.mjs';
 
 // The swappable artwork layer. One configuration flag, set per deploy:
 //   ARTWORK_MODE=tmdb (default): result cards render attributed TMDB episode
@@ -62,6 +62,10 @@ export function createApp({ artifactPath = ARTIFACT_PATH, dbPath = DB_PATH } = {
       // first-party markup with no JavaScript dependency, like the waitlist
       // CTA above.
       body = applyHolidayRails(body, index.storyById);
+      // The browse-by-show strip renders server side from the build's
+      // stamped poster list. A text mode deploy renders no artwork anywhere,
+      // so it passes an empty list and the strip renders as nothing.
+      body = applySeriesStrip(body, ARTWORK_MODE === 'text' ? [] : index.seriesPosters);
     }
     res.writeHead(200, { 'Content-Type': CONTENT_TYPES[path.extname(resolved)] || 'application/octet-stream' });
     res.end(body);
