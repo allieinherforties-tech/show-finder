@@ -61,6 +61,9 @@ export function loadIndex({ artifactPath, dbPath, embedderName } = {}) {
     storyCount: stories.length,
     // Series the index knows, for validating the guided reply series facet.
     seriesTitles: new Set(stories.map((s) => s.seriesTitle)),
+    // The v1.1 browse-by-show strip: one poster per published series, stamped
+    // by the build. The server renders it straight from this list.
+    seriesPosters: raw.seriesPosters || [],
     // Direct row access for curated surfaces (the holiday rails): a rail row
     // quotes the artifact's own story row, so a rebuild flows through.
     storyById: (id) => storiesById.get(id) || null,

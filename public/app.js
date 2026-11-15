@@ -29,6 +29,10 @@ const startOver = document.getElementById('start-over');
 // The seasonal rail renders server side above the results; it yields to them
 // and comes back with the idle state. Absent in test shims, hence the guard.
 const seasonRail = document.getElementById('rail-this-season');
+// The browse-by-show strip renders server side under the hero; it yields to
+// story matches with the rails and returns with the idle state. Absent in
+// test shims, hence the guard.
+const seriesStrip = document.getElementById('series-strip');
 
 // Live search waits for a pause in typing before hitting the API, and a
 // sequence number drops stale responses: a slow reply for an earlier query
@@ -203,6 +207,7 @@ function showIdle() {
   resultsEl.replaceChildren();
   hideClarifiers();
   if (seasonRail) seasonRail.hidden = false;
+  if (seriesStrip) seriesStrip.hidden = false;
 }
 
 // One chip per active filter, one tap removes it. Mirrors all four dropdowns.
@@ -340,12 +345,14 @@ async function runSearch(state) {
       noResults.hidden = false;
       hideClarifiers();
       if (seasonRail) seasonRail.hidden = false;
+      if (seriesStrip) seriesStrip.hidden = false;
       writeUrl();
       return;
     }
     // Results replace the rail as the thing on screen; it returns with the
     // idle state.
     if (seasonRail) seasonRail.hidden = true;
+    if (seriesStrip) seriesStrip.hidden = true;
     fullResults = data.results;
     renderNextBatch();
     renderClarifiers(data);
