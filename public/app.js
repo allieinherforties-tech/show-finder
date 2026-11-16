@@ -514,6 +514,29 @@ if (railDialog) {
     const card = e.target.closest('.rail-card');
     if (card && !e.target.closest('a')) openRailCard(card, card);
   });
+
+  // The browse-by-show strip shares this dialog: tapping a series poster
+  // opens the series popup built from the tile's own server-rendered detail
+  // template: poster thumbnail, the approved description verbatim, the
+  // suggested age band, and the two actions (watch on Apple TV+, browse the
+  // series facet). Keyboard and touch both arrive as click on the anchor;
+  // the facet deep link is suppressed only when the template is present and
+  // the dialog can actually open, so the tile stays an honest link without
+  // JavaScript.
+  document.addEventListener('click', (e) => {
+    const poster = e.target.closest('.series-poster');
+    if (!poster || typeof railDialog.showModal !== 'function') return;
+    const detail = poster.parentElement
+      ? poster.parentElement.querySelector('template.series-detail')
+      : null;
+    if (!detail) return;
+    e.preventDefault();
+    const img = poster.querySelector('img');
+    railDialogTitle.textContent = img ? img.alt : '';
+    railDialogBody.replaceChildren(detail.content.cloneNode(true));
+    railDialogOpener = poster;
+    railDialog.showModal();
+  });
 }
 
 // A search shared by URL (the chain state lives there) restores itself on

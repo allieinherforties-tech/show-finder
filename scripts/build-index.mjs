@@ -16,6 +16,7 @@ import path from 'node:path';
 import { cleanText, isPlaceholderRow, normalizeStoryRow, publishProblems, searchableText } from '../src/pipeline/normalize.mjs';
 import { suppressionReasons } from '../src/pipeline/parent-facing.mjs';
 import { attachAll, buildArtworkIndex, collectSeriesPosters } from '../src/pipeline/artwork.mjs';
+import { joinSeriesDescriptions } from '../src/pipeline/series-descriptions.mjs';
 import { classifyAppleUrl, validateAppleRegistry } from '../src/links/apple-tv.mjs';
 import { createEmbedder, stableVector } from '../src/search/embedder.mjs';
 import { populateDb } from '../src/search/store.mjs';
@@ -242,6 +243,14 @@ function main() {
   // vectors only, and a rebuild reproduces this list byte for byte.
   const seriesPosters = collectSeriesPosters(stories);
 
+  // The poster-tap popup: the approved description, suggested age band, and
+  // verified Apple series link join onto each strip entry from the committed
+  // descriptions dump. The gate inside joinSeriesDescriptions stops the build
+  // when the workbook and the strip disagree — a missing or duplicate row, a
+  // stale row, an unverified link — so a popup never ships half-joined.
+  const descriptionsDump = sources.find((s) => s.kind === 'series-descriptions');
+  const seriesPopups = joinSeriesDescriptions(seriesPosters, descriptionsDump?.rows);
+
   const embedder = createEmbedder();
   const embeddings = stories.map((s) => ({
     id: s.id,
@@ -265,7 +274,7 @@ function main() {
       rowCount: s.rowCount,
     })),
     storyCount: stories.length,
-    seriesPosters,
+    seriesPosters: seriesPopups,
     stories,
     embeddings,
   };

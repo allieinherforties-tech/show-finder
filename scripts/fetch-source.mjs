@@ -27,6 +27,16 @@ const SOURCES = [
     ],
   },
   {
+    workbookId: 'wb_a6zJ9L6l',
+    workbookName: 'Series Descriptions — Poster Popup',
+    sheets: [
+      // Allie's approved verbatim descriptions for the poster-tap popup
+      // (2026-11-16). Join key is series_title; the build fails fast when a
+      // strip series has no row, a duplicate, or an unverified link.
+      { sheetId: 'sh_udod4EbT', name: 'Series Descriptions', kind: 'series-descriptions' },
+    ],
+  },
+  {
     workbookId: 'wb_McM7y4Xx',
     workbookName: 'Stillwater — Secret Sauce Dev Set',
     sheets: [
