@@ -106,9 +106,10 @@ main {
 @media (min-width: 480px) {
   .filters {
     flex-wrap: nowrap;
-    /* Match the search box below: Feeling's left edge and Vibe's right
-       edge align with the container edges instead of clustering left. */
-    justify-content: space-between;
+    /* Center under the hero text like the H1 and support line: an even
+       cluster above the search bar, not edge-to-edge with the container. */
+    justify-content: center;
+    gap: 1.5rem;
   }
 }
 
