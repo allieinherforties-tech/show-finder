@@ -100,6 +100,14 @@
       "rowCount": 77
     },
     {
+      "workbookId": "wb_a6zJ9L6l",
+      "workbookName": "Series Descriptions — Poster Popup",
+      "sheetId": "sh_udod4EbT",
+      "sheetName": "Series Descriptions",
+      "kind": "series-descriptions",
+      "rowCount": 18
+    },
+    {
       "workbookId": "wb_itf7wG3d",
       "workbookName": "Apple TV+ Kids & Family — Base Subscription Database",
       "sheetId": "sh_Upf0OvWu",
@@ -168,75 +176,129 @@
   "seriesPosters": [
     {
       "title": "Camp Snoopy",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/vN5fuofxX5jvRnu6R3NhGipUhbI.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/vN5fuofxX5jvRnu6R3NhGipUhbI.jpg",
+      "description": "Snoopy runs a Beagle Scout troop at Camp Spring Lake, where every badge, campfire, and ring-toss tournament becomes a full Peanuts production. Parents can expect camp stories about measuring up, camp crushes, and scary firsts, each one settled by a friend's patient reframe.",
+      "ageBand": "5-7",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/camp-snoopy/umc.cmc.4erhnrmkf9vgeojl3uryxsc0j"
     },
     {
       "title": "Doug Unplugs",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/iIDiGOoeupsWvPDbi6qfikgjngm.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/iIDiGOoeupsWvPDbi6qfikgjngm.jpg",
+      "description": "Doug is a boy robot making deliveries in the big city, and every errand turns into a hands-on lesson in how humans play, celebrate, and explore. Parents can expect easygoing stories where a failed plan is treated as information for the next try.",
+      "ageBand": "2-4",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/doug-unplugs/umc.cmc.3oxevpgaoqomu820s0e70ri75"
     },
     {
       "title": "Duck & Goose",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/mvRBeORln0UAJ5sTMUVGyAqhPo9.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/mvRBeORln0UAJ5sTMUVGyAqhPo9.jpg",
+      "description": "Duck and Goose, two small birds with big opinions, guard a found egg, build a kite from spare parts, and turn every meadow errand into an expedition. Parents can expect gentle stories about patience, sharing, and giving a friend's way of doing things an honest try.",
+      "ageBand": "2-4",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/duck--goose/umc.cmc.qayvbuimq7lxab6y2cs9tbcj"
     },
     {
       "title": "Eva the Owlet",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/cXLgFWoNSExBY7AgCkqjaMSj85i.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/cXLgFWoNSExBY7AgCkqjaMSj85i.jpg",
+      "description": "Eva Wingdale, an enthusiastic young owl in Treetopington, throws herself into contests, weddings, and class projects with plans that are bigger than her wingspan. Parents can expect school-and-family stories where good intentions wobble and get a kind correction.",
+      "ageBand": "2-4",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/eva-the-owlet/umc.cmc.49ts9z2smhboe9tweoygj8gv2"
     },
     {
       "title": "Frog and Toad",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/jDWTTWNzieMiqNBVfXmTZG18J18.jpg",
+      "description": "Frog and Toad live a quiet, loyal friendship one small domestic story at a time: cookies, letters, gardens, and lost buttons. Parents can expect gentle, funny episodes about willpower, worry, waiting, and the small gestures that make a friend feel known.",
+      "ageBand": "2-4",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h"
     },
     {
       "title": "Get Rolling with Otis",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/fNJHsDr3qB0gJxaGpl6vnfzG2ey.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/fNJHsDr3qB0gJxaGpl6vnfzG2ey.jpg",
+      "description": "Otis, a friendly little tractor on a busy farm, helps his neighbors through rescues, contests, and hard days with steady, puttering determination. Parents can expect farm stories where calm problem-solving and looking out for a friend carry the day.",
+      "ageBand": "2-4",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/get-rolling-with-otis/umc.cmc.3tql7vmqfmedyw1ab7efys3z"
     },
     {
       "title": "Ghostwriter",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/cylPAXqLws5yM9oJa47MsHItBy8.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/cylPAXqLws5yM9oJa47MsHItBy8.jpg",
+      "description": "Kids at a Brooklyn bookstore crack mysteries by letter when a ghost rearranges words, and storybook characters step off their pages and into the case. Parents can expect team-sleuth stories about research, disagreement, and telling the truth even when it costs something.",
+      "ageBand": "8-10",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/ghostwriter/umc.cmc.3z6okqcnxoo6ohte3k2z5vvrp"
     },
     {
       "title": "Harriet the Spy",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/wlH2YAt8JxOoKgkF3HlDGt9d734.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/wlH2YAt8JxOoKgkF3HlDGt9d734.jpg",
+      "description": "Harriet M. Welsch, a sixth grader with a notebook and a spy route, writes down exactly what the grown-ups and classmates around her would rather keep private. Parents can expect stories about observation, friendship honesty, and a young detective learning to face her own flaws.",
+      "ageBand": "8-10",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/harriet-the-spy/umc.cmc.3gx9h3d2f823gl8pvpippy5p9"
     },
     {
       "title": "Helpsters Help You",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/9YdnmAz7d27xg0Tx0oSiLQOGlF7.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/9YdnmAz7d27xg0Tx0oSiLQOGlF7.jpg",
+      "description": "Cody, a monster who loves to plan, walks preschoolers through one everyday problem per short episode with songs, play, and the Helpster habit of asking for another way. Parents can expect bite-size modeling of naming a plan, adapting when it changes, and thanking the helpers.",
+      "ageBand": "2-4",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/helpsters-help-you/umc.cmc.3xi33xb3r3xbxx4lssz8cswdr"
     },
     {
       "title": "Interrupting Chicken",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/Av52YtR9fvE0aqPrso1fbkM1fDC.jpg",
+      "description": "Piper, the little red chicken, keeps bursting into Papa's bedtime stories to fix the characters' problems, and every interruption rewrites the tale. Parents can expect bedtime-framed stories where big feelings meet fairy-tale chaos and Papa models calm, creative redirecting.",
+      "ageBand": "5-7",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw"
     },
     {
       "title": "Pretzel and the Puppies",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/2t1oBYR0JQpVi7SLeZ8UF536YuY.jpg",
+      "description": "Pretzel and Poppy's seven dachshund puppies take on their city one small project at a time, from a community mural to the Kibble Cart Derby. Parents can expect upbeat stories about inclusion and problem-solving, including redesigning rules that leave someone out.",
+      "ageBand": "2-4",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh"
     },
     {
       "title": "Sago Mini Friends",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/s2uZqYwQWEaJ71Pat7RYovhcIq9.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/s2uZqYwQWEaJ71Pat7RYovhcIq9.jpg",
+      "description": "Harvey and his Sagoville friends turn everyday errands and rituals into play, from waiting for pizza to a gnome wedding held every Wednesday. Parents can expect gentle preschool comedy about waiting, small letdowns, and finding something to be thankful for.",
+      "ageBand": "2-4",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/sago-mini-friends/umc.cmc.4ckulbycyeuavnlen3du06vvy"
     },
     {
       "title": "Shape Island",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/bJu8gM5eso8It2uPNbvGV7A95VN.jpg",
+      "description": "Square, Circle, and Triangle share a small island and a long history of pranks, projects, and feelings named out loud. Parents can expect wry, slow-paced stories about friendship frictions and disappointment that end in quiet understanding.",
+      "ageBand": "2-4",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738"
     },
     {
       "title": "Stillwater",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/t6tcFn0LiyKRqR76XwNfErK81cw.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/t6tcFn0LiyKRqR76XwNfErK81cw.jpg",
+      "description": "Stillwater, a wise and playful panda, helps siblings Karl, Michael, and Addy with one real-life difficulty per story, paired with a folk tale that reframes it. Parents can expect calm episodes about disappointment, patience, and big feelings settling down.",
+      "ageBand": "5-7",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao"
     },
     {
       "title": "Surfside Girls",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/4UsNYs4BiEy3hQd76fCmAOYIZ97.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/4UsNYs4BiEy3hQd76fCmAOYIZ97.jpg",
+      "description": "Sam and Jade spend their California summer chasing the mystery of Danger Point, where surf sessions share the beach with ghost stories and buried doubloons. Parents can expect adventure-mystery episodes where friendship and a science-minded check on every theory do the work.",
+      "ageBand": "8-10",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/surfside-girls/umc.cmc.4371g2xacdr0wfs071dm3q30x"
     },
     {
       "title": "The Sisters Grimm",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/1W4l1TtOSQ7vFRzeouh9ur14OX9.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/1W4l1TtOSQ7vFRzeouh9ur14OX9.jpg",
+      "description": "Orphaned sisters Sabrina and Daphne arrive in Ferryport Landing with a grandmother who claims fairy-tale characters are real, and a town full of evidence. Parents can expect detective-style fantasy adventure, a shadowy villain, and a family that closes ranks under pressure.",
+      "ageBand": "8-10",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/the-sisters-grimm/umc.cmc.2hc9ggvxaqddv779k4zupmrw"
     },
     {
       "title": "Wolfboy and the Everything Factory",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/gdEXA8G4Bynu4vCzMkqwudGglMe.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/gdEXA8G4Bynu4vCzMkqwudGglMe.jpg",
+      "description": "Wolfboy, the masked kid who never fit in, follows two strange creatures down a portal to the Spryte world and an underground factory where weird ideas are the whole job. Parents can expect imaginative adventures about belonging, friendship repair, and mistakes that become something better.",
+      "ageBand": "5-7",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/wolfboy-and-the-everything-factory/umc.cmc.6f1xxgn2dg52deawakawg20r9"
     },
     {
       "title": "WondLa",
-      "posterUrl": "https://image.tmdb.org/t/p/w342/nacwwHnoCz1MX9tIrFTnnNqLmax.jpg"
+      "posterUrl": "https://image.tmdb.org/t/p/w342/nacwwHnoCz1MX9tIrFTnnNqLmax.jpg",
+      "description": "Eva Nine leaves the underground sanctuary where a robot raised her and steps onto an alien surface where walking trees and flying whales break every rule in her training. Parents can expect serialized science-fiction adventure with pursuit and peril, a found family, and the question of where a person belongs.",
+      "ageBand": "8-10",
+      "appleSeriesUrl": "https://tv.apple.com/us/show/wondla/umc.cmc.2ghd8ombh4fd37rfs27ivfa94"
     }
   ],
   "stories": [

@@ -20,6 +20,16 @@
     "rowCount": 1340
   },
   {
+    "file": "wb_a6zJ9L6l_sh_udod4EbT.json",
+    "workbookId": "wb_a6zJ9L6l",
+    "workbookName": "Series Descriptions — Poster Popup",
+    "sheetId": "sh_udod4EbT",
+    "sheetName": "Series Descriptions",
+    "kind": "series-descriptions",
+    "defaultSeriesTitle": null,
+    "rowCount": 18
+  },
+  {
     "file": "wb_McM7y4Xx_sh_7kZ9CyAy.json",
     "workbookId": "wb_McM7y4Xx",
     "workbookName": "Stillwater — Secret Sauce Dev Set",

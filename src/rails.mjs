@@ -14,6 +14,7 @@
 // editorial framing: the approved description and the per-row why lines.
 
 import { classifyAppleUrl } from './links/apple-tv.mjs';
+import { suggestedAgeLine } from './pipeline/series-descriptions.mjs';
 
 export const HOLIDAY_RAILS_PLACEHOLDER = '__HOLIDAY_RAILS__';
 
@@ -441,29 +442,40 @@ export function applyHolidayRails(html, storyById, rails = HOLIDAY_RAILS) {
 export const SERIES_STRIP_PLACEHOLDER = '__SERIES_STRIP__';
 
 /**
- * One poster tile. The tap is a plain deep link to the existing series
+ * One poster tile. With JavaScript the tap opens the shared dialog as a
+ * series popup (app.js fills it from the tile's own template.series-detail);
+ * without it the anchor stays a plain deep link to the existing series
  * facet, /?series=<title>: the same hard filter the clarifier chips write,
- * which app.js restores into a filtered browse from the URL on load. The
- * anchor needs no JavaScript to be an honest link, and the URL a poster
- * produces is the URL a parent can share. The series title is the whole
- * accessible name, on both the image and the link.
+ * which app.js restores into a filtered browse from the URL on load. Either
+ * way the URL a poster produces is the URL a parent can share, and the facet
+ * stays reachable as the popup's secondary link. The accessible name says
+ * the tile opens details, not that it navigates.
  */
 function renderSeriesPoster(entry) {
   const href = `/?series=${encodeURIComponent(entry.title)}`;
   return [
     '    <li class="series-poster-item">',
-    `      <a class="series-poster" href="${href}" aria-label="${escapeHtml(entry.title)} stories">`,
+    `      <a class="series-poster" href="${href}" aria-label="About ${escapeHtml(entry.title)}">`,
     `        <img class="series-poster-img" src="${escapeHtml(entry.posterUrl)}" alt="${escapeHtml(entry.title)}" loading="lazy" width="220" height="330">`,
     '      </a>',
+    '      <template class="series-detail">',
+    `        <img class="series-dialog-thumb" src="${escapeHtml(entry.posterUrl)}" alt="" width="220" height="330">`,
+    `        <p class="series-dialog-description">${escapeHtml(entry.description)}</p>`,
+    `        <p class="series-dialog-age">${escapeHtml(suggestedAgeLine(entry.ageBand))}</p>`,
+    '        <div class="rail-dialog-actions series-dialog-actions">',
+    `          <a class="watch series-dialog-watch" href="${escapeHtml(entry.appleSeriesUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Watch ${escapeHtml(entry.title)} on Apple TV+">Watch on Apple TV+</a>`,
+    `          <a class="series-dialog-browse" href="${href}">Browse these stories</a>`,
+    '        </div>',
+    '      </template>',
     '    </li>',
   ].join('\n');
 }
 
 /**
  * Server-side render of the v1.1 browse-by-show strip: one real poster per
- * published series, straight from the build's stamped list. No JavaScript,
- * no auto-motion; the row scrolls horizontally and each tile deep-links the
- * series facet. An empty list renders as nothing: the strip never pads.
+ * published series, straight from the build's stamped list. No auto-motion;
+ * the row scrolls horizontally and each tile carries its own popup detail
+ * template. An empty list renders as nothing: the strip never pads.
  */
 export function renderSeriesStrip(seriesPosters) {
   if (!seriesPosters || !seriesPosters.length) return '';

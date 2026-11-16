@@ -1,0 +1,191 @@
+{
+  "workbookId": "wb_a6zJ9L6l",
+  "workbookName": "Series Descriptions — Poster Popup",
+  "sheetId": "sh_udod4EbT",
+  "sheetName": "Series Descriptions",
+  "kind": "series-descriptions",
+  "defaultSeriesTitle": null,
+  "rowCount": 18,
+  "rows": [
+    {
+      "series_title": "Camp Snoopy",
+      "description": "Snoopy runs a Beagle Scout troop at Camp Spring Lake, where every badge, campfire, and ring-toss tournament becomes a full Peanuts production. Parents can expect camp stories about measuring up, camp crushes, and scary firsts, each one settled by a friend's patient reframe.",
+      "age_band": "5-7",
+      "age_band_basis": "All 52 tagged rows age 5-7 (Camp Snoopy Script Dev Set, wb_Awh3JEB3).",
+      "apple_series_url": "https://tv.apple.com/us/show/camp-snoopy/umc.cmc.4erhnrmkf9vgeojl3uryxsc0j",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Camp Snoopy script dev set (52 script-tier segment rows; representative episodes reviewed this session). Age band unanimous (52/52)."
+    },
+    {
+      "series_title": "Doug Unplugs",
+      "description": "Doug is a boy robot making deliveries in the big city, and every errand turns into a hands-on lesson in how humans play, celebrate, and explore. Parents can expect easygoing stories where a failed plan is treated as information for the next try.",
+      "age_band": "2-4",
+      "age_band_basis": "All 14 tagged rows age 2-4 (Batch 1 Series Script Dev Set, wb_CugBbpqS).",
+      "apple_series_url": "https://tv.apple.com/us/show/doug-unplugs/umc.cmc.3oxevpgaoqomu820s0e70ri75",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Batch 1 Series dev set (14 script-tier rows; representative episodes reviewed). Early-season coverage, so the description stays close to those episodes. Age band unanimous."
+    },
+    {
+      "series_title": "Duck & Goose",
+      "description": "Duck and Goose, two small birds with big opinions, guard a found egg, build a kite from spare parts, and turn every meadow errand into an expedition. Parents can expect gentle stories about patience, sharing, and giving a friend's way of doing things an honest try.",
+      "age_band": "2-4",
+      "age_band_basis": "All 33 tagged rows age 2-4 (Batch 1 Series Script Dev Set, wb_CugBbpqS).",
+      "apple_series_url": "https://tv.apple.com/us/show/duck--goose/umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Batch 1 Series dev set (33 script-tier rows; representative episodes reviewed). Age band unanimous."
+    },
+    {
+      "series_title": "Eva the Owlet",
+      "description": "Eva Wingdale, an enthusiastic young owl in Treetopington, throws herself into contests, weddings, and class projects with plans that are bigger than her wingspan. Parents can expect school-and-family stories where good intentions wobble and get a kind correction.",
+      "age_band": "2-4",
+      "age_band_basis": "All 16 tagged rows age 2-4 (Batch 1 Series Script Dev Set, wb_CugBbpqS).",
+      "apple_series_url": "https://tv.apple.com/us/show/eva-the-owlet/umc.cmc.49ts9z2smhboe9tweoygj8gv2",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Batch 1 Series dev set (16 script-tier rows; representative episodes reviewed). Coverage is thin relative to the full run. Age band unanimous."
+    },
+    {
+      "series_title": "Frog and Toad",
+      "description": "Frog and Toad live a quiet, loyal friendship one small domestic story at a time: cookies, letters, gardens, and lost buttons. Parents can expect gentle, funny episodes about willpower, worry, waiting, and the small gestures that make a friend feel known.",
+      "age_band": "2-4",
+      "age_band_basis": "All 16 tagged rows age 2-4 (Batch 1 Series Script Dev Set, wb_CugBbpqS).",
+      "apple_series_url": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Batch 1 Series dev set (16 script-tier rows, Season 1; representative episodes reviewed). Age band unanimous."
+    },
+    {
+      "series_title": "Get Rolling with Otis",
+      "description": "Otis, a friendly little tractor on a busy farm, helps his neighbors through rescues, contests, and hard days with steady, puttering determination. Parents can expect farm stories where calm problem-solving and looking out for a friend carry the day.",
+      "age_band": "2-4",
+      "age_band_basis": "All 34 tagged rows age 2-4 (Wave 3 Batch 1 Script Dev Set, wb_DIQCgz1L).",
+      "apple_series_url": "https://tv.apple.com/us/show/get-rolling-with-otis/umc.cmc.3tql7vmqfmedyw1ab7efys3z",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (34 script-tier rows; representative episodes reviewed). Age band unanimous."
+    },
+    {
+      "series_title": "Ghostwriter",
+      "description": "Kids at a Brooklyn bookstore crack mysteries by letter when a ghost rearranges words, and storybook characters step off their pages and into the case. Parents can expect team-sleuth stories about research, disagreement, and telling the truth even when it costs something.",
+      "age_band": "8-10",
+      "age_band_basis": "All 39 tagged rows age 8-10 (Wave 3 Batch 2 Script Dev Set, wb_mHUXZU8R).",
+      "apple_series_url": "https://tv.apple.com/us/show/ghostwriter/umc.cmc.3z6okqcnxoo6ohte3k2z5vvrp",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Wave 3 Batch 2 dev set (39 script-tier rows across seasons; representative episodes reviewed). Age band unanimous."
+    },
+    {
+      "series_title": "Harriet the Spy",
+      "description": "Harriet M. Welsch, a sixth grader with a notebook and a spy route, writes down exactly what the grown-ups and classmates around her would rather keep private. Parents can expect stories about observation, friendship honesty, and a young detective learning to face her own flaws.",
+      "age_band": "8-10",
+      "age_band_basis": "20 tagged rows (Wave 3 Batch 2, wb_mHUXZU8R): 12 at 8-10, 8 at 5-7; majority band 8-10.",
+      "apple_series_url": "https://tv.apple.com/us/show/harriet-the-spy/umc.cmc.3gx9h3d2f823gl8pvpippy5p9",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Wave 3 Batch 2 dev set (20 script-tier rows; representative episodes reviewed). Age bands conflict (8-10 vs 5-7); picked the majority and flagged here per the task rule."
+    },
+    {
+      "series_title": "Helpsters Help You",
+      "description": "Cody, a monster who loves to plan, walks preschoolers through one everyday problem per short episode with songs, play, and the Helpster habit of asking for another way. Parents can expect bite-size modeling of naming a plan, adapting when it changes, and thanking the helpers.",
+      "age_band": "2-4",
+      "age_band_basis": "All 6 tagged rows age 2-4 (Wave 3 Batch 2 Script Dev Set, wb_mHUXZU8R).",
+      "apple_series_url": "https://tv.apple.com/us/show/helpsters-help-you/umc.cmc.3xi33xb3r3xbxx4lssz8cswdr",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in 6 script-tier rows for the Helpsters Help You shorts. The main Helpsters S1-S3 tagging (Batches 20-21) is outside the finder corpus. Coverage is thin; the description stays to what the shorts show. Age band unanimous."
+    },
+    {
+      "series_title": "Interrupting Chicken",
+      "description": "Piper, the little red chicken, keeps bursting into Papa's bedtime stories to fix the characters' problems, and every interruption rewrites the tale. Parents can expect bedtime-framed stories where big feelings meet fairy-tale chaos and Papa models calm, creative redirecting.",
+      "age_band": "5-7",
+      "age_band_basis": "All 33 tagged rows age 5-7 (Wave 3 Batch 1 Script Dev Set, wb_DIQCgz1L).",
+      "apple_series_url": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (33 script-tier rows, S1 plus S0; representative episodes reviewed). Age band unanimous."
+    },
+    {
+      "series_title": "Pretzel and the Puppies",
+      "description": "Pretzel and Poppy's seven dachshund puppies take on their city one small project at a time, from a community mural to the Kibble Cart Derby. Parents can expect upbeat stories about inclusion and problem-solving, including redesigning rules that leave someone out.",
+      "age_band": "2-4",
+      "age_band_basis": "All 34 tagged rows age 2-4 (Wave 3 Batch 1 Script Dev Set, wb_DIQCgz1L).",
+      "apple_series_url": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (34 script-tier rows; representative episodes reviewed). Age band unanimous."
+    },
+    {
+      "series_title": "Sago Mini Friends",
+      "description": "Harvey and his Sagoville friends turn everyday errands and rituals into play, from waiting for pizza to a gnome wedding held every Wednesday. Parents can expect gentle preschool comedy about waiting, small letdowns, and finding something to be thankful for.",
+      "age_band": "2-4",
+      "age_band_basis": "All 45 tagged rows age 2-4 (Wave 3 Batch 1 Script Dev Set, wb_DIQCgz1L).",
+      "apple_series_url": "https://tv.apple.com/us/show/sago-mini-friends/umc.cmc.4ckulbycyeuavnlen3du06vvy",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (45 script-tier rows; representative episodes reviewed). Age band unanimous."
+    },
+    {
+      "series_title": "Shape Island",
+      "description": "Square, Circle, and Triangle share a small island and a long history of pranks, projects, and feelings named out loud. Parents can expect wry, slow-paced stories about friendship frictions and disappointment that end in quiet understanding.",
+      "age_band": "2-4",
+      "age_band_basis": "34 tagged rows (Wave 3 Batch 1, wb_DIQCgz1L): 19 at 2-4, 15 at 5-7; majority band 2-4.",
+      "apple_series_url": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (34 script-tier rows; representative episodes reviewed). Age bands conflict (19 vs 15); picked the majority and flagged. The wry register may skew older than 2-4 for some parents; worth a re-read if rows accumulate."
+    },
+    {
+      "series_title": "Stillwater",
+      "description": "Stillwater, a wise and playful panda, helps siblings Karl, Michael, and Addy with one real-life difficulty per story, paired with a folk tale that reframes it. Parents can expect calm episodes about disappointment, patience, and big feelings settling down.",
+      "age_band": "5-7",
+      "age_band_basis": "77 tagged rows (Stillwater Secret Sauce Dev Set, wb_McM7y4Xx): 67 at 5-7, 10 at 2-4; majority band 5-7.",
+      "apple_series_url": "https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Stillwater dev set (77 rows, script tier including Allie's 20 hand tags; representative episodes reviewed). Age bands conflict (67 vs 10); picked the majority and flagged."
+    },
+    {
+      "series_title": "Surfside Girls",
+      "description": "Sam and Jade spend their California summer chasing the mystery of Danger Point, where surf sessions share the beach with ghost stories and buried doubloons. Parents can expect adventure-mystery episodes where friendship and a science-minded check on every theory do the work.",
+      "age_band": "8-10",
+      "age_band_basis": "All 10 tagged rows age 8-10 (Wave 3 Batch 2 Script Dev Set, wb_mHUXZU8R).",
+      "apple_series_url": "https://tv.apple.com/us/show/surfside-girls/umc.cmc.4371g2xacdr0wfs071dm3q30x",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Wave 3 Batch 2 dev set (10 script-tier rows; representative episodes reviewed). Limited episode coverage. Age band unanimous."
+    },
+    {
+      "series_title": "The Sisters Grimm",
+      "description": "Orphaned sisters Sabrina and Daphne arrive in Ferryport Landing with a grandmother who claims fairy-tale characters are real, and a town full of evidence. Parents can expect detective-style fantasy adventure, a shadowy villain, and a family that closes ranks under pressure.",
+      "age_band": "8-10",
+      "age_band_basis": "All 6 tagged rows age 8-10 (Wave 3 Batch 2 Script Dev Set, wb_mHUXZU8R).",
+      "apple_series_url": "https://tv.apple.com/us/show/the-sisters-grimm/umc.cmc.2hc9ggvxaqddv779k4zupmrw",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in 6 script-tier rows covering the opening arc only. Coverage is thin; the description stays close to the tagged arc. Age band unanimous."
+    },
+    {
+      "series_title": "Wolfboy and the Everything Factory",
+      "description": "Wolfboy, the masked kid who never fit in, follows two strange creatures down a portal to the Spryte world and an underground factory where weird ideas are the whole job. Parents can expect imaginative adventures about belonging, friendship repair, and mistakes that become something better.",
+      "age_band": "5-7",
+      "age_band_basis": "All 36 tagged rows age 5-7 (Wave 3 Batch 1 Script Dev Set, wb_DIQCgz1L).",
+      "apple_series_url": "https://tv.apple.com/us/show/wolfboy-and-the-everything-factory/umc.cmc.6f1xxgn2dg52deawakawg20r9",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (36 script-tier rows; representative episodes reviewed). Age band unanimous."
+    },
+    {
+      "series_title": "WondLa",
+      "description": "Eva Nine leaves the underground sanctuary where a robot raised her and steps onto an alien surface where walking trees and flying whales break every rule in her training. Parents can expect serialized science-fiction adventure with pursuit and peril, a found family, and the question of where a person belongs.",
+      "age_band": "8-10",
+      "age_band_basis": "All 20 tagged rows age 8-10 (Wave 3 Batch 2 Script Dev Set, wb_mHUXZU8R).",
+      "apple_series_url": "https://tv.apple.com/us/show/wondla/umc.cmc.2ghd8ombh4fd37rfs27ivfa94",
+      "link_verified_date": "2026-11-16",
+      "link_status": "verified",
+      "notes": "Grounded in the Wave 3 Batch 2 dev set (20 script-tier rows, S1 chapters; representative episodes reviewed). Age band unanimous."
+    }
+  ]
+}
