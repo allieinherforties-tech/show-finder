@@ -79,7 +79,7 @@ test('every tap target deep-links the series facet and names the series accessib
 });
 
 test('catalog titles can never inject markup into the strip', () => {
-  const nasty = [{ title: 'Show <script>alert(1)</script> & "Pals"', posterUrl: 'https://image.tmdb.org/t/p/w342/x.jpg', description: '<img src=x onerror=alert(1)>', ageBand: '5-7', appleSeriesUrl: 'https://tv.apple.com/us/show/x/umc.cmc.abc' }];
+  const nasty = [{ title: 'Show <script>alert(1)</script> & "Pals"', posterUrl: 'https://image.tmdb.org/t/p/w342/x.jpg', whatHappens: '<img src=x onerror=alert(1)>', ageBand: '5-7', ageBandBasis: '<img src=x onerror=alert(1)>', feelings: '<img src=x onerror=alert(1)>', situation: '<img src=x onerror=alert(1)>', resolution: '<img src=x onerror=alert(1)>', appleSeriesUrl: 'https://tv.apple.com/us/show/x/umc.cmc.abc' }];
   const rendered = renderSeriesStrip(nasty);
   assert.equal(rendered.includes('<script'), false, 'script tags never survive escaping');
   assert.ok(rendered.includes('&lt;script&gt;'), 'the title renders escaped');

@@ -3,11 +3,12 @@
 // the network or the filesystem, so the join is unit testable and the build
 // stays deterministic.
 //
-// The popup's honesty rules live at this join: the description ships verbatim
+// The popup's honesty rules live at this join: the block copy ships verbatim
 // from the workbook (never rewritten in the pipeline or the UI), the age band
-// is phrased as a suggestion, and the Apple link must carry the workbook's
-// verified status — the same standard the deep-link registry holds story
-// rows to.
+// is phrased as a suggestion with its basis, and the Apple link must carry
+// the workbook's verified status — the same standard the deep-link registry
+// holds story rows to. The retired single `description` column stays in the
+// workbook untouched; the popup no longer reads it.
 
 import { classifyAppleUrl } from '../links/apple-tv.mjs';
 
@@ -20,10 +21,11 @@ export function suggestedAgeLine(ageBand) {
  * Joins the strip's poster entries ({ title, posterUrl }) with the approved
  * description rows. Fail-fast, like the poster gate: a series with no row, a
  * duplicate row, a stale row for a series the strip does not publish, a
- * missing field, or a link the workbook does not mark verified stops the
- * build with instructions instead of shipping a half-joined popup.
+ * missing block field, or a link the workbook does not mark verified stops
+ * the build with instructions instead of shipping a half-joined popup.
  * Returns the entries in their input order (title order from the poster
- * gate), each extended with description, ageBand, and appleSeriesUrl.
+ * gate), each extended with the popup's five blocks (whatHappens, ageBand,
+ * ageBandBasis, feelings, situation, resolution) and appleSeriesUrl.
  */
 export function joinSeriesDescriptions(posterEntries, rows) {
   const byTitle = new Map();
@@ -54,8 +56,9 @@ export function joinSeriesDescriptions(posterEntries, rows) {
       problems.push(`${entry.title}: no description row (add one to the Series Descriptions sheet)`);
       continue;
     }
-    const description = String(row.description || '').trim();
-    if (!description) problems.push(`${entry.title}: description is empty`);
+    for (const column of ['what_happens', 'feelings', 'situation', 'resolution', 'age_band_basis']) {
+      if (!String(row[column] || '').trim()) problems.push(`${entry.title}: ${column} is empty`);
+    }
     const ageBand = String(row.age_band || '').trim();
     if (!ageBand) problems.push(`${entry.title}: age_band is empty`);
     const url = String(row.apple_series_url || '').trim();
@@ -77,8 +80,12 @@ export function joinSeriesDescriptions(posterEntries, rows) {
     const row = byTitle.get(entry.title);
     return {
       ...entry,
-      description: String(row.description || '').trim(),
+      whatHappens: String(row.what_happens || '').trim(),
       ageBand: String(row.age_band || '').trim(),
+      ageBandBasis: String(row.age_band_basis || '').trim(),
+      feelings: String(row.feelings || '').trim(),
+      situation: String(row.situation || '').trim(),
+      resolution: String(row.resolution || '').trim(),
       appleSeriesUrl: String(row.apple_series_url || '').trim(),
     };
   });

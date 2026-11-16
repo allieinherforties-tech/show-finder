@@ -15,7 +15,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/camp-snoopy/umc.cmc.4erhnrmkf9vgeojl3uryxsc0j",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Camp Snoopy script dev set (52 script-tier segment rows; representative episodes reviewed this session). Age band unanimous (52/52)."
+      "notes": "Grounded in the Camp Snoopy script dev set (52 script-tier segment rows; representative episodes reviewed this session). Age band unanimous (52/52).",
+      "what_happens": "Snoopy runs a Beagle Scout troop at Camp Spring Lake, where every badge, campfire, and ring-toss tournament tends to swell into a full Peanuts production.",
+      "feelings": "Nerves, embarrassment, and frustration, with pride waiting at the end of the hard thing.",
+      "situation": "Camp-season firsts: measuring up against friends, scary first tries, crushes, and being the new one at the lake.",
+      "resolution": "A friend's patient reframe turns panic into a plan, and the troop takes the scary first on together."
     },
     {
       "series_title": "Doug Unplugs",
@@ -25,7 +29,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/doug-unplugs/umc.cmc.3oxevpgaoqomu820s0e70ri75",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Batch 1 Series dev set (14 script-tier rows; representative episodes reviewed). Early-season coverage, so the description stays close to those episodes. Age band unanimous."
+      "notes": "Grounded in the Batch 1 Series dev set (14 script-tier rows; representative episodes reviewed). Early-season coverage, so the description stays close to those episodes. Age band unanimous.",
+      "what_happens": "Doug is a boy robot making deliveries in the big city with his human friend Emma, and every errand turns into a hands-on lesson in how humans play, celebrate, and explore.",
+      "feelings": "Confusion and disappointment when the human world does not work like a manual, then pride when it clicks.",
+      "situation": "New experiences that flop on the first try: a rained-out trip, a lost game, a job nobody will explain.",
+      "resolution": "A failed plan is treated as information: rework it with a friend and try the next way."
     },
     {
       "series_title": "Duck & Goose",
@@ -35,7 +43,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/duck--goose/umc.cmc.qayvbuimq7lxab6y2cs9tbcj",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Batch 1 Series dev set (33 script-tier rows; representative episodes reviewed). Age band unanimous."
+      "notes": "Grounded in the Batch 1 Series dev set (33 script-tier rows; representative episodes reviewed). Age band unanimous.",
+      "what_happens": "Duck and Goose, two small birds with big opinions, guard a found egg, build a kite from spare parts, and turn every meadow errand into an expedition.",
+      "feelings": "Frustration and worry in the moment, pride and joy once they get there.",
+      "situation": "Two very different friends learning to share, take turns, and give the other one's way an honest try.",
+      "resolution": "A setback becomes a clue, and patience, teamwork, or a borrowed idea gets them there together."
     },
     {
       "series_title": "Eva the Owlet",
@@ -45,7 +57,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/eva-the-owlet/umc.cmc.49ts9z2smhboe9tweoygj8gv2",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Batch 1 Series dev set (16 script-tier rows; representative episodes reviewed). Coverage is thin relative to the full run. Age band unanimous."
+      "notes": "Grounded in the Batch 1 Series dev set (16 script-tier rows; representative episodes reviewed). Coverage is thin relative to the full run. Age band unanimous.",
+      "what_happens": "Eva Wingdale, an enthusiastic young owl in Treetopington, throws herself into contests, weddings, and class projects with plans that are bigger than her wingspan.",
+      "feelings": "Disappointment and impatience up front, pride when the wobble gets worked out.",
+      "situation": "Big plans and good intentions that wobble: a contest entry that fails, a helping hand that was not asked for, a job taken on too soon.",
+      "resolution": "Eva names what went wrong, and a kind correction from a parent or teacher turns the miss into something she can use next time."
     },
     {
       "series_title": "Frog and Toad",
@@ -55,7 +71,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/frog-and-toad/umc.cmc.xvcgt6ied9s3atejpk92tv1h",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Batch 1 Series dev set (16 script-tier rows, Season 1; representative episodes reviewed). Age band unanimous."
+      "notes": "Grounded in the Batch 1 Series dev set (16 script-tier rows, Season 1; representative episodes reviewed). Age band unanimous.",
+      "what_happens": "Frog and Toad live a quiet, loyal friendship one small domestic story at a time: cookies, letters, gardens, and lost buttons.",
+      "feelings": "Worry, frustration, and loneliness, held gently and never far from a laugh.",
+      "situation": "The small daily struggles: willpower, waiting, worry at bedtime, wanting to feel brave.",
+      "resolution": "A small gesture does the settling: a letter that says what a best friend should, a jacket with the buttons sewn extra tight."
     },
     {
       "series_title": "Get Rolling with Otis",
@@ -65,7 +85,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/get-rolling-with-otis/umc.cmc.3tql7vmqfmedyw1ab7efys3z",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Wave 3 Batch 1 dev set (34 script-tier rows; representative episodes reviewed). Age band unanimous."
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (34 script-tier rows; representative episodes reviewed). Age band unanimous. Popup blocks: series-level resolution mode drawn from the 34 script-tier rows; the single synopsis-only row did not change it.",
+      "what_happens": "Otis, a friendly little tractor on a busy farm, helps his neighbors through rescues, contests, and hard days with steady, puttering determination.",
+      "feelings": "Worry and nervousness about trying hard things, soothed into calm and courage.",
+      "situation": "Being scared to try, getting lost or left out, and the wish to be a helper like the big machines.",
+      "resolution": "A deep breath, a steady friend, and one step at a time: asking for help is part of being a helper."
     },
     {
       "series_title": "Ghostwriter",
@@ -75,7 +99,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/ghostwriter/umc.cmc.3z6okqcnxoo6ohte3k2z5vvrp",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Wave 3 Batch 2 dev set (39 script-tier rows across seasons; representative episodes reviewed). Age band unanimous."
+      "notes": "Grounded in the Wave 3 Batch 2 dev set (39 script-tier rows across seasons; representative episodes reviewed). Age band unanimous.",
+      "what_happens": "Kids at a Brooklyn bookstore crack mysteries by letter when a ghost rearranges words, and storybook characters step off their pages and into the case.",
+      "feelings": "Worry and confusion in the dark of a mystery, with bravery built from being scared together.",
+      "situation": "Disagreement on a team, change pressing on a family, and the cost of telling the truth when a lie would be easier.",
+      "resolution": "The team works it by method: write down what you know, follow the evidence, and let the truth, not the comfortable story, win."
     },
     {
       "series_title": "Harriet the Spy",
@@ -85,7 +113,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/harriet-the-spy/umc.cmc.3gx9h3d2f823gl8pvpippy5p9",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Wave 3 Batch 2 dev set (20 script-tier rows; representative episodes reviewed). Age bands conflict (8-10 vs 5-7); picked the majority and flagged here per the task rule."
+      "notes": "Grounded in the Wave 3 Batch 2 dev set (20 script-tier rows; representative episodes reviewed). Age bands conflict (8-10 vs 5-7); picked the majority and flagged here per the task rule.",
+      "what_happens": "Harriet M. Welsch, a sixth grader with a notebook and a spy route, writes down exactly what the grown-ups and classmates around her would rather keep private.",
+      "feelings": "Embarrassment, loneliness, jealousy, and the sting of being seen.",
+      "situation": "Honesty that hurts: a notebook that wounds a friend, a fight that leaves you out, envy of someone else's easy life.",
+      "resolution": "Harriet learns to point her honesty at herself first, naming her own faults and apologizing her way back into her friendships."
     },
     {
       "series_title": "Helpsters Help You",
@@ -95,7 +127,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/helpsters-help-you/umc.cmc.3xi33xb3r3xbxx4lssz8cswdr",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in 6 script-tier rows for the Helpsters Help You shorts. The main Helpsters S1-S3 tagging (Batches 20-21) is outside the finder corpus. Coverage is thin; the description stays to what the shorts show. Age band unanimous."
+      "notes": "Grounded in 6 script-tier rows for the Helpsters Help You shorts. The main Helpsters S1-S3 tagging (Batches 20-21) is outside the finder corpus. Coverage is thin; the description stays to what the shorts show. Age band unanimous. Popup blocks stay within the six tagged Helpsters Help You shorts.",
+      "what_happens": "Cody, a monster who loves to plan, walks preschoolers through one everyday problem per short episode with songs, play, and the Helpster habit of asking for another way.",
+      "feelings": "Disappointment when plans change, and the good feeling of being helped and of helping.",
+      "situation": "Plans that fall through and missing someone: a closed park, a friend who is far away.",
+      "resolution": "Name the plan, change it when it changes, break it into small steps, and thank the helpers."
     },
     {
       "series_title": "Interrupting Chicken",
@@ -105,7 +141,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/interrupting-chicken/umc.cmc.18gr0rhyi18lt79vgtw794wcw",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Wave 3 Batch 1 dev set (33 script-tier rows, S1 plus S0; representative episodes reviewed). Age band unanimous."
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (33 script-tier rows, S1 plus S0; representative episodes reviewed). Age band unanimous.",
+      "what_happens": "Piper, the little red chicken, keeps bursting into Papa's bedtime stories to fix the characters' problems, and every interruption rewrites the tale.",
+      "feelings": "Confusion and frustration when the story will not cooperate, pride when a new idea saves it.",
+      "situation": "Bedtime big feelings, and the urge to jump in and fix everything before it is your turn to listen.",
+      "resolution": "Papa's calm redirect hands her a tool instead of a scolding: one story beat, one simile, one why, and the tale works again."
     },
     {
       "series_title": "Pretzel and the Puppies",
@@ -115,7 +155,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/pretzel-and-the-puppies/umc.cmc.kpgzlz0lejug1vhtakgizdlh",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Wave 3 Batch 1 dev set (34 script-tier rows; representative episodes reviewed). Age band unanimous."
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (34 script-tier rows; representative episodes reviewed). Age band unanimous.",
+      "what_happens": "Pretzel and Poppy's seven dachshund puppies take on their city one small project at a time, from a community mural to the Kibble Cart Derby.",
+      "feelings": "Sadness and frustration when a rule or a wall is in the way, pride when the whole pack pulls it off.",
+      "situation": "Being left out by a rule that fits someone else: a derby only for long dogs, a treat a friend cannot eat, a sibling who needs a turn.",
+      "resolution": "The pups redesign the rule so nobody sits it out, and the fix usually ends up helping the whole town."
     },
     {
       "series_title": "Sago Mini Friends",
@@ -125,7 +169,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/sago-mini-friends/umc.cmc.4ckulbycyeuavnlen3du06vvy",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Wave 3 Batch 1 dev set (45 script-tier rows; representative episodes reviewed). Age band unanimous."
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (45 script-tier rows; representative episodes reviewed). Age band unanimous.",
+      "what_happens": "Harvey and his Sagoville friends turn everyday errands and rituals into play, from waiting for pizza to a gnome wedding held every Wednesday.",
+      "feelings": "Impatience and worry in the waiting, and the warm settle of a worry shared.",
+      "situation": "Waiting for something you want now, small letdowns, and a friend whose day went wrong.",
+      "resolution": "Say the hard feeling out loud, then turn the wait or the letdown into a game everyone can play."
     },
     {
       "series_title": "Shape Island",
@@ -135,7 +183,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/shape-island/umc.cmc.40xdlw2jijoj95c3a6y2m3738",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Wave 3 Batch 1 dev set (34 script-tier rows; representative episodes reviewed). Age bands conflict (19 vs 15); picked the majority and flagged. The wry register may skew older than 2-4 for some parents; worth a re-read if rows accumulate."
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (34 script-tier rows; representative episodes reviewed). Age bands conflict (19 vs 15); picked the majority and flagged. The wry register may skew older than 2-4 for some parents; worth a re-read if rows accumulate. Popup blocks follow the same 34-row dev set; the wry-register caveat above applies to the Feelings and Situation blocks too.",
+      "what_happens": "Square, Circle, and Triangle share a small island and a long history of pranks, projects, and feelings named out loud.",
+      "feelings": "Jealousy, embarrassment, guilt, and impatience, in more shades than most shows for this age allow.",
+      "situation": "Friendship friction that builds quietly: a prank that goes too far, a friend's good news that stings, a gift given for the wrong reason.",
+      "resolution": "The feeling gets said out loud, and the story ends in quiet understanding rather than a big fix."
     },
     {
       "series_title": "Stillwater",
@@ -145,7 +197,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/stillwater/umc.cmc.3czcagetjq31vvbgkkyp1xiao",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Stillwater dev set (77 rows, script tier including Allie's 20 hand tags; representative episodes reviewed). Age bands conflict (67 vs 10); picked the majority and flagged."
+      "notes": "Grounded in the Stillwater dev set (77 rows, script tier including Allie's 20 hand tags; representative episodes reviewed). Age bands conflict (67 vs 10); picked the majority and flagged.",
+      "what_happens": "Stillwater, a wise and playful panda, helps siblings Karl, Michael, and Addy with one real-life difficulty per story, paired with a folk tale that reframes it.",
+      "feelings": "Frustration, disappointment, and loneliness, the ordinary kind that builds up in an ordinary week.",
+      "situation": "Fairness and disappointment in a child's day: a race lost, a sibling who gets there first, a turn that never seems to come.",
+      "resolution": "Stillwater's calm questions and a folk-tale parallel let the feeling settle, and talking it out or saying sorry does the rest."
     },
     {
       "series_title": "Surfside Girls",
@@ -155,7 +211,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/surfside-girls/umc.cmc.4371g2xacdr0wfs071dm3q30x",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Wave 3 Batch 2 dev set (10 script-tier rows; representative episodes reviewed). Limited episode coverage. Age band unanimous."
+      "notes": "Grounded in the Wave 3 Batch 2 dev set (10 script-tier rows; representative episodes reviewed). Limited episode coverage. Age band unanimous.",
+      "what_happens": "Sam and Jade spend their California summer chasing the mystery of Danger Point, where surf sessions share the beach with ghost stories and buried doubloons.",
+      "feelings": "Worry and confusion as the mystery deepens, with guilt and disappointment when friendship slips.",
+      "situation": "A friendship stretched by different priorities, a parent told the truth the hard way, and secrets that will not stay small.",
+      "resolution": "Hypothesis, evidence, and honest talk: form the theory, check it, and say the true thing to your friend even when it stings."
     },
     {
       "series_title": "The Sisters Grimm",
@@ -165,7 +225,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/the-sisters-grimm/umc.cmc.2hc9ggvxaqddv779k4zupmrw",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in 6 script-tier rows covering the opening arc only. Coverage is thin; the description stays close to the tagged arc. Age band unanimous."
+      "notes": "Grounded in 6 script-tier rows covering the opening arc only. Coverage is thin; the description stays close to the tagged arc. Age band unanimous. Popup blocks stay within the six tagged opening-arc rows.",
+      "what_happens": "Orphaned sisters Sabrina and Daphne arrive in Ferryport Landing with a grandmother who claims fairy-tale characters are real, and a town full of evidence.",
+      "feelings": "Fear and loneliness in a town that may not want them, and the courage the two of them talk each other into.",
+      "situation": "Family upheaval: parents missing, a stranger who says she is family, and sisters who have to parent each other.",
+      "resolution": "The family closes ranks: detective work, sticking together, and letting new allies earn their trust one honest conversation at a time."
     },
     {
       "series_title": "Wolfboy and the Everything Factory",
@@ -175,7 +239,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/wolfboy-and-the-everything-factory/umc.cmc.6f1xxgn2dg52deawakawg20r9",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Wave 3 Batch 1 dev set (36 script-tier rows; representative episodes reviewed). Age band unanimous."
+      "notes": "Grounded in the Wave 3 Batch 1 dev set (36 script-tier rows; representative episodes reviewed). Age band unanimous.",
+      "what_happens": "Wolfboy, the masked kid who never fit in, follows two strange creatures down a portal to the Spryte world and an underground factory where weird ideas are the whole job.",
+      "feelings": "Worry about being the odd one out, embarrassment when you blunder, and the brave that shows up anyway.",
+      "situation": "Being the new kid or the weird kid: bracing for rejection, blundering in front of your peers, wanting a place that fits.",
+      "resolution": "The blunder becomes the build: mistakes turn into inventions, and the quirk that got him mocked is the thing the factory was made for."
     },
     {
       "series_title": "WondLa",
@@ -185,7 +253,11 @@
       "apple_series_url": "https://tv.apple.com/us/show/wondla/umc.cmc.2ghd8ombh4fd37rfs27ivfa94",
       "link_verified_date": "2026-11-16",
       "link_status": "verified",
-      "notes": "Grounded in the Wave 3 Batch 2 dev set (20 script-tier rows, S1 chapters; representative episodes reviewed). Age band unanimous."
+      "notes": "Grounded in the Wave 3 Batch 2 dev set (20 script-tier rows, S1 chapters; representative episodes reviewed). Age band unanimous.",
+      "what_happens": "Eva Nine leaves the underground sanctuary where a robot raised her and steps onto an alien surface where walking trees and flying whales break every rule in her training.",
+      "feelings": "Fear and loneliness far from everything familiar, and the boldness that grows from needing to find out.",
+      "situation": "Leaving the only home you know and learning, step by step, who your people are.",
+      "resolution": "Found family carries her: accept the help offered, trust your own senses, and let the ones who walk with you become home."
     }
   ]
 }
