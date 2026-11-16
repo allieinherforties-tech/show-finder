@@ -10,7 +10,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { joinSeriesDescriptions, suggestedAgeLine } from '../src/pipeline/series-descriptions.mjs';
+import { joinSeriesDescriptions, suggestedAgeLine, internalIdentifierHits } from '../src/pipeline/series-descriptions.mjs';
 import { renderSeriesStrip, escapeHtml } from '../src/rails.mjs';
 
 const artifact = JSON.parse(readFileSync('data/search/search-artifact.json', 'utf8'));
@@ -40,7 +40,7 @@ test('the age band reads as a suggestion, en dash per the approved copy', () => 
   assert.equal(suggestedAgeLine('2-4'), 'Suggested for ages 2–4');
 });
 
-test('the join extends each poster entry with the five blocks and the link', () => {
+test('the join extends each poster entry with the five blocks and the link, and carries no internal basis', () => {
   const joined = joinSeriesDescriptions(fixturePoster(), [fixtureRow()]);
   assert.equal(joined.length, 1);
   assert.deepEqual(joined[0], {
@@ -48,12 +48,14 @@ test('the join extends each poster entry with the five blocks and the link', () 
     posterUrl: 'https://image.tmdb.org/t/p/w342/Fixture%20Show.jpg',
     whatHappens: 'A fixture premise, told story first.',
     ageBand: '5-7',
-    ageBandBasis: 'All 10 tagged rows age 5-7 (Fixture Dev Set, wb_FIXTURE).',
     feelings: 'Worry at the start, pride at the end.',
     situation: 'A fixture situation a parent might recognize.',
     resolution: 'The fix names the feeling out loud.',
     appleSeriesUrl: 'https://tv.apple.com/us/show/fixture-show/umc.cmc.abc123def456ghi789jkl012',
   });
+  // The workbook's age_band_basis stays internal: the join drops it even
+  // when the workbook row carries it, so no render path can leak it.
+  assert.equal('ageBandBasis' in joined[0], false, 'ageBandBasis never joins the popup entry');
 });
 
 test('the build fails when a strip series has no description row', () => {
@@ -96,9 +98,50 @@ test('the build fails on empty required fields', () => {
   assert.throws(() => joinSeriesDescriptions(fixturePoster(), [fixtureRow({ feelings: '' })]), /feelings is empty/);
   assert.throws(() => joinSeriesDescriptions(fixturePoster(), [fixtureRow({ situation: '' })]), /situation is empty/);
   assert.throws(() => joinSeriesDescriptions(fixturePoster(), [fixtureRow({ resolution: '' })]), /resolution is empty/);
-  assert.throws(() => joinSeriesDescriptions(fixturePoster(), [fixtureRow({ age_band_basis: '' })]), /age_band_basis is empty/);
   assert.throws(() => joinSeriesDescriptions(fixturePoster(), [fixtureRow({ age_band: '' })]), /age_band is empty/);
   assert.throws(() => joinSeriesDescriptions(fixturePoster(), [fixtureRow({ apple_series_url: '' })]), /apple_series_url is empty/);
+});
+
+test('the parent-facing gate fails the build on internal identifiers in rendered fields', () => {
+  for (const [column, value] of [
+    ['age_band', 'Batch 1 band 2-4'],
+    ['what_happens', 'A premise from the Dev Set.'],
+    ['feelings', 'Feelings from Wave 3.'],
+    ['situation', 'A situation drawn from tagged rows.'],
+    ['resolution', 'The fix (wb_FIXTURE).'],
+  ]) {
+    assert.throws(
+      () => joinSeriesDescriptions(fixturePoster(), [fixtureRow({ [column]: value })]),
+      /internal identifier/,
+      `${column} carrying internal identifiers stops the build`,
+    );
+  }
+  // The title renders everywhere (heading, aria labels, browse link), so a
+  // workbook id in it is leak too. Title and poster must stay in sync for
+  // the row to reach the identifier check at all.
+  const leakyTitle = 'Frog and Toad (wb_CugBbpqS)';
+  assert.throws(
+    () => joinSeriesDescriptions(fixturePoster(leakyTitle), [fixtureRow({ series_title: leakyTitle })]),
+    /series_title contains the internal identifier "wb_"/,
+  );
+});
+
+test('the gate is case-insensitive and reports every matching marker', () => {
+  assert.deepEqual(internalIdentifierHits('All 16 TAGGED ROWS age 2-4'), ['tagged rows']);
+  assert.deepEqual(internalIdentifierHits('Batch 1 Series Script DEV SET, wb_CugBbpqS'), ['wb_', 'dev set', 'batch']);
+  assert.deepEqual(internalIdentifierHits('A clean parent-facing sentence.'), []);
+});
+
+test('no internal identifier renders anywhere in the served strip markup', () => {
+  const html = renderSeriesStrip(artifact.seriesPosters);
+  for (const marker of ['wb_', 'dev set', 'batch', 'tagged rows', 'wave']) {
+    assert.ok(!html.toLowerCase().includes(marker), `the strip markup never contains "${marker}"`);
+  }
+  // The workbook keeps its basis text (the copy the QA report caught), but
+  // that text never reaches the markup.
+  const frogRow = dump.rows.find((r) => r.series_title === 'Frog and Toad');
+  assert.ok(frogRow && String(frogRow.age_band_basis || '').includes('wb_'), 'Frog and Toad keeps its internal basis in the workbook');
+  assert.ok(!html.includes(escapeHtml(frogRow.age_band_basis)), 'Frog and Toad basis text never renders');
 });
 
 test('the stamped artifact carries the approved data for all 18 series', () => {
@@ -111,8 +154,8 @@ test('the stamped artifact carries the approved data for all 18 series', () => {
     assert.equal(entry.feelings, String(row.feelings).trim(), `${entry.title} ships feelings verbatim`);
     assert.equal(entry.situation, String(row.situation).trim(), `${entry.title} ships situation verbatim`);
     assert.equal(entry.resolution, String(row.resolution).trim(), `${entry.title} ships resolution verbatim`);
-    assert.equal(entry.ageBandBasis, String(row.age_band_basis).trim(), `${entry.title} ships age_band_basis verbatim`);
     assert.ok(entry.ageBand, `${entry.title} has an age band`);
+    assert.equal('ageBandBasis' in entry, false, `${entry.title} ships no age_band_basis (internal data)`);
     assert.ok(entry.appleSeriesUrl.startsWith('https://tv.apple.com/'), `${entry.title} links to tv.apple.com`);
   }
 });
@@ -135,7 +178,7 @@ test('every tile ships a detail template with the five blocks in the approved or
     assert.ok(template.includes(escapeHtml(entry.situation)), `${entry.title} renders situation verbatim`);
     assert.ok(template.includes(escapeHtml(entry.resolution)), `${entry.title} renders resolution verbatim`);
     assert.ok(template.includes(escapeHtml(suggestedAgeLine(entry.ageBand))), `${entry.title} renders the suggested age line under Ages`);
-    assert.ok(template.includes(escapeHtml(entry.ageBandBasis)), `${entry.title} renders the age band basis under Ages`);
+    assert.ok(!template.includes('series-dialog-age-basis'), `${entry.title} renders no basis line under Ages`);
     assert.ok(template.includes('class="series-dialog-thumb"'), `${entry.title} carries its poster thumbnail`);
     assert.ok(/<img class="series-dialog-thumb"[^>]*alt=""/.test(template), `${entry.title} thumbnail is decorative (title is the dialog heading)`);
   }
