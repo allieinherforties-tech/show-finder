@@ -84,6 +84,15 @@ const SOURCES = [
       { sheetId: 'sh_11V3YDwL', name: 'WondLa', kind: 'stories' },
     ],
   },
+  {
+    workbookId: 'wb_66lUb18u',
+    workbookName: 'Standalone Films Corpus — 34 Films (Verified Links)',
+    sheets: [
+      // One row per film, keyed by TMDB id. Every link was verified live
+      // 2026-11-16 (link_status=verified); the build refuses any other value.
+      { sheetId: 'sh_RJTvV8CA', name: 'Standalone Films Corpus (34 Films)', kind: 'films' },
+    ],
+  },
 ];
 
 // Deliberately excluded, kept visible so the omission reads as a decision:

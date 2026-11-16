@@ -1,5 +1,5 @@
 {
-  "version": "e3d2228ce9e97395",
+  "version": "53c2d9a8ebbda0cb",
   "artwork": {
     "mode": "tmdb",
     "attributionChecked": true,
@@ -81,8 +81,8 @@
     ]
   },
   "coverage": {
-    "catalogTitles": 86,
-    "catalogEpisodeRows": 1340,
+    "catalogTitles": 90,
+    "catalogEpisodeRows": 1436,
     "storyRows": 525,
     "series": {
       "Camp Snoopy": {
@@ -180,10 +180,37 @@
     "missingAgeBand": 0,
     "missingVibe": 0
   },
+  "films": {
+    "rows": 34,
+    "evidenceTiers": {
+      "synopsis_fallback": 24,
+      "title_overview": 10
+    },
+    "withoutCoping": 14,
+    "withoutEmotion": 2,
+    "artwork": {
+      "withPoster": 34,
+      "noArtwork": 0
+    },
+    "links": {
+      "movie": 34,
+      "none": 0
+    },
+    "suppressedFromRender": [],
+    "note": "Films join search and filters like series rows; they stay out of the series dropdown, the poster strip, and the rails. Empty coping or emotion is faithful upstream absence, rendered as no chip."
+  },
   "houseStyle": {
     "emDashScan": {
       "note": "Em dashes in curated source rows are flagged for the curation thread. The pipeline never rewrites them.",
-      "affected": []
+      "affected": [
+        {
+          "source": "wb_66lUb18u/sh_RJTvV8CA",
+          "rowsWithDashes": [
+            "film-a-charlie-brown-valentine-28069",
+            "film-blush-818350"
+          ]
+        }
+      ]
     }
   },
   "curation": {

@@ -32,6 +32,9 @@ test('the stamped artifact list matches a fresh derivation from the story rows',
 test('each series resolves exactly one distinct poster URL, and the build gate holds it', () => {
   const bySeries = new Map();
   for (const s of artifact.stories) {
+    // Films are not series; they never enter the strip (diction ruling,
+    // exclusions).
+    if (s.kind === 'film') continue;
     if (!bySeries.has(s.seriesTitle)) bySeries.set(s.seriesTitle, new Set());
     if (s.posterUrl) bySeries.get(s.seriesTitle).add(s.posterUrl);
   }

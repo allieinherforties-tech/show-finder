@@ -14,9 +14,10 @@ import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { cleanText, isPlaceholderRow, normalizeStoryRow, publishProblems, searchableText } from '../src/pipeline/normalize.mjs';
-import { suppressionReasons } from '../src/pipeline/parent-facing.mjs';
-import { attachAll, buildArtworkIndex, collectSeriesPosters } from '../src/pipeline/artwork.mjs';
+import { suppressionReasons, filmSuppressionReasons } from '../src/pipeline/parent-facing.mjs';
+import { attachAll, attachAllFilms, buildArtworkIndex, collectSeriesPosters } from '../src/pipeline/artwork.mjs';
 import { joinSeriesDescriptions } from '../src/pipeline/series-descriptions.mjs';
+import { duplicateFilmIdProblems, filmCatalogByTmdbId, filmRowProblems, normalizeFilmRow } from '../src/pipeline/films.mjs';
 import { classifyAppleUrl, validateAppleRegistry } from '../src/links/apple-tv.mjs';
 import { createEmbedder, stableVector } from '../src/search/embedder.mjs';
 import { populateDb } from '../src/search/store.mjs';
@@ -103,6 +104,47 @@ function collectStories(sources) {
   return stories;
 }
 
+/**
+ * Normalizes the standalone-film rows (kind 'films' sheets). Gates:
+ *   - exactly one row per TMDB id — a duplicate film id fails the build
+ *   - link_status=verified on every row — the honest-link rule: nothing
+ *     indexes on an unverified Apple link
+ *   - every film joins the Titles catalog by TMDB id, so the card subtitle
+ *     can disambiguate same-named films by release year
+ *   - a known evidence tier, carried as internal metadata only
+ * Empty coping or emotion is faithful upstream absence and is never a gate.
+ */
+function collectFilms(sources, catalog) {
+  const films = [];
+  const errors = [];
+  for (const src of sources) {
+    if (src.kind !== 'films') continue;
+    const provenance = {
+      workbookId: src.workbookId,
+      workbookName: src.workbookName,
+      sheetId: src.sheetId,
+      sheetName: src.sheetName,
+    };
+    for (const raw of src.rows) {
+      const film = normalizeFilmRow(raw, provenance, catalog.get(cleanText(raw.tmdb_id)));
+      const problems = filmRowProblems(film);
+      if (problems.length) {
+        errors.push(`${src.sheetId}: ${cleanText(raw.film_title) || '(untitled row)'} — ${problems.join('; ')}`);
+        continue;
+      }
+      films.push(film);
+    }
+  }
+  if (errors.length) {
+    throw new Error(`film normalization failed:\n  ${errors.join('\n  ')}`);
+  }
+  const dupes = duplicateFilmIdProblems(films);
+  if (dupes.length) {
+    throw new Error(`duplicate film ids (one row per film):\n  ${dupes.join('\n  ')}`);
+  }
+  return films;
+}
+
 /** Structural checks that must hold for every row, plus enum post-normalization. */
 function validateStories(stories) {
   const problems = [];
@@ -160,8 +202,14 @@ function coverageReport(stories, sources) {
 function main() {
   mkdirSync(OUT_DIR, { recursive: true });
   const sources = readSourceFiles();
+  const titlesDump = sources.find((s) => s.kind === 'catalog' && s.sheetName === 'Titles');
+  const episodesDump = sources.find((s) => s.kind === 'catalog' && s.sheetName === 'Episodes');
   let stories = collectStories(sources);
-  validateStories(stories);
+  // Films join the same corpus and the same vocabulary gate as stories; their
+  // own gates (verified link, one row per film id, catalog year join) live in
+  // collectFilms.
+  let films = collectFilms(sources, filmCatalogByTmdbId(titlesDump));
+  validateStories([...stories, ...films]);
 
   // Placeholder routing: title-level rows flagged for review (no source text,
   // no tags) never publish. They leave the artifact entirely and land in the
@@ -197,6 +245,20 @@ function main() {
     throw new Error(`published rows are non-conforming (nothing publishes without a full tag set):\n  ${nonConforming.join('\n  ')}`);
   }
 
+  // Film honesty gate: internal annotation language never reaches a parent's
+  // screen. Films do not route through the story unverified-resolution rule —
+  // the corpus carries its evidence tier deliberately, and honesty lives in
+  // what the card claims: the resolution line renders only from the row's own
+  // tagged coping data, and the tier is never displayed (Film Card Diction).
+  const filmsSuppressed = films.flatMap((f) => {
+    const reasons = filmSuppressionReasons(f);
+    return reasons.length ? [{ id: f.id, reasons }] : [];
+  });
+  if (filmsSuppressed.length) {
+    const suppressedIds = new Set(filmsSuppressed.map((r) => r.id));
+    films = films.filter((f) => !suppressedIds.has(f.id));
+  }
+
   // Phase 2: artwork and Apple links. Both come from committed dumps; if
   // either is absent the build stops with instructions rather than shipping
   // half-tagged cards.
@@ -213,24 +275,28 @@ function main() {
   const artworkDump = JSON.parse(readFileSync(artworkPath, 'utf8'));
   const appleRegistry = JSON.parse(readFileSync(appleLinksPath, 'utf8'));
   validateAppleRegistry(appleRegistry);
-  const titlesDump = sources.find((s) => s.kind === 'catalog' && s.sheetName === 'Titles');
-  const episodesDump = sources.find((s) => s.kind === 'catalog' && s.sheetName === 'Episodes');
   const artworkIndex = buildArtworkIndex({ artworkDump, titlesDump, episodesDump });
   const artworkCoverage = attachAll(stories, artworkIndex, appleRegistry);
+  const filmCoverage = attachAllFilms(films, artworkIndex);
+
+  // The serving corpus: stories and films in one ranked index. Films ride the
+  // artifact's stories array so search, filters, and /api/health see them
+  // exactly like series rows.
+  const rows = [...stories, ...films];
 
   // Deep-link integrity: every URL in the artifact must match a verified
   // pattern shape. A malformed link fails the build before anything ships.
-  const malformedLinks = stories
+  const malformedLinks = rows
     .filter((s) => s.appleUrl && !classifyAppleUrl(s.appleUrl))
     .map((s) => `${s.id}: ${s.appleUrl}`);
   if (malformedLinks.length) {
     throw new Error(`deep-link integrity check failed:\n  ${malformedLinks.join('\n  ')}`);
   }
 
-  stories.sort((a, b) => a.id.localeCompare(b.id));
+  rows.sort((a, b) => a.id.localeCompare(b.id));
 
   const ids = new Set();
-  for (const s of stories) {
+  for (const s of rows) {
     if (ids.has(s.id)) throw new Error(`duplicate story id: ${s.id}`);
     ids.add(s.id);
   }
@@ -241,7 +307,7 @@ function main() {
   // series resolves zero or several distinct posters. Derived data, so it
   // rides outside the version hash: the stamp still covers story content and
   // vectors only, and a rebuild reproduces this list byte for byte.
-  const seriesPosters = collectSeriesPosters(stories);
+  const seriesPosters = collectSeriesPosters(rows);
 
   // The poster-tap popup: the approved description, suggested age band, and
   // verified Apple series link join onto each strip entry from the committed
@@ -252,13 +318,13 @@ function main() {
   const seriesPopups = joinSeriesDescriptions(seriesPosters, descriptionsDump?.rows);
 
   const embedder = createEmbedder();
-  const embeddings = stories.map((s) => ({
+  const embeddings = rows.map((s) => ({
     id: s.id,
     vector: stableVector(embedder.embed(searchableText(s))),
   }));
 
-  // The version hash stamps story content and vectors, not build metadata.
-  const canonical = JSON.stringify({ stories, embeddings });
+  // The version hash stamps row content and vectors, not build metadata.
+  const canonical = JSON.stringify({ stories: rows, embeddings });
   const version = createHash('sha256').update(canonical).digest('hex').slice(0, 16);
 
   const artifact = {
@@ -273,9 +339,9 @@ function main() {
       kind: s.kind,
       rowCount: s.rowCount,
     })),
-    storyCount: stories.length,
+    storyCount: rows.length,
     seriesPosters: seriesPopups,
-    stories,
+    stories: rows,
     embeddings,
   };
   const artifactPath = path.join(OUT_DIR, 'search-artifact.json');
@@ -283,10 +349,10 @@ function main() {
 
   const db = new Database(path.join(OUT_DIR, 'search.db'));
   db.exec('DROP TABLE IF EXISTS stories; DROP TABLE IF EXISTS stories_fts;');
-  populateDb(db, stories);
+  populateDb(db, rows);
   db.close();
 
-  const dashFindings = scanDashes(stories);
+  const dashFindings = scanDashes(rows);
   const report = {
     version,
     artwork: {
@@ -308,6 +374,22 @@ function main() {
       tmdbFetchMissing: artworkDump.missing,
     },
     coverage: coverageReport(stories, sources),
+    films: {
+      // Films ride the artifact's stories array; this block reports their own
+      // shape so the sheet's state stays visible at build time. Evidence
+      // tiers are internal metadata and are never displayed.
+      rows: filmCoverage.filmRows,
+      evidenceTiers: {
+        synopsis_fallback: rows.filter((r) => r.kind === 'film' && r.evidenceTier === 'synopsis_fallback').length,
+        title_overview: rows.filter((r) => r.kind === 'film' && r.evidenceTier === 'title_overview').length,
+      },
+      withoutCoping: rows.filter((r) => r.kind === 'film' && !r.coping).length,
+      withoutEmotion: rows.filter((r) => r.kind === 'film' && !r.emotions.length).length,
+      artwork: { withPoster: filmCoverage.withPoster, noArtwork: filmCoverage.noArtwork },
+      links: { movie: filmCoverage.movieLinks, none: filmCoverage.noLink },
+      suppressedFromRender: filmsSuppressed,
+      note: 'Films join search and filters like series rows; they stay out of the series dropdown, the poster strip, and the rails. Empty coping or emotion is faithful upstream absence, rendered as no chip.',
+    },
     houseStyle: {
       emDashScan: {
         note: 'Em dashes in curated source rows are flagged for the curation thread. The pipeline never rewrites them.',
@@ -323,9 +405,9 @@ function main() {
       note: 'Rows with internal QA annotations in parent-facing fields, or with resolutions flagged as unverified synopsis fallbacks, never publish. The curation thread owns re-verifying them at the source.',
     },
     vocabulary: {
-      offListObserved: [...new Set(stories.flatMap((s) => s.emotionOffList))].sort(),
-      droppedTraitWords: [...new Set(stories.flatMap((s) => s.emotionDropped ?? []))].sort(),
-      unknownEmotionTerms: [...new Set(stories.flatMap((s) => s.emotionUnknown))].sort(),
+      offListObserved: [...new Set(rows.flatMap((s) => s.emotionOffList))].sort(),
+      droppedTraitWords: [...new Set(rows.flatMap((s) => s.emotionDropped ?? []))].sort(),
+      unknownEmotionTerms: [...new Set(rows.flatMap((s) => s.emotionUnknown))].sort(),
     },
   };
   writeFileSync(path.join(OUT_DIR, 'validation-report.json'), JSON.stringify(report, null, 2) + '\n');
@@ -333,7 +415,7 @@ function main() {
 
   console.log(`artifact: ${artifactPath}`);
   console.log(`version:  ${version}`);
-  console.log(`stories:  ${stories.length} across ${report.coverage.series ? Object.keys(report.coverage.series).length : 0} series`);
+  console.log(`stories:  ${stories.length} across ${report.coverage.series ? Object.keys(report.coverage.series).length : 0} series; ${films.length} films`);
   console.log(`artwork:  mode ${mode}; stills ${artworkCoverage.stills}, poster fallback ${artworkCoverage.posterFallback}, none ${artworkCoverage.noArtwork}`);
   console.log(`links:    episode ${artworkCoverage.episodeLinks}, show page ${artworkCoverage.showLinks}, none ${artworkCoverage.noLink}`);
   console.log(`dash findings: ${dashFindings.length} source sheets flagged (see validation-report.json)`);
