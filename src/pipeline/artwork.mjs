@@ -7,7 +7,7 @@
 // The Apple registry (data/source/apple-links.json) is transcribed from the
 // verified deep-link findings. Serving consumes only what the build embeds.
 
-import { appleLinkFor } from '../links/apple-tv.mjs';
+import { appleLinkFor, classifyAppleUrl } from '../links/apple-tv.mjs';
 import { PROVIDERS } from '../links/providers.mjs';
 
 export const TMDB_IMAGE_BASE = 'https://image.tmdb.org/t/p';
@@ -118,6 +118,10 @@ export function attachArtworkAndLink(story, artworkIndex, appleRegistry) {
 export function collectSeriesPosters(stories) {
   const posterUrlsBySeries = new Map();
   for (const s of stories) {
+    // Films stay out of the strip: a parent scanning "shows" does not expect
+    // a standalone film between Frog and Toad and Fraggle Rock (diction
+    // ruling, exclusions section).
+    if (s.kind === 'film') continue;
     if (!s.seriesTitle) continue;
     if (!posterUrlsBySeries.has(s.seriesTitle)) posterUrlsBySeries.set(s.seriesTitle, new Set());
     if (s.posterUrl) posterUrlsBySeries.get(s.seriesTitle).add(s.posterUrl);
@@ -136,6 +140,45 @@ export function collectSeriesPosters(stories) {
   return [...posterUrlsBySeries.entries()]
     .map(([title, posters]) => ({ title, posterUrl: [...posters][0] }))
     .sort((a, b) => a.title.localeCompare(b.title));
+}
+
+/**
+ * Attaches artwork and the verified Apple link to one film row, mutating it
+ * in place. A film is its own catalog row: the poster keys off the film's own
+ * TMDB id (no series join, no episode still), and the Apple link is the
+ * corpus sheet's live-verified movie URL — never re-derived, never invented.
+ */
+export function attachFilmArtworkAndLink(film, artworkIndex) {
+  const posterPath = artworkIndex.posterByTmdbId.get(film.tmdbId) || null;
+  film.stillUrl = null;
+  film.posterUrl = tmdbImageUrl(TMDB_IMAGE_BASE, posterPath, POSTER_SIZE);
+  film.artworkSourceId = film.tmdbId;
+  film.appleUrl = film.appleTvLink || null;
+  film.appleLinkKind = film.appleUrl ? classifyAppleUrl(film.appleUrl) : null;
+
+  film.provider = PROVIDERS.apple.key;
+  film.providerLabel = PROVIDERS.apple.label;
+  return film;
+}
+
+/**
+ * Attaches artwork and Apple links to every film, with the same coverage
+ * accounting attachAll keeps for stories (a film resolves a poster or
+ * nothing; its link kind is 'movie').
+ */
+export function attachAllFilms(films, artworkIndex) {
+  let withPoster = 0;
+  let noArtwork = 0;
+  let movieLinks = 0;
+  let noLink = 0;
+  for (const f of films) {
+    attachFilmArtworkAndLink(f, artworkIndex);
+    if (f.posterUrl) withPoster += 1;
+    else noArtwork += 1;
+    if (f.appleLinkKind === 'movie') movieLinks += 1;
+    else noLink += 1;
+  }
+  return { filmRows: films.length, withPoster, noArtwork, movieLinks, noLink };
 }
 
 /**

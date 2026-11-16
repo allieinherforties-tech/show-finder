@@ -5,7 +5,7 @@
   "sheetName": "Titles",
   "kind": "catalog",
   "defaultSeriesTitle": null,
-  "rowCount": 86,
+  "rowCount": 90,
   "rows": [
     {
       "tmdb_id": "13187",
@@ -594,7 +594,7 @@
       "num_episodes": null,
       "poster_path": "/gNmLsseIs6thkBKne91iQZDGyBT.jpg",
       "apple_tv_link": null,
-      "inclusion_note": null
+      "inclusion_note": " OUT OF SCOPE 2026-11-14 (Allie's ruling: ships only if on the Apple free tier AND classified Kids & Family): live TMDB US providers (checked 2026-11-14) show flatrate Disney Plus only, with Apple TV present only as Store rent and buy (excluded); fails the free-tier test. Leaves the tagging dataset (Batch 19 row marked out-of-scope). Row retained, not deleted."
     },
     {
       "tmdb_id": "1584",
@@ -613,7 +613,7 @@
       "num_episodes": null,
       "poster_path": "/zXLXaepIBvFVLU25DH3wv4IPSbe.jpg",
       "apple_tv_link": null,
-      "inclusion_note": null
+      "inclusion_note": " OUT OF SCOPE 2026-11-14 (Allie's ruling: ships only if on the Apple free tier AND classified Kids & Family): live TMDB US providers (checked 2026-11-14) show flatrate Paramount Plus tiers, YouTube TV, and the Starz Apple TV channel only, with Apple TV present only as Store rent and buy (excluded); Apple web search renders 'School of Rock isn't available' (checked 2026-11-14); fails the free-tier test. Leaves the tagging dataset (Batch 19 row marked out-of-scope). Row retained, not deleted."
     },
     {
       "tmdb_id": "1186957",
@@ -651,7 +651,7 @@
       "num_episodes": null,
       "poster_path": "/cLwQRXfzPjmpU6I78TCkoHazO0A.jpg",
       "apple_tv_link": null,
-      "inclusion_note": "Included via cross-check (Apple/RT named list: 'The Year Earth Changed' - Documentary genre only, nature/family doc, confirmed Apple TV flatrate US); TMDB genre tags: ['Documentary'] (not standard Kids/Family tag, added based on named-list verification + confirmed Apple TV flatrate US, consistent with other nature-doc inclusions)"
+      "inclusion_note": "Included via cross-check (Apple/RT named list: 'The Year Earth Changed' - Documentary genre only, nature/family doc, confirmed Apple TV flatrate US); TMDB genre tags: ['Documentary'] (not standard Kids/Family tag, added based on named-list verification + confirmed Apple TV flatrate US, consistent with other nature-doc inclusions) OUT OF SCOPE 2026-11-14 (Allie's ruling: ships only if on the Apple free tier AND classified Kids & Family): passes the free-tier test (live TMDB US flatrate includes Apple TV provider 350, checked 2026-11-14; Apple Original movie page live) but fails the essential Kids & Family classification test: Apple's movie page (checked 2026-11-14) classifies it Documentary with no Kids & Family tag, and TMDB lists genre Documentary only. Leaves the tagging dataset (Batch 19 row marked out-of-scope). Row retained, not deleted."
     },
     {
       "tmdb_id": "836919",
@@ -1449,7 +1449,7 @@
       "num_episodes": "29",
       "poster_path": "/82WmpHPKEpRu5OIAfJ5M3dfuwXX.jpg",
       "apple_tv_link": null,
-      "inclusion_note": "Included via cross-check (Apple room list: 'The Peanuts Classics' - Animation genre only, no Kids/Family tag); TMDB genre tags: ['Animation'] (not standard Kids/Family tag, added based on named-list verification + confirmed Apple TV flatrate US)"
+      "inclusion_note": "SCOPE CORRECTION 2026-11-14 (Allie's rekey-and-retire ruling): TMDB 335652 is a fan-built compilation shell. Catalog rekeys E1-6 to Apple's verified 6-episode listing (umc.cmc.63led2pm5a1w4wvabyn4xxxjp, live 2026-11-14: Charlie Brown's All Stars!, She's a Good Skate Charlie Brown, It's Flashbeagle Charlie Brown, Snoopy's Reunion, You're Not Elected Charlie Brown, It's Arbor Day Charlie Brown); 23 phantom E7-29 rows retired in place, not deleted. Apple's live page classifies Kids & Family and Animation (checked 2026-11-14), correcting this record's earlier no-Kids/Family-tag reading. Stays in scope."
     },
     {
       "tmdb_id": "276501",
@@ -1640,6 +1640,82 @@
       "poster_path": "/7r0X0z3DXIDCFI6I9JJ2gtq68Bb.jpg",
       "apple_tv_link": null,
       "inclusion_note": null
+    },
+    {
+      "tmdb_id": "1780407",
+      "title": "Snoopy Presents: 12 Days of Snoopy",
+      "type": "Film",
+      "original_or_licensed": "Licensed",
+      "classification_confidence": "high",
+      "release_year": "2026",
+      "genres": "Animation; Family",
+      "content_rating": "G",
+      "overview": "Eager to get off Santa's naughty list, Snoopy goes all out to be the nicest beagle in town.",
+      "vote_average": "7.0",
+      "runtime_minutes": "33",
+      "status": "Released",
+      "num_seasons": null,
+      "num_episodes": null,
+      "poster_path": "/9wZAvvAZgwp2Lxbhjkp9N6HHJBm.jpg",
+      "apple_tv_link": null,
+      "inclusion_note": "Ingested 2026-11-14 from live TMDB data; released 2026-11-12, post-snapshot audit addition. Apple live listing carries the title as 12 Days of Snoopy (umc.cmc.7js98w9pfzw394wpm8da3cuzq). Peanuts licensed IP under the Snoopy Presents Apple Original brand. US certification G per TMDB release dates (source note Apple TV)."
+    },
+    {
+      "tmdb_id": "93519",
+      "title": "Helpsters",
+      "type": "Series",
+      "original_or_licensed": "Original",
+      "classification_confidence": "high",
+      "release_year": "2019",
+      "genres": "Kids; Family",
+      "content_rating": "TV-Y",
+      "overview": "Meet Cody and the Helpsters, a team of vibrant monsters who love to solve problems. Whether it's planning a party, climbing a mountain, or mastering a magic trick, the Helpsters can figure anything out—because everything starts with a plan.",
+      "vote_average": "5.0",
+      "runtime_minutes": null,
+      "status": "Ended",
+      "num_seasons": "3",
+      "num_episodes": "40",
+      "poster_path": "/zqFCwSsAhxMx2LXwKcO4IO9V1Z4.jpg",
+      "apple_tv_link": null,
+      "inclusion_note": "Ingested 2026-11-14 from live TMDB data; series split into 80 story rows per the two-story convention (all 40 episode titles carry a two-story marker; seasons 13/13/14 match the Episodes sheet). Apple TV Original (Sesame Workshop), US rating TV-Y per TMDB content ratings. TMDB overview kept verbatim."
+    },
+    {
+      "tmdb_id": "114924",
+      "title": "Time Bandits",
+      "type": "Series",
+      "original_or_licensed": "Original",
+      "classification_confidence": "high",
+      "release_year": "2024",
+      "genres": "Sci-Fi & Fantasy; Action & Adventure; Comedy",
+      "content_rating": "TV-PG",
+      "overview": "Eleven-year-old Kevin's passion for history is put to the test when he joins a ragtag group of time-traveling thieves on a high-stakes and hilarious adventure.",
+      "vote_average": "6.203",
+      "runtime_minutes": null,
+      "status": "Canceled",
+      "num_seasons": "1",
+      "num_episodes": "10",
+      "poster_path": "/ahnTuygdAbjXvLKzLQlK2txosMX.jpg",
+      "apple_tv_link": null,
+      "inclusion_note": "Ingested 2026-11-14 from live TMDB data; 1 season, 10 episodes, matching the Episodes sheet. Apple TV Original series adapting the 1981 Time Bandits film. Caveat carried from the completeness audit: TMDB genres (Sci-Fi & Fantasy; Action & Adventure; Comedy) carry no Kids or Family tag. US rating TV-PG per TMDB content ratings."
+    },
+    {
+      "tmdb_id": "102318",
+      "title": "Fraggle Rock: Rock On!",
+      "type": "Series",
+      "original_or_licensed": "Original",
+      "classification_confidence": "high",
+      "release_year": "2020",
+      "genres": "Kids",
+      "content_rating": "TV-G",
+      "overview": "The Fraggles might be apart in separate caves, but they can still find ways to have fun together! Join Gobo, Red, Boober, Mokey, Wembley, and Uncle Travelling Matt for stories and songs that show everyone how we're all connected.",
+      "vote_average": "6.6",
+      "runtime_minutes": "5",
+      "status": "Canceled",
+      "num_seasons": "1",
+      "num_episodes": "6",
+      "poster_path": "/vIRbAm9oZTCUpKUIGo9yc5SO15B.jpg",
+      "apple_tv_link": null,
+      "inclusion_note": "Ingested 2026-11-14 from live TMDB data; 6 short-form episodes (5 min each per TMDB episode run time), matching the Episodes sheet. Apple TV Original short-form Fraggle Rock series. Apple availability confirmed live during ingestion (2026-11-14); TMDB shows US flatrate only via a scope-excluded channel, which is stale provider data. US rating TV-G per TMDB content ratings."
     }
   ]
 }

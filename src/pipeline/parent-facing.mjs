@@ -74,3 +74,18 @@ export function suppressionReasons(story) {
   }
   return reasons;
 }
+
+/**
+ * Film rows carry their evidence tier deliberately (the corpus was built and
+ * link-verified as a unit, per the Standalone Films plan), so the story rule
+ * above — a synopsis-fallback resolution flags the whole row back to curation
+ * — does not apply to them. What still applies: internal annotation language
+ * never reaches a parent's screen. Honesty for films is enforced by what the
+ * card claims (the resolution line renders only from the row's own tagged
+ * coping data; the tier is never displayed), per the Film Card Diction ruling.
+ */
+export function filmSuppressionReasons(film) {
+  return internalAnnotationHits(film).map(
+    (hit) => `internal annotation in parent-facing field ${hit.field}: ${hit.match}`,
+  );
+}

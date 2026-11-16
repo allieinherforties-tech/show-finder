@@ -63,6 +63,22 @@ function episodeLabel(r) {
   return `S${r.seasonNumber} E${r.episodeNumber}${seg}`;
 }
 
+// Film cards, per the Film Card Diction ruling: the subtitle slot that an
+// episode card fills with S/E carries the word Film, the release year, and
+// the runtime in minutes. One format, '25 min' or '95 min', no hour
+// conversion. The runtime segment is omitted when the field is null rather
+// than invented; year and runtime come from the Titles catalog at build time.
+function filmSubtitle(r) {
+  const parts = ['Film'];
+  if (r.releaseYear) parts.push(r.releaseYear);
+  if (r.runtimeMinutes) parts.push(`${r.runtimeMinutes} min`);
+  return parts.join(' · ');
+}
+
+function subtitleLabel(r) {
+  return r.kind === 'film' ? filmSubtitle(r) : episodeLabel(r);
+}
+
 function tagLine(r) {
   const parts = [];
   if (r.ageBand) parts.push(`ages ${r.ageBand.replace('-', ' to ')}`);
@@ -124,8 +140,12 @@ function renderCard(r) {
       img.className = 'card-image';
       img.loading = 'lazy';
       img.src = src;
-      const kind = r.stillUrl ? 'Episode still' : 'Series poster';
-      img.alt = `${kind} for ${r.seriesTitle}`;
+      // A film row carries a film poster, never an episode still (diction
+      // ruling, rendering guards).
+      const alt = r.kind === 'film'
+        ? `Poster for ${r.seriesTitle}`
+        : `${r.stillUrl ? 'Episode still' : 'Series poster'} for ${r.seriesTitle}`;
+      img.alt = alt;
       figure.appendChild(img);
       card.appendChild(figure);
     }
@@ -136,7 +156,7 @@ function renderCard(r) {
 
   const episode = document.createElement('p');
   episode.className = 'episode';
-  episode.textContent = episodeLabel(r);
+  episode.textContent = subtitleLabel(r);
 
   const situation = document.createElement('p');
   situation.className = 'situation';
@@ -186,7 +206,12 @@ function renderCard(r) {
     watch.appendChild(document.createTextNode(`Watch on ${r.providerLabel}`));
     // Distinct accessible name per card: a links list of twenty identical
     // "Watch on Apple TV+" entries tells a screen reader user nothing.
-    watch.setAttribute('aria-label', `Watch ${r.seriesTitle}, season ${r.seasonNumber} episode ${r.episodeNumber}, on ${r.providerLabel}`);
+    // A film has no season or episode to name: its label is the film title
+    // alone (diction ruling, rendering guards).
+    const ariaLabel = r.kind === 'film'
+      ? `Watch ${r.seriesTitle} on ${r.providerLabel}`
+      : `Watch ${r.seriesTitle}, season ${r.seasonNumber} episode ${r.episodeNumber}, on ${r.providerLabel}`;
+    watch.setAttribute('aria-label', ariaLabel);
     card.appendChild(watch);
   }
 

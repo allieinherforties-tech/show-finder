@@ -171,6 +171,7 @@ export function normalizeStoryRow(raw, provenance) {
 
   return {
     id,
+    kind: 'episode',
     seriesTitle,
     seasonNumber: Number(season) || null,
     episodeNumber: Number(episode) || null,

@@ -69,9 +69,26 @@ test('REGRESSION: the published artifact carries no internal annotation in any p
   assert.deepEqual(leaked, [], 'internal QA annotations leaked into the parent-facing artifact');
 });
 
-test('REGRESSION: no published row has an unverified synopsis-fallback resolution', () => {
-  const unverified = artifact.stories.filter(hasUnverifiedResolution).map((s) => s.id);
+test('REGRESSION: no published story row has an unverified synopsis-fallback resolution', () => {
+  // Story rows only: a film's evidence tier is a deliberate, internally
+  // tracked property of the corpus (Film Card Diction ruling), and honesty
+  // for films lives in what the card claims, not in hiding the row. The
+  // story rule here still reads the notes the way it always has.
+  const unverified = artifact.stories
+    .filter((s) => s.kind !== 'film')
+    .filter(hasUnverifiedResolution)
+    .map((s) => s.id);
   assert.deepEqual(unverified, [], 'rows with unverified resolutions shipped to parents');
+});
+
+test('REGRESSION: every film in the artifact is a verified-link row with a known evidence tier', () => {
+  // The film honesty gate at build time: live-verified Apple link on every
+  // row, tier internal only. This test pins what shipped; the build gate
+  // itself is tested against fixtures in films.test.mjs.
+  for (const film of artifact.stories.filter((s) => s.kind === 'film')) {
+    assert.match(film.appleUrl || '', /^https:\/\/tv\.apple\.com\/us\/movie\//, `${film.id} carries a movie deep link`);
+    assert.ok(['synopsis_fallback', 'title_overview'].includes(film.evidenceTier), `${film.id} carries a known evidence tier`);
+  }
 });
 
 test('the gate held back the known fallback rows; the artifact count reflects it', () => {

@@ -60,7 +60,9 @@ export function loadIndex({ artifactPath, dbPath, embedderName } = {}) {
     version: raw.version,
     storyCount: stories.length,
     // Series the index knows, for validating the guided reply series facet.
-    seriesTitles: new Set(stories.map((s) => s.seriesTitle)),
+    // Films are not series: a parent scanning series does not expect Blush
+    // between Frog and Toad and Fraggle Rock, so films stay out of this set.
+    seriesTitles: new Set(stories.filter((s) => s.kind !== 'film').map((s) => s.seriesTitle)),
     // The v1.1 browse-by-show strip: one poster per published series, stamped
     // by the build. The server renders it straight from this list.
     seriesPosters: raw.seriesPosters || [],
@@ -81,7 +83,9 @@ export function createMemoryIndex(stories, embedderName) {
   const vectors = stories.map((s) => embedder.embed(vectorInput(s)));
   const byId = new Map(stories.map((s, i) => [s.id, i]));
   return {
-    seriesTitles: new Set(stories.map((s) => s.seriesTitle)),
+    // Same exclusion as the artifact path: a film is never a valid series
+    // filter value, whatever builds the index.
+    seriesTitles: new Set(stories.filter((s) => s.kind !== 'film').map((s) => s.seriesTitle)),
     search(query, opts = {}) {
       return runSearch({ stories, byId, vectors, db, embedder }, query, opts);
     },
@@ -122,7 +126,8 @@ function facetCounts(stories, matchedIdx) {
     const row = stories[i];
     for (const e of row.emotions) emotions.set(e, (emotions.get(e) || 0) + 1);
     if (row.ageBand) ageBands.set(row.ageBand, (ageBands.get(row.ageBand) || 0) + 1);
-    if (row.seriesTitle) series.set(row.seriesTitle, (series.get(row.seriesTitle) || 0) + 1);
+    // Films are not series: they never offer a series clarifier chip.
+    if (row.kind !== 'film' && row.seriesTitle) series.set(row.seriesTitle, (series.get(row.seriesTitle) || 0) + 1);
   }
   const top = (map, key) => [...map.entries()]
     .map(([value, count]) => ({ [key]: value, count }))
@@ -207,7 +212,15 @@ export function runSearch(index, query, opts = {}) {
 
   const results = scored.slice(0, limit).map(({ row, scores }) => ({
     id: row.id,
+    // 'episode' or 'film': the card renders a film subtitle, watch label,
+    // and artwork alt from this, per the Film Card Diction ruling.
+    kind: row.kind || 'episode',
     seriesTitle: row.seriesTitle,
+    // Film-only fields, joined from the Titles catalog at build time. Both
+    // null for series rows; runtime may be null for a film too, and the
+    // subtitle omits the segment rather than inventing one.
+    releaseYear: row.releaseYear || null,
+    runtimeMinutes: row.runtimeMinutes ?? null,
     seasonNumber: row.seasonNumber,
     episodeNumber: row.episodeNumber,
     episodeTitle: row.episodeTitle,
