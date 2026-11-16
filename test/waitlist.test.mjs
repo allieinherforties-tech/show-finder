@@ -34,7 +34,7 @@ test('the served page carries real anchors pointing at the configured target', a
   const html = await readFile('public/index.html', 'utf8');
   const served = applyWaitlistUrl(html);
   assert.match(served, /<a class="waitlist-cta" href="https:\/\/parentpeptalks\.com\/" rel="noopener">Join the Parent Pep Talks waitlist<\/a>/);
-  assert.match(served, /<a class="waitlist-secondary" href="https:\/\/parentpeptalks\.com\/" rel="noopener">Read the back story at Parent Pep Talks<\/a>/);
+  assert.equal(served.includes('waitlist-secondary'), false, 'the backstory anchor is removed');
   assert.match(served, /This finder comes from Parent Pep Talks\./);
 });
 
