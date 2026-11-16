@@ -214,12 +214,10 @@ main {
   font-weight: 600;
 }
 
-.card .situation { margin: 0 0 0.5rem; }
-
-.card .synopsis {
+.card .lead {
   margin: 0 0 0.6rem;
-  color: var(--muted);
   font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .card .resolution { margin: 0; font-size: 0.9rem; }
@@ -529,6 +527,20 @@ main {
   object-fit: cover;
   border-radius: 0.6rem;
   background: var(--accent-soft);
+}
+
+/* Lean block model: the episode-context line sits above the chips, the
+   unlabeled lead paragraph below them, matching the approved dialog shape. */
+.rail-dialog-ep {
+  margin: 0 0 0.4rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.rail-dialog-lead {
+  margin: 0 0 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .rail-detail-list { margin: 0; }

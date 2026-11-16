@@ -185,8 +185,7 @@ test('an episode still keeps the Episode-still alt', async () => {
   assert.equal(figure.children[0].alt, 'Episode still for Frog and Toad');
 });
 
-test('a film with no coping renders no resolution text, per the faithful-absence rule', async () => {
+test('a film with no coping renders no resolution element, per the faithful-absence rule', async () => {
   const [card] = await renderRows([filmRow({ coping: '' })]);
-  const resolution = card.children.find((c) => c.className === 'resolution');
-  assert.equal(resolution.textContent, '');
+  assert.equal(card.children.find((c) => c.className === 'resolution'), undefined);
 });

@@ -158,13 +158,13 @@ function renderCard(r) {
   episode.className = 'episode';
   episode.textContent = subtitleLabel(r);
 
-  const situation = document.createElement('p');
-  situation.className = 'situation';
-  situation.textContent = r.situation;
-
-  const synopsis = document.createElement('p');
-  synopsis.className = 'synopsis';
-  synopsis.textContent = r.displaySynopsis;
+  // Episode story dialog, lean block model (wb_08gsOLEW): one unlabeled
+  // story-lead paragraph, then the labeled Resolution line. The situation
+  // field stays in the data for search matching; it no longer renders here,
+  // and a row without a lead degrades to chips and Resolution alone.
+  const lead = document.createElement('p');
+  lead.className = 'lead';
+  lead.textContent = r.displaySynopsis;
 
   const tags = document.createElement('p');
   tags.className = 'tags';
@@ -181,7 +181,13 @@ function renderCard(r) {
     resolution.appendChild(document.createTextNode(r.coping));
   }
 
-  card.append(heading, episode, tagsText ? tags : '', situation, synopsis, resolution);
+  card.append(
+    heading,
+    episode,
+    tagsText ? tags : '',
+    r.displaySynopsis ? lead : '',
+    r.coping ? resolution : '',
+  );
 
   // The watch pill names the provider from the row's data: the canonical
   // tv.apple.com web URL is generated at build time (episode level where the
