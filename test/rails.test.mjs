@@ -79,7 +79,7 @@ test('every rail row quotes the production artifact and the held-back rows are n
       assert.ok(story, `row ${row.storyId} must exist in the artifact`);
       assert.equal(row.title, story.segmentTitle || story.episodeTitle, 'title quotes the artifact');
       assert.equal(row.displaySynopsis, story.displaySynopsis);
-      assert.equal(row.situation, story.situation, 'the expanded view quotes the artifact situation');
+      assert.equal(row.situation, story.situation, 'the row keeps the artifact situation for search matching');
       assert.equal(row.coping, story.coping, 'the expanded view quotes the artifact resolution');
       assert.equal(row.appleUrl, story.appleUrl || null);
       assert.ok(row.why, 'every row carries its editorial why');
@@ -92,9 +92,14 @@ test('every rail card carries its expanded detail template', () => {
   const cards = (html.match(/<article class="rail-card">/g) || []).length;
   const templates = (html.match(/<template class="rail-detail">/g) || []).length;
   assert.equal(templates, cards, 'one detail template per card');
-  for (const label of ['<dt>Situation</dt>', '<dt>Ages</dt>', '<dt>Feelings</dt>', '<dt>Resolution</dt>', '<dt>What happens</dt>']) {
-    assert.ok(html.includes(label), `the expanded view names ${label}`);
+  // Lean block model (wb_08gsOLEW): one unlabeled story-lead paragraph,
+  // then the labeled Resolution line. The five-field label list is gone;
+  // the situation field stays in the data model and never renders here.
+  for (const label of ['<dt>Situation</dt>', '<dt>Ages</dt>', '<dt>Feelings</dt>', '<dt>What happens</dt>']) {
+    assert.equal(html.includes(label), false, `the retired label ${label} never renders`);
   }
+  assert.ok(html.includes('<dt>Resolution</dt>'), 'the expanded view names Resolution');
+  assert.ok(html.includes('class="rail-dialog-lead"'), 'the expanded view opens its story with the unlabeled lead');
   assert.ok(html.includes('<button class="rail-card-more" type="button" aria-haspopup="dialog">Story details</button>'), 'each card has its keyboard affordance');
   // The expanded view is served from the same gated artifact, so the
   // internal-annotation scan in test/parent-facing.test.mjs covers it too;
@@ -253,5 +258,6 @@ test('a card with no artwork carries a detail template with no banner and no pla
   assert.ok(html.includes('<template class="rail-detail">'), 'the imageless card still carries its detail template');
   assert.equal(html.includes('rail-dialog-banner'), false, 'no banner figure is rendered');
   assert.equal(html.includes('rail-dialog-still'), false, 'no image element is rendered');
-  assert.ok(html.includes('<dt>Situation</dt>'), 'the story fields render without artwork');
+  assert.ok(html.includes('class="rail-dialog-lead"'), 'the story lead renders without artwork');
+  assert.ok(html.includes('<dt>Resolution</dt>'), 'the Resolution line renders without artwork');
 });

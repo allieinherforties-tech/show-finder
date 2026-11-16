@@ -341,12 +341,6 @@ function escapeHtml(text) {
 
 export { escapeHtml };
 
-/** Age bands read like the filter labels: '2-4' becomes 'ages 2 to 4'. */
-function formatAgeBand(band) {
-  const m = /^([\d]+)-([\d]+)$/.exec(band || '');
-  return m ? `ages ${m[1]} to ${m[2]}` : band || 'all ages';
-}
-
 /** One rail card. All text is escaped; catalog data can never inject markup. */
 export function renderRailCard(row) {
   const art = row.stillUrl || row.posterUrl;
@@ -371,8 +365,8 @@ export function renderRailCard(row) {
     ? `<a class="watch-play" href="${escapeHtml(row.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Watch on ${escapeHtml(row.providerLabel)}: ${escapeHtml(row.seriesTitle)}, ${escapeHtml(row.title)}, season ${row.seasonNumber} episode ${row.episodeNumber}"><img class="watch-play-icon" src="/play-button.png" alt="" width="44" height="40"></a>`
     : '';
   // The expanded card view rides inside the card as inert template content:
-  // the tapped card carries its own parent-facing fields (situation,
-  // resolution, synopsis), so nothing is stored and nothing is fetched.
+  // the tapped card carries its own parent-facing fields (story lead,
+  // resolution), so nothing is stored and nothing is fetched.
   // 'coping' is the field key; 'Resolution' is its display label.
   return [
     '      <article class="rail-card">',
@@ -393,13 +387,20 @@ export function renderRailCard(row) {
       `            <img class="rail-dialog-still" src="${escapeHtml(art)}" alt="${escapeHtml(artAlt)}" loading="lazy">`,
       '          </figure>',
     ] : []),
-    '          <dl class="rail-detail-list">',
-    `            <div class="rail-detail-field"><dt>Situation</dt><dd>${escapeHtml(row.situation)}</dd></div>`,
-    `            <div class="rail-detail-field"><dt>Ages</dt><dd>${escapeHtml(formatAgeBand(row.ageBand))}</dd></div>`,
-    `            <div class="rail-detail-field"><dt>Feelings</dt><dd>${tags || 'not tagged'}</dd></div>`,
-    `            <div class="rail-detail-field"><dt>Resolution</dt><dd>${escapeHtml(row.coping)}</dd></div>`,
-    `            <div class="rail-detail-field"><dt>What happens</dt><dd>${escapeHtml(row.displaySynopsis)}</dd></div>`,
-    '          </dl>',
+    // Lean block model (wb_08gsOLEW): the S/E line and the chips keep
+    // their unchanged presentation above one unlabeled story-lead
+    // paragraph, then the labeled Resolution line; the watch pill clones
+    // in last. The situation field stays in the data for search matching;
+    // it no longer renders here. Missing fields drop their block rather
+    // than render empty.
+    ...(row.episodeLine ? [`          <p class="rail-dialog-ep">${escapeHtml(row.episodeLine)}</p>`] : []),
+    ...(tags || vibeTag ? [`          <div class="tag-row">${tags}${vibeTag}</div>`] : []),
+    ...(row.displaySynopsis ? [`          <p class="rail-dialog-lead">${escapeHtml(row.displaySynopsis)}</p>`] : []),
+    ...(row.coping ? [
+      '          <dl class="rail-detail-list">',
+      `            <div class="rail-detail-field"><dt>Resolution</dt><dd>${escapeHtml(row.coping)}</dd></div>`,
+      '          </dl>',
+    ] : []),
     '        </template>',
     '        <button class="rail-card-more" type="button" aria-haspopup="dialog">Story details</button>',
     ...(watch ? ['        <div class="rail-actions">', `          ${watch}`, '        </div>'] : []),
