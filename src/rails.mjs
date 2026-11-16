@@ -461,16 +461,13 @@ function renderSeriesPoster(entry) {
     '      </a>',
     '      <template class="series-detail">',
     `        <img class="series-dialog-thumb" src="${escapeHtml(entry.posterUrl)}" alt="" width="220" height="330">`,
-    `        <h3 class="series-dialog-heading">What happens</h3>`,
-    `        <p class="series-dialog-block">${escapeHtml(entry.whatHappens)}</p>`,
+    // Lean v3.0 popup: the approved overview paragraph renders unlabeled (no
+    // 'What happens' heading), then the suggested age line, then the two
+    // actions. The five-block fields stay in the workbook as internal
+    // per-story data; they never render here.
+    `        <p class="series-dialog-overview">${escapeHtml(entry.overview)}</p>`,
     '        <h3 class="series-dialog-heading">Ages</h3>',
     `        <p class="series-dialog-age">${escapeHtml(suggestedAgeLine(entry.ageBand))}</p>`,
-    '        <h3 class="series-dialog-heading">Feelings</h3>',
-    `        <p class="series-dialog-block">${escapeHtml(entry.feelings)}</p>`,
-    '        <h3 class="series-dialog-heading">Situation</h3>',
-    `        <p class="series-dialog-block">${escapeHtml(entry.situation)}</p>`,
-    '        <h3 class="series-dialog-heading">Resolution</h3>',
-    `        <p class="series-dialog-block">${escapeHtml(entry.resolution)}</p>`,
     '        <div class="rail-dialog-actions series-dialog-actions">',
     `          <a class="watch series-dialog-watch" href="${escapeHtml(entry.appleSeriesUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Watch ${escapeHtml(entry.title)} on Apple TV+">Watch on Apple TV+</a>`,
     `          <a class="series-dialog-browse" href="${href}">Browse these stories</a>`,
