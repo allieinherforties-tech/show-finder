@@ -578,18 +578,12 @@ main {
 }
 
 /* Honest by ruling: the band is a suggestion, and it reads as one. The
-   basis line under it grounds the suggestion in the tagged rows. */
+   evidence basis stays internal, so the Ages block ships the line alone. */
 .series-dialog-age {
-  margin: 0;
+  margin: 0 0 0.55rem;
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--accent);
-}
-
-.series-dialog-age-basis {
-  margin: 0 0 0.55rem;
-  font-size: 0.85rem;
-  line-height: 1.45;
 }
 
 .series-dialog-actions {

@@ -5,10 +5,15 @@
 //
 // The popup's honesty rules live at this join: the block copy ships verbatim
 // from the workbook (never rewritten in the pipeline or the UI), the age band
-// is phrased as a suggestion with its basis, and the Apple link must carry
+// is phrased as a suggestion with no basis line (evidence provenance stays
+// internal, per Allie's standing ruling), and the Apple link must carry
 // the workbook's verified status — the same standard the deep-link registry
 // holds story rows to. The retired single `description` column stays in the
-// workbook untouched; the popup no longer reads it.
+// workbook untouched; the popup no longer reads it. The `age_band_basis`
+// column also stays in the workbook untouched as internal data; the popup
+// no longer reads it, and the internal-identifier gate below keeps any
+// workbook-authored field that renders parent-facing from carrying dev-set
+// names or workbook ids.
 
 import { classifyAppleUrl } from '../links/apple-tv.mjs';
 
@@ -25,8 +30,21 @@ export function suggestedAgeLine(ageBand) {
  * the build with instructions instead of shipping a half-joined popup.
  * Returns the entries in their input order (title order from the poster
  * gate), each extended with the popup's five blocks (whatHappens, ageBand,
- * ageBandBasis, feelings, situation, resolution) and appleSeriesUrl.
+ * feelings, situation, resolution) and appleSeriesUrl.
  */
+
+/** Internal provenance markers that never render to a parent. */
+const INTERNAL_IDENTIFIERS = ['wb_', 'dev set', 'batch', 'tagged rows', 'wave'];
+
+/**
+ * The internal identifiers sitting inside a parent-facing text, lowercased.
+ * An empty list means the text is clean.
+ */
+export function internalIdentifierHits(text) {
+  const haystack = String(text || '').toLowerCase();
+  return INTERNAL_IDENTIFIERS.filter((marker) => haystack.includes(marker));
+}
+
 export function joinSeriesDescriptions(posterEntries, rows) {
   const byTitle = new Map();
   const problems = [];
@@ -56,11 +74,20 @@ export function joinSeriesDescriptions(posterEntries, rows) {
       problems.push(`${entry.title}: no description row (add one to the Series Descriptions sheet)`);
       continue;
     }
-    for (const column of ['what_happens', 'feelings', 'situation', 'resolution', 'age_band_basis']) {
+    for (const column of ['what_happens', 'feelings', 'situation', 'resolution']) {
       if (!String(row[column] || '').trim()) problems.push(`${entry.title}: ${column} is empty`);
     }
     const ageBand = String(row.age_band || '').trim();
     if (!ageBand) problems.push(`${entry.title}: age_band is empty`);
+    // Parent-facing gate: every workbook-authored field the popup renders
+    // must carry zero internal provenance. Dev-set names and workbook ids
+    // are the leak class that shipped in the Ages block; they stop the
+    // build here instead of reaching a parent's screen.
+    for (const column of ['series_title', 'age_band', 'what_happens', 'feelings', 'situation', 'resolution']) {
+      for (const marker of internalIdentifierHits(row[column])) {
+        problems.push(`${entry.title}: ${column} contains the internal identifier "${marker}" (dev-set names and workbook ids never render to parents)`);
+      }
+    }
     const url = String(row.apple_series_url || '').trim();
     if (!url) {
       problems.push(`${entry.title}: apple_series_url is empty`);
@@ -82,7 +109,6 @@ export function joinSeriesDescriptions(posterEntries, rows) {
       ...entry,
       whatHappens: String(row.what_happens || '').trim(),
       ageBand: String(row.age_band || '').trim(),
-      ageBandBasis: String(row.age_band_basis || '').trim(),
       feelings: String(row.feelings || '').trim(),
       situation: String(row.situation || '').trim(),
       resolution: String(row.resolution || '').trim(),

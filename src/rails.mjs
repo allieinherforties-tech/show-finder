@@ -464,7 +464,6 @@ function renderSeriesPoster(entry) {
     `        <p class="series-dialog-block">${escapeHtml(entry.whatHappens)}</p>`,
     '        <h3 class="series-dialog-heading">Ages</h3>',
     `        <p class="series-dialog-age">${escapeHtml(suggestedAgeLine(entry.ageBand))}</p>`,
-    `        <p class="series-dialog-age-basis">${escapeHtml(entry.ageBandBasis)}</p>`,
     '        <h3 class="series-dialog-heading">Feelings</h3>',
     `        <p class="series-dialog-block">${escapeHtml(entry.feelings)}</p>`,
     '        <h3 class="series-dialog-heading">Situation</h3>',
