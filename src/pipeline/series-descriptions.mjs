@@ -3,17 +3,20 @@
 // the network or the filesystem, so the join is unit testable and the build
 // stays deterministic.
 //
-// The popup's honesty rules live at this join: the block copy ships verbatim
+// The popup's honesty rules live at this join: the overview copy ships verbatim
 // from the workbook (never rewritten in the pipeline or the UI), the age band
 // is phrased as a suggestion with no basis line (evidence provenance stays
 // internal, per Allie's standing ruling), and the Apple link must carry
 // the workbook's verified status — the same standard the deep-link registry
 // holds story rows to. The retired single `description` column stays in the
-// workbook untouched; the popup no longer reads it. The `age_band_basis`
-// column also stays in the workbook untouched as internal data; the popup
-// no longer reads it, and the internal-identifier gate below keeps any
-// workbook-authored field that renders parent-facing from carrying dev-set
-// names or workbook ids.
+// workbook untouched; the popup no longer reads it. The five-block fields
+// (what_happens, feelings, situation, resolution) also stay in the workbook
+// as internal data after the v3.0 ruling (per-story tools, never series-card
+// copy); the popup no longer reads or gates on them. The `age_band_basis`
+// column also stays in the workbook untouched as internal data. The
+// internal-identifier gate below keeps every workbook-authored field that
+// renders parent-facing — the v3.0 series_overview included — from carrying
+// dev-set names or workbook ids.
 
 import { classifyAppleUrl } from '../links/apple-tv.mjs';
 
@@ -26,12 +29,19 @@ export function suggestedAgeLine(ageBand) {
  * Joins the strip's poster entries ({ title, posterUrl }) with the approved
  * description rows. Fail-fast, like the poster gate: a series with no row, a
  * duplicate row, a stale row for a series the strip does not publish, a
- * missing block field, or a link the workbook does not mark verified stops
- * the build with instructions instead of shipping a half-joined popup.
+ * missing overview or age band, or a link the workbook does not mark verified
+ * stops the build with instructions instead of shipping a half-joined popup.
  * Returns the entries in their input order (title order from the poster
- * gate), each extended with the popup's five blocks (whatHappens, ageBand,
- * feelings, situation, resolution) and appleSeriesUrl.
+ * gate), each extended with the popup's lean v3.0 fields (overview, ageBand)
+ * and appleSeriesUrl.
  */
+
+/**
+ * The workbook-authored fields the popup renders parent-facing. The
+ * internal-identifier gate scans exactly this list: a field that stops
+ * rendering leaves it, a field that starts rendering joins it.
+ */
+const PARENT_FACING_COLUMNS = ['series_title', 'series_overview', 'age_band'];
 
 /** Internal provenance markers that never render to a parent. */
 const INTERNAL_IDENTIFIERS = ['wb_', 'dev set', 'batch', 'tagged rows', 'wave'];
@@ -74,16 +84,16 @@ export function joinSeriesDescriptions(posterEntries, rows) {
       problems.push(`${entry.title}: no description row (add one to the Series Descriptions sheet)`);
       continue;
     }
-    for (const column of ['what_happens', 'feelings', 'situation', 'resolution']) {
-      if (!String(row[column] || '').trim()) problems.push(`${entry.title}: ${column} is empty`);
-    }
+    if (!String(row.series_overview || '').trim()) problems.push(`${entry.title}: series_overview is empty`);
     const ageBand = String(row.age_band || '').trim();
     if (!ageBand) problems.push(`${entry.title}: age_band is empty`);
     // Parent-facing gate: every workbook-authored field the popup renders
     // must carry zero internal provenance. Dev-set names and workbook ids
     // are the leak class that shipped in the Ages block; they stop the
-    // build here instead of reaching a parent's screen.
-    for (const column of ['series_title', 'age_band', 'what_happens', 'feelings', 'situation', 'resolution']) {
+    // build here instead of reaching a parent's screen. The v3.0 ruling
+    // moved the five-block fields to internal data, so the gate scans only
+    // what still renders: title, series_overview, age_band.
+    for (const column of PARENT_FACING_COLUMNS) {
       for (const marker of internalIdentifierHits(row[column])) {
         problems.push(`${entry.title}: ${column} contains the internal identifier "${marker}" (dev-set names and workbook ids never render to parents)`);
       }
@@ -107,11 +117,8 @@ export function joinSeriesDescriptions(posterEntries, rows) {
     const row = byTitle.get(entry.title);
     return {
       ...entry,
-      whatHappens: String(row.what_happens || '').trim(),
+      overview: String(row.series_overview || '').trim(),
       ageBand: String(row.age_band || '').trim(),
-      feelings: String(row.feelings || '').trim(),
-      situation: String(row.situation || '').trim(),
-      resolution: String(row.resolution || '').trim(),
       appleSeriesUrl: String(row.apple_series_url || '').trim(),
     };
   });

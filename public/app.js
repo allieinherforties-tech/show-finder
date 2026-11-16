@@ -548,9 +548,9 @@ if (railDialog) {
 
   // The browse-by-show strip shares this dialog: tapping a series poster
   // opens the series popup built from the tile's own server-rendered detail
-  // template: poster thumbnail, the five approved blocks verbatim (What
-  // happens, Ages, Feelings, Situation, Resolution), and the two actions
-  // (watch on Apple TV+, browse the series facet). Keyboard and touch both
+  // template: poster thumbnail, the approved overview paragraph unlabeled,
+  // the suggested age line, and the two actions (watch on Apple TV+,
+  // browse the series facet). Keyboard and touch both
   // arrive as click on the anchor; the facet deep link is suppressed only
   // when the template is present and the dialog can actually open, so the
   // tile stays an honest link without JavaScript.

@@ -16,13 +16,15 @@ const descriptionsDump = JSON.parse(readFileSync('data/source/wb_a6zJ9L6l_sh_udo
 const seriesPosters = joinSeriesDescriptions(collectSeriesPosters(artifact.stories), descriptionsDump.rows);
 const html = renderSeriesStrip(seriesPosters);
 
-test('the strip renders one poster per published series, all 18 today', () => {
-  // 18 is the published series count on the corpus this build stamps; the
-  // assertion pins the honest-count rule: every series, no filler.
-  assert.equal(seriesPosters.length, 18, 'one entry per published series');
-  assert.equal((html.match(/<li class="series-poster-item">/g) || []).length, 18);
-  assert.equal((html.match(/<a class="series-poster" /g) || []).length, 18, 'one tap target per series');
-  assert.equal((html.match(/<img class="series-poster-img" /g) || []).length, 18);
+test('the strip renders one poster per published series, however many are published', () => {
+  // Count-agnostic by ruling: the strip renders whatever series the artifact
+  // publishes (18 today, growing toward 53), so every count below pins the
+  // honest-count rule against the stamped list, never a hardcoded number.
+  const count = seriesPosters.length;
+  assert.ok(count > 0, 'the strip is never empty on a published corpus');
+  assert.equal((html.match(/<li class="series-poster-item">/g) || []).length, count);
+  assert.equal((html.match(/<a class="series-poster" /g) || []).length, count, 'one tap target per series');
+  assert.equal((html.match(/<img class="series-poster-img" /g) || []).length, count);
 });
 
 test('the stamped artifact list matches a fresh derivation from the story rows', () => {
@@ -38,7 +40,7 @@ test('each series resolves exactly one distinct poster URL, and the build gate h
     if (!bySeries.has(s.seriesTitle)) bySeries.set(s.seriesTitle, new Set());
     if (s.posterUrl) bySeries.get(s.seriesTitle).add(s.posterUrl);
   }
-  assert.equal(bySeries.size, 18);
+  assert.equal(bySeries.size, seriesPosters.length, 'every distinct story series has a strip entry');
   for (const [title, posters] of bySeries) {
     assert.equal(posters.size, 1, `${title} resolves exactly one poster URL`);
   }
@@ -55,10 +57,10 @@ test('each series resolves exactly one distinct poster URL, and the build gate h
 
 test('every rendered poster is a real artifact poster URL, never a placeholder', () => {
   const realUrls = new Set(artifact.stories.map((s) => s.posterUrl).filter(Boolean));
-  // Each poster now renders twice, honestly: once on the tile, once as the
-  // popup's thumbnail inside the tile's detail template. 18 x 2 today.
+  // Each poster renders twice, honestly: once on the tile, once as the
+  // popup's thumbnail inside the tile's detail template.
   const srcs = [...html.matchAll(/src="([^"]+)"/g)].map((m) => m[1]);
-  assert.equal(srcs.length, 36);
+  assert.equal(srcs.length, seriesPosters.length * 2);
   for (const src of srcs) {
     assert.ok(realUrls.has(src), `rendered poster must come from the artifact: ${src}`);
   }
@@ -67,7 +69,7 @@ test('every rendered poster is a real artifact poster URL, never a placeholder',
 
 test('every tap target deep-links the series facet and names the series accessibly', () => {
   const anchors = [...html.matchAll(/<a class="series-poster"([^>]+)>[\s\S]*?<\/a>/g)].map((m) => m);
-  assert.equal(anchors.length, 18);
+  assert.equal(anchors.length, seriesPosters.length);
   for (const [i, match] of anchors.entries()) {
     const entry = seriesPosters[i];
     const attrs = match[1];
@@ -79,7 +81,7 @@ test('every tap target deep-links the series facet and names the series accessib
 });
 
 test('catalog titles can never inject markup into the strip', () => {
-  const nasty = [{ title: 'Show <script>alert(1)</script> & "Pals"', posterUrl: 'https://image.tmdb.org/t/p/w342/x.jpg', whatHappens: '<img src=x onerror=alert(1)>', ageBand: '5-7', feelings: '<img src=x onerror=alert(1)>', situation: '<img src=x onerror=alert(1)>', resolution: '<img src=x onerror=alert(1)>', appleSeriesUrl: 'https://tv.apple.com/us/show/x/umc.cmc.abc' }];
+  const nasty = [{ title: 'Show <script>alert(1)</script> & "Pals"', posterUrl: 'https://image.tmdb.org/t/p/w342/x.jpg', overview: '<img src=x onerror=alert(1)>', ageBand: '5-7', appleSeriesUrl: 'https://tv.apple.com/us/show/x/umc.cmc.abc' }];
   const rendered = renderSeriesStrip(nasty);
   assert.equal(rendered.includes('<script'), false, 'script tags never survive escaping');
   assert.ok(rendered.includes('&lt;script&gt;'), 'the title renders escaped');

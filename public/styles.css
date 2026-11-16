@@ -572,8 +572,8 @@ main {
   margin-bottom: 0.85rem;
 }
 
-/* Small section headings between the blocks: quiet caps so the five
-   blocks read as one scannable list, not five scattered blurbs. */
+/* Small section heading before the age line: quiet caps so the single
+   labeled block reads as part of the same calm list as the overview. */
 .series-dialog-heading {
   margin: 0 0 0.15rem;
   font-size: 0.72rem;
@@ -583,7 +583,9 @@ main {
   color: var(--accent);
 }
 
-.series-dialog-block {
+/* The approved overview paragraph, unlabeled: the v3.0 popup opens on the
+   story-world copy alone, no 'What happens' heading above it. */
+.series-dialog-overview {
   margin: 0 0 0.55rem;
   font-size: 0.92rem;
   line-height: 1.45;
