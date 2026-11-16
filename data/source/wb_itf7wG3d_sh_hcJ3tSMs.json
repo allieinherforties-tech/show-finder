@@ -594,7 +594,7 @@
       "num_episodes": null,
       "poster_path": "/gNmLsseIs6thkBKne91iQZDGyBT.jpg",
       "apple_tv_link": null,
-      "inclusion_note": " OUT OF SCOPE 2026-11-14 (Allie's ruling: ships only if on the Apple free tier AND classified Kids & Family): live TMDB US providers (checked 2026-11-14) show flatrate Disney Plus only, with Apple TV present only as Store rent and buy (excluded); fails the free-tier test. Leaves the tagging dataset (Batch 19 row marked out-of-scope). Row retained, not deleted."
+      "inclusion_note": "OUT OF SCOPE 2026-11-14 (Allie's ruling: ships only if on the Apple free tier AND classified Kids & Family): live TMDB US providers (checked 2026-11-14) show flatrate Disney Plus only, with Apple TV present only as Store rent and buy (excluded); fails the free-tier test. Leaves the tagging dataset (Batch 19 row marked out-of-scope). Row retained, not deleted."
     },
     {
       "tmdb_id": "1584",
@@ -613,7 +613,7 @@
       "num_episodes": null,
       "poster_path": "/zXLXaepIBvFVLU25DH3wv4IPSbe.jpg",
       "apple_tv_link": null,
-      "inclusion_note": " OUT OF SCOPE 2026-11-14 (Allie's ruling: ships only if on the Apple free tier AND classified Kids & Family): live TMDB US providers (checked 2026-11-14) show flatrate Paramount Plus tiers, YouTube TV, and the Starz Apple TV channel only, with Apple TV present only as Store rent and buy (excluded); Apple web search renders 'School of Rock isn't available' (checked 2026-11-14); fails the free-tier test. Leaves the tagging dataset (Batch 19 row marked out-of-scope). Row retained, not deleted."
+      "inclusion_note": "OUT OF SCOPE 2026-11-14 (Allie's ruling: ships only if on the Apple free tier AND classified Kids & Family): live TMDB US providers (checked 2026-11-14) show flatrate Paramount Plus tiers, YouTube TV, and the Starz Apple TV channel only, with Apple TV present only as Store rent and buy (excluded); Apple web search renders 'School of Rock isn't available' (checked 2026-11-14); fails the free-tier test. Leaves the tagging dataset (Batch 19 row marked out-of-scope). Row retained, not deleted."
     },
     {
       "tmdb_id": "1186957",
