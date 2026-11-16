@@ -35,7 +35,7 @@ test('the served page carries real anchors pointing at the configured target', a
   const served = applyWaitlistUrl(html);
   assert.match(served, /<a class="waitlist-cta" href="https:\/\/parentpeptalks\.com\/" rel="noopener">Join the Parent Pep Talks waitlist<\/a>/);
   assert.equal(served.includes('waitlist-secondary'), false, 'the backstory anchor is removed');
-  assert.match(served, /This finder comes from Parent Pep Talks\./);
+  assert.equal(served.includes('about-waitlist'), false, 'the repetitive outro waitlist paragraph is removed');
 });
 
 test('the CTA is a descriptive anchor in static markup, never built by JavaScript', async () => {
@@ -62,7 +62,7 @@ test('the finder embeds zero external scripts and no third-party form', async ()
 test('total conversion copy stays under 80 words', async () => {
   const html = await readFile('public/index.html', 'utf8');
   const waitlistSection = html.match(/<section id="waitlist"[\s\S]*?<\/section>/)[0];
-  const aboutCopy = html.match(/<p class="about-waitlist">[\s\S]*?<\/p>/)[0];
+  const aboutCopy = html.match(/<p class="about-waitlist">[\s\S]*?<\/p>/)?.[0] ?? '';
   const text = [waitlistSection, aboutCopy]
     .join(' ')
     .replace(/<[^>]+>/g, ' ')
