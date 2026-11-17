@@ -439,6 +439,8 @@ main {
 
 .tag-row { display: flex; flex-wrap: wrap; gap: 0.3rem; }
 
+.card .tag-row { margin: 0 0 0.6rem; }
+
 .tag {
   font-size: 0.72rem;
   font-weight: 700;

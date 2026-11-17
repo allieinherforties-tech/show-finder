@@ -393,7 +393,12 @@ export function renderRailCard(row) {
     '        </figure>',
     `        <h3 class="rail-title">${escapeHtml(row.title)}</h3>`,
     `        <p class="rail-ep">${escapeHtml(row.episodeLine)}</p>`,
-    `        <div class="tag-row">${tags}${vibeTag}</div>`,
+    `        <div class="tag-row">${tags}</div>`,
+    // Allie's 2026-11-17 placement ruling: the vibe chip sits on its own
+    // line below the Feelings row (teal = feeling, neutral = vibe), so the
+    // vibe never reads as one more emotion and the skeleton holds no matter
+    // the emotion count.
+    ...(vibeTag ? [`        <div class="tag-row">${vibeTag}</div>`] : []),
     `        <p class="rail-why">${escapeHtml(row.why)}</p>`,
     '        <template class="rail-detail">',
     // The dialog banner reuses the card's loaded still or poster (same URL,
@@ -412,7 +417,8 @@ export function renderRailCard(row) {
     // it no longer renders here. Missing fields drop their block rather
     // than render empty.
     ...(row.episodeLine ? [`          <p class="rail-dialog-ep">${escapeHtml(row.episodeLine)}</p>`] : []),
-    ...(tags || vibeTag ? [`          <div class="tag-row">${tags}${vibeTag}</div>`] : []),
+    ...(tags ? [`          <div class="tag-row">${tags}</div>`] : []),
+    ...(vibeTag ? [`          <div class="tag-row">${vibeTag}</div>`] : []),
     ...(row.displaySynopsis ? [`          <p class="rail-dialog-lead">${escapeHtml(row.displaySynopsis)}</p>`] : []),
     ...(row.coping ? [
       '          <dl class="rail-detail-list">',
