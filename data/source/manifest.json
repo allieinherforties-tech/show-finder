@@ -7,6 +7,8 @@
     "sheetName": "Titles",
     "kind": "catalog",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 90
   },
   {
@@ -17,17 +19,9 @@
     "sheetName": "Episodes",
     "kind": "catalog",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 1436
-  },
-  {
-    "file": "wb_a6zJ9L6l_sh_udod4EbT.json",
-    "workbookId": "wb_a6zJ9L6l",
-    "workbookName": "Series Descriptions — Poster Popup",
-    "sheetId": "sh_udod4EbT",
-    "sheetName": "Series Descriptions",
-    "kind": "series-descriptions",
-    "defaultSeriesTitle": null,
-    "rowCount": 18
   },
   {
     "file": "wb_McM7y4Xx_sh_7kZ9CyAy.json",
@@ -37,6 +31,8 @@
     "sheetName": "Stillwater tags",
     "kind": "stories",
     "defaultSeriesTitle": "Stillwater",
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 77
   },
   {
@@ -47,6 +43,8 @@
     "sheetName": "Script dev (26 rows)",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 52
   },
   {
@@ -57,6 +55,8 @@
     "sheetName": "Doug Unplugs dev (26 rows)",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 26
   },
   {
@@ -67,6 +67,8 @@
     "sheetName": "Duck & Goose dev (33 rows)",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 33
   },
   {
@@ -77,6 +79,8 @@
     "sheetName": "Eva the Owlet dev (17 rows)",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 17
   },
   {
@@ -87,6 +91,8 @@
     "sheetName": "Frog and Toad dev (17 rows)",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 17
   },
   {
@@ -97,6 +103,8 @@
     "sheetName": "Get Rolling with Otis",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 35
   },
   {
@@ -107,6 +115,8 @@
     "sheetName": "Interrupting Chicken",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 38
   },
   {
@@ -117,6 +127,8 @@
     "sheetName": "Pretzel and the Puppies",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 35
   },
   {
@@ -127,6 +139,8 @@
     "sheetName": "Sago Mini Friends",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 45
   },
   {
@@ -137,6 +151,8 @@
     "sheetName": "Shape Island",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 34
   },
   {
@@ -147,6 +163,8 @@
     "sheetName": "Wolfboy and the Everything Factory",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 36
   },
   {
@@ -157,6 +175,8 @@
     "sheetName": "Ghostwriter",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 39
   },
   {
@@ -167,6 +187,8 @@
     "sheetName": "Harriet the Spy",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 20
   },
   {
@@ -177,6 +199,8 @@
     "sheetName": "Helpsters Help You",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 6
   },
   {
@@ -187,6 +211,8 @@
     "sheetName": "Surfside Girls",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 10
   },
   {
@@ -197,6 +223,8 @@
     "sheetName": "The Sisters Grimm",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 12
   },
   {
@@ -207,6 +235,8 @@
     "sheetName": "WondLa",
     "kind": "stories",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 20
   },
   {
@@ -217,6 +247,416 @@
     "sheetName": "Standalone Films Corpus (34 Films)",
     "kind": "films",
     "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
     "rowCount": 34
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_SvJPlhKY.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_SvJPlhKY",
+    "sheetName": "Craft batch 1 (El Deafo, Amber Brown, Best Foot Forward, Circuit Breakers, Life by Ella)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 40
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_84uUUCIV.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_84uUUCIV",
+    "sheetName": "Craft batch 2 (BE@RBRICK, Goldie, Greatness Code, My Brother the Minotaur)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 62
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_c3wo6pZq.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_c3wo6pZq",
+    "sheetName": "Craft batch 3 (Prehistoric Planet)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 36
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_uncwQRgZ.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_uncwQRgZ",
+    "sheetName": "Craft batch 4 (Jane, Puppy Place)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 36
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_I6mvCslT.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_I6mvCslT",
+    "sheetName": "Craft batch 5 (Snoopy in Space: The Search for Life, The Snoopy Show)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 63
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_PzC2h4A9.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_PzC2h4A9",
+    "sheetName": "Craft batch 6 (Fraggle Rock)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 96
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_BEpDNZZP.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_BEpDNZZP",
+    "sheetName": "Craft batch 7 (Back to the Rock, Curses!)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 48
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_m1rqLLEz.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_m1rqLLEz",
+    "sheetName": "Craft batch 8 (Earthsounds, Tiny World, Secret Lives of Animals, This Is America Charlie Brown)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 42
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_ebQfxNPQ.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_ebQfxNPQ",
+    "sheetName": "Craft batch 9 (The Charlie Brown and Snoopy Show, Pinecone & Pony)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 49
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_nzbCt77T.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_nzbCt77T",
+    "sheetName": "Craft batch 10 (Lovely Little Farm, Not a Box, Slumberkins)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 46
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_fDHqp580.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_fDHqp580",
+    "sheetName": "Craft batch 11 (Me, Hello Jack!, Yo Gabba GabbaLand!)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 47
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_qZJJt8v9.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_qZJJt8v9",
+    "sheetName": "Craft batch 12 (Yo Gabba Gabba!)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 69
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_8wRJ0Z5T.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_8wRJ0Z5T",
+    "sheetName": "Craft batch 13 (Wonder Pets: In the City, The Peanuts Classics)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 57
+  },
+  {
+    "file": "wb_cSVkwzvY_sh_hosLv7qA.json",
+    "workbookId": "wb_cSVkwzvY",
+    "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+    "sheetId": "sh_hosLv7qA",
+    "sheetName": "Craft batch 14 (Helpsters, Time Bandits, Fraggle Rock: Rock On!)",
+    "kind": "craft-stories",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 96
+  },
+  {
+    "file": "wb_GaYofqCN_sh_h1M5ULgM.json",
+    "workbookId": "wb_GaYofqCN",
+    "workbookName": "Batch 1 Part A - Script-Tier Tag Set (Circuit Breakers, Amber Brown)",
+    "sheetId": "sh_h1M5ULgM",
+    "sheetName": "Script-verified rows",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 50
+  },
+  {
+    "file": "wb_Na3ZzMTM_sh_bfyefz2P.json",
+    "workbookId": "wb_Na3ZzMTM",
+    "workbookName": "Batch 2 - Script-Tier Tag Set (Goldie, Greatness Code, My Brother the Minotaur)",
+    "sheetId": "sh_bfyefz2P",
+    "sheetName": "Script-verified rows",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 49
+  },
+  {
+    "file": "wb_qy44e2F5_sh_HOwiPoc6.json",
+    "workbookId": "wb_qy44e2F5",
+    "workbookName": "Batch 3 — Prehistoric Planet + El Deafo (Complete-Dataset Tagging)",
+    "sheetId": "sh_HOwiPoc6",
+    "sheetName": "Batch 3",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": "El Deafo",
+    "retiredNotePrefix": null,
+    "rowCount": 39
+  },
+  {
+    "file": "wb_VMKUPviU_sh_mYPXS1s7.json",
+    "workbookId": "wb_VMKUPviU",
+    "workbookName": "Batch 4 — Jane + Puppy Place (Complete-Dataset Tagging)",
+    "sheetId": "sh_mYPXS1s7",
+    "sheetName": "Batch 4 (36 rows)",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 36
+  },
+  {
+    "file": "wb_XP9wdcKe_sh_SwnxYFem.json",
+    "workbookId": "wb_XP9wdcKe",
+    "workbookName": "Batch 5 - Script-Tier Tag Set (Snoopy in Space, The Snoopy Show)",
+    "sheetId": "sh_SwnxYFem",
+    "sheetName": "Script-verified rows",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 63
+  },
+  {
+    "file": "wb_VrRuIaCk_sh_qsTQ2Ztm.json",
+    "workbookId": "wb_VrRuIaCk",
+    "workbookName": "Batch 6 — Fraggle Rock first 48 (Complete-Dataset Tagging)",
+    "sheetId": "sh_qsTQ2Ztm",
+    "sheetName": "Tagged rows",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 48
+  },
+  {
+    "file": "wb_0nefOd67_sh_dRliJGcz.json",
+    "workbookId": "wb_0nefOd67",
+    "workbookName": "Batch 7 — Fraggle Rock second 48 (Complete-Dataset Tagging)",
+    "sheetId": "sh_dRliJGcz",
+    "sheetName": "Tagged rows",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 48
+  },
+  {
+    "file": "wb_Zd4i1ply_sh_uipIPmgQ.json",
+    "workbookId": "wb_Zd4i1ply",
+    "workbookName": "Batch 8 — Back to the Rock + Curses! (Complete-Dataset Tagging)",
+    "sheetId": "sh_uipIPmgQ",
+    "sheetName": "Tagged rows",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 48
+  },
+  {
+    "file": "wb_PwfXlaK9_sh_fWDW4W3f.json",
+    "workbookId": "wb_PwfXlaK9",
+    "workbookName": "Batch 9 — Earthsounds, Tiny World, Secret Lives of Animals, This Is America Charlie Brown (Complete-Dataset Tagging)",
+    "sheetId": "sh_fWDW4W3f",
+    "sheetName": "Tagged rows",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 42
+  },
+  {
+    "file": "wb_9ljffEu8_sh_FQxiPuTe.json",
+    "workbookId": "wb_9ljffEu8",
+    "workbookName": "Batch 10 — The Charlie Brown and Snoopy Show + Pinecone & Pony (49 rows)",
+    "sheetId": "sh_FQxiPuTe",
+    "sheetName": "Batch 10",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 49
+  },
+  {
+    "file": "wb_djBIYZ9Q_sh_9FU1FI9T.json",
+    "workbookId": "wb_djBIYZ9Q",
+    "workbookName": "Batch 11 — Lovely Little Farm, Not a Box, Slumberkins (46 rows)",
+    "sheetId": "sh_9FU1FI9T",
+    "sheetName": "Batch 11",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 46
+  },
+  {
+    "file": "wb_dZPgCfDp_sh_Eoy96v6r.json",
+    "workbookId": "wb_dZPgCfDp",
+    "workbookName": "Tagging Batch 12: Me, Hello Jack! The Kindness Show, Yo Gabba GabbaLand! (47 rows)",
+    "sheetId": "sh_Eoy96v6r",
+    "sheetName": "Batch 12",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 47
+  },
+  {
+    "file": "wb_T4PLcbsp_sh_35L1cKVn.json",
+    "workbookId": "wb_T4PLcbsp",
+    "workbookName": "Tagging Batch 13: Yo Gabba Gabba! S0 specials, S1, S2, S3 E1-4 (50 rows)",
+    "sheetId": "sh_35L1cKVn",
+    "sheetName": "Batch 13",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 50
+  },
+  {
+    "file": "wb_Hw2S0WBV_sh_d0wJbnXv.json",
+    "workbookId": "wb_Hw2S0WBV",
+    "workbookName": "Tagging Batch 14: Yo Gabba Gabba! S3 E5-15 + S4, The Peanuts Classics (54 rows)",
+    "sheetId": "sh_d0wJbnXv",
+    "sheetName": "Batch 14",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": "RETIRED",
+    "rowCount": 54
+  },
+  {
+    "file": "wb_Yl3F8sSd_sh_w33uvjLC.json",
+    "workbookId": "wb_Yl3F8sSd",
+    "workbookName": "Tagging Batch 15: Wonder Pets In the City (51 rows)",
+    "sheetId": "sh_w33uvjLC",
+    "sheetName": "Batch 15",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 51
+  },
+  {
+    "file": "wb_eS9g7Y0Z_sh_hsjaQDYo.json",
+    "workbookId": "wb_eS9g7Y0Z",
+    "workbookName": "Helpsters Dev Set — Accepted (script tier, 80 rows)",
+    "sheetId": "sh_hsjaQDYo",
+    "sheetName": "Helpsters rows",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 80
+  },
+  {
+    "file": "wb_lOipuHzp_sh_OnCNePjf.json",
+    "workbookId": "wb_lOipuHzp",
+    "workbookName": "Time Bandits Dev Set — Accepted (script tier, 10 rows)",
+    "sheetId": "sh_OnCNePjf",
+    "sheetName": "Time Bandits rows",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 10
+  },
+  {
+    "file": "wb_C6j2Tgp9_sh_WfNOsZgZ.json",
+    "workbookId": "wb_C6j2Tgp9",
+    "workbookName": "Fraggle Rock: Rock On! Dev Set — Accepted (script tier, 6 rows)",
+    "sheetId": "sh_WfNOsZgZ",
+    "sheetName": "Rock On! rows",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 6
+  },
+  {
+    "file": "wb_GmjrelIH_sh_xrWU5TFk.json",
+    "workbookId": "wb_GmjrelIH",
+    "workbookName": "Wave 3 Batch 7 — Script Dev Set",
+    "sheetId": "sh_xrWU5TFk",
+    "sheetName": "Prehistoric Planet",
+    "kind": "tag-rows",
+    "defaultSeriesTitle": null,
+    "seriesFilter": "Prehistoric Planet",
+    "retiredNotePrefix": null,
+    "rowCount": 36
+  },
+  {
+    "file": "wb_trZRboHn_sh_0V4G5H5q.json",
+    "workbookId": "wb_trZRboHn",
+    "workbookName": "Series Descriptions — Poster Popup (Wave 2 additions)",
+    "sheetId": "sh_0V4G5H5q",
+    "sheetName": "Wave 2 popups (35 rows)",
+    "kind": "series-descriptions",
+    "defaultSeriesTitle": null,
+    "seriesFilter": null,
+    "retiredNotePrefix": null,
+    "rowCount": 35
   }
 ]

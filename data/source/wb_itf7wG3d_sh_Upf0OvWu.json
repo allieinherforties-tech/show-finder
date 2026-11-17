@@ -5,6 +5,8 @@
   "sheetName": "Episodes",
   "kind": "catalog",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 1436,
   "rows": [
     {

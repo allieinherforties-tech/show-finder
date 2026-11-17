@@ -5,6 +5,8 @@
   "sheetName": "Ghostwriter",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 39,
   "rows": [
     {

@@ -5,6 +5,8 @@
   "sheetName": "Stillwater tags",
   "kind": "stories",
   "defaultSeriesTitle": "Stillwater",
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 77,
   "rows": [
     {

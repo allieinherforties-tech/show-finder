@@ -5,6 +5,8 @@
   "sheetName": "Frog and Toad dev (17 rows)",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 17,
   "rows": [
     {

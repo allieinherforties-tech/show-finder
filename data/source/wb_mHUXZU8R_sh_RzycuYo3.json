@@ -5,6 +5,8 @@
   "sheetName": "Helpsters Help You",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 6,
   "rows": [
     {

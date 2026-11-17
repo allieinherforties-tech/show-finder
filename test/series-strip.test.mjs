@@ -12,8 +12,12 @@ import { joinSeriesDescriptions } from '../src/pipeline/series-descriptions.mjs'
 import { renderSeriesStrip, applySeriesStrip, SERIES_STRIP_PLACEHOLDER, escapeHtml } from '../src/rails.mjs';
 
 const artifact = JSON.parse(readFileSync('data/search/search-artifact.json', 'utf8'));
-const descriptionsDump = JSON.parse(readFileSync('data/source/wb_a6zJ9L6l_sh_udod4EbT.json', 'utf8'));
-const seriesPosters = joinSeriesDescriptions(collectSeriesPosters(artifact.stories), descriptionsDump.rows);
+// Two popup sources stand behind the strip: the legacy workbook's committed
+// dump (its upstream workbook is broken) covers the original 18 series, and
+// the wave 2 additions workbook covers the rest. The strip joins both.
+const descriptionRows = ['wb_a6zJ9L6l_sh_udod4EbT.json', 'wb_trZRboHn_sh_0V4G5H5q.json']
+  .flatMap((file) => JSON.parse(readFileSync(`data/source/${file}`, 'utf8')).rows);
+const seriesPosters = joinSeriesDescriptions(collectSeriesPosters(artifact.stories), descriptionRows);
 const html = renderSeriesStrip(seriesPosters);
 
 test('the strip renders one poster per published series, however many are published', () => {
@@ -98,8 +102,10 @@ test('an empty list renders nothing: the strip never pads', () => {
 
 test('the strip renders server side with no script dependency and no auto-motion', () => {
   assert.equal(html.includes('<script'), false);
-  // No animation, no marquee, no autoplay hooks in the served markup.
-  assert.equal(/animation|autoplay|marquee/i.test(html), false);
+  // No motion hooks in the served markup: no CSS animation declarations, no
+  // autoplay, no marquee. The bare word is allowed because popup overview
+  // prose may legitimately describe a series as animation (Greatness Code).
+  assert.equal(/@keyframes|animation\s*:|autoplay|<marquee/i.test(html), false);
   // The scroller is keyboard focusable so arrow keys reach the posters.
   assert.ok(html.includes('<ul class="series-posters" tabindex="0"'), 'the scroll row is keyboard reachable');
 });

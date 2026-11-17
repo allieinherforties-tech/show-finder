@@ -5,6 +5,8 @@
   "sheetName": "Pretzel and the Puppies",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 35,
   "rows": [
     {

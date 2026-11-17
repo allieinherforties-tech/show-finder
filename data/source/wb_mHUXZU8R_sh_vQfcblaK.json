@@ -5,6 +5,8 @@
   "sheetName": "Surfside Girls",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 10,
   "rows": [
     {

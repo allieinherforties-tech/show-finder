@@ -5,6 +5,8 @@
   "sheetName": "WondLa",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 20,
   "rows": [
     {

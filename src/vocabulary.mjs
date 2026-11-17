@@ -85,6 +85,7 @@ export const EMOTION_SYNONYMS = Object.freeze({
   'homesickness': 'homesick',
   'guilt': 'guilty',
   'envy': 'envy',
+  'envious': 'jealous',
   'jealousy': 'jealous',
 });
 

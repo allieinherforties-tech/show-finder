@@ -14,6 +14,7 @@ import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { cleanText, isPlaceholderRow, normalizeStoryRow, publishProblems, searchableText } from '../src/pipeline/normalize.mjs';
+import { buildCraftStory, craftJoinKey, filterTagRows, joinCraftToTags } from '../src/pipeline/craft-join.mjs';
 import { suppressionReasons, filmSuppressionReasons } from '../src/pipeline/parent-facing.mjs';
 import { attachAll, attachAllFilms, buildArtworkIndex, collectSeriesPosters } from '../src/pipeline/artwork.mjs';
 import { joinSeriesDescriptions } from '../src/pipeline/series-descriptions.mjs';
@@ -145,7 +146,36 @@ function collectFilms(sources, catalog) {
   return films;
 }
 
-/** Structural checks that must hold for every row, plus enum post-normalization. */
+/**
+ * Joins the wave 2 craft rows to the accepted tag corpus. Each tag dump
+ * carries its own seriesFilter and retiredNotePrefix from the export config;
+ * filters drop rows verbatim and never rewrite a kept one. Any unmatched or
+ * ambiguous craft row fails the build: a wave 2 row without its tags is a
+ * curation problem, not a publication problem.
+ */
+function collectCraftStories(sources) {
+  const craftRows = sources.filter((s) => s.kind === 'craft-stories').flatMap((s) => s.rows);
+  const tagRows = sources
+    .filter((s) => s.kind === 'tag-rows')
+    .flatMap((s) => filterTagRows(s.rows, { seriesFilter: s.seriesFilter, retiredNotePrefix: s.retiredNotePrefix }));
+  const { pairs, problems, unusedTagRows } = joinCraftToTags(craftRows, tagRows);
+  if (problems.length) {
+    throw new Error(`craft-to-tag join failed (nothing publishes half-joined):\n  ${problems.join('\n  ')}`);
+  }
+  const stories = pairs.map(({ craft, tag }) => {
+    const src = sources.find((s) => s.kind === 'craft-stories' && s.rows.includes(craft));
+    return buildCraftStory({ craft, tag }, {
+      workbookId: src.workbookId,
+      workbookName: src.workbookName,
+      sheetId: src.sheetId,
+      sheetName: src.sheetName,
+    });
+  });
+  return { stories, craftRows, tagRows, unusedTagRows };
+}
+
+/**
+ * Structural checks that must hold for every row, plus enum post-normalization. */
 function validateStories(stories) {
   const problems = [];
   for (const s of stories) {
@@ -205,6 +235,10 @@ function main() {
   const titlesDump = sources.find((s) => s.kind === 'catalog' && s.sheetName === 'Titles');
   const episodesDump = sources.find((s) => s.kind === 'catalog' && s.sheetName === 'Episodes');
   let stories = collectStories(sources);
+  // Wave 2: craft prose joins the accepted tag corpus and joins the same
+  // corpus, gates, and vocabulary as every other story row.
+  const craft = collectCraftStories(sources);
+  stories = [...stories, ...craft.stories];
   // Films join the same corpus and the same vocabulary gate as stories; their
   // own gates (verified link, one row per film id, catalog year join) live in
   // collectFilms.
@@ -237,8 +271,11 @@ function main() {
   }
 
   // Publish gate: nothing ships without a real situation and a full tag set.
+  // Wave 2 craft rows may carry an empty coping field when the craft row
+  // itself shows no resolution (faithful upstream absence): the Resolution
+  // line simply does not render, and the value is never invented.
   const nonConforming = stories.flatMap((s) => {
-    const problems = publishProblems(s);
+    const problems = publishProblems(s, { requireCoping: !s.evidenceTier });
     return problems.length ? [`${s.id}: missing ${problems.join(', ')}`] : [];
   });
   if (nonConforming.length) {
@@ -311,11 +348,14 @@ function main() {
 
   // The poster-tap popup: the approved description, suggested age band, and
   // verified Apple series link join onto each strip entry from the committed
-  // descriptions dump. The gate inside joinSeriesDescriptions stops the build
-  // when the workbook and the strip disagree — a missing or duplicate row, a
-  // stale row, an unverified link — so a popup never ships half-joined.
-  const descriptionsDump = sources.find((s) => s.kind === 'series-descriptions');
-  const seriesPopups = joinSeriesDescriptions(seriesPosters, descriptionsDump?.rows);
+  // descriptions dumps. The original 18 series keep their legacy workbook
+  // dump (its upstream workbook is broken; the committed copy stands in),
+  // and the wave 2 additions join from the new popup workbook. The gate
+  // inside joinSeriesDescriptions stops the build when the workbook and the
+  // strip disagree — a missing or duplicate row, a stale row, an unverified
+  // link — so a popup never ships half-joined.
+  const descriptionsRows = sources.filter((s) => s.kind === 'series-descriptions').flatMap((s) => s.rows);
+  const seriesPopups = joinSeriesDescriptions(seriesPosters, descriptionsRows);
 
   const embedder = createEmbedder();
   const embeddings = rows.map((s) => ({
@@ -399,6 +439,32 @@ function main() {
     curation: {
       routedToCuration,
       note: 'Placeholder rows never publish; the curation thread owns tagging them or removing them at the source.',
+    },
+    craft: {
+      note: 'Wave 2 craft rows: crafted story lead and resolution from the craft wave workbook, joined to the accepted tag corpus on series, season, episode, and segment title. Evidence tiers are internal metadata; the evidence note never renders or searches.',
+      craftRows: craft.craftRows.length,
+      joinedRows: craft.stories.length,
+      tagRowsAfterFilters: craft.tagRows.length,
+      unusedTagRows: craft.unusedTagRows.map((r) => craftJoinKey(r)),
+      perBatch: craft.craftRows.length
+        ? [...craft.stories.reduce((acc, s) => {
+            const key = `${s.provenance.sheetName}`;
+            acc.set(key, (acc.get(key) || 0) + 1);
+            return acc;
+          }, new Map()).entries()]
+        : [],
+      evidenceTiers: {
+        script: craft.stories.filter((s) => s.evidenceTier === 'script').length,
+        synopsis_fallback: craft.stories.filter((s) => s.evidenceTier === 'synopsis_fallback').length,
+        title_overview: craft.stories.filter((s) => s.evidenceTier === 'title_overview').length,
+        unclassified: craft.stories.filter((s) => s.evidenceTier === 'unclassified').length,
+      },
+      faithfulAbsences: {
+        withoutEmotion: craft.stories.filter((s) => !s.emotions.length).map((s) => s.id),
+        withoutCoping: craft.stories.filter((s) => !s.coping).map((s) => s.id),
+        withoutTopics: craft.stories.filter((s) => !s.topics).length,
+        note: 'Empty emotion, coping, and topic cells are faithful upstream absences reported here and never backfilled or invented.',
+      },
     },
     parentFacing: {
       suppressedFromRender,

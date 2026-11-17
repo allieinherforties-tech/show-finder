@@ -20,7 +20,12 @@ const AGE_BAND_LABELS = {
 
 // Once a facet holds most of the result set, tapping it narrows nothing.
 const MAX_SHARE = 0.8;
-const EMOTION_CHOICES = 3;
+// Four feelings, not three: the wave 2 corpus (53 series) carries more
+// emotion variety per query, and the acceptance flow (the feeling that fits
+// the kid, then the age band) only still completes inside two rounds when
+// the top feelings include the less common terms. Verified against the
+// published artifact 2026-11-17.
+const EMOTION_CHOICES = 4;
 const SERIES_CHOICES = 2;
 
 export function ageBandLabel(band) {

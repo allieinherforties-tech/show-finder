@@ -5,6 +5,8 @@
   "sheetName": "Titles",
   "kind": "catalog",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 90,
   "rows": [
     {

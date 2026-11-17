@@ -14,7 +14,15 @@ import { joinSeriesDescriptions, suggestedAgeLine, internalIdentifierHits } from
 import { renderSeriesStrip, escapeHtml } from '../src/rails.mjs';
 
 const artifact = JSON.parse(readFileSync('data/search/search-artifact.json', 'utf8'));
-const dump = JSON.parse(readFileSync('data/source/wb_a6zJ9L6l_sh_udod4EbT.json', 'utf8'));
+// Two popup sources stand behind the strip: the legacy workbook's committed
+// dump (its upstream workbook is broken) covers the original 18 series, and
+// the wave 2 additions workbook covers the rest. The retired five-block and
+// description columns are filled on the legacy rows and left empty on the
+// wave 2 rows; the leak checks skip vacuously-empty cells.
+const dump = {
+  rows: ['wb_a6zJ9L6l_sh_udod4EbT.json', 'wb_trZRboHn_sh_0V4G5H5q.json']
+    .flatMap((file) => JSON.parse(readFileSync(`data/source/${file}`, 'utf8')).rows),
+};
 
 function fixturePoster(title = 'Fixture Show') {
   return [{ title, posterUrl: `https://image.tmdb.org/t/p/w342/${encodeURIComponent(title)}.jpg` }];
@@ -194,7 +202,9 @@ test('the five-block headings and copy are gone from the series popup markup', (
     const template = tile.slice(0, tile.indexOf('</template>'));
     for (const column of ['what_happens', 'feelings', 'situation', 'resolution']) {
       const internal = String(rowsByTitle.get(entry.title)[column] || '').trim();
-      assert.ok(internal, `${entry.title} keeps its internal ${column} in the workbook`);
+      // The wave 2 popup workbook leaves the retired blocks empty by design;
+      // an empty cell is nothing to leak, so only filled cells are checked.
+      if (!internal) continue;
       // When the approved overview copy itself holds the same sentence
       // (Duck & Goose), the appearance is the parent-facing overview, not
       // the internal field rendering; only a distinct text is a leak.
@@ -212,7 +222,9 @@ test('the retired single description column is gone from the popup markup', () =
     const tile = html.slice(html.indexOf(`<a class="series-poster" href="/?series=${encodeURIComponent(entry.title)}"`));
     const template = tile.slice(0, tile.indexOf('</template>'));
     const retired = String(rowsByTitle.get(entry.title).description || '').trim();
-    assert.ok(retired, `${entry.title} still has a description column in the workbook`);
+    // The wave 2 popup workbook leaves the retired column empty by design;
+    // an empty cell is nothing to leak, so only filled cells are checked.
+    if (!retired) continue;
     assert.ok(!template.includes(escapeHtml(retired)), `${entry.title} no longer renders the old description column`);
   }
 });

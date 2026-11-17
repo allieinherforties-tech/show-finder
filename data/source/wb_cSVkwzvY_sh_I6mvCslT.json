@@ -1,0 +1,643 @@
+{
+  "workbookId": "wb_cSVkwzvY",
+  "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+  "sheetId": "sh_I6mvCslT",
+  "sheetName": "Craft batch 5 (Snoopy in Space: The Search for Life, The Snoopy Show)",
+  "kind": "craft-stories",
+  "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
+  "rowCount": 63,
+  "rows": [
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Snoopy applies to become a NASA astronaut, and the rejection letter that comes back has Space Center Houston passes inside. The no is not the ending. Inspired by the neighborhood kids, he goes anyway, because the no comes with a maybe.",
+      "resolution": "Disappointment turns into trying again, and the passes in the envelope are the next step, not a consolation prize.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail from the dev set note: application, rejection letter with passes inside, the no comes with a maybe."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Training under C.A.R.A., NASA's Computerized Astronaut Recruitment Advisor, Snoopy works harder than he has ever worked while a machine keeps score. The centrifuge ends with you do not have what it takes. He suits up anyway, and Charlie Brown gets his dog back.",
+      "resolution": "The worry of not measuring up meets trying again, and suiting up anyway is the brave part.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: sneaks into the secure facility, CARA trains him, centrifuge verdict; ends with Charlie Brown reunited with his dog."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A mustache disguise hides Snoopy's identity until it is exposed, and NASA wants the dishonesty explained. Charlie Brown speaks up for the brother who cannot speak for himself. Graduation names what matters: doing your best, never giving up, and crew safety.",
+      "resolution": "Embarrassed but hopeful, Snoopy asks for help, and a friend's advocacy is what restores his shot.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: mustache disguise, identity exposed, Charlie Brown's advocacy, graduation lines named."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Launch day puts Snoopy on the ISS, where everything is huge, brand new, and full of rules to learn fast. A micrometeorite scare gets handled by sticking together. Houston names the lesson: close quarters work when nobody drifts alone.",
+      "resolution": "Scared turns to brave through asking for help, and the small emergency is survived as a crew.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: launch, docking, photo and exercise tasks, micrometeorite scare; Houston's stick-together lesson."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Tending the ISS vegetable garden goes sideways the moment nobody is watching, and the food heist is on Woodstock. Owning the mess turns out to be the fix, and CARA reframes the mistake as initiative. The harvest gets packed for the return trip.",
+      "resolution": "Pride survives the panic once the mess gets owned, and trying again turns a stolen experiment into a grown one.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: ISS vegetable garden, food heist, harvest packed for return; CARA reframes the mistake as initiative."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A peaceful night on the ISS breaks when Snoopy realizes Woodstock is missing, sleep-spacewalking without gear. Rushing in is exactly the wrong move, so Canadarm2 and the SAFER jet pack make the rescue safe. Houston, CARA and the tether matter more than luck.",
+      "resolution": "The fear for a friend turns into asking for help, and the rescue works because the safety gear got used.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: sleep-spacewalking, Canadarm2 and SAFER jet pack rescue; the rescue works because of the gear, not luck."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Home comes with a parade, and Snoopy chooses a bigger, riskier adventure over the comfortable celebration. The Orion launch is only the start; the three-day coast to the moon is long and slow. The lander touches down anyway.",
+      "resolution": "Happiness and bravery meet their test in patience, and the waiting turns out to be part of the mission.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: welcome home, parade temptation, Orion launch, three-day coast, lander touchdown; coping is the waiting itself."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The moon under one-sixth gravity is somewhere no kid has ever stood, and Snoopy and Woodstock measure craters and dig up a buried golf club. Getting stuck happens. Getting back to the mission happens too, together.",
+      "resolution": "Brave and happy carry the exploring, and getting unstuck is another asking-for-help beat, shared.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: crater measuring, Shepard's golf club, lost visual contact; light exploration episode."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The rover rolls beyond communication range, and Woodstock is the farthest from home he has ever been. The preserved tire tracks lead the way back. Charlie Brown's no-atmosphere insight is what cracks the problem.",
+      "resolution": "The scare of losing contact with home ends in asking for help, and the marks you left behind bring you home.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: rover beyond communication range, preserved tire tracks lead home; Charlie Brown's no-atmosphere insight is the fix."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Leaving the moon means leaving a surprise behind, and the question underneath is whether a beagle still matters to the same old Charlie Brown next to a famous astronaut. The splashdown brings a new best day. The reassurance lands in Snoopy's hidden welcome, not in words alone.",
+      "resolution": "The sad doubt of being forgotten turns into talking it out, and the welcome says what words did not.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: launch home, splashdown, a new best day; the reassurance lands in the hidden welcome."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "11",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The mission report is done, and the next adventure, Mars, is years away. Naming the dream out loud keeps it alive while the waiting stretches. CARA's top of the list turns the wait into a promise.",
+      "resolution": "The impatience and the disappointment both get answered with patience, and keep looking up becomes the plan.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: mission report, star charts, Mars chosen; CARA's top of the list; keep looking up."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "1",
+      "episode_number": "12",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Charlie Brown builds a backyard Mars simulation with his own hands to bring his dog's far-off dream closer. The prototype rocket fails. We have to figure out what does not work first, and the failing is the teaching.",
+      "resolution": "The disappointment of the failed prototype becomes trying again, because figuring out what does not work is how it starts.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: backyard Mars simulation, prototype rocket; the named lesson quoted in the dev set note."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A statue ceremony brings the gang back to NASA, and Franklin's radio picks up a signal from deep space. Wanting to be part of something big lands on everyone at once. The search for life begins with one jolt.",
+      "resolution": "The happy shock of a possible signal meets asking for help, and everyone gets to be part of the big thing.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Setup episode per the dev set note: statue ceremony, Franklin's radio signal; the statue gag is literal life-sized sizing, not a self-esteem lesson. Candidate emotion surprised flagged for vocabulary review (not on the ratified 21-term list)."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The gang presents its mission proposal to CARA, and the newer, cooler teammates get the assignment: robots. An unauthorized microwave false alarm earns everyone a gentle scold. The redirection comes with a role promised for the right moment.",
+      "resolution": "The disappointment of being sidelined and the embarrassment of the scold both settle into patience.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: proposal to CARA, microwave false alarm, robots announced; coping is CARA's wait-for-the-right-role redirection."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A robot costume is exposed, and Snoopy still wants a spot on the search-for-life mission. Not fitting the mold stings while everyone else seems to pass. Imagination, the team learns, is actually a scientific skill, and the roles get assigned.",
+      "resolution": "Embarrassed but proud, Snoopy asks for help into the role only he can fill.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: robot costume exposed, team roles assigned; imagination named as a scientific skill."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The Mars rover scans on while everyone is ready to move on, and Sally keeps looking. The small thing she notices, ice on Mars, changes the picture. What life needs, the science says: water, organics, energy, time.",
+      "resolution": "Pride and happiness reward the patience of looking closely when the crowd moves on.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Sally's observation, first discovery praised; the what-life-needs frame carries the science beat. Candidate emotion surprised flagged for vocabulary review (not on the ratified 21-term list)."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The sweep of Europa's ice finds nothing, and the search for the hidden ocean keeps coming up empty. Refusing to write off a snowball takes another sweep. The geyser proves the ocean was there the entire time.",
+      "resolution": "Another sweep is what turns the disappointment around, and the happy shout belongs to whoever kept looking.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: full sweep finds only ice, another sweep finds the geyser, hidden ocean reveal; the second look is the story. Candidate emotion surprised flagged for vocabulary review (not on the ratified 21-term list)."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Venus seems too harsh to support life, and the idea gets laughed off the table. Charlie Brown keeps suggesting it anyway. CARA validates the thinking outside the box, and the good ol' Charlie Brown beat lands the confidence.",
+      "resolution": "Standing up for yourself pays off when the dismissed idea was right: life as we do not know it.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Venus dismissed as too harsh, Charlie Brown keeps suggesting, CARA validates."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Hungry, cranky and stuck in a simulator with your friends is a recipe for squabbling over tools instead of working the problem. Charlie Brown reminds everyone what is important. The rehydrator gets built, and the pizza gets eaten.",
+      "resolution": "The anger of the stuck-and-starving moment dissolves into asking for help, and teamwork turns out to be the actual test.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: HERA analog, rehydrator build, pizza ending; teamwork is the named test; the lunch quest drives the food topic."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Charlie Brown's telescope fiddling is the kind you do while afraid to break something, and it stumbles into a brand-new exoplanet. The dip in starlight confirms it. The hundreds-of-years travel distance keeps the win honest.",
+      "resolution": "Nervous fiddling becomes proud discovery, and asking for help is what confirms nobody is imagining it.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Charlie Brown's telescope accident, dip in starlight confirmed; the travel distance keeps the win honest."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The coordinates everyone was counting on were never logged, and the setback looks total. Looking again when you are sure it is gone, Franklin catches the asteroid in retrograde orbit instead. The mistake becomes the breakthrough.",
+      "resolution": "The frustration of the lost coordinates turns on trying again, and the surprising observation was there all along.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: coordinates not logged, asteroid found instead; Franklin's retrograde-orbit catch. Candidate emotion surprised flagged for vocabulary review (not on the ratified 21-term list)."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Capturing an asteroid is the thrilling, impossible assignment, and the brainstorm goes wild: net, lasso, fishing pole. Each fails until the robot-arm sample plan works. Good science tests wild ideas, CARA says.",
+      "resolution": "Happy, brave teamwork meets trying again, and the wild ideas were the method all along.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: capture brainstorm, robot-arm sample plan; CARA names the method."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "11",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The mission ends without the big discovery, and Franklin declines his medal because the goodbye feels like failure. Snoopy and the kids take him on a wagon tour of everything they actually did. Questions can be as good as answers.",
+      "resolution": "The disappointment gets reframed by friends who show him how far he came, and the medal matters less than the mileage.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: mission medals, wagon tour of discoveries; friends reframe the mission's worth; questions can be as good as answers."
+    },
+    {
+      "series_title": "Snoopy in Space: The Search for Life",
+      "season_number": "2",
+      "episode_number": "12",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "One thing must stand for everyone you love in a Voyager-style space capsule, and nothing at hand seems right. Charlie Brown's imperfect photo of friends turns out to represent life on Earth exactly. The mission gets commemorated with feeling.",
+      "resolution": "The worry of choosing wrong ends in asking for help, and the imperfect thing was the right thing.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: golden record replica, capsule items; the imperfect photo of friends is what represents life on Earth."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Show-and-smile day requires standing up to name the thing that makes you smile, and Charlie Brown cannot think of one. His dog's dancing finds the answer for him, and the autobiography frame carries the origin of the Woodstock friendship. The classroom fills the rest.",
+      "resolution": "The show-and-smile worry eases through naming the feeling, and the answer arrives by watching what his dog does.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: autobiography, Woodstock origin story, show-and-smile day; the answer finds Charlie Brown when his dog dances."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Sally's rumbly tummy waits for a lunch that may never come, so Snoopy launches a rescue mission as the Flying Ace to bring her sandwich to school. The lunch gets destroyed on the way. The late save still lands.",
+      "resolution": "Impatient and disappointed, Snoopy asks for help, and the mission that failed on arrival saves lunch anyway.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: lunch mission as the Flying Ace, destroyed lunch, late save; food topic is the sandwich itself; kite-king and pool-party shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A scary movie about Mudmen gets under Snoopy's fur, and sleeping alone afterward is suddenly impossible. Linus's security blanket gets shared, which is the comfort that works. Costume courage and trick-and-treat traditions fill the rest.",
+      "resolution": "Snoopy is scared of the Mudmen, and asking for comfort works: the shared blanket makes the night survivable.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Mudmen movie, hiding under the blanket; comfort is the security blanket Linus shares; costume courage and trick-and-treat tradition are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Marcie is not a snow-day kid, and the fun everyone else is having looks closed to her. Snoopy shows her another way in: her geometry becomes skating figures, and a new game pulls the pond together. The runaway sled gets rescued too.",
+      "resolution": "The boredom of watching from the outside ends in a reframe, and turning what you love into the fun opens the door.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Marcie's geometry becomes skating figures and a new game everyone joins; coping is turning what you love into the fun; sled rescue and snowman shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Woodstock's birthday party happens without his best friend, who forgot. The make-good arrives as a cake instead of words, and the apology is the cake itself. Yard-sale barter and daisy courage fill the day.",
+      "resolution": "Guilty turns to happy through apologizing, and the cake says the sorry that came too late for words.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: missed bird-day party, cake surprise; the apology is the make-good itself; yard-sale barter and daisy courage are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Rerun gets hurt while playing, and Snoopy carries the blame without an apology to make. Lucy's no-playing rule starts to soften. Snoopy's jokes turn out to be the medicine, and laughter does the healing.",
+      "resolution": "The guilt finds a reframe in laughter, and the friend who cannot say sorry can still make the hurt better.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: contusion of the humerus, Lucy's no-playing rule softens, Snoopy's jokes help Rerun heal; no explicit apology occurs, so coping is the laughter reframe; novel-writing short carries the school topic; birdie-love short is secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A vet checkup is due, and Snoopy hides from it, dreading the doctor. He ends up running straight to the vet's office anyway, where a kind doctor and a treat wait. The visit was never as scary as the waiting.",
+      "resolution": "The dread of the doctor gets worked by a reframe, and brave shows up at the office door.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: vet avoidance at the school fair, ends up running straight to the vet's, kind doctor, treat; no starter topic fits the vet fear, so topics left empty by the zero-guessing rule; magic show and dinner shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Franklin's overscheduled Tuesday has too many feelings and too many activities for one kid, and Snoopy's therapy booth offers hugs instead of advice. Every kid leaves feeling better. The egg co-parenting and tricycle lessons fill the day.",
+      "resolution": "The overwhelm of too much settles into asking for comfort, and the hug works better than the advice.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: therapy hugs stand, every kid leaves feeling better; no starter topic fits comfort and overscheduling, so topics left empty by the zero-guessing rule; egg co-parenting and tricycle lessons are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A cat in a tree starts the rescue, and a Rescue Squad captain's badge is the dream behind it. The real rescue turns out to be long and stubborn, patience included. The badge gets earned the hard way.",
+      "resolution": "Trying again wins the badge, and the proud part is the finish, not the flash.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: cat in a tree, badge of merit, long stubborn rescue; no starter topic fits a rescue-squad day, so topics left empty by the zero-guessing rule; surfing stranding and movie-theater shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Sally's prize balloon is entrusted to Snoopy, and keeping it safe is a job with adventure attached. The balloon returns and pops anyway. Mini golf chaos and a hard time being quiet at the library fill the day.",
+      "resolution": "The balloon pops anyway, and trying again is what keeps Sally's trust intact through the disappointment.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: balloon entrusted to Snoopy, adventure, return, pop; the dominant balloon story fits no starter topic, so the two topics come from the secondary shorts (mini golf, the library and its card) and are flagged."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "11",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The Earth Day play needs every part, wind, rock, soil, all of humanity, and the beach-ball Earth gets ruined before curtain. The reframe says it is just a little dirty, and the show goes on. The finale song carries the cast.",
+      "resolution": "The nerves of the ruined prop melt in the reframe, and the play proves every part still matters.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: beach ball Earth ruined, the show goes on, finale song; coping is the just-a-little-dirty reframe; etiquette school and photo safari shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "12",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Snoopy's brothers and sister live somewhere else, and the dinner table waits for people who may not come. Friends comfort him while he waits, and Linus names it: family shows up when you really need them. Spike and Olaf arrive late and loved.",
+      "resolution": "Asking for comfort works: friends sit with him while he waits, and the waiting ends with marshmallow sandwiches and everyone home.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: marshmallow sandwiches and crudités, late dinner guests arrive; friends comfort him while he waits and Linus names it; Beagle Scout and slumber-party shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A potato chip that looks like Joe Shlabotnik is a one-of-a-kind treasure, and show-and-tell requires trusting a friend to keep it safe. The chip thief scare ends with the chip eaten. The Honest Abe reframe picks up the pieces.",
+      "resolution": "The worry and the frustration of the ruined treasure get reframed, and the story of it turns out to be worth more than the chip.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: chip entrusted to Snoopy, chip thief scare, eaten chip, Honest Abe reframe; food topic from the chip itself, school topic from show-and-tell; nest and cleaning shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Linus's beloved blanket is lost after Snoopy loses it, and the lone-wolf day without it goes badly. I am no hero, I am no wolf, Linus says out loud. The blanket turns up in the tree, where the courage was hiding.",
+      "resolution": "Naming the feeling of being without it is what Linus does, and the security comes back with the blanket.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: lone-wolf day without the blanket, blanket entrusted to Snoopy and lost, found in the tree; Linus names it out loud; no starter topic fits blanket security or cloud watching, so topics left empty by the zero-guessing rule; bird-watching short is secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Losing games turns Snoopy into a sore loser with a racket, and the advice is to count to ten. The cheering-for-the-other-side turn completes the lesson. A fan letter to author Helen Sweetstory anchors the school frame.",
+      "resolution": "The anger of losing cools with a deep breath, and ten counts plus applause make him fun to play with again.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: games where Snoopy melts down, count-to-ten advice, cheerleading turn; school topic from the fan letter to author Helen Sweetstory; valentine mix-ups are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The Mars rover scans on while everyone is ready to move on, and Sally keeps looking. The small thing she notices, ice on Mars, changes the picture. The science names what life needs: water, organics, energy, time.",
+      "resolution": "The sadness of the over-planned party and the hiding both get talked out, and the friend comes back for the birthday kid.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Lucy's over-planned party, Snoopy hiding from her, Rerun missing Snoopy, please come back; music topic from the Charleston dancing; Woodstock-flying-south goodbye and pogo shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A day for beagles goes to Snoopy's head, crown and procession included. A wise word from Charlie Brown brings the king back down to earth, gently. Home for supper is where the day ends well.",
+      "resolution": "The pride that swelled all day meets the embarrassment of the tumble, and talking it out lands him home, un-crowned and content.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Beethoven's birthday party at Schroeder's, King Snoopy's procession, a wise word from Charlie Brown, home for supper; both topics come from the Beethoven celebration story, the dominant King Snoopy story fits no starter topic and that is flagged; toy-paradise short is secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Rain ruins the picnic plan, and the day becomes the best one anyway: couch castles, dress-up, an indoor picnic, and a book-burglar plot with Library Girl. The rained-out plan never stood a chance against the pretend one. A speech before the Head Beagle waits in the background.",
+      "resolution": "The sad start gets reframed into the best day, and the rain is what made the indoor adventure possible.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: rained-out picnic, indoor dress-up play with Library Girl and a book-burglar plot, indoor picnic; school topic from the books at the center of the pretend play; speech nerves and Beagle Scout shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The last day of summer has a list not yet finished, and fitting all the fun in before the season turns is the mission. The list gets completed just in time for fall. Lucy's crabby day, meanwhile, carries a quieter mirror: you are loved whether you are smiling or not.",
+      "resolution": "Patience is the answer to the shrinking summer, and the fun fits because it was shared.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: summertime fun list crammed into one day, list completed just in time for fall; games topic from the fetch short; the crabby-day short is a strong secondary mirror (you are loved whether you are smiling or not)."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Operation Beagle's Big Day is a surprise party planned in a closet, with distraction missions keeping the guest of honor elsewhere. Keeping the secret is the deliberate distraction itself. The cat-food trial carries an amends beat, and the surprise lands.",
+      "resolution": "Happiness carries the caper, and the reframe that keeps the secret is the same one that lands the party.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: closet planning, distraction missions, surprise landing; coping is the deliberate distraction that keeps the secret; the cat-food trial carries an amends beat and the jobs short is secondary; excited is not on the ratified 21-term list so the row tags happy only."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The Beagle Beacon newsletter gets the inside scoop on Charlie Brown and prints complaint after complaint. The words hurt a friend in print, so the amends come as a butler day and kind coverage. The math test gets helped too.",
+      "resolution": "The guilt of the printed words ends in apologizing with actions, and the make-good is more than a sorry.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Beagle Beacon roasts Charlie Brown, butler day and kind coverage make amends, math test helped; school topic from the newsletter and test frame; baseball-seats and Cactus Crew shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Sally spends a weekend taking care of Snoopy, and the practice is the big-sister role on her very own baby brother. The menu runs tea party, carriage, burnt toast and cold beans. Care, the weekend teaches, means listening to the one you care for. The prune apology arrives with a favorite meal to make up for it.",
+      "resolution": "The proud caretaker's disappointment over the burnt toast gets resolved through apologizing, and the favorite meal says it better than the beans did.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: tea party, carriage, burnt toast and cold beans, the prune apology, a favorite meal to make up for it; food runs through the caretaking; the benched-pitcher and stand-in shorts are secondary friendship mirrors."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "11",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The old supper dish that means home is given away by Sally, and it passes hand to hand across the neighborhood. Charlie Brown does the legwork of the search. The dish comes home from a tree.",
+      "resolution": "The sadness of the lost bowl meets asking for help, and the search that stretches across the neighborhood ends happy.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: bowl given away by Sally, passed hand to hand, retrieved from a tree; Charlie Brown does the legwork, which is the asking-for-help beat; no starter topic fits a beloved dog bowl, so topics left empty by the zero-guessing rule; garden and handyman shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "12",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Lucy bans musicals because she believes they cause nothing but trouble, and a musical breaks out anyway. Friends name their side out loud, and the demonstration does the persuading. Everything's better when life's more like a musical, the day concludes.",
+      "resolution": "The anger of the ban dissolves in talking it out, and letting the thing she did not understand change her mind is Lucy's turn.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Lucy's musical ban, a musical breaks out anyway, everything's-better line; friends name their side out loud and the demonstration does the persuading; the togetherness short and goldfish jealousy short are secondary mirrors."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "1",
+      "episode_number": "13",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Lucy's fun-time activity list has rules, and the fun is not yours. Rain leaves Snoopy outside the plan until Lucy adds his own activities to it. A friend names it out loud, she likes being in charge more, and the list changes.",
+      "resolution": "The frustration of scheduled fun gets talked out, and being heard about what you actually want to do changes the list.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: fun-time list with rules, rain left outside, Lucy adds Snoopy's own activities; a friend names it out loud, she likes being in charge more; games topic from the jump rope, coloring and basketball that carry the arc; potato sack race and motocross shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Charlie Brown hears that an expired dog license means jail, and the renewal keeps coming back wrong: fishing, real estate, food vendor, parade. Trip after trip finally produces the real dog license. The worry of losing your dog drives every trip.",
+      "resolution": "The frustration of the wrong forms meets trying again, and the right document arrives on the attempt nobody counted.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: wrong licenses one after another (fishing, real estate, food vendor, parade, then the real dog license); trying again is the whole arc; the dominant license story fits no starter topic, so the school topic comes from the homework-map short and is flagged; the pirate beach day is the title short and stays secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A hug from Snoopy goes into overtime, through tetherball, baseball and dinner, and Charlie Brown cannot find the words to end it. Friends help him say it. Being kind and keeping yourself are both allowed.",
+      "resolution": "Charlie Brown learns to say when the hug is too much, and talking it out leaves the friendship intact.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Charlie Brown endures the hug through tetherball, baseball and dinner until friends help him say it; no starter topic fits affection and boundaries, so topics left empty by the zero-guessing rule; hiccup-cure and secret-agent shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Marcie's quiet spot with a view is the calm-down her bad day needs, and the crowd finds her anyway. Sharing it ends in apologizing when it gets loud. The report and the grading frame carry the school work.",
+      "resolution": "A deep breath cools Marcie's crowded bad day, and the quiet spot works again once the sorry is said.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Marcie's homework load, the quiet spot, sharing it, apologizing when it gets loud; the calm-down is the whole story; school topic from the report and grading frame; Statue of Liberty report and leprechaun shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A drawer full of rejection letters is what Snoopy's novel has earned, and the test Lucy gives is not even the hard part. Friends name the great books that were rejected first. Criticism is only good if it helps, and you show promise.",
+      "resolution": "The sadness of the rejections turns into trying again, with the helpful criticism kept and the mean left behind.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: publisher rejections, friends name the great books that were rejected first, criticism-is-only-good-if-it-helps and you-show-promise lines; school and books topic is the writing itself; the beagle-rating test and missed-connection Spike shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Strikeouts, snack demands and a walk off the field: Snoopy quits the baseball team when the game gets hard. The team ends up renegotiating what the game is for. It is about what all of us can do together, and the win follows.",
+      "resolution": "Snoopy tries again for the team, and coming back is what wins it.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: contract negotiations, the whole team renegotiating, the it-is-about-what-all-of-us-can-do-together line, the win; the moon-fear short is a strong secondary mirror for fear of the dark with Charlie Brown's it-is-okay-to-be-afraid list; the Chez Marcie jealousy short is a friendship mirror."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A window breaks, and Charlie Brown insists it was him even though nobody believes it. Attorney Snoopy gets him acquitted for low expectations, and then he really does it. The truth wins the round.",
+      "resolution": "Telling the truth twice is what the home run took, and talking it out settles the worry of not being believed.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: window broken, Charlie Brown insists it was him, attorney Snoopy, acquitted for low expectations, then he does it; the blanket-compromise short is a secondary mirror for naming what you need from a friend."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Track-and-field day terrifies Marcie because everyone might watch, and Snoopy skates in her place until she is ready. The swap is the asking-for-help that gets her in the game. She runs the final herself and earns a participant ribbon.",
+      "resolution": "Asking for help gets Marcie to the starting line, and finishing the race is the proud part.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Snoopy skates in Marcie's place, then Marcie runs the final herself for a participant ribbon; asking for help is the swap that gets her in the game; the skate rink and Beagle Games shorts are secondary, and the fundraising letdown lands softly."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Franklin considers getting a dog and learns what a wish actually costs. A dog is like a bike, the demonstration says: every kid should have one, and it is a lot of work. The dog-care rundown covers feeding, fetch, reading and scratches. He chooses the bike, and the friend.",
+      "resolution": "Franklin learns what the wish costs by asking for help, and deciding honestly is the proud part.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: dog-care demonstration, feeding, fetch, reading and scratches, Franklin chooses the bike and the friend; no starter topic fits pet responsibility, so topics left empty by the zero-guessing rule; the I-told-you-so apology short and the essay-writing short are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The cat next door has forced the doghouse to move more times than anyone can count, and getting along seems impossible. Lucy's diplomacy and the paw of friendship over pizza find the one thing they both like. Once again, pizza saves the day.",
+      "resolution": "The anger of the endless clash gets talked out, and the paw of friendship lands over a shared slice.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: doghouse relocations, Lucy's diplomacy, the paw of friendship over pizza, once again pizza saves the day; food topic is the pizza resolution itself; the sandwich-debate refereeing and homework-interview shorts are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "Murphy's comet comes once in a lifetime, and Sally's mission is to stay awake for it. The first vigil fails, and five more nights of chances follow. The second vigil succeeds.",
+      "resolution": "The impatience and the disappointment of the missed comet both settle into patience, and the second chance rewards the waiting.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: staying-awake mission, the missed comet, five more nights, the second vigil succeeds; space topic from the comet itself, useful depth evidence for a Snoopy series; the marbles show-off short carries the good-winner beat."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "11",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A puzzle will not open, and the frustration builds until the advice arrives: take a deep breath and relax, stop chasing the solution and the answer appears. The break is the thing that solves it. Dreading summer camp and a carnival ride carry the secondary mirrors.",
+      "resolution": "A deep breath does what pushing could not, and the calm-down finally opens the puzzle.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: pet puzzler, take a deep breath and relax, stop chasing the solution and the answer appears; no starter topic fits a puzzle day, so topics left empty by the zero-guessing rule; the dreading-summer-camp short is a strong worry-about-change mirror and the carnival short is a feelings-hurt mirror."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "12",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A mustache will not make the team listen to you, Snoopy discovers managing baseball, and the advice column behind the mustache has been the real work all along. They listened because you believed in them. Being believed in without a costume is the confidence that lasts.",
+      "resolution": "Talking it out ends the worry of not being taken seriously, and belief does what the mustache could not.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Dear Snoopy advice column, mustache fad, they-listened-because-you-believed-in-them line; games topic frames the confidence problem, which is baseball management; the school-day short and the time-capsule short are secondary."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "2",
+      "episode_number": "13",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "The night before Christmas is too exciting to sleep through, with presents waiting and a poem to help Sally and Snoopy wait. Charlie Brown makes gifts for his pals, and the joy of giving something you made carries the day.",
+      "resolution": "The impatience of the waiting night meets patience, and the made-it-yourself gift is the joy that outlasts the wrapping.",
+      "evidence_note": "Synopsis-only: dev set note records no English subtitle source found for this episode (Gestdown is full otherwise), tagged from the catalog synopsis; the title story is Charlie Brown's handmade gifts and the poem is what helps Sally and Snoopy wait; no starter topic fits holiday giving, so topics left empty by the zero-guessing rule; flagged for script verification if a source appears; confidence medium."
+    },
+    {
+      "series_title": "The Snoopy Show",
+      "season_number": "3",
+      "episode_number": "13",
+      "segment": null,
+      "segment_title": null,
+      "story_lead": "A brother alone at Christmas and a kid with no cards in the mail: the holiday has a left-out feeling baked in. Snoopy and Woodstock visit Spike, and the first Christmas card arrives. The day lands on who you are with. Caroling carries the music.",
+      "resolution": "Asking for comfort is the move that ends the empty mailbox, and the visit is what Christmas turns out to be about.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Story detail: Spike's letter, the visit, the first Christmas card, the it-is-about-who-you-are-with line; music topic from the caroling tradition; the Santa-prep and window-display shorts are secondary; no holiday topic exists in the starter set, so the celebration frame is carried by notes."
+    }
+  ]
+}

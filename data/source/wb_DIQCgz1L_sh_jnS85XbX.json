@@ -5,6 +5,8 @@
   "sheetName": "Shape Island",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 34,
   "rows": [
     {
