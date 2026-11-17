@@ -1,0 +1,703 @@
+{
+  "workbookId": "wb_cSVkwzvY",
+  "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+  "sheetId": "sh_qZJJt8v9",
+  "sheetName": "Craft batch 12 (Yo Gabba Gabba!)",
+  "kind": "craft-stories",
+  "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
+  "rowCount": 69,
+  "rows": [
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "0",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Yo Gabba Gabba Live! - There's a Party in my City!",
+      "story_lead": "D.J. Lance Rock, Brobee, Toodee, Foofa, Plex and Muno play their first-ever live concert, with Biz Markie and Leslie Hall among the guests. There's a Party in My Tummy, Name Game and Get The Sillies Out are on the setlist for feet-on-the-floor singing.",
+      "resolution": "The concert is a sing-and-dance party from the first note, and there is no struggle to handle; the row leaves the fun as the fun.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only (no script source for Season 0). Concert special: the fun is the show itself, so no coping moment is shown'; tier stands. Dev-set top-up carried (2026-11-14): fresh sweep found no Season 0 source (Gestdown does not carry the season; SubtitleCat returns nothing relevant; SubLoom lists no S0 subtitles). Topic: the story is a live sing-and-dance concert."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "0",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Yo! Fresh Beats Go Gabba Gabba!",
+      "story_lead": "A visit to the Singing Pizza Café puts the Gabba Gang face to face with the Fresh Beat Band. Meeting a favorite band in person and singing along is the day.",
+      "resolution": "There is no feeling to work through in a band meetup, and the row lets the music and the pizza café carry it.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only (no script source for Season 0)'; tier stands. Topic per dev set: a band meetup at a pizza café; Food & cooking rides the setting, the story itself is the music. Dev-set top-up carried (2026-11-14): fresh sweep found no Season 0 source (Gestdown does not carry the season; SubtitleCat returns nothing relevant; SubLoom lists no S0 subtitles)."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Eat",
+      "story_lead": "Toodee says she does not like yogurt, though she has never tasted it. The Try It song gets her to give it one taste, and one taste turns into loving it.",
+      "resolution": "The nervousness of a new food gets trying again, the give-it-one-taste move, and loving it is what the single taste earned.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript 01x01, content verified against catalog: Mark's potato bug drawing, Elijah Wood's puppet master Dancey Dance, the party in Brobee's tummy song, the snack line-up, the clean-up song'; core story is Toodee and the yogurt; confidence high. Coping stands in as give-it-a-try per dev set. Calibration house call carried: Yo Gabba Gabba! is musical throughout, so Music & dance is reserved for episodes where music or dance is the story itself, not the format."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Summer",
+      "story_lead": "Brobee is nervous about the magic bubbles popping until he learns popping is what bubbles love. Muno, meanwhile, learns how to cool off on a hot day, lemonade included.",
+      "resolution": "The worry of the popping gets reframed, bubbles ask to be popped, and the summer day ends in a pool party and jumpy-jump with everyone.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript 01x02, content verified against catalog: the bubbles asking to be popped, the lemonade how-to with Plex, the Aquabats pool party, jumpy-jump with everyone'; confidence high. Dev-set honesty note carried: the catalog synopsis mentions a Wait Your Turn patience song; the fetched transcript does not show that beat, so the tags rest on what the transcript shows."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Fun",
+      "story_lead": "Plex the robot does not know what fun means, and he asks. The gang shows him that fun is doing what you love with friends, and playing together turns out to be the funnest thing of all.",
+      "resolution": "The confusion gets asking for help, and the answer arrives as a body-music-and-dance lesson with the Aggrolites' banana on the side.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript 01x03, content verified against catalog: the breakfast party-in-my-tummy with eggs and fresh fruit, Plex asking what is fun, the body-music and dance lesson, the Aggrolites banana performance'; confidence high. Topics per dev set: the story's center is an idea (what fun means), not a controlled topic."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Dance",
+      "story_lead": "Muno runs too fast and accidentally breaks Toodee's castle. The episode shows him saying a real sorry and helping fix what he broke.",
+      "resolution": "The guilt of the broken castle gets apologizing, the I-am-so-sorry song and the fix-it-together ending, and dance is the episode's stated subject from the do-it dance to the freeze game.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript 01x04, content verified against catalog: the do-it dance, the freeze game, the jumping jellyfish Dancey Dance, Migu's drum cool trick, the I-am-so-sorry song and the fix-it-together ending'; confidence high. Dev calibration carried: guilty is the ratified term for I-did-not-mean-it feelings; the episode teaches apologizing exactly. Music & dance tagged because dance is the episode's stated subject."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Sleep",
+      "story_lead": "Toodee hides because she does not want a nap, and Muno cannot fall asleep and feels lonely at night. Rest turns out to be what makes fast running possible, and happy thoughts carry him to sleep.",
+      "resolution": "The loneliness of the dark gets reframed, literally thinking happy thoughts, and the calm of a well-rested morning is what the shake-the-wiggles-out game was for.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript 01x05, content verified against catalog: the shake-the-wiggles-out game, Toodee hiding at nap time, the pajamas how-to, Smoosh's pajama party, Mark's dog drawing, Muno's lonely-night song and the think-happy-thoughts resolution'; confidence high. Coping per dev set: shown literally as thinking happy thoughts, mapped to reframing/distraction; naming the feeling also appears."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "Happy",
+      "story_lead": "Brobee feels sad, and a hug lifts him while Foofa sings that it is okay to be a little sad. Foofa, for her part, learns it is okay to lose at tag sometimes.",
+      "resolution": "The sadness gets asking for comfort, shown literally as asking for a hug, and the happy of the Salteens' song is what dancing it out sounds like.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript 01x06, content verified against catalog: Archibald's worm babies and the not-afraid-of-worms song, Brobee's hug song, the Salteens, Foofa's it-is-okay-to-be-a-little-sad song, Foofa losing at tag'; confidence high. Coping per dev set: shown literally as asking for a hug. The Kites Are Fun animation is logged for the standing kites topic candidate only, not tagged."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "Friends",
+      "story_lead": "Muno invites each friend to play, and Foofa and Muno both want their dances watched. Taking turns is the lesson, along with Brobee learning to keep his hands to himself.",
+      "resolution": "The happiness of having a friend over gets patience, waiting shown as the take-turns dance, and the sharing song plus the high-five lesson round out the polite part.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript 01x07, content verified against catalog: the find-a-friend song, the sharing song, the high-five lesson for Plex, the peanut butter stomp Dancey Dance, the take-turns dance, the hands-to-yourself song'; confidence high. Coping per dev set: taking turns is shown as waiting patience."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "Careful",
+      "story_lead": "Toodee falls and loses the race, and she learns to shake a small hurt off and get back in. Muno's snowball hits Plex, and his lesson is a sorry plus watching where he throws.",
+      "resolution": "The sadness of the lost race gets trying again, the shake-it-off song, and the apology arc does the rest of the careful work.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x08 Careful, title-matched not number-matched; content verified: the rocket up-and-down game, the family tree song, Toodee's fall in the race and the shake-it-off song, Muno's snowball apology and don't-throw-things-at-friends song, the snack how-to'; confidence high. Coping per dev set: shake it off and race again is trying again; the apology arc is shown in the situation. Topic anchored to the race itself."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": "Move",
+      "story_lead": "Foofa skips, Tony Hawk teaches skateboarding with helmet and pads, and the day holds both quiet listening and loud wiggling. Each, the episode says, has its moment.",
+      "resolution": "There is no feeling to work through in a movement lesson, and the row lets the wiggle-hold-still game and the skateboard carry it.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x12 Move, title-matched; content verified: the wiggle-hold-still game, the clean-your-room pick-it-up song, Ricky Fitness's drums, skipping with Foofa, the wash-your-hair how-to, Tony Hawk's skateboard Dancey Dance with helmet and pads, the quiet-birds versus loud song'; confidence high. Coping left empty with reason per dev set. Calibration flag carried: whether ride-on toys fit Things that go or it should stay vehicle-only."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": "Greetings",
+      "story_lead": "Hellos, goodbyes and the please-and-thank-you magic words fill the day. Then comes the hard part, saying a sad goodbye to the magic ball friends, with the comfort that friends always come back to play.",
+      "resolution": "The sadness of the goodbye gets reframed, the comfort that friends always come back to play, and the happiness of the next hello is what the you-can-see-your-friends-again resolution promises.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x11 Greetings, title-matched; content verified: the hello and hello-goodbye songs, the name game, the please-and-thank-you magic words, the excuse-me magic balls, Toodee missing the magic ball friends and the you-can-see-your-friends-again resolution'; confidence high. Coping per dev set: remembering friends return, mapped to reframing/distraction."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "11",
+      "segment": null,
+      "segment_title": "Together",
+      "story_lead": "Muno bites Foofa mid-game, and the lesson lands without ceremony: we never bite our friends. He says sorry, and they play again.",
+      "resolution": "The hurt of the bite gets apologizing, Muno's real sorry, and the don't-bite-your-friends song does the teaching while the game resumes.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x13 Together, title-matched; content verified: the eyes-nose-mouth face song, the love-every-living-thing song, the baby-steps-big-steps game joined one friend at a time, the horse pretend, Nikki Flores's twirly whirly, Mark's monkey drawing, Muno biting Foofa and the don't-bite-your-friends song with his apology'; confidence high. Content consideration carried: biting."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "12",
+      "segment": null,
+      "segment_title": "Scary",
+      "story_lead": "The lights go out and Muno is scared of the dark, and his friends name the fear right out loud. They stay beside him and sing him through it until Plex brings the lights back.",
+      "resolution": "The scare of the dark gets asking for comfort, the I-am-right-here-and-I-will-help-you song, and the brave shows up in staying rather than in the lights coming back.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x09 Scary, title-matched not number-matched; content verified: Muno scared in the dark, the don't-be-afraid song with I am right here and I will help you, Brobee joining the fear, Plex turning the lights back on, plus the avocado try-it reprise and the tiny ugly germs song'; confidence high. Coping per dev set: the friends name the feeling and offer presence; shown literally as asking for and receiving comfort."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "13",
+      "segment": null,
+      "segment_title": "Halloween",
+      "story_lead": "Costumes go on and the trick-or-treat song carries the night, and then the too-much-candy tummy ache teaches its moderation lesson the hard way. The falling-leaves fall song sets the season.",
+      "resolution": "The tummy ache is a consequences lesson rather than a feeling work-out, and the row leaves it there; the happiness of the dress-up celebration is what the night keeps.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x10 Halloween, title-matched; content verified: the falling-leaves fall song, costumes and dress-up pretend, the trick-or-treat song, the too-much-candy tummy ache and moderation lesson'; confidence high. Coping left empty with reason per dev set. Calibration flag carried: whether party-type holidays belong under Birthday & party."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "14",
+      "segment": null,
+      "segment_title": "Car",
+      "story_lead": "Foofa keeps trying until her seat belt clicks, and the gang holds hands and looks both ways. Toodee and Brobee learn never to chase a ball into the road, after a near miss the episode does not soften.",
+      "resolution": "The scare of the street gets trying again, Foofa's keep-trying buckle with its be-patient-don't-give-up beat, and the remember song models quieting down to think.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x15 Car, title-matched; content verified: the buckle-up beat with be patient keep trying don't give up, the look-both-ways-and-hold-a-hand song, the ball-in-the-street near miss and the dangerous song, the electric eel Dancey Dance, Brobee's lost pillow Socky and the remember song with quiet-down-and-think'; confidence high. Coping anchored per dev set to Foofa's keep-trying buckle; the remember song also models quieting down to think, logged as a deep-breath-family strategy mention."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "15",
+      "segment": null,
+      "segment_title": "Share",
+      "story_lead": "Muno learns to ask instead of just wanting, and Brobee discovers sharing is more fun than keeping. Toodee grabs a ball and learns to say sorry and wait her turn.",
+      "resolution": "Toodee's grab and the sad that follows get apologizing, the say-you're-sorry-and-wait-your-turn song, and the throw-roll-kick-and-catch games are what sharing was for.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x16 Share, title-matched; content verified: the presents yours-and-mine song, Muno asking Foofa to share, Brobee's I-love-to-share turn, the throw-roll-kick-and-catch games, Toodee taking the ball and the say-you're-sorry-and-wait-your-turn song'; confidence high. Coping anchored per dev set to the grabbing incident; waiting your turn (patience) is also shown."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "16",
+      "segment": null,
+      "segment_title": "Find",
+      "story_lead": "A hide-and-peekaboo game opens the day, and Toodee and Brobee spot the fish under the ice. The woodpecker mystery in the tree gets solved, and Muno does not give up until he finds his toy snake.",
+      "resolution": "The finding gets trying again, Muno's don't-give-up and think-really-hard snake search, and the what-was-that-sound investigation ends with the woodpecker named.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x17 Find, title-matched; content verified: the I-like-fish song with salmon and trout, the won't-somebody-come-and-play song, the hide-and-peekaboo game, Toodee's sound game, Sean Kingston's mini spinny, Mark's truck drawing, the what-was-that-sound woodpecker investigation, Muno's toy-snake search with don't-give-up and think-really-hard'; confidence high. Topic anchored to the hiding-and-seeking game."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "17",
+      "segment": null,
+      "segment_title": "Train",
+      "story_lead": "The gang builds one long train out of found things, with Plex's magic wheels making it go. Muno's first train ride is less scary with friends right there saying we will help you.",
+      "resolution": "The scare of the first ride gets asking for comfort, the friends naming the fear and staying present, and the I-helped-feel-safe turn is what the teamwork-built train carried.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x18 Train, title-matched; content verified: the working-together teamwork song, the found-parts train with Plex's magic wheels, Muno's don't-be-afraid train ride and I-helped-feel-safe resolution, Foofa's maze game, Laila Ali's the-dog Dancey Dance, the inside-outside voice game'; confidence high. Coping per dev set: friends naming the fear and staying present, shown literally as we are right here and we will help you."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "18",
+      "segment": null,
+      "segment_title": "Christmas",
+      "story_lead": "After a day of skating, snow angels and tree decorating one-at-a-time, the gang makes secret homemade presents for friends. Each gift comes with a thank you, for-me-for-you.",
+      "resolution": "There is no feeling to work through in a giving celebration, and the row lets the making-presents song and the Snow Princess's snowy jingle carry it.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x14 Christmas, title-matched; content verified: Toodee's winter-favorite-season song, tree decorating one-at-a-time, the Snow Princess snowy jingle, Mark's snowman drawing, the making-presents song and the for-me-for-you-thank-you exchange'; confidence high. Coping left empty with reason per dev set. Same calibration flag as the Halloween row on party-type holidays."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "19",
+      "segment": null,
+      "segment_title": "Love",
+      "story_lead": "Brobee keeps trying until he blows up his own balloon and calls it his best friend. Toodee learns to be nice to sad Gooble even when his crying is hard to be around.",
+      "resolution": "The frustration of the not-yet-balloon gets trying again, the don't-stop-don't-give-up song, and the Gooble arc stays a kindness lesson rather than a self-regulation strategy.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x19 Love, title-matched; content verified: Brobee's balloon-blowing with the don't-stop-don't-give-up song, the I-found-love song, Brobee's my-friend-the-balloon best-friends song, the Postmarks balloons performance, Foofa's I-love-flowers song, Gooble crying and Toodee's go-cry-somewhere-else moment corrected by the be-nice-to-everyone song'; confidence high. Coping anchored per dev set to the literal keep-trying balloon beat; the Gooble arc models kindness to a sad friend rather than a self-regulation strategy."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "1",
+      "episode_number": "20",
+      "segment": null,
+      "segment_title": "Imagine",
+      "story_lead": "Foofa pretends her dolphin wish into a swim, and the imagination games are going well until Toodee lies about magic beans to look cool. She owns it, and learns friends like her best when she tells the truth.",
+      "resolution": "The guilt of the lie gets apologizing, the why-did-you-lie song and a real apology with a promise to tell the truth, and the x-ray body song plays the day out.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x20 Imagine, title-matched; content verified: the let's-pretend imagination song, the balloons song cheering sad Brobee up and Brobee sharing balloons back, the Shins sometimes-you-win-sometimes-you-lose song, Toodee's magic-bean lie, the why-did-you-lie song and her real apology, the x-ray body song'; confidence high. Coping per dev set: shown literally as a named apology and a promise to tell the truth."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Birthday",
+      "story_lead": "Brobee wakes sure that everyone forgot his birthday, and the no-one-remembered song is heavy. Then the surprise party he never saw coming fills the day with balloons, cake and friends.",
+      "resolution": "The sadness of feeling forgotten ends in the reveal rather than in a strategy Brobee shows, and DJ Lance's remember-your-birthdays song counts the candles to four.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x02 Birthday, title-matched not number-matched; content verified: Brobee's no-one-remembered song, DJ Lance's remember-your-birthdays song counting candles to four, the surprise-party verses for each friend, Biz's happy-birthday beat, Parker's cake-baking cool trick, Melora's birthday party dancey dance'; confidence high. Coping left empty with reason per dev set: the turn comes from the party reveal, not a strategy Brobee shows. Topic is the episode's core."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Games",
+      "story_lead": "Brobee sits out of DJ Lance Says after a mistake, and in freeze tag he wants to give up, I-can't-win-I'm-too-tired. Keep-trying coaching and a snack-and-water energy fix bring him back.",
+      "resolution": "Quitting is what Brobee wants, and trying again is what the coaching and the fuel-up earn; the biggest trophy goes to the one who never gave up and had the most fun.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x03 Games, title-matched; content verified: the DJ-Lance-Says game with Brobee's mistake and I-don't-want-to-play moment, the keep-trying coaching, freeze tag with Brobee's I-can't-win-I'm-too-tired and the snack-and-water energy fix, Mark's golf drawing, the Captain Gator story where the biggest trophy goes to the one who never gave up and had the most fun, the marching game include-everyone beat'; confidence high. Coping per dev set: shown literally as keep trying; naming that games are just for fun also appears."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Talent",
+      "story_lead": "Every friend names a talent while Brobee worries he has none, I-can't-think-of-anything. He keeps thinking, discovers his drums, and works up the nerve to play them at the talent show.",
+      "resolution": "The worry of having no talent gets trying again, keep thinking and performing anyway, and the shy-but-scared moment before the drums ends in the cheering close.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x05 Talent, title-matched; content verified: the everyone-has-a-talent song, each friend's talent verse, Brobee's I-can't-think-of-anything and the don't-stop-don't-give-up keep-thinking song, his drum discovery, his I-feel-shy-but-I'm-scared moment before performing, the cheering close'; confidence high. Coping anchored per dev set to keep thinking and performing anyway. Music & dance per dev set: the talent the story turns on is drumming at a show."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Animals",
+      "story_lead": "Quiet listening solves the squeaky-sound mystery of a fox family, and Muno follows animal tracks, whisper-soft, straight to the deer that made them. Foofa's animal book starts the adventure.",
+      "resolution": "There is no feeling to work through on the animal-finding adventure, and the row lets the mystery and the deer reveal carry it.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x10 Animals, title-matched; content verified: Foofa's animal book, the what-was-that-sound fox-pup mystery, the animal-sounds song, the who-made-these-tracks song and the deer reveal, Jimmy Eat World's beautiful day, the fox-on-the-run dance, the animal dance-card game'; confidence high. Coping left empty with reason per dev set. Topics per dev set: animals is deliberately not one of the eight controlled topics per the starter vocabulary's cast-bias ruling."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Weather",
+      "story_lead": "Muno does not like getting wet, and the rain looks like a ruined day. Then he sees the rain feed the plants, finds the fun in it, and the rainbow leaves treasure seeds at its end.",
+      "resolution": "The spoiled day gets reframed, the I-guess-it's-not-so-bad turn with its plants-and-animals-need-water reason, and the sunshine-is-here song closes the weather out.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x07 Weather, title-matched; content verified: Muno's I-don't-like-the-rain verses and the I-guess-it's-not-so-bad turn, the plants-and-animals-need-water reason, the rainbow and the magic-seed treasure, Paul Williams's Rainbow Connection, the sunshine-is-here song, the rain-cloud dance'; confidence high. Coping per dev set: shown as the reframe of a disliked day into a good one."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "Differences",
+      "story_lead": "Muno's new glasses make the world clear, and the friends' weird is what they draw. The mean-words lesson lands, DJ Lance names that it hurt his feelings, and a real sorry follows.",
+      "resolution": "The sadness of the teasing gets apologizing, the don't-say-mean-things-to-friends song and the friends' real sorry, and different ends up feeling cool.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x09 Differences, title-matched; content verified: Muno tripping and the eye check, the I-got-glasses razzle-dazzle song, Brobee and Toodee calling him weird, the don't-say-mean-things-to-friends song, DJ Lance naming that it hurt his feelings, the apology, the just-because-it's-different song, the Argyle octopus family-skin story'; confidence high. Coping anchored per dev set to the friends' apology and repair; the naming-the-feeling beat also appears. Content consideration carried: peer teasing."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "Robot",
+      "story_lead": "Plex's red light blinks mid-play, and the gang learns that machines need energy just like kids need food. They plug him in and dance the robot recharge.",
+      "resolution": "The row treats the repair as practical help rather than an emotional strategy, and no feeling work is claimed where none is shown.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x08 Robot, retrieved from Exa cache after repeated live-fetch failures; content verified: Plex's what-is-a-robot lesson and the robot-friend song, the pinecone tricks, the energy-low red light and I-think-Plex-is-broken beat, the electricity-recharge song at his station, the robot-recharge dance, Money Mark's robot-friends song, the robot game'; confidence high. Coping left empty with reason per dev set: an explanation adventure with no feeling to work through; the repair is practical help, not an emotional strategy."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "Teeth",
+      "story_lead": "Muno's first wiggly tooth feels like losing a piece of himself, and he cries that he likes his teeth. Toodee normalizes it, they wiggle along together, and the fall-out that does not hurt ends in tooth-fairy gold coins.",
+      "resolution": "The scare of the losing gets asking for comfort, Toodee's everyone's-baby-teeth-fall-out reassurance and shared memory, and the keep-wiggling persistence does the rest.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x01 Teeth, title-matched; content verified: Muno's fall-out-no-way-I-like-my-teeth cry, Toodee normalizing that everyone's baby teeth fall out and sharing her memory, the wiggle-wiggle-back-and-forth song together, it-didn't-even-hurt relief, the tooth-fairy explanation and good-night verse, the two gold coins and the pet-horse-and-cowboy-hat choice, Datarock's smile-for-the-camera, the brush-brush-brush song'; confidence high. Coping anchored per dev set to the reassurance and shared-experience comfort that settles the fear; the keep-wiggling persistence beat also appears."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": "Clean",
+      "story_lead": "Plex's icky alerts reveal the tiny ugly germs riding on sneezes, high fives and dirty hands. Supersoapy Pal shows that soap, bubbles and scrubbing send them right down the drain.",
+      "resolution": "There is no feeling to work through in a hygiene lesson, and the row lets the we-can-beat-them-with-Supersoapy-Pal reveal do the teaching.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x20 Clean, title-matched; content verified: the icky-alert warnings over the high five and the flower-planting sandwich, the tiny-ugly-germs song, the we-can-beat-them-with-Supersoapy-Pal reveal, the wash-your-hands and scrub-aways-the-germs verses, Chromeo on the Super Music Friends Show'; confidence high. Coping left empty with reason per dev set: a hygiene lesson with no feeling to work through."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": "New Friends",
+      "story_lead": "Jack crash-lands in a strange place where everyone looks different, lost and out of gas, and the oogey-boogie worry song plays. The strangers turn out to be friends who say don't be scared, we can help you.",
+      "resolution": "The scare of being lost gets asking for help, Jack's direct I-need-some-help line, and the new-friends-put-a-smile-on-my-face verses are what the rescue rides on.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x17 New Friends, title-matched; content verified: the low-gas crash landing, Minibike's oogey-boogies line, the it's-not-fun-to-get-lost and who-are-these-creatures worry songs, Jack's I-need-some-help line, the gang's don't-worry-we-can-help-you-we-are-all-friendly song, the disco-roll dancey dance, the new-friends-put-a-smile-on-my-face verses, the yo-dazzlers song'; confidence high. Coping anchored per dev set to Jack's direct ask for help and the friends' response; the reassurance beat also appears."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "11",
+      "segment": null,
+      "segment_title": "Green",
+      "story_lead": "The day is for caring for the world: watering flowers and plants, fueling up with fruit, and answering the talking trash that belongs in the can, not on the ground. Watering is what gives flowers their powers, the trash sings about its can, and fruit fuels the rest.",
+      "resolution": "No feeling to work through exists in an earth-care lesson, and the row lets the flowers-get-their-powers-from-water song and the keep-the-world-clean song carry it.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x04 Green, title-matched; content verified: the flowers-get-their-powers-from-water song, the fruit song, Mark's tree drawing, the banana-juice snack, the talking-trash throw-us-away song, the counting-on-you keep-the-world-clean song, the crazy daisy dance'; confidence high. Coping left empty with reason per dev set. Topics per dev set: environmental care has no controlled topic; the fruit and cooking beats are segments, not the story."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "12",
+      "segment": null,
+      "segment_title": "Family",
+      "story_lead": "Foofa and Brobee go quiet in front of Muno's visiting family, teeth-chattering silence and all. Plex's name-plus-nice-to-meet-you greeting gets everyone talking, and their second attempt sticks.",
+      "resolution": "The nervousness of meeting new grown-ups gets trying again, the taught greeting script and the second attempt, and the that's-my-family song carries the visits home.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x14 Family, title-matched; content verified: the surprise visit, the oldest-to-youngest family introductions, the that's-my-family song, Foofa and Brobee's teeth-chattering silence, Plex modeling say-your-name-and-nice-to-meet-you, the it's-nice-to-meet-you song and their second attempt, DJ Lance's sister Kimba arriving, the family music cool trick'; confidence high. Coping anchored per dev set to trying again with a taught greeting script; noted as a judgment call since the shown tool is a social script rather than a named feeling strategy."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "13",
+      "segment": null,
+      "segment_title": "Art",
+      "story_lead": "Muno spills paint on Foofa's picture at the art show, and her you-always-wreck-everything brings tears and the don't-say-mean-things song. Two sorries and a helping hand rebuild the painting.",
+      "resolution": "The wrecked picture gets apologizing, the two-way sorry, and Muno helping paint a fresh one is what the ooh-ahh art-show songs celebrate.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x18 Art, title-matched; content verified: the art-show setup, the color-mixing verses through brown, Muno's trip and the paint spill, Foofa's you-always-wreck-everything outburst and tears, the don't-say-mean-things-to-friends song, both apologies, the fresh paper and Muno helping paint a new picture, the ooh-ahh art-show songs, MGMT's art-is-everywhere'; confidence high. Coping anchored per dev set to the two-way apology; the helping-repair beat also appears."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "14",
+      "segment": null,
+      "segment_title": "Boat",
+      "story_lead": "A boat trip with a treasure map sends ocean facts flying by, and Brobee faces a brand-new sandwich he has never tasted. Friends cheer try-it-you'll-like-it until the party in his tummy starts.",
+      "resolution": "The nervousness of the untasted food gets trying again, the one-bite ask that is the episode's central move, and the I-tried-it-and-now-I-like-it turn is what lands at the island band.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x16 Boat, title-matched; content verified: the map and the water-to-you beat, the boat-trip song, the narwhal-unicorn-of-the-sea, the try-it-you'll-like-it song over Brobee's I've-never-tried-a-sandwich hesitation, his I-tried-it-and-now-I-like-it turn, the tummy party song, Reeve Oliver's I-like-sandwiches, Shelly's saltwater fish band on the island'; confidence high. Coping anchored per dev set to trying a new food once, the episode's central ask. Topics: Food & cooking and Things that go both central."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "15",
+      "segment": null,
+      "segment_title": "Band",
+      "story_lead": "Everyone picks an instrument to start a band, and the noise is terrible at first. The patience song teaches breathe-in-breathe-out while the sound gets good, and practice turns it into a hit song together.",
+      "resolution": "The impatience of the early noise gets patience, the breathe-in-breathe-out stay-calm-and-wait practice, and the backup-band slot on the Super Music Friends Show is what the practice earned.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x11 Band, title-matched; content verified: the we-love-to-rock song, Brobee wanting the band's drums and being told they are special, each friend's I-want-a instrument verse including the keytar, the breathe-in-breathe-out patience song, the got-to-practice songs, the backup-band slot on the Super Music Friends Show with Lady Tigra, the hit-song teamwork verses'; confidence high. Coping per dev set: shown literally as the patience song's stay-calm-and-wait practice."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "16",
+      "segment": null,
+      "segment_title": "Dress Up",
+      "story_lead": "A hat and a pretend make anyone at all: astronaut, sheriff, wizard. The save-the-princess quest carries a we're-a-little-scared verse inside the game, and the hero and unicorn take the story to hooray.",
+      "resolution": "The fear stays inside the pretend and gets carried by friends rather than worked through, and the row leaves the dress-up play as play.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x19 Dress Up, title-matched; content verified: the funny-hat song and the silly-way-to-wear-it verses, the cowboy ballad where nice Muno faces the mean cowboy and wins the banana showdown, the you're-welcome-back-if-you-play-nice door line, the save-the-princess pretend with hero Brobee, mean-dragon Toodee, magic-unicorn Muno and wizard Plex, the we're-a-little-scared verse inside the game, Reeve Oliver's let's-dress-up'; confidence high. Coping left empty with reason per dev set: the episode is pretend play; the fear appears inside the game and is carried by friends."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "17",
+      "segment": null,
+      "segment_title": "Big",
+      "story_lead": "Brobee is the smallest one, and he sobs that he wants to be big, too small for catch and done trying. The friends' songs reframe him, big-or-small-you're-our-friend, and a turn being gigantic teaches its own lesson.",
+      "resolution": "The sadness about being small gets reframed, size as what is inside that counts, and his long arms coming back down to help with the stuck ball is where small turns exactly useful.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x12 Big, title-matched; content verified: Brobee's I'm-too-small give-up at catch, the I-want-to-be-big song and big-or-small-you're-our-friend song, the grow song about things taking time, the big-things-small-things game, giant Brobee too big to play, his long arms coming back down to help with the stuck ball, Jem's some-things-are-big song'; confidence high. Coping per dev set: friends reframe smallness as nothing wrong and size as what is inside that counts; tagged reframing/distraction consistent with the Weather ruling, noted as a judgment call."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "18",
+      "segment": null,
+      "segment_title": "Ride",
+      "story_lead": "Muno's skateboard spills come with an ouch-that-hurt song each time, and Plex coaches front-foot-push-off-slowly with an I-know-it-hurts-but-you're-doing-great. Helmets, buckle-ups and the bike trail carry the day to the surf.",
+      "resolution": "The hurt of each fall gets trying again, keep trying till it works, and the half-pipe warning keeps the coaching honest.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x15 Ride, title-matched; content verified: the bikes-are-fun trail ride with helmets named, Muno's ouch-that-hurt song after each skate spill, Plex's front-foot-push-off-slowly lesson and I-know-it-hurts-but-you're-doing-great reassurance, the half-pipe warning, the buckle-up dance, Dean & Britta's ride song, Foofle's surfing with Toodee'; confidence high. Coping per dev set: shown literally as keep trying till it works. Skateboard topic candidate noted for calibration; tagged Things that go."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "19",
+      "segment": null,
+      "segment_title": "Space",
+      "story_lead": "A rocket ride lands the gang on a sparkly planet, and Muno hesitates to befriend the Elek people because they look so different. Differences become the very reason everyone can be friends.",
+      "resolution": "The nervousness of the different-looking gets reframed, the we're-all-different-but-still-friends songs, and Foofa's don't-be-scared-we'll-be-with-you beat carries the landing.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x06 Space, title-matched; content verified: stargazing and the telescope, the sparkly star that is really a far planet, space suits and liftoff, Foofa's don't-be-scared-we'll-be-with-you beat, the rocket-ride song, Lloyd's asteroid story, Muno's I-don't-want-to-make-new-friends and the we're-all-different-but-still-friends songs'; confidence high. Coping per dev set: the reframe of difference into common ground, shown in song; flagged as a judgment call against a strategy list built for feelings work."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "2",
+      "episode_number": "20",
+      "segment": null,
+      "segment_title": "Mystery",
+      "story_lead": "Muno hunts his lost hat and finds it on sad Gooble, who confesses it was to stop his crying, and the kindness is you-can-wear-it-just-ask-first. Toodee and Plex follow a flower trail through a spooky dark cave to a picnic with new bat friends.",
+      "resolution": "The scare of the dark gets asking for comfort, the don't-be-scared-of-the-dark song and company, and the don't-be-scared-of-us-bats reframe turns the cave into a picnic.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 02x13 Mystery, title-matched; content verified: Muno's where-is-my-hat mystery, the look-again nice-and-slow song, the water-drop clue path and magnifying glass, Gooble's confession that the hat was to stop his crying and the you-can-wear-it-just-ask-first kindness, Foofa's picnic note and the fooful mystery, the don't-be-scared-of-the-dark song in the cave, the don't-be-scared-of-us-bats reframe, Ladytron's how-does-it-work song'; confidence high. Coping per dev set: reassurance and company in the dark, shown literally as don't-be-afraid support; the bat beat also reframes difference."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Circus",
+      "story_lead": "Brobee wants to be a clown but does not know how, and he says so again and again. The ringmaster's step-by-step teaching, from big face to colorful clothes, plus a mime lesson for Muno gets everyone into the big top.",
+      "resolution": "The worry of not knowing how gets asking for help, the clown-teacher promise and Muno's own I-need-someone-to-teach-me line, and the pie-in-the-face present ends in the ooh-ahh show.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 03x07 Circus, title-matched; content verified: the one-person parade and ringmaster introduction, Brobee's repeated I-don't-know-how-to-be-a-clown and the clown-teacher promise, Muno's I-need-someone-to-teach-me mime line and the mime dancey dance, the to-be-a-clown face-and-clothes verses, the pie-in-the-face present, the big-top show with the ooh-ahh songs and Toodee leading the parade'; confidence high. Coping anchored per dev set to asking a teacher for help and receiving it; the uncertainty is mild and noted."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Bugs",
+      "story_lead": "Muno leads a bug tour through Gabbaland, and Plex shrinks everyone small enough to follow the Oskie bugs underground. Queen Oskie Bug teaches what eggs and baby bugs are all about.",
+      "resolution": "There is no feeling to work through on the bug tour, and the row lets the tunnels, the queen and the little-baby-bugs song carry it.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 03x13 Bugs, title-matched; content verified: Muno's I-love-bugs verses and the so-many-cool-things-bugs-can-do song, the springtime plants-and-flowers reasoning, the shrink-down and follow-the-oskie-bugs song, the underground tunnels with ants, worms, centipedes and pill bugs, the queen's tour and the little-baby-bugs-come-from-little-eggs song, Mix Master Mike's cool trick'; confidence high. Coping left empty with reason per dev set."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Doctor",
+      "story_lead": "Toodee's fever means a sick day and rest she does not want, and she says she does not like doctors. The doctor's gentle checkup, the rest-up song, and friends' soup and juice help her feel better.",
+      "resolution": "The scare of the doctor gets asking for help, friends sharing their own good doctor experiences first, and the help-your-friends song and the soup-making close the sick day kindly.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 03x04 Doctor, title-matched; content verified: Toodee's I-wanna-play protests through the sneezes, the get-plex-and-dj-lance-they-can-help moment, the you've-gotta-rest-up song, her I-don't-like-doctors and I-don't-want-to-see-the-doctor lines, friends sharing their own good doctor experiences, the doctor-doctor song, Dr. Tony's visit and cold diagnosis, the rest-liquids-and-chicken-soup advice, the help-your-friends song and the soup-making'; confidence high. Coping anchored per dev set to accepting the doctor's help and friends' care; the normalization beat noted. Content consideration carried: illness and doctors."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Superhero",
+      "story_lead": "Toodee's bam-pow superhero play spreads, and everyone draws their own hero self with paper and crayons. The new superheroes play out who they want to be, from Ultra Plex to super-strong Toodee.",
+      "resolution": "There is no feeling to work through in imaginative play, and the row lets the let's-play-superheroes and we-can-be-who-we-want-to-be verses carry it.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 03x06 Superhero, title-matched; content verified: Toodee's bam-pow-whee superhero play, Plex's create-your-own-hero with paper and crayons, the let's-play-superheroes and we-can-be-who-we-want-to-be verses, the drawn-selves intro'; confidence high. Coping left empty with reason per dev set."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Baby",
+      "story_lead": "Brobee insists he is way too big for baby things, until baby videos show that everyone he loves was once a baby. Caring for a baby brother becomes a gentle job he can help with.",
+      "resolution": "The embarrassment of baby things gets asking for help with the care, and the proud of being a big kid is what helping a baby brother earns.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript (FD 03x12 Baby), matched by title and story content to the catalog synopsis (baby videos, Muno and Plex's families)'; thin verified beat list, confidence medium. Topics per dev set: no starter topic fits a babies-and-family-care story; left empty rather than forced. Age edge call carried: all nine S3/S4 preschool stories judged 2-4 individually."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "School",
+      "story_lead": "Brobee and Toodee dread the first day of school until they meet their teacher, Miss Angela, and see what show-and-tell is. School turns out to be awesome.",
+      "resolution": "The nervousness of the first day gets reframed by the visit itself, seeing what happens there, and the happy of the decision that school is awesome is what the dread became.",
+      "evidence_note": "Script: dev set note reads 'FD 03x01 School, title-matched (Miss Angela the teacher, Brobee and Toodee nervous about school, matching the catalog synopsis)'; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "Fairytale",
+      "story_lead": "Jack trades the family's broken bean machine for two magic beans, and the story holds its breath over the trade. Holding onto belief in the magic carries him up the beanstalk to the Giant and his bean machine.",
+      "resolution": "The disappointment of the broken machine meets patience, the belief that the magic beans will mean something, and the happiness of the beanstalk kingdom is what the trade became.",
+      "evidence_note": "Script: dev set note reads 'FD 03x08 Fairytale, title-matched (Jack, magic beans, Brobee as the Giant, bean machine, matching the catalog synopsis)'; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "Adventure",
+      "story_lead": "Muno wishes for a big adventure, and a hidden passage opens under Gabbaland. The gang follows carved clues through the jungle to a golden treasure.",
+      "resolution": "There is no negative feeling in a wish-fulfillment adventure, and the row lets the carved clues and the golden treasure carry it.",
+      "evidence_note": "Script: dev set note reads 'FD 03x02 Adventure, title-matched (Indiana Jones style jungle, pyramid, golden treasure per the catalog synopsis)'; thin verified beat list, confidence medium. Coping left empty per dev set: a wish-fulfillment adventure where no negative feeling arises."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": "Nature",
+      "story_lead": "The gang packs backpacks and hikes up the Gabbaland mountain for a first camping trip. S'mores, a campfire story game and a night outdoors fill it.",
+      "resolution": "No negative feeling shows up in a gentle camping how-to, and the row lets the campfire and the s'mores carry the calm.",
+      "evidence_note": "Script: dev set note reads 'FD 03x03 Nature, title-matched'; the catalog synopsis is blank, so identity was checked against transcript content (camping, s'mores, campfire story game, the mountain); confidence medium. Coping left empty per dev set: a gentle camping how-to with no negative feeling."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": "Treasure",
+      "story_lead": "New friends arrive with a compass, and everyone in Gabbaland joins a treasure hunt of clues, an ice cave keyhole and a dance in a secret cave. The treasure waits for the dance.",
+      "resolution": "No negative feeling is on the hunt, and the row lets the clues, the keyhole and the secret-cave dance carry the fun.",
+      "evidence_note": "Script: dev set note reads 'FD 03x10 Treasure, title-matched (compass guests, clue hunt, secret cave dance per the catalog synopsis)'; thin verified beat list, confidence medium. Coping left empty per dev set: a celebratory hunt with no negative feeling on the page."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "11",
+      "segment": null,
+      "segment_title": "Flying",
+      "story_lead": "Brobee tries every way he can think of to fly, bird wings and airplane wings included, and keeps failing. Friends and a ride on Balloony get him into the sky after all.",
+      "resolution": "The sadness of the failed liftoffs gets trying again and asking for help in one, and helping Sparkles fix her balloon is how the sky comes to him.",
+      "evidence_note": "Script: dev set note reads 'FD 03x05 Flying, title-matched (Brobee wishes to fly, fails with bird then airplane wings, rides Balloony, helps Sparkles fix her balloon)'; thin verified beat list, confidence medium. Topics anchored to Things that go."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "12",
+      "segment": null,
+      "segment_title": "Clubhouse",
+      "story_lead": "Muno and Brobee build a boys-only clubhouse with a secret knock, and Foofa and Toodee are shut out. They build a clubhouse of their own, and the do-our-own-thing song carries the answer.",
+      "resolution": "The loneliness and the anger of being shut out get reframed into a clubhouse of their own, and the do-our-own-thing song is where the answer starts.",
+      "evidence_note": "Script: dev set note reads 'FD 03x09 Clubhouse, title-matched (boys-only clubhouse, secret knock, do-our-own-thing song)'; the transcript page cut off before the final resolution, so tags anchor on the shown scenes plus the catalog synopsis (a sing and dance way to a solution); confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "3",
+      "episode_number": "13",
+      "segment": null,
+      "segment_title": "Pets",
+      "story_lead": "Foofa gets her first pet and hatches too many mokichos, and Spotty goes bouncy. The hard way teaches her that Plex's care rules are the job itself.",
+      "resolution": "The sadness and the guilt of the overwhelmed pet care get apologizing and asking for help, and Plex's rules do the rescuing.",
+      "evidence_note": "Script: dev set note reads 'FD 03x11 Pets, title-matched (Plex's pet-care rules, Foofa's mokicho, matching the catalog synopsis)'; thin verified beat list, confidence medium. Topics per dev set: pets sit outside the eight-term starter set (the animals category was excluded as cast bias)."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Christmas Special",
+      "story_lead": "Presents are wrapped for everyone except Santa, and nobody can think of a gift for him. A homemade present made with your own head and hands turns out to be the special one.",
+      "resolution": "The stuck feeling of no-idea-what-to-give gets trying again, the make-it-yourself song, and the homemade gift is what Santa gets.",
+      "evidence_note": "Script: dev set note reads 'FD 04x03 A Very Awesome Christmas, title-matched (no present for Santa per the catalog synopsis, make-it-yourself song)'; thin verified beat list, confidence medium. Topics per dev set: no starter topic covers holiday gift-giving, and Birthday & party would mislabel a Christmas story."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Olympics",
+      "story_lead": "Medals and events fill the gang's own Olympics, and Brobee learns that being little does not decide what you can be good at. Deciding, working and practicing do, and his free throw proves it. Foofa trips mid-routine and finishes her dance anyway.",
+      "resolution": "The worry of being the littlest one gets trying again, deciding and working and practicing, and the proud of the medal is what the effort earned.",
+      "evidence_note": "Script: dev set note reads 'FD 04x06 Olympics, title-matched (own Olympics, events, medals, Brobee's free throw; Foofa trips mid-routine and finishes her dance)'; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Gooble",
+      "story_lead": "Gooble the ghost is always sad and does not know why, so the gang plans a spooky costume party at his house to show him he has friends. His dark house comes with a fear-of-the-dark song, handled with a light and staying close.",
+      "resolution": "The sadness that does not know its name gets talking it out and asking for comfort, the party proof that he has friends, and the scared of the dark house gets a light and company.",
+      "evidence_note": "Script: dev set note reads 'FD 04x01 Gooble, title-matched'; content consideration carried per dev set: Gooble's dark, spooky house and the fear-of-the-dark song, handled with a light and staying close; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Super Spies",
+      "story_lead": "A bad spy steals the balloon art right before the party, and the gang becomes super spies with silly gadgets. The teamwork chase tracks him down and gets the balloons back.",
+      "resolution": "The disappointment of the stolen party gets asking for help, the gadget mission shared out, and the brave of the chase is what brings the balloon art home.",
+      "evidence_note": "Script: dev set note reads 'FD 04x08 Super Spies, title-matched (bad spy steals the balloon art, gadget mission, teamwork chase per the catalog synopsis)'; content consideration per dev set: a costumed villain steals and is chased, resolved by teamwork with nothing scary in tone; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Farm",
+      "story_lead": "Farmer Josh teaches the gang how a farm works, and every friend takes a chore, from feeding chickens to fixing the tractor. The farmer's market and a hoedown close the visit.",
+      "resolution": "There is no negative feeling on the farm day, and the row lets the chores and the hoedown carry the happy; asking for help is how the chores get learned.",
+      "evidence_note": "Script: dev set note reads 'FD 04x12 Farm, title-matched (Farmer Josh, chores, farmer's market, hoedown)'; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "DJ Lance's Super Music & Toy Room",
+      "story_lead": "DJ Lance Rock sees that the star on his hat is missing, and he goes back to his super music and toy room to find it. The friends' ask-before-you-pick-it-up song is what the search turns up.",
+      "resolution": "The sadness of the missing star gets apologizing, the friends' own sorries for taking things without asking, and the star is what the ask-first lesson found.",
+      "evidence_note": "Script: dev set note reads 'FD 04x02 DJ Lance's Super Music and Toy Room, title-matched (missing star, ask-before-you-pick-it-up song, the friends apologize)'; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "Shopping",
+      "story_lead": "Plex runs out of the ingredients he needs to make pancakes, and the Gabba Gang heads to the supermarket with a list. Cookies are wanted, the list is what gets followed.",
+      "resolution": "The impatience of the wanted-now cookies gets patience, the list followed as written, and the pancakes are what the shopping earned.",
+      "evidence_note": "Script: dev set note reads 'FD 04x07 Shopping, title-matched (pancakes, the list, Super Gabba Mart, wanting cookies but getting what the list needs)'; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "Dinosaur",
+      "story_lead": "Muno, Brobee and Toodee visit the land of the dinosaurs, toy dinos turned real by the magic raft. Herbivores and carnivores get told apart before the sleepy ending.",
+      "resolution": "There is no negative feeling in a wonder-and-discovery story, and the row lets the raft and the dinosaurs carry it.",
+      "evidence_note": "Script: dev set note reads 'FD 04x09 Dinosaur, title-matched (toy dinos, magic raft, herbivore and carnivore, sleepy ending)'; thin verified beat list, confidence medium. Coping left empty per dev set. Topics per dev set: no starter topic covers dinosaurs; 'dinosaurs' recorded as a topic candidate for vocabulary review only (depth floor applies)."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": "Day Camp",
+      "story_lead": "The Gabba Gang goes to day camp, and Toodee misses her brother Keedee in the middle of the races and follow-the-leader. Brobee steps in as her buddy, and she apologizes for being bristly about it.",
+      "resolution": "The loneliness of missing home gets apologizing, Toodee's sorry for the bristle, and the camp-buddy pairing is what makes the games fun again.",
+      "evidence_note": "Script: dev set note reads 'FD 04x13 Day Camp, title-matched (camp buddies, Toodee missing her brother Keedee, races and follow-the-leader; Brobee steps in as her buddy and Toodee apologizes for being bristly)'; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": "Restaurant",
+      "story_lead": "The Gabba Gang goes to a restaurant, menus and manners and the waitress Busy. Waiting is the hard part, and Brobee's crawl under the table ends in a sorry.",
+      "resolution": "The impatience of the wait and the embarrassment of the under-table crawl get patience and apologizing, and the meal is what the manners earned.",
+      "evidence_note": "Script: dev set note reads 'FD 04x10 Restaurant, title-matched (TJ McFunster's, waitress Busy, menus, restaurant manners while waiting; Brobee apologizes for crawling under the table)'; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "11",
+      "segment": null,
+      "segment_title": "Show",
+      "story_lead": "DJ Lance Rock and the Gabba Gang are invited to the Swami's super music friends show, and Brobee's ticket goes missing. He names being too nervous, works up to asking, and the encore plays them out.",
+      "resolution": "The nervousness of the big show gets naming the feeling out loud, and the lost ticket found plus the autograph asked for is what the brave looked like.",
+      "evidence_note": "Script: dev set note reads 'FD 04x04 Show, title-matched (the Swami, Brobee's lost ticket, encore per the catalog synopsis; Brobee names being too nervous, then works up to asking for the autograph)'; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "12",
+      "segment": null,
+      "segment_title": "Mermaids",
+      "story_lead": "Foofa accidentally drops her doll into a pond, and she and Toodee meet a mermaid named Tammy. Together, magic necklaces on, they go to the Mer-kingdom to find the doll, where everyone looks strange and helps each other every day.",
+      "resolution": "The sadness of the dropped doll gets asking for help, Tammy and the magic necklaces, and the looks-different lesson is what the Mer-kingdom taught on the way.",
+      "evidence_note": "Script: dev set note reads 'FD 04x05 Mermaids, title-matched (Tammy, magic necklaces, mer-kingdom)'; carries a looks-different theme per dev set: everyone looks strange but they help each other every day; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "13",
+      "segment": null,
+      "segment_title": "Quest",
+      "story_lead": "Trouble in a medieval village brings the Gabba Gang to a king who has lost control of his kingdom, and the trouble is a naughty dragon bully named Carl who smashes a cake and takes blankets. Toodee says she is scared she is not brave enough, names it out loud, and goes anyway.",
+      "resolution": "The scare of not being brave enough gets naming the feeling, and going anyway plus meeting Carl's meanness with kindness is what the quest turned on.",
+      "evidence_note": "Script: dev set note reads 'FD 04x11 Quest, title-matched (Mini-King Tambor, dragon bully, stolen blankets; Toodee's named fear and the kindness resolution per the dev set)'; content consideration carried: a bully who smashes a cake and takes blankets, no scary outcome; thin verified beat list, confidence medium."
+    },
+    {
+      "series_title": "Yo Gabba Gabba!",
+      "season_number": "4",
+      "episode_number": "14",
+      "segment": null,
+      "segment_title": "Mason",
+      "story_lead": "Mason goes to Gabbaland on a helicopter chair, and that is the story the record tells. The visit itself stays at evidence level.",
+      "resolution": "No feeling beat exists in the synopsis, and the row leaves the visit as it stands rather than inventing one.",
+      "evidence_note": "Synopsis-only: dev set note reads 'the 46-character catalog synopsis is the only evidence; no script source and no FD 04x14 transcript; tagged at the synopsis's evidence level; coping left empty: no feeling beat in the synopsis'; confidence low. Dev-set top-up carried (2026-11-14): Forever Dreaming's Season 4 topics still end at 04x13 (latest posts dated 2023-05-26); no 04x14 or Mason transcript exists anywhere probed."
+    }
+  ]
+}

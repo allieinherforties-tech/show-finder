@@ -5,6 +5,8 @@
   "sheetName": "Sago Mini Friends",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 45,
   "rows": [
     {

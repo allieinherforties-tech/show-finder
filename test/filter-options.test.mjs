@@ -50,5 +50,6 @@ test('the retired Series dropdown stays retired, with its eight-story census on 
   const census = seriesCensus();
   assert.ok(!census.includes('Helpsters Help You'), 'a six story series stays under the floor');
   assert.ok(!census.includes('The Sisters Grimm'), 'a series held under the floor by the parent-facing gate stays out until curation re-verifies it');
-  assert.equal(census.length, 16);
+  // Wave 2 grew the catalog to 53 series; 47 clear the eight-story floor.
+  assert.equal(census.length, 47);
 });

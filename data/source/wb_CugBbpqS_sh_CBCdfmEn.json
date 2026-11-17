@@ -5,6 +5,8 @@
   "sheetName": "Duck & Goose dev (33 rows)",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 33,
   "rows": [
     {

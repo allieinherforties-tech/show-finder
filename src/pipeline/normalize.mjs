@@ -130,16 +130,20 @@ export function isPlaceholderRow(story) {
 
 /**
  * Spec gate for published rows: a story row must carry a real situation and a
- * full tag set (age band, vibe, emoji, coping) before it can ship. Returns the
- * list of missing fields; an empty list means the row conforms.
+ * full tag set (age band, vibe, emoji, coping) before it can ship. Wave 2
+ * craft rows may carry a faithful upstream absence (the craft row shows no
+ * resolution), so callers pass { requireCoping: false } for those and the
+ * Resolution line simply does not render; the absence is reported in the
+ * build validation report, never invented. Returns the list of missing
+ * fields; an empty list means the row conforms.
  */
-export function publishProblems(story) {
+export function publishProblems(story, { requireCoping = true } = {}) {
   const problems = [];
   if (!story.situation || NOT_ASSESSED.test(story.situation)) problems.push('situation');
   if (!story.ageBand) problems.push('age band');
   if (!story.vibe) problems.push('vibe');
   if (!story.emoji) problems.push('emoji');
-  if (!story.coping) problems.push('coping');
+  if (requireCoping && (!story.coping || NOT_ASSESSED.test(story.coping))) problems.push('coping');
   return problems;
 }
 
@@ -212,6 +216,7 @@ export function searchableText(row) {
     row.episodeTitle,
     row.seriesTitle,
     row.notes,
+    row.topics,
   ]
     .filter(Boolean)
     .join(' ');

@@ -5,6 +5,8 @@
   "sheetName": "Get Rolling with Otis",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 35,
   "rows": [
     {

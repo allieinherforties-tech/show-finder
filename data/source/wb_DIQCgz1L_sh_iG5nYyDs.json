@@ -5,6 +5,8 @@
   "sheetName": "Interrupting Chicken",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 38,
   "rows": [
     {

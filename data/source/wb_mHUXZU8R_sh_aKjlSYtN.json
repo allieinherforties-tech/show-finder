@@ -5,6 +5,8 @@
   "sheetName": "The Sisters Grimm",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 12,
   "rows": [
     {

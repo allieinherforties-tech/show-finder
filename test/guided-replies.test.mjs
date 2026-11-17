@@ -33,8 +33,9 @@ const FACETS = {
 
 test('round one offers the dominant emotion split, then age and series', () => {
   const options = deriveClarifiers(FACETS, { emotion: '', age: '', series: '', round: 0 }, 20);
-  assert.deepEqual(options.slice(0, 3).map((o) => o.value), ['frustrated', 'lonely', 'nervous/worried']);
-  assert.deepEqual(options.slice(3).map((o) => [o.facet, o.value]), [
+  // Four feelings, then the age bands (see EMOTION_CHOICES in guided-replies.js).
+  assert.deepEqual(options.slice(0, 4).map((o) => o.value), ['frustrated', 'lonely', 'nervous/worried', 'sad']);
+  assert.deepEqual(options.slice(4).map((o) => [o.facet, o.value]), [
     ['age', '5-7'],
     ['age', '2-4'],
   ]);

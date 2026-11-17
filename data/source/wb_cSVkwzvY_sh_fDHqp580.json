@@ -1,0 +1,483 @@
+{
+  "workbookId": "wb_cSVkwzvY",
+  "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+  "sheetId": "sh_fDHqp580",
+  "sheetName": "Craft batch 11 (Me, Hello Jack!, Yo Gabba GabbaLand!)",
+  "kind": "craft-stories",
+  "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
+  "rowCount": 47,
+  "rows": [
+    {
+      "series_title": "Me",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Pilot",
+      "story_lead": "Ben is struggling through major life changes when a run-in with a bully triggers a mysterious transformation. The synopsis leaves the transformation and the struggle where it starts.",
+      "resolution": "No strategy is shown for the worry yet, and the row says so rather than inventing one; bullying is the content note to know going in.",
+      "evidence_note": "Synopsis-only: dev set note reads 'SubSource is blocked by a Cloudflare challenge (HTTP 403, tried this session) and SubtitleCat carries no Me 2024 files (searched with several query shapes)'; tier stands. Dev-set top-up carried (2026-11-14): SubSource still 403 behind its browser challenge; SubtitleCat's Me 2024 search returns only unrelated titles; no Forever Dreaming forum exists for this series. Age-band call per dev set: tween drama, 8-10. Vibe call per dev set: the drama tone reads calm against the three-value scale. Content consideration carried: bullying."
+    },
+    {
+      "series_title": "Me",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Lines in the Sand",
+      "story_lead": "Ben and Max start searching for answers about what is happening to Ben. Darren embarks on his own investigation as secrets from his past begin to surface.",
+      "resolution": "The confusion drives the search, and no strategy for the feeling is shown; the row records the looking, not the finding.",
+      "evidence_note": "Synopsis-only: dev set note reads 'SubSource is blocked by a Cloudflare challenge (HTTP 403, tried this session) and SubtitleCat carries no Me 2024 files (searched with several query shapes)'; tier stands. Dev-set top-up carried (2026-11-14): SubSource still 403; SubtitleCat's Me 2024 search returns only unrelated titles; no Forever Dreaming forum exists for this series. Age-band and vibe calls per dev set: tween drama, 8-10, calm."
+    },
+    {
+      "series_title": "Me",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Facing Up",
+      "story_lead": "Ben tries to trigger his own abilities and lands Max in a tricky spot, which gives Carter reason to question Ben's choices. The synopsis stops at the consequence.",
+      "resolution": "Being questioned is the worry the synopsis leaves unhandled, and the row leaves it there.",
+      "evidence_note": "Synopsis-only: dev set note reads 'SubSource is blocked by a Cloudflare challenge (HTTP 403, tried this session) and SubtitleCat carries no Me 2024 files (searched with several query shapes)'; tier stands. Dev-set top-up carried (2026-11-14): SubSource still 403; no usable English script found. Age-band and vibe calls per dev set: tween drama, 8-10, calm."
+    },
+    {
+      "series_title": "Me",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Opportunity Costs",
+      "story_lead": "Ben sets out to expose Jason while Darren's determination sparks concern in the family. Phil reveals a thoughtful surprise.",
+      "resolution": "The concern of the family is named but never handled on the page, and the row says so.",
+      "evidence_note": "Synopsis-only: dev set note reads 'SubSource is blocked by a Cloudflare challenge (HTTP 403, tried this session) and SubtitleCat carries no Me 2024 files (searched with several query shapes)'; tier stands. Dev-set top-up carried (2026-11-14): SubSource still 403; no usable English script found. Age-band and vibe calls per dev set: tween drama, 8-10, calm."
+    },
+    {
+      "series_title": "Me",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Under Pressure",
+      "story_lead": "A covert mission takes shape on Max's birthday, and the pressure to please her parents becomes a burden she carries alone. The synopsis gives the burden no outlet.",
+      "resolution": "The worry and the sadness of carrying it alone are shown as carried, and the row leaves the burden unrelieved rather than inventing relief.",
+      "evidence_note": "Synopsis-only: dev set note reads 'SubSource is blocked by a Cloudflare challenge (HTTP 403, tried this session) and SubtitleCat carries no Me 2024 files (searched with several query shapes)'; tier stands. Dev-set top-up carried (2026-11-14): SubSource still 403; no usable English script found. Topics per dev set: the birthday is the setting, the pressure is the story, so Birthday & party would mislead. Age-band and vibe calls per dev set: tween drama, 8-10, calm."
+    },
+    {
+      "series_title": "Me",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "The Lighthouse",
+      "story_lead": "Hoping to better understand the past, Ben and Max visit Darren at home. There they connect with a familiar stranger.",
+      "resolution": "The confusion about the past gets a visit and a connection, and talking it out is the approximation flagged in the evidence note, not a shown strategy.",
+      "evidence_note": "Synopsis-only: dev set note reads 'SubSource is blocked by a Cloudflare challenge (HTTP 403, tried this session) and SubtitleCat carries no Me 2024 files (searched with several query shapes)'; tier stands. Dev-set top-up carried (2026-11-14): SubSource still 403; no usable English script found. Coping per dev set: talking it out, stated with the reason, flagged as an approximation. Age-band and vibe calls per dev set: tween drama, 8-10, calm."
+    },
+    {
+      "series_title": "Me",
+      "season_number": "1",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "Turning Point",
+      "story_lead": "An enemy's return brings danger to the town of Boatright, and Ben's bold move threatens to destroy his relationship with Max. The synopsis leaves both hanging.",
+      "resolution": "The worry of the danger and the sadness of the threatened friendship are shown as risks taken, with no repair shown; the row does not invent one.",
+      "evidence_note": "Synopsis-only: dev set note reads 'SubSource is blocked by a Cloudflare challenge (HTTP 403, tried this session) and SubtitleCat carries no Me 2024 files (searched with several query shapes)'; tier stands. Dev-set top-up carried (2026-11-14): SubSource still 403; no usable English script found. Content considerations carried: revenge and danger themes. Age-band and vibe calls per dev set: tween drama, 8-10, calm."
+    },
+    {
+      "series_title": "Me",
+      "season_number": "1",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "Letting Go",
+      "story_lead": "A rift challenges the family, and Carter's past proves critical to understanding the danger Yates has brought to town. The synopsis gives the rift no repair work.",
+      "resolution": "The sadness and the anger of the family rift are named, not mended, and the row leaves them as the synopsis does.",
+      "evidence_note": "Synopsis-only: dev set note reads 'SubSource is blocked by a Cloudflare challenge (HTTP 403, tried this session) and SubtitleCat carries no Me 2024 files (searched with several query shapes)'; tier stands. Dev-set top-up carried (2026-11-14): SubSource still 403; no usable English script found. Content considerations carried: family conflict, menace themes. Age-band and vibe calls per dev set: tween drama, 8-10, calm."
+    },
+    {
+      "series_title": "Me",
+      "season_number": "1",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": "Head in the Sand",
+      "story_lead": "Faced with a desperate plea, Ben decides how to use his powers and digs deep to define who he wants to be. The synopsis frames the decision rather than the feeling work.",
+      "resolution": "The confusion of who to be meets an identity decision in the synopsis, and no coping strategy is shown; the row records the deciding, not a strategy.",
+      "evidence_note": "Synopsis-only: dev set note reads 'SubSource is blocked by a Cloudflare challenge (HTTP 403, tried this session) and SubtitleCat carries no Me 2024 files (searched with several query shapes)'; tier stands. Dev-set top-up carried (2026-11-14): SubSource still 403; no usable English script found. Age-band and vibe calls per dev set: tween drama, 8-10, calm."
+    },
+    {
+      "series_title": "Me",
+      "season_number": "1",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": "The End of the Beginning",
+      "story_lead": "The spring dance turns into a showdown as Yates seeks revenge, and Ben and his allies work together to end the chaos. The synopsis makes it the season's biggest confrontation.",
+      "resolution": "Standing together is the brave the synopsis gives against the showdown's worry, with no strategy beyond it; the row says so.",
+      "evidence_note": "Synopsis-only: dev set note reads 'SubSource is blocked by a Cloudflare challenge (HTTP 403, tried this session) and SubtitleCat carries no Me 2024 files (searched with several query shapes)'; tier stands. Dev-set top-up carried (2026-11-14): SubSource still 403; no usable English script found. Content considerations carried: revenge storyline, sustained tension. Topics per dev set: the spring dance is the setting, the showdown is the story. Age-band and vibe calls per dev set: tween drama, 8-10, calm."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Jack's Kindness Story",
+      "story_lead": "Olivia writes and illustrates her own book to make her uncle laugh. When the pages scatter across town, delivery by delivery, everyone ends up helping gather and share it.",
+      "resolution": "The happiness of the gift is the story from start to finish, and there is no struggle to handle; the row lets the laughter land, Uncle Theo's included.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the handmade book, Delivery Delores carrying the lost pages unknowingly, the town reading it aloud together, Uncle Theo laughing at the silly story, Cooper making a book for Jack)'; confidence high. Custom situation per dev set: doing something kind for someone you love. Coping left empty with reason per dev set. Topics anchored to the book-making story."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Jack and the Fur-Ever Home Finders",
+      "story_lead": "Sonia cares for the animals at an adoption fair and wants every pet to find a home, so Jack and the neighbors join her as the Fur-Ever Home Finders. A no-pets apartment gets answered with hand-drawn pet portraits.",
+      "resolution": "This one is a helping story with no feeling to work through, and the row leaves it there, happy and adopted down to the last unclaimed puppy, named Happy.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the adoption fair, a would-be adopter blocked by a no-pets apartment answered with hand-drawn pet portraits, Jack adopting the last unclaimed puppy and naming him Happy)'; confidence high. Coping left empty with reason per dev set. Content consideration carried: adoption-fair theme, handled gently."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Jack and Cooper's Chalk Game",
+      "story_lead": "Cooper's giant chalk game, Hop-o-Rama, is washed away by water, and he says exactly how sad that feels. With Jack's encouragement, the town rebuilds it even bigger, all the way to the café.",
+      "resolution": "The sadness of the ruined game gets named first and tried again second, and the chalk rainbow delivery plus the tick-tac-thank-you square end it in cheering.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the Hop-o-Rama squares stretching to the café, the ruined game and the naming of how sad that feels, the chalk rainbow delivery, the tick-tac-thank-you square, the town finishing and cheering)'; confidence high. Topics anchored to the giant game itself."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Friday Feast at Jack's Café",
+      "story_lead": "Chef hurts his arm and cannot cook, so Jack and the neighbors step in to keep the Friday Feast pizza tradition alive. An accidental vegetable pizza becomes the surprise hit.",
+      "resolution": "The disappointment of the fallen pizza gets reframed, the clover shape and the broccolizza everyone ends up loving, and the shared slice is where the happiness comes from.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Chef's sling, Jack kneading dough for the first time, the neighbors each pitching in a job, the fallen pizza and the shared disappointment, the clover shape and the broccolizza everyone ends up loving)'; confidence high. Content consideration carried: visible arm injury in a sling, played lightly. Topics anchored to the pizza story."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Jack's Surprise for Mr. Prickles",
+      "story_lead": "Mr. Prickles misses the garden at his old home after moving, and he says so. Jack and the friends plant him a new garden full of surprises until the new house finally feels like home.",
+      "resolution": "The homesickness gets asked for comfort, Jack naming his own sad days and how a friend helps, and tomatoes, carrots and a gnome named Terry make the new place home.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the confession that moving was hard and the old garden is missed, Jack naming his own sad days and how a friend helps, the planted tomatoes and carrots, the garden gnome named Terry, the new friends making it a home)'; confidence high. Content consideration carried: moving-house and missing-home theme."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "Jack and Cooper's Hearts",
+      "story_lead": "Cooper hands out paper hearts to brighten everyone's day and runs out, and he learns that his caring itself was the real gift. Meanwhile Bebe's broken guitar is soothed by making music with your heart.",
+      "resolution": "The sad of the empty hands and the broken guitar ends in reframing, the hearts matter less than the person giving them, and drumming the music in her heart is what helps Bebe feel better.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Cooper running out of hearts, the paper hearts versus the person giving them, friends sitting with Bebe and her broken guitar, drumming the music in her heart, playing music helping her feel better)'; confidence high. Topics anchored to the music thread, where the resolution lives; the hearts story has no controlled fit."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "1",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "Jack and Olivia's Big Bus Adventure",
+      "story_lead": "Olivia is nervous about her very first bus ride because she does not know what to expect, and she says so. Jack and the friends practice what riding a bus is like and cheer her on until she climbs aboard and picks her own seat.",
+      "resolution": "The worry of the unknown ride ends in naming the feeling, the practice run and the song about new things feeling nervous, and the brave shows up when she picks her own seat.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Olivia saying she feels worried because she does not know what to expect, the practice run with friends, the song about new things feeling nervous and a friend saying you can do this, the real ride to the sunflower farm and the sunflower-butter making)'; confidence high. Topics anchored to the first bus ride."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "1",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "Jack's Hello Kindness Day",
+      "story_lead": "Jack and the friends play detective to solve a kindness mystery, working out who is behind the random acts of kindness popping up all over town. The synopsis is all the evidence this row has.",
+      "resolution": "The happy of the mystery is what the synopsis gives, and there is no feeling to work through; the row leaves it a celebration.",
+      "evidence_note": "Synopsis-only: dev set note reads 'No script source: SubtitleCat carries S1E1-7 and S2E1-9 but no S1E8 entry, and the only S1E8 hit found (tried this session) was a mislabeled copy of the S2E4 file, caught by the identity check and discarded'; tier stands. Dev-set top-up carried (2026-11-14): SubtitleCat still lists no S1E8; the SubLoom season 1 page lists episode 8 but exposes no subtitle download. Custom situation per dev set: solving a kindness mystery about anonymous generosity."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "2",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Jack's Hallowonderful",
+      "story_lead": "Olivia is too scared of the spooky jack-o'-lantern faces to trick-or-treat, and she names it. Jack leads the way as her trick-or-treating buddy, and the friends turn Halloween into something Hallo-wonderful instead.",
+      "resolution": "The scare gets asking for comfort, the validation that it is okay to be scared and the buddy plan. The decorations get reframed as friendly Hallo-winks, and the trick-or-treat succeeds.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Olivia naming that the spooky faces scare her, the validation that it is okay to be scared, the buddy plan, the Queen Mermaidia costume, the reframing of decorations as friendly Hallo-winks, the successful trick-or-treat)'; confidence high. Content considerations carried: mild spooky imagery; Cooper's food allergies are mentioned with care."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "2",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Jack Helps with the Hiccups",
+      "story_lead": "Bebe's big concert is threatened when hiccups take over her voice, and she says they feel like they will never go away. Her friends and Chef turn the hiccups into the beat of her song.",
+      "resolution": "The frustration and the sadness of a voice that won't cooperate get reframed, the hiccups become the rhythm, and the concert is sung anyway.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the hiccups interrupting every attempt, Bebe saying they feel like they will never go away, the friends sharing what they love about her singing, Chef's strawberry-noodle pancakes, the hiccups becoming the rhythm, the concert sung anyway)'; confidence high. Topics anchored to the concert."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "2",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Jack's Loved and Found",
+      "story_lead": "A lost stuffie named Daisy is left at the café, and Jack welcomes her with a bed, lunch, a lullaby and photos until her kid Peyton comes back for her. The caring is the point.",
+      "resolution": "The sadness of the lost stuffie gets asking for help, Jack enlisting each friend in turn, and the happiness of the reunion is what the photo album made possible.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the stuffie left behind, Jack welcoming her and enlisting each friend's help, the little bed and the lullaby nap, the photo album for Peyton, the reunion and the stuffie's reported message)'; confidence high. Custom situation per dev set: losing something precious and caring for it until the owner returns. Coping anchored to Jack's enlistment of friends."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "2",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Jack's Knights of Kindness",
+      "story_lead": "Hugo is scared to try the merry-go-round because he has never spun on one, and he says so. Olivia and Jack's knight pretend play helps him, hand-holding and a deep breath included, and he later asks for the same help back.",
+      "resolution": "The scare of the first spin gets asking for help, hand-holding and a deep breath before the ride, and the knights' refrain does the rest: when a friend says I can't, they remind them they can.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Hugo saying he has never spun on a merry-go-round and it scares him, hand-holding and a deep breath before the ride, Hugo later asking for the same help back, the knight pretend quest, the refrain that when a friend says I can't the knights remind them they can)'; confidence high. Coping anchor per dev set: Hugo asking for and offering help; the deep breath is shown once and noted."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "2",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Jack's Petunia Predicament",
+      "story_lead": "Jack's prized plant Petunia goes missing from the café, and the friends search like detectives across town. Hugo confesses he took her to fix her broken pot, and everyone repots her together.",
+      "resolution": "The worry of the missing plant and the sad of the search end in apologizing, Hugo's confession and his sorry for not saying so first, and Petunia ends up happy in her new spot with a ribbon.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the missing plant and the worry, the detective search across town, Hugo's confession that he took Petunia to fix her broken pot and his apology for not saying so first, the repotting and the ribbon, Petunia happy in her new spot)'; confidence high."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "2",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "Jack and the Story Gazebo",
+      "story_lead": "A storm damages the town's beloved gazebo, and Jack and the neighbors repair it together, Delores's tools and everybody taking a job. The work ends in gazebo stories and a shared picnic.",
+      "resolution": "The sadness of the broken gazebo gets asking for help, the song that a difficult thing is easier when everybody helps, and the happiness of the finished gazebo and the picnic after.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the storm damage and how sad the broken gazebo looks, Delores's tools and the neighbors each taking a job, the song that a difficult thing is easier when everybody helps, the finished gazebo, the stories and the shared picnic)'; confidence high."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "2",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "Jack and Peyton's Big Wait",
+      "story_lead": "Peyton waits for her mom at the café and the wait feels endless, and she says she is so impatient. Jack shows her fun ways to wait, from slow-motion games to an arts-and-crafts sandwich, until her mom finally arrives.",
+      "resolution": "The impatience of the barely moving clock hand gets patience itself, the doing-nothing experiment that helps a little and the funny faces that help more. Waiting, it turns out, is better together.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the clock hand barely moving, Peyton saying she is so impatient, the doing-nothing experiment and how it helps a little, the funny faces and the decorated sandwich, waiting being better together, Lindsay the Great's juggling show as the payoff)'; confidence high. Coping anchor per dev set: patience itself, which the episode teaches directly."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "2",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "Jack's Snow Globe Café",
+      "story_lead": "A snowstorm postpones the winter gazebo lighting, and Jack and the friends turn the disappointment into a kindness cascade at the café with snow globes and hot chocolate. The lights shine after all, with the best seats in town.",
+      "resolution": "The sadness of the postponed lighting gets reframed, the song that everyone feels sad sometimes and singing is a trick you can try, and the snow globe exchange carries the happy until the lights shine anyway.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: friends stuck in the snow and missing the lighting, the song that everyone feels sad sometimes and singing is a trick you can try, the kindness cascade and hot chocolate, the snow globe exchange, the lights shining anyway with the best seats in town)'; confidence high."
+    },
+    {
+      "series_title": "Hello, Jack! The Kindness Show",
+      "season_number": "2",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": "Jack's Surprise for a Friend",
+      "story_lead": "Jack is preparing a special song for Celebrate Your Friend Day, but his voice cannot keep up with his excitement and gives out. His friends help with the tambourine and the decorating until the song is sung.",
+      "resolution": "The worry of the lost voice gets asking for help, and the song finishes in a whisper with Peyton's tambourine before Jack's voice returns at the end.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the celebration day preparations, Jack losing his voice to excitement and finishing the song in a whisper, Peyton's tambourine, the friends decorating the gazebo banner, the friendship song and the kazoo, Jack's voice returning at the end)'; confidence high. Topics per dev set: music is the spine of the story; the celebration-day flagging is an edge call, noted for review because Celebrate Your Friend Day is a party-like day rather than a birthday."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Land",
+      "story_lead": "The Gabba Friends are a little scared of a brand-new land, and they say so, then give it a chance anyway. Following the rainbow feather leads them to singing rocks, a wish tree and the No-nee underground, where everything turns out to be connected.",
+      "resolution": "The scare of the new place gets naming the feeling and the song that you never know until you go, and exploring is what made it likeable.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: saying they feel a little scared of the new land, the song that you never know until you go, the singing rocks and the wish tree, the hunt following the guidebook clues, meeting the No-nee underground, the recap that exploring made it likeable)'; confidence high. Coping anchor per dev set: naming the scared feeling and being encouraged to try; no listed strategy fits the trying part better."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Make",
+      "story_lead": "Muno gets stuck building his go-kart and wants to quit, saying all he can do is make mistakes. Papa shows him that mistakes are how you learn, and the friends go on to make pizza and go-karts together.",
+      "resolution": "The frustration of the stuck go-kart meets trying again, and the pride in the finished ride is what the mistake lesson earned.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Muno saying all he can do is make mistakes, Papa's lesson that mistakes are how you learn, the finished go-kart and the pride, pizza making with corn on top, the giant paper airplane surprise)'; confidence high. Topics anchored to the go-kart build and the pizza making."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Little",
+      "story_lead": "Brobee is sad because he is so little, and a teeny-tiny adventure with new tiny friends is where the story goes. There is even a shrimpy apple pie too high to reach.",
+      "resolution": "The sadness about being little gets reframed, the song that size does not matter and seeing little as cool, and everyone is the right size exactly as they are.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Brobee saying he is sad because he is so little, the tiny friends and the shrimpy apple pie too high to reach, the song that size does not matter, seeing being little as cool, the recap that everyone is the right size)'; confidence high. Coping anchor per dev set: the episode's reframe of smallness; no listed strategy name fits better."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Air",
+      "story_lead": "Toodee's anger keeps building until she feels she cannot breathe, and she says so. Foofa and Muno teach her to feel the breath in her belly and let it calm her down.",
+      "resolution": "The anger gets a deep breath, the belly-breath lesson felt in the air and the breeze, and the closing song carries breathing through big feelings home.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Toodee saying being mad keeps building until she feels she cannot breathe, the belly-breath lesson, feeling the air and the breeze, the bubble-blowing contest, the closing song about breathing through big feelings)'; confidence high. Coping anchored to the explicit belly-breathing lesson per dev set."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Water",
+      "story_lead": "Gooble feels sad, and the friends tell her it is okay. Sometimes we need to cry to let our feelings out, and Foofa and Toodee learn to go with the flow like water.",
+      "resolution": "The sadness gets named and let out, the song that it is okay to cry and the group hug with the happy tears, and the water sounds become a song of their own.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Gooble saying the sadness is still there and the friends saying it is okay, the song that it is okay to cry and let feelings out, the group hug and the happy tears, the water play and the song made from water sounds, the recap that crying is okay)'; confidence high. Coping anchor per dev set: the explicit naming-and-letting-out lesson; the group hug noted."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "Me",
+      "story_lead": "In a glimmering garden of mirrors, Foofa is alone and sad, and the mirrors are where the story looks closer at what makes each friend unique. Plex learns his light makes him special.",
+      "resolution": "The sadness in the mirror garden gets naming the feeling, the song that feelings are not good or bad but just feelings to watch go by, and the hug-yourself dance that follows.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Foofa alone and sad in the mirror garden, the song that feelings are not good or bad but just feelings to watch go by, the hug-yourself dance, Plex learning his light makes him special, the recap about loving what is different in everyone)'; confidence high. Coping anchor per dev set: the explicit feelings-are-just-feelings lesson."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "1",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "Outside",
+      "story_lead": "Muno wishes to go outside and discovers he can have more fun there than coloring inside. The friends explore how every part of GabbaLand feels different, from ToodeeLand's ice to MunoLand's heat.",
+      "resolution": "There is no feeling to handle here, and the row lets the sunshine song and the outside energy be the story.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Muno's wish to go outside, the song about sunshine and finding your happy place, the outside-feelings tour of each friend's land and season, exercising outside giving energy and happiness, the recap that outside beat coloring inside)'; confidence high. Coping left empty with reason per dev set: an exploration story with no feeling to handle."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "1",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "Silly",
+      "story_lead": "A mysterious box unleashes silliness all over GabbaLand, and King Silly pays a visit. When the silliness breaks Toodee's fort, the friends learn that some moments are for silliness and some are not, then rebuild it together.",
+      "resolution": "The sad of the broken fort gets apologizing, being sorry for too much silliness and helping her rebuild, and the fish paintings with feet stay silly where silliness belongs.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: the silly box and King Silly, the silliness breaking Toodee's fort, the apology for being too silly, helping her rebuild, the fish paintings with feet, the lesson that some moments are for silliness and some are not)'; confidence high. Coping anchored to the apology and repair per dev set."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "1",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": "Grow",
+      "story_lead": "Brobee is scared of his first haircut because he thinks it will hurt, and he tells Kammy Kam, who listens. He thanks her for listening, gets a one-of-a-kind Brobee hairstyle, and comes back not scared anymore.",
+      "resolution": "The scare of the haircut gets talking it out with a friend who listens, and the song about not fearing change lands on the recap that you are still you.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Brobee admitting he is scared the haircut will hurt and thanking Kammy Kam for listening, the glam makeover, not being scared anymore, the song about not fearing change because you are still you, the recap that talking to a friend about sad or scared feelings is best)'; confidence high."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "1",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": "Wonder",
+      "story_lead": "The friends wonder about everything in GabbaLand, from blooming flowers to bouncing animals, but when Brobee seems sad or mad they feel scared to ask. Learning that just asking a question shows you care is the turn.",
+      "resolution": "The worry of asking gets talking it out, the song about not being afraid to ask a question, and Brobee's answer that he told them when they asked proves the asking right.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: the wondering song about trees and birds and being me, Brobee seeming sad or mad and the worry about asking, the song about not being afraid to ask a question, Brobee saying he told them when they asked, the new friend found in the forest)'; confidence high. Coping anchor per dev set: asking and telling."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "2",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Light",
+      "story_lead": "The Gabba Friends explore light of every kind, from sunshine to moonbeams to flashlights. The synopsis says what each one lets them see and do, and nothing more.",
+      "resolution": "The happy of the exploring is the arc, and no feeling to handle shows up; the row leaves it as an exploration premise.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing for this series; SubLoom has no listing. Topics per dev set: light and weather play, no controlled fit."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "2",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Thanks",
+      "story_lead": "The Thank You Dance gets the Gabba Friends boogieing, and the magic words please and thank you make everyone feel appreciated. The synopsis is the celebration in one line.",
+      "resolution": "There is no feeling to work through in a gratitude dance, and the row leaves it happy as written.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing; SubLoom has no listing."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "2",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Home",
+      "story_lead": "Toodee visits Foofa's colorful, cozy place for a fun-filled day celebrating homes of every shape and size. The synopsis keeps the day a celebration.",
+      "resolution": "No feeling arc shows up in a homes celebration, and the row leaves the calm as it is.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing; SubLoom has no listing."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "2",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "New",
+      "story_lead": "The friends try brand-new things, from inventing a dance to discovering a flower to meeting a baby bird. The synopsis names the feeling mix, exciting and scary at once, and stops there.",
+      "resolution": "The nervousness of new things is named but not handled in the synopsis, and the row leaves it named.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing; SubLoom has no listing."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "2",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Help",
+      "story_lead": "A day at the beach shows the Gabba Friends all the ways they count on each other and how helping also helps the planet. The synopsis frames the theme without a moment to hang it on.",
+      "resolution": "No specific feeling situation appears, and the row records the helping theme as framed, not shown.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing; SubLoom has no listing."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "2",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "Body",
+      "story_lead": "Jumping and wiggling until their hearts beat faster comes first, and relaxing yoga cools everything down after. The synopsis is a body story with a built-in cooldown.",
+      "resolution": "The calm after the wiggles is the arc the synopsis gives, and there is no feeling to handle; the row leaves it there.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing; SubLoom has no listing."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "2",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "Try",
+      "story_lead": "When things do not work out the first time, the Gabba Friends learn that doing your best and trying again is what matters. The episode title says the lesson out loud.",
+      "resolution": "The frustration of the first miss and the proud of the retry get trying again, anchored to the title and premise and flagged as synopsis-derived in the evidence note.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Coping anchor per dev set: the episode title and premise name trying again directly; flagged as synopsis-derived since the S2 synopsis is summary-level. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing; SubLoom has no listing."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "2",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "Food",
+      "story_lead": "The Gabba Friends plant, grow, and eat all kinds of food, then bust a move with King Spaghetti on full bellies. The synopsis makes the growing and eating central.",
+      "resolution": "No feeling arc is shown in the food story, and the row lets the King Spaghetti move carry it.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Topics anchored to the growing and eating food story per dev set. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing; SubLoom has no listing."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "2",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": "Play",
+      "story_lead": "After a day full of games, Brobee's lumberjack buddies teach everyone the party-in-your-tummy song about the food they eat. The synopsis is a play day with a song lesson.",
+      "resolution": "There is no feeling arc in a play-and-song story, and the row leaves it silly as it starts.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Topics per dev set: the games are the setting and the food song is the lesson, and no controlled topic fits either strongly; flagged rather than forced. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing; SubLoom has no listing."
+    },
+    {
+      "series_title": "Yo Gabba GabbaLand!",
+      "season_number": "2",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": "Go",
+      "story_lead": "A quest takes the Gabba Friends all over GabbaLand to find every place on Kammy Kam's Magic Picture Card. The synopsis gives the quest and nothing to fix.",
+      "resolution": "The happy of the quest is the arc, no feeling arc shows up, and the row says so.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing; SubLoom has no listing."
+    }
+  ]
+}

@@ -104,7 +104,11 @@ export function joinSeriesDescriptions(posterEntries, rows) {
     } else if (!classifyAppleUrl(url)) {
       problems.push(`${entry.title}: apple_series_url is not a canonical tv.apple.com link: ${url}`);
     }
-    if (String(row.link_status || '').trim() !== 'verified') {
+    // Both link-status spellings are verified-live: the legacy popup
+    // workbook writes 'verified'; the wave 2 popup workbook records the
+    // HTTP status it measured ('200'). Anything else refuses to ship.
+    const linkStatus = String(row.link_status || '').trim().toLowerCase();
+    if (linkStatus !== 'verified' && linkStatus !== '200') {
       problems.push(`${entry.title}: link_status is "${row.link_status}" where the popup ships only verified links (verify the link, then set the status)`);
     }
   }

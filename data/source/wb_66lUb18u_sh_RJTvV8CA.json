@@ -5,6 +5,8 @@
   "sheetName": "Standalone Films Corpus (34 Films)",
   "kind": "films",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 34,
   "rows": [
     {

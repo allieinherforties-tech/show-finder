@@ -1,17 +1,17 @@
 {
-  "version": "53c2d9a8ebbda0cb",
+  "version": "0b52cf861e67e194",
   "artwork": {
     "mode": "tmdb",
     "attributionChecked": true,
     "coverage": {
-      "withStill": 525,
-      "posterFallback": 0,
+      "withStill": 1264,
+      "posterFallback": 48,
       "noArtwork": 0
     },
     "links": {
-      "episode": 429,
-      "show": 96,
-      "none": 0,
+      "episode": 434,
+      "show": 158,
+      "none": 720,
       "integrityCheck": "every appleUrl matches a verified pattern shape; the build fails on any malformed link"
     },
     "unresolvedSeries": [],
@@ -83,12 +83,37 @@
   "coverage": {
     "catalogTitles": 90,
     "catalogEpisodeRows": 1436,
-    "storyRows": 525,
+    "storyRows": 1312,
     "series": {
+      "Amber Brown": {
+        "storyRows": 10,
+        "withSituation": 10,
+        "withPerStorySynopsis": 10
+      },
+      "BE@RBRICK": {
+        "storyRows": 13,
+        "withSituation": 13,
+        "withPerStorySynopsis": 13
+      },
+      "Best Foot Forward": {
+        "storyRows": 10,
+        "withSituation": 10,
+        "withPerStorySynopsis": 10
+      },
       "Camp Snoopy": {
         "storyRows": 52,
         "withSituation": 52,
         "withPerStorySynopsis": 52
+      },
+      "Circuit Breakers": {
+        "storyRows": 7,
+        "withSituation": 7,
+        "withPerStorySynopsis": 7
+      },
+      "Curses!": {
+        "storyRows": 20,
+        "withSituation": 20,
+        "withPerStorySynopsis": 20
       },
       "Doug Unplugs": {
         "storyRows": 14,
@@ -100,10 +125,35 @@
         "withSituation": 33,
         "withPerStorySynopsis": 33
       },
+      "Earthsounds": {
+        "storyRows": 12,
+        "withSituation": 12,
+        "withPerStorySynopsis": 12
+      },
+      "El Deafo": {
+        "storyRows": 3,
+        "withSituation": 3,
+        "withPerStorySynopsis": 3
+      },
       "Eva the Owlet": {
         "storyRows": 16,
         "withSituation": 16,
         "withPerStorySynopsis": 16
+      },
+      "Fraggle Rock": {
+        "storyRows": 96,
+        "withSituation": 96,
+        "withPerStorySynopsis": 96
+      },
+      "Fraggle Rock: Back to the Rock": {
+        "storyRows": 28,
+        "withSituation": 28,
+        "withPerStorySynopsis": 28
+      },
+      "Fraggle Rock: Rock On!": {
+        "storyRows": 6,
+        "withSituation": 6,
+        "withPerStorySynopsis": 6
       },
       "Frog and Toad": {
         "storyRows": 16,
@@ -120,10 +170,30 @@
         "withSituation": 39,
         "withPerStorySynopsis": 39
       },
+      "Goldie": {
+        "storyRows": 26,
+        "withSituation": 26,
+        "withPerStorySynopsis": 26
+      },
+      "Greatness Code": {
+        "storyRows": 13,
+        "withSituation": 13,
+        "withPerStorySynopsis": 13
+      },
       "Harriet the Spy": {
         "storyRows": 20,
         "withSituation": 20,
         "withPerStorySynopsis": 20
+      },
+      "Hello, Jack! The Kindness Show": {
+        "storyRows": 17,
+        "withSituation": 17,
+        "withPerStorySynopsis": 17
+      },
+      "Helpsters": {
+        "storyRows": 80,
+        "withSituation": 80,
+        "withPerStorySynopsis": 80
       },
       "Helpsters Help You": {
         "storyRows": 6,
@@ -135,10 +205,55 @@
         "withSituation": 33,
         "withPerStorySynopsis": 33
       },
+      "Jane": {
+        "storyRows": 20,
+        "withSituation": 20,
+        "withPerStorySynopsis": 20
+      },
+      "Life by Ella": {
+        "storyRows": 10,
+        "withSituation": 10,
+        "withPerStorySynopsis": 10
+      },
+      "Lovely Little Farm": {
+        "storyRows": 14,
+        "withSituation": 14,
+        "withPerStorySynopsis": 14
+      },
+      "Me": {
+        "storyRows": 10,
+        "withSituation": 10,
+        "withPerStorySynopsis": 10
+      },
+      "My Brother the Minotaur": {
+        "storyRows": 10,
+        "withSituation": 10,
+        "withPerStorySynopsis": 10
+      },
+      "Not a Box": {
+        "storyRows": 16,
+        "withSituation": 16,
+        "withPerStorySynopsis": 16
+      },
+      "Pinecone & Pony": {
+        "storyRows": 31,
+        "withSituation": 31,
+        "withPerStorySynopsis": 31
+      },
+      "Prehistoric Planet": {
+        "storyRows": 36,
+        "withSituation": 36,
+        "withPerStorySynopsis": 36
+      },
       "Pretzel and the Puppies": {
         "storyRows": 34,
         "withSituation": 34,
         "withPerStorySynopsis": 34
+      },
+      "Puppy Place": {
+        "storyRows": 16,
+        "withSituation": 16,
+        "withPerStorySynopsis": 16
       },
       "Sago Mini Friends": {
         "storyRows": 45,
@@ -150,6 +265,16 @@
         "withSituation": 34,
         "withPerStorySynopsis": 34
       },
+      "Slumberkins": {
+        "storyRows": 16,
+        "withSituation": 16,
+        "withPerStorySynopsis": 16
+      },
+      "Snoopy in Space: The Search for Life": {
+        "storyRows": 24,
+        "withSituation": 24,
+        "withPerStorySynopsis": 24
+      },
       "Stillwater": {
         "storyRows": 77,
         "withSituation": 77,
@@ -160,17 +285,67 @@
         "withSituation": 10,
         "withPerStorySynopsis": 10
       },
+      "The Charlie Brown and Snoopy Show": {
+        "storyRows": 18,
+        "withSituation": 18,
+        "withPerStorySynopsis": 18
+      },
+      "The Peanuts Classics": {
+        "storyRows": 6,
+        "withSituation": 6,
+        "withPerStorySynopsis": 6
+      },
+      "The Secret Lives of Animals": {
+        "storyRows": 10,
+        "withSituation": 10,
+        "withPerStorySynopsis": 10
+      },
       "The Sisters Grimm": {
         "storyRows": 6,
         "withSituation": 6,
         "withPerStorySynopsis": 6
+      },
+      "The Snoopy Show": {
+        "storyRows": 39,
+        "withSituation": 39,
+        "withPerStorySynopsis": 39
+      },
+      "This Is America, Charlie Brown": {
+        "storyRows": 8,
+        "withSituation": 8,
+        "withPerStorySynopsis": 8
+      },
+      "Time Bandits": {
+        "storyRows": 10,
+        "withSituation": 10,
+        "withPerStorySynopsis": 10
+      },
+      "Tiny World": {
+        "storyRows": 12,
+        "withSituation": 12,
+        "withPerStorySynopsis": 12
       },
       "Wolfboy and the Everything Factory": {
         "storyRows": 36,
         "withSituation": 36,
         "withPerStorySynopsis": 36
       },
+      "Wonder Pets: In the City": {
+        "storyRows": 51,
+        "withSituation": 51,
+        "withPerStorySynopsis": 51
+      },
       "WondLa": {
+        "storyRows": 20,
+        "withSituation": 20,
+        "withPerStorySynopsis": 20
+      },
+      "Yo Gabba Gabba!": {
+        "storyRows": 69,
+        "withSituation": 69,
+        "withPerStorySynopsis": 69
+      },
+      "Yo Gabba GabbaLand!": {
         "storyRows": 20,
         "withSituation": 20,
         "withPerStorySynopsis": 20
@@ -237,6 +412,105 @@
       }
     ],
     "note": "Placeholder rows never publish; the curation thread owns tagging them or removing them at the source."
+  },
+  "craft": {
+    "note": "Wave 2 craft rows: crafted story lead and resolution from the craft wave workbook, joined to the accepted tag corpus on series, season, episode, and segment title. Evidence tiers are internal metadata; the evidence note never renders or searches.",
+    "craftRows": 787,
+    "joinedRows": 787,
+    "tagRowsAfterFilters": 793,
+    "unusedTagRows": [
+      "yo-gabba-gabba|s3|e14",
+      "yo-gabba-gabba|s3|e15",
+      "yo-gabba-gabba|s0|e1",
+      "yo-gabba-gabba|s0|e2",
+      "yo-gabba-gabba|s0|e3",
+      "yo-gabba-gabba|s0|e6"
+    ],
+    "perBatch": [
+      [
+        "Craft batch 2 (BE@RBRICK, Goldie, Greatness Code, My Brother the Minotaur)",
+        62
+      ],
+      [
+        "Craft batch 13 (Wonder Pets: In the City, The Peanuts Classics)",
+        57
+      ],
+      [
+        "Craft batch 7 (Back to the Rock, Curses!)",
+        48
+      ],
+      [
+        "Craft batch 5 (Snoopy in Space: The Search for Life, The Snoopy Show)",
+        63
+      ],
+      [
+        "Craft batch 6 (Fraggle Rock)",
+        96
+      ],
+      [
+        "Craft batch 1 (El Deafo, Amber Brown, Best Foot Forward, Circuit Breakers, Life by Ella)",
+        40
+      ],
+      [
+        "Craft batch 3 (Prehistoric Planet)",
+        36
+      ],
+      [
+        "Craft batch 9 (The Charlie Brown and Snoopy Show, Pinecone & Pony)",
+        49
+      ],
+      [
+        "Craft batch 11 (Me, Hello Jack!, Yo Gabba GabbaLand!)",
+        47
+      ],
+      [
+        "Craft batch 14 (Helpsters, Time Bandits, Fraggle Rock: Rock On!)",
+        96
+      ],
+      [
+        "Craft batch 8 (Earthsounds, Tiny World, Secret Lives of Animals, This Is America Charlie Brown)",
+        42
+      ],
+      [
+        "Craft batch 10 (Lovely Little Farm, Not a Box, Slumberkins)",
+        46
+      ],
+      [
+        "Craft batch 12 (Yo Gabba Gabba!)",
+        69
+      ],
+      [
+        "Craft batch 4 (Jane, Puppy Place)",
+        36
+      ]
+    ],
+    "evidenceTiers": {
+      "script": 664,
+      "synopsis_fallback": 117,
+      "title_overview": 6,
+      "unclassified": 0
+    },
+    "faithfulAbsences": {
+      "withoutEmotion": [
+        "fraggle-rock-s1-e14",
+        "fraggle-rock-s2-e7",
+        "fraggle-rock-s2-e12",
+        "fraggle-rock-s2-e16",
+        "fraggle-rock-s2-e19",
+        "fraggle-rock-s2-e20",
+        "fraggle-rock-s2-e24",
+        "prehistoric-planet-s0-e6",
+        "prehistoric-planet-s0-e7",
+        "prehistoric-planet-s0-e8",
+        "prehistoric-planet-s0-e9",
+        "prehistoric-planet-s0-e10"
+      ],
+      "withoutCoping": [
+        "fraggle-rock-back-to-the-rock-s1-e14"
+      ],
+      "withoutTopics": 396,
+      "note": "Empty emotion, coping, and topic cells are faithful upstream absences reported here and never backfilled or invented."
+    }
   },
   "parentFacing": {
     "suppressedFromRender": [

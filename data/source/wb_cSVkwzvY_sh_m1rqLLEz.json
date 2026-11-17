@@ -1,0 +1,433 @@
+{
+  "workbookId": "wb_cSVkwzvY",
+  "workbookName": "Episode Dialog Copy — Craft Wave 2 (35 series)",
+  "sheetId": "sh_m1rqLLEz",
+  "sheetName": "Craft batch 8 (Earthsounds, Tiny World, Secret Lives of Animals, This Is America Charlie Brown)",
+  "kind": "craft-stories",
+  "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
+  "rowCount": 42,
+  "rows": [
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Australian Forests",
+      "story_lead": "In ancient Australian woodlands, a lyrebird learns his song-and-dance routine by watching and copying the older birds. The moment finally arrives to perform it for real. Crocodiles, koalas and a frog choir make the forest's other sounds.",
+      "resolution": "The nerves of the first real performance end in trying again, and the pride lands when the practiced, copied routine finally counts.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Dominant story carried: the lyrebird's learned song-and-dance performance, so Music & dance is a literal fit. Content consideration carried: crocodile segment includes herons taking hatchlings. Coping anchor per dev set: 'trying again' anchors to the practiced, copied routine, not a failure arc."
+    },
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "The Himalayas",
+      "story_lead": "High in the Himalayas, a snow leopard hunts the ibex and misses, more than once. The mountains act as an echo chamber for her rarely heard love song, and the wait for an answer takes years.",
+      "resolution": "The disappointment of missing again and again settles into patience, and the pride of getting it at last is what the two-year wait was for.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Content consideration carried: ibex hunt, chiru mating battles."
+    },
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "The Rainforests",
+      "story_lead": "Howler monkeys hold a shouting contest in the rainforest canopy, and the family row risks coming to blows. The volume war turns when Mum joins Dad's voice, and sloths break their own silence to search for mates.",
+      "resolution": "The anger of the contest gets calmed by asking for help, and Mum's joining voice is what defends the family's important thing instead of a fight.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'asking for help' anchors to Mum joining Dad. Content consideration carried: jaguar tension, sloth fight, bullet-ant scare in the crew segment."
+    },
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "The Pacific",
+      "story_lead": "A humpback mother and her calf keep in contact with quiet calls while the Pacific's big, fast crowd rushes in. The heat run is no place to drift apart.",
+      "resolution": "Mother and calf talk it out at whale volume, and the calm through the chaos is what staying close looks like.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'talking it out' anchors to constant contact calls, not a conversation. Content consideration carried: courtship battle, pistol-shrimp stun clashes."
+    },
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "African Plains",
+      "story_lead": "On the African plains, being small means your home's defense is a team sport. Cocktail ants turn their tree into a warning instrument and drive off an elephant one billion times their size.",
+      "resolution": "Brave is what small has to be, and asking for help, a call to arms that mobilizes the colony, is how the small win.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Content consideration carried: serval hunts mice, ants bite the elephant's eyes and trunk."
+    },
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "Polar Worlds",
+      "story_lead": "An emperor penguin mother searches the polar colony for hours, calling every few minutes. Her chick, hungry and turned away by other adults, has waited three days for her return.",
+      "resolution": "Patience carries both sides of the separation, and the chick's unique whistle answering hers is the happy reunion the calling was for.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Coping anchor per dev set: the chick has waited three days, so 'patience' is the shown handling on both sides. Content consideration carried: other adults turn the hungry chick away, polar bear hunting, minus-120-degree cold."
+    },
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "African Deserts",
+      "story_lead": "The meerkat family's newest lookout spent six months learning their language, and now the graded alarms are hers to give. When the cobra comes, the family runs toward the snake together, on her word.",
+      "resolution": "The worry of a job this important ends in talking it out, warning-call style, and the pride of earning trust by doing it well is what the six months bought.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Coping anchor per dev set: 'talking it out' anchors to communicating danger clearly. Content consideration carried: cobra venom, eagle predation, burrow dash."
+    },
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "Atlantic Coasts",
+      "story_lead": "Where land meets sea, a rockhopper penguin climbs hundred-foot cliffs timed against crashing waves, looking for the mate she left six months ago. His rhythm, unique in the colony, is how she finds him.",
+      "resolution": "The nerves of a search in a noisy crowd settle into patience, and the happy reunion is what happens when you find your person by the sound of their voice.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Topics anchor per dev set: Music & dance fits the rhythm-of-their-song framing stated in the episode itself. Content consideration carried: 100-foot cliff climbs timed against crashing waves, orca hunts."
+    },
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": "Winter Woodlands",
+      "story_lead": "First winters are one long game of trial and error for a young fox, and this time the vole is outfoxing him. Every miss teaches the pounce, and a wolf pup who strays is found by his first howl.",
+      "resolution": "Every miss feeds the frustration, and trying again is what finally lands the pounce and the pride.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Coping anchor per dev set: 'trying again' is the episode's own framing. Content consideration carried: predation throughout, black bear near the pup."
+    },
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": "African Water Worlds",
+      "story_lead": "A wild dog pack in the Okavango Delta hunts as one, and the sneeze-vote decides when. The pups learn the call that brings food home.",
+      "resolution": "The happiness of the shared hunt meets asking for help, and the pups' call that brings the adults running is how the team brings home what everyone needs.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Coping anchor per dev set: 'asking for help' anchors to the pups' call that triggers the adults to share. Content consideration carried: lions and hyenas steal kills, hippo nearly capsizes the boat, elephant cold-in-water framing at the close."
+    },
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "11",
+      "segment": null,
+      "segment_title": "Shallow Seas",
+      "story_lead": "On the reef, a damselfish for whom cleaning up is a struggle finally tidies his space, then sings a melody no fish sang before. Other males start copying it.",
+      "resolution": "He tries again through the endless chores, and the pride of a song all his own is what the work earned.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Content consideration carried: reef sharks, climate loss (90 percent of reefs expected gone by 2050) named plainly at the close."
+    },
+    {
+      "series_title": "Earthsounds",
+      "season_number": "1",
+      "episode_number": "12",
+      "segment": null,
+      "segment_title": "Listening to Our Planet",
+      "story_lead": "Scientists around the globe listen to the planet: to birdsong declining, to wildfire's approach, to whale songs on a 150-day mission. What they hear is a world they love in trouble, and they do something about it.",
+      "resolution": "The sadness of what the listening reveals settles into patience, the fifty-year-record kind, and the pride of acting on what you hear carries the episode's ending.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Age band edge call per dev set: wildfire destruction, species loss and a 'silent spring' push this above the 5-7 band, so 8-10 is judged. Emotion note per dev set: the recovery beat is really hope, which has no ratified term; 'proud' carries it and 'hope/hopeful' is flagged for vocabulary review. Coping anchor per dev set: 'patience' anchors to the 50-year listening record and the 150-day whale-song mission. Content consideration carried: 2017 Thomas Fire, bird-song decline, endangered parrots."
+    },
+    {
+      "series_title": "The Secret Lives of Animals",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Leaving Home",
+      "story_lead": "A seal pup sets out on his own too soon, and the ocean is an epic battle for him. Hundreds of mothers call on the beach, and only one voice is his mum's.",
+      "resolution": "Asking for help sounds like listening here, and the happy reunion comes when he pinpoints her unique call among hundreds.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'asking for help' anchors to seeking and reaching his mum, flagged as the nearest listed value. Content consideration carried: pup nearly dies in the surf, basilisk lizard evicted by a bully, killifish overland journey."
+    },
+    {
+      "series_title": "The Secret Lives of Animals",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Raising a Family",
+      "story_lead": "A chimp mother crafts a termite fishing rod and fishes with patience. She shows her children time and again, just as her mother showed her.",
+      "resolution": "The pride of a skill passed down the generations is the story's engine, and patience is the tool: hers, and the lesson she keeps teaching.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'patience' anchors to the episode's own fishing-is-patience framing. Content consideration carried: eggs and fry heavily predated, only a handful of a million eggs surviving."
+    },
+    {
+      "series_title": "The Secret Lives of Animals",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Protecting Yourself",
+      "story_lead": "A glass frog packs away his blood cells and goes perfectly still while a parrot snake passes close enough to end him. Vanishing in plain sight is his armor.",
+      "resolution": "Deep breath and a steady body hold the fear, and the calm is what the stillness is for: avoiding a fight, the episode's own stated lesson.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'deep breath/calm-down' anchors to holding still under fear, flagged as the nearest listed value. Content consideration carried: parrot snake, leopard versus porcupine, octopus hiding in shells."
+    },
+    {
+      "series_title": "The Secret Lives of Animals",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Home Making",
+      "story_lead": "A baya weaver builds his nest for eleven days, with no cutting corners and extra reinforcement where the monsoon will hit. The storm is the test.",
+      "resolution": "The frustration of the slow, careful build settles into patience, and the pride of a home that survives the winds is what every unskipped corner earned.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'patience' anchors to the slow, careful build and the storm test. Content consideration carried: tiger leeches, nest-wrecking winds, sun bear bed as lighter secondary."
+    },
+    {
+      "series_title": "The Secret Lives of Animals",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Finding Food",
+      "story_lead": "A dolphin pod herds fish onto the mud and strands them, deliberately beaching to feed and wiggling back to the water. No dolphin could do it alone.",
+      "resolution": "The happiness of the shared catch meets asking for help, and hunting as one coordinated pod is where the pride lands.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Topics per dev set: Food & cooking was considered and rejected because wild foraging is not the kid-legible food-and-cooking frame. Content consideration carried: Portia the mantis hunting bees, dolphins beaching themselves deliberately, crow patience story as secondary."
+    },
+    {
+      "series_title": "The Secret Lives of Animals",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "The Art of Deception",
+      "story_lead": "Burrowing owl chicks imitate a rattlesnake so perfectly that the badger backs off from their burrow. Their cleverest trick, not a fight, is the defense.",
+      "resolution": "The fear of the digging badger gets reframed into a distraction that works, and brave looks like a hiss in a chick's throat.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'reframing/distraction' anchors to the mimicry trick, following the Batch 3 sneak-male disguise precedent. Content consideration carried: predation pressure on caterpillars, money spider ballooning."
+    },
+    {
+      "series_title": "The Secret Lives of Animals",
+      "season_number": "1",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "Making Friends",
+      "story_lead": "A young capuchin, new to the troop, has no friends yet, and the guarded water hole is a dangerous place to be alone. Trust, the troop's nose-picking greeting included, is how his first friendship forms.",
+      "resolution": "The loneliness of being the new one ends in asking for help, and the happy part is having a friend at your back when the dominant monkeys crowd the water.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'asking for help' anchors to the trust gesture and teaming up. Content consideration carried: dominant monkeys guard the water, drongo's fake alarm calls, army-ant stings in the crew segment."
+    },
+    {
+      "series_title": "The Secret Lives of Animals",
+      "season_number": "1",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "Finding a Partner",
+      "story_lead": "On a California lake, a grebe searches six miles of water for the one who matches him. When she appears, he echoes her every move in a dance duet.",
+      "resolution": "The loneliness of the long search ends in trying again, and the happy ending is the duet itself, kept up until the match holds.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'trying again' anchors to the perseverance the episode names outright. Content consideration carried: whale courtship race, jumping-spider date where failure is fatal, framed lightly."
+    },
+    {
+      "series_title": "The Secret Lives of Animals",
+      "season_number": "1",
+      "episode_number": "9",
+      "segment": null,
+      "segment_title": "Mastering Your Talent",
+      "story_lead": "Somewhere in the outback, a macaque works out which stone cracks which shell, secures his anvil, and smashes it at last after miss after miss. Fight school, for a kangaroo, is the other classroom.",
+      "resolution": "He tries again after every miss, and the pride of the final crack is what practice bought.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'trying again' is the episode's own if-at-first-you-don't-succeed framing. Topics per dev set: fight school is metaphorical, so School & books would overreach. Content consideration carried: kangaroo fights with blinding-capable claws, chameleon hunting."
+    },
+    {
+      "series_title": "The Secret Lives of Animals",
+      "season_number": "1",
+      "episode_number": "10",
+      "segment": null,
+      "segment_title": "Growing Old",
+      "story_lead": "An elder baboon loses his rank and retreats alone, his special spot gone. Working his way back into the troop's heart, this time as a gentle grandfather, is the slow road he takes.",
+      "resolution": "The sadness of the lost spot settles into patience, and the pride of a new way to belong is what the slow rebuild earned.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Age band edge call per dev set: the role-loss theme is mature but grandparent-legible, kept at 5-7; the wrasse sex-change segment is flagged as a content consideration for younger viewers. Content consideration carried: status challenge, dehydration, elephant matriarch's water dig as secondary mirror."
+    },
+    {
+      "series_title": "This Is America, Charlie Brown",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "The Mayflower Voyagers",
+      "story_lead": "The Peanuts children cross the Atlantic aboard the Mayflower, homesick for grandparents and friends as the voyage turns rough. The first winter is hard, and survival comes from what Squanto teaches them about planting in this strange new place.",
+      "resolution": "The homesickness and the scare of the crossing end in asking for help, and accepting Squanto's help is what turns a strange new place into a place to live.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (dialogue), identity check passed against catalog title/synopsis'; confidence high. Age band edge call per dev set: the homesick mirror is 5-7-legible, but deaths in the crossing and wilderness peril push the episode to 8-10. Topics per dev set: the thanksgiving feast was considered for Birthday & party and rejected as neither a birthday nor a party frame. Content consideration carried: two passengers die, illness, historical colonization framing, Squanto described as the last of his tribe."
+    },
+    {
+      "series_title": "This Is America, Charlie Brown",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "The Birth of the Constitution",
+      "story_lead": "At the Constitutional Convention, Charlie Brown, Sally and Linus run errands while the delegates argue for months about how to build a country. The question is whether compromise can win.",
+      "resolution": "The worry of an argument that might never end gets talked out, delegate by delegate, and the compromise that ends in a vote is the happy part.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (dialogue), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'talking it out' is the episode's own resolution, debate that ends in compromise and a vote. Content consideration carried: slavery debates named among the arguments, the stakes of national failure discussed."
+    },
+    {
+      "series_title": "This Is America, Charlie Brown",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "The Wright Brothers at Kitty Hawk",
+      "story_lead": "At Kitty Hawk in 1903, Linus's cousin Dolly shows the kids the Wright Brothers' diary of failures and redesigns. The next morning they watch the first flight.",
+      "resolution": "Wind-tunnel after wind-tunnel, the brothers try again, and the pride of the first flight is what their persistence earned.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (dialogue), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'trying again' anchors to the brothers' wind-tunnel persistence stated in the episode. Secondary mirror carried: Charlie Brown wrecks the borrowed bicycle and asks the Wrights to fix it. Content consideration carried: crash landings, risk of injury discussed."
+    },
+    {
+      "series_title": "This Is America, Charlie Brown",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "The NASA Space Station",
+      "story_lead": "Linus builds a spaceship model for the science fair, and the night before the contest he dreams the gang is on a space station for ninety days. Then his blanket gets thrown out the hatch.",
+      "resolution": "The scare and the sadness of losing his blanket, even in a dream, end in asking for comfort, and Lucy's waking reassurance that he can get along without it is what holds.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (dialogue), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'asking for comfort' anchors to the dream reassurance, flagged because the loss resolves as a dream. Content consideration carried: the running football gag, zero-gravity comedy, no heavy material."
+    },
+    {
+      "series_title": "This Is America, Charlie Brown",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "The Building of the Transcontinental Railroad",
+      "story_lead": "Charlie Brown's class report tells of two railroad companies racing to lay ten thousand miles of track, through the Sierra Nevada and the blizzards. Years of steady work end with Snoopy driving the last spike.",
+      "resolution": "What the building cost the workers is named honestly, and patience is what carried the impossible project to a proud finish.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (dialogue), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'patience' anchors to years of steady work through blizzards and mountains, flagged as the nearest listed value; no character works through a feeling in the list's sense. Content consideration carried: workers underpaid and overworked, many died, Chinese workers left out of the famous photograph, impact on Native American life named honestly; catalogue synopsis typos (stars, have the cross) left verbatim per the verbatim-synopsis convention."
+    },
+    {
+      "series_title": "This Is America, Charlie Brown",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "The Great Inventors",
+      "story_lead": "Sally gives a class report on America's inventors while Snoopy, her unpredictable assistant, demonstrates paper bags, roller skates and basketball live. Flunking is on her mind.",
+      "resolution": "The nerves and the embarrassment of a report with a mind of its own end in trying again, and the inventors' hundreds of failed experiments are the mirror that carries her through the chaos.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (dialogue), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'trying again' anchors to the failed experiments Bell describes and to Sally carrying on through the chaos. Content consideration carried: no heavy material; Snoopy's antics drive the comedy."
+    },
+    {
+      "series_title": "This Is America, Charlie Brown",
+      "season_number": "1",
+      "episode_number": "7",
+      "segment": null,
+      "segment_title": "The Smithsonian and the Presidency",
+      "story_lead": "After a morning of museums, the gang hears Lincoln on the train to Gettysburg, telling the newsboys about his gravely ill son and his worry that his speech is an afterthought. The presidency, he says, has good days and bad days.",
+      "resolution": "Lincoln talks it out with the newsboys, and learning that even a president has hard days is what the honest conversation gives.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (dialogue), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'talking it out' anchors to the honest conversation on the train. Topics per dev set: Things that go anchors to the train journey and the aviation exhibits, flagged as exhibit-framed rather than story-centered. Content consideration carried: 20,000 died at Gettysburg, Depression hardship in the FDR segment, catalogue typo (thy) left verbatim per the verbatim-synopsis convention."
+    },
+    {
+      "series_title": "This Is America, Charlie Brown",
+      "season_number": "1",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "The Music and Heroes of America",
+      "story_lead": "Snoopy is shut out of Schroeder's band for the class project, and Charlie Brown talks Schroeder around to one more chance. Lucy's project on American people gets combined with the band's, making room for everyone's work.",
+      "resolution": "The disappointment of being left out ends in talking it out, and the happy part is a second chance that becomes a place for everyone.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (dialogue), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'talking it out' anchors to Charlie Brown's intervention. Content consideration carried: Vietnam War and the losses of Kennedy and King named, immigrant poverty named; catalogue typo (combing) left verbatim per the verbatim-synopsis convention."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Savannah",
+      "story_lead": "On the African savannah, a dwarf mongoose team hunts with a hornbill who flushes prey and keeps watch, and the migration of a million wildebeest barrels toward them. Being small in a world of giants takes a gang.",
+      "resolution": "Brave is what small has to be, and asking for help, the mongoose-and-hornbill partnership, is how the gang stays unbeatable.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'asking for help' anchors to the partnership. Content consideration carried: cobra, baboon spider, wildebeest trampling risk, mongoose pups."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Jungle",
+      "story_lead": "A dart frog mother climbs forty meters to a safe pool for her tadpole, and then the tree holding the pool comes crashing down. His world exposed, her work starts over.",
+      "resolution": "Starting again is the brave part the episode names in its own closing words, and it is how the sadness of the crash gets worked through.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Content consideration carried: tadpole taken by a snake, 40-meter climb, leaf-cutter ant stripping."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Island",
+      "story_lead": "When Hurricane Dorian hits the Caribbean, a hummingbird mother's chicks are swept away, and starting over is the only way through before the next storm. A hermit-crab housing chain is the lighter thread.",
+      "resolution": "Sadness is what the storm leaves, and trying again, rebuilding before the next one comes, is what survival looks like at this size.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Age band edge call per dev set: chick loss in a hurricane is the heaviest beat in this batch, kept at 5-7 for flagging. Content consideration carried: Hurricane Dorian, flood survival, hermit-crab housing chain as a lighter secondary."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Outback",
+      "story_lead": "When the bushfire comes to the gumtree forest, a young sugar glider is too big to carry, and his mother saves herself. On his own through the burn, he makes it to the other side, where friends are waiting.",
+      "resolution": "The scare and the loneliness of the night end in asking for comfort, and the closing snuggle is what being okay looks like.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Age band edge call per dev set: the mother saves herself and leaves the pup, a heavy beat for the youngest viewers, kept at 5-7 for flagging. Coping anchor per dev set: 'asking for comfort' anchors to the closing snuggle. Content consideration carried: bushfire, firehawks, lace monitor."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Woodland",
+      "story_lead": "All year an older male steals his stash while a chipmunk keeps his head down, and keeping it down is its own kind of hard. The day comes when he chooses the fight.",
+      "resolution": "He stands up for himself at last, and winning his own patch is what the courage earns.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'standing up for yourself' is the episode's own stated lesson. Content consideration carried: chipmunk fight with injury, goshawk, short lifespans named."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "Garden",
+      "story_lead": "In the backyard, an ant colony refuses to abandon its wounded, carrying them home one by one, and one brave ant risks her life for a fallen comrade. A mason bee mother builds a fortress she will not live to guard.",
+      "resolution": "A fallen comrade leaves the colony heavy with sadness, and asking for help, the rescue no lone ant could manage, is the brave answer.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'asking for help' anchors to the colony rescue, flagged as the nearest listed value rather than a literal ask. Content consideration carried: pesticide strike described as carnage, starling predation, ant-lion traps; mason bee mirror is strong."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "2",
+      "episode_number": "1",
+      "segment": null,
+      "segment_title": "Meadow",
+      "story_lead": "Ahead of the harvest blades, a harvest mouse mother moves her pups one at a time to the hedgerow, and she does not give up until the family is safe. The kestrel is hunting the same field.",
+      "resolution": "The fear of the coming blades meets patience, the one-at-a-time kind, and the bravery of not giving up is what gets everyone to safety.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'patience' anchors to one-at-a-time under pressure; moving-house mirror is the closest starter situation. Content consideration carried: nest destroyed by the harvest, kestrel, meadow viper."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "2",
+      "episode_number": "2",
+      "segment": null,
+      "segment_title": "Desert",
+      "story_lead": "A ground squirrel pup spends a long, hot summer learning her mother's lessons, including how to face down an enemy ten times her size by flagging her tail. Diamondbacks and Gila monsters are the reason the lessons exist.",
+      "resolution": "The fear of what summer holds meets standing up for yourself, the taught and practiced kind, and the brave flag of her tail is what the lessons were for.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'standing up for yourself' anchors to the taught bold move. Content consideration carried: diamondback rattlesnakes, Gila monster, Harris's hawks hunting in packs, snake-skin camouflage trick."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "2",
+      "episode_number": "3",
+      "segment": null,
+      "segment_title": "Pond",
+      "story_lead": "Merganser ducklings take a leap of faith from the nest, and the family's big journey includes a crossing of the busiest kind of road. One straggler waits on the other side for the traffic to break.",
+      "resolution": "Patience carries the family through the crossing, and the mother calling the last one in is the happy ending the waiting was for.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'patience' anchors to waiting for the break in traffic and the mother calling the last one in. Content consideration carried: road traffic, one-in-ten survival odds named, garter snakes, frozen wood frog."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "2",
+      "episode_number": "4",
+      "segment": null,
+      "segment_title": "Rainforest",
+      "story_lead": "A four-week-old tenrec sets out alone in the Madagascar rainforest, and the fossa and the tree boa are the reasons not to wander. When a pup strays too far, his mother guides him home with her secret homing signal.",
+      "resolution": "The scare of the wander ends in asking for help, and the call-and-answer that brings him home is the happy reunion.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'asking for help' anchors to the call-and-answer that reunites them. Content consideration carried: fossa and tree boa predation, lemurs biting psychoactive millipede toxin, 80 percent deforestation named."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "2",
+      "episode_number": "5",
+      "segment": null,
+      "segment_title": "Reef",
+      "story_lead": "A tiny crab finds the chink in the crown-of-thorns starfish's armor as the reef's most important night of the year arrives. Holding his ground drives the monster off.",
+      "resolution": "He stands up for himself against a much bigger enemy, and the brave hold is what saves the patch of reef he guards.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'standing up for yourself' anchors to holding ground and finding the weak spot. Content consideration carried: starfish army devouring coral, sharks, mantis-shrimp punch, warming-seas threats."
+    },
+    {
+      "series_title": "Tiny World",
+      "season_number": "2",
+      "episode_number": "6",
+      "segment": null,
+      "segment_title": "Dune",
+      "story_lead": "A sandgrouse father in the Namib desert flies two hours, laden, every day for two months, risking the goshawk so his chicks can sip from his feathers. The chameleon takes it one slow step at a time.",
+      "resolution": "Patience is what carries the father through the daily risk, and the happiness of the chicks' sip is what each hard flight was for.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'patience' anchors to the repeated daily journey; the chameleon's one-slow-step-at-a-time close is the secondary mirror. Content consideration carried: goshawk hunts, 70-degree sand, wasp paralyzing spiders."
+    }
+  ]
+}

@@ -5,6 +5,8 @@
   "sheetName": "Wolfboy and the Everything Factory",
   "kind": "stories",
   "defaultSeriesTitle": null,
+  "seriesFilter": null,
+  "retiredNotePrefix": null,
   "rowCount": 36,
   "rows": [
     {
