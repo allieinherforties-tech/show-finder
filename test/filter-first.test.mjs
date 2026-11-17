@@ -121,3 +121,26 @@ test('a filter-only query over the real catalog renders results for every row it
     assert.ok(r.situation, 'each row carries a situation');
   }
 });
+
+// PRD Finder v1.1, no dead-end cards: every story card in any /api/search
+// response carries exactly one watch link. The serve path resolves the
+// fallback: verified episode link first, else the series page.
+test('every story in a real search response carries a watch link and a kind', async () => {
+  const { status, body } = await apiSearch('?q=frustrated%20school&limit=600');
+  assert.equal(status, 200);
+  assert.ok(body.count > 0);
+  const unlinked = body.results.filter((r) => !r.appleUrl || !r.appleLinkKind);
+  assert.deepEqual(unlinked, [], 'no dead-end cards: every result resolves a watch link');
+  for (const r of body.results) {
+    assert.match(r.appleUrl, /^https:\/\/tv\.apple\.com\/us\/(episode|show|movie)\//, `the link is a verified Apple shape: ${r.id}`);
+    assert.ok(['episode', 'show', 'movie'].includes(r.appleLinkKind), `${r.id} carries a known link kind`);
+  }
+});
+
+test('a search response resolves the series-page fallback with a series-level name', async () => {
+  const { status, body } = await apiSearch('?q=frustrated%20school&limit=600');
+  assert.equal(status, 200);
+  const fallback = body.results.find((r) => r.appleLinkKind === 'show');
+  assert.ok(fallback, 'the live query still includes fallback-linked rows');
+  assert.match(fallback.appleUrl, /\/show\//, 'the fallback lands on the series page');
+});

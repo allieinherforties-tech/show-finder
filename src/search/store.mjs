@@ -8,6 +8,7 @@ import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { cosine, createEmbedder } from './embedder.mjs';
 import { ftsMatchExpression, interpretQuery } from './interpret.mjs';
+import { resolveWatchLink } from '../links/apple-tv.mjs';
 
 // Column order matters: it matches the bm25 weight list in keywordScores.
 const FTS_COLUMNS = 'situation, emotions, coping, synopsis, segment_title, episode_title, series_title';
@@ -47,6 +48,15 @@ export function populateDb(db, stories) {
   })(stories);
 }
 
+/** Maps each series title to its stamped Apple series page URL. */
+export function seriesUrlByTitle(seriesPosters) {
+  return new Map(
+    (seriesPosters || [])
+      .filter((p) => p.title && p.appleSeriesUrl)
+      .map((p) => [p.title, p.appleSeriesUrl]),
+  );
+}
+
 /** Opens an artifact and its database and returns a queryable index. */
 export function loadIndex({ artifactPath, dbPath, embedderName } = {}) {
   const raw = JSON.parse(readFileSync(artifactPath, 'utf8'));
@@ -56,6 +66,7 @@ export function loadIndex({ artifactPath, dbPath, embedderName } = {}) {
   const storiesById = new Map(stories.map((s) => [s.id, s]));
   const vectors = raw.embeddings.map((e) => Float64Array.from(e.vector));
   const embedder = createEmbedder(embedderName || raw.embedder);
+  const seriesUrls = seriesUrlByTitle(raw.seriesPosters);
   return {
     version: raw.version,
     storyCount: stories.length,
@@ -66,17 +77,22 @@ export function loadIndex({ artifactPath, dbPath, embedderName } = {}) {
     // The v1.1 browse-by-show strip: one poster per published series, stamped
     // by the build. The server renders it straight from this list.
     seriesPosters: raw.seriesPosters || [],
+    // Series page URLs for the watch-link fallback: a story row with no
+    // verified episode link still carries its series page (PRD v1.1, no
+    // dead-end cards).
+    seriesUrlByTitle: seriesUrls,
     // Direct row access for curated surfaces (the holiday rails): a rail row
     // quotes the artifact's own story row, so a rebuild flows through.
     storyById: (id) => storiesById.get(id) || null,
     search(query, opts = {}) {
-      return runSearch({ stories, byId, vectors, db, embedder }, query, opts);
+      return runSearch({ stories, byId, vectors, db, embedder, seriesUrlByTitle: seriesUrls }, query, opts);
     },
   };
 }
 
-/** In-memory index for tests and for the artifact build itself. */
-export function createMemoryIndex(stories, embedderName) {
+/** In-memory index for tests and for the artifact build itself. The series
+ * poster list is optional: an index built without one resolves no fallback. */
+export function createMemoryIndex(stories, embedderName, seriesPosters = []) {
   const db = new Database(':memory:');
   populateDb(db, stories);
   const embedder = createEmbedder(embedderName);
@@ -86,8 +102,13 @@ export function createMemoryIndex(stories, embedderName) {
     // Same exclusion as the artifact path: a film is never a valid series
     // filter value, whatever builds the index.
     seriesTitles: new Set(stories.filter((s) => s.kind !== 'film').map((s) => s.seriesTitle)),
+    seriesUrlByTitle: seriesUrlByTitle(seriesPosters),
     search(query, opts = {}) {
-      return runSearch({ stories, byId, vectors, db, embedder }, query, opts);
+      return runSearch(
+        { stories, byId, vectors, db, embedder, seriesUrlByTitle: seriesUrlByTitle(seriesPosters) },
+        query,
+        opts,
+      );
     },
   };
 }
@@ -146,7 +167,7 @@ function facetCounts(stories, matchedIdx) {
  * limit cut).
  */
 export function runSearch(index, query, opts = {}) {
-  const { stories, vectors, db, embedder } = index;
+  const { stories, vectors, db, embedder, seriesUrlByTitle = new Map() } = index;
   const parsed = interpretQuery(query);
   const ageBand = opts.ageBand || parsed.ageBand;
   const vibe = opts.vibe || parsed.vibe;
@@ -237,8 +258,10 @@ export function runSearch(index, query, opts = {}) {
     // the server reports artwork mode tmdb; ARTWORK_MODE=text hides them.
     stillUrl: row.stillUrl || null,
     posterUrl: row.posterUrl || null,
-    appleUrl: row.appleUrl || null,
-    appleLinkKind: row.appleLinkKind || null,
+    // The watch link resolves at serve time: the row's verified Apple URL,
+    // else its series page, else null (a film with no verified link). The
+    // frontend renders exactly one watch affordance from these two fields.
+    ...watchFields(row, seriesUrlByTitle),
     // Watch-provider fields: the frontend renders the watch label from
     // providerLabel, never a hardcoded platform string.
     provider: row.provider || null,
@@ -252,6 +275,13 @@ export function runSearch(index, query, opts = {}) {
     return { results, matched: withRaw.length, facets: facetCounts(stories, withRaw.map(({ i }) => i)) };
   }
   return results;
+}
+
+/** The serve-time watch fields for one result row: verified Apple URL first,
+ * series page as the fallback, per the PRD's no-dead-end-cards ruling. */
+function watchFields(row, seriesUrls) {
+  const watch = resolveWatchLink(row, (title) => seriesUrls.get(title) || null);
+  return { appleUrl: watch ? watch.url : null, appleLinkKind: watch ? watch.kind : null };
 }
 
 function round2(v) {

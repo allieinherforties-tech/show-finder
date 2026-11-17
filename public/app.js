@@ -124,6 +124,17 @@ export function zeroResultLine(filters) {
   return `nothing matches ${chips.map((c) => c.label).join(' + ')}. try removing one filter:`;
 }
 
+// One tap on the plus affordance: the resolution is the reward for the tap
+// (PRD v1.1). aria-expanded drives the glyph rotation in CSS, so the state
+// change survives a reduced-motion setting unchanged.
+function toggleCardExpansion(button, panel) {
+  const expanded = button.dataset.expanded === 'true';
+  const next = expanded ? 'false' : 'true';
+  button.dataset.expanded = next;
+  button.setAttribute('aria-expanded', next);
+  if (panel) panel.hidden = next !== 'true';
+}
+
 function renderCard(r) {
   const card = document.createElement('article');
   card.className = 'card';
@@ -154,6 +165,47 @@ function renderCard(r) {
   const heading = document.createElement('h3');
   heading.textContent = r.seriesTitle;
 
+  // Collapsed card = poster, title, S/E, meta line, one lead (PRD v1.1).
+  // The expansion affordance is a drawn plus glyph, no text label; it
+  // rotates to a close state while the resolution is showing. Only a row
+  // with a resolution to reveal carries the control: a card that ends at
+  // the lead stays honest about it.
+  const resolutionWrap = document.createElement('div');
+  resolutionWrap.className = 'card-resolution';
+  resolutionWrap.id = `resolution-${r.id}`;
+  resolutionWrap.hidden = true;
+
+  const resolution = document.createElement('p');
+  resolution.className = 'resolution';
+  if (r.coping) {
+    const label = document.createElement('span');
+    label.className = 'resolution-label';
+    label.textContent = 'resolution: ';
+    resolution.appendChild(label);
+    resolution.appendChild(document.createTextNode(r.coping));
+    resolutionWrap.appendChild(resolution);
+  }
+
+  const expand = r.coping ? document.createElement('button') : null;
+  if (expand) {
+    expand.type = 'button';
+    expand.className = 'card-expand';
+    expand.dataset.expanded = 'false';
+    expand.setAttribute('aria-expanded', 'false');
+    expand.setAttribute('aria-controls', resolutionWrap.id);
+    expand.setAttribute('aria-label', `More about ${r.seriesTitle}`);
+    const glyph = document.createElement('span');
+    glyph.className = 'expand-glyph';
+    glyph.setAttribute('aria-hidden', 'true');
+    expand.appendChild(glyph);
+    expand.addEventListener('click', () => toggleCardExpansion(expand, resolutionWrap));
+  }
+
+  const head = document.createElement('div');
+  head.className = 'card-head';
+  head.appendChild(heading);
+  if (expand) head.appendChild(expand);
+
   const episode = document.createElement('p');
   episode.className = 'episode';
   episode.textContent = subtitleLabel(r);
@@ -171,29 +223,19 @@ function renderCard(r) {
   const tagsText = tagLine(r);
   tags.textContent = tagsText;
 
-  const resolution = document.createElement('p');
-  resolution.className = 'resolution';
-  if (r.coping) {
-    const label = document.createElement('span');
-    label.className = 'resolution-label';
-    label.textContent = 'resolution: ';
-    resolution.appendChild(label);
-    resolution.appendChild(document.createTextNode(r.coping));
-  }
-
   card.append(
-    heading,
+    head,
     episode,
     tagsText ? tags : '',
     r.displaySynopsis ? lead : '',
-    r.coping ? resolution : '',
+    r.coping ? resolutionWrap : '',
   );
 
-  // The watch pill names the provider from the row's data: the canonical
-  // tv.apple.com web URL is generated at build time (episode level where the
-  // id is verified, show page as fallback), and providerLabel is the exact
-  // display string, so a future PBS or Disney row needs zero UI rework.
-  // Rows with no verified link get no button rather than an invented one.
+  // The watch pill names the provider from the row's data: the serve path
+  // resolves the link (episode level where the id is verified, the series
+  // page otherwise, per the PRD's no-dead-end ruling), and providerLabel is
+  // the exact display string, so a future PBS or Disney row needs zero UI
+  // rework. Every story card carries the affordance; no dead-end cards.
   if (r.appleUrl) {
     const watch = document.createElement('a');
     watch.className = 'watch';
@@ -210,11 +252,11 @@ function renderCard(r) {
     glyph.height = 40;
     watch.appendChild(glyph);
     watch.appendChild(document.createTextNode(`Watch on ${r.providerLabel}`));
-    // Distinct accessible name per card: a links list of twenty identical
-    // "Watch on Apple TV+" entries tells a screen reader user nothing.
-    // A film has no season or episode to name: its label is the film title
-    // alone (diction ruling, rendering guards).
-    const ariaLabel = r.kind === 'film'
+    // The accessible name never claims the exact episode when the link
+    // lands on the series page (linkKind show, PRD v1.1). A film has no
+    // season or episode to name: its label is the title alone (diction
+    // ruling, rendering guards).
+    const ariaLabel = r.kind === 'film' || r.appleLinkKind === 'show'
       ? `Watch ${r.seriesTitle} on ${r.providerLabel}`
       : `Watch ${r.seriesTitle}, season ${r.seasonNumber} episode ${r.episodeNumber}, on ${r.providerLabel}`;
     watch.setAttribute('aria-label', ariaLabel);
@@ -505,7 +547,14 @@ if (railDialog) {
   let railDialogOpener = null;
 
   railDialog.addEventListener('close', () => {
-    if (railDialogOpener) railDialogOpener.focus();
+    if (railDialogOpener) {
+      railDialogOpener.focus();
+      // The opener's plus glyph rotates back from its close state.
+      if (railDialogOpener.setAttribute) {
+        railDialogOpener.dataset.expanded = 'false';
+        railDialogOpener.setAttribute('aria-expanded', 'false');
+      }
+    }
     railDialogOpener = null;
   });
 
@@ -531,6 +580,12 @@ if (railDialog) {
       railDialogBody.appendChild(actions);
     }
     railDialogOpener = opener;
+    // The opener's plus glyph rotates to a close state while its dialog is
+    // up; the close handler restores it.
+    if (opener && opener.setAttribute) {
+      opener.dataset.expanded = 'true';
+      opener.setAttribute('aria-expanded', 'true');
+    }
     railDialog.showModal();
   };
 

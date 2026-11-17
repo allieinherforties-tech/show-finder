@@ -162,7 +162,8 @@ test('the film watch pill names the film alone, never season null episode null',
 
 test('the film heading renders the film title', async () => {
   const [card] = await renderRows([filmRow({})]);
-  const heading = card.children.find((c) => c.tagName === 'h3');
+  const head = card.children.find((c) => c.className === 'card-head');
+  const heading = head.children.find((c) => c.tagName === 'h3');
   assert.equal(heading.textContent, 'A Charlie Brown Christmas');
 });
 

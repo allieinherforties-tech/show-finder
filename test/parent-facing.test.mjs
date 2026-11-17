@@ -101,3 +101,34 @@ test('the gate held back the known fallback rows; the artifact count reflects it
   }
   assert.equal(artifact.storyCount, artifact.stories.length, 'storyCount matches the rows');
 });
+
+// PRD Finder v1.1, Amendment 4: internal process vocabulary never reaches a
+// parent-facing surface. The banned phrases name the database, not the story.
+import { internalLanguageHits, BANNED_PROCESS_LANGUAGE } from '../src/pipeline/parent-facing.mjs';
+
+test('every banned process phrase is caught, in any casing', () => {
+  const phrases = [
+    'the row',
+    'Listed strategy shows the answer',
+    'the synopsis tells the whole story',
+    "what shows up in the synopsis is this",
+  ];
+  for (const phrase of phrases) {
+    assert.ok(internalLanguageHits(phrase).length > 0, `caught: ${phrase}`);
+  }
+});
+
+test('clean parent-voice copy raises no process-language hits', () => {
+  assert.deepEqual(internalLanguageHits('The episode ends with her still figuring it out.'), []);
+  assert.deepEqual(internalLanguageHits('Three days in a row of sunny mornings.'), []);
+  assert.deepEqual(internalLanguageHits(undefined), []);
+  assert.deepEqual(internalLanguageHits(null), []);
+});
+
+test('every banned phrase in the registry is matched by the scanner', () => {
+  const source = BANNED_PROCESS_LANGUAGE.source;
+  const phrases = source.split('|').map((p) => p.replace(/\\b/g, ''));
+  for (const phrase of phrases) {
+    assert.ok(internalLanguageHits(phrase).length > 0, `the scanner catches its own registry entry: ${phrase}`);
+  }
+});

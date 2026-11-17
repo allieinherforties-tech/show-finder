@@ -59,6 +59,22 @@ function withShapeCheck(url, expectedKind) {
   return url;
 }
 
+/**
+ * Resolves the watch link for one story row at the render layer: the row's
+ * own verified Apple URL when it has one, otherwise the series page URL
+ * (PRD Finder v1.1: no dead-end cards). A film has no series page here, and
+ * a series missing from the stamped series list stays linkless rather than
+ * invented. Returns { url, kind } or null.
+ */
+export function resolveWatchLink(row, seriesUrlFor) {
+  if (row.appleUrl) {
+    return { url: row.appleUrl, kind: row.appleLinkKind || classifyAppleUrl(row.appleUrl) };
+  }
+  if (row.kind === 'film') return null;
+  const seriesUrl = seriesUrlFor ? seriesUrlFor(row.seriesTitle) : null;
+  return seriesUrl ? { url: seriesUrl, kind: 'show' } : null;
+}
+
 function normalizeTitle(title) {
   return String(title || '').trim().toLowerCase();
 }

@@ -36,6 +36,26 @@ const SYNOPSIS_FALLBACK = /synopsis[- ]only|synopsis[- ]fallback|inferred from t
 const SCRIPT_EVIDENCE = /script_vs_synopsis\s*:/i;
 
 /**
+ * Internal process vocabulary (PRD Finder v1.1, Amendment 4): database-voice
+ * phrasing that must never reach a parent-facing surface. These strings name
+ * the database, not the story; the rendered path scans for them before any
+ * affordance or chrome string ships.
+ */
+export const BANNED_PROCESS_LANGUAGE = /\bthe row\b|\blisted strategy\b|\bthe synopsis tells\b|\bshows up in the synopsis\b/i;
+
+/**
+ * The banned process-vocabulary phrases inside one rendered string, matched
+ * case-insensitively. Empty list means the string is clean.
+ */
+export function internalLanguageHits(text) {
+  if (typeof text !== 'string') return [];
+  const flags = BANNED_PROCESS_LANGUAGE.flags.includes('g')
+    ? BANNED_PROCESS_LANGUAGE.flags
+    : `${BANNED_PROCESS_LANGUAGE.flags}g`;
+  return text.match(new RegExp(BANNED_PROCESS_LANGUAGE.source, flags)) || [];
+}
+
+/**
  * The internal annotation markers sitting inside a row's parent-facing
  * fields. Returns a list of { field, match } describing exactly what leaked.
  */
