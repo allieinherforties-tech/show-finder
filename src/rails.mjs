@@ -28,11 +28,11 @@ export const HOLIDAY_RAILS = [
       {
         // Thanksgiving first: six rows.
         storyId: 'sago-mini-friends-s1-e11-seg1',
-        why: 'A missed festival becomes Lumington\'s own Thankful Day, because Harvey thanks a bench out loud and the town starts to glow.',
+        why: 'Harvey accidentally misses Thankful Day but brings the tradition to a new town called Loomington.',
       },
       {
         storyId: 'helpsters-help-you-s1-e6-seg1',
-        why: 'Gratitude gets made into something: a thank-you song built by looping everyday sounds, for the workers who hold everything up.',
+        why: 'In this Covid-era episode, gratitude is turned into a song.',
       },
       {
         storyId: 'pretzel-and-the-puppies-s1-e8-seg1',
