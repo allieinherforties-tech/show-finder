@@ -457,24 +457,95 @@ main {
    keep their own behavior. */
 .rail-card { cursor: pointer; }
 
+/* The expansion affordance: a drawn plus glyph, no text label (PRD v1.1).
+   One glyph style serves result cards and rail cards alike; the same button
+   rotates to a close state while expanded. Keyboard users get the native
+   button; the focus ring is the teal accent. */
+.card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.card-expand,
 .rail-card-more {
-  align-self: flex-start;
-  border: none;
-  background: none;
-  padding: 0.1rem 0;
-  font: inherit;
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: var(--accent);
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
   cursor: pointer;
 }
 
-.rail-card-more:hover { text-decoration: underline; }
+.card-expand:hover,
+.rail-card-more:hover { border-color: var(--accent); }
 
-/* The expanded card view: a native <dialog> modal. Mobile first, the sheet
-   spans the viewport with the head pinned; wider screens center a readable
-   column. Esc closes natively; the backdrop tap and Close button close in
-   app.js. Focus is trapped natively and restored to the opener. */
+.card-expand:focus-visible,
+.rail-card-more:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+.rail-card-more { align-self: flex-start; }
+
+.expand-glyph {
+  position: relative;
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.expand-glyph::before,
+.expand-glyph::after {
+  content: '';
+  position: absolute;
+  background: var(--accent);
+  border-radius: 1px;
+}
+
+.expand-glyph::before {
+  left: 50%;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  transform: translateX(-50%);
+}
+
+.expand-glyph::after {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  transform: translateY(-50%);
+}
+
+/* A quarter-turn diagonal turns the plus into the close mark. */
+.card-expand[aria-expanded='true'] .expand-glyph,
+.rail-card-more[aria-expanded='true'] .expand-glyph {
+  transform: rotate(45deg);
+}
+
+/* Reduced motion: the state change is instant, never animated. The glyph
+   still becomes the close mark; it just does not travel. */
+@media (prefers-reduced-motion: reduce) {
+  .expand-glyph { transition: none; }
+}
+
+/* The revealed resolution block: hidden until the tap (PRD v1.1), then a
+   quiet block under the lead. */
+.card-resolution { margin: 0.5rem 0 0.6rem; }
+
+/* The expanded rail card view: a native <dialog> modal. Mobile first, the
+   sheet spans the viewport with the head pinned; wider screens center a
+   readable column. Esc closes natively; the backdrop tap and Close button
+   close in app.js. Focus is trapped natively and restored to the opener. */
 .rail-dialog {
   border: 1px solid var(--line);
   border-radius: 0.9rem;

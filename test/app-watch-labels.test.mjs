@@ -147,3 +147,32 @@ test('a row with no verified link renders no watch button, whatever its provider
   })]);
   assert.equal(watchOf(card), null, 'the honest-link rule holds: no invented button');
 });
+
+// PRD Finder v1.1: the serve path resolves the watch link (verified episode,
+// else the series page), so every story card renders exactly one watch
+// affordance, and a link that lands on the series page never claims the
+// exact episode in its accessible name.
+test('a series-page fallback link names the series, never the episode', async () => {
+  const [card] = await renderRows([resultRow({
+    appleUrl: 'https://tv.apple.com/us/show/duck-goose/umc.cmc.3czcagetjq31vvbgkkyp1xiao',
+    appleLinkKind: 'show',
+  })]);
+  const watch = watchOf(card);
+  assert.ok(watch, 'the fallback row renders its watch affordance: no dead-end cards');
+  assert.equal(watch.children[1].text, 'Watch on Apple TV+');
+  assert.equal(watch['aria-label'], 'Watch Duck & Goose on Apple TV+');
+});
+
+test('an episode-level link keeps the full episode accessible name', async () => {
+  const [card] = await renderRows([resultRow({ appleLinkKind: 'episode' })]);
+  assert.equal(
+    watchOf(card)['aria-label'],
+    'Watch Duck & Goose, season 2 episode 1, on Apple TV+',
+  );
+});
+
+test('every story card renders exactly one watch affordance', async () => {
+  const [card] = await renderRows([resultRow({ appleLinkKind: 'show' })]);
+  const pills = card.children.filter((c) => c.className === 'watch');
+  assert.equal(pills.length, 1, 'one Watch affordance per card, never two, never zero');
+});

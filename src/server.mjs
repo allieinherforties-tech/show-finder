@@ -60,8 +60,9 @@ export function createApp({ artifactPath = ARTIFACT_PATH, dbPath = DB_PATH } = {
       body = applyWaitlistUrl(body.toString());
       // The Q4 holiday rails render server side from the loaded artifact,
       // first-party markup with no JavaScript dependency, like the waitlist
-      // CTA above.
-      body = applyHolidayRails(body, index.storyById);
+      // CTA above. The series URL lookup backs the watch-link fallback: a
+      // rail row with no verified episode link links its series page.
+      body = applyHolidayRails(body, index.storyById, (title) => index.seriesUrlByTitle.get(title) || null);
       // The browse-by-show strip renders server side from the build's
       // stamped poster list. A text mode deploy renders no artwork anywhere,
       // so it passes an empty list and the strip renders as nothing.

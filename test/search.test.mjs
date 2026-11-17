@@ -88,3 +88,57 @@ test('every published story row in the built artifact carries the provider field
     assert.equal(story.providerLabel, 'Apple TV+', `${story.id} carries the display label`);
   }
 });
+
+// The PRD v1.1 watch-link fallback: a story row with no verified Apple URL
+// still resolves its series page at serve time, so every card carries a
+// watch affordance. Nothing is written back: the artifact row stays as the
+// curation left it.
+test('a row with no verified link falls back to its series page at serve time', () => {
+  const seriesPosters = [
+    { title: 'Test Series', appleSeriesUrl: 'https://tv.apple.com/us/show/test-series/umc.cmc.testseriesregistry' },
+  ];
+  const index = createMemoryIndex(STORIES, undefined, seriesPosters);
+  const [result] = index.search('scared of the dark');
+  assert.equal(
+    result.appleUrl,
+    'https://tv.apple.com/us/show/test-series/umc.cmc.testseriesregistry',
+    'the series page fills the empty watch link',
+  );
+  assert.equal(result.appleLinkKind, 'show', 'the fallback resolves as a show-page link');
+});
+
+test('a row with a verified link keeps it over the series fallback', () => {
+  // Link fields are joined downstream of normalizeStoryRow (the build does
+  // the join), so the fixture attaches them to the normalized row directly.
+  const linked = [
+    {
+      ...normalizeStoryRow(
+        {
+          series_title: 'Test Series', season_number: '1', episode_number: '1',
+          segment: '1', segment_title: 'The Test Story',
+          synopsis: 'A test story about the dark and bedtime.',
+          situation: 'A kid is scared of the dark at bedtime.',
+          emotion: 'scared', coping: 'naming the feeling', age_band: '2-4', vibe: 'calm',
+        },
+        { workbookId: 'wb_test', sheetId: 'sh_test' },
+      ),
+      appleUrl: 'https://tv.apple.com/us/episode/the-test-story/umc.cmc.episoderegistry00?showId=umc.cmc.showregistry0000',
+      appleLinkKind: 'episode',
+      provider: 'apple',
+      providerLabel: 'Apple TV+',
+    },
+  ];
+  const seriesPosters = [
+    { title: 'Test Series', appleSeriesUrl: 'https://tv.apple.com/us/show/test-series/umc.cmc.testseriesregistry' },
+  ];
+  const index = createMemoryIndex(linked, undefined, seriesPosters);
+  const [result] = index.search('scared of the dark');
+  assert.equal(result.appleUrl, linked[0].appleUrl, 'the verified episode link wins');
+  assert.equal(result.appleLinkKind, 'episode');
+});
+
+test('an index built without a series list resolves no fallback, and a film never does', () => {
+  const bare = createMemoryIndex(STORIES);
+  const [result] = bare.search('scared of the dark');
+  assert.equal(result.appleUrl, null, 'no stamped series page means no invented link');
+});

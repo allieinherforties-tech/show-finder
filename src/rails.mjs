@@ -13,7 +13,8 @@
 // and is reported; the rail never pads. The only copy authored here is the
 // editorial framing: the approved description and the per-row why lines.
 
-import { classifyAppleUrl } from './links/apple-tv.mjs';
+import { resolveWatchLink } from './links/apple-tv.mjs';
+import { internalLanguageHits } from './pipeline/parent-facing.mjs';
 import { suggestedAgeLine } from './pipeline/series-descriptions.mjs';
 
 export const HOLIDAY_RAILS_PLACEHOLDER = '__HOLIDAY_RAILS__';
@@ -293,7 +294,7 @@ export function railRowEpisodeLine(story) {
  * field on a resolved row quotes the artifact; a storyId the artifact does
  * not hold is dropped and reported in `unresolved`, never padded over.
  */
-export function resolveHolidayRails(rails, storyById) {
+export function resolveHolidayRails(rails, storyById, seriesUrlFor = null) {
   const unresolved = [];
   const resolvedRails = rails.map((rail) => {
     const rows = [];
@@ -303,6 +304,9 @@ export function resolveHolidayRails(rails, storyById) {
         unresolved.push(`${rail.id}: ${def.storyId}`);
         continue;
       }
+      // The watch link resolves at render time: the row's verified Apple URL,
+      // else its series page (PRD v1.1, no dead-end cards).
+      const watch = resolveWatchLink(story, seriesUrlFor);
       rows.push({
         storyId: story.id,
         title: railRowTitle(story),
@@ -319,8 +323,8 @@ export function resolveHolidayRails(rails, storyById) {
         displaySynopsis: story.displaySynopsis,
         stillUrl: story.stillUrl || null,
         posterUrl: story.posterUrl || null,
-        appleUrl: story.appleUrl || null,
-        linkKind: story.appleUrl ? classifyAppleUrl(story.appleUrl) : null,
+        appleUrl: watch ? watch.url : null,
+        linkKind: watch ? watch.kind : null,
         provider: story.provider || null,
         providerLabel: story.providerLabel || null,
         why: def.why,
@@ -343,6 +347,15 @@ export { escapeHtml };
 
 /** One rail card. All text is escaped; catalog data can never inject markup. */
 export function renderRailCard(row) {
+  // Parent-facing language guard (PRD v1.1): internal process vocabulary
+  // never reaches a rendered rail surface. A hit fails loudly here rather
+  // than shipping database voice to a parent.
+  for (const text of [row.title, row.episodeLine, row.why, row.displaySynopsis, row.coping, row.providerLabel]) {
+    const hits = internalLanguageHits(text);
+    if (hits.length) {
+      throw new Error(`internal process language "${hits[0]}" would render on rail card ${row.storyId}`);
+    }
+  }
   const art = row.stillUrl || row.posterUrl;
   const artKind = row.stillUrl ? 'Still from' : 'Series poster for';
   const artAlt = `${artKind} ${row.seriesTitle}, ${row.title}`;
@@ -355,14 +368,19 @@ export function renderRailCard(row) {
     .map((e) => `<span class="tag">${escapeHtml(e)}</span>`)
     .join('');
   const vibeTag = row.vibe ? `<span class="tag aged">${escapeHtml(row.vibe)}</span>` : '';
-  // Honest-link rule: the play button renders only on rows with a verified
-  // link. The visible UI never names a provider; the accessible name does,
-  // from the row's providerLabel so a future PBS or Disney row needs zero
-  // UI rework.
-  // The name carries the segment title too: two stories from one episode can
-  // share a rail, and identical accessible names would not distinguish them.
+  // Honest-link rule: every row renders the play button from the watch link
+  // resolved upstream (verified episode, else series page). The visible UI
+  // never names a provider; the accessible name does, from the row's
+  // providerLabel so a future PBS or Disney row needs zero UI rework.
+  // A show-page link names the series only: it never claims the exact
+  // episode (PRD v1.1). The name carries the segment title for episode
+  // links: two stories from one episode can share a rail, and identical
+  // accessible names would not distinguish them.
+  const watchName = row.linkKind === 'show'
+    ? `Watch on ${row.providerLabel}: ${row.seriesTitle}`
+    : `Watch on ${row.providerLabel}: ${row.seriesTitle}, ${row.title}, season ${row.seasonNumber} episode ${row.episodeNumber}`;
   const watch = row.appleUrl && row.linkKind
-    ? `<a class="watch-play" href="${escapeHtml(row.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Watch on ${escapeHtml(row.providerLabel)}: ${escapeHtml(row.seriesTitle)}, ${escapeHtml(row.title)}, season ${row.seasonNumber} episode ${row.episodeNumber}"><img class="watch-play-icon" src="/play-button.png" alt="" width="44" height="40"></a>`
+    ? `<a class="watch-play" href="${escapeHtml(row.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(watchName)}"><img class="watch-play-icon" src="/play-button.png" alt="" width="44" height="40"></a>`
     : '';
   // The expanded card view rides inside the card as inert template content:
   // the tapped card carries its own parent-facing fields (story lead,
@@ -402,7 +420,10 @@ export function renderRailCard(row) {
       '          </dl>',
     ] : []),
     '        </template>',
-    '        <button class="rail-card-more" type="button" aria-haspopup="dialog">Story details</button>',
+    // The expansion affordance is a drawn plus glyph, no text label (PRD
+    // v1.1: the 'Story details' label is retired). The plus rotates to a
+    // close state while its dialog is open (app.js toggles the state).
+    `        <button class="rail-card-more" type="button" aria-haspopup="dialog" aria-expanded="false" aria-label="More about ${escapeHtml(row.title)}"><span class="expand-glyph" aria-hidden="true"></span></button>`,
     ...(watch ? ['        <div class="rail-actions">', `          ${watch}`, '        </div>'] : []),
     '      </article>',
   ].filter((line) => line !== '').join('\n');
@@ -434,8 +455,8 @@ export function renderHolidayRails(resolvedRails) {
 }
 
 /** Substitutes the rendered rails for the placeholder on the served page. */
-export function applyHolidayRails(html, storyById, rails = HOLIDAY_RAILS) {
-  const { rails: resolved } = resolveHolidayRails(rails, storyById);
+export function applyHolidayRails(html, storyById, seriesUrlFor = null, rails = HOLIDAY_RAILS) {
+  const { rails: resolved } = resolveHolidayRails(rails, storyById, seriesUrlFor);
   const rendered = renderHolidayRails(resolved);
   return html.split(HOLIDAY_RAILS_PLACEHOLDER).join(rendered);
 }

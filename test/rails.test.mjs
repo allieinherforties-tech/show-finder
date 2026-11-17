@@ -9,7 +9,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { HOLIDAY_RAILS, resolveHolidayRails, renderHolidayRails, renderRailCard, applyHolidayRails, HOLIDAY_RAILS_PLACEHOLDER } from '../src/rails.mjs';
+import { HOLIDAY_RAILS, resolveHolidayRails, renderHolidayRails, renderRailCard, applyHolidayRails, HOLIDAY_RAILS_PLACEHOLDER, escapeHtml } from '../src/rails.mjs';
 import { classifyAppleUrl } from '../src/links/apple-tv.mjs';
 
 const artifact = JSON.parse(readFileSync('data/search/search-artifact.json', 'utf8'));
@@ -100,7 +100,15 @@ test('every rail card carries its expanded detail template', () => {
   }
   assert.ok(html.includes('<dt>Resolution</dt>'), 'the expanded view names Resolution');
   assert.ok(html.includes('class="rail-dialog-lead"'), 'the expanded view opens its story with the unlabeled lead');
-  assert.ok(html.includes('<button class="rail-card-more" type="button" aria-haspopup="dialog">Story details</button>'), 'each card has its keyboard affordance');
+  // The expansion affordance is a drawn plus glyph with no text label: the
+  // 'Story details' copy is retired (PRD v1.1). The plus carries its
+  // aria-expanded state for the rotation and a parent-voice accessible name.
+  assert.ok(
+    html.includes('<button class="rail-card-more" type="button" aria-haspopup="dialog" aria-expanded="false" aria-label="More about'),
+    'each card has its plus-glyph keyboard affordance',
+  );
+  assert.ok(html.includes('class="expand-glyph" aria-hidden="true"'), 'the affordance glyph is drawn, decorative to screen readers');
+  assert.equal(html.includes('Story details'), false, 'the retired label never renders');
   // The expanded view is served from the same gated artifact, so the
   // internal-annotation scan in test/parent-facing.test.mjs covers it too;
   // this pins that no internal field key leaks into the rendered labels.
@@ -121,7 +129,20 @@ test('every row with a verified link carries the play button, no visible Apple T
   const labels = [...html.matchAll(/aria-label="([^"]+)"/g)].map((m) => m[1]);
   const watchLabels = labels.filter((l) => l.startsWith('Watch on Apple TV'));
   assert.equal(watchLabels.length, 50, 'each button keeps its Watch on Apple TV accessible name');
-  assert.equal(new Set(watchLabels).size, watchLabels.length, 'aria labels stay distinct per row');
+  // Show-page links name the series alone: they never claim the exact
+  // episode (PRD v1.1). Rows of one series landing on the same show page
+  // share an accessible name because they are the same destination; episode
+  // links stay distinct per row.
+  const episodeLabels = watchLabels.filter((l) => l.includes('season'));
+  const showLabels = watchLabels.filter((l) => !l.includes('season'));
+  assert.equal(new Set(episodeLabels).size, episodeLabels.length, 'episode links stay distinct per row');
+  for (const row of resolved.flatMap((r) => r.rows)) {
+    if (row.linkKind !== 'show') continue;
+    assert.ok(
+      showLabels.includes(`Watch on Apple TV+: ${escapeHtml(row.seriesTitle)}`),
+      `a show-page link names the series alone: ${row.storyId}`,
+    );
+  }
   const buttons = [...html.matchAll(/<a class="watch-play".*?<\/a>/gs)].map((m) => m[0]);
   for (const button of buttons) {
     assert.ok(button.includes('/play-button.png'), 'the deeplink wraps the play logo');
@@ -260,4 +281,73 @@ test('a card with no artwork carries a detail template with no banner and no pla
   assert.equal(html.includes('rail-dialog-still'), false, 'no image element is rendered');
   assert.ok(html.includes('class="rail-dialog-lead"'), 'the story lead renders without artwork');
   assert.ok(html.includes('<dt>Resolution</dt>'), 'the Resolution line renders without artwork');
+});
+
+test('the watch-link fallback: a rail row with no verified link links its series page', () => {
+  // Synthetic story: same shape as an artifact row, appleUrl null. The
+  // series URL lookup stands in for the stamped series list.
+  const rails = [{
+    id: 'rail-fixture',
+    title: 'Fixture',
+    sub: 'fixture',
+    rows: [{ storyId: 'fixture-s1-e1' }],
+  }];
+  const story = {
+    id: 'fixture-s1-e1',
+    seriesTitle: 'Fixture Series',
+    seasonNumber: 1,
+    episodeNumber: 1,
+    segment: null,
+    episodeTitle: 'A Fixture Episode',
+    ageBand: '5-7',
+    vibe: 'calm',
+    emotions: ['calm'],
+    situation: 's',
+    coping: 'c',
+    displaySynopsis: 'd',
+    appleUrl: null,
+    appleLinkKind: null,
+    provider: 'apple',
+    providerLabel: 'Apple TV+',
+  };
+  const seriesUrlFor = (title) => (title === 'Fixture Series'
+    ? 'https://tv.apple.com/us/show/fixture-series/umc.cmc.fixture000000000000000000'
+    : null);
+  const { rails: resolvedFixtures, unresolved: unresolvedFixtures } = resolveHolidayRails(rails, (id) => (id === 'fixture-s1-e1' ? story : null), seriesUrlFor);
+  const row = resolvedFixtures[0].rows[0];
+  row.why = 'Because the fixture says so.';
+  assert.equal(row.appleUrl, seriesUrlFor('Fixture Series'), 'the series page fills the empty watch link');
+  assert.equal(row.linkKind, 'show', 'the fallback is a show-page link');
+  assert.equal(unresolvedFixtures.length, 0);
+  const html = renderRailCard(row);
+  assert.ok(html.includes('class="watch-play"'), 'the fallback row still carries its play button: no dead-end cards');
+  assert.ok(
+    html.includes(`aria-label="Watch on Apple TV+: ${row.seriesTitle}"`),
+    'the fallback button names the series alone, never the episode',
+  );
+  // A series missing from the stamped list stays linkless rather than
+  // invented.
+  const { rails: noFallback } = resolveHolidayRails(rails, (id) => (id === 'fixture-s1-e1' ? story : null), () => null);
+  assert.equal(noFallback[0].rows[0].appleUrl, null, 'no series page means no invented link');
+});
+
+test('the language guard: internal process vocabulary never renders on a rail card', () => {
+  const row = {
+    storyId: 'fixture-guard',
+    title: 'A Fixture Episode',
+    seriesTitle: 'Fixture Series',
+    seasonNumber: 1,
+    episodeNumber: 1,
+    emotions: [],
+    episodeLine: 'S1 E1',
+    why: 'Why the listed strategy shows up in the synopsis here.',
+    coping: 'c',
+    displaySynopsis: 'd',
+    providerLabel: 'Apple TV+',
+  };
+  assert.throws(
+    () => renderRailCard(row),
+    /internal process language/,
+    'a banned phrase in an editorial why line fails the render loudly',
+  );
 });
