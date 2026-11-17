@@ -9,7 +9,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { collectSeriesPosters } from '../src/pipeline/artwork.mjs';
 import { joinSeriesDescriptions } from '../src/pipeline/series-descriptions.mjs';
-import { renderSeriesStrip, applySeriesStrip, SERIES_STRIP_PLACEHOLDER, escapeHtml } from '../src/rails.mjs';
+import { renderSeriesStrip, applySeriesStrip, SERIES_STRIP_PLACEHOLDER, SERIES_STRIP_SIZE, pickShuffledSeries, escapeHtml } from '../src/rails.mjs';
 
 const artifact = JSON.parse(readFileSync('data/search/search-artifact.json', 'utf8'));
 // Two popup sources stand behind the strip: the legacy workbook's committed
@@ -115,4 +115,41 @@ test('app.js yields the strip to story matches with the rails', async () => {
   assert.ok(app.includes("getElementById('series-strip')"), 'app.js holds the strip');
   // Three toggle sites: idle returns it, zero matches return it, matches hide it.
   assert.equal((app.match(/seriesStrip\.hidden = (true|false)/g) || []).length, 3);
+});
+
+// The shuffle ruling (Allie, 2026-11-17): the strip serves ~15 posters per
+// page load, picked fresh at random from the full published set, because
+// recently added series' slower thumbnails were stalling the first paint.
+// The pick is server side and per request: no cookies, no identifiers, no
+// persistence; search and filters reach every published series regardless.
+test('the served strip is a shuffled slice of the published set, never the whole 53', () => {
+  assert.ok(seriesPosters.length > SERIES_STRIP_SIZE, 'the published set is larger than the slice, so the slice is doing the work');
+  const served = pickShuffledSeries(seriesPosters);
+  assert.equal(served.length, SERIES_STRIP_SIZE, `the strip serves ${SERIES_STRIP_SIZE} posters per page load`);
+  assert.equal(new Set(served).size, SERIES_STRIP_SIZE, 'no series renders twice on one page');
+  for (const entry of served) {
+    assert.ok(seriesPosters.includes(entry), 'every served poster comes from the published set');
+  }
+});
+
+test('a smaller published set renders in full: the slice never pads or drops', () => {
+  const few = seriesPosters.slice(0, 5);
+  assert.deepEqual(pickShuffledSeries(few), few, 'under the size cap the whole set renders');
+  assert.deepEqual(pickShuffledSeries([]), []);
+  assert.deepEqual(pickShuffledSeries(null), []);
+});
+
+test('the pick is a real shuffle, not a stable slice: order and membership vary', () => {
+  // Seeded rngs pin both behaviors deterministically: a low-seeded pick and
+  // a high-seeded pick select different members from a shuffled pool.
+  const low = pickShuffledSeries(seriesPosters, SERIES_STRIP_SIZE, () => 0);
+  const high = pickShuffledSeries(seriesPosters, SERIES_STRIP_SIZE, () => 0.999);
+  assert.notDeepEqual(low.map((p) => p.title), high.map((p) => p.title), 'different draws pick different posters');
+});
+
+test('the shuffled slice keeps every locked strip behavior per tile', () => {
+  const html = renderSeriesStrip(pickShuffledSeries(seriesPosters));
+  assert.equal((html.match(/<a class="series-poster" /g) || []).length, SERIES_STRIP_SIZE, 'one deep-linking tap target per served poster');
+  assert.equal((html.match(/loading="lazy"/g) || []).length, SERIES_STRIP_SIZE, 'lazy loading survives the shuffle; the popup thumb is inert template content');
+  assert.equal((html.match(/width="220" height="330"/g) || []).length, SERIES_STRIP_SIZE * 2, 'fixed dimensions survive the shuffle: no layout shift');
 });

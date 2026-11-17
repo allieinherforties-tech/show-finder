@@ -492,8 +492,6 @@ main {
   outline-offset: 2px;
 }
 
-.rail-card-more { align-self: flex-start; }
-
 .expand-glyph {
   position: relative;
   display: block;
@@ -698,7 +696,18 @@ main {
 /* Play-logo button: the deeplink wraps Allie's play logo. A soft shadow
    lifts the icon off the card so the button still reads as tappable on busy
    stills; the focus ring is the teal accent. No visible Apple TV text. */
-.rail-actions { margin-top: auto; }
+
+/* The card's bottom row (Allie's 2026-11-17 placement ruling): the play
+   button stays bottom-left, the plus affordance anchors the right corner,
+   both on one line. The foot carries the push-to-bottom the actions row
+   used to hold. */
+.rail-card-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-top: auto;
+}
 
 .watch-play {
   display: inline-block;
