@@ -82,7 +82,6 @@ function subtitleLabel(r) {
 function tagLine(r) {
   const parts = [];
   if (r.ageBand) parts.push(`ages ${r.ageBand.replace('-', ' to ')}`);
-  if (r.vibe) parts.push(r.vibe);
   if (r.emotions.length) parts.push(r.emotions.join(', '));
   return parts.join(' · ');
 }
@@ -223,10 +222,23 @@ function renderCard(r) {
   const tagsText = tagLine(r);
   tags.textContent = tagsText;
 
+  // Allie's 2026-11-17 placement ruling: the vibe chip sits on its own line
+  // below the Feelings row (teal = feeling, neutral = vibe), matching the
+  // rail-card skeleton regardless of emotion count.
+  const vibeRow = document.createElement('p');
+  vibeRow.className = 'tag-row';
+  if (r.vibe) {
+    const vibeChip = document.createElement('span');
+    vibeChip.className = 'tag aged';
+    vibeChip.textContent = r.vibe;
+    vibeRow.appendChild(vibeChip);
+  }
+
   card.append(
     head,
     episode,
     tagsText ? tags : '',
+    r.vibe ? vibeRow : '',
     r.displaySynopsis ? lead : '',
     r.coping ? resolutionWrap : '',
   );
