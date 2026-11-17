@@ -423,8 +423,12 @@ export function renderRailCard(row) {
     // The expansion affordance is a drawn plus glyph, no text label (PRD
     // v1.1: the 'Story details' label is retired). The plus rotates to a
     // close state while its dialog is open (app.js toggles the state).
+    // Allie's 2026-11-17 placement ruling: the plus anchors the bottom row's
+    // right corner, level with the play button, so the two read as one even
+    // foot (the .rail-card-foot row carries the alignment).
+    ...(watch ? ['        <div class="rail-card-foot">', '          <div class="rail-actions">', `            ${watch}`, '          </div>'] : []),
     `        <button class="rail-card-more" type="button" aria-haspopup="dialog" aria-expanded="false" aria-label="More about ${escapeHtml(row.title)}"><span class="expand-glyph" aria-hidden="true"></span></button>`,
-    ...(watch ? ['        <div class="rail-actions">', `          ${watch}`, '        </div>'] : []),
+    ...(watch ? ['        </div>'] : []),
     '      </article>',
   ].filter((line) => line !== '').join('\n');
 }
@@ -496,6 +500,24 @@ function renderSeriesPoster(entry) {
     '      </template>',
     '    </li>',
   ].join('\n');
+}
+
+/** Poster tiles per served page: the shuffled slice size. */
+export const SERIES_STRIP_SIZE = 15;
+
+/**
+ * A fresh random slice of the published series for each page load: ~15
+ * posters render at a time (Allie's 2026-11-17 ruling) so recently added
+ * series' slower thumbnails stop stalling the strip's first paint. The
+ * shuffle lives in the one request that renders it: no cookies, no
+ * identifiers, no persistence. Search and filters keep reaching every
+ * published series regardless of which posters rendered. rng is injectable
+ * so tests can pin the pick deterministically.
+ */
+export function pickShuffledSeries(seriesPosters, size = SERIES_STRIP_SIZE, rng = Math.random) {
+  if (!seriesPosters || seriesPosters.length <= size) return seriesPosters || [];
+  const pool = [...seriesPosters];
+  return Array.from({ length: size }, () => pool.splice(Math.floor(rng() * pool.length), 1)[0]);
 }
 
 /**

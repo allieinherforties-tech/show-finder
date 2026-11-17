@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 import { loadIndex, ARTIFACT_PATH, DB_PATH } from './search/store.mjs';
 import { CANONICAL_EMOTIONS } from './vocabulary.mjs';
 import { applyWaitlistUrl } from './waitlist.mjs';
-import { applyHolidayRails, applySeriesStrip } from './rails.mjs';
+import { applyHolidayRails, applySeriesStrip, pickShuffledSeries } from './rails.mjs';
 
 // The swappable artwork layer. One configuration flag, set per deploy:
 //   ARTWORK_MODE=tmdb (default): result cards render attributed TMDB episode
@@ -64,9 +64,12 @@ export function createApp({ artifactPath = ARTIFACT_PATH, dbPath = DB_PATH } = {
       // rail row with no verified episode link links its series page.
       body = applyHolidayRails(body, index.storyById, (title) => index.seriesUrlByTitle.get(title) || null);
       // The browse-by-show strip renders server side from the build's
-      // stamped poster list. A text mode deploy renders no artwork anywhere,
+      // stamped poster list, shuffled down to ~15 tiles per page load
+      // (Allie's 2026-11-17 ruling): a fresh random pick per request, no
+      // cookies or persistence, and search and filters still reach every
+      // published series. A text mode deploy renders no artwork anywhere,
       // so it passes an empty list and the strip renders as nothing.
-      body = applySeriesStrip(body, ARTWORK_MODE === 'text' ? [] : index.seriesPosters);
+      body = applySeriesStrip(body, ARTWORK_MODE === 'text' ? [] : pickShuffledSeries(index.seriesPosters));
     }
     res.writeHead(200, { 'Content-Type': CONTENT_TYPES[path.extname(resolved)] || 'application/octet-stream' });
     res.end(body);

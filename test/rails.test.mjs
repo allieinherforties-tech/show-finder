@@ -115,6 +115,24 @@ test('every rail card carries its expanded detail template', () => {
   assert.equal(html.includes('coping'), false, 'the field key never renders; the label is Resolution');
 });
 
+test('the plus anchors the bottom row opposite the play button, one even foot', () => {
+  // Allie's 2026-11-17 placement ruling: play bottom-left, plus bottom-right,
+  // both on the same line (the .rail-card-foot flex row carries alignment).
+  const html = renderHolidayRails(resolved);
+  const cards = [...html.matchAll(/<article class="rail-card">[\s\S]*?<\/article>/g)].map((m) => m[0]);
+  assert.ok(cards.length > 0, 'the rails render cards');
+  for (const card of cards) {
+    const foot = card.match(/<div class="rail-card-foot">([\s\S]*?)<\/div>\s*<\/article>/);
+    assert.ok(foot, 'each card closes on one foot row');
+    const playAt = foot[1].indexOf('class="watch-play"');
+    const plusAt = foot[1].indexOf('class="rail-card-more"');
+    assert.ok(playAt !== -1, 'the play button sits in the foot row');
+    assert.ok(plusAt !== -1, 'the plus affordance sits in the same foot row');
+    assert.ok(playAt < plusAt, 'source order keeps play left and plus right');
+  }
+  assert.equal((html.match(/class="rail-card-foot"/g) || []).length, cards.length, 'one foot row per card');
+});
+
 test('every row with a verified link carries the play button, no visible Apple TV text', () => {
   const html = renderHolidayRails(resolved);
   const linked = resolved.flatMap((r) => r.rows).filter((r) => r.appleUrl);
