@@ -15,9 +15,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A sudden illness leaves Cece with hearing loss, and school fills up with voices she can no longer follow. In her imagination the harness strapped to her chest becomes a superhero's power source, and El Deafo is born. Making friends is harder when you cannot tell what anyone just said.",
-      "resolution": "Lonely and worried, Cece recasts her hearing aid as a superpower, and the reframing starts to bring the conversation back within reach.",
-      "evidence_note": "Synopsis fallback: no verified script for this episode (dev set records SubSource 403 and a SubtitleCat miss; the register lists SubSource as found but the dev set's download failure governs); built from the catalog synopsis and the dev set per-story synopsis; confidence low-medium."
+      "story_lead": "A sudden illness takes Cece's hearing, and school fills with voices she can no longer follow. In her imagination the harness on her chest becomes a power source, and El Deafo is born.",
+      "resolution": "The harness transforms from a burden at school into a power source for her alter ego.",
+      "evidence_note": "Synopsis fallback: no verified script for this episode (dev set records SubSource 403 and a SubtitleCat miss; the register lists SubSource as found but the dev set's download failure governs); built from the catalog synopsis and the dev set per-story synopsis; confidence low-medium. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged."
     },
     {
       "series_title": "El Deafo",
@@ -25,9 +25,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Martha is loud, funny and completely unbothered by Cece's hearing aid, which makes her the first real friend Cece has had in a long time. Then a small mishap lands hard, and Cece starts to wonder whether their friendship can survive being real.",
-      "resolution": "The worry eases when the two talk it out, and an honest apology repairs what the accident bent.",
-      "evidence_note": "Synopsis fallback: no verified script for this episode (dev set records SubSource 403 and a SubtitleCat miss); built from the catalog synopsis and the dev set per-story synopsis; confidence low-medium."
+      "story_lead": "Martha is loud, funny and completely unbothered by Cece's hearing aid. She becomes the first real friend Cece has had in a long time. A small mishap threatens to put the friendship in question.",
+      "resolution": null,
+      "evidence_note": "Synopsis fallback: no verified script for this episode (dev set records SubSource 403 and a SubtitleCat miss); built from the catalog synopsis and the dev set per-story synopsis; confidence low-medium. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged. Allie asked \"what is this supposed to be?\" on the empty resolution (2026-11-18); finding: the synopsis evidence shows no resolution for the mishap, so the cell stays empty per Amendment 4 until script evidence appears."
     },
     {
       "series_title": "El Deafo",
@@ -35,9 +35,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Mr. Potts accidentally breaks the Phonic Ear, and the device Cece relies on to hear school stops working. Fixing it takes more than an apology. So does fixing things with Martha. By the end, Cece has earned her superhero name for real.",
-      "resolution": "Sad about the broken ear and the shaky friendship, Cece faces both repairs with bravery, letting talking it out and a good apology do the fixing.",
-      "evidence_note": "Synopsis fallback: no verified script for this episode (dev set records SubSource 403 and a SubtitleCat miss); built from the catalog synopsis and the dev set per-story synopsis; confidence low-medium."
+      "story_lead": "Mr. Potts accidentally breaks the Phonic Ear, and the device Cece relies on at school goes silent. Fixing things with Martha requires more than fixing the device.",
+      "resolution": "The episode ends with repairs underway for both the device and the friendship.",
+      "evidence_note": "Synopsis fallback: no verified script for this episode (dev set records SubSource 403 and a SubtitleCat miss); built from the catalog synopsis and the dev set per-story synopsis; confidence low-medium. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged."
     },
     {
       "series_title": "Amber Brown",

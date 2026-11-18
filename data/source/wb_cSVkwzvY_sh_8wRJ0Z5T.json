@@ -15,9 +15,9 @@
       "episode_number": "1",
       "segment": "1",
       "segment_title": "Save the Porcupine!",
-      "story_lead": "Zuri's propeller will not stay on, and her frustration boils over. A porcupine stuck between two trees gets shown the same trick, and the push-pull save gets him home for dinner before dark.",
-      "resolution": "Frustration gets deep breath/calm-down twice over, Zuri's propeller and the porcupine's stuck quills, and the breathe-in-breathe-out-nice-and-slow song is what carried the save before dark.",
-      "evidence_note": "Script: dev set note reads 'FD 01x01 Porcupine, title-matched (Zuri's propeller frustration, breathe in breathe out nice and slow song, porcupine stuck by his quills)'. Topics per dev set: no starter topic fits a big-feelings rescue; left empty rather than forced."
+      "story_lead": "Zuri's propeller will not stay on her Jetcar, and her frustration boils over. A porcupine stuck between two trees needs the very same song she needs.",
+      "resolution": "Breathe in, breathe out, nice and slow, twice through: once for Zuri's propeller, once for the porcupine's stuck quills. He makes it home for dinner before dark.",
+      "evidence_note": "Script: dev set note reads 'FD 01x01 Porcupine, title-matched (Zuri's propeller frustration, breathe in breathe out nice and slow song, porcupine stuck by his quills)'. Topics per dev set: no starter topic fits a big-feelings rescue; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -25,9 +25,9 @@
       "episode_number": "1",
       "segment": "2",
       "segment_title": "Save the Runaway Egg!",
-      "story_lead": "A mama chicken refuses Tate's help because he is a snake, and her runaway egg rolls beyond Izzy and Zuri's reach. Her apology and the team-of-three save follow.",
-      "resolution": "The loneliness of the no-snakes-allowed door gets apologizing, Mama Chicken's judge-no-creature sorry, and the happy of the rescued egg is what the team of three earned.",
-      "evidence_note": "Script: dev set note reads 'FD 01x01 Runaway Egg, title-matched (no snakes that's all the end, egg stuck by a branch, Mama Chicken's judge-no-creature apology)'. Topics per dev set: no starter topic fits an inclusion story; left empty rather than forced."
+      "story_lead": "Tate gets turned away by a mama chicken because he is a snake, and her runaway egg rolls out of reach. It comes to rest stuck against a branch, too high for the two who were left.",
+      "resolution": "Mama Chicken takes it all back with a judge-no-creature sorry, and a snake turns out to be exactly the help her egg needed. The team of three brings the egg home.",
+      "evidence_note": "Script: dev set note reads 'FD 01x01 Runaway Egg, title-matched (no snakes that's all the end, egg stuck by a branch, Mama Chicken's judge-no-creature apology)'. Topics per dev set: no starter topic fits an inclusion story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -35,9 +35,9 @@
       "episode_number": "2",
       "segment": "1",
       "segment_title": "Save the Mountain Lion!",
-      "story_lead": "A little mountain lion keeps following his big brother up rocks too big for him, and Zuri is caught copying Izzy. They learn side by side that only you can be you, and that being little can be exactly the right size for the job.",
-      "resolution": "The envy of someone else's awesome gets reframed, little-enough-to-squeeze-through, and the proud of the squeeze is what being yourself earned.",
-      "evidence_note": "Script: dev set note reads 'FD 01x02 Mountain Lion, title-matched (Zuri copying Izzy's super-mega-awesome, cub stuck twice, little enough to squeeze through)'. Topics per dev set: no starter topic fits a be-yourself story; left empty rather than forced."
+      "story_lead": "A little mountain lion keeps following his big brother up rocks too big for him, and Zuri gets caught copying Izzy's every move. Side by side, both of them find out that being little can be exactly the right size for the job.",
+      "resolution": "The cub squeezes through a gap his brother is too big for, and Zuri's super-mega-awesome way turns out to be her own. Side by side, the too-little cub and the copycat each get exactly where they were headed.",
+      "evidence_note": "Script: dev set note reads 'FD 01x02 Mountain Lion, title-matched (Zuri copying Izzy's super-mega-awesome, cub stuck twice, little enough to squeeze through)'. Topics per dev set: no starter topic fits a be-yourself story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -45,9 +45,9 @@
       "episode_number": "2",
       "segment": "2",
       "segment_title": "Save the Baby Chick!",
-      "story_lead": "A hungry baby chick is too quiet to be heard at the crowded feeder. Quiet Tate shows her that a power pose and speaking up can get your needs met without changing who you are.",
-      "resolution": "The nervousness of the crowd gets standing up for yourself, the up-the-volume-and-speak-up song and the power pose, and the meep-meep-meep heard at last is what it earned.",
-      "evidence_note": "Script: dev set note reads 'FD 01x02 Baby Chick, title-matched (Tate trying to excuse me, up the volume and speak up song, power pose, meep meep meep heard at last)'. Topics per dev set: no starter topic fits a speak-up story; left empty rather than forced."
+      "story_lead": "A hungry baby chick is too quiet to be heard at the crowded feeder, and no one notices her meeps. Quiet Tate knows the feeling, and he shows her a power pose to go with her voice.",
+      "resolution": "Up goes the volume, out goes the power pose, and the meep-meep-meep is heard at last. She gets her seed without becoming anyone else.",
+      "evidence_note": "Script: dev set note reads 'FD 01x02 Baby Chick, title-matched (Tate trying to excuse me, up the volume and speak up song, power pose, meep meep meep heard at last)'. Topics per dev set: no starter topic fits a speak-up story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -55,9 +55,9 @@
       "episode_number": "3",
       "segment": "1",
       "segment_title": "Save the Woodpecker!",
-      "story_lead": "A woodpecker refuses every offer of help with her beak stuck in a tree, and Zuri has just pulled her own wheel free. Together they find the teamwork that respects independence, cheering her on with a beat until she does it herself.",
-      "resolution": "The stuck beak gets asking for help in a new shape, help her do it herself, and the proud of the I-did-it, lo hice, is what the cheering beat earned.",
-      "evidence_note": "Script: dev set note reads 'FD 01x03 Woodpecker, title-matched (Zuri working together me and me and me, help her do it herself, lo hice)'. Topics per dev set: no starter topic fits an independence story; left empty rather than forced."
+      "story_lead": "Stuck in a tree by her beak, a woodpecker refuses every offer of help, and Zuri has just pulled her own wheel free the same stubborn way. The Wonder Pets change their approach: they cheer her on with a beat instead.",
+      "resolution": "Help her do it herself is the plan, and the beat keeps time while she works. A proud lo hice rings out when the beak comes free.",
+      "evidence_note": "Script: dev set note reads 'FD 01x03 Woodpecker, title-matched (Zuri working together me and me and me, help her do it herself, lo hice)'. Topics per dev set: no starter topic fits an independence story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -65,9 +65,9 @@
       "episode_number": "3",
       "segment": "2",
       "segment_title": "Save the Salmon!",
-      "story_lead": "A little salmon decides he is not cut out to be a salmon when the upstream swim beats him. Tate, who stretched with grit to reach the walkie-phone, shows him that keeping on and showing some grit gets him home to his family.",
-      "resolution": "The hopelessness of the never-gonna-make-it gets trying again, the never-say-never and show-some-grit songs, and the family reunion is what the upstream earned.",
-      "evidence_note": "Script: dev set note reads 'FD 01x03 Salmon, title-matched (never say never, show some grit song, I'll never make it upstream, family reunion)'. Topics per dev set: no starter topic fits a perseverance story; left empty rather than forced."
+      "story_lead": "Up a stream too hard for him, a little salmon decides he is not cut out to be a salmon. Tate, who stretched with grit to reach the walkie-phone, shows him that keeping on gets a fish home to his family.",
+      "resolution": "Never say never, and show some grit: he swims on, one push at a time. The family reunion at the top of the stream is his.",
+      "evidence_note": "Script: dev set note reads 'FD 01x03 Salmon, title-matched (never say never, show some grit song, I'll never make it upstream, family reunion)'. Topics per dev set: no starter topic fits a perseverance story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -75,9 +75,9 @@
       "episode_number": "4",
       "segment": "1",
       "segment_title": "Save the Hedgehog!",
-      "story_lead": "Each Wonder Pet insists its own way will free a hedgehog wedged in a log, and the bickering nearly wrecks the rescue. Combining Izzy's bump, Tate's twist and Zuri's wiggle turns out to be what works.",
-      "resolution": "Three clashing plans get talking it out, the bump-twist-wiggle combination, and the happy of the freed hedgehog is what all three ideas saved together.",
-      "evidence_note": "Script: dev set note reads 'FD 01x04 Hedgehog, title-matched (wedged-hog, bump twist wiggle, puppy shaking the log, all three ideas save the day)'. Topics per dev set: no starter topic fits a teamwork story; left empty rather than forced."
+      "story_lead": "Each Wonder Pet insists its own way will free a hedgehog wedged in a log, and the bickering nearly wrecks the rescue. When a puppy shakes the log itself, all three ideas have to work at once.",
+      "resolution": "Izzy's bump, Tate's twist, Zuri's wiggle go in together, and the hedgehog pops free. Three plans saved the day as one.",
+      "evidence_note": "Script: dev set note reads 'FD 01x04 Hedgehog, title-matched (wedged-hog, bump twist wiggle, puppy shaking the log, all three ideas save the day)'. Topics per dev set: no starter topic fits a teamwork story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -85,9 +85,9 @@
       "episode_number": "4",
       "segment": "2",
       "segment_title": "Save the Hippo!",
-      "story_lead": "Tate guards his freshly cleaned, shiny scales from the mud, then jumps in anyway when his friends and a stuck hippo need him. The mucky pool he dreaded turns out to be the coolest place to be.",
-      "resolution": "The dread of the mucky pool gets trying again, the jump-in-anyway, and the happy of the muddy pool is what the vine-string rescue made of it.",
-      "evidence_note": "Script: dev set note reads 'FD 01x04 Hippo, title-matched (my scales are so shiny, cool mud in Serengeti, vine strings pull, best part about getting clean is getting dirty again)'. Topics per dev set: left empty rather than forced."
+      "story_lead": "Tate guards his freshly cleaned, shiny scales from the mud until a stuck hippo needs him in the mucky pool. He jumps in anyway, and the dread turns out to be the coolest place to be.",
+      "resolution": "Vine strings pull the hippo free, and the muck he dreaded turns out to be the best part of the day. Getting clean, he finds, just means getting dirty again soon.",
+      "evidence_note": "Script: dev set note reads 'FD 01x04 Hippo, title-matched (my scales are so shiny, cool mud in Serengeti, vine strings pull, best part about getting clean is getting dirty again)'. Topics per dev set: left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -95,9 +95,9 @@
       "episode_number": "5",
       "segment": "1",
       "segment_title": "Help the Peacock!",
-      "story_lead": "A peacock with no tail feathers yet fears he cannot dance on the big night, and Izzy is wobbling without his lost sneaker. Sneakers do not make the Wonder Pet, and feathers do not make the dancer.",
-      "resolution": "The worry of the big night gets reframed, the clothes-you-wear song, and the proud of the chalo nacho dance is what the peacock's own feet turned out to make.",
-      "evidence_note": "Script: dev set note reads 'FD 01x05 Peacock, title-matched (late plumer, fake flower tail fails, the clothes you wear song, chalo nacho dance)'. Topic per dev set: dance-night story fits Music & dance."
+      "story_lead": "Featherless before the big dance night, a peacock fears he cannot perform, and Izzy is wobbling without his lost sneaker. The fake flower tail fails, but the show goes on anyway.",
+      "resolution": "The clothes you wear, the song says, do not make the dancer. His own feet do the chalo nacho, and the big night belongs to him.",
+      "evidence_note": "Script: dev set note reads 'FD 01x05 Peacock, title-matched (late plumer, fake flower tail fails, the clothes you wear song, chalo nacho dance)'. Topic per dev set: dance-night story fits Music & dance. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -105,9 +105,9 @@
       "episode_number": "5",
       "segment": "2",
       "segment_title": "Save the Woolly Mammoth!",
-      "story_lead": "Tate wonders if he could ever have anything in common with a woolly mammoth from a museum diorama. A game of Tate Says finds the answer, and the baby mammoth uses her trunk to swing free of the ice just like Tate swings from the ceiling.",
-      "resolution": "The worry of having nothing in common gets reframed into a game, the what's-it-like-to-be-you song, and the trunk-swing save is what the common ground did.",
-      "evidence_note": "Script: dev set note reads 'FD 01x05 Woolly Mammoth, title-matched (what's it like to be you song, Tate Says game, trunk swing save)'. Topics per dev set: no starter topic fits a finding-common-ground story; left empty rather than forced."
+      "story_lead": "Tate wonders what he could ever have in common with a woolly mammoth from a museum diorama. A game of Tate Says finds the answer, and the baby mammoth swings her trunk free of the ice just like Tate swings from the ceiling.",
+      "resolution": "The what's-it-like-to-be-you song asks the question, and the game answers it. The trunk swing saves her, twin to Tate's ceiling swing.",
+      "evidence_note": "Script: dev set note reads 'FD 01x05 Woolly Mammoth, title-matched (what's it like to be you song, Tate Says game, trunk swing save)'. Topics per dev set: no starter topic fits a finding-common-ground story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -115,9 +115,9 @@
       "episode_number": "6",
       "segment": "1",
       "segment_title": "Save Tate?",
-      "story_lead": "Tate's treasured souvenir bracelet is lost through a window during rough play, and retrieving it lands him in a grate. A pack rat named Pearl shows him that a special thing shared with a friend becomes more special, not less.",
-      "resolution": "Anger over the lost treasure gets asking for help, Pearl's grate-side wisdom, and the souvenir checkers are what sharing turned the bracelet into.",
-      "evidence_note": "Script: dev set note reads 'FD 01x06 Save Tate?, title-matched (souvenir wall dusting, hula-hooped bracelet out the window, Pearl the pack rat, bracelet as rescue rope, souvenir checkers)'. Topics per dev set: no starter topic fits a sharing-and-friendship story; left empty rather than forced."
+      "story_lead": "Tate's treasured souvenir bracelet slips away through a window during rough play, and retrieving it leaves him stuck in a grate. A pack rat named Pearl knows just what a treasure is worth.",
+      "resolution": "Pearl's grate-side wisdom: a special thing shared with a friend becomes more special, not less. The bracelet comes out as rescue rope, then turns into souvenir checkers for two.",
+      "evidence_note": "Script: dev set note reads 'FD 01x06 Save Tate?, title-matched (souvenir wall dusting, hula-hooped bracelet out the window, Pearl the pack rat, bracelet as rescue rope, souvenir checkers)'. Topics per dev set: no starter topic fits a sharing-and-friendship story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -125,9 +125,9 @@
       "episode_number": "6",
       "segment": "2",
       "segment_title": "Save the Song Birds!",
-      "story_lead": "A robin and a fairy wren in London sing over each other so loudly that nobody wants to listen. After the Wonder Pets stop competing over Jetcar parts and start collaborating, the two birds discover their songs are better in harmony than in contest.",
-      "resolution": "The frustration of the shouting match gets talking it out, the collaborate song, and the harmony finale is what the two voices found instead of a winner.",
-      "evidence_note": "Script: dev set note reads 'FD 01x06 Song Birds, title-matched (competing songs, collaborate song, singing in harmony finale)'. Topic per dev set: singing-centered story fits Music & dance."
+      "story_lead": "A robin and a fairy wren in London sing over each other so loudly that nobody wants to listen. The Wonder Pets have the same problem with their Jetcar parts, and both contests end the same way.",
+      "resolution": "The collaborate song settles it: sung together, the two voices make a harmony neither had alone. The Jetcar parts get sorted the same way, side by side.",
+      "evidence_note": "Script: dev set note reads 'FD 01x06 Song Birds, title-matched (competing songs, collaborate song, singing in harmony finale)'. Topic per dev set: singing-centered story fits Music & dance. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -135,9 +135,9 @@
       "episode_number": "7",
       "segment": "1",
       "segment_title": "Help the Bear Cub!",
-      "story_lead": "A bear cub in Romania refuses bedtime and hibernation because the fun is too good to stop. Zuri, who swears she is not tired either, romps alongside him until both yawn and admit that rest now means energy for more fun-tivities in spring.",
-      "resolution": "The impatience of the too-good-to-stop fun gets naming the feeling, the kind-of-a-teensy-weensy-bit-tired admission, and the calm of the bedtime snack is what the romp wound down to.",
-      "evidence_note": "Script: dev set note reads 'FD 01x07 Bear Cub, title-matched (not ready for bed, fun-tivities romp, kind of a teensy-weensy bit tired, bedtime snack broccoli)'. Topics per dev set: no starter topic fits a bedtime-resistance story; left empty rather than forced."
+      "story_lead": "A bear cub in Romania refuses bedtime and hibernation because the fun is too good to stop. Zuri swears she is not tired either, and the two romp through every fun-tivity until the yawns catch up.",
+      "resolution": "Kind of a teensy-weensy bit tired, both admit at last. Rest now means energy for more fun-tivities in spring, and the bedtime snack of broccoli seals the deal.",
+      "evidence_note": "Script: dev set note reads 'FD 01x07 Bear Cub, title-matched (not ready for bed, fun-tivities romp, kind of a teensy-weensy bit tired, bedtime snack broccoli)'. Topics per dev set: no starter topic fits a bedtime-resistance story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -145,9 +145,9 @@
       "episode_number": "7",
       "segment": "2",
       "segment_title": "Save the Sad Sumi-e Frog!",
-      "story_lead": "A frog inside a sumi-e painting cries at every goodbye, and the team names his loneliness out loud. Tate, who felt the same when his friends stepped out, paints him a friend to keep him company.",
-      "resolution": "The loneliness gets naming the feeling, the are-you-sad-because-you-feel-lonely question, and the painted friend is what the named feeling earned.",
-      "evidence_note": "Script: dev set note reads 'FD 01x07 Sumi-e Frog, title-matched (ribbit code, painted pond and lily pads, are you sad because you feel lonely, painted friend)'. Topics per dev set: no starter topic fits an art-and-loneliness story; left empty rather than forced."
+      "story_lead": "A frog inside a sumi-e painting cries at every goodbye, and Tate knows the feeling from the day his friends stepped out. The team asks him the question the song asks: are you sad because you feel lonely?",
+      "resolution": "Tate paints him a friend to keep. With a companion in the picture, the goodbyes are easier, and the painted pond has company at last.",
+      "evidence_note": "Script: dev set note reads 'FD 01x07 Sumi-e Frog, title-matched (ribbit code, painted pond and lily pads, are you sad because you feel lonely, painted friend)'. Topics per dev set: no starter topic fits an art-and-loneliness story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -155,9 +155,9 @@
       "episode_number": "8",
       "segment": "1",
       "segment_title": "Save the Roly Poly!",
-      "story_lead": "A roly poly new to the garden has no one to roll with and feels too shy to approach a stick bug who seems nothing like him. Introductions and a combined game of roly-stickball turn two unlike bugs into new friends.",
-      "resolution": "The loneliness of the just-moved bug gets talking it out, the too-shy-to-say-hi turned introduction, and the roly-stickball game is what the two unlike friends invented together.",
-      "evidence_note": "Script: dev set note reads 'FD 01x08 Roly Poly, title-matched (just moved to this garden, too shy to say hi, roly-ball plus stickball equals roly-stickball)'. Topic per dev set: invented-game story fits Sports & games."
+      "story_lead": "A roly poly new to the garden has no one to roll with, and a stick bug nearby seems too unlike him to approach. Each of them is too shy to say hi.",
+      "resolution": "An introduction is all it takes, and the two unlike bugs invent roly-stickball on the spot. Roly-ball plus stickball, together, is a game neither could have made alone.",
+      "evidence_note": "Script: dev set note reads 'FD 01x08 Roly Poly, title-matched (just moved to this garden, too shy to say hi, roly-ball plus stickball equals roly-stickball)'. Topic per dev set: invented-game story fits Sports & games. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -165,9 +165,9 @@
       "episode_number": "8",
       "segment": "2",
       "segment_title": "Save Jack (and the Giant, Too)!",
-      "story_lead": "Jack runs from a giant he is sure is terrifying, and Zuri flees a dragonfly she is sure is a monster. Up close the fears shrink, and stomping turns out to be how giants say hi.",
-      "resolution": "The scare of the too-big gets talking it out, the all-that-I-want-is-to-have-fun-and-play truth, and the stomp-tag game is what the shrunken fear became.",
-      "evidence_note": "Script: dev set note reads 'FD 01x08 Jack and the Giant, title-matched (Zuri's dragonfly monster scare, giant tangled in vines, all that I want is to have fun and play, stomping means hi, tag game)'. Topic per dev set: Fairy Tale Land giant story fits Monsters & magic."
+      "story_lead": "Jack runs from a giant he is sure is terrifying, and Zuri flees a dragonfly she is sure is a monster. Up close, both fears shrink fast.",
+      "resolution": "All the giant wants is to have fun and play; stomping, it turns out, is how giants say hi. The tag game that follows leaves nobody scared of anybody.",
+      "evidence_note": "Script: dev set note reads 'FD 01x08 Jack and the Giant, title-matched (Zuri's dragonfly monster scare, giant tangled in vines, all that I want is to have fun and play, stomping means hi, tag game)'. Topic per dev set: Fairy Tale Land giant story fits Monsters & magic. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -175,9 +175,9 @@
       "episode_number": "9",
       "segment": "1",
       "segment_title": "Save the Elephant!",
-      "story_lead": "A blind elephant new to an animal sanctuary needs to find the watering hole, and the search circles back lost. A small puppy who kept asking for an elephant ride turns out to be the guide.",
-      "resolution": "The lost way gets asking for help from the least likely friend from the least likely friend, the feel-my-way-so-I-can-remember song, and the watering hole is what the puppy's back found.",
-      "evidence_note": "Script: dev set note reads 'FD 01x09 Elephant, title-matched (blind elephant feels with her trunk, team lost in the sanctuary, puppy guides from her back, feel my way so I can remember)'. Topics per dev set: no starter topic fits a help-and-guidance story; left empty rather than forced."
+      "story_lead": "New to the sanctuary, a blind elephant cannot find the watering hole, and the search keeps circling back on itself. The team is lost with her until the least likely guide speaks up: a small puppy who only wanted an elephant ride.",
+      "resolution": "Feel my way so I can remember, the song goes, and the puppy's back is the map. She rides her new friend straight to the water.",
+      "evidence_note": "Script: dev set note reads 'FD 01x09 Elephant, title-matched (blind elephant feels with her trunk, team lost in the sanctuary, puppy guides from her back, feel my way so I can remember)'. Topics per dev set: no starter topic fits a help-and-guidance story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -185,9 +185,9 @@
       "episode_number": "9",
       "segment": "2",
       "segment_title": "Help the Little Hawk!",
-      "story_lead": "A little hawk wants to fly with the Top Beaks, and their soar-flip-loop flattens her. Izzy, ready to quit his own trick, learns from Tate to break big hard things into small steps, then teaches her to soar, flip and loop one step at a time.",
-      "resolution": "The too-tough trick gets trying again broken into steps, the step-by-step teaching, and the welcome to the Top Beaks is what the small bits added up to.",
-      "evidence_note": "Script: dev set note reads 'FD 01x09 Little Hawk, title-matched (soar-flip-loop, this trick is way too tough, broken into smaller bits, step by step, welcome to the Top Beaks)'. Topics per dev set: no starter topic fits a learning-a-skill story; left empty rather than forced."
+      "story_lead": "A little hawk wants to fly with the Top Beaks, and their soar-flip-loop flattens her every time. Izzy, ready to quit his own trick, learns from Tate that big hard things break into small steps.",
+      "resolution": "Soar, then flip, then loop: the trick comes apart into small bits, and the step-by-step teaching works on Izzy's own trick too. The welcome to the Top Beaks is hers at last.",
+      "evidence_note": "Script: dev set note reads 'FD 01x09 Little Hawk, title-matched (soar-flip-loop, this trick is way too tough, broken into smaller bits, step by step, welcome to the Top Beaks)'. Topics per dev set: no starter topic fits a learning-a-skill story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -195,9 +195,9 @@
       "episode_number": "10",
       "segment": "1",
       "segment_title": "Save the Screaming Goat!",
-      "story_lead": "Zuri is hoppin' mad about a blocked view and lets it out in shouts, and a dwarf goat in Nigeria is screaming for the same reason. The fix is telling someone what is wrong instead of yelling it.",
-      "resolution": "Yelling it gets talking it out instead, the after-sighin'-stompin'-yellin'-maybe-try-just-tellin'-us-what's-wrong lesson, and the Zuma Rock view is what the words earned instead of the yells.",
-      "evidence_note": "Script: dev set note reads 'FD 01x10 Screaming Goat, title-matched (Zuri blocked view, screaming mad, after sighin' stompin' yellin' maybe try just tellin' us what's wrong, Zuma Rock view)'. Topics per dev set: no starter topic fits a feelings-and-words story; left empty rather than forced."
+      "story_lead": "Zuri is hoppin' mad about a blocked view, and a dwarf goat in Nigeria screams the entire way up Zuma Rock. For both of them the fix is words: tell someone what is wrong instead of yelling it.",
+      "resolution": "After the sighin', the stompin' and the yellin', someone finally says it plain. With the problem said out loud instead of shouted, the Zuma Rock view opens up for everyone.",
+      "evidence_note": "Script: dev set note reads 'FD 01x10 Screaming Goat, title-matched (Zuri blocked view, screaming mad, after sighin' stompin' yellin' maybe try just tellin' us what's wrong, Zuma Rock view)'. Topics per dev set: no starter topic fits a feelings-and-words story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -205,9 +205,9 @@
       "episode_number": "10",
       "segment": "2",
       "segment_title": "Help the Wild Culpeo!",
-      "story_lead": "A wild culpeo in Ecuador only wants to play with a shy blue morpho butterfly but keeps scaring her off with rough games. Quiet Tate helps everyone discover that sitting still and playing gently is its own way to make a friend.",
-      "resolution": "The scared-off friend gets talking it out, the too-rough-for-butterfly realization, and the gentle ride on her nose is what the sitting-still play earned.",
-      "evidence_note": "Script: dev set note reads 'FD 01x10 Wild Culpeo, title-matched (Bumper Wheels too rough for Tate, running and jumping may be too rough for the butterfly, sitting quietly on the ground, gentle ride on her nose)'. Topics per dev set: no starter topic fits a gentle-play story; left empty rather than forced."
+      "story_lead": "Wanting only to play with a shy blue morpho butterfly, a wild culpeo in Ecuador scares her off with rough games every time. Sitting still turns out to be its own way to make a friend.",
+      "resolution": "Tate discovers it first from the ground: the running kind of play was too rough for her. The culpeo keeps still, the butterfly settles onto his nose, and the two take a gentle ride together.",
+      "evidence_note": "Script: dev set note reads 'FD 01x10 Wild Culpeo, title-matched (Bumper Wheels too rough for Tate, running and jumping may be too rough for the butterfly, sitting quietly on the ground, gentle ride on her nose)'. Topics per dev set: no starter topic fits a gentle-play story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -215,9 +215,9 @@
       "episode_number": "11",
       "segment": "1",
       "segment_title": "Save the Chinchilla!",
-      "story_lead": "Zuri tells her friends she does not like her feet touched, and they save her a different way. A stranded chinchilla is dodging rescue for the same reason, so the team builds a rock bridge that lets her do it herself.",
-      "resolution": "The nervousness of the unwanted touch gets standing up for yourself, the it's-just-the-way-I-am boundary, and the rockin' rock bridge is what respecting it built.",
-      "evidence_note": "Script: dev set note reads 'FD 01x11 Chinchilla, title-matched (I don't like having my feet touched, it's just the way I am, chinchilla dodges the snake squeeze, rockin' rock bridge, chinchilla fist bump)'. Topics per dev set: no starter topic fits a body-boundaries story; left empty rather than forced."
+      "story_lead": "Zuri tells her friends plainly that she does not like her feet touched, and they find another way to save her. A stranded chinchilla is dodging rescue for the same reason, so the team builds a rock bridge she can cross herself.",
+      "resolution": "It is just the way she is, and that is reason enough. Over the rockin' rock bridge she goes, and the rescue ends in a fist bump that never touched her feet.",
+      "evidence_note": "Script: dev set note reads 'FD 01x11 Chinchilla, title-matched (I don't like having my feet touched, it's just the way I am, chinchilla dodges the snake squeeze, rockin' rock bridge, chinchilla fist bump)'. Topics per dev set: no starter topic fits a body-boundaries story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -225,9 +225,9 @@
       "episode_number": "11",
       "segment": "2",
       "segment_title": "Help the Golden Spider?",
-      "story_lead": "A young golden orb-weaver in Thailand races to finish her first web before her dad gets home, and keeps watching it fall apart. Izzy, who sped through the Jetcar and forgot wings and friends, teaches her the fix he just learned: take a breath, slow down, connect the pieces.",
-      "resolution": "The nervousness of the falling-apart web gets deep breath/calm-down, the slow-down-and-connect-the-strands fix, and the I-knew-you-could-do-it is what the finished web earned before Dad got home.",
-      "evidence_note": "Script: dev set note reads 'FD 01x11 Golden Spider, title-matched (first web ever woven, dad will be proud, moving so fast it made us dizzy, forgot to connect the strands, I knew you could do it)'. Topics per dev set: no starter topic fits a slow-down-and-focus story; left empty rather than forced."
+      "story_lead": "Racing to finish her first web before her dad gets home, a young golden orb-weaver in Thailand watches it fall apart every time. Izzy, who just sped through his own Jetcar build, knows exactly why: she forgot to connect the strands.",
+      "resolution": "Slowing down is the trick, and a breath or two helps too. The web is finished, connected strand by strand, before Dad gets home to say he knew she could do it.",
+      "evidence_note": "Script: dev set note reads 'FD 01x11 Golden Spider, title-matched (first web ever woven, dad will be proud, moving so fast it made us dizzy, forgot to connect the strands, I knew you could do it)'. Topics per dev set: no starter topic fits a slow-down-and-focus story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -235,9 +235,9 @@
       "episode_number": "12",
       "segment": "1",
       "segment_title": "Help the Caribbean Crab!",
-      "story_lead": "Izzy's beloved block city crashes down and so does a crab's sandcastle in Jamaica, and both are ready to quit building forever. A friend who lost the very same thing listens first, then shows them how to build again, better and farther from the waves.",
-      "resolution": "The I-do-feel-mad-and-sad admission gets talking it out, the it-helped-to-talk turn, and the rebuilt New Block City is what building better than ever looked like.",
-      "evidence_note": "Script: dev set note reads 'FD 01x12 Caribbean Crab, title-matched (New Block City ruined, I do feel mad and sad, it helped to talk, build something better than ever before, rebuilt New Block City)'. Topics per dev set: no starter topic fits a disappointment-and-rebuilding story; left empty rather than forced."
+      "story_lead": "Izzy's beloved block city crashes down just as a crab's sandcastle washes out in Jamaica, and both builders are ready to quit for good. A friend who lost the very same thing listens first, then shows them how to build again.",
+      "resolution": "Saying I do feel mad and sad helps, as does hearing that it helped. The rebuilt New Block City goes up better than ever before.",
+      "evidence_note": "Script: dev set note reads 'FD 01x12 Caribbean Crab, title-matched (New Block City ruined, I do feel mad and sad, it helped to talk, build something better than ever before, rebuilt New Block City)'. Topics per dev set: no starter topic fits a disappointment-and-rebuilding story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -245,9 +245,9 @@
       "episode_number": "12",
       "segment": "2",
       "segment_title": "Save the Bighorn Sheep!",
-      "story_lead": "Two bighorn sheep in the Canadian Rockies each demand to be first into the lake and tangle their horns over it, while Zuri and Tate tangle over a Jetcar propeller. Both pairs land on doing it together so everyone wins.",
-      "resolution": "The me-first standoff gets talking it out, the jump-together-and-both-of-you-win answer, and both first into the lake is what the untangled horns earned.",
-      "evidence_note": "Script: dev set note reads 'FD 01x12 Bighorn Sheep, title-matched (me first, no me, tangled horns, jump together and both of you win, both first to jump in the lake)'. Topics per dev set: no starter topic fits a taking-turns story; left empty rather than forced."
+      "story_lead": "Two bighorn sheep in the Canadian Rockies each demand to be first into the lake until their horns tangle, while Zuri and Tate tangle over a Jetcar propeller. Both pairs reach the same answer.",
+      "resolution": "Jump together, and both of you win: the sheep take the lake side by side while the propeller goes back on with four pairs of hands instead of two.",
+      "evidence_note": "Script: dev set note reads 'FD 01x12 Bighorn Sheep, title-matched (me first, no me, tangled horns, jump together and both of you win, both first to jump in the lake)'. Topics per dev set: no starter topic fits a taking-turns story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -255,9 +255,9 @@
       "episode_number": "13",
       "segment": "1",
       "segment_title": "Help the Red Squirrel!",
-      "story_lead": "A red squirrel in the Scottish Woodlands has buried ten acorns somewhere and cannot remember where, with winter coming. Zuri's own lost steering wheel supplies the fix: stop, think back, and retrace your steps until the acorns turn up.",
-      "resolution": "The worry of the lost acorns gets patience, the retrace-your-steps song, and all ten found is what the stop-and-think-back earned before winter.",
-      "evidence_note": "Script: dev set note reads 'FD 01x13 Red Squirrel, title-matched (ten acorns buried, winter is here, retrace your steps song, steering wheel in the doll clothes, all ten found)'. Topics per dev set: no starter topic fits a lost-and-found story; left empty rather than forced."
+      "story_lead": "With winter closing in, a red squirrel in the Scottish Woodlands cannot remember where she buried ten acorns. Zuri's own lost steering wheel supplies the fix: stop, think back, retrace your steps.",
+      "resolution": "The retrace-your-steps song walks her back through her own day, and the acorns turn up one by one. All ten are found before the snow flies.",
+      "evidence_note": "Script: dev set note reads 'FD 01x13 Red Squirrel, title-matched (ten acorns buried, winter is here, retrace your steps song, steering wheel in the doll clothes, all ten found)'. Topics per dev set: no starter topic fits a lost-and-found story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -265,9 +265,9 @@
       "episode_number": "13",
       "segment": "2",
       "segment_title": "Help the Dung Beetle!",
-      "story_lead": "A dung beetle and a blowfly in the Kalahari both claim the same ball of dung until the fight rolls it away from everybody. Zuri and Izzy, mid-tug-of-war over a carrot, show the simpler answer: split it and share it with both families.",
-      "resolution": "The anger of mine-not-yours gets talking it out, the split-it-in-half answer, and the family dinner invites are what the shared ball earned.",
-      "evidence_note": "Script: dev set note reads 'FD 01x13 Dung Beetle, title-matched (no it's mine carrot fight, split it in half, dung rolls away, share this among both our families, family dinner invites)'. Topics per dev set: no starter topic fits a sharing story; left empty rather than forced."
+      "story_lead": "A dung beetle and a blowfly in the Kalahari both claim the same ball of dung until their fight rolls it away from everybody. Mid-tug-of-war over a carrot, Zuri and Izzy are living the same argument.",
+      "resolution": "Split it in half, the answer goes, and share this among both our families. The ball rolls home between them, with family dinner invites on both sides.",
+      "evidence_note": "Script: dev set note reads 'FD 01x13 Dung Beetle, title-matched (no it's mine carrot fight, split it in half, dung rolls away, share this among both our families, family dinner invites)'. Topics per dev set: no starter topic fits a sharing story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -275,9 +275,9 @@
       "episode_number": "1",
       "segment": "1",
       "segment_title": "Help the Theater Mouse!",
-      "story_lead": "A theater mouse stuck playing a tree in a Broadway musical feels his small part makes him invisible, and when he skips his spot the show collapses. A wheel-dodging Zuri learns the same thing he does.",
-      "resolution": "The jealousy of the big parts gets talking it out, the there-are-no-small-parts lesson, and the recovered Alice number is what the tree's own performance saved.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e01 English, title-matched to catalog segment (everyone has big exciting parts except me, skipped tree collapses the Alice number, there are no small parts, Zuri's wheel-catching parallel)'. Topics per dev set: a theater-performance story fits none of the eight starter topics; left empty rather than forced."
+      "story_lead": "A theater mouse stuck playing a tree in a Broadway musical feels his small part makes him invisible, and when he skips his spot the Alice number collapses. A wheel-dodging Zuri learns the same lesson from her own rescue.",
+      "resolution": "There are no small parts, the company tells him, and he brings the Alice number back by playing the tree proud. Zuri catches her wheel the same way: by doing the part she has, all the way.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e01 English, title-matched to catalog segment (everyone has big exciting parts except me, skipped tree collapses the Alice number, there are no small parts, Zuri's wheel-catching parallel)'. Topics per dev set: a theater-performance story fits none of the eight starter topics; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -285,9 +285,9 @@
       "episode_number": "1",
       "segment": "2",
       "segment_title": "Save the Origami Bunny!",
-      "story_lead": "A hungry origami bunny cannot cross the paper lake to her carrots, and the paper swan proves too small a ride. The team folds the answer itself: an origami boat, made of the same paper this world is made of.",
-      "resolution": "The worry of the impossible crossing gets trying again, the folded-again answer, and the origami boat with its life vests is what the paper world provided.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e01, title-matched (missing propeller folded from paper, swan ride fails, paper clouds, origami boat plus life vests, everything is made out of paper here)'. Topics per dev set: origami craft story fits none of the eight starter topics; left empty rather than forced."
+      "story_lead": "A hungry origami bunny cannot cross the paper lake to her carrots, and the paper swan proves too small a ride. Everything in this world is made of paper, so the team folds what the crossing needs.",
+      "resolution": "An origami boat takes shape, and life vests get folded for the trip besides. The bunny reaches her carrots, riding a lake that is made of the same stuff she is.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e01, title-matched (missing propeller folded from paper, swan ride fails, paper clouds, origami boat plus life vests, everything is made out of paper here)'. Topics per dev set: origami craft story fits none of the eight starter topics; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -295,9 +295,9 @@
       "episode_number": "2",
       "segment": "1",
       "segment_title": "Help Pizza Kitty!",
-      "story_lead": "Pizza Kitty sets out to make the Wonder Pets a thank-you pizza entirely alone and ends up wearing the dough. Izzy, who built the Jetcar by himself that morning, shows him the purrfect pizza is the one you make together.",
-      "resolution": "The frustration of the dough-on-head solo gets asking for help, and the teamwork pizza on the menu is what making it together turned the thank-you into.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e02, title-matched (first pizza ever alone, sticky dough on head, I got this, teamwork pizza added to the menu, making it together is the best part)'. Topic per dev set: pizza-making story fits Food & cooking."
+      "story_lead": "Pizza Kitty sets out to make the Wonder Pets a thank-you pizza entirely alone and ends up wearing the dough. Izzy, who built the Jetcar by himself that morning, knows the feeling exactly.",
+      "resolution": "I got this, he insists, right up until the sticky dough wins. The teamwork pizza goes on the menu, and making it together turns out to be the best part of the thank-you.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e02, title-matched (first pizza ever alone, sticky dough on head, I got this, teamwork pizza added to the menu, making it together is the best part)'. Topic per dev set: pizza-making story fits Food & cooking. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -305,9 +305,9 @@
       "episode_number": "2",
       "segment": "2",
       "segment_title": "Save the Tropical Fishie!",
-      "story_lead": "A curious little tropical fishie keeps wandering off the path to fish school after every sparkly thing she passes. Led by a fellow distracted wanderer in Zuri, the team learns to work with the wandering instead of against it, building a trail of shimmer.",
-      "resolution": "The happy of the wandering itself gets reframed into the fix, the art-trail-of-shimmer route, and fish school at last is what the shimmery path delivered.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e02, title-matched (lost fishie swimming the wrong way, follows crabs starfish and shells, Zuri distracted by shimmery art, art trail leads her to the Jetsub, fish school at last)'. Emotion per dev set: the fishie is delighted rather than distressed; happy plus silly. Topics per dev set: none of the eight fits a staying-on-task story; left empty rather than forced."
+      "story_lead": "Every sparkly thing on the path to fish school pulls a curious little tropical fishie off course, and she is delighted the entire way. Zuri, a fellow distracted wanderer, gets it completely.",
+      "resolution": "Work with the wandering instead of against it, the team decides, and a trail of shimmer art leads her straight to the JetSub. Fish school happens at last, happy every step of the way.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e02, title-matched (lost fishie swimming the wrong way, follows crabs starfish and shells, Zuri distracted by shimmery art, art trail leads her to the Jetsub, fish school at last)'. Emotion per dev set: the fishie is delighted rather than distressed; happy plus silly. Topics per dev set: none of the eight fits a staying-on-task story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -315,9 +315,9 @@
       "episode_number": "3",
       "segment": "1",
       "segment_title": "Save the Sleeping Cutie!",
-      "story_lead": "A koala sleepwalks away from his tree and straight toward wallabies, falling fruit and a billabong, never waking up. His best mate calls the Wonder Pets, and a path of outback teamwork steers the sleeping cutie safely home.",
-      "resolution": "The worry of the sleepwalking wobble gets asking for help, the whispered finale, and the eucalyptus-sniff homecoming is what the never-woke-up night earned.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e03, title-matched to catalog segment (still asleep on a nice walk, wallabies hop over, falling giant fruit, eucalyptus sniff, whispered finale, never woke up)'. Topics per dev set: none of the eight fits a sleepwalking-safety story; left empty rather than forced."
+      "story_lead": "A koala sleepwalks away from his tree, straight toward wallabies, falling giant fruit and a billabong, never waking up. His best mate calls the Wonder Pets.",
+      "resolution": "Outback teamwork steers the sleeping cutie home, with the finale whispered so nobody wakes him. One eucalyptus sniff later he is back in his tree, still asleep on the nicest walk of his life.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e03, title-matched to catalog segment (still asleep on a nice walk, wallabies hop over, falling giant fruit, eucalyptus sniff, whispered finale, never woke up)'. Topics per dev set: none of the eight fits a sleepwalking-safety story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -325,9 +325,9 @@
       "episode_number": "3",
       "segment": "2",
       "segment_title": "Help the Dress-Up Bear!",
-      "story_lead": "A jazzy paper bear invited to a fancy tea party tries every dress in the book and none of them feel like her, so she nearly skips the party. The team, dressed in what feels right for each of them, helps her see the right outfit is whatever makes her feel like herself.",
-      "resolution": "The disappointment of the nothing-fits feeling gets standing up for yourself, the vest-and-bow-tie answer, and the proud of wear-what-makes-you-feel-like-you is what the tea party got.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e03, title-matched (fashion emergency, the poofy is a little goofy, tried every dress, these outfits look more like me, vest and bow tie, wear what makes you feel like you)'. Topics per dev set: none of the eight fits a be-yourself story; left empty rather than forced."
+      "story_lead": "A jazzy paper bear invited to a fancy tea party tries every dress in the book, and none of them feel like her. Nearly skipping the party, she meets a team dressed in what feels right for each of them.",
+      "resolution": "The poofy is a little goofy; the vest and bow tie are more like it. The right outfit is whatever makes you feel like you, and she goes to the tea party as herself.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e03, title-matched (fashion emergency, the poofy is a little goofy, tried every dress, these outfits look more like me, vest and bow tie, wear what makes you feel like you)'. Topics per dev set: none of the eight fits a be-yourself story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -335,9 +335,9 @@
       "episode_number": "4",
       "segment": "1",
       "segment_title": "Help the Wallabies!",
-      "story_lead": "A joey in Tasmania will not hop out of his mama's pouch where it is safe and snuggly. A comfort object made to smell and feel like her gives him the courage to try the big outside world, one hop at a time.",
-      "resolution": "The nervousness of the big outside gets asking for comfort, the mama stuffie made of moss and pussy willows, and the I'm-hopping-on-my-own is what the snuggle earned.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e04, title-matched (I wanna stay till I'm ready, mama can't hop with him inside, Tate and Izzy's snuggle stuffies, Zuri's new sock stuffie, mama stuffie made of moss and pussy willows, I'm hopping on my own)'. Topics per dev set: none of the eight fits a growing-independence story; left empty rather than forced."
+      "story_lead": "A joey in Tasmania will not hop out of his mama's pouch, where it is safe and snuggly. Mama cannot hop with him inside, and the team knows just the bridge.",
+      "resolution": "The mama stuffie of moss and pussy willows smells like her everywhere he goes. I'm hopping on my own, he says at last, one hop out of the pouch at a time.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e04, title-matched (I wanna stay till I'm ready, mama can't hop with him inside, Tate and Izzy's snuggle stuffies, Zuri's new sock stuffie, mama stuffie made of moss and pussy willows, I'm hopping on my own)'. Topics per dev set: none of the eight fits a growing-independence story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -345,9 +345,9 @@
       "episode_number": "4",
       "segment": "2",
       "segment_title": "Help the Slimy Slug!",
-      "story_lead": "A slimy slug in the school garden fears his slime ruins every game with his bug friends, right down to canceling a playdate. Tate's pink-paint Jetcar and a slip and slime slide flip the story: the thing that made him different is exactly what only he can bring to playtime.",
-      "resolution": "The frustration of the ruining-everything slime gets reframed, the slime-makes-the-playdate-mega-awesome turn, and the only-your-bug-buds-can-play-this game is what the difference became.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e04, title-matched (too slow for tag, slime trail betrays hide-and-seek, cancel my playdate, slime makes the playdate mega-awesome, only your bug buds can play this with you)'. Topics per dev set: none of the eight fits a being-different story; left empty rather than forced."
+      "story_lead": "A slimy slug in the school garden fears his slime ruins every game with his bug friends, down to a canceled playdate. Tate's pink-paint Jetcar starts the flip, then a slip-and-slime slide finishes it.",
+      "resolution": "The thing that made him different is exactly what only he can bring to playtime: slime makes the playdate mega-awesome. Only your bug buds can play this with you, the friends tell him, and the playdate is back on.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e04, title-matched (too slow for tag, slime trail betrays hide-and-seek, cancel my playdate, slime makes the playdate mega-awesome, only your bug buds can play this with you)'. Topics per dev set: none of the eight fits a being-different story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -355,9 +355,9 @@
       "episode_number": "5",
       "segment": "1",
       "segment_title": "Here Comes Cousin Luca!",
-      "story_lead": "Izzy's cousin Luca bursts in bursting to join the Wonder Pets but keeps hopping into every rescue alone, and one tangled pile later he has shown everyone he is no kind of Wonder Pet. What he was missing is the thing he learns: being on a team means you never work alone.",
-      "resolution": "The embarrassment of the tangle gets talking it out, the all-stuck-on-the-awning pileup, and the bounce-back-up-together is what joining the team actually means.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e05, title-matched to catalog segment (I did it myself, stole Izzy's rescue, all stuck on the awning, all that I've done is show everyone I'm no kind of Wonder Pet, bounce back up together)'. Topics per dev set: none of the eight fits a joining-the-team story; left empty rather than forced."
+      "story_lead": "Izzy's cousin Luca bursts in bursting to join the Wonder Pets, and he keeps hopping into every rescue alone. One tangled pile on the awning later, he has shown everyone exactly what he feared.",
+      "resolution": "All that I've done is show everyone I'm no kind of Wonder Pet, he says, and the team's answer is to bounce back up together. Being on a team means you never work alone, and that is the part he had missed.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e05, title-matched to catalog segment (I did it myself, stole Izzy's rescue, all stuck on the awning, all that I've done is show everyone I'm no kind of Wonder Pet, bounce back up together)'. Topics per dev set: none of the eight fits a joining-the-team story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -365,9 +365,9 @@
       "episode_number": "5",
       "segment": "2",
       "segment_title": "Help the Emperor Penguin... Fly!",
-      "story_lead": "An emperor penguin with penguin blues cannot lift his tiny wings off the snow, and an albatross with albatross blues cannot belly-slide with wings that huge. Each bird learns to ask for help and share the skill only he has.",
-      "resolution": "The sadness of the wishing-wings gets asking for help, the why-don't-you-share-the-things-that-you-can-do turn, and the goodbye-penguin-and-albatross-blues is what the swapped skills earned.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e05, title-matched to catalog segment (penguin blues, wish I had big wings like that, instead of giving up or feeling blue why don't you share the things that you can do, goodbye penguin and albatross blues)'. Topics per dev set: none of the eight fits an envy-and-abilities story; left empty rather than forced."
+      "story_lead": "An emperor penguin with penguin blues cannot lift his tiny wings off the snow, and an albatross with albatross blues cannot belly-slide with wings that huge. Each envies the other exactly backwards.",
+      "resolution": "The skills get swapped, each bird sharing the thing only he can do. The goodbyes are goodbye penguin and albatross blues, sung with nobody blue anymore.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e05, title-matched to catalog segment (penguin blues, wish I had big wings like that, instead of giving up or feeling blue why don't you share the things that you can do, goodbye penguin and albatross blues)'. Topics per dev set: none of the eight fits an envy-and-abilities story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -375,9 +375,9 @@
       "episode_number": "6",
       "segment": "1",
       "segment_title": "Help the Blue Whale!",
-      "story_lead": "A blue whale in the Philippines pops every bubble she tries to bop and concludes she is just too big to play. A whale-sized bubble and her own blowhole show her that playing your own way beats giving up the game.",
-      "resolution": "The frustration of the too-big-to-play conclusion gets trying again, the blow-the-bubbles-instead-of-bopping-them fix, and the whale-sized bubble is what the different skills brought to the game.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e06, title-matched to catalog segment (too big for the bubbles, I give up toodle-oo, bubbles together big enough for you, blow the bubbles instead of bopping them, different skills to the game)'. Topics per dev set: none of the eight fits a playing-your-own-way story; left empty rather than forced."
+      "story_lead": "A blue whale in the Philippines pops every bubble she tries to bop and concludes she is just too big to play. I give up, toodle-oo, she sighs, and the game looks finished.",
+      "resolution": "The Wonder Pets try her own size on for scale: blow the bubbles instead of bopping them, and a whale-sized bubble together is big enough for you. She plays after all, bringing different skills to the game.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e06, title-matched to catalog segment (too big for the bubbles, I give up toodle-oo, bubbles together big enough for you, blow the bubbles instead of bopping them, different skills to the game)'. Topics per dev set: none of the eight fits a playing-your-own-way story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -385,9 +385,9 @@
       "episode_number": "6",
       "segment": "2",
       "segment_title": "Help the Baby Meerkat!",
-      "story_lead": "A baby meerkat in the South African savanna calls and calls for his umama, and no meerkat, lion, parrot or elephant turns out to be her. The team splits up to search three different ways until a hippo answers to mama.",
-      "resolution": "The scare of the not-found mama gets asking for help, the split-up-and-search-a-different-way plan, and the hippo mama found is what the three-way search delivered.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e06, title-matched to catalog segment (umama not meerkat, searching the savanna, split up and search a different way like the missing Jetcar wings, hippo mama found, my baby)'. Topics per dev set: none of the eight fits a lost-and-reunited story; left empty rather than forced."
+      "story_lead": "A baby meerkat in the South African savanna calls and calls for his umama. No meerkat, lion, parrot or elephant turns out to be her, and the team splits up to search three different ways, the way they once hunted the missing Jetcar wings.",
+      "resolution": "A hippo answers to mama at last, and the reunion is all snuggle. My baby, she says, and the savanna search is over.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e06, title-matched to catalog segment (umama not meerkat, searching the savanna, split up and search a different way like the missing Jetcar wings, hippo mama found, my baby)'. Topics per dev set: none of the eight fits a lost-and-reunited story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -395,9 +395,9 @@
       "episode_number": "7",
       "segment": "1",
       "segment_title": "Save the Fennec Fox!",
-      "story_lead": "A fennec fox in the Sahara cannot play with her friends while her head is stuck in a desert fruit, and once she is free the city noise that never bothers anyone else is too much for her ears. Sound blockers built from a broken pot let her join the game.",
-      "resolution": "The nervousness of the too-loud world gets asking for help, the what's-bothersome-to-her-might-not-bother-you-or-me insight, and the ear sound blockers are what the game needed to include her.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e07, title-matched to catalog segment (head stuck in colocynth, worried I'd be stuck forever, too loud city, what's bothersome to her might not bother you or me, Tate's sunglasses parallel, ear sound blockers)'. Topics per dev set: none of the eight fits a sensory-differences story; left empty rather than forced."
+      "story_lead": "A fennec fox in the Sahara cannot play while her head is stuck in a desert fruit, and once she is free the city noise overwhelms her big ears. Tate, whose own eyes needed shade, gets it.",
+      "resolution": "What's bothersome to her might not bother you or me, the song says, and the fix fits that exactly: ear sound blockers built from a broken pot. In she goes to the game at last.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e07, title-matched to catalog segment (head stuck in colocynth, worried I'd be stuck forever, too loud city, what's bothersome to her might not bother you or me, Tate's sunglasses parallel, ear sound blockers)'. Topics per dev set: none of the eight fits a sensory-differences story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -405,9 +405,9 @@
       "episode_number": "7",
       "segment": "2",
       "segment_title": "Save the Giant Tortoise!",
-      "story_lead": "A giant tortoise in the Seychelles keeps landing upside down on the same slippery rocks, and the team rights him three times. Then they teach him the flip itself, twist, plant and yank, so the skill travels wherever he slips next.",
-      "resolution": "The repeated tumble gets trying again as teaching, the start-with-a-twist-then-plant-and-yank lesson, and the proud of flipping himself is what the skill traveled with.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e07, title-matched to catalog segment (upside down after slipping on a rock, flips two and three, we could also teach you how to do it on your own, Zuri's magnet wings parallel, start with a twist then plant and yank)'. Topics per dev set: none of the eight fits a learn-the-skill-yourself story; left empty rather than forced."
+      "story_lead": "A giant tortoise in the Seychelles keeps landing upside down on the same slippery rocks, and the team rights him three times. Then they try something else: teaching him the flip itself.",
+      "resolution": "Start with a twist, then plant and yank: the team teaches him the flip itself so the skill travels wherever he slips next. He rights himself, all by himself, from then on.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e07, title-matched to catalog segment (upside down after slipping on a rock, flips two and three, we could also teach you how to do it on your own, Zuri's magnet wings parallel, start with a twist then plant and yank)'. Topics per dev set: none of the eight fits a learn-the-skill-yourself story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -415,9 +415,9 @@
       "episode_number": "8",
       "segment": "1",
       "segment_title": "Save the Coral!",
-      "story_lead": "A coral reef off Cozumel is sick under a layer of trash, and every picked-up piece is replaced by another. The team follows the pom-pom and trash trails to their source, an open beach trash can, and fixes the problem where it starts.",
-      "resolution": "The sick reef gets trying again aimed at the source, the open-lid-shut fix, and the trash-free reef is what fixing it where it starts restored.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e08, title-matched to catalog segment (coral is an animal, less colorful when sick, trash replaced almost instantly, follow the trail of trash to its source, open lid shut, trash-free reef)'. Topics per dev set: none of the eight fits an environmental-care story; left empty rather than forced."
+      "story_lead": "Sick under a layer of trash, a coral reef off Cozumel loses every picked-up piece to another. The team follows the pom-pom trail to where it all starts.",
+      "resolution": "An open beach trash can is the source, and its lid gets shut on the problem. The reef recovers in color, trash-free where the trail began.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e08, title-matched to catalog segment (coral is an animal, less colorful when sick, trash replaced almost instantly, follow the trail of trash to its source, open lid shut, trash-free reef)'. Topics per dev set: none of the eight fits an environmental-care story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -425,9 +425,9 @@
       "episode_number": "8",
       "segment": "2",
       "segment_title": "Help the Queen Bee!",
-      "story_lead": "A brand new queen bee cannot get her hive to make honey without everyone bumping and spilling, and she nearly sets down her crown. The team shows her what worked on their own big job: a plan where every bee does one small part at a time.",
-      "resolution": "The nervousness of the chaotic hive gets asking for help, the a-bunch-of-little-jobs-can-get-a-big-job-done plan, and the proud of the crown kept on is what the one-small-part-at-a-time hive earned.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e08, title-matched to catalog segment (just this morning I've become its royal queen, hive simply chaotic, I should put down this royal crown, a bunch of little jobs can get a big job done, queen leads with a plan)'. Topic per dev set: the story centers on making honey as food, so Food & cooking is the defensible starter topic; flagged since it is production rather than eating."
+      "story_lead": "A brand new queen bee cannot get her hive to make honey without everyone bumping and spilling. She nearly sets down her crown, and the Wonder Pets know the feeling from their own big jobs.",
+      "resolution": "A bunch of little jobs can get a big job done, they show her, and every bee takes one small part at a time. The honey flows and the hive hums in order, crown kept on.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e08, title-matched to catalog segment (just this morning I've become its royal queen, hive simply chaotic, I should put down this royal crown, a bunch of little jobs can get a big job done, queen leads with a plan)'. Topic per dev set: the story centers on making honey as food, so Food & cooking is the defensible starter topic; flagged since it is production rather than eating. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -435,9 +435,9 @@
       "episode_number": "9",
       "segment": "1",
       "segment_title": "A Day at the Beach!",
-      "story_lead": "The Wonder Pets finally get a day off at Coney Island and lose their beach gear in a rescue. A seagull they saved that same morning gives his treasures back as a shell basket, a driftwood boogie board and a kelp ball, and sharing turns the ruined day around.",
-      "resolution": "A ruined day off gets asking for help from the saved-now-saver seagull, and the treasures shared are what turned the day around.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e09, title-matched to catalog segment (no rescue planned, beach ball becomes the Jetcar wheel, seagull's foot stuck in a shell, gear breaks, the saved now plays the saver, treasures shared)'. Coping call per dev set: nobody asks, the seagull offers help and the team accepts it, which is the nearest listed strategy to the reciprocity the story teaches."
+      "story_lead": "The Wonder Pets finally get a day off at Coney Island, and their beach gear breaks in a rescue. A seagull they saved that very morning has an idea about that.",
+      "resolution": "Nobody asks; the seagull simply offers. His treasures come back as a shell basket, a driftwood boogie board and a kelp ball. Shared out, they turn the ruined day around.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e09, title-matched to catalog segment (no rescue planned, beach ball becomes the Jetcar wheel, seagull's foot stuck in a shell, gear breaks, the saved now plays the saver, treasures shared)'. Coping call per dev set: nobody asks, the seagull offers help and the team accepts it, which is the nearest listed strategy to the reciprocity the story teaches. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -445,9 +445,9 @@
       "episode_number": "9",
       "segment": "2",
       "segment_title": "Save the Savanna Friends!",
-      "story_lead": "The little hippo's best elephant friend is moving away today and neither wants to say goodbye. Fresh from Zuri's friendship bracelets, the team helps them make flower crowns to wear until a promised visit brings them back together.",
-      "resolution": "The moving-away day gets asking for comfort, the matching flower crowns, and the it's-still-really-hard-but-we-can-still-feel-close is what the promised visit made bearable.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e09, title-matched to catalog segment (my friend is moving away and I don't want her to, mama promises a visit, one more game of flower floaty, I'm not saying goodbye, matching flower crowns, it's still really hard to say goodbye but we can still feel close)'. Coping call per dev set: the crowns are comfort objects like the joey's mama stuffie, so asking for comfort."
+      "story_lead": "The little hippo's best elephant friend is moving away today, and neither wants to say goodbye. Fresh from Zuri's friendship bracelets, the team gets to work.",
+      "resolution": "Matching flower crowns are made to wear until the promised visit, and one more game of flower floaty comes first. It is still really hard to say goodbye, the song admits, but we can still feel close.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e09, title-matched to catalog segment (my friend is moving away and I don't want her to, mama promises a visit, one more game of flower floaty, I'm not saying goodbye, matching flower crowns, it's still really hard to say goodbye but we can still feel close)'. Coping call per dev set: the crowns are comfort objects like the joey's mama stuffie, so asking for comfort. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -455,9 +455,9 @@
       "episode_number": "10",
       "segment": "1",
       "segment_title": "Help the Red Panda!",
-      "story_lead": "A red panda's very first Yuan Xiao lantern ends up stuck in a Chengdu tree with a hole and a dead candle. A broken rainbow bracelet that Zuri's friends fixed better than new shows her the way: spare capes for patching and a firefly friend for the glow.",
-      "resolution": "The sadness of the ruined lantern gets asking for help, the capes-and-firefly patch, and the most-beautiful-lantern-that-ever-flew is what the mending earned, brand-new friend included.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e10, title-matched to catalog segment (breeze blew the lantern into the trees, a cracked bead and a broken string, I feel so sad, lantern patched with capes, firefly as the light, most beautiful lantern that ever flew, brand-new friend)'. Topics per dev set: none of the eight fits a broken-treasure-and-festival story; left empty rather than forced."
+      "story_lead": "A red panda's very first Yuan Xiao lantern ends up stuck in a Chengdu tree with a hole where the candle burned out. Zuri's rainbow bracelet, fixed better than new by her friends, shows the way.",
+      "resolution": "Spare capes patch the lantern, and a firefly friend rides along as the light. It flies as the most beautiful lantern of the festival, brand-new friend included.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e10, title-matched to catalog segment (breeze blew the lantern into the trees, a cracked bead and a broken string, I feel so sad, lantern patched with capes, firefly as the light, most beautiful lantern that ever flew, brand-new friend)'. Topics per dev set: none of the eight fits a broken-treasure-and-festival story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -465,9 +465,9 @@
       "episode_number": "10",
       "segment": "2",
       "segment_title": "Help the Songbirds... Write a Song!",
-      "story_lead": "Two songbirds back to thank the Wonder Pets cannot agree whether their song should celebrate rescues, fun or friends, and neither can the three Wonder Pets. The Jetscreen shows them all three ideas are really one: teamwork.",
-      "resolution": "The confusion of the too-many-ideas gets talking it out, the write-it-together answer, and the song is what everything-has-one-thing-in-common composed.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e10, title-matched to catalog segment (we don't know where to start, rescues friends fun, we can't even pick one, everything has one thing in common, teamwork, write it together)'. Topic per dev set: a write-a-song story fits Music & dance."
+      "story_lead": "Two songbirds back to thank the Wonder Pets cannot agree whether their song should celebrate rescues, fun or friends, and neither can the three Wonder Pets. The Jetscreen settles it: all three ideas are really one.",
+      "resolution": "Everything has one thing in common, the screen shows them, and the song writes itself once they write it together. Teamwork gets the chorus.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e10, title-matched to catalog segment (we don't know where to start, rescues friends fun, we can't even pick one, everything has one thing in common, teamwork, write it together)'. Topic per dev set: a write-a-song story fits Music & dance. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -475,9 +475,9 @@
       "episode_number": "11",
       "segment": "1",
       "segment_title": "Help the Dancing Fishies!",
-      "story_lead": "Puffer fish and jellyfish both claim the same glowing cove near Cuba for their very different dance styles, and the seaweed dividing line drifts away. The two schools discover their fast jazzy puff and slow graceful sway mash into one new tune.",
-      "resolution": "The claimed cove gets talking it out, the mash-up-your-music answer, and one new tune is what both schools ended up dancing.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e11, title-matched to catalog segment (dance floor isn't big enough, which side is yours and where's the line, Zuri and Tate mash their JetSub building music, mash up your music and all dance to a new tune)'. Topic per dev set: the dance-off is the story, so Music & dance."
+      "story_lead": "Puffer fish and jellyfish both claim the same glowing cove near Cuba for their very different dance styles. The seaweed line between them drifts away, and the argument floats out with it.",
+      "resolution": "A mash-up of the JetSub's building music sets the example, and the two schools take it from there. Fast jazzy puff meets slow graceful sway, and one new tune fits the entire cove.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e11, title-matched to catalog segment (dance floor isn't big enough, which side is yours and where's the line, Zuri and Tate mash their JetSub building music, mash up your music and all dance to a new tune)'. Topic per dev set: the dance-off is the story, so Music & dance. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -485,9 +485,9 @@
       "episode_number": "11",
       "segment": "2",
       "segment_title": "Save the Red Balloon!",
-      "story_lead": "Tallula's brand new birthday balloon blows away over New York City, and the chase collects Pizza Kitty with a pizza pan, Pearl with a reusable bag and a Theater Mouse prop gag. The team, past and borrowed, catches it together.",
-      "resolution": "The blown-away gift gets asking for help, the instead-of-trying-to-catch-it-all-alone turn, and the caught balloon is what you're-all-on-the-team-today earned.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e11, title-matched to catalog segment (a present she was thrilled to get, it was such a breezy windy day, instead of trying to catch it all alone let's do it together, you're all on the team today)'. Topic per dev set: the balloon is a birthday present but the story centers on the chase, so Birthday & party is left off rather than forced."
+      "story_lead": "Tallula's brand new birthday balloon blows away over New York City, and the breeze takes it farther than one chaser can manage. The chase collects Pizza Kitty with a pizza pan, Pearl with a reusable bag, plus a Theater Mouse with a prop gag.",
+      "resolution": "Instead of trying to catch it all alone, they do it together, and the makeshift team catches the balloon at last. You're all on the team today, she says, and she means every one of them.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e11, title-matched to catalog segment (a present she was thrilled to get, it was such a breezy windy day, instead of trying to catch it all alone let's do it together, you're all on the team today)'. Topic per dev set: the balloon is a birthday present but the story centers on the chase, so Birthday & party is left off rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -495,9 +495,9 @@
       "episode_number": "12",
       "segment": null,
       "segment_title": "Save the Scarecrow!",
-      "story_lead": "An adorable scarecrow cannot scare the crows chewing toward his pumpkin stage before the Great Halloween Dance Party. After borrowing scare lessons from skeletons and a witch, he saves the night his own way, by dancing like only he can do.",
-      "resolution": "The sadness of the too-adorable-to-scare gets asking for help, the I-never-thought-of-asking turn, and the dance-crow is what saving the pumpkin stage in his own adorable way looked like.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e12, title-matched to catalog single-story row (I'm too adorable, I never thought of asking for help here in Halloweenville, skeleton moves and witch cackle both come out adorable, dance-crow, I saved the pumpkin stage in my own adorable way)'. Topic per dev set: the dance party is the stake rather than the story's center, so no starter topic; left empty rather than forced."
+      "story_lead": "An adorable scarecrow cannot scare the crows chewing toward his pumpkin stage before the Great Halloween Dance Party in Halloweenville. Skeleton moves and a witch's cackle both come out adorable, which nearly breaks him.",
+      "resolution": "I never thought of asking for help, he admits, and the help he gets is the turn: dance like only he can. The dance-crow saves the pumpkin stage in his own adorable way.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e12, title-matched to catalog single-story row (I'm too adorable, I never thought of asking for help here in Halloweenville, skeleton moves and witch cackle both come out adorable, dance-crow, I saved the pumpkin stage in my own adorable way)'. Topic per dev set: the dance party is the stake rather than the story's center, so no starter topic; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -505,9 +505,9 @@
       "episode_number": "13",
       "segment": "1",
       "segment_title": "Help the Holiday Hamster!",
-      "story_lead": "A hamster on Christmas Eve is too excited to sleep, and rock-out sessions and counting bunny reindeer do not help. The Wonder Pets tell him the bedtime story they made up in the classroom, and a sleepy alaka-snooze spell does the rest.",
-      "resolution": "The impatience of the too-wired-to-sleep gets deep breath/calm-down, the tried-several-settling-strategies path to the calm bedtime-story routine, and the alaka-snooze-alaka-snore is what finally landed him asleep.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e13, title-matched to catalog segment (fired up wired and wide awake, I can rock all night, hopping made things worse, bedtime story alaka-snooze alaka-snore, he fell asleep)'. Coping call per dev set: the episode shows trying several settling strategies until the calm bedtime-story routine works, nearest listed value deep breath/calm-down."
+      "story_lead": "A hamster on Christmas Eve is too excited to sleep, and hopping around only makes it worse. The Wonder Pets tell him the bedtime story they made up in the classroom.",
+      "resolution": "Alaka-snooze, alaka-snore: the made-up story works where the rocking failed. He is asleep before the last page.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e13, title-matched to catalog segment (fired up wired and wide awake, I can rock all night, hopping made things worse, bedtime story alaka-snooze alaka-snore, he fell asleep)'. Coping call per dev set: the episode shows trying several settling strategies until the calm bedtime-story routine works, nearest listed value deep breath/calm-down. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "Wonder Pets: In the City",
@@ -515,9 +515,9 @@
       "episode_number": "13",
       "segment": "2",
       "segment_title": "Save the Snowman!",
-      "story_lead": "Zuri borrows Tate's lucky hat without asking, and a chipmunk borrows a snowman's carrot nose the same way. Both get the same fix: a real sorry, a returned treasure, and a celery board so nobody ends up left out of the fun.",
-      "resolution": "The taken-without-asking gets apologizing, the I'm-really-sorry turns for both borrowers, and the celery board is what kept the chipmunk in the fun.",
-      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e13, title-matched to catalog segment (I'm really sorry Tate I took it cause I was cold, ear warmers anyway, I plucked it off the snowman's face I didn't think he'd mind, taking something without asking isn't very nice, celery-board for the chipmunk)'. Topics per dev set: none of the eight fits an asking-first-and-apologizing story; left empty rather than forced."
+      "story_lead": "Zuri borrows Tate's lucky hat without asking, and a chipmunk borrows a snowman's carrot nose the same way. Both get caught cold in more ways than one.",
+      "resolution": "A real sorry comes from each of them, I took it cause I was cold, and the treasures go back where they belong. The celery board keeps the chipmunk in the fun, and nobody ends up left out.",
+      "evidence_note": "Script: dev set note reads 'Subtitle tier: SubtitleCat s02e13, title-matched to catalog segment (I'm really sorry Tate I took it cause I was cold, ear warmers anyway, I plucked it off the snowman's face I didn't think he'd mind, taking something without asking isn't very nice, celery-board for the chipmunk)'. Topics per dev set: none of the eight fits an asking-first-and-apologizing story; left empty rather than forced. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
     },
     {
       "series_title": "The Peanuts Classics",
@@ -525,9 +525,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": "Charlie Brown's All Stars!",
-      "story_lead": "A 999-game losing streak has the baseball team ready to quit, and Charlie Brown makes a big promise to turn things around. The promise comes with a catch he has not seen coming.",
-      "resolution": "The disappointment of the losing streak gets trying again, the big-promise turnaround, and the row stops at the catch, since the listing does not show how it lands.",
-      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E1: Charlie Brown's All Stars!; Apple synopsis carries an em dash, restructured here; age edge call: judged 5-7 for school-age team drama'."
+      "story_lead": "The baseball team has lost 999 straight games and is ready to quit. Charlie Brown makes a big promise to turn things around, and the promise hides a catch he has not seen.",
+      "resolution": "The promise stands, and the season is still unplayed.",
+      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E1: Charlie Brown's All Stars!; Apple synopsis carries an em dash, restructured here; age edge call: judged 5-7 for school-age team drama'. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "The Peanuts Classics",
@@ -535,9 +535,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": "She's a Good Skate, Charlie Brown",
-      "story_lead": "Peppermint Patty trains hard for a figure skating competition. The dress for the big day becomes a project all its own.",
-      "resolution": "The nerves of the big day get asking for help, and the dress project is how the listing shows the preparation; the row stops where the evidence stops.",
-      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E2: She's a Good Skate, Charlie Brown'."
+      "story_lead": "Peppermint Patty trains hard for a figure skating competition, and the dress for the big day becomes a project all its own.",
+      "resolution": "The dress comes together, and the big day stays ahead.",
+      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E2: She's a Good Skate, Charlie Brown'. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "The Peanuts Classics",
@@ -545,9 +545,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": "It's Flashbeagle, Charlie Brown",
-      "story_lead": "Charlie Brown wishes his dog would act like a normal dog. That same dog is busy becoming the most popular dancer in town.",
-      "resolution": "The embarrassment stays a wish the listing does not resolve, and the row lets the most-popular-dancer gag carry it.",
-      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E3: It's Flashbeagle, Charlie Brown; coping left empty: the listing shows no explicit coping beat'."
+      "story_lead": "Charlie Brown wishes his beagle would act like a normal dog. That same dog is busy becoming the most popular dancer in town.",
+      "resolution": "The wish goes unmet, and the dancing dog gets only more popular.",
+      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E3: It's Flashbeagle, Charlie Brown; coping left empty: the listing shows no explicit coping beat'. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "The Peanuts Classics",
@@ -555,9 +555,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": "Snoopy's Reunion",
-      "story_lead": "Snoopy is down. Charlie Brown plans a family reunion at Daisy Hill Farm, where life began for the beagles.",
-      "resolution": "The sadness of a down-in-the-spirits day gets answered with the reunion itself, comfort offered rather than a strategy named, and the row leaves the happy where the listing leaves it.",
-      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E4: Snoopy's Reunion; coping left empty: the episode models offering comfort at a family reunion, which is not one of the ten listed strategies; topics left empty: no starter topic fits a family-reunion story'."
+      "story_lead": "Snoopy is down, and Charlie Brown plans a family reunion at Daisy Hill Farm, where life began for the beagles.",
+      "resolution": "The family comes back together, and Snoopy gets his comfort.",
+      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E4: Snoopy's Reunion; coping left empty: the episode models offering comfort at a family reunion, which is not one of the ten listed strategies; topics left empty: no starter topic fits a family-reunion story'. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "The Peanuts Classics",
@@ -565,9 +565,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": "You're Not Elected, Charlie Brown",
-      "story_lead": "Linus runs for student body president with victory almost certain. Then his speech about the Great Pumpkin wobbles the campaign.",
-      "resolution": "The nerves of the certain win get tested by the wobble, and the listing stops at the speech, so the row claims no result the evidence does not show.",
-      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E5: You're Not Elected, Charlie Brown; coping left empty: the listing stops at the speech, so no coping beat is visible in the evidence; age edge call: election satire reads 5-7 rather than 2-4'."
+      "story_lead": "Linus runs for student body president with a win all but certain. Then a speech about the Great Pumpkin wobbles the campaign.",
+      "resolution": "The story stops at the speech, with the election not yet decided.",
+      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E5: You're Not Elected, Charlie Brown; coping left empty: the listing stops at the speech, so no coping beat is visible in the evidence; age edge call: election satire reads 5-7 rather than 2-4'. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "The Peanuts Classics",
@@ -575,9 +575,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": "It's Arbor Day, Charlie Brown",
-      "story_lead": "The team turns the baseball diamond into an Arbor Day garden. It throws Peppermint Patty off her game completely.",
-      "resolution": "The frustration of the dug-up diamond gets no listed strategy on the page, and the row lets the garden-versus-baseball collision stand as the story.",
-      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E6: It's Arbor Day, Charlie Brown; coping left empty: the listing stops at the collision, so no coping beat is visible in the evidence'."
+      "story_lead": "The team digs up the baseball diamond and plants an Arbor Day garden on it. Peppermint Patty's game falls apart completely.",
+      "resolution": "The garden stays planted, and the game stays a mess.",
+      "evidence_note": "Synopsis-only: title-overview tier; dev set note reads 'evidence is Apple's own live listing synopsis (tv.apple.com, fetched this session); the catalog row has a generic title, a blank synopsis, and a TMDB 335652 placeholder record; mapped to Apple's listing by episode position (E1-E6); the positional mapping is flagged; catalog synopsis column left blank to stay verbatim; Apple listing E6: It's Arbor Day, Charlie Brown; coping left empty: the listing stops at the collision, so no coping beat is visible in the evidence'. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
     }
   ]
 }

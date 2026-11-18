@@ -45,9 +45,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A standoff between Pachyrhinosaurus and Nanuqsaurus holds the snow-covered forest in suspense, and the pachyrhinosaur herd faces the harshest stretch of the season. Calves weakened by mosquitoes fall behind, and a blizzard tests the group. The herd's answer is the wall: close ranks and hold together.",
-      "resolution": "The fear is real and the cost is real, and closing ranks instead of scattering is the brave move that carries the herd through.",
-      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Story detail from the dev set note: herd wall, nanuqsaur standoff, blizzard; coping tagged standing up for yourself as the nearest value. Content considerations, the batch's harshest: a bull is killed, mosquitoes weaken calves, mothers abandon stragglers, only one calf in ten survives its first year, wildfire. Age 8-10 for that content. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "A standoff between Pachyrhinosaurus and Nanuqsaurus leaves the snow-covered forest tense while the pachyrhinosaur herd faces the harshest stretch of the season. Calves weakened by mosquitoes fall behind, a blizzard tests the group, and the herd's answer is the wall: close ranks, stay together.",
+      "resolution": "The fear is real, the cost is real, and closing ranks instead of scattering is the brave move that gets the herd through.",
+      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Story detail from the dev set note: herd wall, nanuqsaur standoff, blizzard; coping tagged standing up for yourself as the nearest value. Content considerations, the batch's harshest: a bull is killed, mosquitoes weaken calves, mothers abandon stragglers, only one calf in ten survives its first year, wildfire. Age 8-10 for that content. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Lead and resolution re-crafted 2026-11-18 per Builder re-measure ruling: lead rebuilt from cited script evidence under the amended register (double-and removed, 'holds... in suspense' removed); resolution carry-metaphor removed, content preserved."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -55,9 +55,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A young Triceratops takes an underground shortcut through a North American cave and is separated from its mother in total darkness. The calf's move is to stay close to family and trust the adults to come. Wildfire and bee stings test the forest above while the Carnotaurus flops his display and tries again.",
+      "story_lead": "A young Triceratops takes an underground shortcut through a North American cave and is separated from its mother in total darkness. The calf's move is to stay close to family and trust the adults to come.",
       "resolution": "The fear of being lost in the dark eases into asking for comfort, staying near family until the reunion comes, and the mother does come.",
-      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Story detail from the dev set note: cave separation, lost calf, reunion; coping tagged asking for comfort as the nearest value. Content considerations: total darkness, wildfire, bee stings, predation. Secondary mirror: Carnotaurus flops his display and tries again, an Edmontosaurus mother leads her babies through the fire. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Story detail from the dev set note: cave separation, lost calf, reunion; coping tagged asking for comfort as the nearest value. Content considerations: total darkness, wildfire, bee stings, predation. Secondary mirror: Carnotaurus flops his display and tries again, an Edmontosaurus mother leads her babies through the fire. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Lead re-crafted 2026-11-18 per Builder re-measure ruling: double-and removed, secondary mirror trimmed for clarity; rebuilt from cited script evidence under the amended register."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -105,9 +105,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Not much intimidates a T. rex, but a giant winged Quetzalcoatlus at a carcass does, and that standoff is the episode's centerpiece. The young Triceratops loses his challenge to a veteran and walks away with new battle scars and next season in view. The nanuqsaur mother hunts through it all.",
+      "story_lead": "Not much intimidates a T. rex, but a giant winged Quetzalcoatlus at a carcass does, and that standoff is the episode's centerpiece. The young Triceratops loses his challenge to a veteran and walks away with new battle scars, next season in view.",
       "resolution": "The young challenger's loss comes with hope attached, and the scars he earns might win him next season.",
-      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Honest no-story-row per the dev set note: the synopsis-led story is a carcass standoff with no kid situation; emotion and coping left empty on purpose. Nearest mirror named in evidence: the young Triceratops loses to the veteran and his new battle scars might win next season, losing with hope. Content considerations: an old Alamosaur dies and is fed on, ammonites hunted on their spawning run. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Honest no-story-row per the dev set note: the synopsis-led story is a carcass standoff with no kid situation; emotion and coping left empty on purpose. Nearest mirror named in evidence: the young Triceratops loses to the veteran and his new battle scars might win next season, losing with hope. Content considerations: an old Alamosaur dies and is fed on, ammonites hunted on their spawning run. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Lead re-crafted 2026-11-18 per Builder re-measure ruling: double-and removed; rebuilt from cited script evidence under the amended register."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -115,9 +115,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A woolly mammoth gives birth in the worst blizzard in millions of years, and the herd shields mother and calf. When the storm is at its worst, the family huddles around the newborn, and that is enough. Celebration follows the survival.",
+      "story_lead": "A woolly mammoth gives birth in the worst blizzard in millions of years, with the herd shielding mother and calf. When the storm is at its worst, the family huddles around the newborn, and celebration follows the survival.",
       "resolution": "The fear of the storm gets answered by family closing in, and asking for help is simply what the herd does for its newest member.",
-      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Story detail from the dev set note: mammoth birth in the blizzard, herd shield, celebration; coping tagged asking for help. Content considerations: mother and calf nearly freeze, cave lions stalk bear cubs, a young saber-tooth fends for herself alone. Numbering caveat from the dev set: TMDB files this as season 3 while Apple brands the season Prehistoric Planet: Ice Age, logged. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Story detail from the dev set note: mammoth birth in the blizzard, herd shield, celebration; coping tagged asking for help. Content considerations: mother and calf nearly freeze, cave lions stalk bear cubs, a young saber-tooth fends for herself alone. Numbering caveat from the dev set: TMDB files this as season 3 while Apple brands the season Prehistoric Planet: Ice Age, logged. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Lead re-crafted 2026-11-18 per Builder re-measure ruling: double-and removed; rebuilt from cited script evidence under the amended register."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -125,9 +125,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Sea levels drop and continents shift. Animals migrate into territories that are brand new and full of threats. A short-faced bear claims new ground while a dwarf stegodon family treks into the unknown, and a baby who strays too far is rescued. The narration names the rule itself: not every strategy works first time.",
-      "resolution": "The worry of a brand-new place meets trying again, and the narration's own line carries it: to thrive in new lands, it is best to keep trying.",
-      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Story detail from the dev set note: short-faced bear, land bridge science, dwarf stegodon; coping anchored to the narration line quoted in the note. Content considerations: predators and near misses, a mother stegodon rescues her strayed baby. Numbering caveat: TMDB season 3 vs Apple's Prehistoric Planet: Ice Age branding, logged. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Sea levels drop, continents shift, and animals migrate into brand-new territories full of threats. A short-faced bear claims new ground while a dwarf stegodon family treks into the unknown, and a baby who strays too far is rescued.",
+      "resolution": "A brand-new place calls for trying again, and the narration says it outright: to thrive in new lands, it is best to keep trying.",
+      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Story detail from the dev set note: short-faced bear, land bridge science, dwarf stegodon; coping anchored to the narration line quoted in the note. Content considerations: predators and near misses, a mother stegodon rescues her strayed baby. Numbering caveat: TMDB season 3 vs Apple's Prehistoric Planet: Ice Age branding, logged. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Lead and resolution re-crafted 2026-11-18 per Builder re-measure ruling: four-sentence lead condensed to two from cited script evidence; resolution 'The worry of' mold opener and carry-metaphor removed, content preserved."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -135,9 +135,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A rock-climbing sloth family scales a mountain for food and water, and the young ones wait while the adults do the hard part. A mirage lures herds toward an ending the show leaves implied. When the mirage fails, the new leader digs for water, and the digging is the episode's quiet answer.",
+      "story_lead": "A rock-climbing sloth family scales a mountain for food and water while the young ones wait for the adults to do the hard part. A mirage lures herds toward an ending the show leaves implied, and when it fails, the new leader digs for water, which is the episode's quiet answer.",
       "resolution": "The worry of waiting turns into patience, and slow and steady is what gets the family through the barren stretch.",
-      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Story detail from the dev set note: sloth family's mountain climb, Diprotodon water hole, marsupial lion's new tactic; coping tagged patience. Content considerations: the old Diprotodon leader dies, a mirage lures herds to their end (implied), predators shadow the mountain. Strongest trying-again mirror per the note: the new leader digs for water when the mirage fails. Numbering caveat: TMDB season 3 vs Apple branding, logged. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "evidence_note": "Script: Gestdown Addic7ed, identity-checked per the dev set row note 'script-verified (Gestdown Addic7ed, identity-checked)'; confidence high. Story detail from the dev set note: sloth family's mountain climb, Diprotodon water hole, marsupial lion's new tactic; coping tagged patience. Content considerations: the old Diprotodon leader dies, a mirage lures herds to their end (implied), predators shadow the mountain. Strongest trying-again mirror per the note: the new leader digs for water when the mirage fails. Numbering caveat: TMDB season 3 vs Apple branding, logged. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Lead re-crafted 2026-11-18 per Builder re-measure ruling: double-and removed; rebuilt from cited script evidence under the amended register."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -165,9 +165,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": "Uncovered: Could T. Rex Really Swim?",
-      "story_lead": "This Uncovered special takes on one question: could a T. rex actually swim? The science answer comes with the series' usual visuals and no story to follow.",
-      "resolution": "There is no named feeling here; the payoff is the surprise answer to a question kids actually ask.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis (47 chars); the title carries the evidence, T. rex swimming science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Could a T. rex actually swim? This Uncovered short takes the question on, and the answer is full of surprises.",
+      "resolution": "There is no story problem to work out; the pull is the question itself, and kids who ask it get a real answer.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis (47 chars); the title carries the evidence, T. rex swimming science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -175,9 +175,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": "Uncovered: Flamboyant Flyers",
-      "story_lead": "A flying reptile with a large, cumbersome head crest seems like a design mistake, and this special explains why it is not. Pterosaur science fills the run, with no story to follow.",
-      "resolution": "No named feeling here; the payoff is understanding what the remarkable crest was for.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title and synopsis carry pterosaur crest science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "A flying reptile carries a large, cumbersome head crest, and this Uncovered short explains why the remarkable design is no mistake.",
+      "resolution": "No named feeling runs through it; the prize is finally understanding what that extraordinary crest was for.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title and synopsis carry pterosaur crest science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -185,9 +185,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": "Uncovered: Did Velociraptor Have Feathers?",
-      "story_lead": "The feather question gets a memorable answer: a velociraptor would have looked a lot like a really terrifying turkey. The science runs the show, with no story.",
-      "resolution": "No named feeling here; the payoff is the surprise that feathers came long before flight.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, Velociraptor feather science. Synopsis includes the quoted turkey line. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "A velociraptor, the Uncovered short reports, would have looked like a really terrifying turkey.",
+      "resolution": "The turkey line carries the surprise, and the pleasure here is seeing how different the real animal looked.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, Velociraptor feather science. Synopsis includes the quoted turkey line. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -195,9 +195,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": "Uncovered: Did Dinosaurs Hunt in Packs?",
-      "story_lead": "Scientific evidence, the special says, points to deadly dinosaurs joining forces. Pack-hunting science fills the segment, with no story to follow.",
-      "resolution": "No named feeling here; the payoff is the evidence itself, laid out for curious kids.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, pack-hunting science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Did dinosaurs hunt in packs? Scientific evidence says deadly hunters really did join forces, and the short lays the case out.",
+      "resolution": "Nothing needs resolving here; the evidence itself is the draw for a kid who asks whether it really happened.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, pack-hunting science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -205,9 +205,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": "Uncovered: Armed for Seduction?",
-      "story_lead": "A tiny pair of limbs with a big role to play is the teaser, and the special delivers the science behind it. There is no story to follow.",
-      "resolution": "No named feeling here; the payoff is the unexpected job those small arms did.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title-only plus a one-line teaser. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "A tiny pair of arms carries a surprisingly big job. The Uncovered short explains what the little limbs were for.",
+      "resolution": "Wonder at anatomy does the work; the discovery is what those small limbs were actually for.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title-only plus a one-line teaser. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -215,9 +215,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": "Welcome to Their World",
-      "story_lead": "A science short that invites kids to see the world the way the animals do, just as its title promises. It plays as a companion piece to the series' story episodes rather than a story with its own arc.",
-      "resolution": "The animals-eye view is the gift of this short; it is science to wonder at together, not a story with a problem to work out.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. No synopsis on TMDB or in the catalog; title-only evidence. Topic left empty on purpose: no defensible topic from title alone. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Welcome to Their World is a science short that sees the world the way its animals do. It plays as a companion piece, not a story of its own.",
+      "resolution": "The gift of this short is the animals'-eye view, science to wonder at together rather than a problem to work out.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. No synopsis on TMDB or in the catalog; title-only evidence. Topic left empty on purpose: no defensible topic from title alone. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -225,9 +225,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": "Expect the Unexpected",
-      "story_lead": "Expect the Unexpected is a science short that leans into nature's surprises, and its title is its promise. Kids who love the strange shock of the real world will find it here.",
-      "resolution": "Curiosity is what this short feeds; it exists to surprise, not to sort anything out.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. No synopsis on TMDB or in the catalog; title-only evidence. Topic left empty on purpose: no defensible topic from title alone. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "This science short is called Expect the Unexpected, and its title is its promise. No story runs through it.",
+      "resolution": "Curiosity is what it feeds; the short exists to surprise, and a surprise does not need sorting out.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. No synopsis on TMDB or in the catalog; title-only evidence. Topic left empty on purpose: no defensible topic from title alone. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -235,9 +235,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": "Science and Sounds",
-      "story_lead": "The sounds of the natural world get their own short science film, and the title says it plainly. It sits alongside the series' story episodes as a science extra.",
-      "resolution": "For kids who ask why about every noise, this short is pure answer time; it is science, not story.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. No synopsis on TMDB or in the catalog; title-only evidence. Topic left empty on purpose: no defensible topic from title alone. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Science and Sounds is a science short about the sounds of the natural world. The title says it plainly.",
+      "resolution": "For the kid who asks why about every noise, this short is pure answer time.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. No synopsis on TMDB or in the catalog; title-only evidence. Topic left empty on purpose: no defensible topic from title alone. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -245,9 +245,9 @@
       "episode_number": "9",
       "segment": null,
       "segment_title": "Science and Art",
-      "story_lead": "Where nature meets art is the ground this science short explores, and its title draws that map plainly.",
-      "resolution": "Science and art share the frame here; watch it together and let the questions come.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. No synopsis on TMDB or in the catalog; title-only evidence. Topic left empty on purpose: no defensible topic from title alone. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Science and Art pairs the natural world with art in a short science film. Its title draws that map.",
+      "resolution": "Watch it together and let the questions come; science and art share the frame here.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. No synopsis on TMDB or in the catalog; title-only evidence. Topic left empty on purpose: no defensible topic from title alone. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -255,9 +255,9 @@
       "episode_number": "10",
       "segment": null,
       "segment_title": "Nature's Greatest Show",
-      "story_lead": "Nature puts on its greatest show in this science short, and the title makes the same promise. It is a companion piece to the series' story episodes, not a story of its own.",
-      "resolution": "Awe is what this short is for, and nature itself is the performer.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. No synopsis on TMDB or in the catalog; title-only evidence. Topic left empty on purpose: no defensible topic from title alone. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Nature's Greatest Show is a science short where nature itself is the performer. It sits alongside the series' story episodes as an extra.",
+      "resolution": "Awe is the reason it exists, and it asks nothing of a kid except looking closely.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. No synopsis on TMDB or in the catalog; title-only evidence. Topic left empty on purpose: no defensible topic from title alone. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -265,9 +265,9 @@
       "episode_number": "11",
       "segment": null,
       "segment_title": "On Location with Prehistoric Planet",
-      "story_lead": "Real landscapes, remarkable creatures and an extraordinary team are the subject of this making-of special, which shows how the documentary came to life. No narrative story runs through it.",
-      "resolution": "No named feeling here; the payoff is watching a documentary get made.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Making-of special per the synopsis; no narrative kid situation. Topic left empty on purpose: no defensible topic. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Real landscapes and remarkable creatures fill this making-of special. It shows how the Prehistoric Planet team brought the documentary to life.",
+      "resolution": "No feeling is named anywhere in it; the payoff is watching how a documentary like this gets made.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Making-of special per the synopsis; no narrative kid situation. Topic left empty on purpose: no defensible topic. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -275,9 +275,9 @@
       "episode_number": "12",
       "segment": null,
       "segment_title": "Uncovered: Could Giant Pterosaurs Really Hunt on the Ground?",
-      "story_lead": "Giant pterosaurs could fly through the air and catch prey on land, and the special explains how both worked. No story to follow.",
-      "resolution": "No named feeling here; the payoff is how a ground hunt by a giant flyer actually worked.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; same science question as the Uncovered segment appended to S2E1. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "On the ground, giant pterosaurs could hunt as well as fly. The Uncovered short explains how both worked.",
+      "resolution": "The ground hunt by a giant flyer is the puzzle, and the short explains it cleanly.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; same science question as the Uncovered segment appended to S2E1. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -285,9 +285,9 @@
       "episode_number": "13",
       "segment": null,
       "segment_title": "Uncovered: Were Dinosaurs Good Parents?",
-      "story_lead": "When it came to dino eggs, the special explains, parents had to employ a safety-first approach. The science of dinosaur parenting fills the run.",
-      "resolution": "No named feeling here; the payoff is the safety-first parenting science, protection as its subject.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; science about dinosaur parenting, nearest mirror is parent protection, kept honest as a science special. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "When it came to dino eggs, dinosaur parents ran a safety-first operation. The short walks through the protective science.",
+      "resolution": "No story feeling gets named; the safety-first science of protecting dinosaur eggs is the takeaway.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; science about dinosaur parenting, nearest mirror is parent protection, kept honest as a science special. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -295,9 +295,9 @@
       "episode_number": "14",
       "segment": null,
       "segment_title": "Uncovered: Was Pachycephalosaur Really a Headbutter?",
-      "story_lead": "The dome head is the mystery, and the special tests whether the dinosaur really used it for head-butting. No story to follow.",
-      "resolution": "No named feeling here; the payoff is what the dome was actually for.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; same science question as the Uncovered segment appended to S2E3. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Was Pachycephalosaur really a headbutter? The dome head is the mystery, and the Uncovered short tests the theory.",
+      "resolution": "What the dome was really for is the reveal, and the short delivers the test.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; same science question as the Uncovered segment appended to S2E3. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -305,9 +305,9 @@
       "episode_number": "15",
       "segment": null,
       "segment_title": "Uncovered: How Fast Was a Mosasaur?",
-      "story_lead": "The secrets of the mosasaur's underwater success get their own special treatment, speed included. No story to follow.",
-      "resolution": "No named feeling here; the payoff is the speed science behind the ocean's great ambush hunter.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; same science question as the Uncovered segment appended to S2E4. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "How fast was a mosasaur? The Uncovered short measures the ocean's great ambush hunter.",
+      "resolution": "Speed is the subject and the spectacle; no story feeling appears.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; same science question as the Uncovered segment appended to S2E4. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -315,9 +315,9 @@
       "episode_number": "16",
       "segment": null,
       "segment_title": "Uncovered: Why Did Triceratops Have a Frill?",
-      "story_lead": "There were no frills on the frills of Triceratops, the special reports, and the real purpose gets laid out. No story to follow.",
-      "resolution": "No named feeling here; the payoff is what the frill was actually for.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; same science question as the Uncovered segment appended to S2E5. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Triceratops carried a frill, but there were no frills on the frills. The Uncovered short tracks down its real purpose.",
+      "resolution": "The frill's true job is the reveal, and the short gets there plainly.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; same science question as the Uncovered segment appended to S2E5. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -325,9 +325,9 @@
       "episode_number": "17",
       "segment": null,
       "segment_title": "Uncovered: Uncovered: How Did Dinosaurs Get So Big?",
-      "story_lead": "Prehistoric size had very few limits, and the special explains the biology behind the giants. No story to follow.",
-      "resolution": "No named feeling here; the payoff is the how of dinosaur bigness.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; the doubled Uncovered prefix is in both TMDB and the catalog, kept verbatim. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Very few limits bound prehistoric size. This Uncovered short explains how the giants got so big.",
+      "resolution": "Sheer size is the spectacle, and the biology of getting that big is the reward.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; the doubled Uncovered prefix is in both TMDB and the catalog, kept verbatim. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -335,9 +335,9 @@
       "episode_number": "18",
       "segment": null,
       "segment_title": "Uncovered: What Do We Really Know About Ammonites?",
-      "story_lead": "Using the present to inform the past is the method, and ammonite science is the subject. No story to follow.",
-      "resolution": "No named feeling here; the payoff is what living relatives reveal about ammonites.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, ammonite science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "The living relatives of ammonites carry the science here. The short uses the present to inform the past.",
+      "resolution": "What we really know about these shelled animals is the payoff, built from creatures alive today.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, ammonite science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -345,9 +345,9 @@
       "episode_number": "19",
       "segment": null,
       "segment_title": "Uncovered: How Good Were T.rex Senses?",
-      "story_lead": "Super sight, smell and hearing helped the T. rex hunt, and the special walks through each sense. No story to follow.",
-      "resolution": "No named feeling here; the payoff is the sensory toolkit of the most famous predator.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, T. rex senses science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "T. rex hunted with super sight, smell and hearing. The special takes each sense in turn.",
+      "resolution": "The sensory toolkit of the most famous predator is the payoff, one sense at a time.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, T. rex senses science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -355,9 +355,9 @@
       "episode_number": "20",
       "segment": null,
       "segment_title": "Uncovered: What Else Lived Alongside the Dinosaurs?",
-      "story_lead": "It took special skills to live alongside the dinosaurs, and the special introduces the crocs and mammals that managed it. No story to follow.",
-      "resolution": "No named feeling here; the payoff is the neighbors, not the dinosaurs, this time.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, crocs and mammals alongside dinosaurs. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "It took special skills to live alongside the dinosaurs. The short introduces the crocs and mammals that managed it.",
+      "resolution": "The neighbors get the spotlight this time, and their survival tricks are the treat.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, crocs and mammals alongside dinosaurs. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     },
     {
       "series_title": "Prehistoric Planet",
@@ -365,9 +365,9 @@
       "episode_number": "21",
       "segment": null,
       "segment_title": "Uncovered: How Did Ankylosaurs Use Their Tail?",
-      "story_lead": "Ankylosaurus was an early wielder of weaponized anatomy, and the special shows how the tail club worked. No story to follow.",
-      "resolution": "No named feeling here; the payoff is the engineering of the most famous tail in the fossil record.",
-      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, ankylosaur tail science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs."
+      "story_lead": "Meet the most heavily armed tail in the fossil record. The ankylosaur's club gets a full engineering explanation here.",
+      "resolution": "How the tail club worked is the payoff, and it lands like a magic trick explained.",
+      "evidence_note": "Synopsis-fallback: Gestdown holds no S0 subtitle; dev set note records the TMDB S0 record fetched and verified identical to the catalog synopsis; confidence low-medium. Thin synopsis; title carries the evidence, ankylosaur tail science. No kid situation; emotion and coping empty on purpose. Retag 2026-11-14 per approved vocabulary review (art_atzo2LaZ, approved as filed): topics Monsters & magic changed to Dinosaurs; prehistoric life belongs to Dinosaurs. Recrafted 2026-11-18 (v2.1 fallback re-craft, fresh generation)."
     }
   ]
 }

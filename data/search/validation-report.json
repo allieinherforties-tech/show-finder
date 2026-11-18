@@ -1,5 +1,5 @@
 {
-  "version": "b047794d5849cfc9",
+  "version": "b8841d87c2d5dd6d",
   "artwork": {
     "mode": "tmdb",
     "attributionChecked": true,
@@ -506,7 +506,7 @@
         "prehistoric-planet-s0-e10"
       ],
       "withoutCoping": [
-        "fraggle-rock-back-to-the-rock-s1-e14"
+        "el-deafo-s1-e2"
       ],
       "withoutTopics": 396,
       "note": "Empty emotion, coping, and topic cells are faithful upstream absences reported here and never backfilled or invented."
