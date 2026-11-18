@@ -115,9 +115,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": "Jack's Kindness Story",
-      "story_lead": "Olivia writes and illustrates her own book to make her uncle laugh. When the pages scatter across town, delivery by delivery, everyone ends up helping gather and share it.",
-      "resolution": "The happiness of the gift is the story from start to finish, and there is no struggle to handle; the row lets the laughter land, Uncle Theo's included.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the handmade book, Delivery Delores carrying the lost pages unknowingly, the town reading it aloud together, Uncle Theo laughing at the silly story, Cooper making a book for Jack)'; confidence high. Custom situation per dev set: doing something kind for someone you love. Coping left empty with reason per dev set. Topics anchored to the book-making story."
+      "story_lead": "The book has one purpose: making her uncle laugh. Olivia writes it, illustrates it, and the pages blow away across town before it reaches him.",
+      "resolution": "By the time the story is reassembled, the whole town has read it aloud together, and Uncle Theo laughs exactly like she hoped.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the handmade book, Delivery Delores carrying the lost pages unknowingly, the town reading it aloud together, Uncle Theo laughing at the silly story, Cooper making a book for Jack)'; confidence high. Custom situation per dev set: doing something kind for someone you love. Coping left empty with reason per dev set. Topics anchored to the book-making story.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -125,9 +125,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": "Jack and the Fur-Ever Home Finders",
-      "story_lead": "Sonia cares for the animals at an adoption fair and wants every pet to find a home, so Jack and the neighbors join her as the Fur-Ever Home Finders. A no-pets apartment gets answered with hand-drawn pet portraits.",
-      "resolution": "This one is a helping story with no feeling to work through, and the row leaves it there, happy and adopted down to the last unclaimed puppy, named Happy.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the adoption fair, a would-be adopter blocked by a no-pets apartment answered with hand-drawn pet portraits, Jack adopting the last unclaimed puppy and naming him Happy)'; confidence high. Coping left empty with reason per dev set. Content consideration carried: adoption-fair theme, handled gently."
+      "story_lead": "The Fur-Ever Home Finders have one job at the adoption fair: every pet goes home with a family. Then an apartment building says no pets, and Sonia answers with hand-drawn portraits.",
+      "resolution": "The no-pets family changes its mind for the dog in the drawings, and Jack takes home the last unclaimed puppy, named Happy.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the adoption fair, a would-be adopter blocked by a no-pets apartment answered with hand-drawn pet portraits, Jack adopting the last unclaimed puppy and naming him Happy)'; confidence high. Coping left empty with reason per dev set. Content consideration carried: adoption-fair theme, handled gently.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -135,9 +135,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": "Jack and Cooper's Chalk Game",
-      "story_lead": "Cooper's giant chalk game, Hop-o-Rama, is washed away by water, and he says exactly how sad that feels. With Jack's encouragement, the town rebuilds it even bigger, all the way to the café.",
-      "resolution": "The sadness of the ruined game gets named first and tried again second, and the chalk rainbow delivery plus the tick-tac-thank-you square end it in cheering.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the Hop-o-Rama squares stretching to the café, the ruined game and the naming of how sad that feels, the chalk rainbow delivery, the tick-tac-thank-you square, the town finishing and cheering)'; confidence high. Topics anchored to the giant game itself."
+      "story_lead": "A storm washes away Hop-o-Rama, the giant chalk game Cooper drew, and he says exactly how sad that feels.",
+      "resolution": "The town redraws it even bigger, all the way to the café, and the game ends in cheering at the tick-tac-thank-you square.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the Hop-o-Rama squares stretching to the café, the ruined game and the naming of how sad that feels, the chalk rainbow delivery, the tick-tac-thank-you square, the town finishing and cheering)'; confidence high. Topics anchored to the giant game itself.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -145,9 +145,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": "Friday Feast at Jack's Café",
-      "story_lead": "Chef hurts his arm and cannot cook, so Jack and the neighbors step in to keep the Friday Feast pizza tradition alive. An accidental vegetable pizza becomes the surprise hit.",
-      "resolution": "The disappointment of the fallen pizza gets reframed, the clover shape and the broccolizza everyone ends up loving, and the shared slice is where the happiness comes from.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Chef's sling, Jack kneading dough for the first time, the neighbors each pitching in a job, the fallen pizza and the shared disappointment, the clover shape and the broccolizza everyone ends up loving)'; confidence high. Content consideration carried: visible arm injury in a sling, played lightly. Topics anchored to the pizza story."
+      "story_lead": "An arm in a sling means no cooking for Chef, so Friday Feast pizza falls to Jack and the neighbors, none of whom have made one before.",
+      "resolution": "The first pizza falls anyway, and what rises from it is the broccolizza, a vegetable surprise everyone ends up loving.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Chef's sling, Jack kneading dough for the first time, the neighbors each pitching in a job, the fallen pizza and the shared disappointment, the clover shape and the broccolizza everyone ends up loving)'; confidence high. Content consideration carried: visible arm injury in a sling, played lightly. Topics anchored to the pizza story.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -155,9 +155,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": "Jack's Surprise for Mr. Prickles",
-      "story_lead": "Mr. Prickles misses the garden at his old home after moving, and he says so. Jack and the friends plant him a new garden full of surprises until the new house finally feels like home.",
-      "resolution": "The homesickness gets asked for comfort, Jack naming his own sad days and how a friend helps, and tomatoes, carrots and a gnome named Terry make the new place home.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the confession that moving was hard and the old garden is missed, Jack naming his own sad days and how a friend helps, the planted tomatoes and carrots, the garden gnome named Terry, the new friends making it a home)'; confidence high. Content consideration carried: moving-house and missing-home theme."
+      "story_lead": "A move to a new home has Mr. Prickles missing his old garden, and he says so. Jack answers by naming his own sad moving days, then the friends plant him a new garden.",
+      "resolution": "Tomatoes, carrots, and a gnome named Terry turn up in the new dirt. The new house starts feeling like home.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the confession that moving was hard and the old garden is missed, Jack naming his own sad days and how a friend helps, the planted tomatoes and carrots, the garden gnome named Terry, the new friends making it a home)'; confidence high. Content consideration carried: moving-house and missing-home theme.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -165,9 +165,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": "Jack and Cooper's Hearts",
-      "story_lead": "Cooper hands out paper hearts to brighten everyone's day and runs out, and he learns that his caring itself was the real gift. Meanwhile Bebe's broken guitar is soothed by making music with your heart.",
-      "resolution": "The sad of the empty hands and the broken guitar ends in reframing, the hearts matter less than the person giving them, and drumming the music in her heart is what helps Bebe feel better.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Cooper running out of hearts, the paper hearts versus the person giving them, friends sitting with Bebe and her broken guitar, drumming the music in her heart, playing music helping her feel better)'; confidence high. Topics anchored to the music thread, where the resolution lives; the hearts story has no controlled fit."
+      "story_lead": "Paper hearts get handed out until the supply is gone, and the day Cooper runs out is when the real gift shows itself.",
+      "resolution": "The hearts matter less than the person giving them, and Bebe's broken guitar gets its own answer: drumming the music in her heart.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Cooper running out of hearts, the paper hearts versus the person giving them, friends sitting with Bebe and her broken guitar, drumming the music in her heart, playing music helping her feel better)'; confidence high. Topics anchored to the music thread, where the resolution lives; the hearts story has no controlled fit.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -175,9 +175,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": "Jack and Olivia's Big Bus Adventure",
-      "story_lead": "Olivia is nervous about her very first bus ride because she does not know what to expect, and she says so. Jack and the friends practice what riding a bus is like and cheer her on until she climbs aboard and picks her own seat.",
-      "resolution": "The worry of the unknown ride ends in naming the feeling, the practice run and the song about new things feeling nervous, and the brave shows up when she picks her own seat.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Olivia saying she feels worried because she does not know what to expect, the practice run with friends, the song about new things feeling nervous and a friend saying you can do this, the real ride to the sunflower farm and the sunflower-butter making)'; confidence high. Topics anchored to the first bus ride."
+      "story_lead": "A very first bus ride is coming for Olivia, and she says the truth out loud: she is worried because she does not know what to expect.",
+      "resolution": "The practice run and the new-things song get Olivia onto the bus. Picking her own seat is the brave part.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Olivia saying she feels worried because she does not know what to expect, the practice run with friends, the song about new things feeling nervous and a friend saying you can do this, the real ride to the sunflower farm and the sunflower-butter making)'; confidence high. Topics anchored to the first bus ride.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -185,9 +185,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": "Jack's Hello Kindness Day",
-      "story_lead": "Random acts of kindness are popping up all over town, and Jack sets out with his friends to play detective. Who is behind the good deeds is the mystery of the day.",
-      "resolution": "Who is behind the kindness gets no reveal in the story; the good deeds themselves are the celebration.",
-      "evidence_note": "Synopsis-only: dev set note reads 'No script source: SubtitleCat carries S1E1-7 and S2E1-9 but no S1E8 entry, and the only S1E8 hit found (tried this session) was a mislabeled copy of the S2E4 file, caught by the identity check and discarded'; tier stands. Dev-set top-up carried (2026-11-14): SubtitleCat still lists no S1E8; the SubLoom season 1 page lists episode 8 but exposes no subtitle download. Custom situation per dev set: solving a kindness mystery about anonymous generosity. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "Kindness keeps happening all over town, and nobody will say who is behind it. Jack and his friends play detective to catch the mystery helpers.",
+      "resolution": null,
+      "evidence_note": "Synopsis-only: dev set note reads 'No script source: SubtitleCat carries S1E1-7 and S2E1-9 but no S1E8 entry, and the only S1E8 hit found (tried this session) was a mislabeled copy of the S2E4 file, caught by the identity check and discarded'; tier stands. Dev-set top-up carried (2026-11-14): SubtitleCat still lists no S1E8; the SubLoom season 1 page lists episode 8 but exposes no subtitle download. Custom situation per dev set: solving a kindness mystery about anonymous generosity. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged.Resolution emptied 2026-11-18 (JK line-by-line audit per adopted standing rule): the cited synopsis evidence establishes no resolution beat, and the prior resolution line invented an ending; honest absence per the El Deafo S1E2 precedent; the synopsis-grounded lead stands."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -195,9 +195,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": "Jack's Hallowonderful",
-      "story_lead": "Olivia is too scared of the spooky jack-o'-lantern faces to trick-or-treat, and she names it. Jack leads the way as her trick-or-treating buddy, and the friends turn Halloween into something Hallo-wonderful instead.",
-      "resolution": "The scare gets asking for comfort, the validation that it is okay to be scared and the buddy plan. The decorations get reframed as friendly Hallo-winks, and the trick-or-treat succeeds.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Olivia naming that the spooky faces scare her, the validation that it is okay to be scared, the buddy plan, the Queen Mermaidia costume, the reframing of decorations as friendly Hallo-winks, the successful trick-or-treat)'; confidence high. Content considerations carried: mild spooky imagery; Cooper's food allergies are mentioned with care."
+      "story_lead": "The jack-o'-lantern faces are too spooky for Olivia this year, and she says so out loud.",
+      "resolution": "Jack becomes her trick-or-treating buddy, the spooky faces get reread as friendly Hallo-winks. The candy haul happens after all.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Olivia naming that the spooky faces scare her, the validation that it is okay to be scared, the buddy plan, the Queen Mermaidia costume, the reframing of decorations as friendly Hallo-winks, the successful trick-or-treat)'; confidence high. Content considerations carried: mild spooky imagery; Cooper's food allergies are mentioned with care.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -205,9 +205,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": "Jack Helps with the Hiccups",
-      "story_lead": "Bebe's big concert is threatened when hiccups take over her voice, and she says they feel like they will never go away. Her friends and Chef turn the hiccups into the beat of her song.",
-      "resolution": "The frustration and the sadness of a voice that won't cooperate get reframed, the hiccups become the rhythm, and the concert is sung anyway.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the hiccups interrupting every attempt, Bebe saying they feel like they will never go away, the friends sharing what they love about her singing, Chef's strawberry-noodle pancakes, the hiccups becoming the rhythm, the concert sung anyway)'; confidence high. Topics anchored to the concert."
+      "story_lead": "Bebe's hiccups pick concert day of all days to take over her voice, and she says it feels like they will never go away.",
+      "resolution": "Her friends say what they love about her singing, and the hiccups end up setting the rhythm of the song. The concert gets sung anyway.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the hiccups interrupting every attempt, Bebe saying they feel like they will never go away, the friends sharing what they love about her singing, Chef's strawberry-noodle pancakes, the hiccups becoming the rhythm, the concert sung anyway)'; confidence high. Topics anchored to the concert.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -215,9 +215,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": "Jack's Loved and Found",
-      "story_lead": "A lost stuffie named Daisy is left at the café, and Jack welcomes her with a bed, lunch, a lullaby and photos until her kid Peyton comes back for her. The caring is the point.",
-      "resolution": "The sadness of the lost stuffie gets asking for help, Jack enlisting each friend in turn, and the happiness of the reunion is what the photo album made possible.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the stuffie left behind, Jack welcoming her and enlisting each friend's help, the little bed and the lullaby nap, the photo album for Peyton, the reunion and the stuffie's reported message)'; confidence high. Custom situation per dev set: losing something precious and caring for it until the owner returns. Coping anchored to Jack's enlistment of friends."
+      "story_lead": "A lost stuffie named Daisy is left behind at the café, and Jack does right by her until her kid comes back: a little bed, a lunch, a lullaby nap.",
+      "resolution": "Each friend gets enlisted for one job, and the photo album tells Daisy's stay story. The reunion is what the album was for.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the stuffie left behind, Jack welcoming her and enlisting each friend's help, the little bed and the lullaby nap, the photo album for Peyton, the reunion and the stuffie's reported message)'; confidence high. Custom situation per dev set: losing something precious and caring for it until the owner returns. Coping anchored to Jack's enlistment of friends.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -225,9 +225,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": "Jack's Knights of Kindness",
-      "story_lead": "Hugo is scared to try the merry-go-round because he has never spun on one, and he says so. Olivia and Jack's knight pretend play helps him, hand-holding and a deep breath included, and he later asks for the same help back.",
-      "resolution": "The scare of the first spin gets asking for help, hand-holding and a deep breath before the ride, and the knights' refrain does the rest: when a friend says I can't, they remind them they can.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Hugo saying he has never spun on a merry-go-round and it scares him, hand-holding and a deep breath before the ride, Hugo later asking for the same help back, the knight pretend quest, the refrain that when a friend says I can't the knights remind them they can)'; confidence high. Coping anchor per dev set: Hugo asking for and offering help; the deep breath is shown once and noted."
+      "story_lead": "A first merry-go-round spin scares Hugo, and he says so.",
+      "resolution": "The pretend quest comes with hand-holding and one deep breath before the ride. Later Hugo asks for the same help back, and the knights' refrain says why: when a friend says I can't, they remind them they can.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: Hugo saying he has never spun on a merry-go-round and it scares him, hand-holding and a deep breath before the ride, Hugo later asking for the same help back, the knight pretend quest, the refrain that when a friend says I can't the knights remind them they can)'; confidence high. Coping anchor per dev set: Hugo asking for and offering help; the deep breath is shown once and noted.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -235,9 +235,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": "Jack's Petunia Predicament",
-      "story_lead": "Jack's prized plant Petunia goes missing from the café, and the friends search like detectives across town. Hugo confesses he took her to fix her broken pot, and everyone repots her together.",
-      "resolution": "The worry of the missing plant and the sad of the search end in apologizing, Hugo's confession and his sorry for not saying so first, and Petunia ends up happy in her new spot with a ribbon.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the missing plant and the worry, the detective search across town, Hugo's confession that he took Petunia to fix her broken pot and his apology for not saying so first, the repotting and the ribbon, Petunia happy in her new spot)'; confidence high."
+      "story_lead": "The café's prized plant Petunia is gone, and the friends search the town like detectives.",
+      "resolution": "Hugo confesses he took her to fix her broken pot and says sorry for not saying so first. The repotting ends with a ribbon, and Petunia settles happy into her new spot.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the missing plant and the worry, the detective search across town, Hugo's confession that he took Petunia to fix her broken pot and his apology for not saying so first, the repotting and the ribbon, Petunia happy in her new spot)'; confidence high.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -245,9 +245,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": "Jack and the Story Gazebo",
-      "story_lead": "A storm damages the town's beloved gazebo, and Jack and the neighbors repair it together, Delores's tools and everybody taking a job. The work ends in gazebo stories and a shared picnic.",
-      "resolution": "The sadness of the broken gazebo gets asking for help, the song that a difficult thing is easier when everybody helps, and the happiness of the finished gazebo and the picnic after.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the storm damage and how sad the broken gazebo looks, Delores's tools and the neighbors each taking a job, the song that a difficult thing is easier when everybody helps, the finished gazebo, the stories and the shared picnic)'; confidence high."
+      "story_lead": "A storm wrecks the town's beloved gazebo, and everybody takes a job on the repair, Delores's tools included.",
+      "resolution": "The song says a difficult thing is easier when everybody helps. The finished gazebo fills back up with stories and a shared picnic.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the storm damage and how sad the broken gazebo looks, Delores's tools and the neighbors each taking a job, the song that a difficult thing is easier when everybody helps, the finished gazebo, the stories and the shared picnic)'; confidence high.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -255,9 +255,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": "Jack and Peyton's Big Wait",
-      "story_lead": "Peyton waits for her mom at the café and the wait feels endless, and she says she is so impatient. Jack shows her fun ways to wait, from slow-motion games to an arts-and-crafts sandwich, until her mom finally arrives.",
-      "resolution": "The impatience of the barely moving clock hand gets patience itself, the doing-nothing experiment that helps a little and the funny faces that help more. Waiting, it turns out, is better together.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the clock hand barely moving, Peyton saying she is so impatient, the doing-nothing experiment and how it helps a little, the funny faces and the decorated sandwich, waiting being better together, Lindsay the Great's juggling show as the payoff)'; confidence high. Coping anchor per dev set: patience itself, which the episode teaches directly."
+      "story_lead": "The wait for Peyton's mom at the café feels endless, and the clock hand is barely moving. She says she is so impatient.",
+      "resolution": "The doing-nothing experiment helps a little, the funny faces help more, and the wait turns out to be better together.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the clock hand barely moving, Peyton saying she is so impatient, the doing-nothing experiment and how it helps a little, the funny faces and the decorated sandwich, waiting being better together, Lindsay the Great's juggling show as the payoff)'; confidence high. Coping anchor per dev set: patience itself, which the episode teaches directly.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -265,9 +265,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": "Jack's Snow Globe Café",
-      "story_lead": "A snowstorm postpones the winter gazebo lighting, and Jack and the friends turn the disappointment into a kindness cascade at the café with snow globes and hot chocolate. The lights shine after all, with the best seats in town.",
-      "resolution": "The sadness of the postponed lighting gets reframed, the song that everyone feels sad sometimes and singing is a trick you can try, and the snow globe exchange carries the happy until the lights shine anyway.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: friends stuck in the snow and missing the lighting, the song that everyone feels sad sometimes and singing is a trick you can try, the kindness cascade and hot chocolate, the snow globe exchange, the lights shining anyway with the best seats in town)'; confidence high."
+      "story_lead": "A snowstorm postpones the winter gazebo lighting, and the friends are stuck watching the snow fall instead.",
+      "resolution": "The café fills with a kindness cascade, hot chocolate, and a snow globe exchange. The song says everyone feels sad sometimes, and singing is a trick you can try. The lights shine after all, with the best seats in town.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: friends stuck in the snow and missing the lighting, the song that everyone feels sad sometimes and singing is a trick you can try, the kindness cascade and hot chocolate, the snow globe exchange, the lights shining anyway with the best seats in town)'; confidence high.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Hello, Jack! The Kindness Show",
@@ -275,9 +275,9 @@
       "episode_number": "9",
       "segment": null,
       "segment_title": "Jack's Surprise for a Friend",
-      "story_lead": "Jack is preparing a special song for Celebrate Your Friend Day, but his voice cannot keep up with his excitement and gives out. His friends help with the tambourine and the decorating until the song is sung.",
-      "resolution": "The worry of the lost voice gets asking for help, and the song finishes in a whisper with Peyton's tambourine before Jack's voice returns at the end.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the celebration day preparations, Jack losing his voice to excitement and finishing the song in a whisper, Peyton's tambourine, the friends decorating the gazebo banner, the friendship song and the kazoo, Jack's voice returning at the end)'; confidence high. Topics per dev set: music is the spine of the story; the celebration-day flagging is an edge call, noted for review because Celebrate Your Friend Day is a party-like day rather than a birthday."
+      "story_lead": "Jack's voice gives out right before his big song for Celebrate Your Friend Day, lost to his own excitement.",
+      "resolution": "The friends take over the decorating, and the song gets finished in a whisper with Peyton's tambourine. Jack's voice comes back at the end.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: the celebration day preparations, Jack losing his voice to excitement and finishing the song in a whisper, Peyton's tambourine, the friends decorating the gazebo banner, the friendship song and the kazoo, Jack's voice returning at the end)'; confidence high. Topics per dev set: music is the spine of the story; the celebration-day flagging is an edge call, noted for review because Celebrate Your Friend Day is a party-like day rather than a birthday.Fresh rebuild 2026-11-18 under Copy & Tags Standard v2.1 + amended register (Hello, Jack! full-rebuild ruling, batch JK); prior lead and resolution replaced, not revised; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",
@@ -346,8 +346,8 @@
       "segment": null,
       "segment_title": "Outside",
       "story_lead": "Muno wishes to go outside and discovers he can have more fun there than coloring inside. The friends explore how every part of GabbaLand feels different, from ToodeeLand's ice to MunoLand's heat.",
-      "resolution": "There is no feeling to handle here, and the row lets the sunshine song and the outside energy be the story.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Muno's wish to go outside, the song about sunshine and finding your happy place, the outside-feelings tour of each friend's land and season, exercising outside giving energy and happiness, the recap that outside beat coloring inside)'; confidence high. Coping left empty with reason per dev set: an exploration story with no feeling to handle."
+      "resolution": "The friends end with the sunshine song's happy place made real: every land outside offers a different feeling to discover, and exercising in the fresh air gives them energy and joy.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Muno's wish to go outside, the song about sunshine and finding your happy place, the outside-feelings tour of each friend's land and season, exercising outside giving energy and happiness, the recap that outside beat coloring inside)'; confidence high. Coping left empty with reason per dev set: an exploration story with no feeling to handle. YGGL S1E7 register fix 2026-11-18 per B9 queue-jump precedent: resolution rebuilt fresh from the row's cited script evidence (dev set note preserved above); banned register (\"the row\", \"here\" meta) removed; honest no-feeling framing kept; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",
@@ -445,9 +445,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": "Try",
-      "story_lead": "When things don't work out, the answer is to try again. Doing your best and trying brand-new things is what the friends learn.",
-      "resolution": "The first miss is not the last word; the friends learn that trying again and doing your best are what matter.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Coping anchor per dev set: the episode title and premise name trying again directly; flagged as synopsis-derived since the S2 synopsis is summary-level. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing; SubLoom has no listing. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "Not everything works out for the friends the first time, and each miss gets a brand-new try.",
+      "resolution": "The misses don't get the final say; doing their best and trying again is where the friends finish.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Gestdown carries Season 1 only per the Register's corrected note (no S2 manifests exist), so tags anchor on the catalog synopsis and title'; tier stands. Coping anchor per dev set: the episode title and premise name trying again directly; flagged as synopsis-derived since the S2 synopsis is summary-level. Dev-set top-up carried (2026-11-14): live Gestdown lookup for Season 2 returned an empty manifest; SubtitleCat returns nothing; SubLoom has no listing. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised.; Residual fix 2026-11-18 (Builder ruling): lead and resolution re-crafted fresh to remove the learns-that habit and the lesson-narrating lead; evidence, tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",

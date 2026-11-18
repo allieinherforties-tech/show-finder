@@ -15,9 +15,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": "Begins",
-      "story_lead": "Jill's animals have to move out of her bedroom before the new baby arrives, so she starts her own farm in the yard, even though everything in her wants it to stay the same. The barn, it turns out, is already occupied by a bossy duckling.",
-      "resolution": "The worry of everything changing gets talked through with Jamma, and saying the change she dreads out loud is how Jill carries the new-baby news.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: animals out of Jill's room, Quackety the bossy duckling in the barn, Jamma talk)'; confidence high. No controlled topic fits a farm-start story; left empty by design. Content consideration carried: new-baby arrival setup."
+      "story_lead": "A bedroom full of animals has to empty before the new baby arrives, so Jill starts her own farm in the yard, even though everything in her wants it to stay the same. The barn, it turns out, is already occupied by a bossy duckling.",
+      "resolution": "Jill works the change she dreads out with Jamma, and the barn, duckling included, becomes her new farm.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: animals out of Jill's room, Quackety the bossy duckling in the barn, Jamma talk)'; confidence high. No controlled topic fits a farm-start story; left empty by design. Content consideration carried: new-baby arrival setup.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -26,8 +26,8 @@
       "segment": null,
       "segment_title": "Sisters",
       "story_lead": "The new baby brother arrives, and both sisters want to be first to hold him, except nobody can cuddle him yet. Jacky learns to wait by egg-sitting the golden egg the way Mum cares for the baby.",
-      "resolution": "The impatience of waiting your turn settles into patience, coached explicitly by Mum, and the first huggle is what the waiting was for.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT, content verified against catalog: big sisters, first huggle, Jacky egg-sitting like Mum with the baby)'; confidence high. Coping anchor per dev set: Mummy coaches patience explicitly."
+      "resolution": "Mummy's coaching does the teaching: the egg gets the same gentle waiting the baby gets, and the first huggle is worth every minute of it.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT, content verified against catalog: big sisters, first huggle, Jacky egg-sitting like Mum with the baby)'; confidence high. Coping anchor per dev set: Mummy coaches patience explicitly.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -35,9 +35,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": "Babies",
-      "story_lead": "Jacky wants to name her new baby brother, but Squashy, Sleepy and Softy all get turned down, and it starts to feel like nobody will listen. The sisters build the name Joshy together instead.",
-      "resolution": "The frustration of being unheard gets talked out with Jamma listening, and two big sisters making magic together is how Joshy gets his name.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT, content verified against catalog: Squashy, Sleepy and Softy rejected, Jamma listens, sisters choose Joshy together)'; confidence high. Coping anchor per dev set: Jamma's line that two big sisters make magic when they work together."
+      "story_lead": "A new baby brother needs a name. Squashy, Sleepy and Softy all get turned down. It starts to feel like nobody will listen, so the sisters build the name Joshy together instead.",
+      "resolution": "Jamma hears her out, and the name gets built the right way: two big sisters working together, with Joshy as the answer.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT, content verified against catalog: Squashy, Sleepy and Softy rejected, Jamma listens, sisters choose Joshy together)'; confidence high. Coping anchor per dev set: Jamma's line that two big sisters make magic when they work together.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -45,9 +45,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": "Egg",
-      "story_lead": "The golden egg rolls away, and Al and Pickle are heartbroken while Jill leads a farmwide search. Thinking like an egg is the trick that ends it, with the goats.",
-      "resolution": "The sadness and the worry of the lost egg end in trying again, one step behind until Barbara's baa and the goats Biff and Bop close the gap.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: lost golden egg, Barbara's baa clue, goats Biff and Bop find it)'; confidence high. Quackety shares the worry beat. No controlled topic fits an egg-hunt story."
+      "story_lead": "The golden egg rolls away, leaving Al and Pickle heartbroken while Jill leads a farmwide search. Thinking like an egg is the trick that ends it, with the goats.",
+      "resolution": "One step behind is where the search lives. Then Barbara's baa points the way, the goats Biff and Bop make the find. The golden egg is home.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: lost golden egg, Barbara's baa clue, goats Biff and Bop find it)'; confidence high. Quackety shares the worry beat. No controlled topic fits an egg-hunt story.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -55,9 +55,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": "Rainy Day",
-      "story_lead": "In the storm, Jill tries to rescue her lost sheep and herd her goats single-handedly, and refuses every offer of help until the boots and the bike are stuck too. Taking Jamma's hand is what works.",
-      "resolution": "The frustration of doing it all alone ends in asking for help, and succeeding as a team is the explicit lesson: help is not failure.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: storm, lost Barbara and Little Lamb, stuck boots and bike, Jamma's help accepted)'; confidence high. Coping anchor per dev set: the explicit lesson that help is not failure."
+      "story_lead": "In the storm, Jill tries to rescue her lost sheep and herd her goats single-handedly, refusing every offer of help. The stuck boots and bike say otherwise. Taking Jamma's hand is what works.",
+      "resolution": "The stuck boots and bike change her mind. Jamma's hand turns one farmer's storm into a team's rescue, which is the lesson: help is not failure.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: storm, lost Barbara and Little Lamb, stuck boots and bike, Jamma's help accepted)'; confidence high. Coping anchor per dev set: the explicit lesson that help is not failure.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -65,9 +65,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": "Photo",
-      "story_lead": "Pickle feels he has to look special to belong in the farm family photo, straw bow and all, while Jill fixes problems for everyone. Then the family shows her she belongs front and center too.",
-      "resolution": "The loneliness of feeling left out of the photo ends in naming the feeling, Pickle says it and Jill responds, and the happiness of the finished photo has room for the farmer too.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT, content verified against catalog: farm family photo, Pickle's straw bow, chicken dust baths, Jill brought to the front)'; confidence high. Coping anchor per dev set: Pickle voices feeling left out and Jill responds. Secondary beat noted, not tagged: the sheep leave to explore and Jamma moves in."
+      "story_lead": "A straw bow feels like the price of belonging in the farm family photo, at least to Pickle, while Jill fixes problems for everyone. Then the family shows her she belongs front and center too.",
+      "resolution": "Pickle says the left-out part out loud, and the finished photo makes room for the farmer up front.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT, content verified against catalog: farm family photo, Pickle's straw bow, chicken dust baths, Jill brought to the front)'; confidence high. Coping anchor per dev set: Pickle voices feeling left out and Jill responds. Secondary beat noted, not tagged: the sheep leave to explore and Jamma moves in.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -75,9 +75,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": "Hiccups",
-      "story_lead": "Jill drops the golden egg and every hiccup cure fails, so she decides she is not a good farmer and gives up. Quackety reminds her who she is, and two heartbeats end the hiccups.",
-      "resolution": "The hopelessness and the sadness of a farmer who quits get talked out, and 'just Jill' plus two heartbeats and a double song are what bring her back.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: dropped egg, hiccup cures, just Jill, two heartbeats, double song)'; confidence high. Age-band edge call per dev set: pushed to 5-7 because the beat is a repeated-failure and self-worth crisis, heavier than the series' usual preschool reassurance."
+      "story_lead": "The dropped golden egg starts hiccuping. Every cure fails, so she decides she is not a good farmer and gives up. Quackety reminds her who she is, and two heartbeats end the hiccups.",
+      "resolution": "Quackety reminds her she is still just Jill, and two heartbeats plus a double song end the hiccups where every cure failed.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: dropped egg, hiccup cures, just Jill, two heartbeats, double song)'; confidence high. Age-band edge call per dev set: pushed to 5-7 because the beat is a repeated-failure and self-worth crisis, heavier than the series' usual preschool reassurance.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -86,8 +86,8 @@
       "segment": null,
       "segment_title": "Family",
       "story_lead": "The golden egg has decided it is hatching day, which is exactly when Jamma's trailer arrives, and Jill is torn between the two. Trusting Jacky with one of them turns out to be her job as big sister.",
-      "resolution": "The guilt of 'I think I made Jamma sad' and the worry of two jobs end in asking for help, and the traded trust of 'I know you can do this' is what lets both big moments happen.",
-      "evidence_note": "Script: dev set note reads 'Script tier, upgraded from synopsis-fallback in the transcript top-up pass (2026-11-14): Forever Dreaming transcript (topic 236348, 02x01 - Family, posted 2026-03-09) fetched and identity-checked against the catalog synopsis'; confidence high. Dev-set detail carried: the script fixed who learns what, the shown coping, and Jill's guilt line. Topics: Monsters & magic covers the dragon hatch; no controlled topic fits the trailer move."
+      "resolution": "The sad confession gets said out loud. The traded trust lets both big moments happen, hatch and trailer alike.",
+      "evidence_note": "Script: dev set note reads 'Script tier, upgraded from synopsis-fallback in the transcript top-up pass (2026-11-14): Forever Dreaming transcript (topic 236348, 02x01 - Family, posted 2026-03-09) fetched and identity-checked against the catalog synopsis'; confidence high. Dev-set detail carried: the script fixed who learns what, the shown coping, and Jill's guilt line. Topics: Monsters & magic covers the dragon hatch; no controlled topic fits the trailer move.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -95,9 +95,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": "Darling",
-      "story_lead": "Darling, a senior donkey, arrives to a welcome song and a quiet stall, and Jill's usual baby-animal care misses him every time. New arrivals, Jamma says, need kind patience.",
-      "resolution": "The frustration and the worry of care that misses settle into patience, the kind kind, because Darling may need a different sort of welcoming.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: Darling arrives, welcome song, quiet stall, Jill's care misses)'; confidence high. Coping anchor per dev set: Jamma names the lesson, give him kind patience."
+      "story_lead": "A senior donkey called Darling arrives to a welcome song and a quiet stall. Jill's usual baby-animal care misses him every time. New arrivals, Jamma says, need kind patience.",
+      "resolution": "Jamma names what works with a senior donkey: time, kindness, no rushing. The settling takes exactly that.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: Darling arrives, welcome song, quiet stall, Jill's care misses)'; confidence high. Coping anchor per dev set: Jamma names the lesson, give him kind patience.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -105,9 +105,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": "Dragon Babies",
-      "story_lead": "Jill babysits the dragon babies Huffity and Puffity, waves off Al's advice, and watches her tidy exercise-feed-change routine fall apart. These babies want everything done playfully, tractor games included.",
-      "resolution": "The frustration of the falling-apart routine ends in asking for help, and admitting she should have taken Al's advice is what turns the babysitting around.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: Huffity and Puffity, exercise-feed-change routine, tractor feeding games)'; confidence high. Topic anchored to the babysitted dragons."
+      "story_lead": "Babysitting the dragon babies Huffity and Puffity, Jill waves off Al's advice while her tidy exercise-feed-change routine falls apart. These babies want everything done playfully, tractor games included.",
+      "resolution": "Al's advice gets the late credit it earned, and the routine turns playful, tractor games included, once the farmer admits the babies had it right.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: Huffity and Puffity, exercise-feed-change routine, tractor feeding games)'; confidence high. Topic anchored to the babysitted dragons.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -115,9 +115,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": "Bedtime",
-      "story_lead": "With Jill sick in bed, Jacky promises to run barn bedtime alone, and the animals would much rather play hide-and-seek. Admitting she cannot do it without help is her hard turn, and Daddy steps in.",
-      "resolution": "The worry of the big promise ends in asking for help, and the family bedtime ritual is what finally works.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: Jill's sore throat, important voice, hide-and-seek, Daddy steps in, family bedtime ritual works)'; confidence high. Content consideration carried: mild illness theme."
+      "story_lead": "With Jill sick in bed, Jacky promises to run barn bedtime alone. The animals would much rather play hide-and-seek. Admitting she cannot do it without help is her hard turn, and Daddy steps in.",
+      "resolution": "The too-big promise gets said out loud, and the family bedtime ritual is what finally quiets the barn.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: Jill's sore throat, important voice, hide-and-seek, Daddy steps in, family bedtime ritual works)'; confidence high. Content consideration carried: mild illness theme.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -126,8 +126,8 @@
       "segment": null,
       "segment_title": "Barn",
       "story_lead": "The wind latches the barn door with Darling locked inside, guarding the dragon babies and keeping them happy with the hee-haw game. Outside, everyone keeps trying: a duck who has forgotten how to fly, a pup digging under the wall.",
-      "resolution": "The worry of the stuck barn and the sadness of Quackety's forgotten flying end in trying again, and the way in is what the next attempt finds.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: windy latch, hee-haw game inside, Quackety's failed flight, Tucker's dig)'; confidence high. Quackety's sadness about not flying is a secondary beat, noted not tagged."
+      "resolution": "Every attempt teaches the next one, from the duck's remember-how-to-fly to Tucker's dig under the wall, and the way in finally shows up.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: windy latch, hee-haw game inside, Quackety's failed flight, Tucker's dig)'; confidence high. Quackety's sadness about not flying is a secondary beat, noted not tagged.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -135,9 +135,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": "Tucker",
-      "story_lead": "Jacky volunteers to nurse Tucker through a sore paw, and tries every toy and song to bring back his woof: a tea party, a puppy song, a xylophone. What he wants, it turns out, is quiet time with her.",
-      "resolution": "The frustration of the failed cures calms into a deep breath and a slowdown, and the quiet woof is what slowing down got done.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: vet bandage, tea party, puppy song, xylophone, quiet woof)'; confidence high. Parallel Jill thread carried: Darling teaches that slowing down gets things done; calming strategies shown throughout. Content consideration carried: injured paw, no distress shown."
+      "story_lead": "Volunteering to nurse Tucker through a sore paw, Jacky tries every toy and song to bring back his woof: a tea party, a puppy song, a xylophone. What he wants, it turns out, is quiet time with her.",
+      "resolution": "Every toy, every song gets its turn and fails. What brings the woof back is quiet time with Jacky, the same slowing-down Darling taught Jill.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog: vet bandage, tea party, puppy song, xylophone, quiet woof)'; confidence high. Parallel Jill thread carried: Darling teaches that slowing down gets things done; calming strategies shown throughout. Content consideration carried: injured paw, no distress shown.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Lovely Little Farm",
@@ -145,9 +145,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": "Party",
-      "story_lead": "The sisters plan the Harvest Day party in one day, and then the truck breaks down with the sweetcorn and the games. Quackety, who has not flown yet, finds the courage to fly and invite the neighbors.",
-      "resolution": "The worry of a party in peril meets trying again, and Quackety's brave run-and-flap takeoff is what brings the community to the sharing stall and the farm song.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog via page 351088: Harvest Day, flat tire, run-and-flap takeoff, farm song, sharing stall)'; confidence high. Topics anchored to the party itself and the song the family writes and performs."
+      "story_lead": "The sisters plan the Harvest Day party in one day, and then the truck breaks down with the sweetcorn. Quackety, who has not flown yet, finds the courage to fly and invite the neighbors.",
+      "resolution": "A flat tire nearly ends the party until Quackety's run-and-flap takeoff brings the neighbors. The day ends in the sharing stall with the farm song still going.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Forever Dreaming transcript, content verified against catalog via page 351088: Harvest Day, flat tire, run-and-flap takeoff, farm song, sharing stall)'; confidence high. Topics anchored to the party itself and the song the family writes and performs.Full re-craft 2026-11-18 (LF line-by-line audit per adopted standing rule): all 14 resolutions rebuilt fresh off the mold and coping-leak constructions found in the prior pass; four leads re-split for double-and; built from situation/coping/notes only; prior LF rebuild provenance and tier preserved."
     },
     {
       "series_title": "Not a Box",

@@ -15,9 +15,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Jane tracks a polar bear across the Arctic with David and Greybeard. The mission starts with an avalanche and ends at a garbage dump where the bears eat out of hunger. Scared, she learns that a safety signal is what fear is for. A voicemail to Dad goes unanswered, and the promised snowmobile ride turns into a lesson about sharing.",
+      "story_lead": "Jane tracks a polar bear across the Arctic with David and Greybeard, from an avalanche start to a garbage dump where the bears eat out of hunger. Scared, she discovers, is what fear is for: a signal to want to come home safely. A voicemail to Dad goes unanswered, so the promised snowmobile ride becomes a lesson about sharing.",
       "resolution": "Jane reframes the fear as wanting to come home safely, and understanding the bear comes before rushing in to help her.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: avalanche, snowmobile chase, tag-the-polar-bear mission; fear reframed as a safety signal. Content considerations: an avalanche, polar bears forced to eat garbage, vanishing sea ice. Secondary mirrors: the unanswered voicemail to Dad, learning to share."
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: avalanche, snowmobile chase, tag-the-polar-bear mission; fear reframed as a safety signal. Content considerations: an avalanche, polar bears forced to eat garbage, vanishing sea ice. Secondary mirrors: the unanswered voicemail to Dad, learning to share. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Jane",
@@ -56,8 +56,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "The gharial's bulbed snout is the mystery, but the co-op's chore list comes first, and Jane is impatient with every single one of them. New kid Andre changes the arithmetic at the pool. The answer arrives the way patience works: sideways, after the chores.",
-      "resolution": "Patience carries the day, and the unloved, weird-looking animal gets her help too.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: boat capers, co-op chores, new kid Andre, Greybeard falls in the pool. Content considerations: only about 600 gharials left. Secondary mirror: David's weekend with Dad and Sasha comes up lightly."
+      "resolution": "The chores get done first, and the unloved, weird-looking animal gets her help too.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: boat capers, co-op chores, new kid Andre, Greybeard falls in the pool. Content considerations: only about 600 gharials left. Secondary mirror: David's weekend with Dad and Sasha comes up lightly. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): resolution re-crafted per the Builder ruling — metaphorical \"carries the day\" removed; the patience arc remains grounded in the lead (impatience with every chore, answer arriving after the chores) per the row's cited Gestdown script evidence; tier unchanged."
     },
     {
       "series_title": "Jane",
@@ -85,9 +85,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Monitoring a black rhino and his red-billed oxpecker buddy, Jane and David argue like the pair they are watching: stop being scared all the time, says one; stop telling me what to do, says the other. A rhino charge nearly tramples them both. Like rhino and oxpecker, they discover they watch each other's backs.",
+      "story_lead": "Monitoring a black rhino with his red-billed oxpecker buddy alongside, Jane and David argue like the pair they are watching: stop being scared all the time, says one; stop telling me what to do, says the other. A rhino charge nearly tramples them both. Like rhino and oxpecker, they discover they watch each other's backs.",
       "resolution": "The argument ends in talking it out, and the partnership comes out stronger for it, the way the vet says symbiosis works.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: a rhino charge, the oxpecker mirror, the big argument quoted in the note. Content considerations: poaching explained, a rhino charges and nearly tramples them, habitat loss and climate change named. Secondary mirror: they start a conservation club at school (the Kitui Club)."
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: a rhino charge, the oxpecker mirror, the big argument quoted in the note. Content considerations: poaching explained, a rhino charges and nearly tramples them, habitat loss and climate change named. Secondary mirror: they start a conservation club at school (the Kitui Club). Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Jane",
@@ -96,8 +96,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Chasing a herd of caribou stirs up David's appetite, and the mission will not hurry for anyone's stomach. Grandpa James's lunch story carries respect, responsibility and sharing down the table. Take only what you need, and share what you learn.",
-      "resolution": "Hunger and hurry both settle with patience, and the lunch break turns out to hold the mission's biggest lesson.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: cold hiding, a spooked calf, Grandpa James's lunch story. Content considerations: a herd nearly tramples the crew (played for wonder), food waste and a landfill visit suggested. Topics note from dev set: the food and waste thread is a subplot, so no second topic tag."
+      "resolution": "Hunger and hurry both settle with patience. The lunch break, it turns out, is where the mission's biggest lesson lives.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: cold hiding, a spooked calf, Grandpa James's lunch story. Content considerations: a herd nearly tramples the crew (played for wonder), food waste and a landfill visit suggested. Topics note from dev set: the food and waste thread is a subplot, so no second topic tag. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Jane",
@@ -106,8 +106,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A tiger that prefers the dark means staying up past bedtime with night-vision gear, and the garden shed holds a surprise. A friend's jump-scare prank lands mid-mission. Mom's shrinking time windows, ten minutes to five to three, hold the bedtime boundary warmly.",
-      "resolution": "Even the fiercest animal gets the space and quiet it needs, and the bedtime boundary holds warmly.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: night-vision tracking, a friend's jump-scare prank, Mom's shrinking time windows. Content considerations: darkness and stalking talk, fewer than 4,000 wild tigers, a bedtime boundary held warmly."
+      "resolution": "Even the fiercest animal gets the space and quiet it needs. The bedtime boundary never bends.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: night-vision tracking, a friend's jump-scare prank, Mom's shrinking time windows. Content considerations: darkness and stalking talk, fewer than 4,000 wild tigers, a bedtime boundary held warmly. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Jane",
@@ -116,8 +116,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A baby panda named Rollie is separated from his mother, and the rule of the wild is nobody may touch. The zip-line rescue finds the mother without breaking it. Before the mission, Mom names her own nerves out loud before a date, and David hands the answer right back: because you like him.",
-      "resolution": "Naming the feeling settles the worry over a lost baby, and Rollie is back where he belongs, observed and never petted.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: baby panda (Rollie) separated from his mother, zip-line rescue; Mom's naming-her-nerves beat quoted. Content considerations: baby-panda predators named, panda-costume pee-spray gag. Secondary mirror: David's dads babysit during Mom's date."
+      "resolution": "Naming the feeling settles the worry over a lost baby. Rollie is back where he belongs, watched over but never petted.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: baby panda (Rollie) separated from his mother, zip-line rescue; Mom's naming-her-nerves beat quoted. Content considerations: baby-panda predators named, panda-costume pee-spray gag. Secondary mirror: David's dads babysit during Mom's date. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Jane",
@@ -135,9 +135,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": null,
-      "story_lead": "The pink fairy armadillo has never been studied, and the underground hunt for it nearly ends in rockfall and traffic. A garden mishap with Annisa stops the crew in their tracks. They retreat, rethink the plan and return.",
+      "story_lead": "The pink fairy armadillo has never been studied, so the underground hunt for it nearly ends in rockfall and traffic. A garden mishap with Annisa stops the crew in their tracks. They retreat, rethink the plan and return.",
       "resolution": "The crew tries again after every setback, and the tiniest, oddest animal proves worth every retreat.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: a car nearly hits the armadillo, falling rocks, the garden mishap with Annisa; coping note says the crew retreats, rethinks and returns. Content considerations: near-miss traffic and rockfall, pet trade and climate change named as threats. Topic note from dev set: no controlled topic fits a tiny-burrower conservation story."
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: a car nearly hits the armadillo, falling rocks, the garden mishap with Annisa; coping note says the crew retreats, rethinks and returns. Content considerations: near-miss traffic and rockfall, pet trade and climate change named as threats. Topic note from dev set: no controlled topic fits a tiny-burrower conservation story. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Jane",
@@ -145,9 +145,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Is coral a plant or an animal? The reef mission collides with a harder question when Jane frees an illegal fisherman's catch and turns out to be wrong. Mom holds the line: apologize or we are going home. The fisherman is a citizen scientist, and the parrotfish was helping, not hurting.",
+      "story_lead": "Is coral a plant or an animal? The reef mission collides with a harder question when Jane frees an illegal fisherman's catch and turns out to be wrong. Mom draws the line at apologize-or-we-go-home, and the fisherman proves to be a citizen scientist whose parrotfish was helping, not hurting.",
       "resolution": "Jane apologizes for acting on a belief she never checked, and owning it is what makes the science stick.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Jane frees an illegal fisherman's catch, Mom's 'apologize or we're going home' line. Content considerations: fish taken from a person (returned), coral bleaching and overfishing, a lobster-trap scar story. Secondary mirror: the co-op vegetable garden closes the episode."
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Jane frees an illegal fisherman's catch, Mom's 'apologize or we're going home' line. Content considerations: fish taken from a person (returned), coral bleaching and overfishing, a lobster-trap scar story. Secondary mirror: the co-op vegetable garden closes the episode. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Jane",
@@ -155,9 +155,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": null,
-      "story_lead": "With David sick in bed and Greybeard in danger from a pride of lions, Jane needs her mom right now, and Mom is on a mortgage call. Jane's interruptions do not land. The wait feels unbearable and teaches what a pride already knows: everyone has a job.",
-      "resolution": "Mom shows up the moment it is a real animal mission, sick David learns that rest is his job, and the frustration of the wait cools into patience.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: David home sick, Mom on a mortgage call, Jane interrupting during the mortgage call. Content considerations: a sick child, a lioness stalks the toy, about 23,000 lions left. Secondary mirror: the bake-sale-or-lemonade fundraiser plan."
+      "story_lead": "With David sick in bed, Greybeard in danger from a pride of lions, and Mom on a mortgage call, Jane needs her mother right now. Jane's interruptions change nothing. The wait feels unbearable and teaches what a pride already knows: everyone has a job.",
+      "resolution": "Mom shows up the moment it is a real animal mission. Sick David discovers rest is his job, and the long wait cools into patience.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: David home sick, Mom on a mortgage call, Jane interrupting during the mortgage call. Content considerations: a sick child, a lioness stalks the toy, about 23,000 lions left. Secondary mirror: the bake-sale-or-lemonade fundraiser plan. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead + resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Jane",
@@ -165,9 +165,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Why do hippos give birth away from their pods? The mission waits behind couch-cushion chores and neighbor Jillian's baby Ren, who cries unless someone holds him. David takes the holding job, and the fussy baby settles. A hippo tops the boat along the way.",
+      "story_lead": "Why do hippos give birth away from their pods? The mission waits behind couch-cushion chores while neighbor Jillian's baby Ren cries unless someone holds him, so David takes the holding job and the fussy baby settles. A hippo tops the boat along the way.",
       "resolution": "Small jobs protect big things, and the calm, willing holder is what Ren needed all along.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: a hippo charges the boat, couch-cushion chores, neighbor Jillian's baby Ren who cries unless held. Content considerations: a hippo tops the boat, a crying baby, battery chemicals explained. Secondary mirror: the lobby sculpture made of recycled plastic."
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: a hippo charges the boat, couch-cushion chores, neighbor Jillian's baby Ren who cries unless held. Content considerations: a hippo tops the boat, a crying baby, battery chemicals explained. Secondary mirror: the lobby sculpture made of recycled plastic. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Jane",
@@ -175,9 +175,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A wombat burrow chase and a square-poo discovery carry the science, and young expert Joey tells the orphan-wombat story underneath it: his rescued joey was meant to be the ecosystem engineer he was always meant to be. Loving something wild, the episode argues, can mean letting it go. Jane's community BBQ pushes the menu toward new options.",
+      "story_lead": "A wombat burrow chase and a square-poo discovery bring the science, while young expert Joey tells the orphan-wombat story underneath it: his rescued joey was meant to be the ecosystem engineer he was always meant to be. Loving something wild, Jane finds, can mean letting it go. Jane's community BBQ pushes the menu toward new options.",
       "resolution": "The goodbye gets reframed as what the wombat was meant to become, and brave is the word for making that trade.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: burrow chase, the square-poo discovery, young expert Joey's orphan-wombat story; the goodbye reframed. Content considerations: a mother wombat killed on a road (told in the rescue story), predators, wildfires, habitat loss. Secondary mirror: Jane's community BBQ menu."
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: burrow chase, the square-poo discovery, young expert Joey's orphan-wombat story; the goodbye reframed. Content considerations: a mother wombat killed on a road (told in the rescue story), predators, wildfires, habitat loss. Secondary mirror: Jane's community BBQ menu. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Jane",
@@ -205,9 +205,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A cleared forest and the trade in chimpanzees take the hope out of Jane, and the drop shows on her face where Mom can see it. Mom sets up the sanctuary call, and caregiver Stany tells them what survivors teach: they become healthy, and they do not give up. The hope comes back through the phone.",
+      "story_lead": "A cleared forest and the trade in chimpanzees take the hope out of Jane, the drop showing on her face where Mom can see it. Mom sets up the sanctuary call, where caregiver Stany tells them what survivors teach: they become healthy, and they do not give up. The hope comes back through the phone.",
       "resolution": "Stany's survivors hand Jane her hope back, one recovered chimp at a time.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: the cleared forest, Mr. Jin the neighbor, the Chimp Eden sanctuary call; Stany's line quoted, named by Jane Goodall; coping note says Mom notices the drop and sets up the call. Content considerations, the heaviest this season, handled gently: deforestation, hunting, chimpanzees taken as pets and circus performers."
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: the cleared forest, Mr. Jin the neighbor, the Chimp Eden sanctuary call; Stany's line quoted, named by Jane Goodall; coping note says Mom notices the drop and sets up the call. Content considerations, the heaviest this season, handled gently: deforestation, hunting, chimpanzees taken as pets and circus performers. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -215,9 +215,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A fire rescue brings Goldie the golden retriever into Charles and Lizzie's lives, and both kids want to be her hero. A storm scares the puppy until the blanket fort goes up, the same kind their parents once built for scared kids. Deciding who keeps her means deciding what is best for the dog, not who wins her.",
+      "story_lead": "A fire rescue brings Goldie the golden retriever into Charles and Lizzie's lives, where both kids want to be her hero. A storm scares the puppy until the blanket fort goes up, the same kind their parents once built for scared kids. Deciding who keeps her means deciding what is best for the dog, not who wins her.",
       "resolution": "Asking for comfort settles the wanting-her-too-much worry, and Goldie's best home turns out to be Grandma's, with the kids as godparents.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: a fire rescue, the blanket fort for a storm-scared puppy; the parents' memory of building one for the scared kids. Content considerations: a house fire (Dad safe, a girl rescued). The 'doing what is best' line is quoted in the dev set note."
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: a fire rescue, the blanket fort for a storm-scared puppy; the parents' memory of building one for the scared kids. Content considerations: a house fire (Dad safe, a girl rescued). The 'doing what is best' line is quoted in the dev set note. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -225,9 +225,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Lizzie has a blindfold experiment for her Helen Keller report, a guide-dog hopeful named Shadow to prove, and a little brother who feels erased by her best friend Sammy. You and Sammy are always hanging out, Charles says, and he is not wrong. Shadow's rule-bound path bends somewhere unexpected.",
+      "story_lead": "Lizzie has a blindfold experiment for her Helen Keller report, a guide-dog hopeful named Shadow to prove, and a little brother who feels erased by her best friend Sammy. You and Sammy are always hanging out, Charles says, which is not wrong. Shadow's rule-bound path bends somewhere unexpected.",
       "resolution": "Charles talks the left-out feeling out loud, and it works, while Shadow finds the right home without a single rule broken.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Lizzie's blindfold experiment for her Helen Keller report, Charles's 'you and Sammy are always hanging out'. Content considerations: blindness explored respectfully via the blindfold experiment, a child's allergy, a dog rehomed twice."
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Lizzie's blindfold experiment for her Helen Keller report, Charles's 'you and Sammy are always hanging out'. Content considerations: blindness explored respectfully via the blindfold experiment, a child's allergy, a dog rehomed twice. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -245,9 +245,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Safety Week brings Scout the German shepherd, a drone crash, and two kids locked in a shed calling for help. A firefighter explains that being scared is part of a hard job, and Dad shares his own trick: think about dogs and Mom's Christmas chili until the happy thought holds. Scout, a training washout, saves the day by not giving up.",
+      "story_lead": "Safety Week brings Scout the German shepherd, a drone crash, and two kids locked in a shed calling for help. A firefighter explains that being scared is part of a hard job, so Dad shares his own trick: think about dogs or Mom's Christmas chili until the happy thought sticks. Scout, a training washout, saves the day by not giving up.",
       "resolution": "Someone kept trying, the kids get found, and the happy-thought reframe is a tool they keep.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: two kids locked in a shed, a drone crash, Scout sniffing out Charles's hat; the happy-thought line quoted in full. Content considerations: children trapped and calling for help, search-and-rescue peril described, a firefighter's dangerous job discussed."
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: two kids locked in a shed, a drone crash, Scout sniffing out Charles's hat; the happy-thought line quoted in full. Content considerations: children trapped and calling for help, search-and-rescue peril described, a firefighter's dangerous job discussed. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -255,9 +255,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A missed sign-up leaves Charles off the service-week list because Sammy forgot his name, and Lizzie's daycare internship runs into a rules-first owner with a lost pug on her hands. Can I just say something really quick? Lizzie asks, and then says it. The five-star review vindicates her loving-not-liking line.",
+      "story_lead": "A missed sign-up leaves Charles off the service-week list because Sammy forgot his name, and Lizzie's daycare internship runs into a rules-first owner with a lost pug on her hands. Lizzie asks if she can just say something really quick, then says it. The five-star review vindicates her loving-not-liking line.",
       "resolution": "Lizzie talks it out directly to the owner, and honesty plus a loving reason beat the rule.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: a missed sign-up (Sammy forgot Charles's name), Lizzie's internship under rules-first Ruth, the lost 'customer'; the 'Can I just say something really quick?' beat is the coping note. Content considerations: a dog's separation anxiety handled warmly, an evaluation scare, composting explained."
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: a missed sign-up (Sammy forgot Charles's name), Lizzie's internship under rules-first Ruth, the lost 'customer'; the 'Can I just say something really quick?' beat is the coping note. Content considerations: a dog's separation anxiety handled warmly, an evaluation scare, composting explained. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -266,8 +266,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Princess the Yorkie arrives with a ten-page decree list, and Charles is fostering alone while Lizzie works with judo champ JJ. If I can do a hundred push-ups a day, I can handle a puppy. It is only scary once, Remy's throw teaches. Being underestimated gets answered by showing, not arguing.",
-      "resolution": "The loneliness of the solo job ends in trying again one page at a time, and JJ shows the school there is more to her than judo.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Princess the Yorkie, the ten-page decree list, Charles fostering alone; the push-ups and 'it's only scary once' lines quoted. Content considerations: a dog rehomed because of a world tour, a dad's pet allergy, missing a sibling (JJ's brother at college)."
+      "resolution": "The solo job ends in trying again one decree page at a time, and JJ shows the school there is more to her than judo.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Princess the Yorkie, the ten-page decree list, Charles fostering alone; the push-ups and 'it's only scary once' lines quoted. Content considerations: a dog rehomed because of a world tour, a dad's pet allergy, missing a sibling (JJ's brother at college). Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -276,8 +276,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Jack the sensitive boxer needs a one-on-one home, and Lizzie's way into the Kit Smithers book club runs through a lie Maria told for her: an invented friendship with the author. I do not really know Kit Smithers, Lizzie confesses to the club. I do not have a pool, so I panicked.",
-      "resolution": "The worry of the lie gets owned out loud, the truth costs one awkward moment and buys real belonging, and the club's own grief for a lost dog gets said out loud too.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Jack the boxer puppy, the Kit Smithers book club, Maria's invented friendship, Lizzie's confession quoted. Content considerations: a dog's death remembered (offscreen, past), a lie exposed and owned, a sensitive puppy rehomed with the author."
+      "resolution": "Owning the lie out loud costs one awkward moment and buys real belonging, while the club's own grief for a lost dog gets said out loud too.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Jack the boxer puppy, the Kit Smithers book club, Maria's invented friendship, Lizzie's confession quoted. Content considerations: a dog's death remembered (offscreen, past), a lie exposed and owned, a sensitive puppy rehomed with the author. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -286,8 +286,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Bandit the shih tzu's raspy breath turns out to be a heart valve condition, and Charles is sure it is his fault. If it was your fault, the vet reasons, I do not think Bandit would be asking you to hold him. The pancake-breakfast fundraiser answers the $4,000 question.",
-      "resolution": "Guilty and worried, Charles asks for help instead of carrying the blame, and a community funds what one kid cannot.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Bandit the shih tzu, the heart valve condition, a raspy breath caught in time, the pancake-breakfast fundraiser; the nobody's-fault line quoted. Content considerations: a puppy's heart condition and surgery (resolved well, activity limits after), self-blame named and dispelled, a $4,000 cost discussed."
+      "resolution": "Guilty and worried, Charles asks for help instead of taking the blame alone. A community funds what one kid cannot.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Bandit the shih tzu, the heart valve condition, a raspy breath caught in time, the pancake-breakfast fundraiser; the nobody's-fault line quoted. Content considerations: a puppy's heart condition and surgery (resolved well, activity limits after), self-blame named and dispelled, a $4,000 cost discussed. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -305,9 +305,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Teeny and Tiny are newborn puppies with no mother, which means around-the-clock bottle feeds and a disagreement about separating siblings. A bus misunderstanding about a haircut lands sideways, and he called me boring lands worse. This is a discussion, not an argument, becomes the house rule.",
-      "resolution": "The sad break between the friends gets mended with I-feel sentences and real listening, and the puppies stay together under a perfect compromise.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Teeny and Tiny, the bottle-feeding week, a bus misunderstanding, the sit-down; 'I feel' sentences and 'this is a discussion, not an argument' quoted. Content considerations: abandoned newborn puppies (mother unknown), a friendship rupture, a haircut mocked on the bus (a misunderstanding)."
+      "story_lead": "Teeny and Tiny are newborn puppies with no mother, which means around-the-clock bottle feeds plus a disagreement about separating the siblings. A bus misunderstanding about a haircut lands sideways, and he called me boring lands worse. This is a discussion, not an argument, becomes the house rule.",
+      "resolution": "The sad break between the friends gets mended with I-feel sentences and real listening. The puppies stay together under a perfect compromise.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Teeny and Tiny, the bottle-feeding week, a bus misunderstanding, the sit-down; 'I feel' sentences and 'this is a discussion, not an argument' quoted. Content considerations: abandoned newborn puppies (mother unknown), a friendship rupture, a haircut mocked on the bus (a misunderstanding). Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead + resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -315,9 +315,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Maria cancels for Cara's French homework, new kid David joins Sammy, and Lizzie is alone with cookies while Lucky the border collie drags a sore paw home. A new friend is not a replacement, the weekend keeps insisting. I am sorry I made you feel like that, the repair begins. You were not in the way at all.",
-      "resolution": "Jealousy and the left-out feeling get said instead of sulked, and talking it out puts both friendships back on the calendar.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Maria cancels for Cara's French homework, new kid David joins Sammy, Lizzie alone with cookies, Lucky's sore paw; the repair lines quoted. Content considerations: a canceled sleepover, a dog's sore paw treated gently, a move mentioned in passing."
+      "story_lead": "Maria cancels for Cara's French homework, new kid David joins Sammy, and Lizzie is alone with cookies while Lucky the border collie drags a sore paw home. A new friend is not a replacement, the weekend keeps insisting. The repair begins with I am sorry I made you feel like that, followed by you were not in the way at all.",
+      "resolution": "Jealousy and the left-out feeling get said instead of sulked. Talking it out puts both friendships back on the calendar.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Maria cancels for Cara's French homework, new kid David joins Sammy, Lizzie alone with cookies, Lucky's sore paw; the repair lines quoted. Content considerations: a canceled sleepover, a dog's sore paw treated gently, a move mentioned in passing. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead + resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -325,9 +325,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A box of abandoned puppies outside Cozy Nook Books hands the kids a secret and a decision, and shy Parker only speaks up when Buddy the puppy is near. Buddy is what Parker needed to feel calm and at ease around the other kids. The staged one-puppy-first plan, they admit, was giving the truth some breathing room.",
-      "resolution": "The worry of the secret ends in asking for comfort and coming clean, and Buddy stays as the comfort Parker never had to earn.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Buddy, the box outside Cozy Nook Books, the Book Worms revival, shy Parker, the staged one-puppy-first plan, the come-clean. Content considerations: puppies abandoned in a box, a shy child, food-hiding from early scarcity explained."
+      "story_lead": "A box of abandoned puppies outside Cozy Nook Books hands the kids a secret plus a decision, and shy Parker only speaks up when Buddy the puppy is near. Buddy is what Parker needed to feel calm and at ease around the other kids. The staged one-puppy-first plan, they admit, was giving the truth some breathing room.",
+      "resolution": "Coming clean and asking for comfort end the secret. Buddy becomes the comfort Parker never had to earn.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Buddy, the box outside Cozy Nook Books, the Book Worms revival, shy Parker, the staged one-puppy-first plan, the come-clean. Content considerations: puppies abandoned in a box, a shy child, food-hiding from early scarcity explained. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead + resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -346,8 +346,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "The class-pet debate splits the room: is Eddie the right class pet, and what does the animal actually need? Lizzie and Maria each switch sides mid-argument, which is how they find the compromise. Ulysses S. Plant takes over the job, and the grand buddies program pairs Snowball the Westie with Rose.",
-      "resolution": "Confusion about the right answer settles into talking it out, and hearing each other out keeps both the friend and the animal's needs intact.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Snowball the Westie, the class pet Eddie, the grand buddies program, Lizzie and Maria each switching sides, the class-plant compromise; the 'we will always hear each other out' line quoted. Content considerations: the class-pet welfare debate handled with sourced arguments on both sides, retirement-home residents shown warmly and usefully."
+      "resolution": "Confusion about the right answer settles into talking it out, where hearing each other out keeps both the friend and the animal's needs intact.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Snowball the Westie, the class pet Eddie, the grand buddies program, Lizzie and Maria each switching sides, the class-plant compromise; the 'we will always hear each other out' line quoted. Content considerations: the class-pet welfare debate handled with sourced arguments on both sides, retirement-home residents shown warmly and usefully. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -355,9 +355,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Cousin Steph has been in Steph mode since the Manhattan move, and the visit to Andover keeps colliding with it. A lost border collie named Flash and a frisbee clue give the kids a mystery worth sharing. Sorry if I was acting weird, Steph finally says. I was so stressed.",
-      "resolution": "Playing her game is what brings the cousin back, and homesickness and worry get talked out through a shared rescue.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Flash the border collie, the Andover visit, Steph in 'Steph mode' since the Manhattan move, the frisbee clue, the reunion with Chloe the pizza-shop dog. Content considerations: a recent move and homesickness, a lost dog (safe return), a ladder fall in backstory."
+      "story_lead": "Cousin Steph has been in Steph mode since the Manhattan move, and the visit to Andover keeps colliding with it. A lost border collie named Flash and a frisbee clue give the kids a mystery worth sharing. Steph finally says sorry for acting weird, owning that she was so stressed.",
+      "resolution": "Playing her game is what brings the cousin back, with homesickness and worry talked out through a shared rescue.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Flash the border collie, the Andover visit, Steph in 'Steph mode' since the Manhattan move, the frisbee clue, the reunion with Chloe the pizza-shop dog. Content considerations: a recent move and homesickness, a lost dog (safe return), a ladder fall in backstory. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead + resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised."
     },
     {
       "series_title": "Puppy Place",
@@ -365,9 +365,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Ziggy the dachshund is missing, and Lizzie is carrying an old failure: she placed Buddy with the wrong family once and felt it for weeks. The walkie-talkie network rallies a town of helpers. People who say failure is not an option, someone concludes, are totally unrealistic.",
-      "resolution": "Asking for help dissolves the disappointment and guilt of the first failure, and unity wins the real quest, with the dog you failed being the dog you keep.",
-      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Ziggy the dachshund, Unity Quest, Buddy's return; Lizzie's line about placing Buddy with the wrong family, the walkie-talkie network, the Unity Quest mirror, the closing look between the parents. Content considerations: a failed adoption revisited; coping note records the kids' offer to work together"
+      "story_lead": "Ziggy the dachshund is missing, and Lizzie still feels the sting of the time she placed Buddy with the wrong family. The walkie-talkie network rallies a town of helpers. People who say failure is not an option, someone concludes, are totally unrealistic.",
+      "resolution": "Help, once asked for, dissolves the disappointment and guilt of the first failure. Unity wins the real quest, with the dog you failed being the dog you keep.",
+      "evidence_note": "Script: Gestdown, identity-checked per the dev set row note (title-card check); confidence high. Story detail from the dev set note: Ziggy the dachshund, Unity Quest, Buddy's return; Lizzie's line about placing Buddy with the wrong family, the walkie-talkie network, the Unity Quest mirror, the closing look between the parents. Content considerations: a failed adoption revisited; coping note records the kids' offer to work together Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): lead + resolution rebuilt fresh from the row's cited evidence; tier unchanged; prior copy replaced, not revised. Tail sweep fix-in-place 2026-11-18 (v2.1 + amended register): resolution opener varied to avoid within-series repetition of the \"Asking for help\" construction (S1E8); content unchanged; tier unchanged."
     }
   ]
 }
