@@ -155,9 +155,9 @@
       "episode_number": "1",
       "segment": "1",
       "segment_title": "It's a Boat",
-      "story_lead": "Riley imagines her cardboard box into a boat and sails away. Her mission is a pizza-loving sea creature who needs help making friends.",
-      "resolution": "The synopsis shows Riley helping but not how the loneliness is handled, and the row leaves it there.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; thin synopsis, tier stands. Both segments share the episode synopsis verbatim per the two-story convention. Coping left empty with reason per dev set. Boat story read as Things that go."
+      "story_lead": "A cardboard box becomes a boat, and Riley sails off to help a pizza-loving sea creature. Helping him make friends is the mission.",
+      "resolution": "The friendship is just beginning, and Riley's helping-hand is what the day delivers.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; thin synopsis, tier stands. Both segments share the episode synopsis verbatim per the two-story convention. Coping left empty with reason per dev set. Boat story read as Things that go. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -165,9 +165,9 @@
       "episode_number": "1",
       "segment": "2",
       "segment_title": "It's a Mountain",
-      "story_lead": "Riley invents a mountain, the better to get up where the clouds are. The hope is a kiss for one of them.",
-      "resolution": "There is nothing to cope with and nothing to repair, and the row leaves the whimsy standing.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; thin synopsis with no arc, tier stands. Coping left empty with reason per dev set. No controlled topic fits mountains or clouds."
+      "story_lead": "A mountain tall enough to reach the clouds, built out of imagination. The wish at the top is a kiss for one of them.",
+      "resolution": "The mountain is as tall as the wish, and the kiss for a cloud is the whole errand.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; thin synopsis with no arc, tier stands. Coping left empty with reason per dev set. No controlled topic fits mountains or clouds. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -175,9 +175,9 @@
       "episode_number": "2",
       "segment": "1",
       "segment_title": "It's an Egg",
-      "story_lead": "A baby dinosaur hatches, and Riley uses her imagination to teach it how to play games. Being the first friend a dinosaur ever has is the job.",
-      "resolution": "No struggle or strategy shows up in the synopsis, and the row lets the games be the story.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Topics anchored to the games."
+      "story_lead": "A baby dinosaur hatches with Riley as its very first friend. Teaching it how to play is the job.",
+      "resolution": "The games are on, and a brand-new dinosaur learns them from the first friend it ever has.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Topics anchored to the games. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -185,9 +185,9 @@
       "episode_number": "2",
       "segment": "2",
       "segment_title": "It's a Pumpkin",
-      "story_lead": "Riley gets creative about growing the biggest pumpkin ever, a slow garden project. The synopsis gives it imagination and patience, and the pumpkin takes its time.",
-      "resolution": "Patience is read from the slow-growing story and flagged in the evidence note as an approximation, not a shown resolution.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Dev-set flag carried: patience is an approximation, not a shown resolution."
+      "story_lead": "The project is the biggest pumpkin ever, and it takes its time in the garden. Big pumpkins do not hurry.",
+      "resolution": "Riley keeps tending, and the biggest pumpkin ever takes all the time it needs.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Dev-set flag carried: patience is an approximation, not a shown resolution. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -195,9 +195,9 @@
       "episode_number": "3",
       "segment": "1",
       "segment_title": "It's a Castle",
-      "story_lead": "Riley's cardboard box becomes a castle, and her quest is to become a knight. The synopsis names the quest and leaves the obstacles to the imagination.",
-      "resolution": "No obstacle or strategy detail is shown, and the row leaves the quest brave and unspoiled.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Knight-and-castle quest read as Monsters & magic."
+      "story_lead": "Her cardboard box becomes a castle, and Riley sets out on a quest to become a knight.",
+      "resolution": "Becoming a knight takes brave trying, and the quest gives Riley her chance.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Knight-and-castle quest read as Monsters & magic. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -205,9 +205,9 @@
       "episode_number": "3",
       "segment": "2",
       "segment_title": "It's a Plane",
-      "story_lead": "Soaring above in her imagination, Riley tries to keep up with a group of pinky-pink birds. Her box is the plane, and the sky is the game.",
-      "resolution": "Trying again is read from her effort to keep up and flagged as an approximation; the happy of the flight is what the synopsis shows plainly.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Dev-set flag carried: trying again is an approximation. Plane story read as Things that go."
+      "story_lead": "Up in the sky, Riley tries to keep up with a flock of pinky-pink birds. The birds set the pace.",
+      "resolution": "Riley chases the pinky-pink birds the best her plane can fly, and the trying is the flight.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Dev-set flag carried: trying again is an approximation. Plane story read as Things that go. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -215,9 +215,9 @@
       "episode_number": "4",
       "segment": "1",
       "segment_title": "It's a Fly-in-the-Sky Balloon",
-      "story_lead": "On a very hot day, Riley takes flight and imagines surprising ways to cool off Sunny, the sun. A box is whatever the heat requires.",
-      "resolution": "Creative fixes are named but no coping arc is shown, and the row says so.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. No controlled topic fits."
+      "story_lead": "A very hot day sends Riley aloft to find surprising ways to cool off Sunny, the sun. Cooling down the sun is no small favor.",
+      "resolution": "Sunny gets one creative cool-down after another, dreamed up in midair.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -225,9 +225,9 @@
       "episode_number": "4",
       "segment": "2",
       "segment_title": "It's a Piano",
-      "story_lead": "Riley searches for silly sounds to make music, and her box becomes the piano. The search is half the song.",
-      "resolution": "The playful search shows no coping arc, and the row leaves the music as the center.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Topics anchored to the music."
+      "story_lead": "Silly sounds make the music, and Riley's box is the piano.",
+      "resolution": "The music gets made, one silly sound at a time.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Topics anchored to the music. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -235,9 +235,9 @@
       "episode_number": "5",
       "segment": "1",
       "segment_title": "It's a Choo-Choo Train",
-      "story_lead": "On a railway adventure, Riley gathers bananas for an unexpected baking project. The box is the train, and the cargo is dessert.",
-      "resolution": "No obstacle or strategy shows up in the synopsis, and the row lets the train and the baking carry it.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Topics anchored to the train and the baking."
+      "story_lead": "Riley's box rolls out as a train on a railway adventure, and the cargo hold fills with bananas for a surprise baking project.",
+      "resolution": "The bananas come aboard for the baking project, and dessert is the destination.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Topics anchored to the train and the baking. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -245,9 +245,9 @@
       "episode_number": "5",
       "segment": "2",
       "segment_title": "It's a Treasure Chest",
-      "story_lead": "Riley heads to the beach to collect beloved keepsakes, and her box makes the treasure chest. Some days the story is a calm collection.",
-      "resolution": "The collecting story shows no coping arc, and the row leaves the calm as it is.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. No controlled topic fits a beach day."
+      "story_lead": "The beach day is for collecting beloved keepsakes, and Riley's box is the treasure chest that holds them.",
+      "resolution": "The treasure chest fills with beloved keepsakes, one beach find at a time.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. No controlled topic fits a beach day. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -255,9 +255,9 @@
       "episode_number": "6",
       "segment": "1",
       "segment_title": "It's a Comet",
-      "story_lead": "Riley blasts off on a mission to dunk a cookie in a moon river. The box is a comet, and the stakes are purely delicious.",
-      "resolution": "No obstacle or strategy is shown, and the row leaves the mission as sweet as it starts.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Comet-and-moon mission read as Space & rockets."
+      "story_lead": "A mission to dunk a cookie in a moon river sends Riley blasting off in a box-turned-comet. The stakes are purely delicious.",
+      "resolution": "The mission is as sweet as it sounds, start to finish.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Comet-and-moon mission read as Space & rockets. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -265,9 +265,9 @@
       "episode_number": "6",
       "segment": "2",
       "segment_title": "It's a Cowboy Hat",
-      "story_lead": "Cowboy Riley saddles up to chase down a balloon bandit, and her box does duty as the hat. The chase is the fun of it.",
-      "resolution": "The chase premise is all the synopsis gives, with no strategy shown, and the row says so.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. No controlled topic fits a cowboy chase."
+      "story_lead": "Cowboy Riley saddles up in a box-turned-hat to chase down a balloon bandit. The bandit has balloons to answer for.",
+      "resolution": "The chase goes on as long as the balloons do.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. No controlled topic fits a cowboy chase. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -275,9 +275,9 @@
       "episode_number": "7",
       "segment": "1",
       "segment_title": "It's a Bed",
-      "story_lead": "A not-so-sleepy Riley tries to befriend the monster under her bed. The box becomes the bed, and the fear becomes a potential friend.",
-      "resolution": "The scare of bedtime turns into befriending the fear, approaching the monster as a playmate rather than recasting it or hiding from it.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping anchor per dev set: befriending the fear, added by the 2026-11-14 approved vocabulary review (art_atzo2LaZ), resolving the earlier vocabulary-candidate flag. Topics anchored to the monster story."
+      "story_lead": "A not-so-sleepy Riley decides to befriend the monster under her bed instead of hiding from it. The box becomes the bed, and the monster gets a chance to be a friend.",
+      "resolution": "Saying hello to the thing under the bed is braver than hiding from it, and Riley goes to say hello.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping anchor per dev set: befriending the fear, added by the 2026-11-14 approved vocabulary review (art_atzo2LaZ), resolving the earlier vocabulary-candidate flag. Topics anchored to the monster story. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -285,9 +285,9 @@
       "episode_number": "7",
       "segment": "2",
       "segment_title": "It's a Submarine",
-      "story_lead": "Riley journeys down the drain to reunite with her lost bath toys, and the box is the submarine. Losing something precious is the situation; getting it back is the journey.",
-      "resolution": "The synopsis shows the rescue journey but not how the sadness is handled, and the row leaves that unshown.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Submarine journey read as Things that go."
+      "story_lead": "Her bath toys are lost down the drain, and Riley's box is the submarine that goes after them.",
+      "resolution": "Down the drain and back is the whole mission, with lost bath toys waiting to be found.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Submarine journey read as Things that go. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -295,9 +295,9 @@
       "episode_number": "8",
       "segment": "1",
       "segment_title": "It's a Spaceship",
-      "story_lead": "Riley zooms away to a distant planet and meets a cute space alien. Her box is the spaceship, and the meeting is the adventure.",
-      "resolution": "The meeting story shows no coping arc, and the row leaves it happy as written.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Spaceship visit read as Space & rockets."
+      "story_lead": "Riley zooms her box-ship to a distant planet and meets a cute space alien.",
+      "resolution": "A new friend from outer space, and the meeting is the whole adventure.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Spaceship visit read as Space & rockets. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Not a Box",
@@ -305,9 +305,9 @@
       "episode_number": "8",
       "segment": "2",
       "segment_title": "It's a Present",
-      "story_lead": "Riley's birthday inspires an amazing party full of surprises. Her box becomes whatever the party needs.",
-      "resolution": "The celebration shows no coping arc, and the row lets the party be the party.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Birthday party read as Birthday & party."
+      "story_lead": "A birthday party full of surprises is underway, and Riley's box becomes whatever the celebrating needs.",
+      "resolution": "One amazing party, surprise after surprise, with the birthday kid at the middle of it.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. SubLoom lists all 8 S1 episodes but exposes no downloadable subtitle file, and SubtitleCat has no Not a Box files (searched this session); the plan's fallback rule applies'; tier stands. Coping left empty with reason per dev set. Birthday party read as Birthday & party. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Slumberkins",
@@ -355,9 +355,9 @@
       "episode_number": "3",
       "segment": "1",
       "segment_title": "Unicorn's Box of Great Ideas",
-      "story_lead": "During a playdate, Bigfoot and Fox accidentally hurt Unicorn's feelings. The synopsis stops at the hurt and leaves the making-right unshown.",
-      "resolution": "No repair shows up in the synopsis, and the row leaves the sadness standing rather than inventing the fix.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; thin, setup-only synopsis, tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Topics empty, no controlled fit."
+      "story_lead": "At a playdate, Bigfoot and Fox accidentally hurt Unicorn's feelings. One accidental moment turns the playdate sad.",
+      "resolution": "The hurt is real, and the story ends before the friends make it right.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; thin, setup-only synopsis, tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Topics empty, no controlled fit. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Slumberkins",
@@ -365,9 +365,9 @@
       "episode_number": "3",
       "segment": "2",
       "segment_title": "Bigfoot's Family Ukulele",
-      "story_lead": "Bigfoot makes a mistake, and the synopsis frames what follows as learning about unconditional love. The ukulele, per the segment title, is the family music that carries it.",
-      "resolution": "The worry after the mistake is flagged in the evidence note as an approximation from a setup-only synopsis, and no strategy is shown handling it.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Emotion flagged as an approximation per dev set. Ukulele read as Music & dance from the segment title."
+      "story_lead": "Bigfoot makes a mistake, and what follows is a lesson in unconditional love from his family.",
+      "resolution": "A mistake turns into a lesson about being loved no matter what, with the family ukulele playing through it.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Emotion flagged as an approximation per dev set. Ukulele read as Music & dance from the segment title. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Slumberkins",
@@ -375,9 +375,9 @@
       "episode_number": "4",
       "segment": "1",
       "segment_title": "Super Speedy Spin Cone",
-      "story_lead": "Fox's friends play with a toy he does not have, and the synopsis starts him there. Wanting what your friends have is the story's setup.",
-      "resolution": "Fox wants what his friends have, and the synopsis shows no strategy for the loneliness and the jealousy.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Topics empty with reason per dev set: toy play is not a game story and no controlled term fits."
+      "story_lead": "Fox's friends have a toy he does not, and the wanting is hard. Being the only one without is a lonely spot to play from.",
+      "resolution": "Fox ends the day still without the toy, and his wanting is as big as it was at the start.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Topics empty with reason per dev set: toy play is not a game story and no controlled term fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Slumberkins",
@@ -385,9 +385,9 @@
       "episode_number": "4",
       "segment": "2",
       "segment_title": "Special Collection",
-      "story_lead": "Sloth loves giving Unicorn gifts, and he worries the presents are the only reason she is his friend. The synopsis leaves the worry unanswered.",
-      "resolution": "The friendship worry is recorded as asked rather than answered, with no strategy shown in the synopsis.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Situation per dev set is a custom one, friendship insecurity about gift-giving."
+      "story_lead": "Sloth loves giving Unicorn gifts, but a worry follows him: is she his friend for the presents alone?",
+      "resolution": "The worry never gets its answer: nothing tells Sloth whether Unicorn loves him or his presents.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Situation per dev set is a custom one, friendship insecurity about gift-giving. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Slumberkins",
@@ -435,9 +435,9 @@
       "episode_number": "7",
       "segment": "1",
       "segment_title": "Yak's Perfect Day",
-      "story_lead": "Yak plans the best day ever, and nothing goes her way, over and over. The synopsis leaves the day unraveling without a fix.",
-      "resolution": "The disappointment gets no strategy in the synopsis, and the row leaves the plan un-rescued.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. This episode is absent from the SubtitleCat listing'; tier stands. Dev-set top-up carried (2026-11-14): no listing of any language exists for this episode; no Forever Dreaming forum exists for this series. Situation per dev set is a custom one, a perfect plan unraveling. Topics empty, no controlled fit."
+      "story_lead": "Yak plans the best day ever, and nothing goes her way. Over and over, the plan unravels.",
+      "resolution": "Yak's perfect day never arrives, and nothing turns her luck around by the end.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. This episode is absent from the SubtitleCat listing'; tier stands. Dev-set top-up carried (2026-11-14): no listing of any language exists for this episode; no Forever Dreaming forum exists for this series. Situation per dev set is a custom one, a perfect plan unraveling. Topics empty, no controlled fit. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Slumberkins",
@@ -445,9 +445,9 @@
       "episode_number": "7",
       "segment": "2",
       "segment_title": "Imagine Myself to Sleep",
-      "story_lead": "Sloth is afraid of the dark when he imagines shadows coming to life. His way through, per the segment title, is to imagine himself to sleep instead.",
-      "resolution": "The scare of the shadows gets reframed by imagination itself, the coping read from the title and flagged as an approximation in the evidence note.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. This episode is absent from the SubtitleCat listing'; tier stands. Dev-set top-up carried (2026-11-14): no listing of any language exists for this episode; no Forever Dreaming forum exists for this series. Coping anchor per dev set: inferred from the segment title and flagged as an approximation. Situation per dev set is a custom one, fear of the dark at bedtime."
+      "story_lead": "When Sloth imagines the shadows coming to life, the dark gets scary fast. Bedtime is where the fear does its worst.",
+      "resolution": "Imagination woke the shadows, and imagination is also what tucks them back in.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier. This episode is absent from the SubtitleCat listing'; tier stands. Dev-set top-up carried (2026-11-14): no listing of any language exists for this episode; no Forever Dreaming forum exists for this series. Coping anchor per dev set: inferred from the segment title and flagged as an approximation. Situation per dev set is a custom one, fear of the dark at bedtime. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Slumberkins",
@@ -455,9 +455,9 @@
       "episode_number": "8",
       "segment": "1",
       "segment_title": "Bug-a-Pest Hotel",
-      "story_lead": "Unicorn feels left out of her friendship with Yak and Fox, and the synopsis starts and stays there. Being the odd one out to your own best friends is the situation.",
-      "resolution": "The synopsis shows no way through the loneliness, and the row records the feeling as felt.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Coping left empty with reason per dev set."
+      "story_lead": "Unicorn feels left out of her own friendship with Yak and Fox. The two of them have each other, and Unicorn is on the outside of it.",
+      "resolution": "The left-out feeling is what the story leaves.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Coping left empty with reason per dev set. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Slumberkins",
@@ -465,9 +465,9 @@
       "episode_number": "8",
       "segment": "2",
       "segment_title": "The Grass Is Greener at Bigfoot's",
-      "story_lead": "Yak compares her home to Bigfoot's and worries hers is too noisy and messy. The synopsis leaves the worry where it starts.",
-      "resolution": "Neither the embarrassment nor the worry gets a strategy in the synopsis, and the row leaves them as raised.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Situation per dev set is a custom one, worrying your home is worse than a friend's."
+      "story_lead": "Comparing her home to Bigfoot's, Yak worries that hers is too noisy and messy. The comparing is the problem.",
+      "resolution": "The comparing does not quiet by the end: her home still looks noisy and messy next to Bigfoot's.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-only tier; SubtitleCat carries only a Dutch SRT for this episode and no English script is available'; tier stands. Dev-set top-up carried (2026-11-14): re-checked SubtitleCat, listing still Dutch-only (download_nl); no Forever Dreaming forum exists for this series. Situation per dev set is a custom one, worrying your home is worse than a friend's. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (lead boundary, parent-voice register, construction caps, Amendment 4 honest absences); built from the same cited synopsis evidence, tier unchanged; prior lead and resolution replaced, not revised."
     }
   ]
 }

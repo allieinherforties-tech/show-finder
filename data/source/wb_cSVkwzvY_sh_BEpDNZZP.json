@@ -215,9 +215,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": null,
-      "story_lead": "The Fraggles wait for the first snow of the season, and only a single snowflake arrives. Gobo cannot write the yearly holiday song everyone is expecting, so he does something no Fraggle has done: he journeys to the human world, the Fraggles' Outer Space, to find musical inspiration. At the Gorgs' castle, Junior is overwhelmed by a new baby Gorg joining the family.",
-      "resolution": "The worry of a holiday song that will not come meets trying again, and Gobo learns that beautiful moments are not always perfect, but they can be as unique and memorable as snowflakes.",
-      "evidence_note": "Synopsis-only: no transcript source found (the catalog S0 special is absent from the Forever Dreaming index and no other script source was located); confidence medium, the synopsis is complete for the main story but the sub-story (Junior overwhelmed by a new baby Gorg) is resolution-light."
+      "story_lead": "Only one snowflake arrives for the Fraggles' first-snow celebration. To make matters worse, the yearly holiday song is still unwritten. Gobo does what no Fraggle has done before and leaves the Rock for Outer Space to find the music.",
+      "resolution": "The song comes together in its own way. While the holiday moment is not perfect, it turns out to be as unique and memorable as a snowflake.",
+      "evidence_note": "Synopsis-only: no transcript source found (the catalog S0 special is absent from the Forever Dreaming index and no other script source was located); confidence medium, the synopsis is complete for the main story but the sub-story (Junior overwhelmed by a new baby Gorg) is resolution-light. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -225,9 +225,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Gobo leads the gang on a daring adventure to the Crevice of Solitude to prove he is brave enough to accompany Uncle Matt to Outer Space. Proving something, he discovers, is not what exploring is for.",
-      "resolution": "The worry of not being brave enough gets reframed, and Gobo finds that exploring is about discovering things that help others, not about proving something.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "Gobo leads the gang to the Crevice of Solitude to prove he is brave enough to accompany Uncle Matt to Outer Space.",
+      "resolution": "Gobo sets out to prove he is brave enough and comes home with a better answer: exploring is for finding things that help others. The worry about measuring up quiets on its own.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Construction re-craft 2026-11-17 per Allie correction (mold opener); tier unchanged."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -355,9 +355,9 @@
       "episode_number": "14",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Fraggle Rock is all aglow as a festive celebration with friends kicks off. Uncle Matt explores the holiday traditions of the Silly Creatures.",
-      "resolution": null,
-      "evidence_note": "Synopsis-only: no transcript source found (absent from the Forever Dreaming index and no other script source located); synopsis names no conflict or coping, so resolution is left empty with reason; confidence low."
+      "story_lead": "Fraggle Rock glows with a festive celebration among friends. Uncle Matt spends the holiday exploring the traditions of the Silly Creatures.",
+      "resolution": "The celebration is underway among friends, and the traditions of the Silly Creatures are part of the holiday.",
+      "evidence_note": "Synopsis-only: no transcript source found (absent from the Forever Dreaming index and no other script source located); synopsis names no conflict or coping, so resolution is left empty with reason; confidence low. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged. Allie's 2026-11-18 note: 'there is nothing here. needs a resolution' — resolution crafted from the row's cited listing synopsis (celebration-only evidence; no conflict shown), tier unchanged. Builder Phase 2 fix 2026-11-18: meta-commentary removed, 'aglow' removed (repeats the lead's 'glows'), 'Uncle Matt' cut per the referent rule (row evidence names no relation to ground the name); Allie's lead untouched."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -365,9 +365,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A mysterious wind shakes the Rock's hard-won harmony, and Boober admits he is scared. Hearing a friend say they do not know either, he discovers, makes the fear smaller. Gobo, meanwhile, chooses to stay and help his friends instead of flying off.",
-      "resolution": "The fear of a harmony coming undone gets talked out, and saying you do not know either turns out to be the comfort that works.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Pa Gorg forbids Junior's friendship with the Fraggles and the episode ends with the friendship in limbo."
+      "story_lead": "A mysterious wind shakes the Rock's hard-won harmony, and Boober admits he is scared.",
+      "resolution": "Boober's fear shrinks the moment a friend says he does not know either. Saying it out loud is the comfort that works.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Pa Gorg forbids Junior's friendship with the Fraggles and the episode ends with the friendship in limbo. Construction re-craft 2026-11-17 per Allie correction (mold opener); tier unchanged."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",

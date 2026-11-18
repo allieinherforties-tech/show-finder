@@ -10,6 +10,316 @@
   "rowCount": 49,
   "rows": [
     {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": "1",
+      "segment_title": "The Pwettiest Pony",
+      "story_lead": "Pony, a warrior's pony, wants to enter the Cutesy-Wutesy pageant, a world as far from jousting as it gets. Pinecone signs up right beside him.",
+      "resolution": "The stumble in the dance-off gets answered with a joust-dance, the two of them performing as themselves. They ride off with the lavender bubble-bath trophy.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card The Pwettiest Pony matches; content confirms the Cutesy-Wutesy pageant, the dance-off, the lavender bubble-bath trophy)'; confidence high. Split-story row: tags anchored on the segment 1 story. Coping anchor per dev set: trying again, the dance-off stumble answered by joust-dancing as themselves. Topics anchored to the dance-off finale. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "1",
+      "segment": "2",
+      "segment_title": "Try This Club on for Size",
+      "story_lead": "Pinecone calls Hawthorn's rainbow-conjuring easy until she tries it herself, and her overdose of stardust ruins his rainbow. One direct 'Sorry, Hawth' is only the start.",
+      "resolution": "She works the spell all night long to make it right. The morning rainbow is the spark her sorry started.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Try This Club On For Size matches; content confirms the Wiz Kids rainbow lesson, the overdose of stardust, the ruined rainbow, the all-night spark)'; confidence high. Split-story row: tags anchored on the segment 2 story. Coping anchor per dev set: apologizing, her direct 'Sorry, Hawth' with the overnight practice as repair; trying again is shown as support for the apology. Topics anchored to the Wiz Kids class. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": "1",
+      "segment_title": "Lance or Not",
+      "story_lead": "Her mom's lance breaks under Pinecone, and she fixes it with a look-alike spell instead of coming clean. The fair is coming, and that lance is the one thing everyone will see.",
+      "resolution": "In front of the fair crowd she tells the truth about the spell. Her mom's answer gives the family line: don't feel like you need to hide the truth.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Lance or Not matches; content confirms the broken lance, the look-alike spell, the confession at the fair)'; confidence high. Coping anchor per dev set: apologizing, the confession in front of the fair; the look-alike spell is the avoiding path the story warns against. Topics left empty with reason per dev set. Guilt is named in dialogue, supporting the tag. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "2",
+      "segment": "2",
+      "segment_title": "Treat Your Creature",
+      "story_lead": "Pony's Treat Your Creature Day gets the full Pinecone treatment: a marble statue and a parade. What the day is actually for, quietly, is Pony, and he disappears from his own special day.",
+      "resolution": "She tells him sorry, straight out, and asks what she can do to make it up to him. The two of them work out the rest on his terms instead of hers.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Treat Your Creature matches; content confirms Treat Your Creature Day, the marble-statue and parade escalation, Pony's disappearance)'; confidence high. Coping anchor per dev set: talking it out, the direct apology and the make-it-up conversation. Emotion edge note per dev set: gentle, comic register of sad and disappointed. Topics anchored to the party centerpiece. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": "1",
+      "segment_title": "O Prickly, Where Art Thou?",
+      "story_lead": "Prickly gets hidden from the overnight because warriors, Pinecone figures, do not sleep with stuffed animals. Then a griffin snatches him away into the Fearsome Forest.",
+      "resolution": "To rally the rescue she tells the camp the truth: 'I, Pinecone, sleep with a stuffy. His name is Prickly. I love him tons.' Belinda and Gladys have stuffies of their own. The camp goes after the griffin together.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card O Prickly, Where Art Thou? matches; content confirms the stuffy hidden from the overnight, the griffin theft, the public confession, Belinda and Gladys' own stuffies)'; confidence high. Coping anchor per dev set: naming the feeling, the confession 'I, Pinecone, sleep with a stuffy', followed by accepted help. Topics anchored to the griffin-filled Fearsome Forest rescue. Content consideration carried: mild peril played for adventure, nothing stays scary. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "3",
+      "segment": "2",
+      "segment_title": "Big Trouble in Lil Labyrinth",
+      "story_lead": "The Gauntlet is canceled, and the Wiz Kids' labyrinth challenge leaves every Lil Rumbler showing off a hidden talent. Pinecone alone feels she has nothing to offer.",
+      "resolution": "Her friends' 'Don't give up' reaches her at the ropes, and she jumps. At the token ceremony her contribution gets named as valuable in its own right.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Big Trouble in Lil Labyrinth matches; content confirms the canceled Gauntlet, the Wiz Kids labyrinth, each Rumbler's hidden talent, double dragon)'; confidence high. Coping anchor per dev set: trying again, her friends' 'Don't give up' landing just before the jump. Topics anchored to the obstacle-course challenge and the double dragon game. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": "1",
+      "segment_title": "This Calls for Courage",
+      "story_lead": "On the first solo mission with Pony, Pinecone refuses the Help-Me Horn even after the bread-crumb trail is eaten and a trap catches them. Her dad's advice says otherwise: you can be independent without having to be alone.",
+      "resolution": "Blown at last, the horn brings Lyken's bellow. Pinecone and Lyken the troll confess to each other. The needing-help feeling turns out to be one they both survive.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card This Calls for Courage matches; content confirms the Help-Me Horn refused, the bread-crumb trail eaten, the trap with Lyken the troll, the shared confession)'; confidence high. Coping anchor per dev set: asking for help, the horn finally blown; Lyken's parallel storyline mirrors the lesson. Topics left empty with reason per dev set. Content consideration carried: comic troll peril, resolves warmly. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "4",
+      "segment": "2",
+      "segment_title": "The Straight and Arrow",
+      "story_lead": "Pinecone's archery hero turns out to be a meanie, and facing him she cheats with Greymoon's magic arrows before retaliating with magic of her own. The tournament prize is in her hands.",
+      "resolution": "She confesses it before the crowd: 'I used Greymoon's magic arrows to cheat,' and she gives up the prize. 'I'd rather be the coolest Pinecone' is how she explains refusing to become the meanie.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card The Straight and Arrow matches; content confirms the hero worship, the falcon-assisted cheating, the magic-arrow retaliation, the public confession, the King recovering the trophy)'; confidence high. Coping anchor per dev set: apologizing, the confession made before the crowd with the prize given up. Topics anchored to the archery duel and tournament content. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": "1",
+      "segment_title": "It's a Pony Thing",
+      "story_lead": "Well-meaning Pinecone pulls Pony away from his cocoon-sitting, and the fooled alarm means the hatching is missed. What she does not know yet is that he visited Whinny every single morning.",
+      "resolution": "Once she understands what Whinny meant to him, the apology is direct: 'I'm sorry, pal.' The lunar butterfly is recovered unharmed, and the friendship learns it's okay if we don't do everything together.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card It's a Pony Thing matches; content confirms the cocoon caretaking, the replacement-sitter attempts, the fooled alarm, the missed hatching)'; confidence high. Coping anchor per dev set: apologizing, the direct 'I'm sorry, pal'. Topics left empty with reason per dev set. The lunar butterfly is recovered unharmed; no content considerations. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "5",
+      "segment": "2",
+      "segment_title": "Hawthorn the Adventurer",
+      "story_lead": "Hawthorn packs for his first Wiz Kids quest with an overpacked backpack plus a sweatband from the Wandful Stuff, and Pinecone pushes him to act unlike himself. At One-eyed Rock, a cyclops has them cornered.",
+      "resolution": "The fix turns out to be the tuna sandwich that was in his bag all along, Hawthorn's own way. Pinecone tells him what she got wrong: 'I made you feel like you're not adventurous enough. You are. In your own way.'",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Hawthorn the Adventurer matches; content confirms the first Wiz Kids quest, the overpacked backpack, the cyclops at One-eyed Rock, the tuna-sandwich fix)'; confidence high. Emotion edge note per dev set: brave is the end-state of the arc, nervous/worried the state before it. Coping anchor per dev set: apologizing, her direct apology. Content consideration carried: comic cyclops capture, resolved by cleverness. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": "1",
+      "segment_title": "In Plain Sight",
+      "story_lead": "Too distracted to help Fauna care for the special plant, Pinecone lets the overwatered snake root down. When the plant care token comes around anyway, she has a call to make.",
+      "resolution": "She turns it down, in front of everyone: 'I'll earn my plant care token another time, in a fair way.' The apology she gives Fauna comes with the credit handed back.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card In Plain Sight matches; content confirms the paired plant-care lesson, the overwatered snake root, Fauna rescuing it, the declined token)'; confidence high. Coping anchor per dev set: apologizing, the direct apology plus the public forfeit of the token. Emotion edge note per dev set: the register stays light and comic throughout. Topics anchored to the class lesson frame. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "6",
+      "segment": "2",
+      "segment_title": "Belt or Bust",
+      "story_lead": "A merchant rides into town trading fancy new belts for treasured possessions, and the kids line up with their treasures. The glamour, it turns out, wears off exactly on schedule.",
+      "resolution": "When Magpie is revealed as the trickster, the kids stand up for themselves with the homemade Pinecone Belt-a-billion. The counterattack brings every single treasure home.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Belt or Bust matches; content confirms Granny Cutie's Bountiful Belt 3,000, treasures traded in, Magpie revealed, the counterattack recovering every treasure)'; confidence high. Coping anchor per dev set: standing up for yourself, the kids confronting Magpie. Emotion edge note per dev set: envious (not jealous) because the wanting is about possessing the fad item. Content consideration carried: a stranger's too-good deal is the plot; the scammer is defeated and every treasure returned. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "7",
+      "segment": "1",
+      "segment_title": "You're On!",
+      "story_lead": "Kimya's competitive streak takes over family game night, taxation square included, while the failed ghost and fake-rules plans only feed the game monster. Someone is going to have to say something.",
+      "resolution": "Pinecone says it, straight to her mom: it's only a good game if it's fun for everyone. 'Sorry for letting that game get the better of me,' Mom answers, and Dad makes an admission of his own.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card You're On! matches; content confirms Ultimate Ruler, the taxation square, the failed ghost and fake-rules plans, the confession)'; confidence high. Coping anchor per dev set: standing up for yourself, Pinecone's direct line; Mom's apology and Dad's own admission are the supporting beats. Topics anchored to the board-game night. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "7",
+      "segment": "2",
+      "segment_title": "The Pony Express",
+      "story_lead": "A wood imp whispers to both girls that the other thinks she is better, and the joint delivery quest splits into dueling routes. The imp feeds on every doubt it planted.",
+      "resolution": "The honest exchange traps the imp instead: 'Just cause I look it, doesn't mean I feel it,' each girl admits. The delivery gets made together.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card The Pony Express matches; content confirms the joint delivery quest, the dueling routes, the whispered insults, the mutual confession)'; confidence high. Coping anchor per dev set: talking it out, the honest exchange that dissolves the rivalry. Emotion edge note per dev set: embarrassed is the nearest ratified term for the self-doubt both girls confess. Topics left empty with reason per dev set. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "8",
+      "segment": "1",
+      "segment_title": "What Would Freda Do?",
+      "story_lead": "Her Freda the Fierce song is perfect, Pinecone insists, and every solo demand from her friends gets rejected. The Freda Day showcase is coming, and the rehearsals are falling apart.",
+      "resolution": "Freda's ghost asks the question that changes it, and the answer is that it takes a village. Pinecone reopens the rehearsal, the song gets co-written, and the finale makes sure everyone is heard.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card What Would Freda Do? matches; content confirms the Freda Day showcase, the solo demands rejected, the ghost of Freda revealing it takes a village, the co-written finale song)'; confidence high. Coping anchor per dev set: talking it out, the reopened rehearsal. Topics anchored to the song performance that titles the story. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "1",
+      "episode_number": "8",
+      "segment": "2",
+      "segment_title": "A Token of Toughness",
+      "story_lead": "The toughness quest sends Pinecone past the rickety bridge toward the dragon's lair while Annabelle and Hawthorn turn back before she does. Near the lair, her nerve gives out, and 'I feel like such a failure' is what comes out.",
+      "resolution": "Gladys answers with her own years-long scale hunt, still unfinished: sometimes walking away to try another day is the toughest thing of all. Pinecone keeps the patience and the dragon for another day.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card A Token Of Toughness matches; content confirms the token assignment, the dragon-scale plan, the near-lair retreat, Gladys' own years-long scale)'; confidence high. Coping anchor per dev set: patience, Gladys naming patience and perseverance as the toughness. Topics anchored to the dragon quest. Content consideration carried: rickety bridge and dragon peril played for adventure, resolved without harm. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "1",
+      "segment": "1",
+      "segment_title": "Hero Soup",
+      "story_lead": "Pinecone plans the grandest get-well gift for Gladys: an essence-of-hero quest, with Ace's staged yeti rescue and fake paintings along the way. Gladys, meanwhile, is home sick and waiting.",
+      "resolution": "What she forgot to think about is what Gladys actually needs, so Pinecone does the quiet chores instead and takes no credit for them. 'I forgot to think about what she actually needed,' she says, plainly.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Hero Soup matches; content confirms the get-well gift plan, the essence-of-hero quest, Ace's staged yeti rescue and fake paintings, the quiet chore help)'; confidence high. Coping anchor per dev set: reframing/distraction, the shift from glory to doing the chores and declining credit, nearest listed strategy tagged. Topics anchored to the Hero Soup that frames the story. Content consideration carried: Ace's deceptions are named as wrong and repaired. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "1",
+      "segment": "2",
+      "segment_title": "Sleepless at the Sleepover",
+      "story_lead": "Hawthorn's first sleepover ends in a nighttime pickup, and his 'What's wrong with me?' hurts. Nobody at home thinks the story is over.",
+      "resolution": "Dad plans a night of practice for attempt two. Pinecone covers her stuffies and removes the Whomp cutout from his path. This time the 'This isn't real' self-talk works, and the sleepover lasts until morning.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Sleepless at the Sleepover matches; content confirms the first sleepover pickup in the night, Dad's study-and-training plan, the second attempt with preparation)'; confidence high. Coping anchor per dev set: trying again, the prepared second attempt. Topics left empty with reason per dev set. Content consideration carried: mild nighttime fear played gently and resolved; 'This isn't real' self-talk is shown. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "2",
+      "segment": "1",
+      "segment_title": "The Harvest Spirit",
+      "story_lead": "The locked-doors tradition keeps Sturdystone spooky every harvest. This year Pony, Pinecone and Hawthorn go into the night after the legend's truth, past the Jilly-toads in the log, past a flooded swamp.",
+      "resolution": "The scare turns into curiosity along the way, the way Wren said: the truth might be even more exciting. The legend comes apart into the town crier's costume, the Jilly-toads and the festival float that flooded the swamp. In front of the town, the friends name what they will do differently next year.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card The Harvest Spirit matches; content confirms the locked-doors tradition, the night quest, the town crier's costume, the flooded swamp caused by the festival float)'; confidence high. Coping anchor per dev set: reframing/distraction, fear turned into curiosity. Emotion edge note per dev set: brave is the end-state of the arc; scared anchors to the night-swamp dread played for comedy. Content consideration carried: spooky atmosphere mild and comic, resolved by truth-finding. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "2",
+      "segment": "2",
+      "segment_title": "Speak from the Art",
+      "story_lead": "Annabelle skips the family crafting assignment and tears up her painting rather than fail at 'the only thing they care about.' The family has no idea why she pulled away.",
+      "resolution": "Pinecone's crafternoon invitation opens the door, with 'That must feel pretty lonely. But you're not alone' said kindly. The family plans a crafternoon together, and the warrior-performance artwork earns its token at the close.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Speak from the Art matches; content confirms Annabelle skipping the crafting assignment, the torn-up painting, the crafternoon invitation, the warrior-performance artwork and its token)'; confidence high. Coping anchor per dev set: talking it out, the 'you're not alone' exchange and the family's new crafternoon plan. Topics left empty with reason per dev set. Emotion edge note per dev set: the register stays warm and comic around the beats. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "3",
+      "segment": "1",
+      "segment_title": "One Night Only",
+      "story_lead": "The Smash Punks farewell concert is sold out, and Oatcake the kid has neither a ticket nor an idea what he wants to be. Everyone he meets is in a rush to pick for him.",
+      "resolution": "He says the fear out loud, the episode's own word for it: FOMO. After the heart check he gives the tickets away, and 'I'm not in a rush to figure it out' is what he tells everyone.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card One Night Only matches; content confirms the sold-out Smash Punks farewell concert, the body-talk spell with arguing parts, Oatcake's fear of missing out, the heart check, the tickets given away)'; confidence high. Coping anchor per dev set: naming the feeling, the out-loud naming of the fear of missing out followed by the heart check. The episode itself names FOMO. Topics left empty with reason per dev set. Content consideration carried: the body-talk spell is comic fantasy; nothing persists. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "3",
+      "segment": "2",
+      "segment_title": "Fountains of Youths",
+      "story_lead": "Ruru of the Volunteer's Guild is fixing the town fountain when Hawthorn and Pinecone find him. Everyone he knows is pushing him to pick a club already, and he has a different answer.",
+      "resolution": "'I'm not in a rush to figure it out,' he tells them, and both friends honor the refusal. The two apologies are for all that pushing, and the fountain gets fixed along the way.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Fountain Of Youths matches; content confirms the broken fountain, Ruru of the Volunteer's Guild, the push to pick a club, the two apologies, Mykah the cat groomer revealed)'; confidence high. Coping anchor per dev set: standing up for yourself, Ruru's direct refusal to be rushed, honored by both friends. Topics left empty with reason per dev set. Content consideration carried: the spooky-adjacent cat swarm is played for comedy. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "4",
+      "segment": "1",
+      "segment_title": "Good Night, Bad Knight",
+      "story_lead": "The Night Knight keeps visiting Pinecone's dreams, and the nightmare will not stop. Buried in it is a memory she has not said out loud to anyone: she broke training-yard rules and Rhino got hurt.",
+      "resolution": "Inside the dream she finally says it, and the terrifying legend turns out to be a helper. The confession gets written into a plan: help Rhino, apologize to Gladys.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Good Night, Bad Knight matches; content confirms the Night Knight legend, the recurring dream, the hidden memory of breaking training-yard rules and Rhino's injury, the Night Knight revealed as a helper)'; confidence high. Coping anchor per dev set: naming the feeling, the spoken confession inside the dream then the written plan. Topics anchored to the Night Knight and Nightmaria legend. Content consideration carried: nightmare peril mild and resolved; the injury was real in-world and is owned and repaired. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "4",
+      "segment": "2",
+      "segment_title": "A Life of Adventure",
+      "story_lead": "Pinecone trails Gladys on her day off, planning to surprise her, and the errand trail ends at the elders' home. There is a remembrance day for Juli, and Pinecone never knew this about her hero.",
+      "resolution": "Gladys says it plainly: 'It is always hard to lose someone you love. But it helps to remember them fondly.' The two share the sunset visit, and the promised Juli story is told in its own time.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card A Life of Adventure matches; content confirms the day-off story-time plan, the errand trail, the remembrance day for Juli, the shared sunset visit and the promised Juli story)'; confidence high. Coping anchor per dev set: talking it out, Gladys naming the loss plainly and offering the stories of Juli. Age-band edge call per dev set: the heaviest beat in the series so far; 5-7 kept because the grief is a grown-up's, handled gently with the child supported throughout. Topics left empty with reason per dev set. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "5",
+      "segment": "1",
+      "segment_title": "Pinecone and Horse",
+      "story_lead": "Magpie's enchantment swaps Pony for Horse, the flawless steed Pinecone thought she wanted. Something feels wrong all over town, and she cannot say what.",
+      "resolution": "The confession to Greymoon finds the words at last: something is missing. The enchantment is reversed, and the reunion makes it plain that the flawless steed was never the friend she needed.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Pinecone and Horse matches; content confirms the friendiversary framing, Magpie's enchantment swapping Pony for the flawless Horse, the wizard consultation, the reversal and reunion)'; confidence high. Coping anchor per dev set: talking it out, her 'something is missing' confession setting the recovery in motion. Emotion edge note per dev set: sad anchors to the unnameable loss she circles before naming it; happy to the reunion. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "5",
+      "segment": "2",
+      "segment_title": "Once in a Violetmoon",
+      "story_lead": "Hawthorn's bicker-be-gone spell for two best friends who stopped speaking backfires ten times strong, and the stage fight blows up in front of everyone. Every magic trick to quiet them has failed; words are what's left.",
+      "resolution": "Made to talk on stage, the two wizards get there in the end: 'you're my best friend and I didn't wanna lose you.' The blow-up transforms into a good fight in front of the packed crowd.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Once In A Violetmoon matches; content confirms the bicker-be-gone spell that backfires ten times strong, the blown-up stage fight, Hawthorn's confession, the transformed-into-a-good-fight stage reconciliation)'; confidence high. Coping anchor per dev set: talking it out; the spell suppression is shown failing so talking carries the resolution. Topics anchored to the wizard magic that frames the story. Content consideration carried: the forced-happiness spell is named wrong and backfires on purpose. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "6",
+      "segment": "1",
+      "segment_title": "Festival of Might",
+      "story_lead": "Biting her tongue is all Pinecone has for Prince Randolf's taunts at the festival, white-knuckle calm until the snowball fight bursts it all out. Then the Great Storm arrives, and the only way through is a bridge built by both kingdoms.",
+      "resolution": "The joint snow bridge gets built, and the talk follows the work: she should have tried to get to know Randolf instead of just trying not to fight with him. Then she introduces herself properly, apologizes directly, and the shared crystal comes out of it.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card The Festival Of Might matches; content confirms the delegation assignment, Randolf's taunts, the white-knuckle calm, the snowball fight, the joint snow bridge, the shared crystal)'; confidence high. Coping anchor per dev set: talking it out, the direct intro-and-apology and the getting-to-know exchange. Topics left empty with reason per dev set. Content consideration carried: the snowball fight is mutual roughhousing; the storm peril resolves. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "6",
+      "segment": "2",
+      "segment_title": "Sage Advice",
+      "story_lead": "'I wanna be great right now' is Pinecone's problem, surrounded as she is by naturals like the giant Lumi. The over-Magi-Gro'd garden is not helping.",
+      "resolution": "Lumi's sisters tell her the truth about themselves: they struggled too. The plastic practice stars come out, and practice gets named as the path to greatness by the sisters, then by her own reflection.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Sage Advice matches; content confirms the over-Magi-Gro'd garden, the giant Lumi, the plastic practice stars, the sisters revealing they struggled too)'; confidence high. Coping anchor per dev set: trying again, practice named as the path by both Lumi's sisters and Pinecone's own reflection. Topics left empty with reason per dev set. Content consideration carried: the lost shooting stars are owned and apologized for. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "7",
+      "segment": "1",
+      "segment_title": "Next in Line",
+      "story_lead": "The Help Ya Booth promises fixes in thirty minutes, then delivers the wrong sock, the wrong history facts, a giant daffodil and a rampaging avocado. Pinecone has to tell her family.",
+      "resolution": "'I just made everything worse. I'm sorry,' she says, and then she proposes the first repair step herself. The family cleanup follows, funk fix included.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Next In Line matches; content confirms the Help Ya Booth's 30-minute guarantee, the wrong sock, the wrong history facts, the giant daffodil and avocado disasters, the family cleanup)'; confidence high. Coping anchor per dev set: apologizing, the direct apology followed by the first step she proposes herself. Topics left empty with reason per dev set. Content consideration carried: the rampaging flower and avocados are comic and quickly contained. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "7",
+      "segment": "2",
+      "segment_title": "A Spell of Your Own",
+      "story_lead": "Hawthorn withdraws from the wizard-fencing tournament rather than fail in front of everybody, and the Think Like a Winner coaching backfires. The pressure, all his own, has him stuck at home.",
+      "resolution": "Grandma Magnolia says it plain: failing can be just as good as winning. Hawthorn takes the risk on the tournament floor anyway, and the applause with the silly-spell honorary mention is what the try earns.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card A Spell Of Your Own matches; content confirms the wizard fencing tournament, Hawthorn's withdrawal, Grandma Magnolia's line, the return, the permission-to-fail applause beat)'; confidence high. Coping anchor per dev set: reframing/distraction, the failure reframe carried into the coaching. Topics anchored to the tournament structure. Emotion edge note per dev set: the pressure is self-imposed, and the resolution is the risk taken in public. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
+      "series_title": "Pinecone & Pony",
+      "season_number": "2",
+      "episode_number": "8",
+      "segment": null,
+      "segment_title": "The Sturdy Stone",
+      "story_lead": "The red moon rises, the evacuation order comes, and Pinecone refuses to leave Sturdystone to the stone monster. The ancient ruins have a different story to tell her.",
+      "resolution": "She tells Gladys 'You're wrong,' point blank, and the rally changes the town's plan. The missing piece comes home from the dragon's cave. Gladys calls it being brave enough to look past your fears and care about your enemy too.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card The Sturdy Stone matches; content confirms the red moon omen, the evacuation order, the refusal to leave, the missing-piece truth, the dragon's cave and the returned stone)'; confidence high. Single-story episode per dev set. Coping anchor per dev set: standing up for yourself, the direct 'You're wrong' and the rally that changes the town's plan. Topics anchored to the Stone Monster, the legendary Sturdy Stone, and the dragon. Content consideration carried: monster peril and town-evacuation threat are real in-story and played as adventure; resolved without harm. Re-crafted fresh under v2.1 2026-11-18: story_lead and resolution regenerated from the cited script evidence note; tier and evidence unchanged."
+    },
+    {
       "series_title": "The Charlie Brown and Snoopy Show",
       "season_number": "1",
       "episode_number": "1",
@@ -75,9 +385,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": "Snoopy the Psychiatrist",
-      "story_lead": "Lucy's pebble-and-boulder rundown of Charlie Brown sinks in until he declares his insecurity out loud and takes it to the psychiatric booth. The beagle doctor is asleep.",
-      "resolution": "The sadness and the embarrassment of being talked down to send him to ask for help, and the help comically fails, a no-tidy-resolution ending the row records as it plays.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms psychiatry booth, kite-eating tree, turnabout dance, Thiebault glove arc)'; confidence high. Coping anchor per dev set: asking for help; the help comically fails and no tidy resolution is shown, recorded honestly rather than smoothed. Age-band edge call per dev set: the sustained verbal put-downs are sarcasm layers that land better at 8-10. Content consideration carried: persistent teasing and name-calling."
+      "story_lead": "Lucy gives Charlie Brown such a hard time that he begins to doubt himself. When he brings his fears to the psychiatric booth, the beagle-doctor is asleep.",
+      "resolution": "Charlie Brown is left to contend with his sadness and embarrassment on his own.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms psychiatry booth, kite-eating tree, turnabout dance, Thiebault glove arc)'; confidence high. Coping anchor per dev set: asking for help; the help comically fails and no tidy resolution is shown, recorded honestly rather than smoothed. Age-band edge call per dev set: the sustained verbal put-downs are sarcasm layers that land better at 8-10. Content consideration carried: persistent teasing and name-calling. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Queued-register fix per Builder ruling, 2026-11-17. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -85,9 +395,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": "You Can't Win, Charlie Brown",
-      "story_lead": "Rerun's nickel bet voids the team's first-ever win, and Charlie Brown is disgraced in front of the league office. Rerun is sorry the way a new kid is sorry: 'I didn't know it was wrong, I'm new in the world.'",
-      "resolution": "No listed strategy resolves the disappointment and the forfeit stands; the episode closes on Lucy's backhanded compliment that Rerun was the first with the courage to bet on the team.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms Rerun joining, the first-ever win, the league office, the forfeit, the blanket closet, the kite)'; confidence high. Coping per dev set: left empty with reason, no listed strategy is shown. Age-band edge call per dev set: the gambling-forfeit satire needs a kid who can follow the concept, tagged 8-10. Content consideration carried: mild gambling theme."
+      "story_lead": "Rerun's gambling voids the team's first-ever win, and Charlie Brown is disgraced in front of the league office.",
+      "resolution": "The forfeit stands, and nobody can make it feel better. Lucy brings levity with her observation that Rerun was the first with the courage to bet on the team. But sometimes an apology can't undo the damage of a mistake.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms Rerun joining, the first-ever win, the league office, the forfeit, the blanket closet, the kite)'; confidence high. Coping per dev set: left empty with reason, no listed strategy is shown. Age-band edge call per dev set: the gambling-forfeit satire needs a kid who can follow the concept, tagged 8-10. Content consideration carried: mild gambling theme. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Queued-register fix per Builder ruling, 2026-11-17. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -95,9 +405,9 @@
       "episode_number": "9",
       "segment": null,
       "segment_title": "The Lost Ballpark",
-      "story_lead": "The team's field closes over insurance and liability rules, no fault of theirs, and Charlie Brown copes by bouncing a golf ball against the steps. The field comes back the long way, bought by coyotes Spike arranged.",
-      "resolution": "The disappointment of losing your place to play gets no listed strategy here; the fix comes from outside him, and the row leaves that honest rather than assigning a move.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms the vacant-lot loss, liability and umpire rules, golf-ball substitute, Spike's coyote purchase, truffle hunt, Floyd's crush)'; confidence high. Coping per dev set: left empty with reason, no listed strategy is shown working. Age-band edge call per dev set: the liability and insurance satire reads 8-10. Topics anchored to the baseball story."
+      "story_lead": "The team's field is closed because of insurance and liability rules. Charlie Brown must cope while Spike works on a solution in the background.",
+      "resolution": "He never gets the field back on his own, but sometimes things work out in unforeseen ways: Spike arranged for coyotes to buy back the field!",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms the vacant-lot loss, liability and umpire rules, golf-ball substitute, Spike's coyote purchase, truffle hunt, Floyd's crush)'; confidence high. Coping per dev set: left empty with reason, no listed strategy is shown working. Age-band edge call per dev set: the liability and insurance satire reads 8-10. Topics anchored to the baseball story. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Queued-register fix per Builder ruling, 2026-11-17. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -105,9 +415,9 @@
       "episode_number": "10",
       "segment": null,
       "segment_title": "Snoopy's Football Career",
-      "story_lead": "Linus teaches Sally football, Peppermint Patty teaches Marcie, and the tryouts end in 'not good enough'. Lucy's tee pulls Charlie Brown down again and again, and every step of the game goes comically wrong.",
-      "resolution": "The frustration of getting every step wrong gets no listed strategy; the pratfalls are played for laughs, and the row says so.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms the gold-star accusation arc, blanket-hot-day gag, piano-in-the-tree, football teaching)'; confidence high. Coping per dev set: left empty with reason, the pratfalls are played for laughs and no listed strategy is shown working. Topics anchored to the football story."
+      "story_lead": "Linus teaches Sally football. Peppermint Patty coaches Marcie, but the tryouts don't end well. Every step of the game goes comically wrong.",
+      "resolution": "Every pratfall gets a laugh instead of a fix. The running gag never stops. Sometimes all you can do is laugh.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms the gold-star accusation arc, blanket-hot-day gag, piano-in-the-tree, football teaching)'; confidence high. Coping per dev set: left empty with reason, the pratfalls are played for laughs and no listed strategy is shown working. Topics anchored to the football story. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Queued-register fix per Builder ruling, 2026-11-17. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -135,9 +445,9 @@
       "episode_number": "13",
       "segment": null,
       "segment_title": "Lucy Loves Schroeder",
-      "story_lead": "Lucy courts Schroeder from saucepans to melodies to 'we're through', all against his silence. He never seems to notice her.",
-      "resolution": "She talks her feelings out loud over and over, the story's one move, and the row records honestly that nothing resolves: he never notices, and the disappointment stands.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms the Lucy-Schroeder thread, kite-eating tree, camp, bumped-in-the-night watchdog arc)'; confidence high. Coping anchor per dev set: talking it out, she says her feelings out loud over and over; the note records honestly that nothing is resolved. Age-band edge call per dev set: crush and marriage-talk satire reads older, tagged 8-10. Topics anchored to the piano-centered title story."
+      "story_lead": "Lucy cycles through her feelings for Schroeder, from saucepans to melodies to 'we're through'. He never seems to notice her.",
+      "resolution": "Lucy keeps saying her feelings out loud to the boy at the piano. He never notices, and she is frustrated as she must push her own feelings to evolve.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms the Lucy-Schroeder thread, kite-eating tree, camp, bumped-in-the-night watchdog arc)'; confidence high. Coping anchor per dev set: talking it out, she says her feelings out loud over and over; the note records honestly that nothing is resolved. Age-band edge call per dev set: crush and marriage-talk satire reads older, tagged 8-10. Topics anchored to the piano-centered title story. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Queued-register fix per Builder ruling, 2026-11-17. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -155,9 +465,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": "Snoopy's Brother Spike",
-      "story_lead": "Spike, Snoopy's older brother, arrives thin and down on his luck, and the household reshapes around him. Lucy fattens him up, and the visit plays for care.",
-      "resolution": "The visit's mix of happy and sad gets no listed strategy; the care is shown in food and company, and the row leaves it there.",
-      "evidence_note": "Script: dev set note reads 'Script tier with identity flag: Forever Dreaming transcript (page titled by FD Snoopy's Robot) content-matches catalog S2E2; FD titles and numbering are offset, match is by content'; confidence per the flag. Coping per dev set: left empty with reason, the visit plays for comedy and care without a listed strategy shown handling a feeling. Topics left empty with reason per dev set."
+      "story_lead": "Spike, Snoopy's older brother, arrives down on his luck. The household reshapes around him, and Lucy helps him recover.",
+      "resolution": "The visit mixes happy and sad. The care shows up via food and company.",
+      "evidence_note": "Script: dev set note reads 'Script tier with identity flag: Forever Dreaming transcript (page titled by FD Snoopy's Robot) content-matches catalog S2E2; FD titles and numbering are offset, match is by content'; confidence per the flag. Coping per dev set: left empty with reason, the visit plays for comedy and care without a listed strategy shown handling a feeling. Topics left empty with reason per dev set. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Queued-register fix per Builder ruling, 2026-11-17. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -165,9 +475,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": "Snoopy's Robot",
-      "story_lead": "Computer camp is full of unfamiliar machines, and every screen is a game nobody has played before. Snoopy drives the bus, and the robots, the campers learn, are on the inside.",
-      "resolution": "The happy of a day like that needs no repair, and the row leaves the outing as the comic adventure it is.",
-      "evidence_note": "Script: dev set note reads 'Script tier with identity flag: Forever Dreaming transcript (page titled by FD Peppermint Patty's School Days) content-matches catalog S2E3; FD titles and numbering are offset, match is by content'; confidence per the flag. Coping per dev set: left empty with reason, the outing is a comic adventure with no coping beat shown. Topics left empty with reason per dev set: computer camp matches no controlled topic. Content consideration carried: Linus' attachment to the blanket is teased gently."
+      "story_lead": "Computer camp is full of unfamiliar machines, and every screen is a game nobody has played before.",
+      "resolution": "Nothing here needs fixing. The computer-camp day is a comic adventure that ends on the fun.",
+      "evidence_note": "Script: dev set note reads 'Script tier with identity flag: Forever Dreaming transcript (page titled by FD Peppermint Patty's School Days) content-matches catalog S2E3; FD titles and numbering are offset, match is by content'; confidence per the flag. Coping per dev set: left empty with reason, the outing is a comic adventure with no coping beat shown. Topics left empty with reason per dev set: computer camp matches no controlled topic. Content consideration carried: Linus' attachment to the blanket is teased gently. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Queued-register fix per Builder ruling, 2026-11-17. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -175,9 +485,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": "Peppermint Patty's School Days",
-      "story_lead": "Peppermint Patty works hard at school and still lands at the bottom of the class. The synopsis tells of Snoopy's cool new trick and a piano camp reached by doghouse, but her struggle is the story this row follows.",
-      "resolution": "No listed strategy shows up in the synopsis for the frustration and the embarrassment; the row leaves the struggle standing.",
-      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-fallback tier, synopsis-only: no verified transcript exists for this episode anywhere probed this session'; confidence medium. Dev-set attempt trail carried: Forever Dreaming's five Season 2 pages were content-mapped and none carries this episode's stories; a 2026-11-14 top-up re-fetch confirmed FD's S2 offset and a live Gestdown lookup returned an empty manifest. Topics anchored to the school story."
+      "story_lead": "Peppermint Patty works hard at school and still finds herself at the bottom of the class.",
+      "resolution": "The episode ends with Peppermint Patty still at the bottom of the class, still working at it.",
+      "evidence_note": "Synopsis-only: dev set note reads 'Synopsis-fallback tier, synopsis-only: no verified transcript exists for this episode anywhere probed this session'; confidence medium. Dev-set attempt trail carried: Forever Dreaming's five Season 2 pages were content-mapped and none carries this episode's stories; a 2026-11-14 top-up re-fetch confirmed FD's S2 offset and a live Gestdown lookup returned an empty manifest. Topics anchored to the school story. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged. Allie's question 2026-11-18: does Patty have any realization? Finding: the cited synopsis chronicles her struggles and shows no realization; the resolution describes the truth without one, per the zero-guessing rule. Allie's question 2026-11-18: does Patty have any realization? Finding: the cited synopsis chronicles her struggles and shows no realization; the resolution describes the truth without one, per the zero-guessing rule."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -185,319 +495,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": "Sally's Sweet Babboo",
-      "story_lead": "Sally prepares for Valentine's Day with a card for the Sweet Babboo, who keeps insisting he is not her valentine. The thread closes on the shared line that valentines can be confusing and painful.",
-      "resolution": "No listed strategy handles the disappointment; nobody in the room got a valentine from the person they wanted, and the commiseration is where the row leaves them.",
-      "evidence_note": "Script: dev set note reads 'Script tier with identity flag: Forever Dreaming transcript (page titled by FD Sally's Sweet Babboo, the one FD title whose content matches its catalog title) content-matches catalog S2E5'; confidence per the flag. Coping per dev set: left empty with reason, the thread closes on commiseration with no listed strategy shown handling the feeling. Age-band edge call per dev set: crush and valentine content reads older, tagged 8-10 consistent with S1E13. Topics left empty with reason per dev set."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "1",
-      "segment": "1",
-      "segment_title": "The Pwettiest Pony",
-      "story_lead": "Pony, a warrior's pony, wants to enter the Cutesy-Wutesy pageant, and Pinecone handles it like a true warrior. The dance-off ends with them joust-dancing as themselves, lavender bubble-bath trophy and all.",
-      "resolution": "The embarrassment of liking something the opposite of your usual style ends in trying again, and the happiness of the dance-off is what doing it anyway looks like.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card The Pwettiest Pony matches; content confirms the Cutesy-Wutesy pageant, the dance-off, the lavender bubble-bath trophy)'; confidence high. Split-story row: tags anchored on the segment 1 story. Coping anchor per dev set: trying again, the dance-off stumble answered by joust-dancing as themselves. Topics anchored to the dance-off finale."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "1",
-      "segment": "2",
-      "segment_title": "Try This Club on for Size",
-      "story_lead": "Pinecone calls Hawthorn's rainbow-conjuring easy until she tries it herself, and the overdose of stardust ruins the rainbow. Her 'Sorry, Hawth' comes with an all-night practice offered as repair.",
-      "resolution": "The embarrassment of the flop ends in apologizing, and the frustrated mess of stardust is what her direct sorry and overnight practice set right.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Try This Club On For Size matches; content confirms the Wiz Kids rainbow lesson, the overdose of stardust, the ruined rainbow, the all-night spark)'; confidence high. Split-story row: tags anchored on the segment 2 story. Coping anchor per dev set: apologizing, her direct 'Sorry, Hawth' with the overnight practice as repair; trying again is shown as support for the apology. Topics anchored to the Wiz Kids class."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "2",
-      "segment": "1",
-      "segment_title": "Lance or Not",
-      "story_lead": "Pinecone breaks her mom's lance and fixes it with a look-alike spell instead of coming clean, and the fake holds until the fair. The confession in front of everyone comes with the family line: don't feel like you need to hide the truth.",
-      "resolution": "The guilt of the hiding ends in apologizing, and the look-alike spell is the avoiding path the story shows failing.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Lance or Not matches; content confirms the broken lance, the look-alike spell, the confession at the fair)'; confidence high. Coping anchor per dev set: apologizing, the confession in front of the fair; the look-alike spell is the avoiding path the story warns against. Topics left empty with reason per dev set. Guilt is named in dialogue, supporting the tag."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "2",
-      "segment": "2",
-      "segment_title": "Treat Your Creature",
-      "story_lead": "Pinecone's competitive streak turns Pony's Treat Your Creature Day into a marble statue and a parade, and Pony disappears from his own special day. Her big gesture missed what he actually loves.",
-      "resolution": "The disappointment lands gently, and talking it out is the repair: her direct apology and the question of what she can do to make it up to him.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Treat Your Creature matches; content confirms Treat Your Creature Day, the marble-statue and parade escalation, Pony's disappearance)'; confidence high. Coping anchor per dev set: talking it out, the direct apology and the make-it-up conversation. Emotion edge note per dev set: gentle, comic register of sad and disappointed. Topics anchored to the party centerpiece."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "3",
-      "segment": "1",
-      "segment_title": "O Prickly, Where Art Thou?",
-      "story_lead": "Pinecone hides her stuffy from the overnight because warriors, she thinks, do not sleep with stuffed animals, and then the griffin takes Prickly into the Fearsome Forest. Getting him back starts with a confession in front of the camp: 'I, Pinecone, sleep with a stuffy. His name is Prickly. I love him tons.'",
-      "resolution": "Naming the feeling out loud is the move that gets Prickly rescued, and the camp's answer is that love is the thing that makes you brave.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card O Prickly, Where Art Thou? matches; content confirms the stuffy hidden from the overnight, the griffin theft, the public confession, Belinda and Gladys' own stuffies)'; confidence high. Coping anchor per dev set: naming the feeling, the confession 'I, Pinecone, sleep with a stuffy', followed by accepted help. Topics anchored to the griffin-filled Fearsome Forest rescue. Content consideration carried: mild peril played for adventure, nothing stays scary."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "3",
-      "segment": "2",
-      "segment_title": "Big Trouble in Lil Labyrinth",
-      "story_lead": "The Gauntlet is canceled, and the Wiz Kids' labyrinth challenge leaves every Lil Rumbler shining except Pinecone, who feels she has nothing to offer. Her friends' 'Don't give up' lands just before she jumps the ropes.",
-      "resolution": "The disappointment of watching everyone else's talents gets answered by trying again, and the token ceremony names her contribution valuable.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Big Trouble in Lil Labyrinth matches; content confirms the canceled Gauntlet, the Wiz Kids labyrinth, each Rumbler's hidden talent, double dragon)'; confidence high. Coping anchor per dev set: trying again, her friends' 'Don't give up' landing just before the jump. Topics anchored to the obstacle-course challenge and the double dragon game."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "4",
-      "segment": "1",
-      "segment_title": "This Calls for Courage",
-      "story_lead": "Pinecone refuses the Help-Me Horn on her and Pony's first solo mission, even after the bread-crumb trail is eaten and a trap holds them. Her dad's line holds too: 'you can be independent without having to be alone.'",
-      "resolution": "The worry of being lost meets asking for help at last, horn blown and Lyken's bellow answered, and the embarrassment of needing it turns out to be survivable.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card This Calls for Courage matches; content confirms the Help-Me Horn refused, the bread-crumb trail eaten, the trap with Lyken the troll, the shared confession)'; confidence high. Coping anchor per dev set: asking for help, the horn finally blown; Lyken's parallel storyline mirrors the lesson. Topics left empty with reason per dev set. Content consideration carried: comic troll peril, resolves warmly."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "4",
-      "segment": "2",
-      "segment_title": "The Straight and Arrow",
-      "story_lead": "Pinecone's archery hero turns out to be a meanie, and facing him, she cheats with Greymoon's magic arrows and retaliates with magic of her own. Her public confession, 'I used Greymoon's magic arrows to cheat,' gives up the prize.",
-      "resolution": "The guilt of competing dirty ends in apologizing to the crowd, and 'I'd rather be the coolest Pinecone' is what refusing to become the meanie sounds like.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card The Straight and Arrow matches; content confirms the hero worship, the falcon-assisted cheating, the magic-arrow retaliation, the public confession, the King recovering the trophy)'; confidence high. Coping anchor per dev set: apologizing, the confession made before the crowd with the prize given up. Topics anchored to the archery duel and tournament content."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "5",
-      "segment": "1",
-      "segment_title": "It's a Pony Thing",
-      "story_lead": "Well-meaning Pinecone pulls Pony away from his cocoon-sitting, and the fooled alarm means the hatching is missed. Her 'I'm sorry, pal' comes once she learns he visited Whinny every single morning.",
-      "resolution": "The guilt of pulling him away from his own thing ends in apologizing, and 'it's okay if we don't do everything together' is what the friendship learns.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card It's a Pony Thing matches; content confirms the cocoon caretaking, the replacement-sitter attempts, the fooled alarm, the missed hatching)'; confidence high. Coping anchor per dev set: apologizing, the direct 'I'm sorry, pal'. Topics left empty with reason per dev set. The lunar butterfly is recovered unharmed; no content considerations."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "5",
-      "segment": "2",
-      "segment_title": "Hawthorn the Adventurer",
-      "story_lead": "Hawthorn packs for his first Wiz Kids quest with an overpacked backpack and a sweatband from the Wandful Stuff, and Pinecone pushes him to act unlike himself. At One-eyed Rock, the cyclops meets the fix that was in his bag all along.",
-      "resolution": "Pinecone's apology names the worry she caused ('I made you feel like you're not adventurous enough. You are. In your own way.'), and the brave that follows is Hawthorn's own style.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Hawthorn the Adventurer matches; content confirms the first Wiz Kids quest, the overpacked backpack, the cyclops at One-eyed Rock, the tuna-sandwich fix)'; confidence high. Emotion edge note per dev set: brave is the end-state of the arc, nervous/worried the state before it. Coping anchor per dev set: apologizing, her direct apology. Content consideration carried: comic cyclops capture, resolved by cleverness."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "6",
-      "segment": "1",
-      "segment_title": "In Plain Sight",
-      "story_lead": "Pinecone is too distracted to help Fauna care for the special plant, and the overwatered snake root needs Fauna's rescue. She declines the token: 'I'll earn my plant care token another time, in a fair way.'",
-      "resolution": "The embarrassment of the half-done job ends in apologizing, and giving the credit back is what her fair-way promise means.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card In Plain Sight matches; content confirms the paired plant-care lesson, the overwatered snake root, Fauna rescuing it, the declined token)'; confidence high. Coping anchor per dev set: apologizing, the direct apology plus the public forfeit of the token. Emotion edge note per dev set: the register stays light and comic throughout. Topics anchored to the class lesson frame."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "6",
-      "segment": "2",
-      "segment_title": "Belt or Bust",
-      "story_lead": "A merchant trades fancy new belts for treasured possessions, and the glamour wears off exactly on schedule. Magpie is revealed, and the homemade Pinecone Belt-a-billion leads the counterattack that recovers every treasure.",
-      "resolution": "The sadness and the envy of the cool-new-thing trade meet standing up for yourself, and the kids demanding their things back is what the scammer gets.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card Belt or Bust matches; content confirms Granny Cutie's Bountiful Belt 3,000, treasures traded in, Magpie revealed, the counterattack recovering every treasure)'; confidence high. Coping anchor per dev set: standing up for yourself, the kids confronting Magpie. Emotion edge note per dev set: envious (not jealous) because the wanting is about possessing the fad item. Content consideration carried: a stranger's too-good deal is the plot; the scammer is defeated and every treasure returned."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "7",
-      "segment": "1",
-      "segment_title": "You're On!",
-      "story_lead": "Kimya's competitive streak takes over family game night, taxation square and all, and the failed ghost and fake-rules plans only feed the game monster. Pinecone's 'it's only a good game if it's fun for everyone' finally gets said out loud.",
-      "resolution": "The frustration of a grown-up gone too far meets standing up for yourself, and Mom's apology, 'Sorry for letting that game get the better of me,' is what saying it earns.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card You're On! matches; content confirms Ultimate Ruler, the taxation square, the failed ghost and fake-rules plans, the confession)'; confidence high. Coping anchor per dev set: standing up for yourself, Pinecone's direct line; Mom's apology and Dad's own admission are the supporting beats. Topics anchored to the board-game night."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "7",
-      "segment": "2",
-      "segment_title": "The Pony Express",
-      "story_lead": "A wood imp whispers to both girls that the other thinks she is better, and the joint delivery quest splits into dueling routes. Their mutual confession, 'Just cause I look it, doesn't mean I feel it,' traps the imp instead.",
-      "resolution": "The jealousy and the self-doubt behind it dissolve in talking it out, and the honest exchange is what the rivalry could not survive.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card The Pony Express matches; content confirms the joint delivery quest, the dueling routes, the whispered insults, the mutual confession)'; confidence high. Coping anchor per dev set: talking it out, the honest exchange that dissolves the rivalry. Emotion edge note per dev set: embarrassed is the nearest ratified term for the self-doubt both girls confess. Topics left empty with reason per dev set."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "8",
-      "segment": "1",
-      "segment_title": "What Would Freda Do?",
-      "story_lead": "Pinecone insists her Freda the Fierce song is perfect the way it is, and rejects every solo demand her friends make. The ghost of Freda tells her what the song needs: it takes a village.",
-      "resolution": "The frustration of 'None of you were listening' turns into talking it out, and the co-written finale song is what a good leader, one who makes sure everyone is heard, produces.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card What Would Freda Do? matches; content confirms the Freda Day showcase, the solo demands rejected, the ghost of Freda revealing it takes a village, the co-written finale song)'; confidence high. Coping anchor per dev set: talking it out, the reopened rehearsal. Topics anchored to the song performance that titles the story."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "1",
-      "episode_number": "8",
-      "segment": "2",
-      "segment_title": "A Token of Toughness",
-      "story_lead": "The toughness quest sends Pinecone past the rickety bridge toward the dragon's lair, and Annabelle and Hawthorn turn back before she does. Gladys answers her 'I feel like such a failure' with her own years-long scale: sometimes walking away to try another day can be the toughest thing of all.",
-      "resolution": "The scare and the disappointment of pushing in past readiness settle into patience, the named-as-toughness kind that comes back another day.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript, identity check passed (segment card A Token Of Toughness matches; content confirms the token assignment, the dragon-scale plan, the near-lair retreat, Gladys' own years-long scale)'; confidence high. Coping anchor per dev set: patience, Gladys naming patience and perseverance as the toughness. Topics anchored to the dragon quest. Content consideration carried: rickety bridge and dragon peril played for adventure, resolved without harm."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "1",
-      "segment": "1",
-      "segment_title": "Hero Soup",
-      "story_lead": "Pinecone plans the grandest get-well gift for Gladys, an essence-of-hero quest with Ace's staged yeti rescue and fake paintings along the way. What she forgot to think about is what Gladys actually needs: the quiet chores done.",
-      "resolution": "The embarrassment of the misdirected glory gets reframed into helping without praise, and her 'I forgot to think about what she actually needed' is the lesson said plainly.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Hero Soup matches; content confirms the get-well gift plan, the essence-of-hero quest, Ace's staged yeti rescue and fake paintings, the quiet chore help)'; confidence high. Coping anchor per dev set: reframing/distraction, the shift from glory to doing the chores and declining credit, nearest listed strategy tagged. Topics anchored to the Hero Soup that frames the story. Content consideration carried: Ace's deceptions are named as wrong and repaired."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "1",
-      "segment": "2",
-      "segment_title": "Sleepless at the Sleepover",
-      "story_lead": "Hawthorn's first sleepover ends in a nighttime pickup, and his 'What's wrong with me?' hurts. Dad's study-and-training plan readies the second attempt, and Pinecone covers her stuffies and removes the Whomp cutout for him.",
-      "resolution": "The worry of the first try ends in trying again, and 'Hawthorn, you did it!' is what the prepared second attempt gets to morning.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Sleepless at the Sleepover matches; content confirms the first sleepover pickup in the night, Dad's study-and-training plan, the second attempt with preparation)'; confidence high. Coping anchor per dev set: trying again, the prepared second attempt. Topics left empty with reason per dev set. Content consideration carried: mild nighttime fear played gently and resolved; 'This isn't real' self-talk is shown."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "2",
-      "segment": "1",
-      "segment_title": "The Harvest Spirit",
-      "story_lead": "The locked-doors tradition keeps Sturdystone spooky every harvest, and Pony, Pinecone and Hawthorn go into the night to find the truth. The town crier's costume, the Jilly-toads in the log and the flooded swamp turn the legend out.",
-      "resolution": "The scare of the tradition gets reframed into curiosity, Wren's 'the truth might be even more exciting,' and the brave ending is the two naming what they will do differently in front of the town.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card The Harvest Spirit matches; content confirms the locked-doors tradition, the night quest, the town crier's costume, the flooded swamp caused by the festival float)'; confidence high. Coping anchor per dev set: reframing/distraction, fear turned into curiosity. Emotion edge note per dev set: brave is the end-state of the arc; scared anchors to the night-swamp dread played for comedy. Content consideration carried: spooky atmosphere mild and comic, resolved by truth-finding."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "2",
-      "segment": "2",
-      "segment_title": "Speak from the Art",
-      "story_lead": "Annabelle skips the family crafting assignment and tears up her painting rather than fail at 'the only thing they care about.' Pinecone's crafternoon invitation and 'That must feel pretty lonely. But you're not alone' open a different door.",
-      "resolution": "The sadness of the feared failure gets talked out, and the family's new crafternoon plan is what the warrior-performance artwork earns at the close.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Speak from the Art matches; content confirms Annabelle skipping the crafting assignment, the torn-up painting, the crafternoon invitation, the warrior-performance artwork and its token)'; confidence high. Coping anchor per dev set: talking it out, the 'you're not alone' exchange and the family's new crafternoon plan. Topics left empty with reason per dev set. Emotion edge note per dev set: the register stays warm and comic around the beats."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "3",
-      "segment": "1",
-      "segment_title": "One Night Only",
-      "story_lead": "Hawthorn and Pinecone meet a kid who doesn't know what he wants to be, and everyone they meet pushes him to pick. His answer, 'I'm not in a rush to figure it out,' stands, and the broken fountain gets fixed along the way.",
-      "resolution": "Naming the feeling is the move: the fear of missing out gets said out loud, and the tickets given away are what the freed-up heart decides.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card One Night Only matches; content confirms the sold-out Smash Punks farewell concert, the body-talk spell with arguing parts, Oatcake's fear of missing out, the heart check, the tickets given away)'; confidence high. Coping anchor per dev set: naming the feeling, the out-loud naming of the fear of missing out followed by the heart check. The episode itself names FOMO. Topics left empty with reason per dev set. Content consideration carried: the body-talk spell is comic fantasy; nothing persists."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "3",
-      "segment": "2",
-      "segment_title": "Fountains of Youths",
-      "story_lead": "Hawthorn and Pinecone meet a kid who doesn't know what he wants to be, and everyone they meet pushes him to pick. His answer, 'I'm not in a rush to figure it out,' stands, and the broken fountain gets fixed along the way.",
-      "resolution": "The frustration of being rushed meets standing up for yourself, and both friends honor the refusal, which is what the two apologies are for.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Fountain Of Youths matches; content confirms the broken fountain, Ruru of the Volunteer's Guild, the push to pick a club, the two apologies, Mykah the cat groomer revealed)'; confidence high. Coping anchor per dev set: standing up for yourself, Ruru's direct refusal to be rushed, honored by both friends. Topics left empty with reason per dev set. Content consideration carried: the spooky-adjacent cat swarm is played for comedy."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "4",
-      "segment": "1",
-      "segment_title": "Good Night, Bad Knight",
-      "story_lead": "The Night Knight keeps visiting Pinecone's dreams, and the nightmare will not stop until the hidden memory surfaces: she broke training-yard rules and Rhino got hurt. Saying it inside the dream turns the legend into a helper with an action plan.",
-      "resolution": "The guilt and the scare of the recurring dream end in naming the feeling, the confession spoken and then written into a plan to help Rhino and apologize to Gladys.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Good Night, Bad Knight matches; content confirms the Night Knight legend, the recurring dream, the hidden memory of breaking training-yard rules and Rhino's injury, the Night Knight revealed as a helper)'; confidence high. Coping anchor per dev set: naming the feeling, the spoken confession inside the dream then the written plan. Topics anchored to the Night Knight and Nightmaria legend. Content consideration carried: nightmare peril mild and resolved; the injury was real in-world and is owned and repaired."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "4",
-      "segment": "2",
-      "segment_title": "A Life of Adventure",
-      "story_lead": "Pinecone trails Gladys on her day off and finds a remembrance day for Juli at the elders' home. 'It is always hard to lose someone you love. But it helps to remember them fondly' is what her mentor says, and the shared sunset visit follows.",
-      "resolution": "The sadness she never knew her hero carried gets talked out gently, and the promised Juli story is what giving the day its space looks like.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card A Life of Adventure matches; content confirms the day-off story-time plan, the errand trail, the remembrance day for Juli, the shared sunset visit and the promised Juli story)'; confidence high. Coping anchor per dev set: talking it out, Gladys naming the loss plainly and offering the stories of Juli. Age-band edge call per dev set: the heaviest beat in the series so far; 5-7 kept because the grief is a grown-up's, handled gently with the child supported throughout. Topics left empty with reason per dev set."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "5",
-      "segment": "1",
-      "segment_title": "Pinecone and Horse",
-      "story_lead": "Magpie's enchantment swaps Pony for Horse, the flawless steed Pinecone thought she wanted, and the townwide wrongness will not lift. Her 'something is missing' confession to Greymoon sets the recovery in motion.",
-      "resolution": "The sadness of the too-perfect swap ends in talking it out, and 'he's not the best friend I needed' is what the reunion confirms.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Pinecone and Horse matches; content confirms the friendiversary framing, Magpie's enchantment swapping Pony for the flawless Horse, the wizard consultation, the reversal and reunion)'; confidence high. Coping anchor per dev set: talking it out, her 'something is missing' confession setting the recovery in motion. Emotion edge note per dev set: sad anchors to the unnameable loss she circles before naming it; happy to the reunion."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "5",
-      "segment": "2",
-      "segment_title": "Once in a Violetmoon",
-      "story_lead": "Hawthorn's bicker-be-gone spell for two best friends who stopped speaking backfires ten times strong, and the stage fight blows up in front of everyone. The wizards get made to talk on stage instead, and 'you're my best friend and I didn't wanna lose you' comes out.",
-      "resolution": "The worry that a friendship is broken beyond words gets talked out on stage, and 'talking about stuff is what good friends do' is what the good fight transforms into.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Once In A Violetmoon matches; content confirms the bicker-be-gone spell that backfires ten times strong, the blown-up stage fight, Hawthorn's confession, the transformed-into-a-good-fight stage reconciliation)'; confidence high. Coping anchor per dev set: talking it out; the spell suppression is shown failing so talking carries the resolution. Topics anchored to the wizard magic that frames the story. Content consideration carried: the forced-happiness spell is named wrong and backfires on purpose."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "6",
-      "segment": "1",
-      "segment_title": "Festival of Might",
-      "story_lead": "Pinecone spends Prince Randolf's festival visit biting her tongue through his taunts, white-knuckle calm until the snowball fight bursts it all out. The Great Storm then needs a joint snow bridge, and 'I should've tried to get to know you instead of just trying not to fight with you' follows.",
-      "resolution": "The anger and the frustration of the held tongue end in talking it out, her direct intro-and-apology to Randolf, and the shared crystal is what getting to know him earns.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card The Festival Of Might matches; content confirms the delegation assignment, Randolf's taunts, the white-knuckle calm, the snowball fight, the joint snow bridge, the shared crystal)'; confidence high. Coping anchor per dev set: talking it out, the direct intro-and-apology and the getting-to-know exchange. Topics left empty with reason per dev set. Content consideration carried: the snowball fight is mutual roughhousing; the storm peril resolves."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "6",
-      "segment": "2",
-      "segment_title": "Sage Advice",
-      "story_lead": "'I wanna be great right now' is Pinecone's problem, surrounded as she is by naturals like the giant Lumi. His sisters reveal they struggled too, and the plastic practice stars are what greatness actually looks like up close.",
-      "resolution": "The disappointment of not being a natural yet meets trying again, practice named as the path by Lumi's sisters and by her own reflection.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Sage Advice matches; content confirms the over-Magi-Gro'd garden, the giant Lumi, the plastic practice stars, the sisters revealing they struggled too)'; confidence high. Coping anchor per dev set: trying again, practice named as the path by both Lumi's sisters and Pinecone's own reflection. Topics left empty with reason per dev set. Content consideration carried: the lost shooting stars are owned and apologized for."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "7",
-      "segment": "1",
-      "segment_title": "Next in Line",
-      "story_lead": "The Help Ya Booth promises fixes in thirty minutes, and delivers the wrong sock, the wrong history facts, a giant daffodil and a rampaging avocado. 'I just made everything worse. I'm sorry' comes with the first repair step she proposes herself.",
-      "resolution": "The guilt of rushed help ends in apologizing, and the family cleanup, funk fix included, is what the direct sorry starts.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card Next In Line matches; content confirms the Help Ya Booth's 30-minute guarantee, the wrong sock, the wrong history facts, the giant daffodil and avocado disasters, the family cleanup)'; confidence high. Coping anchor per dev set: apologizing, the direct apology followed by the first step she proposes herself. Topics left empty with reason per dev set. Content consideration carried: the rampaging flower and avocados are comic and quickly contained."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "7",
-      "segment": "2",
-      "segment_title": "A Spell of Your Own",
-      "story_lead": "Hawthorn withdraws from the wizard-fencing tournament rather than fail in front of everybody, and the Think Like a Winner coaching backfires. Grandma Magnolia's line changes it: failing can be just as good as winning.",
-      "resolution": "The worry of failing in public gets reframed into permission, and the risk he takes on the tournament floor earns the applause and a silly-spell honorary mention.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card A Spell Of Your Own matches; content confirms the wizard fencing tournament, Hawthorn's withdrawal, Grandma Magnolia's line, the return, the permission-to-fail applause beat)'; confidence high. Coping anchor per dev set: reframing/distraction, the failure reframe carried into the coaching. Topics anchored to the tournament structure. Emotion edge note per dev set: the pressure is self-imposed, and the resolution is the risk taken in public."
-    },
-    {
-      "series_title": "Pinecone & Pony",
-      "season_number": "2",
-      "episode_number": "8",
-      "segment": null,
-      "segment_title": "The Sturdy Stone",
-      "story_lead": "The red moon rises, the evacuation order comes, and Pinecone refuses to leave Sturdystone to the stone monster. The ancient ruins tell her the truth: the monster is not destroying, it is missing its piece.",
-      "resolution": "The fear of the monster meets standing up for yourself, her direct 'You're wrong' to Gladys and the vow to help find the missing piece, and Gladys calls that being brave enough to look past your fears and care about your enemy too.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Forever Dreaming transcript, identity check passed (segment card The Sturdy Stone matches; content confirms the red moon omen, the evacuation order, the refusal to leave, the missing-piece truth, the dragon's cave and the returned stone)'; confidence high. Single-story episode per dev set. Coping anchor per dev set: standing up for yourself, the direct 'You're wrong' and the rally that changes the town's plan. Topics anchored to the Stone Monster, the legendary Sturdy Stone, and the dragon. Content consideration carried: monster peril and town-evacuation threat are real in-story and played as adventure; resolved without harm."
+      "story_lead": "Sally prepares for Valentine's Day with a card for the Sweet Babboo, who keeps insisting he is not her valentine. The story closes on the line that valentines can be confusing and painful.",
+      "resolution": "Nobody in the room gets the valentine they wanted. They end up commiserating together, still empty-handed on Valentine's Day.",
+      "evidence_note": "Script: dev set note reads 'Script tier with identity flag: Forever Dreaming transcript (page titled by FD Sally's Sweet Babboo, the one FD title whose content matches its catalog title) content-matches catalog S2E5'; confidence per the flag. Coping per dev set: left empty with reason, the thread closes on commiseration with no listed strategy shown handling the feeling. Age-band edge call per dev set: crush and valentine content reads older, tagged 8-10 consistent with S1E13. Topics left empty with reason per dev set. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Queued-register fix per Builder ruling, 2026-11-17."
     }
   ]
 }

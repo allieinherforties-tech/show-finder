@@ -625,9 +625,9 @@
       "episode_number": "13",
       "segment": null,
       "segment_title": null,
-      "story_lead": "The night before Christmas is too exciting to sleep through, with presents waiting and a poem to help Sally and Snoopy wait. Charlie Brown makes gifts for his pals, and the joy of giving something you made carries the day.",
-      "resolution": "The impatience of the waiting night meets patience, and the made-it-yourself gift is the joy that outlasts the wrapping.",
-      "evidence_note": "Synopsis-only: dev set note records no English subtitle source found for this episode (Gestdown is full otherwise), tagged from the catalog synopsis; the title story is Charlie Brown's handmade gifts and the poem is what helps Sally and Snoopy wait; no starter topic fits holiday giving, so topics left empty by the zero-guessing rule; flagged for script verification if a source appears; confidence medium."
+      "story_lead": "It is Christmas Eve, and the presents have to stay wrapped all night long! A Christmas poem helps Sally and Snoopy wait while Charlie Brown makes gifts for his pals.",
+      "resolution": "Sally and Snoopy practice patience. And the handmade gifts make Christmas morning particularly special, showing that it was worth the wait.",
+      "evidence_note": "Synopsis-only: dev set note records no English subtitle source found for this episode (Gestdown is full otherwise), tagged from the catalog synopsis; the title story is Charlie Brown's handmade gifts and the poem is what helps Sally and Snoopy wait; no starter topic fits holiday giving, so topics left empty by the zero-guessing rule; flagged for script verification if a source appears; confidence medium. Recrafted 2026-11-17 fresh under Copy & Tags Standard v2.1 (Amendments 1-4: lead boundary, no action series, recognition test, parent-voice register); built from the same cited evidence, tier unchanged; prior lead and resolution replaced, not revised. Allie's calibration rewrite adopted as canonical 2026-11-18 (Phase 1); tier unchanged."
     },
     {
       "series_title": "The Snoopy Show",
