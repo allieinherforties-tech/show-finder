@@ -235,9 +235,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Red pressures Wembley to jump from the top of a Doozer tower during a diving game, right up until he freezes in fear. A run-in with Junior Gorg changes her perspective.",
-      "resolution": "The fear Wembley shows when pressured gets heard in the end, and standing up for yourself is the lesson Red carries away: yes means yes, and every voice matters, even the quiet ones.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Red physically drops Wembley down the well in a moment played for comedy, and he is frightened."
+      "story_lead": "Wembley freezes at the top of Red's diving tower while his friends cheer him on, and his 'I don't want to' goes unheard. Red gets the lesson from the other side when Junior Gorg refuses Pa Gorg's order to drop her down the well.",
+      "resolution": "Red apologizes for not hearing him, Wembley picks the lowest part of the tower for himself, and the captains hand him the squishy crystal cloak.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Red physically drops Wembley down the well in a moment played for comedy, and he is frightened. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -245,9 +245,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Mokey follows a bizarre dream's inner map to a once-in-a-generation event. The trip lands the gang in the dangerous Echo Chamber, and the Merggle Moon Migration passes them by.",
-      "resolution": "The disappointment and the confusion of the missed event get named out loud, and Mokey learns the feelings she almost ignored were worth trusting all along.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "Mokey trusts her feelings over the map on the night hike to the Merggle cavern, and her certainty gets her stuck where her friends have to dig her out. Cotterpin predicts radishes where the Doozer facts say none grow, and the Architect owes her a Rousing Doozer Apology.",
+      "resolution": "The Migration Dance is missed, but because Mokey noticed the bubbles, the friends see a birth no Fraggle has ever seen.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -255,9 +255,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Boober's baloobius starts glowing, and he begs Wembley to keep it secret. Then the Archivist shares that he spent years hiding the very same glow.",
-      "resolution": "Embarrassed is how Boober feels about being different; talking it out is what frees him, and being your true self turns out to be the brightest way to be.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "Boober's baloobius starts glowing, and he hides it under a sock because he is sure his friends will think he is strange. When the glowing tail gets stuck to the Bizzle in the museum, Joogie shares how long he spent hiding his own glow.",
+      "resolution": "Boober shows the glow to his friends himself, and their reaction is delight rather than the strange looks he feared.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -265,9 +265,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Wembley wants to make everyone happy on his birthday, so he tries to do every activity his friends suggest all at once. The effort splits him into four Wembleys.",
-      "resolution": "The worry of disappointing someone meets standing up for yourself, and saying what he wants turns out to be the gift his friends actually want.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "Wembley goes along with whatever his friends choose, and planning his own birthday is suddenly all his to decide. His unspoken 'no' splits him into four invisible Wembleys, each staging a party none of them wants.",
+      "resolution": "The Trash Heap sends him to the Cave of Recombobulation to become one Wembley again, and his friends get the truth: he wants to spend his birthday simply being together with them.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -275,9 +275,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": null,
-      "story_lead": "On First Frost, Gobo and Wembley retrace hero Icy Joe's final trek and find her perfectly alive and perfectly selfish. The hero is not what the legend promised.",
-      "resolution": "The disappointment of a hero deflating gets talked out on the trek, and Gobo learns that admiring someone is not the same as becoming like them, while Wembley's quiet planning saves the day.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Icy Joe is trapped in ice by an avalanche, played for adventure."
+      "story_lead": "The legend Icy Joe turns up alive at First Frost, and Gobo is starstruck while Wembley notices she is unkind to the Fraggles around her. When their exploring trip shows Gobo who she really is, he has to admit Wembley was right.",
+      "resolution": "Wembley's Doozer tube catches Icy Joe when the ice breaks, and Gobo calls Wembley the only hero he believes in.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Icy Joe is trapped in ice by an avalanche, played for adventure. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -285,9 +285,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Boober dreads giving the winner's toast at New Day's Day, and the dread nearly makes him skip the holiday he loves. Jamdolin and the Troubadours are in town, and the anxiety has an audience.",
-      "resolution": "The nerves of center stage get reframed into something Boober can carry: hope means being okay not knowing, and fear can be along for the ride without driving.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics borderline per dev set: the story is set at the Troubadours' music holiday and the resolution comes in a holiday toast, so Music & dance is tagged; Doc's parallel story shows a failed presentation met with trying again."
+      "story_lead": "Boober wins the New Day's Day toast, then disappears before the flutterfly release because speeches terrify him. Wembley finds him hiding, and the cocoon box starts to burst while the party waits.",
+      "resolution": "Boober gives the toast with his fear beside him rather than gone, and the flutterflies release on his words.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics borderline per dev set: the story is set at the Troubadours' music holiday and the resolution comes in a holiday toast, so Music & dance is tagged; Doc's parallel story shows a failed presentation met with trying again. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -295,9 +295,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": null,
-      "story_lead": "The gang arrives at Craggle Lagoon for their first vacation and finds the water gone, so Inspector Red springs into action to find the culprit. The culprit, it turns out, is her own gang's water games.",
-      "resolution": "Guilty is what the culprit turns out to feel; apologizing is what she does, and Red learns to admit a mistake and share what the Fraggles took for granted.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "The Fraggles plan a week of vacation fun while the nearby Craggles run out of water, and Red's investigation into the theft turns the blame back on the Fraggles themselves. A boulder moved in an earlier adventure is what drained Craggle Lagoon.",
+      "resolution": "Red owns what happened and invites the Craggles to share Fraggle water until their lagoon fills again. The Doozers rush Cotterpin's goo into production before her tests are done.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -305,9 +305,9 @@
       "episode_number": "9",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Displaced Craggles arrive at Fraggle Rock, and Mokey insists on wild games to make them feel at home. The guests just yawn, and Mokey cannot understand why.",
-      "resolution": "The frustration of hospitality that keeps missing gets talked out, and Mokey learns to ask instead of assume, offer space, and let guests show her what comfort looks like for them.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics note carried: the games are the failed approach, not the story's center, so Sports & games was left off."
+      "story_lead": "Mokey plans games and a song to help the visiting Craggles feel at home, but they disappear instead, hiding for real. Her guidebook about Craggles, it turns out, was not written by a Craggle.",
+      "resolution": "Mokey hands Lyle the Orb of Understanding and asks to be told the truth. The answer is rest: Calming Cave has the darkness Craggles need, and their water is shared until the lagoon fills.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics note carried: the games are the failed approach, not the story's center, so Sports & games was left off. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -315,9 +315,9 @@
       "episode_number": "10",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Fast-talking Doozer Jack Hammer picks Wembley as the spokesfraggle for the new Doozer sticks, and Wembley cannot honestly say he likes them. He lies in a jingle first; stopping the show to tell the truth comes after.",
-      "resolution": "Guilty about the jingle and nervous about the fallout, Wembley stands up for himself anyway, and honesty costs less than pretending: it wins him a seat on the Wise Council.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics note carried: Doozer sticks are food, but the story centers on honesty in advertising rather than food, so Food & cooking was left off."
+      "story_lead": "Jack Hammer makes Wembley the Doozers' spokesfraggle, and Wembley praises goo sticks on stage while disliking every bite. When fans start throwing the sticks into the pond, the Merggle hiccups get worse.",
+      "resolution": "Wembley stops mid-song and tells the crowd the truth instead of the script. The Wise Council's choosing sound names him to the council, and he answers without guessing.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics note carried: Doozer sticks are food, but the story centers on honesty in advertising rather than food, so Food & cooking was left off. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -325,9 +325,9 @@
       "episode_number": "11",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Red finds the pond too full of goo to dive, so she tries zip-vining instead and hurts her baloobius. The thing that clears her head is off limits, and feeling useless is what fills the space.",
-      "resolution": "The frustration between the two friends ends in apologizing, and Mokey learns that the remedy she swears by is not the remedy everyone needs, because there are a million kinds of ways to get to the same place.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics note carried: diving is Red's calming strategy rather than the story's center, so Sports & games was left off."
+      "story_lead": "Goo from the new Doozer sticks fouls the water, and Red cannot dive, so the helper has no way to clear her head. Mokey tries to hand her meditation, and the lesson fits Mokey better than Red.",
+      "resolution": "Mokey apologizes for pushing her own way, and Red shows her that motion is how an action Fraggle finds calm. Mokey takes it in rather than insisting.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics note carried: diving is Red's calming strategy rather than the story's center, so Sports & games was left off. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -335,9 +335,9 @@
       "episode_number": "12",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Marjory falls ill, and Boober is called to the special task of venturing into the deep mountain of trash to heal her. He feels like just the soup guy while everyone else does important work.",
-      "resolution": "The sadness of feeling small gets talked out of him, and Boober's soup is what brings arguing groups together in peace: no contribution is small when it holds everyone together.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: none heavy; the Gorgs briefly cage the Fraggles, played for comedy with a rock-out escape."
+      "story_lead": "Boober, who is 'just the soup guy,' wonders what he is worth while everyone around him fixes, explores, and mediates. A fall into the Trash Heap shows him discarded things from Fraggles, Craggles, Merggles, and Doozers alike.",
+      "resolution": "The Trash Heap herself names what his soup did: everyone came together in peace, and the vines reabsorb the goo from the pond.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: none heavy; the Gorgs briefly cage the Fraggles, played for comedy with a rock-out escape. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -345,9 +345,9 @@
       "episode_number": "13",
       "segment": null,
       "segment_title": null,
-      "story_lead": "The Rock's water is gone, and Gobo's dream convinces him to invite the Gorgs into the plan instead of attacking their fountain. The gang works with an unlikely ally, and when Junior opens the dam, everything changes.",
-      "resolution": "The worry of trusting old enemies gets talked through, and the Rock learns there is water for all of us when everyone works together.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Season 1 finale; content consideration carried: none heavy; Uncle Matt returns from Outer Space."
+      "story_lead": "Gobo's dream says the way to get the water back is to work with the Gorgs rather than sneak attack their fountain, and his friends want no part of it. He goes up anyway and gets trapped, then trades Junior Gorg's lost tree friend for help.",
+      "resolution": "Junior shuts off the fountain, saying the water belongs to all of us, and Craggle Lagoon fills again with the tree friend returned.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Season 1 finale; content consideration carried: none heavy; Uncle Matt returns from Outer Space. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -375,9 +375,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Race day goes sideways when leftover gusts blow Red off course, and reluctant substitute Boober has to run the Twisty-Turny-Thon anyway. The day will not be steered.",
-      "resolution": "The nerves of an unplanned race get reframed, and the Fraggles learn that a day you cannot steer can still be a great one if you flow with it.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "Red drills the same race route for the Twisty-Turny-Thon while Wembley floats along on the leftover wind gusts. When the gusts uncover a shortcut of bouncy mushrooms, Red refuses to leave her practiced path and pays for it in a rut.",
+      "resolution": "Red admits her rut, and the friends find the calm-air spot that shows where the wind turbine belongs. Mokey, who painted the race as she went, wins it without trying.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -385,9 +385,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Mokey is so captivated by the tiny pest Lanford that she stops sleeping, and the distraction literally sinks her into trouble. New fascinations, it turns out, need balance.",
-      "resolution": "The frustration of a friend lost to a new obsession meets asking for help, and letting friends pull you out is not a failure.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "Mokey can't sleep after the big wind, and a new plant baby named Lanford gives her something else to think about instead. Her friends watch the distraction grow until Boober names what is really going on.",
+      "resolution": "Mokey says out loud that the wind scared her, right before the sink soil under her gives way. Her friends pull her out, and Lanford settles in right outside their window.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -395,9 +395,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Doc builds a robot parrot that repeats her words back to her, and she hears how harshly she talks to herself. Meanwhile Boober's nerves at the big Radish Razzle cooking show are part of the recipe.",
-      "resolution": "The harsh self-talk gets reframed into kind things said out loud, and Boober learns that nerves at a big show are part of the recipe.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics borderline per dev set: the Radish Razzle cooking event is Boober's thread while Doc's self-talk story is the lesson, so Food & cooking is tagged with that caveat."
+      "story_lead": "Repeatee birds that repeat whatever they hear turn Mokey's jokes and the Gorgs' grumbles into a strawberry-versus-radish feud among the Fraggles. Boober just wants his Radish Razzle dinner show to go well.",
+      "resolution": "Mokey reminds the crowd that a difference in taste cannot mean hate, and the passing-on of kind words cools the feud. Doc, hearing her reprogrammed robot repeat her own harsh words back, asks why it should be okay to say to herself what she would never say to anyone else.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics borderline per dev set: the Radish Razzle cooking event is Boober's thread while Doc's self-talk story is the lesson, so Food & cooking is tagged with that caveat. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -405,9 +405,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Wembley tries on an entirely new self, from outfit to name, and finds that being supported matters more than being understood. Junior, meanwhile, steps outside the ceremonial boxes his family expects on Boxing Day.",
-      "resolution": "Proud is what trying on a new self earns him, and standing up for yourself turns out to look like having people back you; Junior learns he can step outside the ceremonial boxes too.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics note carried: Boxing Day and a welcome-home party frame the story, but the center is self-expression, so Birthday & party was left off."
+      "story_lead": "Wembley breaks the Fraggle Stack record attempt by leaving his spot to greet Pogey, and the criticism that follows tells him there is only one right way to be Wembley. He tries a new look instead, and Pogey, who fits neither Go nor Bo, takes him to the Great Glitterini.",
+      "resolution": "Glitterini's word is that you are who you say you are, not how others see you, and Wembley arrives at Gobo's welcome-home party in the new look, happier than the friends have ever seen him. Pogey cheers from in-between, and Junior Gorg dances outside his own two ceremonial boxes.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics note carried: Boxing Day and a welcome-home party frame the story, but the center is self-expression, so Birthday & party was left off. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -415,9 +415,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Gobo's excitement at Mezzo's concert makes him loud and dismissive, until he loses his seat in the front row of his own behavior. The Gorgs, meanwhile, strategize over strawberries.",
-      "resolution": "The guilt of the loud, dismissive night ends in apologizing, and an apology starts making things right before the music finishes the job.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "Gobo's favorite singer Mezzo is playing one night only, and he goes hunting for her while Jamdolin stalls the restless crowd with opening acts. Small, quiet Little Rago knows exactly where she is, and Gobo brushes him off.",
+      "resolution": "Gobo finds Mezzo tiny with a tiny band, owns how he dismissed her for being small the same way he dismisses Doozers, and apologizes without asking for a show. She wears his friendship bracelet as a skirt and plays.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -425,9 +425,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A new-in-town Fraggle named Pryce introduces Mokey to a trading system, and every kindness becomes a debt to repay. The system spirals out of control.",
-      "resolution": "The confusion of kindness turned into debt gets talked out, and the Fraggles learn that love is the one thing you give freely, while Pryce learns that friendship can be a gift with nothing owed.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "A traveler named Pryce introduces the Fraggles to a strawberry economy where every contribution earns a reward, so the friends start asking what their songs and soups are worth. His rule is this for that: the more you give, the more you get.",
+      "resolution": "Gobo turns the mural into a communal table and names what the friends already have: soups, songs, diving, each other. Pryce heads home with friendship he got for free.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -435,9 +435,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Red tries to seal every last gusty out of the Great Hall, and the sealing only makes everything colder and stranger. Control, the microclimate mayhem suggests, has a price.",
-      "resolution": "The frustration of a plan that backfires settles into patience, and Red learns that a little discomfort, handled together, is fine.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "Leftover wind gusts keep knocking the Fraggles around, and Red's answer is to seal the Great Hall shut with Icy Joe's colder boulders, everyone else still out in the wind. The Doozers quietly build a berry-delivery system before the radish shortage gets out.",
+      "resolution": "Red unseals the hall and accepts a little discomfort. The Fraggles repair what the wind scattered, then cool off together in the pond.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -445,9 +445,9 @@
       "episode_number": "9",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Boober loves the Radish Ball so much he cannot bear to let it end, so it doesn't. Living the same night over and over is exactly what he wanted, at first.",
-      "resolution": "The worry of a tomorrow he keeps refusing meets reframing, and Boober learns that tomorrow is where hope lives and facing it with friends beats hiding from it.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "At the Great Radish Ball, Boober finds a tube that restarts the night, again and again, because he cannot bear to face a radish-free tomorrow. Each pass through feels better than deciding.",
+      "resolution": "Cotterpin's hydroponic seedling shows Boober a tomorrow worth reaching, and he chooses it over the tube. He tells his friends that hope is in tomorrow, and he wants to face it alongside them.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -455,9 +455,9 @@
       "episode_number": "10",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A dust storm kicks up a whirlwind of trouble for Gobo and the Fraggles, and the trouble turns out to be a cry-it-out moment they did not know they needed. Sprocket has big feelings about a feline houseguest, and Doc has the answer.",
-      "resolution": "The sadness and the scare of the storm get named instead of pushed down, and Sprocket learns it is okay to feel scared: pushing feelings down does not work, and a good cry can clear the air.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics note carried: a houseguest cat upsets Sprocket in Doc's story, but the center is the emotional release, so no starter topic applies."
+      "story_lead": "Gobo takes the Trash Heap's advice to mean digging with the feelings pushed down, and the radish quest turns into nothing but digging. Mokey and Boober sense the plan is wrong without being able to say why.",
+      "resolution": "The push-down plan gives way to the first great Fraggle group cry, and the cleared-out crew finds a hidden hall beneath the surface. Gobo hears the advice again: beneath the surface meant the feelings all along.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Topics note carried: a houseguest cat upsets Sprocket in Doc's story, but the center is the emotional release, so no starter topic applies. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -465,9 +465,9 @@
       "episode_number": "11",
       "segment": null,
       "segment_title": null,
-      "story_lead": "The Fraggles unearth a lost world below the Great Hall, and a dust storm traps them in a hidden hall of dioramas with the Lost Fraggles. Scary unknowns turn out to be tradeable, and the real origin of radishes is revealed.",
-      "resolution": "The fear of the unknown deeps is what the new friends trade away, and talking it out shows the Fraggles that the full story of where you come from makes the future easier to build.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "The hall of dioramas hides an entire community of Lost Fraggles, who farmed themselves a home where nothing goes to waste. Their composted food waste is exactly what Fraggle Rock's dead soil needs.",
+      "resolution": "Cotterpin pairs the Lost Fraggles' old composting ways with tilling, heat, and wind power. The friends head home with a real plan to grow radishes again, and the Lost Fraggles gain a new nickname, Found Fraggles.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -475,9 +475,9 @@
       "episode_number": "12",
       "segment": null,
       "segment_title": null,
-      "story_lead": "The solution to the soil problem means Mokey must bid farewell to Lanford, the tiny pest who became a cherished friend, as he outgrows his pot and moves to the garden soil. Doc, upstairs, faces the same lesson with Sprocket and camp.",
-      "resolution": "The sadness of the goodbye gets reframed, and Mokey learns that letting go can lead to really great things, just as Doc learns that letting Sprocket try camp means a happier homecoming.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high."
+      "story_lead": "The radish-saving build gets underway, and every worker, Red with her hammer, Boober with his laundry steps, insists their way is the way. Lanford outgrows his pot, and Mokey is not ready.",
+      "resolution": "Mokey plants Lanford in the garden soil, and Doc sends Sprocket off to Doggy Day Camp. Both letting-gos bring good things back, but the finished turbine goes still: there is no wind to spin it.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
@@ -485,9 +485,9 @@
       "episode_number": "13",
       "segment": null,
       "segment_title": null,
-      "story_lead": "The garden's fate rides on one windmill, and there is no wind to turn it. Red goes from hopeful to nopeful and back, rallying one more idea from a tired Rock.",
-      "resolution": "The frustration of a fix that will not fix meets trying again, and hope turns out to be a game you play every day, one fix at a time, until the garden breathes again.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: none heavy; Ma Gorg reveals a baby Gorg is coming, a new-sibling thread for Junior."
+      "story_lead": "The turbine sits windless, and Red wakes the Rock up with a single word, hope, then loses her own when the fix stalls. Her nope spreads through the Fraggle chant until she wanders into Boober's laundry cave and finds that Boober, the worrier, is the hopeful one now.",
+      "resolution": "Boober's circle-of-suds hope recharges Red, and the collected gusties do the rest, spinning the turbine after Uncle Traveling Matt takes an accidental ride through the wind pipe. Healthy soil spreads across the garden. Boober calls hope a game to play every day, and Ma Gorg knits socks sized for a baby Gorg.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: none heavy; Ma Gorg reveals a baby Gorg is coming, a new-sibling thread for Junior. Transcript-grounded rebuild 2026-11-18: fresh v2.1 lead and resolution generated from the Forever Dreaming transcript for this episode; tier unchanged; prior lead and resolution replaced, not revised."
     }
   ]
 }

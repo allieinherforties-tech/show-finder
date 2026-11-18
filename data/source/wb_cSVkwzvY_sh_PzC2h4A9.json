@@ -246,8 +246,8 @@
       "segment": null,
       "segment_title": "New Trash Heap in Town",
       "story_lead": "Through a misunderstanding, Mokey ends up as the new Trash Heap.",
-      "resolution": "The story ends before Mokey answers Gobo's truth.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked; retrieved text truncated before the final resolution)'; Gobo telling Mokey the truth is visible in the script per the dev set note; confidence medium; no controlled topic fits the story. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "resolution": "Gobo gets as far as telling Mokey the truth; her answer is not in the visible script.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked; retrieved text truncated before the final resolution)'; Gobo telling Mokey the truth is visible in the script per the dev set note; confidence medium; no controlled topic fits the story. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 construction-variance fix 2026-11-18: resolution varied to break within-series construction repetition; content unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -725,9 +725,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": "Wembley's Wonderful Whoopie Water",
-      "story_lead": "Wembley can hear water in the rock walls; when Gobo and Red do not believe him, he sets out to prove he is right.",
-      "resolution": "The special water causes rock quakes and drops Gobo into the cracks; whether the fun has to be shut down is still undecided when the story stops.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a cave-in drops Gobo toward a crack; Wembley chooses to shut the fountain down. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "A liquid sound inside a rock is Wembley's alone at first; nobody believes him until he digs in and finds fizzy strawberry water. When the water dries up, the laughing starts, and he sets out to prove his special ears with a bigger find.",
+      "resolution": "Fame comes, bringing the warning he keeps delaying: the water is keeping the Rock awake, and the digging has cracked the rock. When a cave-in drops Gobo onto a ledge, Wembley's ears lead the rescue, then he closes his own Whoopiewater fountain, because he does not like his best friend falling down a bottomless pit.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a cave-in drops Gobo toward a crack; Wembley chooses to shut the fountain down. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged. F4 construction-variance fix 2026-11-18: story_lead varied to break within-series construction repetition; content unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -735,9 +735,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": "Sidebottom Blues",
-      "story_lead": "Worried that he bores his friends, Boober sees the return of his alter ego, Sidebottom.",
-      "resolution": "Sidebottom is back, and Doc, meanwhile, is pretending to be an old sailor.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Boober's bossy fun side runs wild and Boober briefly rejects himself; Doc's subplot is pretending to be a retired sailor and choosing honesty instead. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "Worried that he bores his friends, Boober refuses Wembley's follow-the-leader invitation until Gobo cancels it first. In the dream that follows, his hidden fun side, Sidebottom, talks him into letting loose, and the new Boober leads a game straight into the Gorgs' garden.",
+      "resolution": "Once Wembley's allergies flare in the garden, Sidebottom's fun runs wild, and Boober takes the show back, working with his own fun side instead of against it. The remedies cure Wembley, plain Boober is back, and Doc, who skipped the sea-captain act, gets complimented on his honesty instead.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Boober's bossy fun side runs wild and Boober briefly rejects himself; Doc's subplot is pretending to be a retired sailor and choosing honesty instead. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged. F4 construction-variance fix 2026-11-18: resolution varied to pass the v2.1 lead boundary and within-series construction caps; content unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -745,9 +745,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": "Uncle Matt's Discovery",
-      "story_lead": "Uncle Matt comes home from Outer Space, then disgraces himself in front of Gobo and his friends.",
-      "resolution": "Then he makes an incredible discovery, and that changes everything.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. The story itself is about reaching Outer Space through the new holes, so the topic tag is the story's subject, not just series framing. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "Home from Outer Space comes Gobo's uncle Matt, who then hides under a table from a face-painting Silly Creature in front of everyone. Gobo wants him to admit the scare instead of calling it a joke, and the two part angry.",
+      "resolution": "The reconciliation leads them somewhere new: touching the arch while scared opens a second way to Outer Space, then a third. The discovery means Gobo's uncle can explore and still come home for supper. Gobo goes in with him, scared, a little, and hears the answer himself: it is all right to be scared sometimes, even all right to admit it.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. The story itself is about reaching Outer Space through the new holes, so the topic tag is the story's subject, not just series framing. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -755,9 +755,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": "Junior Faces the Music",
-      "story_lead": "On the night of the blue moon, a mysterious figure summons Junior Gorg to play the Royal Kazoo.",
-      "resolution": "Success would prove him truly royal; failure means banishment for a hundred years.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: the stakes are banishment for a hundred years; Cantus the Minstrel stages the mystical test. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "The night of the Blue Moon is Junior Gorg's one chance with the Royal Kazoo, the legend's test of whether he is truly great. A shadowy figure on Ma's clothesline sheet tells him to play it before five Fraggle witnesses, and he swears the solemn oath of the Gorgs.",
+      "resolution": "Pa's fear of failure and his hidden kazoo nearly make a liar of him. Junior steals it back and confesses in public. He tries anyway, and the shadow, who is Cantus all along, rules that greatness is honoring your oath.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: the stakes are banishment for a hundred years; Cantus the Minstrel stages the mystical test. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -765,9 +765,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": "A Tune for Two",
-      "story_lead": "Wembley loves the annual Duetathon, the contest where Fraggles sing duets, and the whole Rock is dumbfounded to learn who he picks as his singing partner.",
-      "resolution": "His pick of partner is the part the whole Rock never saw coming.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. The Rock's surprise at Wembley's choice is the tension; no coping value from the list fits the resolution. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "The Duetathon is Wembley's favorite day of the year, and the rest of the Rock is dumbfounded when he picks Cotterpin, a Doozer, as his singing partner. The two cannot find a song they share until they settle on the one subject they do share: friendship.",
+      "resolution": "The Rock's surprise even takes his partner away for a while, until Wembley talks the Duetathon into letting a Doozer sing. The song the two finally share is friendship stuff, and the Rock hears the best of it.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. The Rock's surprise at Wembley's choice is the tension; no coping value from the list fits the resolution. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -775,9 +775,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": "The Perfect Blue Rollie",
-      "story_lead": "A rare and legendary gift, the perfect blue rollie, convinces Boober his life is complete.",
-      "resolution": "He soon finds out that gifts are meant to be shared.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a cave-in nearly kills Boober before the rescue; the emptiness is longing for something missing, tagged lonely as the nearest approved term, and no coping value names sharing. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "A heat wave lowers Roaring Ravine to a trickle, leaving Boober staring at a perfect blue rollie, the legendary pebble you could search a lifetime and never find. He starts keeping it from the world, and keeping it gets worse fast.",
+      "resolution": "Hiding his treasure where the water will come back nearly ends under a cave-in, and the friends who pull him out are the friends he kept the rollie from. He hands it over to all of them: he wants everyone to have it, and he is done with stuff.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a cave-in nearly kills Boober before the rescue; the emptiness is longing for something missing, tagged lonely as the nearest approved term, and no coping value names sharing. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -785,9 +785,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": "A Brush with Jealousy",
-      "story_lead": "When a new artist shows up in Fraggle Rock, Mokey is determined to prove she is better.",
-      "resolution": "Her proof is a magic paintbrush, one that brings danger to anyone who uses it.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: the brush causes magical mishaps before Marjory takes it back. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "Overhearing that her paintings all look the same, Mokey borrows the Trash Heap's magic paintbrush, whose magic makes her art magnificent and her world chaotic. Marjory's price for taking the brush back is a lesson Mokey gets to feel firsthand.",
+      "resolution": "Returning the brush is the ending Mokey gives herself, and she hands it back with a gift on top, saying she feels free of it. The paintings she makes after are the kind she loves painting, which is what the jealousy had cost her.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: the brush causes magical mishaps before Marjory takes it back. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -795,9 +795,9 @@
       "episode_number": "9",
       "segment": null,
       "segment_title": "Wembley's Flight",
-      "story_lead": "Unhappy because he never gets to show off in front of his friends, Wembley meets a magical creature who gives him the power to fly.",
-      "resolution": "His friends refuse to believe him and restrain him from flying; other Fraggles believe but want to exploit the gift; Wembley ends up learning to fly for the right reasons.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Wembley is physically restrained by his friends and later exploited by other Fraggles; envious is the approved term for Wembley's wish to have a gift like the others. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "A magical Spiderfly who owes Wembley a wish grants him the one thing the Rock cannot believe: Wembley, flying. His friends refuse to believe it and hold him down, while other Fraggles plot to use the gift.",
+      "resolution": "Away from the crowd, Wembley works out what the wish was really for, and comes home to say it plainly: he does not want to show off anymore, he wants to fly for the fun of flying. The flying itself, he keeps.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Wembley is physically restrained by his friends and later exploited by other Fraggles; envious is the approved term for Wembley's wish to have a gift like the others. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -815,9 +815,9 @@
       "episode_number": "11",
       "segment": null,
       "segment_title": "Wonder Mountain",
-      "story_lead": "Mokey plans a trip to Wonder Mountain alone, and Red secretly follows to protect her, sure she is too dreamy to take care of herself.",
-      "resolution": "The trouble Red came to prevent finds her instead, and it is Red who ends up needing the protection.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: avalanche chase and a line about nearly being killed, played for adventure; a skunk sprays in the Doc subplot. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "A solo trip to Wonder Mountain, chasing the Aurora Fragglealis that lights up once every thousand days, is Mokey's plan, and Red secretly follows because she is sure Mokey cannot take care of herself. What Red finds instead is a slope, a snow slide, and a monster the guidebook knows by ear.",
+      "resolution": "Red's secret following is exactly what puts them both in the Avalanche Monster's path, and her confession comes before the view does: she was so busy protecting Mokey that she caused the trouble. The aurora, when it comes, is better shared with your best friend.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: avalanche chase and a line about nearly being killed, played for adventure; a skunk sprays in the Doc subplot. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -825,9 +825,9 @@
       "episode_number": "12",
       "segment": null,
       "segment_title": "Space Frog Follies",
-      "story_lead": "A frog from Outer Space arrives as Gobo's birthday present from Uncle Matt, and it gets loose while Wembley is supposed to be hiding it.",
-      "resolution": "With the frog loose in the Rock, things get really crazy.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. The birthday party planning is the story's frame and the frog's release is its heart; content consideration: none beyond a scrunched-up frog in a cage. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "A space frog arranged by his uncle Matt is Gobo's birthday surprise, and minding it is Wembley's job until it gets loose. Catching it back is the easy part; deciding what a creature from another world owes its own world is not.",
+      "resolution": "Wembley frees the frog with everyone watching, on the logic that creatures belong where they came from, the same way Fraggles belong in the Rock. Gobo, whose surprise is ruined, sides with his best buddy anyway, and the birthday ends with a family of flies to cherish always.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. The birthday party planning is the story's frame and the frog's release is its heart; content consideration: none beyond a scrunched-up frog in a cage. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -835,9 +835,9 @@
       "episode_number": "13",
       "segment": null,
       "segment_title": "Boober Gorg",
-      "story_lead": "An exploding radish to the head leaves Boober with amnesia and convinced he is a Gorg.",
-      "resolution": "Ma and Pa Gorg believe him, on the theory that a sorcerer turned their missing Junior into a Fraggle.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: amnesia from a head injury, played entirely for comedy, and the Gorgs' fear of an evil sorcerer; the rescue is friends plus a knock on the head, so no coping value fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "An exploding radish to the head leaves Boober believing he is a Gorg, and the Gorgs, who are expecting an evil sorcerer on wash day, decide the sorcerer turned their missing Junior into a Fraggle. The real Junior is asleep on the parapet.",
+      "resolution": "As a Gorg, Boober refuses to send the trapped Fraggles to their doom, and the refusal of his own kindness snaps him back: once a Fraggle, always a Fraggle, just as he likes it. Junior wakes up where he fell asleep, sorcerer and transformation both imaginary.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: amnesia from a head injury, played entirely for comedy, and the Gorgs' fear of an evil sorcerer; the rescue is friends plus a knock on the head, so no coping value fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -845,9 +845,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": "Mirror, Mirror",
-      "story_lead": "Red's 28th birthday arrives with the Festival of the Bells, and she finds a magic mirror named Mavis that leads her to a very special birthday party.",
-      "resolution": "Mavis the mirror takes her to a birthday party unlike any other.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. No coping value names generosity, so coping is left empty per the dev set note. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "Twenty-eight birthday parties since the Festival of the Bells, all thrown by Red for Red, have her friends ready to hand off the cake duty. A magic mirror named Mavis promises her one birthday she will never forget, and the promise sends her looking in the wrong place for it.",
+      "resolution": "The never-forget party turns out to be the surprise her friends throw her, and the gift she gives is the mirror: Mavis needs a friend more than Red needs magic.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. No coping value names generosity, so coping is left empty per the dev set note. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -855,9 +855,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": "The Riddle of Rhyming Rock",
-      "story_lead": "Out to solve the riddle of Rhyming Rock, Gobo learns from the Storyteller about a book of magic spells his Uncle Matt discovered.",
-      "resolution": "He hears only part of the story, and when he uses the spell everything goes wrong, leaving Gobo to find a way to right the damage he has done.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. The magic spell goes wrong before the musical fix; Doc's subplot is ignoring instruction booklets. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "Trained on riddles and armed with his uncle's book of magic spells, Gobo sets out to crack Rhyming Rock the shortcut way. The spell turns everything wrong, and the rock itself has been saying nothing riddlish at all: bing bong, sing song, ding dong.",
+      "resolution": "What the rock wants is not a riddle answer but a song in time with its bells, and the moment Gobo sings along, the mystery turns into the merriest music Rhyming Rock ever made. Doc learns the same lesson above ground with a pie-maker and an ignored instruction booklet.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. The magic spell goes wrong before the musical fix; Doc's subplot is ignoring instruction booklets. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged. F4 construction-variance fix 2026-11-18: story_lead varied to pass the v2.1 lead boundary and within-series construction caps; content unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -865,9 +865,9 @@
       "episode_number": "3",
       "segment": null,
       "segment_title": "The Voice Inside",
-      "story_lead": "Gobo does not believe he has an 'inner voice,' so he ignores the warning that he, Sprocket, and Wrench Doozer might be in danger.",
-      "resolution": "The warning goes unheeded, with the three of them unaware of what might come.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a dust storm strands Gobo, Wrench Doozer and Sprocket; no controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "An inside feeling tells Wembley to stay home from Gobo's trip to Grey Rock Ridge, and Gobo goes with Wrench Doozer instead. A dust storm strands Gobo, Wrench Doozer, and Sprocket, who ran away from home that same day.",
+      "resolution": "The three of them ride the storm out together. Gobo says it plainly afterward: the voice inside is not always easy to hear, and Wembley's stomach knew what the plan did not.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a dust storm strands Gobo, Wrench Doozer and Sprocket; no controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -875,9 +875,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": "The Trial of Cotterpin Doozer",
-      "story_lead": "Cotterpin Doozer stands accused of consorting with Fraggles, and her proof has to show that Fraggles are noble, intelligent beings worthy of the Doozers' respect.",
-      "resolution": "The task in front of Cotterpin: prove that Fraggles deserve the Doozers' respect.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: trial and expulsion stakes and a baby Cackler grabbing Cotterpin; Large Marvin gives up all his food to save her. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "Accused of consorting with Fraggles, Cotterpin Doozer faces a trial that could strip her Architect Apprenticeship. The baby Poison Cackler loose in the caves does not care about either side of the case.",
+      "resolution": "The rescue is Large Marvin giving away every bit of his food, and it buys the court its answer: Fraggles are noble, intelligent, worthy to be Doozer friends. Cotterpin is found innocent, and builds again.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: trial and expulsion stakes and a baby Cackler grabbing Cotterpin; Large Marvin gives up all his food to save her. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -885,9 +885,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": "The River of Life",
-      "story_lead": "The Silly Creatures have contaminated Fraggle Rock's water supply, and only Boober can save the day.",
-      "resolution": "The contamination is the Silly Creatures' doing; the rescue is Boober's to attempt.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: industrial waste contamination of drinking water, resolved by a fresh-water flush; no controlled topic fits the environmental story. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "A bitter edge in the water that nobody else can smell is Boober's warning, and days later his entire Rock is too weak to move. The Silly Creatures above are burying their industrial waste in the caves, for money.",
+      "resolution": "Boober, of all Fraggles, is the one who saves them, crawling to the hole in Outer Space and begging the Silly Creatures to stop. Doc, mid-conscience over a hundred-thousand-dollar check, hears the tiny voice that makes his caves not empty, and orders the entire system flushed with fresh spring water.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: industrial waste contamination of drinking water, resolved by a fresh-water flush; no controlled topic fits the environmental story. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged. F4 construction-variance fix 2026-11-18: resolution varied to break within-series construction repetition; content unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -895,9 +895,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": "Beyond the Pond",
-      "story_lead": "Red and Gobo's swimming competition is interrupted by the annual arrival of the Knobblies, pink vine-like plants that are particularly thick this year.",
-      "resolution": "This year's Knobblies turn out to lead to something quite unexpected.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: the Fraggles are pulled underwater and panic before the Merggles appear; the swim competition is the story's entry frame, so the topic tag is defensible but partial. No coping value fits the resolution. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "The knobblies have clogged the entire swimming pool, thick as any year the Fraggles remember, and pulling them up is Red's answer until swimmers get pulled underwater. The Merggles who find them are not monsters; they are what the knobblies were for.",
+      "resolution": "The knobblies turn out to be roots, the pool's connection to Merggle Lake, and the Fraggles' war on them was undoing the connection to the Merggles who live there. Gobo's idea to stop killing them saves the tree above ground too, where a mayoral candidate had other plans for it.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: the Fraggles are pulled underwater and panic before the Merggles appear; the swim competition is the story's entry frame, so the topic tag is defensible but partial. No coping value fits the resolution. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -905,9 +905,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": "Gone, but Not Forgotten",
-      "story_lead": "On his first solo overnight hike, Wembley meets Mudwell the Mudbunny, whose behavior first entertains him and then confuses him.",
-      "resolution": "What Mudwell's behavior means is still a mystery to Wembley at the end.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a friend character dies; this is a gentle, honest grief story and the strongest loss episode in the batch; Wembley works it through by talking with Gobo. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "A first solo overnight hike comes with a new friend for Wembley, Mudwell the Mudbunny, who sings his favorite song and then, without warning, is gone. What Wembley does with a goodbye like that is the harder half of the trip.",
+      "resolution": "Grief gets its say: Wembley goes back, says his goodbye out loud at the spot, and meets a newborn Mudbunny in Mudwell's cave. He comes home able to say what happened, and to keep part of Mudwell alive in memory, one song at a time.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a friend character dies; this is a gentle, honest grief story and the strongest loss episode in the batch; Wembley works it through by talking with Gobo. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -915,9 +915,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": "Mokey, Then and Now",
-      "story_lead": "Mokey, Wembley and Boober get transported back in time, to an era of bald Fraggles with leaders who never laugh.",
-      "resolution": "How they get home is the part the story does not say.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a stern leader society that punishes laughing; the resolution is comic and legendary rather than a named coping strategy, so coping is left empty. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "Rehearsing her new play, A Legend Called Blundig, in the very cave where the legend began, Mokey sends herself, Wembley and Boober back to Blundig's own time: bald Fraggles, a leader who never laughs, laughter punishable by banishment.",
+      "resolution": "Getting home takes the boomadoom, the legendary ritual her research dug up, and it works. Mokey comes back to a full audience waiting for the play, which now has a true story behind it.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a stern leader society that punishes laughing; the resolution is comic and legendary rather than a named coping strategy, so coping is left empty. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -925,9 +925,9 @@
       "episode_number": "9",
       "segment": null,
       "segment_title": "Ring Around the Rock",
-      "story_lead": "For their 513th anniversary, Ma and Pa Gorg must get married again, but the ring is missing.",
-      "resolution": "Where the ring has gone is the question the anniversary turns on.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a wedding farce with Gobo briefly offered as the bridal gift; no controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "The 513th wedding anniversary sneaks up on the Gorgs, and the renewal of vows is back on: a proper wedding with all the trimmings, Ma's ring in Pa's keeping until the appointed hour. Junior is put to work helping, which is how the ring gets lost.",
+      "resolution": "The missing ring is the wedding's only crisis, and Junior produces it at the appointed hour. The Gorgs are emperor and empress of the universe again, married with all the trimmings.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: a wedding farce with Gobo briefly offered as the bridal gift; no controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -935,9 +935,9 @@
       "episode_number": "10",
       "segment": null,
       "segment_title": "Inspector Red",
-      "story_lead": "The Fraggle Horn is missing, and Red turns detective, accusing many along the way.",
-      "resolution": "The Fraggle Horn's whereabouts are still unknown at the end.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. The lesson is not jumping to conclusions and noticing small unkindnesses; no controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "The Fraggle Horn is missing, and Red turns detective, accusing nearly everyone in the Rock before the trail points to Henchy, assistant to the World's Oldest Fraggle. His motive is not mystery but misery: meetings mean getting bopped on the nose.",
+      "resolution": "The confession ends the case and changes Red: she promises Henchy no more nose-bopping, then throws the wingding party the horn was for. Above ground, the same lesson reaches Doc by way of an empty ice-cream carton that turns out to be yesterday's.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. The lesson is not jumping to conclusions and noticing small unkindnesses; no controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -945,9 +945,9 @@
       "episode_number": "11",
       "segment": null,
       "segment_title": "The Gorg Who Would Be King",
-      "story_lead": "The leaves of the Nirvana tree have fallen, which means it is time for Junior Gorg to become king.",
-      "resolution": "First, though, he gets a chance to see the Universe from a different perspective.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Pa Gorg hurls a comic bomb object in the Gorg scrimmage; the resolution is Junior's own decision, not a coping strategy from the list. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "The last leaf falls off the nirvana tree, Pa collapses into bed, and Junior Gorg is king of the universe before he is ready. Pa's comic scrimmage bomb does nothing to slow the coronation.",
+      "resolution": "Junior's coronation speech is his own decision in front of everyone: the universe works really well without anybody bossing it around, so his first act as king is also his last. There shall be no more king, now and forever.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Pa Gorg hurls a comic bomb object in the Gorg scrimmage; the resolution is Junior's own decision, not a coping strategy from the list. No controlled topic fits. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -955,9 +955,9 @@
       "episode_number": "12",
       "segment": null,
       "segment_title": "The Honk of Honks",
-      "story_lead": "Cantus and the Minstrels are back to perform the Song of Songs; first, Gobo must find the Honk of Honks.",
-      "resolution": "Along the way, Gobo meets Doc face to face for the first time.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Doc's subplot mentions Ned's asthma tests; Gobo and Doc meet face to face for the first time. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "Invisible though he stands right there, Gobo has a bigger problem than being unseen: Cantus is coming with the Song of Songs, and the occasion needs the Honk of Honks.",
+      "resolution": "The search brings him somewhere no expedition planned: face to face with the Silly Creature, the first meeting either side can remember. By the time the Song of Songs begins, Gobo has found what he was looking for, and the honk is his.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Content consideration carried: Doc's subplot mentions Ned's asthma tests; Gobo and Doc meet face to face for the first time. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     },
     {
       "series_title": "Fraggle Rock",
@@ -965,9 +965,9 @@
       "episode_number": "13",
       "segment": null,
       "segment_title": "Change of Address",
-      "story_lead": "Doc finally knows about the Fraggles; a move is now in store for him and Sprocket.",
-      "resolution": "The Trash Heap's message, 'You cannot leave the magic,' needs delivering, and whether Gobo can relay it in time is still open at the end.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Series finale; content consideration carried: a gentle goodbye and move driven by a friend's illness; the message reframes leaving, which is the shown way of handling the feeling. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised."
+      "story_lead": "A move to the desert with Ned, whose health needs dry air, is taking Doc away, and the workshop fills with boxes with only one Fraggle meeting behind them. A letter through the hole in Outer Space changes that: the Silly Creature knows about the Fraggles now, and wants to know them better.",
+      "resolution": "The goodbye is gentle on both sides of the wall, and the Trash Heap's message arrives through Gobo: you cannot leave the magic. Doc, packing the last box, has reached the same wisdom from the other side, wondering aloud whether there could be a Fraggle hole behind a cardboard box.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Forever Dreaming transcript, identity-checked)'; confidence high. Series finale; content consideration carried: a gentle goodbye and move driven by a friend's illness; the message reframes leaving, which is the shown way of handling the feeling. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); built from the row's cited evidence, tier unchanged; prior lead and resolution replaced, not revised. F4 re-craft pass 2026-11-18: prior rebuild copy failed batch construction caps and closer-mold checks; rebuilt fresh from Forever Dreaming S4-S5 transcripts (fetched and title-identity-checked this session); evidence tier unchanged."
     }
   ]
 }

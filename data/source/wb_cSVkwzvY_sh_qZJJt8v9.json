@@ -135,9 +135,9 @@
       "episode_number": "11",
       "segment": null,
       "segment_title": "Together",
-      "story_lead": "The Gabba friends learn the twirly-whirly step by step, then try it together with the music.",
-      "resolution": "Everybody sings what their eyes and nose can do; the twirly whirly gets danced together with the music.",
-      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x13 Together, title-matched; content verified: the eyes-nose-mouth face song, the love-every-living-thing song, the baby-steps-big-steps game joined one friend at a time, the horse pretend, Nikki Flores's twirly whirly, Mark's monkey drawing, Muno biting Foofa and the don't-bite-your-friends song with his apology'; confidence high. Content consideration carried: biting. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); mapped to Forever Dreaming transcript 01x13 (topic #112756) by episode title, content identity verified on read; prior lead and resolution replaced, not revised; tier unchanged."
+      "story_lead": "The game of baby steps and big steps works best when everyone joins in, one friend at a time. Then, mid-play, Muno bites Foofa.",
+      "resolution": "The song sets the rule: don't bite your friends. Muno says sorry, Foofa says she is okay now, and the game starts again with everyone in it.",
+      "evidence_note": "Script: dev set note reads 'Forever Dreaming transcript FD 01x13 Together, title-matched; content verified: the eyes-nose-mouth face song, the love-every-living-thing song, the baby-steps-big-steps game joined one friend at a time, the horse pretend, Nikki Flores's twirly whirly, Mark's monkey drawing, Muno biting Foofa and the don't-bite-your-friends song with his apology'; confidence high. Content consideration carried: biting. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); mapped to Forever Dreaming transcript 01x13 (topic #112756) by episode title, content identity verified on read; prior lead and resolution replaced, not revised; tier unchanged. Strongest-arc correction 2026-11-18: the row now tells the verified bite arc (baby-steps-big-steps game, Muno bites Foofa, the don't-bite-your-friends song, his apology, the game resuming) instead of the twirly-whirly dance beat; the evidence note's verified beat list and Content consideration carried: biting unchanged."
     },
     {
       "series_title": "Yo Gabba Gabba!",
@@ -576,8 +576,8 @@
       "segment": null,
       "segment_title": "Olympics",
       "story_lead": "Brobee wishes he could play basketball, but he is too little.",
-      "resolution": "The friends' own Gabba games make the point: you can be good at lots of games, you just have to work at it.",
-      "evidence_note": "Script: dev set note reads 'FD 04x06 Olympics, title-matched (own Olympics, events, medals, Brobee's free throw; Foofa trips mid-routine and finishes her dance)'; thin verified beat list, confidence medium. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); mapped to Forever Dreaming transcript 04x05 (topic #113072) by content-verified title; prior lead and resolution replaced, not revised; tier unchanged."
+      "resolution": "The friends' own Gabba games say it too: you can be good at lots of games, you just have to work at it.",
+      "evidence_note": "Script: dev set note reads 'FD 04x06 Olympics, title-matched (own Olympics, events, medals, Brobee's free throw; Foofa trips mid-routine and finishes her dance)'; thin verified beat list, confidence medium. Recrafted 2026-11-18 fresh under Copy & Tags Standard v2.1 (rebuild queue, batch construction caps, Amendment 4 honest absences, referent rule); mapped to Forever Dreaming transcript 04x05 (topic #113072) by content-verified title; prior lead and resolution replaced, not revised; tier unchanged. Meta-commentary guard 2026-11-18: 'make the point' reworded to 'say it too'; tier unchanged."
     },
     {
       "series_title": "Yo Gabba Gabba!",

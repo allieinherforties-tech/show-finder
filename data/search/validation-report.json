@@ -1,5 +1,5 @@
 {
-  "version": "b8841d87c2d5dd6d",
+  "version": "ef1bf383472c72e5",
   "artwork": {
     "mode": "tmdb",
     "attributionChecked": true,
@@ -506,7 +506,8 @@
         "prehistoric-planet-s0-e10"
       ],
       "withoutCoping": [
-        "el-deafo-s1-e2"
+        "el-deafo-s1-e2",
+        "hello-jack-the-kindness-show-s1-e8"
       ],
       "withoutTopics": 396,
       "note": "Empty emotion, coping, and topic cells are faithful upstream absences reported here and never backfilled or invented."
