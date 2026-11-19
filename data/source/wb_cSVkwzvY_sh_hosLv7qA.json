@@ -916,8 +916,8 @@
       "segment": null,
       "segment_title": "Shine On!",
       "story_lead": "New Doozertubes arrive in every Fraggle's cave, and Boober does not trust the strange new gadget. He agrees to talk to it from a careful distance, and the song still brings everyone together even apart.",
-      "resolution": "The nervousness of the untrusted gadget gets trying again, one small step at a distance, and the together-apart song is what the Doozertube turned out to be for.",
-      "evidence_note": "Script: dev set note reads 'Script-verified: Gestdown English subtitles (SuperSubtitles, 1080p, showId 032V1d7XKDlzjH8X4VCJ7k, TMDB 102318), sourced live this session; content-checked against catalog synopsis (identity keywords verified)'. Topic per dev set: the song-together story fits Music & dance."
+      "resolution": "Boober’s nervousness about the untrusted gadget gets trying again, one small step at a distance, and the together-apart song is what the Doozertube turned out to be for.",
+      "evidence_note": "Script: dev set note reads 'Script-verified: Gestdown English subtitles (SuperSubtitles, 1080p, showId 032V1d7XKDlzjH8X4VCJ7k, TMDB 102318), sourced live this session; content-checked against catalog synopsis (identity keywords verified)'. Topic per dev set: the song-together story fits Music & dance. Accepted-copy fix-in-place 2026-11-19, per Allie ruling todo_yv3UTHmI"
     },
     {
       "series_title": "Fraggle Rock: Rock On!",
@@ -925,9 +925,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": "The Cave of the Silly Creatures",
-      "story_lead": "Uncle Travelling Matt explores the cave of a Silly Creature, and everything there is unfamiliar. Charm, cleverness and steady friendliness open even an impenetrable entrance, and he makes friends with the hairy monster.",
+      "story_lead": "Uncle Travelling Matt explores the cave of a Silly Creature, and everything there is unfamiliar. Charm, cleverness and steady friendliness open even an impenetrable entrance. He makes friends with the hairy monster.",
       "resolution": "The silliness of the backwards creature-world gets trying again, friendliness held steady, and the made-friends ending is what the impenetrable entrance gave the charm.",
-      "evidence_note": "Script: dev set note reads 'Script-verified: Gestdown English subtitles (SuperSubtitles, 1080p, showId 032V1d7XKDlzjH8X4VCJ7k, TMDB 102318), sourced live this session; content-checked against catalog synopsis (identity keywords verified)'."
+      "evidence_note": "Script: dev set note reads 'Script-verified: Gestdown English subtitles (SuperSubtitles, 1080p, showId 032V1d7XKDlzjH8X4VCJ7k, TMDB 102318), sourced live this session; content-checked against catalog synopsis (identity keywords verified)'. Accepted-copy fix-in-place 2026-11-19, per Allie ruling todo_yv3UTHmI"
     },
     {
       "series_title": "Fraggle Rock: Rock On!",
@@ -936,8 +936,8 @@
       "segment": null,
       "segment_title": "The Fraggletastic Talent Show!",
       "story_lead": "Gobo brings all the Fraggles together on their Doozertubes to show off their talents, and Wembley cannot decide what to do. Left out while everyone shows what they can do, he finds his own thing to share.",
-      "resolution": "The loneliness of the undecided Wembley gets reframed by Uncle Matt's words he acts on, everyone has something special to share even little you, and the proud of the shown talent is what the waited-for turn produced.",
-      "evidence_note": "Script: dev set note reads 'Script-verified: Gestdown English subtitles (SuperSubtitles, 1080p, showId 032V1d7XKDlzjH8X4VCJ7k, TMDB 102318), sourced live this session; content-checked against catalog synopsis (identity keywords verified)'. Topic per dev set: the talent-show story fits Music & dance."
+      "resolution": "Wembley’s loneliness as the undecided one gets reframed by Uncle Matt's words he acts on, everyone has something special to share even little you, and the proud of the shown talent is what the waited-for turn produced.",
+      "evidence_note": "Script: dev set note reads 'Script-verified: Gestdown English subtitles (SuperSubtitles, 1080p, showId 032V1d7XKDlzjH8X4VCJ7k, TMDB 102318), sourced live this session; content-checked against catalog synopsis (identity keywords verified)'. Topic per dev set: the talent-show story fits Music & dance. Accepted-copy fix-in-place 2026-11-19, per Allie ruling todo_yv3UTHmI"
     },
     {
       "series_title": "Fraggle Rock: Rock On!",
@@ -945,9 +945,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": "A Common Connection",
-      "story_lead": "A stranger shows up on the Doozertube, and Gobo and Red reach out to a friend they have never met in person. Making music together is the connection, and Common Fraggle is a friend before he is a name.",
+      "story_lead": "A stranger shows up on the Doozertube. Gobo and Red reach out to a friend they have never met in person. Making music together is the connection, and Common Fraggle is a friend before he is a name.",
       "resolution": "The reaching-out gets talking it out, the music doing the introducing, and the together is what the songs' power brought.",
-      "evidence_note": "Script: dev set note reads 'Script-verified: Gestdown English subtitles (SuperSubtitles, 1080p, showId 032V1d7XKDlzjH8X4VCJ7k, TMDB 102318), sourced live this session; content-checked against catalog synopsis (identity keywords verified)'. Topic per dev set: the music-connection story fits Music & dance."
+      "evidence_note": "Script: dev set note reads 'Script-verified: Gestdown English subtitles (SuperSubtitles, 1080p, showId 032V1d7XKDlzjH8X4VCJ7k, TMDB 102318), sourced live this session; content-checked against catalog synopsis (identity keywords verified)'. Topic per dev set: the music-connection story fits Music & dance. Accepted-copy fix-in-place 2026-11-19, per Allie ruling todo_yv3UTHmI"
     },
     {
       "series_title": "Fraggle Rock: Rock On!",
@@ -965,9 +965,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": "Party Down in Fraggle Rock!",
-      "story_lead": "Neil Patrick Harris feels so cooped up, and saying it out loud becomes the biggest dance party the Rock has seen. A sit-and-focus Fraggle like Boober can still join, and old friends and new share the floor.",
+      "story_lead": "Neil Patrick Harris feels so cooped up, and saying it out loud becomes the biggest dance party the Rock has seen. A sit-and-focus Fraggle like Boober can still join. Old friends and new share the floor.",
       "resolution": "The silliness of the cooped-up feeling gets naming the feeling, the I-feel-so-cooped-up said to everyone, and the dance party is what the named need became.",
-      "evidence_note": "Script: dev set note reads 'Script-verified: Gestdown English subtitles (SuperSubtitles, 1080p, showId 032V1d7XKDlzjH8X4VCJ7k, TMDB 102318), sourced live this session; content-checked against catalog synopsis (identity keywords verified)'. Topics per dev set: the party story fits Music & dance and Birthday & party."
+      "evidence_note": "Script: dev set note reads 'Script-verified: Gestdown English subtitles (SuperSubtitles, 1080p, showId 032V1d7XKDlzjH8X4VCJ7k, TMDB 102318), sourced live this session; content-checked against catalog synopsis (identity keywords verified)'. Topics per dev set: the party story fits Music & dance and Birthday & party. Accepted-copy fix-in-place 2026-11-19, per Allie ruling todo_yv3UTHmI"
     }
   ]
 }
