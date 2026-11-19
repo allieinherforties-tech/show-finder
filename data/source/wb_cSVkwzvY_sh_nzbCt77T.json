@@ -315,9 +315,9 @@
       "episode_number": "1",
       "segment": "1",
       "segment_title": "Yak the Amazing Juggler",
-      "story_lead": "Yak finally masters juggling, and her baby triplet sisters keep stealing the show anyway. She takes the rattle in anger, confesses, and hears that babies need care and she still matters.",
-      "resolution": "The anger and the loneliness of being overshadowed end in apologizing, and 'My family is big and babies need care, but I'm still important' is the confession's answer.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: juggling with Unicorn, rattle confession and apology)'; confidence high. Content consideration carried: new-sibling jealousy with a lashing-out moment."
+      "story_lead": "Yak finally masters juggling, and her baby triplet sisters keep stealing the show anyway. She takes the rattle in anger, then confesses, and hears that babies need care while she still matters.",
+      "resolution": "Anger and loneliness over being overshadowed end in an apology. 'My family is big and babies need care, but I'm still important' is the confession's answer.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: juggling with Unicorn, rattle confession and apology)'; confidence high. Content consideration carried: new-sibling jealousy with a lashing-out moment. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Slumberkins",
@@ -326,8 +326,8 @@
       "segment": "2",
       "segment_title": "Keep on Running",
       "story_lead": "Fox wins every game until he falls, and then he hides his tears so his friends will not think he is weak. His friends find him anyway, and everyone sings that everybody cries.",
-      "resolution": "The embarrassment of crying gets named instead of hidden, and the Everybody Cries song is what the hiding could never be.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: race, splat-berry toss, leaf catch, Weeping Willow, Everybody Cries song)'; confidence high. Age-band edge call per dev set: kept 2-4 because the reassurance is simply told, but the hiding-tears theme also serves 5-7; flagged for review. Topics anchored to the game day."
+      "resolution": "Crying gets named instead of hidden, and the Everybody Cries song is what the hiding could never be.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: race, splat-berry toss, leaf catch, Weeping Willow, Everybody Cries song)'; confidence high. Age-band edge call per dev set: kept 2-4 because the reassurance is simply told, but the hiding-tears theme also serves 5-7; flagged for review. Topics anchored to the game day. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Slumberkins",
@@ -336,8 +336,8 @@
       "segment": "1",
       "segment_title": "Sunny Day Cupcakes",
       "story_lead": "Sloth's cupcake is smooshed beyond fixing, and Yak is happy about her own, which is its own awkward moment. 'I can have my feelings, you can have yours too' is what gets said.",
-      "resolution": "The sad and the happy of the same moment get talked out, and Yak checking in plus Sloth saying what he wants is how both feelings fit in one kitchen.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: carrot cupcakes, smooshed cupcake)'; confidence high. Coping anchor per dev set: Yak checks in and offers to share; Sloth says what he wants. Topics anchored to the baking."
+      "resolution": "The same moment is sad and happy at once. Both get talked out: Yak checks in, Sloth says what he wants, and the two feelings fit in one kitchen.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: carrot cupcakes, smooshed cupcake)'; confidence high. Coping anchor per dev set: Yak checks in and offers to share; Sloth says what he wants. Topics anchored to the baking. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Slumberkins",
@@ -345,9 +345,9 @@
       "episode_number": "2",
       "segment": "2",
       "segment_title": "It's Great to Be a Bigfoot",
-      "story_lead": "Squirrels laugh that Bigfoot is too big, and he hides inside and stops playing. He tells them plainly instead: being big is what makes him great.",
-      "resolution": "The sadness of the teasing meets standing up for yourself, and 'I am big, and I think that's great' is the affirmation that ends the hiding.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: hide-and-sing, Bigfoot's too big teasing, affirmation)'; confidence high. Age-band edge call per dev set: pushed to 5-7 because peer teasing and self-esteem repair read older than the series floor. Content consideration carried: teasing by peers."
+      "story_lead": "Squirrels laugh that Bigfoot is too big, so he hides inside and stops playing. He tells them plainly instead: being big is what makes him great.",
+      "resolution": "Teased for his size, Bigfoot stands up for himself. 'I am big, and I think that's great' is the affirmation that ends the hiding.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: hide-and-sing, Bigfoot's too big teasing, affirmation)'; confidence high. Age-band edge call per dev set: pushed to 5-7 because peer teasing and self-esteem repair read older than the series floor. Content consideration carried: teasing by peers. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Slumberkins",
@@ -395,9 +395,9 @@
       "episode_number": "5",
       "segment": "1",
       "segment_title": "When You Gotta Go",
-      "story_lead": "Bigfoot needs the bathroom at Sloth's house and is too embarrassed to say so, astronaut pretend play and all. Dad's 'everybody poops' phone call gets him through, and he tells his friends himself.",
-      "resolution": "The embarrassment of the bathroom emergency ends in asking for help, and the potty success he tells his friends about is the story's silly, honest victory.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: astronaut pretend play, Dad's everybody poops phone call, potty success, tells his friends)'; confidence high. Content consideration carried: potty and toot humor is central; this is the row for potty-training searches. Topics left empty with reason per dev set: the astronaut play is the setting, the bathroom need is the story."
+      "story_lead": "Bigfoot needs the bathroom at Sloth's house but is too embarrassed to say so, astronaut pretend play and all. Dad's 'everybody poops' phone call gets him through, and he tells his friends himself.",
+      "resolution": "The bathroom emergency ends in asking for help, and the potty success he tells his friends about is the story's silly, honest victory.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: astronaut pretend play, Dad's everybody poops phone call, potty success, tells his friends)'; confidence high. Content consideration carried: potty and toot humor is central; this is the row for potty-training searches. Topics left empty with reason per dev set: the astronaut play is the setting, the bathroom need is the story. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Slumberkins",
@@ -405,9 +405,9 @@
       "episode_number": "5",
       "segment": "2",
       "segment_title": "Let's Go Fix a Kite",
-      "story_lead": "When their leaf kite rips in half, Sloth and Fox have their first big fight and trade 'never again' threats. A deep breath with Mom, a talk, an apology, and the kite flies again, together.",
-      "resolution": "The anger of the first big fight gets a deep breath first and talking it out second, and flying it together is what the repair song celebrates.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: leaf kite, stuck in a tree, ripped in half, deep breath with Mom, talk-and-listen repair song)'; confidence high. Age-band edge call per dev set: pushed to 5-7 because first-fight repair is a richer social beat. Coping note per dev set: deep breath with a parent is shown first; talking it out carries the repair. Topics empty with reason per dev set: kites are not in the ratified eight, flagged for the vocabulary review."
+      "story_lead": "When their leaf kite rips in half, Sloth and Fox have their first big fight, trading 'never again' threats. A deep breath with Mom, a talk, an apology, and the kite flies again, together.",
+      "resolution": "The first big fight gets a deep breath first, talking it out second. Flying the kite together is what the repair song celebrates.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: leaf kite, stuck in a tree, ripped in half, deep breath with Mom, talk-and-listen repair song)'; confidence high. Age-band edge call per dev set: pushed to 5-7 because first-fight repair is a richer social beat. Coping note per dev set: deep breath with a parent is shown first; talking it out carries the repair. Topics empty with reason per dev set: kites are not in the ratified eight, flagged for the vocabulary review. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Slumberkins",
@@ -415,9 +415,9 @@
       "episode_number": "6",
       "segment": "1",
       "segment_title": "When Things Change",
-      "story_lead": "Fox's family moves to a new burrow, and he misses his old home and Bigfoot enough to say 'I don't wanna move' at lunch. A goodbye tour, boxberry finds and the 'What am I feeling?' ritual walk him into the new forest.",
-      "resolution": "The sadness and the anger of the move end in naming the feeling, and finding things he likes about the new forest is what the named sadness made room for.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: packing, goodbye tour to favorite places, boxberries, bunk beds, What am I feeling? ritual)'; confidence high. Content consideration carried: a bowl-toss outburst at lunch."
+      "story_lead": "Fox's family moves to a new burrow. He misses his old home and Bigfoot enough to say 'I don't wanna move' at lunch. A goodbye tour, boxberry finds and the 'What am I feeling?' ritual walk him into the new forest.",
+      "resolution": "Sadness and anger over the move end in naming the feeling. Finding things he likes about the new forest is what the named sadness made room for.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: packing, goodbye tour to favorite places, boxberries, bunk beds, What am I feeling? ritual)'; confidence high. Content consideration carried: a bowl-toss outburst at lunch. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Slumberkins",
@@ -425,9 +425,9 @@
       "episode_number": "6",
       "segment": "2",
       "segment_title": "Bigfoot's First Sleepover",
-      "story_lead": "At his first sleepover, Bigfoot cannot fall asleep and misses his dad, and the lullaby attempts do not do it. The invisible thread that connects their hearts, packed by Dad, does.",
-      "resolution": "The worry and the missing-him sadness end in asking for comfort, the phone call and the thread song, and he sleeps till morning.",
-      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: packing the invisible thread, lullaby attempts, Dad on the phone, thread song, sleeps till morning)'; confidence high. Coping anchor per dev set: asking for comfort read from the phone call and the comfort ritual."
+      "story_lead": "At his first sleepover, Bigfoot cannot fall asleep, and the lullaby attempts do not do it. He misses his dad. The invisible thread that connects their hearts, packed by Dad, does.",
+      "resolution": "Worry and missing-him sadness end in asking for comfort: the phone call, the thread song. He sleeps till morning.",
+      "evidence_note": "Script: dev set note reads 'Script tier (SubtitleCat SRT, content verified against catalog: packing the invisible thread, lullaby attempts, Dad on the phone, thread song, sleeps till morning)'; confidence high. Coping anchor per dev set: asking for comfort read from the phone call and the comfort ritual. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Slumberkins",

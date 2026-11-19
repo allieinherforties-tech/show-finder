@@ -15,9 +15,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A family game of hide-and-seek ends with Alex never coming out of hiding, and the restricted wing of Vanderhouven Manor gives up the family secret. Pandora and Russ learn their family is cursed, and their father turns to stone in front of them.",
-      "resolution": "Scared and worried, the kids finally hear the truth their parents hid, and sharing the family history is what makes it lighter to face.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: a father turns to stone and the kids learn the family is cursed; spooky mansion tone, nothing graphic."
+      "story_lead": "A family game of hide-and-seek ends with Alex never coming out of hiding, and the restricted wing of Vanderhouven Manor gives up the family secret. Pandora and Russ learn their family is cursed, then watch their father turn to stone in front of them.",
+      "resolution": "Scared and worried, the kids finally hear the truth their parents hid. Sharing the family history is what makes it lighter to face.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: a father turns to stone and the kids learn the family is cursed; spooky mansion tone, nothing graphic. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Curses!",
@@ -26,8 +26,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "The golden baboon head gets loose from the restricted wing, and the family hunts it room by room through the manor. Sky wants to face the danger alone; letting Pandora and Russ help turns out to be the winning call.",
-      "resolution": "The fear of a snarling artifact on the loose meets asking for help, and Sky learns that letting her kids help beats facing danger alone.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: the escaped artifact is a snarling baboon head that trashes rooms."
+      "resolution": "Sky gives up facing the danger alone, and the kids’ help is what gets the baboon back where it belongs.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: the escaped artifact is a snarling baboon head that trashes rooms. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Curses!",
@@ -45,9 +45,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Three fertility statues come to life, and suddenly Russ, Pandora and Sky are babysitters to three Olmec babies who need reuniting with their mother on display at the Paxton Museum. Caring for little ones is harder and sweeter than any of them imagined.",
-      "resolution": "The frustration of the baby chaos settles into patience, and the pride lands when they learn what parents know: when someone you love needs you, you just figure it out.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: a museum heist sequence played for comedy; Russ faces his fear of tight spaces."
+      "story_lead": "Three fertility statues come to life, leaving Russ, Pandora and Sky babysitters to three Olmec babies who need reuniting with their mother on display at the Paxton Museum. Caring for little ones is harder and sweeter than any of them imagined.",
+      "resolution": "Baby chaos turns into patient, sweeter-than-expected work, and they learn what parents know: when someone you love needs you, you just figure it out.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: a museum heist sequence played for comedy; Russ faces his fear of tight spaces. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Curses!",
@@ -55,9 +55,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A ritual might be the way to reach Alex, and Pandora and Russ rush it without reading all the instructions. The shortcut sets a creature loose, and Stanley gets caught in the center of the chaos.",
-      "resolution": "Guilty and worried, they learn that hope is not a reason to skip steps; patience is part of love, and good friends forgive honest mistakes.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: a shadowy messenger creature stalks the dark; Stanley is briefly trapped alone."
+      "story_lead": "A ritual might be the way to reach Alex, so Pandora and Russ rush it without reading all the instructions. The shortcut sets a creature loose, and Stanley gets caught in the center of the chaos.",
+      "resolution": "Guilty and worried, they find out the hard way that hope is not a reason to skip steps. Patience is part of love, and good friends forgive honest mistakes.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: a shadowy messenger creature stalks the dark; Stanley is briefly trapped alone. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Curses!",
@@ -76,8 +76,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A stormy Scottish island and a puzzling local are just the start; the Vanderhouvens find a selkie whose sealskin was stolen. Storm and shipwreck peril follow the family across the island.",
-      "resolution": "The worry of the storm gets talked out on the way, and the kids learn that some sadness is about loss, not behavior, and that they can be strong for their mom when she carries too much.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: storm and shipwreck peril; selkie folklore handled respectfully."
+      "resolution": "Talking the worry out on the way, the kids see that some sadness is about loss, not behavior. They can be strong for their mom when the sadness is too big for one person.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: storm and shipwreck peril; selkie folklore handled respectfully. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Curses!",
@@ -86,8 +86,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Russ's puzzle obsession pulls him inside a memory of Cornelius Vanderhouven, where he learns the truth about his ancestor the hard way. The memory belongs to a villain, and it does not want to let him go.",
-      "resolution": "The fear of being trapped inside someone else's past ends in asking for help, and the family learns that brilliance needs brakes and that no one gets to face danger alone.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: Russ is trapped inside a magical memory by a villainous ancestor; peril played straight."
+      "resolution": "Trapped inside someone else's past, Russ asks for help. Once he is out, the family agrees that brilliance needs brakes and no one faces danger alone.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: Russ is trapped inside a magical memory by a villainous ancestor; peril played straight. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Curses!",
@@ -96,8 +96,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A witch in the Yucatan jungle has a protective amulet the family needs, and she has her own reason to punish Vanderhouvens. Captured, Pandora and Russ pay for what their ancestor did.",
-      "resolution": "The fear of being punished for an ancestor's crime meets standing up for yourself, and Pandora's calm, brave answer is how the kids learn the difference between justice and revenge.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: the kids are held captive by a witch whose garden they cannot leave; her daughter was petrified by the curse."
+      "resolution": "Punished for what an ancestor did, Pandora answers with calm bravery. Her answer teaches the kids the difference between justice and revenge.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: the kids are held captive by a witch whose garden they cannot leave; her daughter was petrified by the curse. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Curses!",
@@ -116,8 +116,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "In a Transylvanian castle, the Vanderhouvens find skeleton miners forced to work by a greedy heir. The parents want to keep the kids safe the old way, on the sidelines.",
-      "resolution": "The fear of the castle and its mines meets asking for help, and the parents learn that facing danger together works better, because no one in this family sits out a rescue.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: enslaved skeleton miners and a cruel heir; Dad's recurring nightmares signal something is still wrong."
+      "resolution": "The parents stop parking the kids on the sidelines and ask for their help. Facing danger together works better, because no one in this family sits out a rescue.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: enslaved skeleton miners and a cruel heir; Dad's recurring nightmares signal something is still wrong. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Curses!",
@@ -176,8 +176,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "In Australia, a cursed didgeridoo makes the birds attack, and the cure is a song nobody can find until Stanley feels it through his vibrations. The quiet friend gets the brave job.",
-      "resolution": "The worry of a cure nobody can reach ends in trying again, and the family learns to trust a quiet friend to do a brave thing alone and to trust nature's balance.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: cursed-bird attack peril; Indigenous Australian folklore is shared by Inala, an Indigenous Australian character, respectfully; a bunyip tale explains the curse."
+      "resolution": "Stanley's vibrations find the cure nobody else could reach. The family trusts their quiet friend to do a brave thing alone, in step with nature's balance.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: cursed-bird attack peril; Indigenous Australian folklore is shared by Inala, an Indigenous Australian character, respectfully; a bunyip tale explains the curse. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Curses!",
@@ -186,8 +186,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A mysterious tonic shrinks the Vanderhouven kids to the size of a snack for Linda the lizard, and their possessed dad sprayed it. The sprint is on before Linda decides they are food.",
-      "resolution": "Anger and fear run through the shrunk-down sprint, and the family traces the curse to Diana Cameron, an orphan who stood up to a cheating salesman, because it takes strength to stand up to a bully.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: the kids are shrunk and hunted by Linda the bearded dragon, unharmed; their father, while possessed, lies to them and endangers them; the backstory features an orphan girl cheated by a snake-oil salesman."
+      "resolution": "Anger and fear run through the shrunk-down sprint. The family traces the curse to Diana Cameron, an orphan who stood up to a cheating salesman, because it takes strength to stand up to a bully.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: the kids are shrunk and hunted by Linda the bearded dragon, unharmed; their father, while possessed, lies to them and endangers them; the backstory features an orphan girl cheated by a snake-oil salesman. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Curses!",
@@ -206,8 +206,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A villain from the past breaks into the Paxton Museum to take control of Alex forever, and the family storms the basement to stop him. Cornelius has all the magic; the family has each other.",
-      "resolution": "The fear of losing Dad for good meets asking for help, and the family proves that a villain with all the magic is still weaker than people who fight for each other.",
-      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: possession, a soul-transfer throne, and the threat that Dad will cease to exist; resolved with the family together and Cornelius gone."
+      "resolution": "The family asks for help, faces the fear of losing Dad for good, and proves that a villain with all the magic is still weaker than people who fight for each other.",
+      "evidence_note": "Script: dev set row note reads 'script-verified (Gestdown subtitles, identity-checked)'; confidence high. Content consideration carried: possession, a soul-transfer throne, and the threat that Dad will cease to exist; resolved with the family together and Cornelius gone. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Fraggle Rock: Back to the Rock",
