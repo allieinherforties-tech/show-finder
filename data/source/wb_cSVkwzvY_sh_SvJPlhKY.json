@@ -56,8 +56,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "An engagement ring sits in Mom's junk drawer, and Amber finds it. Convinced Mom will marry Max before Dad even makes it home from Paris, she and her friends form Wedding Stoppers to stall the news. The operation involves tree spying at a classmate's party and a fortune cookie dinner where Amber must finally say what she wants.",
-      "resolution": "The tangle of worry and wish loosens when Amber admits how mixed up her own wants are, and she tells Mom she can wear the ring.",
-      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e02; dev set script_vs_synopsis note high confidence, the script supplies the junk drawer discovery, the Wedding Stoppers meeting, the tree spying and the fortune cookie dinner the synopsis omits."
+      "resolution": "The tangle of worry and wish loosens when Amber admits how mixed up her own wants are. She tells Mom she can wear the ring.",
+      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e02; dev set script_vs_synopsis note high confidence, the script supplies the junk drawer discovery, the Wedding Stoppers meeting, the tree spying and the fortune cookie dinner the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Amber Brown",
@@ -76,8 +76,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "The cast list goes up, and Amber is not Dorothy: she is Angry Apple Tree Number 3. Telling Dad is its own worry, since he once starred as Juror Number 8. On play night, Dad is stuck in traffic while the show starts without him.",
-      "resolution": "Mom reframes the small part as proof that Amber took a risk and was brave, and Justin shares his own embarrassing outfield story. Amber goes on stage anyway, disappointment and all.",
-      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e04; dev set script_vs_synopsis note high confidence, the script adds the cast list letdown, the dad-as-eighth-grade-lead comparison and the backstage mouse chaos the synopsis omits."
+      "resolution": "Mom reframes the small part as proof that Amber took a risk and was brave. Justin shares his own embarrassing outfield story. Amber goes on stage anyway, disappointment and all.",
+      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e04; dev set script_vs_synopsis note high confidence, the script adds the cast list letdown, the dad-as-eighth-grade-lead comparison and the backstage mouse chaos the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Amber Brown",
@@ -86,8 +86,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Brandi gets her ears pierced, and Amber is told to wait until she is 13. With a first school dance coming, every no from Mom feels like one more door closing on her life. Aunt Pam enters the negotiation.",
-      "resolution": "The frustration and anger have somewhere to go: Amber makes her case out loud, Aunt Pam helps Mom see that loving a kid sometimes means being disliked, and Mom holds the line with love.",
-      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e05; dev set script_vs_synopsis note high confidence, the script carries the dishwasher fight, the let-kids-dislike-you conversation and Amber's own-ears monologue the synopsis omits."
+      "resolution": "The frustration and anger have somewhere to go. Amber makes her case out loud, Aunt Pam helps Mom see that loving a kid sometimes means being disliked, and Mom still says no, with love.",
+      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e05; dev set script_vs_synopsis note high confidence, the script carries the dishwasher fight, the let-kids-dislike-you conversation and Amber's own-ears monologue the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Amber Brown",
@@ -95,9 +95,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Amber gets her ears pierced anyway, and then spends dress shopping, photos and pre-dance pictures hiding the secret. Failed confession attempts stack up under Mom's attention. The guilt grows heavier than the dance itself.",
+      "story_lead": "Amber gets her ears pierced anyway, then spends dress shopping and pre-dance pictures hiding the secret. Failed confession attempts stack up under Mom's attention. The guilt grows heavier than the dance itself.",
       "resolution": "She decides telling the truth matters more than the dance, confesses to Mom, and accepts the consequence, guilt finally set down.",
-      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e06; dev set script_vs_synopsis note high confidence, the script shows the Operation Delayed Truth Telling vote, the failed confessions and the aching heart monologue the synopsis omits."
+      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e06; dev set script_vs_synopsis note high confidence, the script shows the Operation Delayed Truth Telling vote, the failed confessions and the aching heart monologue the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Amber Brown",
@@ -115,9 +115,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A TV pilot takes over Amber's house, cameras and all. Mom hands her on-camera moment to Aunt Pam, and Max and the kids fumble their lines. Smoothies get taste-tested as acting. Amber gets her wish of seeing the blended family in one bright, loud room.",
-      "resolution": "The stage fright steadies when the family steadies each other, and Amber does the scary thing and likes it.",
-      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e08; dev set script_vs_synopsis note high confidence, the script adds the smoothie tasting struggle, the Matt and Max flubs and Mom's stage fright handoff the synopsis omits."
+      "story_lead": "A TV pilot takes over Amber's house, cameras and all. Mom hands her on-camera moment to Aunt Pam while Max and the kids fumble their lines. Smoothies get taste-tested as acting, and Amber gets her wish of seeing the blended family in one bright, loud room.",
+      "resolution": "The stage fright steadies when the family steadies each other. Amber does the scary thing and likes it.",
+      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e08; dev set script_vs_synopsis note high confidence, the script adds the smoothie tasting struggle, the Matt and Max flubs and Mom's stage fright handoff the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Amber Brown",
@@ -136,8 +136,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "One borrowed hour, one skateboard ramp and one impossible drive bring Cecile back into her old kitchen. Getting her out during recess is the easy part; getting her back needs Stanley's ramp and Max's driving. Then the family rushes to Dad's hospital bedside after emergency heart surgery.",
-      "resolution": "The family that walked Cecile home gathers again at Dad's bedside, scared and sad together, and Dad promises to call them for anything.",
-      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e10; dev set script_vs_synopsis note high confidence, the script gives the full caper texture and the runner-up announcement at the worst moment the synopsis omits."
+      "resolution": "The family that walked Cecile home gathers again at Dad's bedside, scared and sad together. Dad promises to call them for anything.",
+      "evidence_note": "Script: Gestdown SRT, Amber Brown s01e10; dev set script_vs_synopsis note high confidence, the script gives the full caper texture and the runner-up announcement at the worst moment the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Best Foot Forward",
@@ -166,8 +166,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Josh time-chunks himself into every club at once, and it sounds like living his best life. Game night passes without him until his character, Gareth the Vanguard, dies waiting. Marching band drags him in, too.",
-      "resolution": "Frustrated, Josh takes Mom's roller coaster advice, quits the clubs that do not fit, and apologizes by showing up for the friends and games he loves most.",
-      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e03; dev set script_vs_synopsis note high confidence, the script grounds the overcommitment in Gareth the Vanguard's death, the marching band dragnet and Mom's Adventure Park story the synopsis omits."
+      "resolution": "Frustrated, Josh takes Mom's roller coaster advice, quits the clubs that do not fit, and apologizes by showing up for the friends he loves most.",
+      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e03; dev set script_vs_synopsis note high confidence, the script grounds the overcommitment in Gareth the Vanguard's death, the marching band dragnet and Mom's Adventure Park story the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Best Foot Forward",
@@ -176,8 +176,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Josh makes the starting lineup with Mom as team parent, and one wink from her begins a spiral. Was every coach's praise ever really about him? Then the coach benches him, which turns out to be exactly the proof he needed.",
-      "resolution": "He says the doubt out loud to Mom and to his coach, and when an honest benching comes, he accepts it as happily as a start.",
-      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e04; dev set script_vs_synopsis note high confidence, the script adds the wink spiral, the resignation letter the coach refuses and the joy of an earned benching the synopsis omits."
+      "resolution": "He says the doubt out loud to Mom and to his coach. When an honest benching comes, he accepts it as happily as a start.",
+      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e04; dev set script_vs_synopsis note high confidence, the script adds the wink spiral, the resignation letter the coach refuses and the joy of an earned benching the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Best Foot Forward",
@@ -186,8 +186,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A surprise pop quiz shakes straight-A Josh, and an F plus sends him looking for somewhere to hide. He lashes out at Kyle and Gabriella instead of saying he is struggling. Meanwhile little Luisa runs away to a Venus-themed tree fort, and the family has a meltdown to handle first.",
-      "resolution": "Mom retutors him with PEMDAS and gummy bears, Josh apologizes to both friends for taking his stress out on them, and the A minus that follows feels earned.",
-      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e05; dev set script_vs_synopsis note high confidence, the script carries the invisibility cloak bit, the F plus exchange, the fake Venus family and the gummy bear apology the synopsis omits."
+      "resolution": "Mom retutors him with PEMDAS and gummy bears. Josh apologizes to both friends for taking his stress out on them, and the A minus that follows feels earned.",
+      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e05; dev set script_vs_synopsis note high confidence, the script carries the invisibility cloak bit, the F plus exchange, the fake Venus family and the gummy bear apology the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Best Foot Forward",
@@ -196,8 +196,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Halloween is the one day his leg gets a day off, and Josh had planned to be just a bear. Then the prosthetic breaks, and the prosthetist's office introduces a teen who has opinions about being different. Across town, Gabriella has ditched the butterfly costume she loved to match her friends.",
-      "resolution": "Josh decides different is whatever he decides it is, and goes back to school and to the showcase anyway, while Gabriella finds her way back to the costume that made her smile.",
-      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e06; dev set script_vs_synopsis note high confidence, the script holds the just-a-bear monologue, the butterfly conversation at the prosthetist and Gabriella's boring dress side of the story the synopsis flattens."
+      "resolution": "Josh decides different is whatever he decides it is. He goes back to school and to the showcase anyway. Gabriella finds her way back to the costume that made her smile.",
+      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e06; dev set script_vs_synopsis note high confidence, the script holds the just-a-bear monologue, the butterfly conversation at the prosthetist and Gabriella's boring dress side of the story the synopsis flattens. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Best Foot Forward",
@@ -206,8 +206,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Josh and Kyle's first unsupervised movie night meets an obstacle with a rulebook: assigned seating for Josh's safety, plus a smuggled bottle of Liquid Louie in the backpack. A heist plan takes shape, grandma photos and all. Josh keeps insisting he can handle the stairs.",
-      "resolution": "Josh politely says he does not need the accessible seating, Mom models standing up for him, and the friends solve it together with a plan, a nod and a grandma escort.",
-      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e07; dev set script_vs_synopsis note high confidence, the script supplies the theater company policy scene, the grandma photos detour and the twenty-pizza mishap at home the synopsis omits."
+      "resolution": "Josh politely says he does not need the accessible seating. Mom models standing up for him, and the friends solve it together with a plan, a nod, a grandma escort.",
+      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e07; dev set script_vs_synopsis note high confidence, the script supplies the theater company policy scene, the grandma photos detour and the twenty-pizza mishap at home the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Best Foot Forward",
@@ -216,8 +216,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A lightning-bolted new leg sends Josh to the skate park and Matt to the emergency room. In the ER, Matt soaks up the attention that usually lands on Josh, and he likes it more than he wants to admit. Meanwhile Gabriella loses her captaincy and starts overtraining to win it back.",
-      "resolution": "Josh tries the scary new thing and is proud of it, Matt admits he likes the attention, and little Luisa's Dr. Squirrels complaint makes the parents see how easily she gets overlooked.",
-      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e08; dev set script_vs_synopsis note high confidence, the script carries the new leg day pizza party, Matt's fake-worse injury and Gabriella's sore shoulder grind the synopsis names only as threads."
+      "resolution": "Josh tries the scary new thing and is proud of it. Matt admits he likes the attention, and little Luisa's Dr. Squirrels complaint makes the parents see how easily she gets overlooked.",
+      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e08; dev set script_vs_synopsis note high confidence, the script carries the new leg day pizza party, Matt's fake-worse injury and Gabriella's sore shoulder grind the synopsis names only as threads. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Best Foot Forward",
@@ -226,8 +226,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Field day arrives, and the school discovers Josh's leg is a competitive advantage. Classmates borrow the Dubin edge until Josh is sitting out every game he wanted to play. Dad's ice cream sundae talk gives him the words to stop.",
-      "resolution": "Frustrated and anxious about letting anyone down, Josh tells his classmates that his leg is his decision, runs the relay himself and backs a friend in the process.",
-      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e09; dev set script_vs_synopsis note high confidence, the script grounds the arc in the three-legged race, the lending spiral, the sundae monologue and Luisa's homeschool field day conflict the synopsis only hints at."
+      "resolution": "Frustrated and anxious about letting anyone down, Josh tells his classmates that his leg is his decision. He runs the relay himself and backs a friend in the process.",
+      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e09; dev set script_vs_synopsis note high confidence, the script grounds the arc in the three-legged race, the lending spiral, the sundae monologue and Luisa's homeschool field day conflict the synopsis only hints at. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Best Foot Forward",
@@ -236,8 +236,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "The first school dance was supposed to be perfect, and Josh has planned every detail. When the night falls apart, he tells Kyle and Gabriella the truth he rarely says: he lost his leg to cancer. Every first, he admits, feels like it might be his last.",
-      "resolution": "Scared and sad, he names the fear out loud, his best friends carry it with him, and the dance becomes better than the movies because of the people in it.",
-      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e10; dev set script_vs_synopsis note high confidence, the script holds the every-first-might-be-my-last confession, Gabriella's quit-not-cut reveal and the videotape of Josh before the leg the synopsis omits."
+      "resolution": "Scared and sad, he names the fear out loud. His best friends sit with him in it, and the dance becomes better than the movies because of the people in it.",
+      "evidence_note": "Script: Gestdown SRT, Best Foot Forward s01e10; dev set script_vs_synopsis note high confidence, the script holds the every-first-might-be-my-last confession, Gabriella's quit-not-cut reveal and the videotape of Josh before the leg the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Circuit Breakers",
@@ -245,9 +245,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Jacob is the shortest kid aiming for the track team, and a sketchy medical trial offers to fix that. Medibots go in through his ear, and he gets taller and faster. The wins start coming. Then he learns the robots can never be removed.",
-      "resolution": "Jealous of faster legs and stuck with what he chose, Jacob tells his best friend the truth, asks the adults to undo it, and says out loud that he should have been happy with who he was.",
-      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e01; dev set script_vs_synopsis note high confidence, the script holds the medibot consent scene, the ear injection, the growth controls, Sarah's fake knee injury and the no-removal reveal the synopsis omits."
+      "story_lead": "Jacob is the shortest kid aiming for the track team, and a sketchy medical trial offers to fix that. Medibots go in through his ear, leaving him taller and faster. The wins start coming, and then he learns the robots can never be removed.",
+      "resolution": "Jealous of faster legs, stuck with what he chose, Jacob tells his best friend the truth and asks the adults to undo it. He says out loud that he should have been happy with who he was.",
+      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e01; dev set script_vs_synopsis note high confidence, the script holds the medibot consent scene, the ear injection, the growth controls, Sarah's fake knee injury and the no-removal reveal the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Circuit Breakers",
@@ -256,8 +256,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Jesse builds a robot double to handle chores and homework so he can practice dance. The helper starts answering for him in conversations, outscores his own audition, and nearly dances onto the team in his place. A spot on the team is within reach, if he will let a robot earn it.",
-      "resolution": "Jesse admits to Cara and his parents that the helper did the work, and he refuses to let it dance for him. He walks out of the audition having danced his personal best and lost honestly.",
-      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e02; dev set script_vs_synopsis note high confidence, the script carries the helper's parent-pleasing, the 96 to 74 score drop, Cara's anger and Jesse's couldn't-go-through-with-it choice the synopsis omits."
+      "resolution": "Jesse admits to Cara and his parents that the helper did the work. He refuses to let it dance for him. He walks out of the audition having danced his personal best and lost honestly.",
+      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e02; dev set script_vs_synopsis note high confidence, the script carries the helper's parent-pleasing, the 96 to 74 score drop, Cara's anger and Jesse's couldn't-go-through-with-it choice the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Circuit Breakers",
@@ -266,8 +266,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Emily's parents are divorced, and a memory machine lets her relive the family's happiest day whenever she wants. Then an error deletes the memory from her parents' minds, and she rigs a second birthday at the fair to bring the feeling back. What she wants, really, is for the family to be one again.",
-      "resolution": "Sad and lonely, Emily finally blurts out what she did and what she wants. Her parents tell her honestly that they are not getting back together but they are still a family. She admits, too, that she is still figuring out how the divorce feels.",
-      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e03; dev set script_vs_synopsis note high confidence, the script holds the memory blending error, the deleted fair memory, the recreated birthday and the still-a-family talk the synopsis omits."
+      "resolution": "Sad and lonely, Emily finally blurts out what she did. Her parents tell her honestly that they are not getting back together but they are still a family. She admits, too, that she is still figuring out how the divorce feels.",
+      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e03; dev set script_vs_synopsis note high confidence, the script holds the memory blending error, the deleted fair memory, the recreated birthday and the still-a-family talk the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Circuit Breakers",
@@ -276,8 +276,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Seth, the class clown, swaps bodies with the school principal after a presentation goes wrong. In the principal's office he discovers a secret fight to save the music budget, and his own day starts with a stolen answer key he took out of panic. The student he accused of cheating needs fairness more than punishment.",
-      "resolution": "Guilty and embarrassed, Seth tells the principal the truth about the key and about covering for the real thief. The principal promises consequences that are fair, then speaks up for music with feeling instead of a script.",
-      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e04; dev set script_vs_synopsis note high confidence, the script holds the stolen answer key confession, Logan's family money troubles and the music-is-the-soundtrack board speech the synopsis omits."
+      "resolution": "Guilty and embarrassed, Seth tells the principal the truth about the key, including covering for the real thief. The principal promises consequences that are fair, then speaks up for music with feeling instead of a script.",
+      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e04; dev set script_vs_synopsis note high confidence, the script holds the stolen answer key confession, Logan's family money troubles and the music-is-the-soundtrack board speech the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Circuit Breakers",
@@ -295,9 +295,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Jack and Cassady buy a universal remote that controls their parents, and muting the rules feels like winning. Paused parents cannot comfort a nightmare, enforce a bedtime or help when a school project tanks. Then a Zombie Island nightmare hits, and nobody is there to comfort them.",
-      "resolution": "Scared and guilty, the kids own up before their parents even see the remote, accept the grounding, and tell their parents directly that they still need them to make the big decisions.",
-      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e06; dev set script_vs_synopsis note high confidence, the script carries the Zombie Island nightmare, the paused parents and the unplug-it-back-in fix the synopsis stops short of."
+      "story_lead": "Jack and Cassady buy a universal remote that controls their parents. Muting the rules feels like winning. Paused parents cannot comfort a nightmare, enforce a bedtime or help when a school project tanks, and when a Zombie Island nightmare hits, nobody is there to comfort them.",
+      "resolution": "Scared and guilty, the kids own up before their parents even see the remote. They accept the grounding and tell their parents directly that they still need them to make the big decisions.",
+      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e06; dev set script_vs_synopsis note high confidence, the script carries the Zombie Island nightmare, the paused parents and the unplug-it-back-in fix the synopsis stops short of. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Circuit Breakers",
@@ -305,9 +305,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Cricket's family runs a self-sustaining habitat on Mars, and a category D storm cancels her best friend's visit and nearly takes their oxygen. She flies the family's last drone to check on stranded Casey. When the adults hesitate, she insists on the risky walk to help the neighbors. Six and a half hours on foot, in a storm, for a friend.",
-      "resolution": "Lonely and homesick, Cricket says so out loud and makes the best of the storm with music. She then leads the rescue herself, and the mission turns out to have been a test all along.",
-      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e07; dev set script_vs_synopsis note high confidence, the script holds the storm-cancelled visit, the sacrificed drone, the six-and-a-half-hour walk and the simulation reveal the synopsis omits."
+      "story_lead": "Cricket's family runs a self-sustaining habitat on Mars, and a category D storm cancels her best friend's visit while nearly taking their oxygen. She flies the family's last drone to check on stranded Casey. When the adults hesitate, she insists on the risky walk to help the neighbors: six and a half hours on foot, in a storm, for a friend.",
+      "resolution": "Lonely and homesick, Cricket says so out loud, making the best of the storm with music. She then leads the rescue herself, and the mission turns out to have been a test all along.",
+      "evidence_note": "Script: Gestdown SRT, Circuit Breakers s01e07; dev set script_vs_synopsis note high confidence, the script holds the storm-cancelled visit, the sacrificed drone, the six-and-a-half-hour walk and the simulation reveal the synopsis omits. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Life by Ella",
@@ -316,8 +316,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Ella is back at school after beating cancer, and she has decided that fear no longer gets to choose what she does. First test: a rope climb that terrifies everyone. Her dad, who almost lost her, would rather she take it carefully.",
-      "resolution": "Scared but going anyway, Ella says she is not ready and does it regardless. Her dad learns that protecting her and trusting her can happen at the same time.",
-      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e1; dev set script_vs_synopsis note high confidence, the script carries the fear-versus-living argument with Dad and the not-ready-but-doing-it frame the synopsis misses."
+      "resolution": "Scared but going anyway, Ella says she is not ready and does it regardless. Protecting her and trusting her turn out to be things her dad can do at the same time.",
+      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e1; dev set script_vs_synopsis note high confidence, the script carries the fear-versus-living argument with Dad and the not-ready-but-doing-it frame the synopsis misses. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Life by Ella",
@@ -336,8 +336,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A pool party invitation means bathing suit shopping, and the fitting room stirs up everything Ella hates about being looked at. Meanwhile she discovers her mom has been hiding her cancer from her boss.",
-      "resolution": "Mom offers both suits and no judgment, telling Ella to see how she feels on the day, and Ella decides that hiding who she is protects no one, not even her mom.",
-      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e3; dev set script_vs_synopsis note high confidence, the script carries the suit self-consciousness and the boss discovery the synopsis's shopping trip misses."
+      "resolution": "Mom offers both suits and no judgment, telling Ella to see how she feels on the day. Ella decides that hiding who she is protects no one, not even her mom.",
+      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e3; dev set script_vs_synopsis note high confidence, the script carries the suit self-consciousness and the boss discovery the synopsis's shopping trip misses. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Life by Ella",
@@ -345,9 +345,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": null,
-      "story_lead": "A flashback shows the girl Ella was before cancer, interests and anxieties and all. Back in the present, family game night becomes the moment she says what all the pretending cost her.",
-      "resolution": "Angry and sad, Ella tells her mom plainly that she hated every moment of the pretending, and the confession ends it in both directions.",
-      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e4; dev set script_vs_synopsis note high confidence, the script gives the game-night warmth and the cafeteria-style reconciliation the synopsis's family night misses."
+      "story_lead": "A flashback shows the girl Ella was before cancer, interests, anxieties and all. Back in the present, family game night becomes the moment she says what all the pretending cost her.",
+      "resolution": "Angry and sad, Ella tells her mom plainly that she hated every moment of the pretending. The confession ends it in both directions.",
+      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e4; dev set script_vs_synopsis note high confidence, the script gives the game-night warmth and the cafeteria-style reconciliation the synopsis's family night misses. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Life by Ella",
@@ -375,9 +375,9 @@
       "episode_number": "7",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Ella's first post-treatment sleepover means one night of being a regular teenager. Her parents pack a laminated go-bag of allergies and blood types, and she refuses to carry it. Grady, for his part, enjoys being an only child until midnight.",
-      "resolution": "Nervous and excited at once, Ella writes down what she wants to let go of and what she wants to keep, concluding that having cancer made her who she is. Her parents let her have the night.",
-      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e7; dev set script_vs_synopsis note high confidence, the script gives the go-bag gag and the let-go-and-wish writing the synopsis's sleepover misses."
+      "story_lead": "Ella's first post-treatment sleepover means one night of being a regular teenager. Her parents pack a laminated go-bag of allergies and blood types, but she refuses to carry it. Grady, for his part, enjoys being an only child until midnight.",
+      "resolution": "Nervous and excited at once, Ella writes down what to let go of, what to keep, concluding that having cancer made her who she is. Her parents let her have the night.",
+      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e7; dev set script_vs_synopsis note high confidence, the script gives the go-bag gag and the let-go-and-wish writing the synopsis's sleepover misses. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Life by Ella",
@@ -386,8 +386,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Grady is tired of murals, podcasts and every conversation bending toward his sister. He says so exactly when Ella needs him most. Being the brother of the celebrated one has left him feeling invisible.",
-      "resolution": "Jealous and lonely, Grady tells his parents the truth about feeling invisible, and Ella thanks him by asking for one thing only: keep being her friend.",
-      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e8; dev set script_vs_synopsis note high confidence, the script gives Grady's questions-about-Ella blowup and the sibling trade of honesty the synopsis's video-game day misses."
+      "resolution": "Jealous and lonely, Grady tells his parents the truth about feeling invisible. Ella thanks him by asking for one thing only: keep being her friend.",
+      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e8; dev set script_vs_synopsis note high confidence, the script gives Grady's questions-about-Ella blowup and the sibling trade of honesty the synopsis's video-game day misses. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Life by Ella",
@@ -406,8 +406,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Ella has quietly quit the violin, and today is the day the family finds out. A birdhouse project gives the confession somewhere to land. Right behind it waits a scan that gives the truth its biggest test.",
-      "resolution": "Nervous but resolved, Ella says the pressure out loud and chooses truth over the family's pride, and the scan that follows finds a family already listening.",
-      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e10; dev set script_vs_synopsis note high confidence, the script carries the quit-the-violin secret and the classic-scanxiety checkup the synopsis's project misses."
+      "resolution": "Nervous but resolved, Ella says the pressure out loud and chooses truth over the family's pride. The scan that follows finds a family already listening.",
+      "evidence_note": "Script: Gestdown SRT, Life by Ella s1e10; dev set script_vs_synopsis note high confidence, the script carries the quit-the-violin secret and the classic-scanxiety checkup the synopsis's project misses. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     }
   ]
 }

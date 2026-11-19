@@ -325,9 +325,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": "Snoopy's Cat Fight",
-      "story_lead": "Linus has given his blanket away, and the enormous cat next door has it now. Getting it back takes Snoopy, Linus and Woodstock together, and nobody in that yard is bigger than the cat.",
-      "resolution": "The fear of the huge cat and the frustration of needing it back end in asking for help, and the team that faces the yard together is what one kid alone never had.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms spring training opener, show-and-tell, shared desk, blanket to Eudora, cat fight)'; confidence high. Single row on dominant story per dev-set spec; secondary arcs (the big pitching chance, the shared desk) noted and not tagged. No controlled topic fits; left empty by design. Content consideration carried: comic dog-cat-boy-and-bird brawl."
+      "story_lead": "Linus has given his blanket away, and the enormous cat next door has it now. Getting it back takes Snoopy, Linus and Woodstock together; nobody in that yard is bigger than the cat.",
+      "resolution": "Fear of the huge cat and frustration over the lost blanket end only when they ask for help. The team that faces the yard together is what one kid alone never had.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms spring training opener, show-and-tell, shared desk, blanket to Eudora, cat fight)'; confidence high. Single row on dominant story per dev-set spec; secondary arcs (the big pitching chance, the shared desk) noted and not tagged. No controlled topic fits; left empty by design. Content consideration carried: comic dog-cat-boy-and-bird brawl. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -335,9 +335,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": "Snoopy: Team Manager",
-      "story_lead": "Snoopy gets hired to manage the baseball team, and quits when Charlie Brown scolds him. The team loses under him, and Lucy and Charlie Brown find out how hard the other side's job is.",
-      "resolution": "The frustration of blame handed out freely ends in apologizing, and Lucy's own walk-back and rehiring of Snoopy is what the lesson cost her.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms garden, Rerun on the bike, mailed blanket, Snoopy managing)'; confidence high. Coping anchor per dev set: Lucy's own walk-back and rehiring of Snoopy. Content consideration carried: Rerun dreads the daily bike ride with the German shepherd; Linus mails his blanket to himself and panics until the April Fool reveal."
+      "story_lead": "Snoopy gets hired to manage the baseball team, and quits when Charlie Brown scolds him. The team loses under him. Lucy and Charlie Brown find out how hard the other side’s job is.",
+      "resolution": "Blame handed out freely ends in an apology. Lucy's own walk-back and rehiring of Snoopy is what the lesson cost her.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms garden, Rerun on the bike, mailed blanket, Snoopy managing)'; confidence high. Coping anchor per dev set: Lucy's own walk-back and rehiring of Snoopy. Content consideration carried: Rerun dreads the daily bike ride with the German shepherd; Linus mails his blanket to himself and panics until the April Fool reveal. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -346,8 +346,8 @@
       "segment": null,
       "segment_title": "Linus and Lucy",
       "story_lead": "Lucy and Linus trade their usual sibling torments until the bickering stops somewhere unexpected. The counting-blessings beat lands on the low-feeling kid with a little brother who loves him.",
-      "resolution": "The sadness of feeling low gets reframed into what is still there, and the calm that follows is what one named blessing bought.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms Snoopy-assisted school report, football in snow, kite fiasco, sibling beats)'; confidence high. Coping anchor per dev set: reframing/distraction, count your blessings, explicitly shown. No controlled topic fits; left empty by design. Content consideration carried: comic snow and kite slapstick."
+      "resolution": "Feeling low gets reframed into what is still there, and the calm that follows is what one named blessing bought.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms Snoopy-assisted school report, football in snow, kite fiasco, sibling beats)'; confidence high. Coping anchor per dev set: reframing/distraction, count your blessings, explicitly shown. No controlled topic fits; left empty by design. Content consideration carried: comic snow and kite slapstick. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -356,8 +356,8 @@
       "segment": null,
       "segment_title": "Lucy vs. the World",
       "story_lead": "Lucy spends her season in right field getting cut down, then strikes back through the school paper, and the loss lands on the team anyway. Charlie Brown, for once, has to say the hard cut to her face.",
-      "resolution": "The anger and the sting of criticism meet in talking it out, and Charlie Brown's 'this is very hard for me to say' is where the criticism turns honest.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms baseball arc, house guest, Puppy Cup, crabby scroll, baby brother)'; confidence high. Dev-set honesty carried: Lucy's retaliation is shown and does not work. Content consideration carried: name-calling and yelling between kids; secondary arcs (the letdown guest stay, the lost Puppy Cup, the new baby brother) noted and not tagged."
+      "resolution": "The anger and the sting of criticism meet in talking it out. Charlie Brown's 'this is very hard for me to say' is where the criticism turns honest.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms baseball arc, house guest, Puppy Cup, crabby scroll, baby brother)'; confidence high. Dev-set honesty carried: Lucy's retaliation is shown and does not work. Content consideration carried: name-calling and yelling between kids; secondary arcs (the letdown guest stay, the lost Puppy Cup, the new baby brother) noted and not tagged. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -366,8 +366,8 @@
       "segment": null,
       "segment_title": "Linus' Security Blanket",
       "story_lead": "Linus hands his blanket to Snoopy to break the habit, endures two sleepless days, and makes it through the weekend. Then Lucy's well-meant replacement gift arrives, and the relapse comes with his closing line: damage is done by people who thought they were doing the right thing.",
-      "resolution": "The worry of life without the comfort thing is handled by asking for help, Snoopy as keeper of the rules, and the comic relapse is shown for what it is rather than fixed.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms blanket handover, sport coats, apology to neighbors, Poe report, dog-hug)'; confidence high. Coping anchor per dev set: asking for help, he recruits Snoopy and sets the rules; the comic betrayal and the relapse are named in the row, not smoothed over. No controlled topic fits; left empty by design."
+      "resolution": "Life without the comfort thing is handled by asking for help, Snoopy as keeper of the rules, and the comic relapse is shown for what it is rather than fixed.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms blanket handover, sport coats, apology to neighbors, Poe report, dog-hug)'; confidence high. Coping anchor per dev set: asking for help, he recruits Snoopy and sets the rules; the comic betrayal and the relapse are named in the row, not smoothed over. No controlled topic fits; left empty by design. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -376,8 +376,8 @@
       "segment": null,
       "segment_title": "Snoopy: Man's Best Friend",
       "story_lead": "Peppermint Patty falls asleep at school because she is afraid to be home alone while her dad works late. Snoopy stays over as her watcher, and she says she feels safe because he is guarding her.",
-      "resolution": "The fear of the empty house ends in asking for comfort, and a companion's presence at bedtime is what lets the calm come.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms the night-alone thread, burglar arc, beagle scout hike, woods rescue, playground arc)'; confidence high. Coping anchor per dev set: asking for comfort, a companion's presence at bedtime, with asking for help shown in how it is arranged. Age-band edge call per dev set: bully confrontation content sits at the top of 5-7; kept 5-7 because the dominant thread is the bedtime fear. No controlled topic fits; left empty by design."
+      "resolution": "Afraid of the empty house at night, Peppermint Patty asks for comfort, and a companion's presence at bedtime is what lets the calm come.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms the night-alone thread, burglar arc, beagle scout hike, woods rescue, playground arc)'; confidence high. Coping anchor per dev set: asking for comfort, a companion's presence at bedtime, with asking for help shown in how it is arranged. Age-band edge call per dev set: bully confrontation content sits at the top of 5-7; kept 5-7 because the dominant thread is the bedtime fear. No controlled topic fits; left empty by design. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",
@@ -426,8 +426,8 @@
       "segment": null,
       "segment_title": "Chaos in the Classroom",
       "story_lead": "Sally brings an authentic bird's nest to show and tell, with its owner along to explain the construction. The classroom chaos that follows is the story.",
-      "resolution": "The nerves of show and tell with a live helper end in asking for help done right: she recruited the nest's owner as her expert, and the happy chaos is what her plan produced.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms the bird's nest show and tell, letter practice, ruler arc, patrol arc, blanket truce, baseball close)'; confidence high. Coping anchor per dev set: asking for help, she recruits the nest's owner as her expert. Topics anchored to the school story."
+      "resolution": "Nerves at show-and-tell get the right kind of help: she recruited the nest's owner as her expert, and the happy chaos is what her plan produced.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (Addic7ed), identity check passed (episode title matches; content confirms the bird's nest show and tell, letter practice, ruler arc, patrol arc, blanket truce, baseball close)'; confidence high. Coping anchor per dev set: asking for help, she recruits the nest's owner as her expert. Topics anchored to the school story. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Charlie Brown and Snoopy Show",

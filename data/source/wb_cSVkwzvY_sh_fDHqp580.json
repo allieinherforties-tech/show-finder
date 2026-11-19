@@ -286,8 +286,8 @@
       "segment": null,
       "segment_title": "Land",
       "story_lead": "The Gabba Friends are a little scared of a brand-new land, and they say so, then give it a chance anyway. Following the rainbow feather leads them to singing rocks, a wish tree and the No-nee underground, where everything turns out to be connected.",
-      "resolution": "The scare of the new place gets naming the feeling and the song that you never know until you go, and exploring is what made it likeable.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: saying they feel a little scared of the new land, the song that you never know until you go, the singing rocks and the wish tree, the hunt following the guidebook clues, meeting the No-nee underground, the recap that exploring made it likeable)'; confidence high. Coping anchor per dev set: naming the scared feeling and being encouraged to try; no listed strategy fits the trying part better."
+      "resolution": "Naming the feeling, singing the song that you never know until you go, and exploring made the new place likeable.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: saying they feel a little scared of the new land, the song that you never know until you go, the singing rocks and the wish tree, the hunt following the guidebook clues, meeting the No-nee underground, the recap that exploring made it likeable)'; confidence high. Coping anchor per dev set: naming the scared feeling and being encouraged to try; no listed strategy fits the trying part better. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",
@@ -295,9 +295,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": "Make",
-      "story_lead": "Muno gets stuck building his go-kart and wants to quit, saying all he can do is make mistakes. Papa shows him that mistakes are how you learn, and the friends go on to make pizza and go-karts together.",
-      "resolution": "The frustration of the stuck go-kart meets trying again, and the pride in the finished ride is what the mistake lesson earned.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Muno saying all he can do is make mistakes, Papa's lesson that mistakes are how you learn, the finished go-kart and the pride, pizza making with corn on top, the giant paper airplane surprise)'; confidence high. Topics anchored to the go-kart build and the pizza making."
+      "story_lead": "Muno gets stuck building his go-kart and wants to quit, saying all he can do is make mistakes. Papa shows him that mistakes are how you learn. The friends go on to make pizza and go-karts together.",
+      "resolution": "A stuck go-kart gets trying again, and the pride in the finished ride is what the mistake lesson earned.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Muno saying all he can do is make mistakes, Papa's lesson that mistakes are how you learn, the finished go-kart and the pride, pizza making with corn on top, the giant paper airplane surprise)'; confidence high. Topics anchored to the go-kart build and the pizza making. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",
@@ -306,8 +306,8 @@
       "segment": null,
       "segment_title": "Little",
       "story_lead": "Brobee is sad because he is so little, and a teeny-tiny adventure with new tiny friends is where the story goes. There is even a shrimpy apple pie too high to reach.",
-      "resolution": "The sadness about being little gets reframed, the song that size does not matter and seeing little as cool, and everyone is the right size exactly as they are.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Brobee saying he is sad because he is so little, the tiny friends and the shrimpy apple pie too high to reach, the song that size does not matter, seeing being little as cool, the recap that everyone is the right size)'; confidence high. Coping anchor per dev set: the episode's reframe of smallness; no listed strategy name fits better."
+      "resolution": "Feeling little gets reframed: the song says size does not matter and little is cool. Everyone is the right size exactly as they are.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Brobee saying he is sad because he is so little, the tiny friends and the shrimpy apple pie too high to reach, the song that size does not matter, seeing being little as cool, the recap that everyone is the right size)'; confidence high. Coping anchor per dev set: the episode's reframe of smallness; no listed strategy name fits better. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",
@@ -315,9 +315,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": "Air",
-      "story_lead": "Toodee's anger keeps building until she feels she cannot breathe, and she says so. Foofa and Muno teach her to feel the breath in her belly and let it calm her down.",
-      "resolution": "The anger gets a deep breath, the belly-breath lesson felt in the air and the breeze, and the closing song carries breathing through big feelings home.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Toodee saying being mad keeps building until she feels she cannot breathe, the belly-breath lesson, feeling the air and the breeze, the bubble-blowing contest, the closing song about breathing through big feelings)'; confidence high. Coping anchored to the explicit belly-breathing lesson per dev set."
+      "story_lead": "Toodee's anger keeps building until she feels she cannot breathe, and she says so. Foofa and Muno teach her to feel the breath in her belly, letting it calm her down.",
+      "resolution": "The anger gets a deep breath, the belly-breath lesson felt in the air and the breeze. The closing song sends breathing through big feelings home.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Toodee saying being mad keeps building until she feels she cannot breathe, the belly-breath lesson, feeling the air and the breeze, the bubble-blowing contest, the closing song about breathing through big feelings)'; confidence high. Coping anchored to the explicit belly-breathing lesson per dev set. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",
@@ -325,9 +325,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": "Water",
-      "story_lead": "Gooble feels sad, and the friends tell her it is okay. Sometimes we need to cry to let our feelings out, and Foofa and Toodee learn to go with the flow like water.",
-      "resolution": "The sadness gets named and let out, the song that it is okay to cry and the group hug with the happy tears, and the water sounds become a song of their own.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Gooble saying the sadness is still there and the friends saying it is okay, the song that it is okay to cry and let feelings out, the group hug and the happy tears, the water play and the song made from water sounds, the recap that crying is okay)'; confidence high. Coping anchor per dev set: the explicit naming-and-letting-out lesson; the group hug noted."
+      "story_lead": "Gooble feels sad, and the friends tell her it is okay. Sometimes we need to cry to let our feelings out. Foofa and Toodee learn to go with the flow like water.",
+      "resolution": "The sadness gets named and let out: the song that it is okay to cry, the group hug with the happy tears. The water sounds become a song of their own.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Gooble saying the sadness is still there and the friends saying it is okay, the song that it is okay to cry and let feelings out, the group hug and the happy tears, the water play and the song made from water sounds, the recap that crying is okay)'; confidence high. Coping anchor per dev set: the explicit naming-and-letting-out lesson; the group hug noted. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",
@@ -335,9 +335,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": "Me",
-      "story_lead": "In a glimmering garden of mirrors, Foofa is alone and sad, and the mirrors are where the story looks closer at what makes each friend unique. Plex learns his light makes him special.",
-      "resolution": "The sadness in the mirror garden gets naming the feeling, the song that feelings are not good or bad but just feelings to watch go by, and the hug-yourself dance that follows.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Foofa alone and sad in the mirror garden, the song that feelings are not good or bad but just feelings to watch go by, the hug-yourself dance, Plex learning his light makes him special, the recap about loving what is different in everyone)'; confidence high. Coping anchor per dev set: the explicit feelings-are-just-feelings lesson."
+      "story_lead": "In a glimmering garden of mirrors, Foofa is alone and sad. The mirrors are where the story looks closer at what makes each friend unique. Plex learns his light makes him special.",
+      "resolution": "Sadness in the mirror garden gets naming the feeling, the song that feelings are not good or bad but just feelings to watch go by, and the hug-yourself dance that follows.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Foofa alone and sad in the mirror garden, the song that feelings are not good or bad but just feelings to watch go by, the hug-yourself dance, Plex learning his light makes him special, the recap about loving what is different in everyone)'; confidence high. Coping anchor per dev set: the explicit feelings-are-just-feelings lesson. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",
@@ -346,8 +346,8 @@
       "segment": null,
       "segment_title": "Outside",
       "story_lead": "Muno wishes to go outside and discovers he can have more fun there than coloring inside. The friends explore how every part of GabbaLand feels different, from ToodeeLand's ice to MunoLand's heat.",
-      "resolution": "The friends end with the sunshine song's happy place made real: every land outside offers a different feeling to discover, and exercising in the fresh air gives them energy and joy.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Muno's wish to go outside, the song about sunshine and finding your happy place, the outside-feelings tour of each friend's land and season, exercising outside giving energy and happiness, the recap that outside beat coloring inside)'; confidence high. Coping left empty with reason per dev set: an exploration story with no feeling to handle. YGGL S1E7 register fix 2026-11-18 per B9 queue-jump precedent: resolution rebuilt fresh from the row's cited script evidence (dev set note preserved above); banned register (\"the row\", \"here\" meta) removed; honest no-feeling framing kept; tier unchanged."
+      "resolution": "The friends end with the sunshine song's happy place made real: every land outside offers a different feeling to discover. Exercise in the fresh air gives them energy and joy.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Muno's wish to go outside, the song about sunshine and finding your happy place, the outside-feelings tour of each friend's land and season, exercising outside giving energy and happiness, the recap that outside beat coloring inside)'; confidence high. Coping left empty with reason per dev set: an exploration story with no feeling to handle. YGGL S1E7 register fix 2026-11-18 per B9 queue-jump precedent: resolution rebuilt fresh from the row's cited script evidence (dev set note preserved above); banned register (\"the row\", \"here\" meta) removed; honest no-feeling framing kept; tier unchanged. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",
@@ -356,8 +356,8 @@
       "segment": null,
       "segment_title": "Silly",
       "story_lead": "A mysterious box unleashes silliness all over GabbaLand, and King Silly pays a visit. When the silliness breaks Toodee's fort, the friends learn that some moments are for silliness and some are not, then rebuild it together.",
-      "resolution": "The sad of the broken fort gets apologizing, being sorry for too much silliness and helping her rebuild, and the fish paintings with feet stay silly where silliness belongs.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: the silly box and King Silly, the silliness breaking Toodee's fort, the apology for being too silly, helping her rebuild, the fish paintings with feet, the lesson that some moments are for silliness and some are not)'; confidence high. Coping anchored to the apology and repair per dev set."
+      "resolution": "The broken fort gets an apology for too much silliness and help with the rebuild. The fish paintings with feet stay silly where silliness belongs.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: the silly box and King Silly, the silliness breaking Toodee's fort, the apology for being too silly, helping her rebuild, the fish paintings with feet, the lesson that some moments are for silliness and some are not)'; confidence high. Coping anchored to the apology and repair per dev set. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",
@@ -366,8 +366,8 @@
       "segment": null,
       "segment_title": "Grow",
       "story_lead": "Brobee is scared of his first haircut because he thinks it will hurt, and he tells Kammy Kam, who listens. He thanks her for listening, gets a one-of-a-kind Brobee hairstyle, and comes back not scared anymore.",
-      "resolution": "The scare of the haircut gets talking it out with a friend who listens, and the song about not fearing change lands on the recap that you are still you.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Brobee admitting he is scared the haircut will hurt and thanking Kammy Kam for listening, the glam makeover, not being scared anymore, the song about not fearing change because you are still you, the recap that talking to a friend about sad or scared feelings is best)'; confidence high."
+      "resolution": "The haircut scare gets talking it out with a friend who listens, and the song about not fearing change ends on the recap that you are still you.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: Brobee admitting he is scared the haircut will hurt and thanking Kammy Kam for listening, the glam makeover, not being scared anymore, the song about not fearing change because you are still you, the recap that talking to a friend about sad or scared feelings is best)'; confidence high. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",
@@ -376,8 +376,8 @@
       "segment": null,
       "segment_title": "Wonder",
       "story_lead": "The friends wonder about everything in GabbaLand, from blooming flowers to bouncing animals, but when Brobee seems sad or mad they feel scared to ask. Learning that just asking a question shows you care is the turn.",
-      "resolution": "The worry of asking gets talking it out, the song about not being afraid to ask a question, and Brobee's answer that he told them when they asked proves the asking right.",
-      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: the wondering song about trees and birds and being me, Brobee seeming sad or mad and the worry about asking, the song about not being afraid to ask a question, Brobee saying he told them when they asked, the new friend found in the forest)'; confidence high. Coping anchor per dev set: asking and telling."
+      "resolution": "Asking gets talking it out, the song about not being afraid to ask a question, and Brobee's answer that he told them when they asked proves the asking right.",
+      "evidence_note": "Script: dev set note reads 'Script tier (Gestdown SRT (ATVP release), content verified against catalog: the wondering song about trees and birds and being me, Brobee seeming sad or mad and the worry about asking, the song about not being afraid to ask a question, Brobee saying he told them when they asked, the new friend found in the forest)'; confidence high. Coping anchor per dev set: asking and telling. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Yo Gabba GabbaLand!",

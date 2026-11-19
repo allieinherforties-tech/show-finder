@@ -46,8 +46,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "DMBEETZ score a hit with a stolen Brushstrokes song, and the theft stings worse because the meaning got twisted. Nick's mom shares the dance dream she gave up and asks for help stepping into the spotlight. At the contest, Ms. Hazard dances her own routine.",
-      "resolution": "Disappointment and frustration find a place to go: the band refuses to quit, and this was never about winning becomes the family's own answer to a rigged contest.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (DMBEETZ score a hit after stealing the song, Nick's mom steps into the spotlight)'; confidence high."
+      "resolution": "Disappointment and frustration find a place to go. The band refuses to quit, and the family's own answer to a rigged contest is that this was never about winning.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (DMBEETZ score a hit after stealing the song, Nick's mom steps into the spotlight)'; confidence high. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "BE@RBRICK",
@@ -66,8 +66,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Rewriting Ms. Goldenshorts's school musical, the Brushstrokes discover Vanessa, an anxious understudy who has been told she will never be a lead. Stage fright nearly wins. Jasmine tells her the confidence is hers to find, and Vanessa returns to sing the finale.",
-      "resolution": "Stage fright and mean-girl undermining do not get the last word; Vanessa tries the spotlight again and takes it.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (rising star discovered while rewriting the musical)'; confidence high. Content considerations: anxiety about performing, mean-girl undermining, resolved."
+      "resolution": "Stage fright and mean-girl undermining do not get the last word. Vanessa tries the spotlight again and takes it.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (rising star discovered while rewriting the musical)'; confidence high. Content considerations: anxiety about performing, mean-girl undermining, resolved. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "BE@RBRICK",
@@ -76,8 +76,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A vengeful Ms. Goldenshorts vows to unmask the Brushstrokes, and every kid in class faces group punishment until someone snitches. Jasmine recruits extra help instead. Holly's third option lets no one rat and everyone declare together.",
-      "resolution": "The pressure to snitch dissolves into collective action, and Jasmine and Ada both apologize for doubting Holly when her plan was the way out.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (Goldenshorts goes all out to unmask the band, Jasmine recruits help to keep the secret)'; confidence high."
+      "resolution": "The pressure to snitch dissolves into collective action. Jasmine and Ada both apologize for doubting Holly when her plan was the way out.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (Goldenshorts goes all out to unmask the band, Jasmine recruits help to keep the secret)'; confidence high. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "BE@RBRICK",
@@ -85,9 +85,9 @@
       "episode_number": "8",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Jasmine cannot connect with a bandmate while Holly's parents smother her with deals and worry, and the new song is overdue. Jasmine keeps over-wording it under the deadline. She finally admits her plan and tells Holly the truth about the song.",
+      "story_lead": "Jasmine cannot connect with a bandmate while Holly's parents smother her with deals, and the new song is overdue. Jasmine keeps over-wording it under the deadline. She finally admits her plan and tells Holly the truth about the song.",
       "resolution": "Honesty heals the fight Jasmine caused: Holly thanks her for not giving special treatment, and Holly asks her parents for space to choose for herself.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (Jasmine struggles to connect with a bandmate, Holly's family makes a deal with Goldenshorts)'; confidence high."
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (Jasmine struggles to connect with a bandmate, Holly's family makes a deal with Goldenshorts)'; confidence high. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "BE@RBRICK",
@@ -116,8 +116,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Holly has been working undercover to expose DMBEETZ as robots, and the truth costs her when her parents cut the friendship off. The band finally learns the plan. Welcoming her back takes an apology and a fight worth having.",
-      "resolution": "Lonely and sad under the parents' ban, Holly talks it out with the band, and the apology that follows puts the friendship back where it belongs.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (a shocking twist changes everything, the band digs deep to support a friend)'; confidence high. Content consideration: parents cutting off a friendship, resolved with apology."
+      "resolution": "Lonely and sad under the parents' ban, Holly talks it out with the band. The apology that follows puts the friendship back where it belongs.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (a shocking twist changes everything, the band digs deep to support a friend)'; confidence high. Content consideration: parents cutting off a friendship, resolved with apology. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "BE@RBRICK",
@@ -136,8 +136,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A town on the edge of giving up every choice out of fear gets one more show from the Brushstrokes. The kids are unmasked and believed anyway. The line for the adult who forgot her own dreams lands gently: it is also not our fault that you just gave up.",
-      "resolution": "Brave and worried, the band stands up for everyone's right to choose, and the town answers by painting its own destinies with them.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (race to stop Ms Goldenshorts, one more show, inspiring fans to paint their own destinies)'; confidence high."
+      "resolution": "Brave and worried, the band stands up for everyone's right to choose. The town answers by painting its own destinies with them.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (race to stop Ms Goldenshorts, one more show, inspiring fans to paint their own destinies)'; confidence high. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Goldie",
@@ -415,9 +415,9 @@
       "episode_number": "2",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Tom Brady has played twenty years of pro football and calls exactly one game perfect, and it is not the one you are thinking. The game no one remembers as his greatest is the one he savors. The thirst that can never be quenched is his own phrase for the striving.",
-      "resolution": "Pride and joy sit side by side as Brady lives fully inside the one game he calls perfect, and the trying again never stops, even at the top.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (the one perfect game, and it is not the game people think)'; confidence high."
+      "story_lead": "In twenty years of pro football, Tom Brady calls exactly one game perfect, and it is not the one you are thinking. The game no one remembers as his greatest is the one he savors. The thirst that can never be quenched is his own phrase for the striving.",
+      "resolution": "Pride and joy sit side by side as Brady lives fully inside the one game he calls perfect. The trying again never stops, even at the top.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (the one perfect game, and it is not the game people think)'; confidence high. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Greatness Code",
@@ -436,8 +436,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "The fastest man alive traces the race that told him he was born to run, 9.58 seconds in Berlin. The calm is technical: clear your mind and just listen for the gun. His Michael Johnson story closes the loop on knowing when a dream is finished.",
-      "resolution": "The calm is the point. Confidence and happiness do the work, and a clear mind at the start line is a move any kid can borrow before a big moment.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (the race that made him realize he was born to run, 9.58 in Berlin)'; confidence high."
+      "resolution": "The calm is the point. Confidence and happiness do the work. A clear mind at the start line is a move any kid can borrow before a big moment.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (the race that made him realize he was born to run, 9.58 in Berlin)'; confidence high. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Greatness Code",
@@ -475,9 +475,9 @@
       "episode_number": "1",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Marcus Rashford's Manchester United debut arrives because injuries emptied the lineup, and he is ready. Years of preparation plus one instruction, stay between the width of the goals, is the entire mechanism. His home was small and the streets nearby were unsafe, and he tells it with dignity.",
+      "story_lead": "Marcus Rashford's Manchester United debut arrives because injuries emptied the lineup, and he is ready. Years of preparation plus one instruction, stay between the width of the goals, is the entire mechanism. His home was small, the streets nearby were unsafe, and he tells it with dignity.",
       "resolution": "The nerves of a sudden big chance meet pride, and the years of trying again are what made ready possible.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (injuries left the lineup short, Rashford rose to the occasion)'; confidence high. Coping judgment call from dev set: mechanism is preparation plus taking instruction, so trying again is the nearest ratified term."
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (injuries left the lineup short, Rashford rose to the occasion)'; confidence high. Coping judgment call from dev set: mechanism is preparation plus taking instruction, so trying again is the nearest ratified term. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Greatness Code",
@@ -486,8 +486,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Russell Wilson plays the game of his career against the Steelers with a flu that nearly sidelines him, six IVs deep. His father's question, why not you, carries the weight. The eulogy built on hash marks is where the story really lives.",
-      "resolution": "Wilson plays through doubt and fever both, and belief answers the doubt in his father's own words.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (career-best passing while battling a flu that nearly sidelined him)'; confidence high. Content consideration: he plays through serious illness with six IVs total, an intensity worth a parent knowing."
+      "resolution": "Wilson plays through doubt and fever both. Belief answers the doubt in his father's own words.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (career-best passing while battling a flu that nearly sidelined him)'; confidence high. Content consideration: he plays through serious illness with six IVs total, an intensity worth a parent knowing. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Greatness Code",
@@ -505,9 +505,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Scout Bassett's 2017 World Para Athletics Championships are a step in a longer mental health journey, and she does not hide the visible difference on her leg. An infant fire, abandonment and orphanage years are part of the story she tells. A year and a half of therapy and medication is the help that worked.",
+      "story_lead": "Scout Bassett's 2017 World Para Athletics Championships are a step in a longer mental health journey, and she does not hide the visible difference on her leg. An infant fire, abandonment and orphanage years are part of the story she tells. Eighteen months of therapy and medication is the help that worked.",
       "resolution": "Asking for help does what powering through could not, and her line stands: I am never going to be ashamed of my story.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (2017 World Para Athletics Championships as a cathartic mental-health step)'; confidence high. Content considerations, weighty but central: infant fire, abandonment, orphanage years, depression treated with therapy and medication."
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (2017 World Para Athletics Championships as a cathartic mental-health step)'; confidence high. Content considerations, weighty but central: infant fire, abandonment, orphanage years, depression treated with therapy and medication. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Greatness Code",
@@ -526,8 +526,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Lindsey Vonn's grandfather, who watched every race, dies days before the Olympics, and she sprinkles his ashes on the mountain. Her greatest performance does not end in victory. Greatness is not perfection but grit and overcoming, she says, in her own closing words.",
-      "resolution": "Grief and pride share the podium as Vonn gives everything while not at her best, and the run itself becomes the tribute.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (greatest performance did not end in victory)'; confidence high. Content considerations: grandfather's death days before the Olympics, ashes on the mountain, career-long injury toll."
+      "resolution": "Grief and pride share the podium as Vonn gives everything while not at her best. The run itself becomes the tribute.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (greatest performance did not end in victory)'; confidence high. Content considerations: grandfather's death days before the Olympics, ashes on the mountain, career-long injury toll. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "My Brother the Minotaur",
@@ -536,8 +536,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Lorcan's visions start showing up in public, and the town that raised him starts looking at him like a problem. His human brother Charlie pulls an all-night stakeout to get to the bottom of it, because you are not a case, you are my brother. A vandal spree and a classmate's story make everything worse before it gets better.",
-      "resolution": "Scared and confused, Lorcan talks it out with the one person who treats the mystery as his own, and the brothers start hunting for answers instead of hiding them.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (visions and acting out, human brother Charlie helps him get to the bottom of it)'; confidence high. Content considerations: the town turns on Lorcan after a vandal spree, a classmate claims the creature tried to kill him, and the adoption backstory (baby minotaur found in the woods, raised by humans) is the series spine."
+      "resolution": "Scared and confused, Lorcan talks it out with the one person who treats the mystery as his own. The brothers start hunting for answers instead of hiding them.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (visions and acting out, human brother Charlie helps him get to the bottom of it)'; confidence high. Content considerations: the town turns on Lorcan after a vandal spree, a classmate claims the creature tried to kill him, and the adoption backstory (baby minotaur found in the woods, raised by humans) is the series spine. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "My Brother the Minotaur",
@@ -546,8 +546,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "A letter about Lorcan's past says raise my boy as your own, let him believe his parents are dead, and he reads it before anyone can soften it. She did not want me is the wound, and the adults' loving lie is exposed as a lie all the same. Meanwhile the Elders are trying to stop Craignelder's greedy mining plan.",
-      "resolution": "The confusion and sadness of being deceived get somewhere to go when Lorcan asks for help instead of swallowing the letter alone, and the honest version of his story starts here.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (elders vs Craignelder's greedy mining plan, kids uncover a link to the past)'; confidence high. Content considerations: the letter's wording is quoted in the source note, the elders are loving but concretely deceiving him, which the show plays straight."
+      "resolution": "Being deceived hurts, and asking for help with the letter instead of swallowing it alone is where Lorcan's honest version of his story begins.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (elders vs Craignelder's greedy mining plan, kids uncover a link to the past)'; confidence high. Content considerations: the letter's wording is quoted in the source note, the elders are loving but concretely deceiving him, which the show plays straight. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "My Brother the Minotaur",
@@ -556,8 +556,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "Craignelder talks his own conflicted son into framing Lorcan for trouble he did not cause. What if it had been you who got hurt, Lorcan says out loud, and briefly quits the quest over it. Stolen pets shipping to the mainland raise the stakes beyond reputations.",
-      "resolution": "The fear of hurting the friends he loves gets named, and naming it is what reopens the quest when the aerial labyrinth photo appears.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (ruins exploration with hidden dangers, Craignelder enlists conflicted son to frame Lorcan)'; confidence high. Content considerations: pets are stolen and shipped to the mainland, played for plot but distressing for pet-loving kids."
+      "resolution": "Naming the fear of hurting the friends he loves is what reopens the quest, once the aerial labyrinth photo appears.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (ruins exploration with hidden dangers, Craignelder enlists conflicted son to frame Lorcan)'; confidence high. Content considerations: pets are stolen and shipped to the mainland, played for plot but distressing for pet-loving kids. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "My Brother the Minotaur",
@@ -565,9 +565,9 @@
       "episode_number": "4",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Craignelder hands Lorcan a muzzle and claims his birth parents threw him away, and Lorcan shoves him in rage in front of everyone. George's lesson lands after: defend yourself and fight are a big difference. The doll reveal, a minotaur mother who made her son's favorite toy, answers the cruelest claim.",
+      "story_lead": "Craignelder hands Lorcan a muzzle, claims his birth parents threw him away, and Lorcan shoves him in rage in front of everyone. George's lesson lands after: defend yourself and fight are a big difference. The doll reveal, a minotaur mother who made her son's favorite toy, answers the cruelest claim.",
       "resolution": "Regret over the shove sits next to the anger that caused it, and the reframing comes from a handmade doll: hardly the actions of someone who did not care.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (close encounter with the Pooka leads the crew to a mysterious door)'; confidence high. Content considerations: dehumanizing muzzle gift, the shove, episode ends unresolved in the garage, which the serial earns."
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (close encounter with the Pooka leads the crew to a mysterious door)'; confidence high. Content considerations: dehumanizing muzzle gift, the shove, episode ends unresolved in the garage, which the serial earns. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "My Brother the Minotaur",
@@ -575,9 +575,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": null,
-      "story_lead": "George takes Lorcan to a martial arts retreat to work on the temper, and the river will not teach him until the meditation does: empty your mind, close your eyes and breathe. Back home, some in town suggest he move to the bay. His friends are meanwhile closing in on the amulet in the ruins.",
-      "resolution": "A calm-down practice finally meets the public anger and the exile whispers, and the breathing exercise is what Lorcan reaches for the next time the anger comes.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (martial arts retreat to help Lorcan control his anger, others uncover their biggest lead)'; confidence high."
+      "story_lead": "George takes Lorcan to a martial arts retreat to work on the temper, and the river will not teach him until the meditation does: empty your mind, close your eyes, breathe. Back home, some in town suggest he move to the bay. His friends are meanwhile closing in on the amulet in the ruins.",
+      "resolution": "A calm-down practice finally meets the public anger and the exile whispers. The breathing exercise is what Lorcan reaches for the next time the anger comes.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (martial arts retreat to help Lorcan control his anger, others uncover their biggest lead)'; confidence high. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "My Brother the Minotaur",
@@ -585,9 +585,9 @@
       "episode_number": "6",
       "segment": null,
       "segment_title": null,
-      "story_lead": "The kids trap the Pooka with a salt ring and a plan, and Craignelder simply steps out of it. How could I have been so wrong, Charlie admits, and eats the quest-ending edict on screen. Chief Walker does the real work, confronting Craignelder and recovering the pets from Wesley's room.",
-      "resolution": "Embarrassment and disappointment get owned out loud, and the adults who listened fix what the trap could not.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (kids discover the Pooka's true identity and plan to catch him once and for all)'; confidence high. The Pooka's true identity is still open at episode's end."
+      "story_lead": "The kids trap the Pooka with a salt ring and a plan, only for Craignelder to simply step out of it. How could I have been so wrong, Charlie admits, and eats the quest-ending edict on screen. Chief Walker does the real work, confronting Craignelder and recovering the pets from Wesley's room.",
+      "resolution": "Embarrassment and disappointment get owned out loud. The adults who listened fix what the trap could not.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (kids discover the Pooka's true identity and plan to catch him once and for all)'; confidence high. The Pooka's true identity is still open at episode's end. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "My Brother the Minotaur",
@@ -606,8 +606,8 @@
       "segment": null,
       "segment_title": null,
       "story_lead": "The Pooka tells Lorcan exactly what he wants to hear, you must do this alone, and the show flags it as the classic isolation move. Lorcan walks through the door and is caught, cliffhanger included. Wesley and Craignelder's fake tourist article escalates the exposure danger in parallel.",
-      "resolution": "Confused and scared, Lorcan learns the lonely-road pitch is the trap itself, and the friends racing to find him are the answer he could not see.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (the Pooka lures Lorcan toward the minotaur world with false promises while the others search)'; confidence high. Ends on a cliffhanger."
+      "resolution": "Confused and scared, Lorcan learns the lonely-road pitch is the trap itself. The friends racing to find him are the answer he could not see.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (the Pooka lures Lorcan toward the minotaur world with false promises while the others search)'; confidence high. Ends on a cliffhanger. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "My Brother the Minotaur",
@@ -615,9 +615,9 @@
       "episode_number": "9",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Lorcan is gone, the amulet is gone, and the grown-ups say wait and hope. Charlie barely leaves his room until a dream message and a star-map breakthrough put him back in motion. The rescue takes solving, not strength, and it costs: Lorcan's minotaur father is confirmed lost in battle and his mother Arianys is wounded in the escape.",
+      "story_lead": "Lorcan is gone, the amulet is gone, with the grown-ups offering only wait and hope. Charlie barely leaves his room until a dream message and a star-map breakthrough put him back in motion. The rescue takes solving, not strength, and it costs: Lorcan's minotaur father is confirmed lost in battle, his mother Arianys wounded in the escape.",
       "resolution": "Sad but determined, Charlie leads the second-gateway rescue with George, and not giving up on someone you love gets him back at any cost, exactly as promised.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Content considerations: Lorcan captured by minotaur soldiers, father confirmed lost in battle, Arianys wounded in the escape."
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis'; confidence high. Content considerations: Lorcan captured by minotaur soldiers, father confirmed lost in battle, Arianys wounded in the escape. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "My Brother the Minotaur",
@@ -625,9 +625,9 @@
       "episode_number": "10",
       "segment": null,
       "segment_title": null,
-      "story_lead": "Dark forces infiltrate Bryony Island, and the temptation speaks straight to Lorcan's belonging wound: join us and you will finally fit. His sister Kai acts under its control, and Chief Walker's fairy-guardian reveal lands mid-battle. The season ends with Lorcan and Charlie walking back through the door together.",
-      "resolution": "Brave and proud, Lorcan stands up for himself by choosing his own world, and the brothers come home side by side.",
-      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (dark forces infiltrate the island, the kids protect its residents and fulfill their destiny)'; confidence high. Content considerations: Kai acts under the dark energy's control, a mind-control temptation plays on Lorcan's belonging wound, Chief Walker's fairy-guardian reveal lands mid-battle."
+      "story_lead": "Dark forces infiltrate Bryony Island, and the temptation speaks straight to Lorcan's belonging wound: join us to finally fit. His sister Kai acts under its control, and Chief Walker's fairy-guardian reveal lands mid-battle. The season ends with Lorcan and Charlie walking back through the door together.",
+      "resolution": "Brave and proud, Lorcan stands up for himself by choosing his own world. The brothers come home side by side.",
+      "evidence_note": "Script: dev set row note reads 'script; identity verified vs synopsis (dark forces infiltrate the island, the kids protect its residents and fulfill their destiny)'; confidence high. Content considerations: Kai acts under the dark energy's control, a mind-control temptation plays on Lorcan's belonging wound, Chief Walker's fairy-guardian reveal lands mid-battle. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     }
   ]
 }

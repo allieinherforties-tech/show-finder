@@ -16,8 +16,8 @@
       "segment": null,
       "segment_title": "Australian Forests",
       "story_lead": "In ancient Australian woodlands, a lyrebird learns his song-and-dance routine by watching and copying the older birds. The moment finally arrives to perform it for real. Crocodiles, koalas and a frog choir make the forest's other sounds.",
-      "resolution": "The nerves of the first real performance end in trying again, and the pride lands when the practiced, copied routine finally counts.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Dominant story carried: the lyrebird's learned song-and-dance performance, so Music & dance is a literal fit. Content consideration carried: crocodile segment includes herons taking hatchlings. Coping anchor per dev set: 'trying again' anchors to the practiced, copied routine, not a failure arc."
+      "resolution": "First-performance nerves end in trying again, and the pride is real when the practiced, copied routine finally counts.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Dominant story carried: the lyrebird's learned song-and-dance performance, so Music & dance is a literal fit. Content consideration carried: crocodile segment includes herons taking hatchlings. Coping anchor per dev set: 'trying again' anchors to the practiced, copied routine, not a failure arc. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Earthsounds",
@@ -26,8 +26,8 @@
       "segment": null,
       "segment_title": "The Himalayas",
       "story_lead": "High in the Himalayas, a snow leopard hunts the ibex and misses, more than once. The mountains act as an echo chamber for her rarely heard love song, and the wait for an answer takes years.",
-      "resolution": "The disappointment of missing again and again settles into patience, and the pride of getting it at last is what the two-year wait was for.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Content consideration carried: ibex hunt, chiru mating battles."
+      "resolution": "Miss after miss turns into patience, and the pride of getting it at last is what the two-year wait was for.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Content consideration carried: ibex hunt, chiru mating battles. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Earthsounds",
@@ -36,8 +36,8 @@
       "segment": null,
       "segment_title": "The Rainforests",
       "story_lead": "Howler monkeys hold a shouting contest in the rainforest canopy, and the family row risks coming to blows. The volume war turns when Mum joins Dad's voice, and sloths break their own silence to search for mates.",
-      "resolution": "The anger of the contest gets calmed by asking for help, and Mum's joining voice is what defends the family's important thing instead of a fight.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'asking for help' anchors to Mum joining Dad. Content consideration carried: jaguar tension, sloth fight, bullet-ant scare in the crew segment."
+      "resolution": "The contest's anger gets calmed when help arrives: Mum's joining voice defends the family's important thing instead of a fight.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'asking for help' anchors to Mum joining Dad. Content consideration carried: jaguar tension, sloth fight, bullet-ant scare in the crew segment. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Earthsounds",
@@ -46,8 +46,8 @@
       "segment": null,
       "segment_title": "The Pacific",
       "story_lead": "A humpback mother and her calf keep in contact with quiet calls while the Pacific's big, fast crowd rushes in. The heat run is no place to drift apart.",
-      "resolution": "Mother and calf talk it out at whale volume, and the calm through the chaos is what staying close looks like.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'talking it out' anchors to constant contact calls, not a conversation. Content consideration carried: courtship battle, pistol-shrimp stun clashes."
+      "resolution": "Mother and calf talk it out at whale volume. The calm through the chaos is what staying close looks like.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'talking it out' anchors to constant contact calls, not a conversation. Content consideration carried: courtship battle, pistol-shrimp stun clashes. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Earthsounds",
@@ -76,8 +76,8 @@
       "segment": null,
       "segment_title": "African Deserts",
       "story_lead": "The meerkat family's newest lookout spent six months learning their language, and now the graded alarms are hers to give. When the cobra comes, the family runs toward the snake together, on her word.",
-      "resolution": "The worry of a job this important ends in talking it out, warning-call style, and the pride of earning trust by doing it well is what the six months bought.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Coping anchor per dev set: 'talking it out' anchors to communicating danger clearly. Content consideration carried: cobra venom, eagle predation, burrow dash."
+      "resolution": "A job this important ends in talking it out, warning-call style, and the pride of earning trust by doing it well is what the six months bought.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Coping anchor per dev set: 'talking it out' anchors to communicating danger clearly. Content consideration carried: cobra venom, eagle predation, burrow dash. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Earthsounds",
@@ -86,8 +86,8 @@
       "segment": null,
       "segment_title": "Atlantic Coasts",
       "story_lead": "Where land meets sea, a rockhopper penguin climbs hundred-foot cliffs timed against crashing waves, looking for the mate she left six months ago. His rhythm, unique in the colony, is how she finds him.",
-      "resolution": "The nerves of a search in a noisy crowd settle into patience, and the happy reunion is what happens when you find your person by the sound of their voice.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Topics anchor per dev set: Music & dance fits the rhythm-of-their-song framing stated in the episode itself. Content consideration carried: 100-foot cliff climbs timed against crashing waves, orca hunts."
+      "resolution": "Nerves on a search in a noisy crowd settle into patience, and the happy reunion is what happens when you find your person by the sound of their voice.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Topics anchor per dev set: Music & dance fits the rhythm-of-their-song framing stated in the episode itself. Content consideration carried: 100-foot cliff climbs timed against crashing waves, orca hunts. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Earthsounds",
@@ -95,9 +95,9 @@
       "episode_number": "9",
       "segment": null,
       "segment_title": "Winter Woodlands",
-      "story_lead": "First winters are one long game of trial and error for a young fox, and this time the vole is outfoxing him. Every miss teaches the pounce, and a wolf pup who strays is found by his first howl.",
-      "resolution": "Every miss feeds the frustration, and trying again is what finally lands the pounce and the pride.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Coping anchor per dev set: 'trying again' is the episode's own framing. Content consideration carried: predation throughout, black bear near the pup."
+      "story_lead": "First winters are one long game of trial and error for a young fox. This time the vole is outfoxing him. Every miss teaches the pounce, and a wolf pup who strays is found by his first howl.",
+      "resolution": "Every miss feeds the frustration, and trying again is what finally wins the pounce. The pride comes with it.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. No controlled topic fits; left empty by design per dev set. Coping anchor per dev set: 'trying again' is the episode's own framing. Content consideration carried: predation throughout, black bear near the pup. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "Earthsounds",
@@ -126,8 +126,8 @@
       "segment": null,
       "segment_title": "Listening to Our Planet",
       "story_lead": "Scientists around the globe listen to the planet: to birdsong declining, to wildfire's approach, to whale songs on a 150-day mission. What they hear is a world they love in trouble, and they do something about it.",
-      "resolution": "The sadness of what the listening reveals settles into patience, the fifty-year-record kind, and the pride of acting on what you hear carries the episode's ending.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Age band edge call per dev set: wildfire destruction, species loss and a 'silent spring' push this above the 5-7 band, so 8-10 is judged. Emotion note per dev set: the recovery beat is really hope, which has no ratified term; 'proud' carries it and 'hope/hopeful' is flagged for vocabulary review. Coping anchor per dev set: 'patience' anchors to the 50-year listening record and the 150-day whale-song mission. Content consideration carried: 2017 Thomas Fire, bird-song decline, endangered parrots."
+      "resolution": "What the listening reveals is sad, and the answer is patience, the fifty-year-record kind, plus the pride of acting on what you hear.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Age band edge call per dev set: wildfire destruction, species loss and a 'silent spring' push this above the 5-7 band, so 8-10 is judged. Emotion note per dev set: the recovery beat is really hope, which has no ratified term; 'proud' carries it and 'hope/hopeful' is flagged for vocabulary review. Coping anchor per dev set: 'patience' anchors to the 50-year listening record and the 150-day whale-song mission. Content consideration carried: 2017 Thomas Fire, bird-song decline, endangered parrots. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Secret Lives of Animals",
@@ -146,8 +146,8 @@
       "segment": null,
       "segment_title": "Raising a Family",
       "story_lead": "A chimp mother crafts a termite fishing rod and fishes with patience. She shows her children time and again, just as her mother showed her.",
-      "resolution": "The pride of a skill passed down the generations is the story's engine, and patience is the tool: hers, and the lesson she keeps teaching.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'patience' anchors to the episode's own fishing-is-patience framing. Content consideration carried: eggs and fry heavily predated, only a handful of a million eggs surviving."
+      "resolution": "A skill passed down the generations is the story's engine. Patience is the tool: hers, and the lesson she keeps teaching.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'patience' anchors to the episode's own fishing-is-patience framing. Content consideration carried: eggs and fry heavily predated, only a handful of a million eggs surviving. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Secret Lives of Animals",
@@ -156,8 +156,8 @@
       "segment": null,
       "segment_title": "Protecting Yourself",
       "story_lead": "A glass frog packs away his blood cells and goes perfectly still while a parrot snake passes close enough to end him. Vanishing in plain sight is his armor.",
-      "resolution": "Deep breath and a steady body hold the fear, and the calm is what the stillness is for: avoiding a fight, the episode's own stated lesson.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'deep breath/calm-down' anchors to holding still under fear, flagged as the nearest listed value. Content consideration carried: parrot snake, leopard versus porcupine, octopus hiding in shells."
+      "resolution": "A deep breath and a steady body keep the fear down. The calm is what the stillness is for: avoiding a fight, the episode's own stated lesson.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'deep breath/calm-down' anchors to holding still under fear, flagged as the nearest listed value. Content consideration carried: parrot snake, leopard versus porcupine, octopus hiding in shells. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Secret Lives of Animals",
@@ -166,8 +166,8 @@
       "segment": null,
       "segment_title": "Home Making",
       "story_lead": "A baya weaver builds his nest for eleven days, with no cutting corners and extra reinforcement where the monsoon will hit. The storm is the test.",
-      "resolution": "The frustration of the slow, careful build settles into patience, and the pride of a home that survives the winds is what every unskipped corner earned.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'patience' anchors to the slow, careful build and the storm test. Content consideration carried: tiger leeches, nest-wrecking winds, sun bear bed as lighter secondary."
+      "resolution": "The slow, careful build turns into patience, and the pride of a home that survives the winds is what every unskipped corner earned.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'patience' anchors to the slow, careful build and the storm test. Content consideration carried: tiger leeches, nest-wrecking winds, sun bear bed as lighter secondary. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Secret Lives of Animals",
@@ -175,9 +175,9 @@
       "episode_number": "5",
       "segment": null,
       "segment_title": "Finding Food",
-      "story_lead": "A dolphin pod herds fish onto the mud and strands them, deliberately beaching to feed and wiggling back to the water. No dolphin could do it alone.",
-      "resolution": "The happiness of the shared catch meets asking for help, and hunting as one coordinated pod is where the pride lands.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Topics per dev set: Food & cooking was considered and rejected because wild foraging is not the kid-legible food-and-cooking frame. Content consideration carried: Portia the mantis hunting bees, dolphins beaching themselves deliberately, crow patience story as secondary."
+      "story_lead": "A dolphin pod herds fish onto the mud and strands them, deliberately beaching to feed, then wiggling back to the water. No dolphin could do it alone.",
+      "resolution": "Hunting as one coordinated pod brings the shared catch, and the pride is in doing it together.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Topics per dev set: Food & cooking was considered and rejected because wild foraging is not the kid-legible food-and-cooking frame. Content consideration carried: Portia the mantis hunting bees, dolphins beaching themselves deliberately, crow patience story as secondary. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Secret Lives of Animals",
@@ -186,8 +186,8 @@
       "segment": null,
       "segment_title": "The Art of Deception",
       "story_lead": "Burrowing owl chicks imitate a rattlesnake so perfectly that the badger backs off from their burrow. Their cleverest trick, not a fight, is the defense.",
-      "resolution": "The fear of the digging badger gets reframed into a distraction that works, and brave looks like a hiss in a chick's throat.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'reframing/distraction' anchors to the mimicry trick, following the Batch 3 sneak-male disguise precedent. Content consideration carried: predation pressure on caterpillars, money spider ballooning."
+      "resolution": "Fear of the digging badger becomes a distraction that works, and brave looks like a hiss in a chick's throat.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'reframing/distraction' anchors to the mimicry trick, following the Batch 3 sneak-male disguise precedent. Content consideration carried: predation pressure on caterpillars, money spider ballooning. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Secret Lives of Animals",
@@ -196,8 +196,8 @@
       "segment": null,
       "segment_title": "Making Friends",
       "story_lead": "A young capuchin, new to the troop, has no friends yet, and the guarded water hole is a dangerous place to be alone. Trust, the troop's nose-picking greeting included, is how his first friendship forms.",
-      "resolution": "The loneliness of being the new one ends in asking for help, and the happy part is having a friend at your back when the dominant monkeys crowd the water.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'asking for help' anchors to the trust gesture and teaming up. Content consideration carried: dominant monkeys guard the water, drongo's fake alarm calls, army-ant stings in the crew segment."
+      "resolution": "Being the new one ends in asking for help, and the happy part is having a friend at your back when the dominant monkeys crowd the water.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'asking for help' anchors to the trust gesture and teaming up. Content consideration carried: dominant monkeys guard the water, drongo's fake alarm calls, army-ant stings in the crew segment. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Secret Lives of Animals",
@@ -206,8 +206,8 @@
       "segment": null,
       "segment_title": "Finding a Partner",
       "story_lead": "On a California lake, a grebe searches six miles of water for the one who matches him. When she appears, he echoes her every move in a dance duet.",
-      "resolution": "The loneliness of the long search ends in trying again, and the happy ending is the duet itself, kept up until the match holds.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'trying again' anchors to the perseverance the episode names outright. Content consideration carried: whale courtship race, jumping-spider date where failure is fatal, framed lightly."
+      "resolution": "A long search ends in trying again, and the happy ending is the duet itself, kept up until the match is sure.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Coping anchor per dev set: 'trying again' anchors to the perseverance the episode names outright. Content consideration carried: whale courtship race, jumping-spider date where failure is fatal, framed lightly. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "The Secret Lives of Animals",
@@ -226,8 +226,8 @@
       "segment": null,
       "segment_title": "Growing Old",
       "story_lead": "An elder baboon loses his rank and retreats alone, his special spot gone. Working his way back into the troop's heart, this time as a gentle grandfather, is the slow road he takes.",
-      "resolution": "The sadness of the lost spot settles into patience, and the pride of a new way to belong is what the slow rebuild earned.",
-      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Age band edge call per dev set: the role-loss theme is mature but grandparent-legible, kept at 5-7; the wrasse sex-change segment is flagged as a content consideration for younger viewers. Content consideration carried: status challenge, dehydration, elephant matriarch's water dig as secondary mirror."
+      "resolution": "A lost spot turns into patience, and the pride of a new way to belong is what the slow rebuild earned.",
+      "evidence_note": "Script: dev set note reads 'Script tier: Gestdown subtitle transcript (narration), identity check passed against catalog title/synopsis'; confidence high. Age band edge call per dev set: the role-loss theme is mature but grandparent-legible, kept at 5-7; the wrasse sex-change segment is flagged as a content consideration for younger viewers. Content consideration carried: status challenge, dehydration, elephant matriarch's water dig as secondary mirror. Tail sweep fix-in-place 2026-11-19 (v2.1 + amended register): flagged sentence(s) re-crafted; tier unchanged."
     },
     {
       "series_title": "This Is America, Charlie Brown",
